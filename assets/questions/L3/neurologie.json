@@ -1,0 +1,27 @@
+{
+  "category": "Neurologie",
+  "questions": [
+    {
+      "question_text": "Quelle est la cause la plus fréquente d'AVC ischémique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'athérosclérose des artères cérébrales ou carotidiennes est la cause la plus fréquente d'AVC ischémique, par formation de caillots.",
+      "answers": [
+        {"text": "Hémorragie cérébrale", "is_correct": false},
+        {"text": "Athérosclérose", "is_correct": true},
+        {"text": "Infection virale", "is_correct": false},
+        {"text": "Traumatisme crânien", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quel est le signe classique de la maladie de Parkinson ?",
+      "difficulty": "Facile",
+      "explanation": "Le tremblement de repos est un signe cardinal de la maladie de Parkinson, souvent associé à une rigidité et une akinésie.",
+      "answers": [
+        {"text": "Paralysie faciale", "is_correct": false},
+        {"text": "Tremblement de repos", "is_correct": true},
+        {"text": "Perte de mémoire", "is_correct": false},
+        {"text": "Cécité", "is_correct": false}
+      ]
+    }
+  ]
+}

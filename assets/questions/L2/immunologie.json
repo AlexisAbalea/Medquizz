@@ -1,0 +1,27 @@
+{
+  "category": "Immunologie",
+  "questions": [
+    {
+      "question_text": "Quel type de cellule produit les anticorps ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes B, une fois activés, se différencient en plasmocytes qui produisent et sécrètent des anticorps spécifiques.",
+      "answers": [
+        {"text": "Les lymphocytes T", "is_correct": false},
+        {"text": "Les lymphocytes B", "is_correct": true},
+        {"text": "Les macrophages", "is_correct": false},
+        {"text": "Les neutrophiles", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des lymphocytes T cytotoxiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lymphocytes T cytotoxiques (CD8+) détruisent les cellules infectées par des virus ou les cellules cancéreuses en induisant leur apoptose.",
+      "answers": [
+        {"text": "Production d'anticorps", "is_correct": false},
+        {"text": "Destruction des cellules infectées", "is_correct": true},
+        {"text": "Phagocytose des bactéries", "is_correct": false},
+        {"text": "Régulation de la température", "is_correct": false}
+      ]
+    }
+  ]
+}

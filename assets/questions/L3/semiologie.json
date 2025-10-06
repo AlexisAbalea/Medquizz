@@ -1,0 +1,27 @@
+{
+  "category": "Sémiologie",
+  "questions": [
+    {
+      "question_text": "Qu'est-ce qu'un souffle cardiaque systolique ?",
+      "difficulty": "Moyen",
+      "explanation": "Un souffle systolique est un bruit anormal entendu pendant la contraction du cœur (systole). Il peut indiquer une sténose ou une régurgitation valvulaire.",
+      "answers": [
+        {"text": "Un bruit pendant la contraction du cœur", "is_correct": true},
+        {"text": "Un bruit pendant le remplissage du cœur", "is_correct": false},
+        {"text": "Un bruit continu", "is_correct": false},
+        {"text": "Un silence anormal", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Que signifie le signe de Babinski positif ?",
+      "difficulty": "Difficile",
+      "explanation": "Un signe de Babinski positif (extension du gros orteil et écartement des autres orteils lors de la stimulation plantaire) indique une atteinte du faisceau pyramidal.",
+      "answers": [
+        {"text": "Une atteinte du système nerveux périphérique", "is_correct": false},
+        {"text": "Une atteinte du faisceau pyramidal", "is_correct": true},
+        {"text": "Un réflexe normal chez l'adulte", "is_correct": false},
+        {"text": "Une paralysie faciale", "is_correct": false}
+      ]
+    }
+  ]
+}

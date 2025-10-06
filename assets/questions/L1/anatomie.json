@@ -1,0 +1,951 @@
+{
+  "category": "Anatomie",
+  "questions": [
+    {
+      "question_text": "Combien de vertèbres compose la colonne vertébrale humaine ?",
+      "difficulty": "Facile",
+      "explanation": "La colonne vertébrale est composée de 33 vertèbres : 7 cervicales, 12 thoraciques, 5 lombaires, 5 sacrées (fusionnées) et 4 coccygiennes (fusionnées).",
+      "answers": [
+        { "text": "24 vertèbres", "is_correct": false },
+        { "text": "26 vertèbres", "is_correct": false },
+        { "text": "33 vertèbres", "is_correct": true },
+        { "text": "40 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le plus grand os du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le fémur est l'os le plus long et le plus volumineux du corps humain. Il s'étend de la hanche au genou.",
+      "answers": [
+        { "text": "Le tibia", "is_correct": false },
+        { "text": "Le fémur", "is_correct": true },
+        { "text": "L'humérus", "is_correct": false },
+        { "text": "Le radius", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de chambres possède le cœur humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le cœur humain possède 4 chambres : 2 oreillettes (gauche et droite) et 2 ventricules (gauche et droit).",
+      "answers": [
+        { "text": "2 chambres", "is_correct": false },
+        { "text": "3 chambres", "is_correct": false },
+        { "text": "4 chambres", "is_correct": true },
+        { "text": "5 chambres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'os le plus long du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le fémur est l'os le plus long et le plus solide du corps humain. Il s'étend de la hanche au genou.",
+      "answers": [
+        { "text": "Le tibia", "is_correct": false },
+        { "text": "Le fémur", "is_correct": true },
+        { "text": "L'humérus", "is_correct": false },
+        { "text": "Le radius", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de paires de côtes possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'être humain possède 12 paires de côtes, soit 24 côtes au total. Les 7 premières paires sont vraies, les 3 suivantes sont fausses et les 2 dernières sont flottantes.",
+      "answers": [
+        { "text": "10 paires", "is_correct": false },
+        { "text": "12 paires", "is_correct": true },
+        { "text": "14 paires", "is_correct": false },
+        { "text": "11 paires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la plus petite articulation du corps humain ?",
+      "difficulty": "Moyen",
+      "explanation": "L'étrier (ou stapès) dans l'oreille moyenne est le plus petit os du corps humain et forme la plus petite articulation avec l'enclume.",
+      "answers": [
+        { "text": "L'articulation du poignet", "is_correct": false },
+        { "text": "L'articulation de l'étrier", "is_correct": true },
+        { "text": "L'articulation de l'orteil", "is_correct": false },
+        { "text": "L'articulation du doigt", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de cavités cardiaques possède le cœur humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le cœur humain possède 4 cavités : 2 oreillettes (droite et gauche) et 2 ventricules (droit et gauche).",
+      "answers": [
+        { "text": "2 cavités", "is_correct": false },
+        { "text": "3 cavités", "is_correct": false },
+        { "text": "4 cavités", "is_correct": true },
+        { "text": "5 cavités", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom du muscle principal de la respiration ?",
+      "difficulty": "Facile",
+      "explanation": "Le diaphragme est le muscle principal de la respiration. Il sépare la cavité thoracique de la cavité abdominale.",
+      "answers": [
+        { "text": "Le diaphragme", "is_correct": true },
+        { "text": "Les intercostaux", "is_correct": false },
+        { "text": "Le péricarde", "is_correct": false },
+        { "text": "Le sternum", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'os composent le crâne adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "Le crâne adulte est composé de 22 os : 8 os du neurocrâne et 14 os de la face (splanchnocrâne).",
+      "answers": [
+        { "text": "18 os", "is_correct": false },
+        { "text": "22 os", "is_correct": true },
+        { "text": "26 os", "is_correct": false },
+        { "text": "20 os", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est la plus grande du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'aorte est la plus grande artère du corps humain. Elle part du ventricule gauche du cœur et distribue le sang oxygéné à tout l'organisme.",
+      "answers": [
+        { "text": "L'artère fémorale", "is_correct": false },
+        { "text": "L'artère carotide", "is_correct": false },
+        { "text": "L'aorte", "is_correct": true },
+        { "text": "L'artère pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes possède le poumon droit ?",
+      "difficulty": "Moyen",
+      "explanation": "Le poumon droit possède 3 lobes (supérieur, moyen et inférieur), tandis que le poumon gauche n'en possède que 2 (supérieur et inférieur).",
+      "answers": [
+        { "text": "2 lobes", "is_correct": false },
+        { "text": "3 lobes", "is_correct": true },
+        { "text": "4 lobes", "is_correct": false },
+        { "text": "5 lobes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom de l'os du bras situé entre l'épaule et le coude ?",
+      "difficulty": "Facile",
+      "explanation": "L'humérus est l'os long du bras qui s'articule avec la scapula au niveau de l'épaule et avec le radius et l'ulna au niveau du coude.",
+      "answers": [
+        { "text": "Le radius", "is_correct": false },
+        { "text": "L'ulna", "is_correct": false },
+        { "text": "L'humérus", "is_correct": true },
+        { "text": "Le cubitus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de phalanges possède chaque doigt de la main (sauf le pouce) ?",
+      "difficulty": "Facile",
+      "explanation": "Chaque doigt (sauf le pouce) possède 3 phalanges : proximale, moyenne et distale. Le pouce n'en possède que 2.",
+      "answers": [
+        { "text": "2 phalanges", "is_correct": false },
+        { "text": "3 phalanges", "is_correct": true },
+        { "text": "4 phalanges", "is_correct": false },
+        { "text": "5 phalanges", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe produit la bile ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie produit la bile, qui est ensuite stockée dans la vésicule biliaire avant d'être libérée dans l'intestin grêle pour aider à la digestion des lipides.",
+      "answers": [
+        { "text": "La vésicule biliaire", "is_correct": false },
+        { "text": "Le pancréas", "is_correct": false },
+        { "text": "Le foie", "is_correct": true },
+        { "text": "L'estomac", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valve située entre l'oreillette gauche et le ventricule gauche ?",
+      "difficulty": "Moyen",
+      "explanation": "La valve mitrale (ou bicuspide) est située entre l'oreillette gauche et le ventricule gauche. Elle possède deux feuillets.",
+      "answers": [
+        { "text": "La valve tricuspide", "is_correct": false },
+        { "text": "La valve aortique", "is_correct": false },
+        { "text": "La valve mitrale", "is_correct": true },
+        { "text": "La valve pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres cervicales possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'être humain possède 7 vertèbres cervicales, numérotées de C1 à C7. C1 est l'atlas et C2 est l'axis.",
+      "answers": [
+        { "text": "5 vertèbres", "is_correct": false },
+        { "text": "7 vertèbres", "is_correct": true },
+        { "text": "9 vertèbres", "is_correct": false },
+        { "text": "12 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le plus grand organe du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "La peau est le plus grand organe du corps humain. Elle représente environ 16% du poids corporel et couvre une surface d'environ 2 m².",
+      "answers": [
+        { "text": "Le foie", "is_correct": false },
+        { "text": "La peau", "is_correct": true },
+        { "text": "L'intestin", "is_correct": false },
+        { "text": "Les poumons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'os composent l'oreille moyenne ?",
+      "difficulty": "Moyen",
+      "explanation": "L'oreille moyenne contient 3 osselets : le marteau (malleus), l'enclume (incus) et l'étrier (stapes). Ce sont les plus petits os du corps humain.",
+      "answers": [
+        { "text": "2 os", "is_correct": false },
+        { "text": "3 os", "is_correct": true },
+        { "text": "4 os", "is_correct": false },
+        { "text": "5 os", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom de la première vertèbre cervicale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'atlas (C1) est la première vertèbre cervicale. Elle supporte le crâne et permet les mouvements de flexion-extension de la tête.",
+      "answers": [
+        { "text": "L'axis", "is_correct": false },
+        { "text": "L'atlas", "is_correct": true },
+        { "text": "La C3", "is_correct": false },
+        { "text": "Le sacrum", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du système nerveux comprend le cerveau et la moelle épinière ?",
+      "difficulty": "Facile",
+      "explanation": "Le système nerveux central (SNC) comprend le cerveau et la moelle épinière, par opposition au système nerveux périphérique qui comprend les nerfs.",
+      "answers": [
+        { "text": "Le système nerveux périphérique", "is_correct": false },
+        { "text": "Le système nerveux central", "is_correct": true },
+        { "text": "Le système nerveux autonome", "is_correct": false },
+        { "text": "Le système nerveux somatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de métatarsiens possède chaque pied ?",
+      "difficulty": "Moyen",
+      "explanation": "Chaque pied possède 5 os métatarsiens, numérotés de 1 à 5 du côté médial (gros orteil) au côté latéral (petit orteil).",
+      "answers": [
+        { "text": "3 métatarsiens", "is_correct": false },
+        { "text": "4 métatarsiens", "is_correct": false },
+        { "text": "5 métatarsiens", "is_correct": true },
+        { "text": "6 métatarsiens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom du muscle situé à l'arrière de la cuisse ?",
+      "difficulty": "Moyen",
+      "explanation": "Les muscles ischio-jambiers (biceps fémoral, semi-tendineux, semi-membraneux) sont situés à l'arrière de la cuisse et permettent la flexion du genou.",
+      "answers": [
+        { "text": "Le quadriceps", "is_correct": false },
+        { "text": "Les ischio-jambiers", "is_correct": true },
+        { "text": "Les adducteurs", "is_correct": false },
+        { "text": "Le sartorius", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande est située à la base du cerveau et régule de nombreuses hormones ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypophyse (ou glande pituitaire) est située à la base du cerveau. Elle est considérée comme la glande maîtresse car elle régule de nombreuses autres glandes endocrines.",
+      "answers": [
+        { "text": "La thyroïde", "is_correct": false },
+        { "text": "L'hypophyse", "is_correct": true },
+        { "text": "La pinéale", "is_correct": false },
+        { "text": "Les surrénales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de dents permanentes possède un adulte ?",
+      "difficulty": "Facile",
+      "explanation": "Un adulte possède normalement 32 dents permanentes : 8 incisives, 4 canines, 8 prémolaires et 12 molaires (incluant les dents de sagesse).",
+      "answers": [
+        { "text": "28 dents", "is_correct": false },
+        { "text": "30 dents", "is_correct": false },
+        { "text": "32 dents", "is_correct": true },
+        { "text": "34 dents", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme la partie postérieure du crâne ?",
+      "difficulty": "Moyen",
+      "explanation": "L'os occipital forme la partie postérieure et inférieure du crâne. Il contient le foramen magnum par lequel passe la moelle épinière.",
+      "answers": [
+        { "text": "L'os frontal", "is_correct": false },
+        { "text": "L'os temporal", "is_correct": false },
+        { "text": "L'os occipital", "is_correct": true },
+        { "text": "L'os pariétal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des globules rouges ?",
+      "difficulty": "Facile",
+      "explanation": "Les globules rouges (érythrocytes) transportent l'oxygène des poumons vers les tissus et le dioxyde de carbone des tissus vers les poumons grâce à l'hémoglobine.",
+      "answers": [
+        { "text": "Défense immunitaire", "is_correct": false },
+        { "text": "Coagulation sanguine", "is_correct": false },
+        { "text": "Transport de l'oxygène", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet de hausser les épaules ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle trapèze permet de hausser, abaisser et rétracter les épaules. Il s'étend de la base du crâne aux vertèbres thoraciques et s'insère sur la clavicule et la scapula.",
+      "answers": [
+        { "text": "Le deltoïde", "is_correct": false },
+        { "text": "Le trapèze", "is_correct": true },
+        { "text": "Le grand pectoral", "is_correct": false },
+        { "text": "Le grand dorsal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de chambres possède l'estomac humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'estomac humain ne possède qu'une seule chambre, contrairement aux ruminants qui en possèdent quatre.",
+      "answers": [
+        { "text": "1 chambre", "is_correct": true },
+        { "text": "2 chambres", "is_correct": false },
+        { "text": "3 chambres", "is_correct": false },
+        { "text": "4 chambres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom du cartilage situé devant le larynx, plus proéminent chez l'homme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cartilage thyroïde, aussi appelé pomme d'Adam, est le plus grand cartilage du larynx. Il est généralement plus proéminent chez l'homme que chez la femme.",
+      "answers": [
+        { "text": "Le cartilage cricoïde", "is_correct": false },
+        { "text": "Le cartilage thyroïde", "is_correct": true },
+        { "text": "L'épiglotte", "is_correct": false },
+        { "text": "Le cartilage aryténoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'intestin relie l'estomac au gros intestin ?",
+      "difficulty": "Facile",
+      "explanation": "L'intestin grêle relie l'estomac au gros intestin (côlon). Il mesure environ 6 mètres de long et se divise en duodénum, jéjunum et iléon.",
+      "answers": [
+        { "text": "Le côlon", "is_correct": false },
+        { "text": "L'intestin grêle", "is_correct": true },
+        { "text": "Le rectum", "is_correct": false },
+        { "text": "L'appendice", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de paires de nerfs crâniens possède l'être humain ?",
+      "difficulty": "Moyen",
+      "explanation": "L'être humain possède 12 paires de nerfs crâniens qui émergent directement du cerveau et innervent principalement la tête et le cou.",
+      "answers": [
+        { "text": "10 paires", "is_correct": false },
+        { "text": "12 paires", "is_correct": true },
+        { "text": "14 paires", "is_correct": false },
+        { "text": "16 paires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom de l'os du talon ?",
+      "difficulty": "Facile",
+      "explanation": "Le calcanéus (ou calcanéum) est l'os du talon. C'est le plus grand os du tarse et il supporte le poids du corps lors de la marche.",
+      "answers": [
+        { "text": "Le talus", "is_correct": false },
+        { "text": "Le calcanéus", "is_correct": true },
+        { "text": "Le cuboïde", "is_correct": false },
+        { "text": "Le naviculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle membrane entoure les poumons ?",
+      "difficulty": "Moyen",
+      "explanation": "La plèvre est la membrane séreuse qui entoure chaque poumon. Elle comprend deux feuillets : la plèvre viscérale (accolée au poumon) et la plèvre pariétale (accolée à la paroi thoracique).",
+      "answers": [
+        { "text": "Le péricarde", "is_correct": false },
+        { "text": "Le péritoine", "is_correct": false },
+        { "text": "La plèvre", "is_correct": true },
+        { "text": "La dure-mère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments compose le sternum adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sternum adulte est composé de 3 parties : le manubrium (partie supérieure), le corps (partie moyenne) et le processus xiphoïde (partie inférieure).",
+      "answers": [
+        { "text": "2 segments", "is_correct": false },
+        { "text": "3 segments", "is_correct": true },
+        { "text": "4 segments", "is_correct": false },
+        { "text": "5 segments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme le mollet ?",
+      "difficulty": "Facile",
+      "explanation": "Le triceps sural (composé des gastrocnémiens et du soléaire) forme le mollet. Il se termine par le tendon d'Achille qui s'insère sur le calcanéus.",
+      "answers": [
+        { "text": "Le quadriceps", "is_correct": false },
+        { "text": "Le triceps sural", "is_correct": true },
+        { "text": "Le tibial antérieur", "is_correct": false },
+        { "text": "Le long péronier", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la plus grande glande du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie est la plus grande glande du corps humain. Il pèse environ 1,5 kg et assure plus de 500 fonctions métaboliques différentes.",
+      "answers": [
+        { "text": "Le pancréas", "is_correct": false },
+        { "text": "Le foie", "is_correct": true },
+        { "text": "La thyroïde", "is_correct": false },
+        { "text": "Les surrénales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf contrôle principalement les muscles de la mastication ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf trijumeau (V) est le nerf crânien qui contrôle les muscles de la mastication. Il possède aussi des fonctions sensitives pour la face.",
+      "answers": [
+        { "text": "Le nerf facial", "is_correct": false },
+        { "text": "Le nerf trijumeau", "is_correct": true },
+        { "text": "Le nerf glossopharyngien", "is_correct": false },
+        { "text": "Le nerf hypoglosse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres thoraciques possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'être humain possède 12 vertèbres thoraciques (T1 à T12), chacune s'articulant avec une paire de côtes.",
+      "answers": [
+        { "text": "10 vertèbres", "is_correct": false },
+        { "text": "12 vertèbres", "is_correct": true },
+        { "text": "14 vertèbres", "is_correct": false },
+        { "text": "7 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os relie la scapula au sternum ?",
+      "difficulty": "Facile",
+      "explanation": "La clavicule est l'os qui relie la scapula (omoplate) au sternum. Elle fait partie de la ceinture scapulaire.",
+      "answers": [
+        { "text": "L'humérus", "is_correct": false },
+        { "text": "La clavicule", "is_correct": true },
+        { "text": "Le radius", "is_correct": false },
+        { "text": "L'ulna", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du cerveau contrôle l'équilibre et la coordination ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cervelet est situé à l'arrière du cerveau, sous les hémisphères cérébraux. Il joue un rôle essentiel dans l'équilibre, la coordination et la motricité fine.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": true },
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "L'hypothalamus", "is_correct": false },
+        { "text": "Le tronc cérébral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres lombaires possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'être humain possède 5 vertèbres lombaires (L1 à L5). Ce sont les plus grandes et les plus robustes car elles supportent le poids du corps.",
+      "answers": [
+        { "text": "3 vertèbres", "is_correct": false },
+        { "text": "5 vertèbres", "is_correct": true },
+        { "text": "7 vertèbres", "is_correct": false },
+        { "text": "9 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom de la membrane qui entoure le cœur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le péricarde est la membrane séreuse qui entoure le cœur. Il se compose de deux feuillets : le péricarde viscéral (épicarde) et le péricarde pariétal.",
+      "answers": [
+        { "text": "La plèvre", "is_correct": false },
+        { "text": "Le péritoine", "is_correct": false },
+        { "text": "Le péricarde", "is_correct": true },
+        { "text": "L'endocarde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue principalement le cerveau ?",
+      "difficulty": "Moyen",
+      "explanation": "Les artères carotides internes et les artères vertébrales irriguent le cerveau. Elles forment le polygone de Willis à la base du cerveau.",
+      "answers": [
+        { "text": "L'artère carotide", "is_correct": true },
+        { "text": "L'artère fémorale", "is_correct": false },
+        { "text": "L'artère brachiale", "is_correct": false },
+        { "text": "L'artère mésentérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'os composent le carpe (poignet) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le carpe est composé de 8 os disposés sur deux rangées : scaphoïde, lunatum, triquetrum, pisiforme (rangée proximale) et trapèze, trapézoïde, capitatum, hamatum (rangée distale).",
+      "answers": [
+        { "text": "6 os", "is_correct": false },
+        { "text": "7 os", "is_correct": false },
+        { "text": "8 os", "is_correct": true },
+        { "text": "10 os", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale de la rate ?",
+      "difficulty": "Moyen",
+      "explanation": "La rate filtre le sang, élimine les vieux globules rouges, stocke les plaquettes et participe à la réponse immunitaire en produisant des lymphocytes.",
+      "answers": [
+        { "text": "Production de bile", "is_correct": false },
+        { "text": "Filtration du sang", "is_correct": true },
+        { "text": "Production d'insuline", "is_correct": false },
+        { "text": "Digestion des graisses", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments compose la moelle épinière ?",
+      "difficulty": "Difficile",
+      "explanation": "La moelle épinière comprend 31 segments : 8 cervicaux, 12 thoraciques, 5 lombaires, 5 sacrés et 1 coccygien. Chaque segment donne naissance à une paire de nerfs spinaux.",
+      "answers": [
+        { "text": "28 segments", "is_correct": false },
+        { "text": "31 segments", "is_correct": true },
+        { "text": "33 segments", "is_correct": false },
+        { "text": "35 segments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom de l'os du genou ?",
+      "difficulty": "Facile",
+      "explanation": "La patella (ou rotule) est l'os sésamoïde situé devant l'articulation du genou. Elle est intégrée dans le tendon du quadriceps.",
+      "answers": [
+        { "text": "Le fémur", "is_correct": false },
+        { "text": "Le tibia", "is_correct": false },
+        { "text": "La patella", "is_correct": true },
+        { "text": "La fibula", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'œil contient les photorécepteurs ?",
+      "difficulty": "Moyen",
+      "explanation": "La rétine contient les photorécepteurs (cônes et bâtonnets) qui transforment la lumière en signaux nerveux. Elle tapisse le fond de l'œil.",
+      "answers": [
+        { "text": "La cornée", "is_correct": false },
+        { "text": "Le cristallin", "is_correct": false },
+        { "text": "La rétine", "is_correct": true },
+        { "text": "L'iris", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de méninges protègent le système nerveux central ?",
+      "difficulty": "Facile",
+      "explanation": "Trois méninges protègent le système nerveux central : la dure-mère (externe), l'arachnoïde (moyenne) et la pie-mère (interne, accolée au tissu nerveux).",
+      "answers": [
+        { "text": "2 méninges", "is_correct": false },
+        { "text": "3 méninges", "is_correct": true },
+        { "text": "4 méninges", "is_correct": false },
+        { "text": "5 méninges", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'extension du genou ?",
+      "difficulty": "Facile",
+      "explanation": "Le quadriceps fémoral (composé de 4 chefs : droit fémoral, vaste médial, vaste latéral et vaste intermédiaire) est le muscle principal de l'extension du genou.",
+      "answers": [
+        { "text": "Les ischio-jambiers", "is_correct": false },
+        { "text": "Le quadriceps", "is_correct": true },
+        { "text": "Le triceps sural", "is_correct": false },
+        { "text": "Les adducteurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande régule le métabolisme basal ?",
+      "difficulty": "Moyen",
+      "explanation": "La glande thyroïde, située dans le cou, produit les hormones thyroïdiennes (T3 et T4) qui régulent le métabolisme basal de l'organisme.",
+      "answers": [
+        { "text": "L'hypophyse", "is_correct": false },
+        { "text": "La thyroïde", "is_correct": true },
+        { "text": "Les surrénales", "is_correct": false },
+        { "text": "Le pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom du conduit qui transporte l'urine du rein à la vessie ?",
+      "difficulty": "Facile",
+      "explanation": "L'uretère est le conduit qui transporte l'urine du bassinet du rein vers la vessie. Chaque rein possède un uretère.",
+      "answers": [
+        { "text": "L'urètre", "is_correct": false },
+        { "text": "L'uretère", "is_correct": true },
+        { "text": "Le néphron", "is_correct": false },
+        { "text": "Le calice", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes possède le foie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le foie possède classiquement 4 lobes : le lobe droit (le plus grand), le lobe gauche, le lobe carré et le lobe caudé.",
+      "answers": [
+        { "text": "2 lobes", "is_correct": false },
+        { "text": "3 lobes", "is_correct": false },
+        { "text": "4 lobes", "is_correct": true },
+        { "text": "5 lobes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os de l'avant-bras est du côté du pouce ?",
+      "difficulty": "Facile",
+      "explanation": "Le radius est l'os de l'avant-bras situé du côté du pouce (côté latéral). Il s'articule avec les os du carpe au poignet.",
+      "answers": [
+        { "text": "L'ulna", "is_correct": false },
+        { "text": "Le radius", "is_correct": true },
+        { "text": "L'humérus", "is_correct": false },
+        { "text": "Le cubitus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure relie les deux hémisphères cérébraux ?",
+      "difficulty": "Moyen",
+      "explanation": "Le corps calleux est la principale commissure qui relie les deux hémisphères cérébraux. Il est composé de millions de fibres nerveuses.",
+      "answers": [
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Le corps calleux", "is_correct": true },
+        { "text": "Le fornix", "is_correct": false },
+        { "text": "Le cervelet", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de paires de nerfs spinaux émergent de la moelle épinière ?",
+      "difficulty": "Moyen",
+      "explanation": "31 paires de nerfs spinaux émergent de la moelle épinière : 8 cervicales, 12 thoraciques, 5 lombaires, 5 sacrées et 1 coccygienne.",
+      "answers": [
+        { "text": "28 paires", "is_correct": false },
+        { "text": "30 paires", "is_correct": false },
+        { "text": "31 paires", "is_correct": true },
+        { "text": "33 paires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le muscle le plus puissant du corps humain ?",
+      "difficulty": "Moyen",
+      "explanation": "Le masséter, muscle de la mastication, est considéré comme le muscle le plus puissant du corps humain en termes de force relative à sa taille.",
+      "answers": [
+        { "text": "Le quadriceps", "is_correct": false },
+        { "text": "Le grand fessier", "is_correct": false },
+        { "text": "Le masséter", "is_correct": true },
+        { "text": "Le grand dorsal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du tube digestif absorbe principalement l'eau ?",
+      "difficulty": "Moyen",
+      "explanation": "Le côlon (gros intestin) est principalement responsable de l'absorption de l'eau et des électrolytes, transformant le chyme liquide en matières fécales solides.",
+      "answers": [
+        { "text": "L'estomac", "is_correct": false },
+        { "text": "L'intestin grêle", "is_correct": false },
+        { "text": "Le côlon", "is_correct": true },
+        { "text": "L'œsophage", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de doigts possèdent des phalanges distales sur une main ?",
+      "difficulty": "Facile",
+      "explanation": "Les 5 doigts de la main possèdent chacun une phalange distale (terminale), y compris le pouce qui n'a que 2 phalanges au total.",
+      "answers": [
+        { "text": "4 doigts", "is_correct": false },
+        { "text": "5 doigts", "is_correct": true },
+        { "text": "3 doigts", "is_correct": false },
+        { "text": "6 doigts", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf crânien est responsable de la vision ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf optique (II) est le nerf crânien responsable de la transmission des informations visuelles de la rétine au cerveau.",
+      "answers": [
+        { "text": "Le nerf oculomoteur", "is_correct": false },
+        { "text": "Le nerf optique", "is_correct": true },
+        { "text": "Le nerf facial", "is_correct": false },
+        { "text": "Le nerf trochléaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la plus grande articulation du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'articulation du genou est la plus grande et l'une des plus complexes du corps humain. C'est une articulation synoviale de type trochléenne.",
+      "answers": [
+        { "text": "L'articulation de la hanche", "is_correct": false },
+        { "text": "L'articulation du genou", "is_correct": true },
+        { "text": "L'articulation de l'épaule", "is_correct": false },
+        { "text": "L'articulation du coude", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est principalement produite par le pancréas pour réguler la glycémie ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuline est produite par les cellules bêta des îlots de Langerhans du pancréas. Elle diminue la glycémie en favorisant l'entrée du glucose dans les cellules.",
+      "answers": [
+        { "text": "Le glucagon", "is_correct": false },
+        { "text": "L'insuline", "is_correct": true },
+        { "text": "L'adrénaline", "is_correct": false },
+        { "text": "La somatostatine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'os composent le tarse (cheville et arrière-pied) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tarse est composé de 7 os : calcanéus, talus, naviculaire, cuboïde et les 3 os cunéiformes (médial, intermédiaire et latéral).",
+      "answers": [
+        { "text": "5 os", "is_correct": false },
+        { "text": "6 os", "is_correct": false },
+        { "text": "7 os", "is_correct": true },
+        { "text": "8 os", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme la paroi antérieure de l'aisselle ?",
+      "difficulty": "Moyen",
+      "explanation": "Le grand pectoral forme la paroi antérieure de l'aisselle (creux axillaire). Il permet l'adduction et la rotation interne du bras.",
+      "answers": [
+        { "text": "Le deltoïde", "is_correct": false },
+        { "text": "Le grand pectoral", "is_correct": true },
+        { "text": "Le grand dorsal", "is_correct": false },
+        { "text": "Le trapèze", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des plaquettes sanguines ?",
+      "difficulty": "Facile",
+      "explanation": "Les plaquettes (thrombocytes) jouent un rôle essentiel dans la coagulation sanguine et l'hémostase, permettant d'arrêter les hémorragies.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Défense immunitaire", "is_correct": false },
+        { "text": "Coagulation sanguine", "is_correct": true },
+        { "text": "Régulation hormonale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme le front ?",
+      "difficulty": "Facile",
+      "explanation": "L'os frontal forme le front et la partie supérieure des orbites. C'est un os impair du neurocrâne.",
+      "answers": [
+        { "text": "L'os pariétal", "is_correct": false },
+        { "text": "L'os frontal", "is_correct": true },
+        { "text": "L'os temporal", "is_correct": false },
+        { "text": "L'os sphénoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du néphron réalise la filtration du sang ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glomérule, situé dans le corpuscule rénal (capsule de Bowman), est le site de filtration du sang dans le néphron.",
+      "answers": [
+        { "text": "Le tube contourné proximal", "is_correct": false },
+        { "text": "L'anse de Henlé", "is_correct": false },
+        { "text": "Le glomérule", "is_correct": true },
+        { "text": "Le tube collecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de muscles extrinsèques contrôlent les mouvements de l'œil ?",
+      "difficulty": "Moyen",
+      "explanation": "Six muscles extrinsèques contrôlent les mouvements de chaque œil : 4 muscles droits (supérieur, inférieur, médial, latéral) et 2 muscles obliques (supérieur et inférieur).",
+      "answers": [
+        { "text": "4 muscles", "is_correct": false },
+        { "text": "5 muscles", "is_correct": false },
+        { "text": "6 muscles", "is_correct": true },
+        { "text": "8 muscles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de tissu compose les tendons ?",
+      "difficulty": "Moyen",
+      "explanation": "Les tendons sont composés de tissu conjonctif dense régulier, principalement de fibres de collagène orientées parallèlement pour résister à la tension.",
+      "answers": [
+        { "text": "Tissu musculaire", "is_correct": false },
+        { "text": "Tissu conjonctif dense", "is_correct": true },
+        { "text": "Tissu cartilagineux", "is_correct": false },
+        { "text": "Tissu osseux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure empêche les aliments d'entrer dans la trachée lors de la déglutition ?",
+      "difficulty": "Moyen",
+      "explanation": "L'épiglotte est un cartilage qui se rabat sur l'entrée du larynx pendant la déglutition pour empêcher les aliments d'entrer dans les voies respiratoires.",
+      "answers": [
+        { "text": "Le palais mou", "is_correct": false },
+        { "text": "L'épiglotte", "is_correct": true },
+        { "text": "La glotte", "is_correct": false },
+        { "text": "Le pharynx", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de sphincters possède l'œsophage ?",
+      "difficulty": "Moyen",
+      "explanation": "L'œsophage possède 2 sphincters : le sphincter œsophagien supérieur (entre le pharynx et l'œsophage) et le sphincter œsophagien inférieur (entre l'œsophage et l'estomac).",
+      "answers": [
+        { "text": "1 sphincter", "is_correct": false },
+        { "text": "2 sphincters", "is_correct": true },
+        { "text": "3 sphincters", "is_correct": false },
+        { "text": "4 sphincters", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom de l'os qui forme la partie inférieure et médiane de la face ?",
+      "difficulty": "Moyen",
+      "explanation": "La mandibule (ou os mandibulaire) est l'os mobile de la mâchoire inférieure. C'est le seul os mobile du crâne, permettant la mastication.",
+      "answers": [
+        { "text": "Le maxillaire", "is_correct": false },
+        { "text": "La mandibule", "is_correct": true },
+        { "text": "Le zygomatique", "is_correct": false },
+        { "text": "Le palatin", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du système nerveux contrôle les fonctions involontaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système nerveux autonome (ou végétatif) contrôle les fonctions involontaires comme la digestion, la fréquence cardiaque et la respiration. Il comprend les systèmes sympathique et parasympathique.",
+      "answers": [
+        { "text": "Le système nerveux somatique", "is_correct": false },
+        { "text": "Le système nerveux autonome", "is_correct": true },
+        { "text": "Le système nerveux central", "is_correct": false },
+        { "text": "Le système nerveux périphérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments compose le duodénum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le duodénum, première partie de l'intestin grêle, est divisé en 4 segments : supérieur (bulbe), descendant, horizontal et ascendant.",
+      "answers": [
+        { "text": "2 segments", "is_correct": false },
+        { "text": "3 segments", "is_correct": false },
+        { "text": "4 segments", "is_correct": true },
+        { "text": "5 segments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la rotation latérale de la cuisse ?",
+      "difficulty": "Difficile",
+      "explanation": "Les muscles rotateurs latéraux de la hanche incluent principalement le piriforme, l'obturateur interne et externe, les jumeaux et le carré fémoral.",
+      "answers": [
+        { "text": "Le grand fessier", "is_correct": false },
+        { "text": "Le piriforme", "is_correct": true },
+        { "text": "Le psoas-iliaque", "is_correct": false },
+        { "text": "Le tenseur du fascia lata", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle substance donne sa couleur rouge au sang ?",
+      "difficulty": "Facile",
+      "explanation": "L'hémoglobine, protéine contenant du fer présente dans les globules rouges, donne au sang sa couleur rouge et transporte l'oxygène.",
+      "answers": [
+        { "text": "La myoglobine", "is_correct": false },
+        { "text": "L'hémoglobine", "is_correct": true },
+        { "text": "Le plasma", "is_correct": false },
+        { "text": "La bilirubine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de parathyroïdes possède normalement l'être humain ?",
+      "difficulty": "Moyen",
+      "explanation": "L'être humain possède généralement 4 glandes parathyroïdes (2 supérieures et 2 inférieures) situées derrière la thyroïde. Elles régulent le calcium sanguin.",
+      "answers": [
+        { "text": "2 parathyroïdes", "is_correct": false },
+        { "text": "3 parathyroïdes", "is_correct": false },
+        { "text": "4 parathyroïdes", "is_correct": true },
+        { "text": "6 parathyroïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os de la jambe ne supporte pas de poids corporel ?",
+      "difficulty": "Moyen",
+      "explanation": "La fibula (ou péroné) est l'os latéral de la jambe qui ne participe pas directement au support du poids corporel, contrairement au tibia.",
+      "answers": [
+        { "text": "Le tibia", "is_correct": false },
+        { "text": "La fibula", "is_correct": true },
+        { "text": "Le fémur", "is_correct": false },
+        { "text": "Le talus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'oreille contient l'organe de l'équilibre ?",
+      "difficulty": "Moyen",
+      "explanation": "L'oreille interne contient le système vestibulaire (utricule, saccule et canaux semi-circulaires) qui assure l'équilibre et la perception de la position spatiale.",
+      "answers": [
+        { "text": "L'oreille externe", "is_correct": false },
+        { "text": "L'oreille moyenne", "is_correct": false },
+        { "text": "L'oreille interne", "is_correct": true },
+        { "text": "Le tympan", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de sinus paranasaux principaux possède l'être humain de chaque côté ?",
+      "difficulty": "Difficile",
+      "explanation": "Il existe 4 paires de sinus paranasaux : les sinus maxillaires, frontaux, ethmoïdaux et sphénoïdaux. Ils allègent le crâne et réchauffent l'air inspiré.",
+      "answers": [
+        { "text": "2 paires", "is_correct": false },
+        { "text": "3 paires", "is_correct": false },
+        { "text": "4 paires", "is_correct": true },
+        { "text": "5 paires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle diaphragme ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf phrénique (issu des racines C3, C4, C5) innerve le diaphragme. Une lésion de ce nerf peut paralyser le diaphragme et compromettre la respiration.",
+      "answers": [
+        { "text": "Le nerf vague", "is_correct": false },
+        { "text": "Le nerf phrénique", "is_correct": true },
+        { "text": "Le nerf intercostal", "is_correct": false },
+        { "text": "Le nerf accessoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle couche de la peau contient les mélanocytes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les mélanocytes, cellules produisant la mélanine (pigment de la peau), se trouvent dans la couche basale de l'épiderme.",
+      "answers": [
+        { "text": "Le derme", "is_correct": false },
+        { "text": "L'épiderme", "is_correct": true },
+        { "text": "L'hypoderme", "is_correct": false },
+        { "text": "La couche cornée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de cordes vocales possède le larynx ?",
+      "difficulty": "Facile",
+      "explanation": "Le larynx possède 4 cordes vocales : 2 cordes vocales vraies (ou cordes vocales inférieures) qui produisent la voix, et 2 cordes vocales fausses (ou cordes vocales supérieures).",
+      "answers": [
+        { "text": "2 cordes vocales", "is_correct": false },
+        { "text": "3 cordes vocales", "is_correct": false },
+        { "text": "4 cordes vocales", "is_correct": true },
+        { "text": "6 cordes vocales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet d'ouvrir la bouche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle ptérygoïdien latéral (externe) est le principal muscle permettant l'abaissement de la mandibule et donc l'ouverture de la bouche.",
+      "answers": [
+        { "text": "Le masséter", "is_correct": false },
+        { "text": "Le temporal", "is_correct": false },
+        { "text": "Le ptérygoïdien latéral", "is_correct": true },
+        { "text": "Le buccinateur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le myocarde ?",
+      "difficulty": "Moyen",
+      "explanation": "Les artères coronaires (droite et gauche) naissent de l'aorte et irriguent le muscle cardiaque (myocarde). Leur obstruction provoque l'infarctus du myocarde.",
+      "answers": [
+        { "text": "L'artère pulmonaire", "is_correct": false },
+        { "text": "L'artère coronaire", "is_correct": true },
+        { "text": "L'artère carotide", "is_correct": false },
+        { "text": "L'artère subclavière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de régions compose l'abdomen selon la division en 9 quadrants ?",
+      "difficulty": "Moyen",
+      "explanation": "L'abdomen est classiquement divisé en 9 régions : hypochondre droit et gauche, épigastre, flanc droit et gauche, région ombilicale, fosse iliaque droite et gauche, hypogastre.",
+      "answers": [
+        { "text": "6 régions", "is_correct": false },
+        { "text": "9 régions", "is_correct": true },
+        { "text": "12 régions", "is_correct": false },
+        { "text": "4 régions", "is_correct": false }
+      ]
+    }
+  ]
+}

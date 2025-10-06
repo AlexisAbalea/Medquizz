@@ -1,0 +1,27 @@
+{
+  "category": "Physiologie",
+  "questions": [
+    {
+      "question_text": "Quel est le rôle principal des globules rouges ?",
+      "difficulty": "Facile",
+      "explanation": "Les globules rouges (érythrocytes) transportent l'oxygène des poumons vers les tissus et le dioxyde de carbone des tissus vers les poumons grâce à l'hémoglobine.",
+      "answers": [
+        {"text": "Défense immunitaire", "is_correct": false},
+        {"text": "Transport de l'oxygène", "is_correct": true},
+        {"text": "Coagulation sanguine", "is_correct": false},
+        {"text": "Production d'hormones", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence cardiaque normale au repos pour un adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "La fréquence cardiaque normale au repos pour un adulte se situe entre 60 et 100 battements par minute (bpm). Les athlètes peuvent avoir une fréquence plus basse.",
+      "answers": [
+        {"text": "40-50 bpm", "is_correct": false},
+        {"text": "60-100 bpm", "is_correct": true},
+        {"text": "100-120 bpm", "is_correct": false},
+        {"text": "120-140 bpm", "is_correct": false}
+      ]
+    }
+  ]
+}

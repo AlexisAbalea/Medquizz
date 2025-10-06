@@ -1,0 +1,27 @@
+{
+  "category": "Pharmacologie",
+  "questions": [
+    {
+      "question_text": "Quelle est la voie d'administration la plus rapide pour un médicament ?",
+      "difficulty": "Moyen",
+      "explanation": "La voie intraveineuse (IV) est la plus rapide car le médicament est directement injecté dans la circulation sanguine, sans passer par l'absorption.",
+      "answers": [
+        {"text": "Voie orale", "is_correct": false},
+        {"text": "Voie intraveineuse", "is_correct": true},
+        {"text": "Voie intramusculaire", "is_correct": false},
+        {"text": "Voie cutanée", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un médicament antagoniste ?",
+      "difficulty": "Difficile",
+      "explanation": "Un antagoniste est un médicament qui se lie à un récepteur sans l'activer, bloquant ainsi l'action de l'agoniste (la molécule qui active normalement le récepteur).",
+      "answers": [
+        {"text": "Un médicament qui active un récepteur", "is_correct": false},
+        {"text": "Un médicament qui bloque un récepteur", "is_correct": true},
+        {"text": "Un médicament qui détruit un récepteur", "is_correct": false},
+        {"text": "Un médicament qui augmente le nombre de récepteurs", "is_correct": false}
+      ]
+    }
+  ]
+}

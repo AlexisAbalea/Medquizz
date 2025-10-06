@@ -1,0 +1,27 @@
+{
+  "category": "Radiologie",
+  "questions": [
+    {
+      "question_text": "Quel examen radiologique permet de visualiser les tissus mous ?",
+      "difficulty": "Facile",
+      "explanation": "L'IRM (Imagerie par Résonance Magnétique) offre un excellent contraste pour les tissus mous, contrairement à la radiographie standard.",
+      "answers": [
+        {"text": "Radiographie standard", "is_correct": false},
+        {"text": "IRM", "is_correct": true},
+        {"text": "Échographie uniquement", "is_correct": false},
+        {"text": "Scintigraphie", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de l'IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "Les dispositifs métalliques ferromagnétiques (pacemaker, clips vasculaires) sont une contre-indication absolue de l'IRM en raison du champ magnétique puissant.",
+      "answers": [
+        {"text": "Grossesse", "is_correct": false},
+        {"text": "Présence de dispositifs métalliques ferromagnétiques", "is_correct": true},
+        {"text": "Diabète", "is_correct": false},
+        {"text": "Âge avancé", "is_correct": false}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "category": "Microbiologie",
+  "questions": [
+    {
+      "question_text": "Quelle est la principale différence entre bactéries Gram+ et Gram- ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bactéries Gram+ ont une paroi cellulaire épaisse de peptidoglycane qui retient le colorant violet, tandis que les Gram- ont une paroi fine et une membrane externe.",
+      "answers": [
+        {"text": "L'épaisseur de la paroi cellulaire", "is_correct": true},
+        {"text": "La présence d'ADN", "is_correct": false},
+        {"text": "Le nombre de flagelles", "is_correct": false},
+        {"text": "La taille de la bactérie", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quel micro-organisme cause le paludisme ?",
+      "difficulty": "Facile",
+      "explanation": "Le paludisme est causé par des parasites du genre Plasmodium, transmis par les piqûres de moustiques Anopheles femelles.",
+      "answers": [
+        {"text": "Un virus", "is_correct": false},
+        {"text": "Une bactérie", "is_correct": false},
+        {"text": "Un parasite", "is_correct": true},
+        {"text": "Un champignon", "is_correct": false}
+      ]
+    }
+  ]
+}

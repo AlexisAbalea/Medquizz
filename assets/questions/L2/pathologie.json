@@ -1,0 +1,27 @@
+{
+  "category": "Pathologie",
+  "questions": [
+    {
+      "question_text": "Qu'est-ce qu'une maladie auto-immune ?",
+      "difficulty": "Moyen",
+      "explanation": "Une maladie auto-immune survient lorsque le système immunitaire attaque par erreur les propres cellules et tissus de l'organisme.",
+      "answers": [
+        {"text": "Une infection virale", "is_correct": false},
+        {"text": "Une attaque du système immunitaire contre ses propres cellules", "is_correct": true},
+        {"text": "Une carence en vitamines", "is_correct": false},
+        {"text": "Une mutation génétique", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quel est le principal facteur de risque de l'athérosclérose ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypercholestérolémie (taux élevé de cholestérol) est un facteur de risque majeur de l'athérosclérose, avec le tabagisme, l'hypertension et le diabète.",
+      "answers": [
+        {"text": "L'hypercholestérolémie", "is_correct": true},
+        {"text": "L'anémie", "is_correct": false},
+        {"text": "La déshydratation", "is_correct": false},
+        {"text": "L'hypoglycémie", "is_correct": false}
+      ]
+    }
+  ]
+}

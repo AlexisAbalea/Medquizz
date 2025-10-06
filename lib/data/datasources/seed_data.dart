@@ -1,3 +1,5 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
 import 'package:medquizz_pass/data/datasources/database_helper.dart';
 
 class SeedData {
@@ -13,8 +15,8 @@ class SeedData {
     // Insérer les catégories
     await _insertCategories(db);
 
-    // Insérer les questions et réponses
-    await _insertQuestionsAndAnswers(db);
+    // Insérer les questions depuis les fichiers JSON
+    await _insertQuestionsFromJson(db);
   }
 
   static Future<void> _insertCategories(DatabaseHelper db) async {
@@ -783,6 +785,82 @@ class SeedData {
         'answer_text': answer['text'],
         'is_correct': answer['isCorrect'] ? 1 : 0,
       });
+    }
+  }
+
+  // Nouvelle méthode pour charger les questions depuis les fichiers JSON
+  static Future<void> _insertQuestionsFromJson(DatabaseHelper db) async {
+    // Définir les fichiers JSON par niveau et par matière
+    final Map<String, List<String>> jsonFilesByLevel = {
+      'L1': [
+        'assets/questions/L1/anatomie.json',
+        'assets/questions/L1/physiologie.json',
+        'assets/questions/L1/biochimie.json',
+        'assets/questions/L1/biologie_cellulaire.json',
+      ],
+      'L2': [
+        'assets/questions/L2/pharmacologie.json',
+        'assets/questions/L2/pathologie.json',
+        'assets/questions/L2/immunologie.json',
+        'assets/questions/L2/microbiologie.json',
+      ],
+      'L3': [
+        'assets/questions/L3/semiologie.json',
+        'assets/questions/L3/cardiologie.json',
+        'assets/questions/L3/neurologie.json',
+        'assets/questions/L3/radiologie.json',
+      ],
+    };
+
+    // Récupérer toutes les catégories pour mapper les noms aux IDs
+    final categoriesData = await db.queryAll('categories');
+    final Map<String, int> categoryNameToId = {};
+    for (var cat in categoriesData) {
+      categoryNameToId[cat['name']] = cat['id'] as int;
+    }
+
+    // Parcourir chaque niveau
+    for (final yearLevel in jsonFilesByLevel.keys) {
+      final files = jsonFilesByLevel[yearLevel]!;
+
+      // Charger chaque fichier de matière
+      for (final filePath in files) {
+        try {
+          // Charger le fichier JSON
+          final String jsonString = await rootBundle.loadString(filePath);
+          final Map<String, dynamic> jsonData = json.decode(jsonString);
+
+          final String categoryName = jsonData['category'] as String;
+          final List<dynamic> questions = jsonData['questions'];
+
+          final categoryId = categoryNameToId[categoryName];
+
+          if (categoryId == null) {
+            print('Warning: Category "$categoryName" not found in file $filePath, skipping');
+            continue;
+          }
+
+          // Insérer chaque question
+          for (var questionData in questions) {
+            await _insertQuestion(
+              db,
+              categoryId: categoryId,
+              yearLevel: yearLevel,
+              questionText: questionData['question_text'],
+              difficulty: questionData['difficulty'],
+              explanation: questionData['explanation'],
+              answers: (questionData['answers'] as List).map((a) => {
+                'text': a['text'],
+                'isCorrect': a['is_correct'],
+              }).toList(),
+            );
+          }
+
+          print('Loaded ${questions.length} questions from $filePath');
+        } catch (e) {
+          print('Error loading questions from $filePath: $e');
+        }
+      }
     }
   }
 }

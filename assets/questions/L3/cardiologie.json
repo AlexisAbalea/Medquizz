@@ -1,0 +1,27 @@
+{
+  "category": "Cardiologie",
+  "questions": [
+    {
+      "question_text": "Quelle est la principale complication de l'infarctus du myocarde ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance cardiaque est une complication fréquente et grave de l'infarctus, car le muscle cardiaque nécrosé ne peut plus se contracter efficacement.",
+      "answers": [
+        {"text": "L'hypertension", "is_correct": false},
+        {"text": "L'insuffisance cardiaque", "is_correct": true},
+        {"text": "L'anémie", "is_correct": false},
+        {"text": "Le diabète", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement d'urgence de l'arrêt cardiaque ?",
+      "difficulty": "Facile",
+      "explanation": "Le massage cardiaque externe (RCP) associé à la défibrillation précoce sont les éléments clés de la prise en charge d'un arrêt cardiaque.",
+      "answers": [
+        {"text": "Antibiotiques", "is_correct": false},
+        {"text": "Massage cardiaque et défibrillation", "is_correct": true},
+        {"text": "Repos au lit", "is_correct": false},
+        {"text": "Oxygénothérapie seule", "is_correct": false}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "category": "Biologie Cellulaire",
+  "questions": [
+    {
+      "question_text": "Quel organite est responsable de la production d'énergie dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "Les mitochondries sont les centrales énergétiques de la cellule. Elles produisent de l'ATP par respiration cellulaire.",
+      "answers": [
+        {"text": "Le noyau", "is_correct": false},
+        {"text": "Les mitochondries", "is_correct": true},
+        {"text": "Le réticulum endoplasmique", "is_correct": false},
+        {"text": "L'appareil de Golgi", "is_correct": false}
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale du noyau cellulaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le noyau contient l'ADN et contrôle les activités cellulaires en régulant l'expression des gènes.",
+      "answers": [
+        {"text": "Production d'énergie", "is_correct": false},
+        {"text": "Stockage de l'information génétique", "is_correct": true},
+        {"text": "Digestion des nutriments", "is_correct": false},
+        {"text": "Transport des protéines", "is_correct": false}
+      ]
+    }
+  ]
+}

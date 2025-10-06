@@ -1,0 +1,2286 @@
+{
+  "category": "Biochimie",
+  "questions": [
+    {
+      "question_text": "Quel est le pH normal du sang humain ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pH sanguin normal est légèrement alcalin, compris entre 7,35 et 7,45. Le corps maintient ce pH de manière très stricte.",
+      "answers": [
+        { "text": "6,5 - 7,0", "is_correct": false },
+        { "text": "7,35 - 7,45", "is_correct": true },
+        { "text": "7,5 - 8,0", "is_correct": false },
+        { "text": "8,0 - 8,5", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est la principale source d'énergie cellulaire ?",
+      "difficulty": "Facile",
+      "explanation": "L'ATP (adénosine triphosphate) est la principale molécule de stockage et de transfert d'énergie dans les cellules.",
+      "answers": [
+        { "text": "ADN", "is_correct": false },
+        { "text": "ARN", "is_correct": false },
+        { "text": "ATP", "is_correct": true },
+        { "text": "Glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des enzymes dans les réactions biochimiques ?",
+      "difficulty": "Facile",
+      "explanation": "Les enzymes accélèrent les réactions chimiques en abaissant l'énergie d'activation nécessaire.",
+      "answers": [
+        {
+          "text": "Elles augmentent la température de la réaction",
+          "is_correct": false
+        },
+        {
+          "text": "Elles abaissent l'énergie d'activation",
+          "is_correct": true
+        },
+        { "text": "Elles changent le pH du milieu", "is_correct": false },
+        { "text": "Elles consomment les substrats", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de base des protéines ?",
+      "difficulty": "Facile",
+      "explanation": "Les acides aminés sont les briques élémentaires qui composent les protéines.",
+      "answers": [
+        { "text": "Les acides nucléiques", "is_correct": false },
+        { "text": "Les acides aminés", "is_correct": true },
+        { "text": "Les monosaccharides", "is_correct": false },
+        { "text": "Les acides gras", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'acides aminés standards composent les protéines chez l'humain ?",
+      "difficulty": "Facile",
+      "explanation": "Il existe 20 acides aminés standards utilisés pour la synthèse des protéines.",
+      "answers": [
+        { "text": "10", "is_correct": false },
+        { "text": "20", "is_correct": true },
+        { "text": "22", "is_correct": false },
+        { "text": "18", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison unit deux acides aminés dans une protéine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les acides aminés sont reliés entre eux par des liaisons peptidiques formées entre le groupement carboxyle et l'amine.",
+      "answers": [
+        { "text": "Liaison ionique", "is_correct": false },
+        { "text": "Liaison hydrogène", "is_correct": false },
+        { "text": "Liaison peptidique", "is_correct": true },
+        { "text": "Liaison disulfure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale source d'énergie des cellules ?",
+      "difficulty": "Facile",
+      "explanation": "Le glucose est la molécule la plus utilisée par les cellules pour produire de l'énergie sous forme d'ATP.",
+      "answers": [
+        { "text": "L'oxygène", "is_correct": false },
+        { "text": "Le glucose", "is_correct": true },
+        { "text": "L'azote", "is_correct": false },
+        { "text": "Le dioxyde de carbone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la forme principale de stockage du glucose chez l'homme ?",
+      "difficulty": "Facile",
+      "explanation": "Le glycogène est la forme de réserve du glucose, stocké dans le foie et les muscles.",
+      "answers": [
+        { "text": "Amidon", "is_correct": false },
+        { "text": "Glycogène", "is_correct": true },
+        { "text": "Cellulose", "is_correct": false },
+        { "text": "Saccharose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte l'oxygène dans le sang ?",
+      "difficulty": "Facile",
+      "explanation": "L'hémoglobine, une protéine des globules rouges, transporte l'oxygène des poumons vers les tissus.",
+      "answers": [
+        { "text": "L'albumine", "is_correct": false },
+        { "text": "La myoglobine", "is_correct": false },
+        { "text": "L'hémoglobine", "is_correct": true },
+        { "text": "La transferrine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion métallique est au centre de l'hémoglobine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'atome de fer (Fe²⁺) est au centre du groupement hème, permettant la fixation de l'oxygène.",
+      "answers": [
+        { "text": "Magnésium", "is_correct": false },
+        { "text": "Fer", "is_correct": true },
+        { "text": "Calcium", "is_correct": false },
+        { "text": "Zinc", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la base azotée complémentaire de l'adénine dans l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Dans l'ADN, l'adénine s'apparie toujours avec la thymine par deux liaisons hydrogène.",
+      "answers": [
+        { "text": "Cytosine", "is_correct": false },
+        { "text": "Uracile", "is_correct": false },
+        { "text": "Thymine", "is_correct": true },
+        { "text": "Guanine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre l'ARN et l'ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ARN contient du ribose et de l'uracile, tandis que l'ADN contient du désoxyribose et de la thymine.",
+      "answers": [
+        { "text": "L'ARN contient du désoxyribose", "is_correct": false },
+        { "text": "L'ARN contient de l'uracile", "is_correct": true },
+        { "text": "L'ARN est double brin", "is_correct": false },
+        { "text": "L'ADN contient du ribose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ATP ?",
+      "difficulty": "Facile",
+      "explanation": "L'ATP est la principale molécule énergétique des cellules, utilisée pour de nombreuses réactions métaboliques.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Stocker de l'énergie utilisable", "is_correct": true },
+        { "text": "Former des protéines", "is_correct": false },
+        { "text": "Réguler le pH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Dans quelle organite cellulaire se déroule la glycolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycolyse a lieu dans le cytoplasme, où le glucose est converti en pyruvate.",
+      "answers": [
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Cytoplasme", "is_correct": true },
+        { "text": "Noyau", "is_correct": false },
+        { "text": "Réticulum endoplasmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est le principal produit final de la glycolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycolyse transforme une molécule de glucose en deux molécules de pyruvate.",
+      "answers": [
+        { "text": "Acétyl-CoA", "is_correct": false },
+        { "text": "Pyruvate", "is_correct": true },
+        { "text": "Lactate", "is_correct": false },
+        { "text": "CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est essentielle à la synthèse du coenzyme NAD⁺ ?",
+      "difficulty": "Difficile",
+      "explanation": "La niacine (vitamine B3) est le précurseur du NAD⁺, un cofacteur clé dans les réactions d'oxydoréduction.",
+      "answers": [
+        { "text": "Vitamine B1", "is_correct": false },
+        { "text": "Vitamine B3", "is_correct": true },
+        { "text": "Vitamine B6", "is_correct": false },
+        { "text": "Vitamine C", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cycle de Krebs ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cycle de Krebs oxyde l'acétyl-CoA pour produire de l'énergie sous forme de NADH, FADH₂ et GTP.",
+      "answers": [
+        { "text": "Synthèse des protéines", "is_correct": false },
+        { "text": "Production d'énergie", "is_correct": true },
+        { "text": "Stockage du glucose", "is_correct": false },
+        { "text": "Production d'acides aminés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Où se déroule le cycle de Krebs ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cycle de Krebs se déroule dans la matrice mitochondriale.",
+      "answers": [
+        { "text": "Cytoplasme", "is_correct": false },
+        { "text": "Noyau", "is_correct": false },
+        { "text": "Matrice mitochondriale", "is_correct": true },
+        { "text": "Réticulum endoplasmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NADH dans la respiration cellulaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le NADH transporte des électrons vers la chaîne respiratoire pour produire de l'ATP.",
+      "answers": [
+        { "text": "Stocker le glucose", "is_correct": false },
+        { "text": "Transporter des électrons", "is_correct": true },
+        { "text": "Fixer l'oxygène", "is_correct": false },
+        { "text": "Catalyser les réactions enzymatiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme dégrade l'amidon dans la salive ?",
+      "difficulty": "Facile",
+      "explanation": "L'amylase salivaire hydrolyse les liaisons α(1→4) de l'amidon en maltose.",
+      "answers": [
+        { "text": "Lipase", "is_correct": false },
+        { "text": "Amylase", "is_correct": true },
+        { "text": "Pepsine", "is_correct": false },
+        { "text": "Trypsine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison stabilise la structure secondaire des protéines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les liaisons hydrogène entre les groupements CO et NH stabilisent les structures secondaires comme les hélices α et feuillets β.",
+      "answers": [
+        { "text": "Liaison peptidique", "is_correct": false },
+        { "text": "Liaison hydrogène", "is_correct": true },
+        { "text": "Liaison disulfure", "is_correct": false },
+        { "text": "Liaison ionique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la base azotée exclusive à l'ARN ?",
+      "difficulty": "Facile",
+      "explanation": "L'uracile remplace la thymine dans l'ARN.",
+      "answers": [
+        { "text": "Thymine", "is_correct": false },
+        { "text": "Uracile", "is_correct": true },
+        { "text": "Adénine", "is_correct": false },
+        { "text": "Guanine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du ribosome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ribosome est le site de la traduction, où les acides aminés sont assemblés en protéines selon le code génétique.",
+      "answers": [
+        { "text": "Synthèse de l'ADN", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": true },
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Dégradation du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal constituant chimique des membranes biologiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les membranes sont principalement constituées de phospholipides formant une bicouche.",
+      "answers": [
+        { "text": "Protéines", "is_correct": false },
+        { "text": "Phospholipides", "is_correct": true },
+        { "text": "Glucides", "is_correct": false },
+        { "text": "Cholestérol uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale du cholestérol dans la membrane cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cholestérol régule la fluidité de la membrane et stabilise sa structure.",
+      "answers": [
+        { "text": "Donner de l'énergie", "is_correct": false },
+        { "text": "Rendre la membrane rigide et stable", "is_correct": true },
+        { "text": "Servir de récepteur hormonal", "is_correct": false },
+        { "text": "Transporter des ions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des coenzymes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les coenzymes sont des molécules non protéiques qui participent à l'activité enzymatique en transportant des électrons ou des groupements chimiques.",
+      "answers": [
+        { "text": "Stabiliser les membranes", "is_correct": false },
+        { "text": "Participer aux réactions enzymatiques", "is_correct": true },
+        { "text": "Réguler le pH", "is_correct": false },
+        { "text": "Servir de substrats", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale différence entre une réaction exergonique et endergonique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les réactions exergoniques libèrent de l'énergie, tandis que les endergoniques en consomment.",
+      "answers": [
+        { "text": "Exergonique = consomme de l'énergie", "is_correct": false },
+        { "text": "Exergonique = libère de l'énergie", "is_correct": true },
+        { "text": "Endergonique = libère de l'énergie", "is_correct": false },
+        { "text": "Les deux libèrent de l'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des lipides ?",
+      "difficulty": "Facile",
+      "explanation": "Les lipides servent de réserve énergétique et participent à la structure des membranes cellulaires.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Stocker de l'énergie", "is_correct": true },
+        { "text": "Former l'ADN", "is_correct": false },
+        { "text": "Réguler le pH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la conversion du pyruvate en lactate ?",
+      "difficulty": "Difficile",
+      "explanation": "La lactate déshydrogénase catalyse la réduction du pyruvate en lactate en conditions anaérobies.",
+      "answers": [
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Lactate déshydrogénase", "is_correct": true },
+        { "text": "Pyruvate kinase", "is_correct": false },
+        { "text": "Hexokinase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'insuline dans le métabolisme glucidique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuline favorise l'entrée du glucose dans les cellules et stimule la glycogénèse.",
+      "answers": [
+        { "text": "Augmenter la glycémie", "is_correct": false },
+        { "text": "Diminuer la glycémie", "is_correct": true },
+        { "text": "Produire du glucose", "is_correct": false },
+        { "text": "Inhiber la glycolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du foie dans le métabolisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le foie régule la glycémie, synthétise le glycogène et détoxifie l'organisme.",
+      "answers": [
+        { "text": "Produire l'insuline", "is_correct": false },
+        { "text": "Réguler le métabolisme énergétique", "is_correct": true },
+        { "text": "Stocker les globules rouges", "is_correct": false },
+        { "text": "Dégrader l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal produit final de la chaîne respiratoire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les électrons, après passage dans la chaîne, réduisent l'oxygène en eau.",
+      "answers": [
+        { "text": "CO₂", "is_correct": false },
+        { "text": "Eau", "is_correct": true },
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Pyruvate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des vitamines hydrosolubles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les vitamines hydrosolubles (B et C) jouent souvent un rôle de cofacteurs enzymatiques.",
+      "answers": [
+        { "text": "Former les membranes", "is_correct": false },
+        { "text": "Servir de cofacteurs enzymatiques", "is_correct": true },
+        { "text": "Stocker de l'énergie", "is_correct": false },
+        { "text": "Transporter l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des enzymes oxydoréductases ?",
+      "difficulty": "Moyen",
+      "explanation": "Les oxydoréductases catalysent les réactions d'oxydo-réduction en transférant des électrons entre molécules.",
+      "answers": [
+        {
+          "text": "Transférer des groupements phosphates",
+          "is_correct": false
+        },
+        { "text": "Transférer des électrons", "is_correct": true },
+        { "text": "Casser les liaisons peptidiques", "is_correct": false },
+        { "text": "Former des liaisons hydrogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la forme réduite du NAD⁺ ?",
+      "difficulty": "Facile",
+      "explanation": "Lorsque le NAD⁺ accepte des électrons, il devient NADH, sa forme réduite.",
+      "answers": [
+        { "text": "NADP⁺", "is_correct": false },
+        { "text": "NADH", "is_correct": true },
+        { "text": "ATP", "is_correct": false },
+        { "text": "FAD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la catalase dans la cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "La catalase décompose le peroxyde d'hydrogène (H₂O₂) en eau et dioxygène, protégeant la cellule contre le stress oxydatif.",
+      "answers": [
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Décomposer le peroxyde d'hydrogène", "is_correct": true },
+        { "text": "Synthétiser le glucose", "is_correct": false },
+        { "text": "Réparer l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de macromolécule est principalement responsable du stockage de l'information génétique ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADN stocke l'information génétique sous forme de séquences de bases azotées.",
+      "answers": [
+        { "text": "Protéines", "is_correct": false },
+        { "text": "Glucides", "is_correct": false },
+        { "text": "ADN", "is_correct": true },
+        { "text": "Lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le sucre présent dans l'ARN ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARN contient du ribose, un sucre à cinq carbones.",
+      "answers": [
+        { "text": "Désoxyribose", "is_correct": false },
+        { "text": "Ribose", "is_correct": true },
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Fructose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du FADH₂ dans la respiration cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le FADH₂ transporte des électrons vers la chaîne respiratoire pour produire de l'ATP.",
+      "answers": [
+        { "text": "Transporter du dioxyde de carbone", "is_correct": false },
+        { "text": "Transporter des électrons", "is_correct": true },
+        { "text": "Fixer l'oxygène", "is_correct": false },
+        { "text": "Synthétiser des acides aminés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison relie les bases azotées dans l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Les bases azotées complémentaires sont reliées par des liaisons hydrogène.",
+      "answers": [
+        { "text": "Liaison covalente", "is_correct": false },
+        { "text": "Liaison ionique", "is_correct": false },
+        { "text": "Liaison hydrogène", "is_correct": true },
+        { "text": "Liaison disulfure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé est souvent impliqué dans les ponts disulfures ?",
+      "difficulty": "Moyen",
+      "explanation": "La cystéine possède un groupement thiol (-SH) pouvant former des ponts disulfures avec une autre cystéine.",
+      "answers": [
+        { "text": "Glycine", "is_correct": false },
+        { "text": "Cystéine", "is_correct": true },
+        { "text": "Alanine", "is_correct": false },
+        { "text": "Sérine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la lipase pancréatique ?",
+      "difficulty": "Facile",
+      "explanation": "La lipase pancréatique dégrade les triglycérides en acides gras et glycérol.",
+      "answers": [
+        { "text": "Dégrader les protéines", "is_correct": false },
+        { "text": "Dégrader les lipides", "is_correct": true },
+        { "text": "Dégrader l'amidon", "is_correct": false },
+        { "text": "Synthétiser des hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le pH optimal de la pepsine gastrique ?",
+      "difficulty": "Moyen",
+      "explanation": "La pepsine agit de manière optimale à un pH acide, autour de 2.",
+      "answers": [
+        { "text": "2", "is_correct": true },
+        { "text": "5", "is_correct": false },
+        { "text": "7", "is_correct": false },
+        { "text": "9", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des cofacteurs métalliques des enzymes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les ions métalliques stabilisent la structure de l'enzyme et participent à la catalyse.",
+      "answers": [
+        { "text": "Réguler la température", "is_correct": false },
+        { "text": "Stabiliser et activer l'enzyme", "is_correct": true },
+        { "text": "Servir d'énergie", "is_correct": false },
+        { "text": "Transporter des protons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le nom du processus inverse de la glycolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "La néoglucogenèse correspond à la synthèse de glucose à partir de précurseurs non glucidiques.",
+      "answers": [
+        { "text": "Glycogénolyse", "is_correct": false },
+        { "text": "Néoglucogenèse", "is_correct": true },
+        { "text": "Lipolyse", "is_correct": false },
+        { "text": "Fermentation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la première étape de la glycolyse ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hexokinase catalyse la phosphorylation du glucose en glucose-6-phosphate.",
+      "answers": [
+        { "text": "Phosphofructokinase", "is_correct": false },
+        { "text": "Hexokinase", "is_correct": true },
+        { "text": "Glucose-6-phosphatase", "is_correct": false },
+        { "text": "Lactate déshydrogénase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal rôle des acides gras essentiels ?",
+      "difficulty": "Moyen",
+      "explanation": "Les acides gras essentiels servent à la synthèse des membranes et des molécules de signalisation.",
+      "answers": [
+        { "text": "Produire du glucose", "is_correct": false },
+        { "text": "Former des membranes et des signaux", "is_correct": true },
+        { "text": "Fixer l'oxygène", "is_correct": false },
+        { "text": "Former le glycogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du coenzyme A (CoA) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coenzyme A transporte des groupements acétyle dans de nombreuses réactions métaboliques.",
+      "answers": [
+        { "text": "Transporter des électrons", "is_correct": false },
+        { "text": "Transporter des groupements acétyle", "is_correct": true },
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Fixer le CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est inhibée par un excès de produit final dans une voie métabolique ?",
+      "difficulty": "Moyen",
+      "explanation": "C'est une enzyme allostérique soumise à une inhibition par rétroaction (feedback négatif).",
+      "answers": [
+        { "text": "Enzyme allostérique", "is_correct": true },
+        { "text": "Enzyme constitutive", "is_correct": false },
+        { "text": "Isoenzyme", "is_correct": false },
+        { "text": "Hydrolase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de réaction produit un peptide à partir de deux acides aminés ?",
+      "difficulty": "Facile",
+      "explanation": "Une réaction de condensation élimine une molécule d'eau et forme une liaison peptidique.",
+      "answers": [
+        { "text": "Hydrolyse", "is_correct": false },
+        { "text": "Condensation", "is_correct": true },
+        { "text": "Oxydation", "is_correct": false },
+        { "text": "Réduction", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est le principal site de la néoglucogenèse ?",
+      "difficulty": "Moyen",
+      "explanation": "Le foie est le principal organe capable de synthétiser du glucose à partir de substrats non glucidiques.",
+      "answers": [
+        { "text": "Muscle", "is_correct": false },
+        { "text": "Foie", "is_correct": true },
+        { "text": "Cerveau", "is_correct": false },
+        { "text": "Pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du GTP produit dans le cycle de Krebs ?",
+      "difficulty": "Difficile",
+      "explanation": "Le GTP agit comme une molécule énergétique équivalente à l'ATP pour certaines réactions cellulaires.",
+      "answers": [
+        { "text": "Former des protéines", "is_correct": false },
+        { "text": "Fournir de l'énergie", "is_correct": true },
+        { "text": "Transporter des électrons", "is_correct": false },
+        { "text": "Stabiliser les enzymes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est le précurseur direct de l'ATP dans la phosphorylation oxydative ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ADP est phosphorylé pour donner l'ATP lors du passage des électrons dans la chaîne respiratoire.",
+      "answers": [
+        { "text": "AMP", "is_correct": false },
+        { "text": "ADP", "is_correct": true },
+        { "text": "NADH", "is_correct": false },
+        { "text": "GTP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la structure tertiaire d'une protéine ?",
+      "difficulty": "Moyen",
+      "explanation": "La structure tertiaire correspond à l'agencement tridimensionnel complet de la chaîne polypeptidique.",
+      "answers": [
+        { "text": "Ordre des acides aminés", "is_correct": false },
+        { "text": "Structure tridimensionnelle", "is_correct": true },
+        { "text": "Enchaînement des feuillets β", "is_correct": false },
+        { "text": "Liaison peptidique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des vitamines liposolubles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les vitamines liposolubles (A, D, E, K) interviennent dans la vision, la coagulation et la régulation calcique.",
+      "answers": [
+        { "text": "Transporter le glucose", "is_correct": false },
+        {
+          "text": "Réguler diverses fonctions physiologiques",
+          "is_correct": true
+        },
+        { "text": "Former des acides aminés", "is_correct": false },
+        { "text": "Produire directement de l'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale molécule formée lors de la β-oxydation des acides gras ?",
+      "difficulty": "Moyen",
+      "explanation": "La β-oxydation libère des unités d'acétyl-CoA, utilisées dans le cycle de Krebs.",
+      "answers": [
+        { "text": "Pyruvate", "is_correct": false },
+        { "text": "Acétyl-CoA", "is_correct": true },
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Lactate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal de l'enzyme ADN polymérase ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADN polymérase catalyse la synthèse du nouveau brin d'ADN lors de la réplication.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        { "text": "Synthétiser l'ADN", "is_correct": true },
+        { "text": "Corriger les mutations", "is_correct": false },
+        { "text": "Synthétiser l'ARN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du glucagon ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glucagon augmente la glycémie en stimulant la libération de glucose par le foie.",
+      "answers": [
+        { "text": "Diminuer la glycémie", "is_correct": false },
+        { "text": "Augmenter la glycémie", "is_correct": true },
+        { "text": "Inhiber la lipolyse", "is_correct": false },
+        { "text": "Activer la glycolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre un acide gras saturé et insaturé ?",
+      "difficulty": "Facile",
+      "explanation": "Les acides gras insaturés possèdent au moins une double liaison carbone-carbone, contrairement aux saturés.",
+      "answers": [
+        { "text": "Les saturés ont des doubles liaisons", "is_correct": false },
+        {
+          "text": "Les insaturés ont des doubles liaisons",
+          "is_correct": true
+        },
+        {
+          "text": "Les insaturés sont solides à température ambiante",
+          "is_correct": false
+        },
+        { "text": "Les saturés contiennent de l'azote", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du ribose-5-phosphate ?",
+      "difficulty": "Difficile",
+      "explanation": "Le ribose-5-phosphate, issu de la voie des pentoses, sert à la synthèse des nucléotides et acides nucléiques.",
+      "answers": [
+        { "text": "Synthèse du glycogène", "is_correct": false },
+        { "text": "Synthèse des nucléotides", "is_correct": true },
+        { "text": "Production d'ATP", "is_correct": false },
+        { "text": "Dégradation du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction du NADPH ?",
+      "difficulty": "Difficile",
+      "explanation": "Le NADPH fournit des électrons pour les réactions de biosynthèse et de protection contre le stress oxydatif.",
+      "answers": [
+        {
+          "text": "Transférer des protons dans la chaîne respiratoire",
+          "is_correct": false
+        },
+        {
+          "text": "Fournir des électrons pour les biosynthèses",
+          "is_correct": true
+        },
+        { "text": "Former du glucose", "is_correct": false },
+        {
+          "text": "Stocker de l'énergie sous forme de chaleur",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte les acides gras dans le sang ?",
+      "difficulty": "Moyen",
+      "explanation": "Les acides gras sont transportés liés à l'albumine dans le plasma sanguin.",
+      "answers": [
+        { "text": "Hémoglobine", "is_correct": false },
+        { "text": "Albumine", "is_correct": true },
+        { "text": "Transferrine", "is_correct": false },
+        { "text": "Myoglobine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la structure de base d'un acide aminé ?",
+      "difficulty": "Facile",
+      "explanation": "Un acide aminé comporte un groupement amine (-NH₂), un groupement carboxyle (-COOH), un hydrogène et une chaîne latérale (R).",
+      "answers": [
+        { "text": "Carbone, hydrogène et phosphate", "is_correct": false },
+        {
+          "text": "Amine, acide carboxylique, hydrogène et chaîne R",
+          "is_correct": true
+        },
+        { "text": "Deux groupements carboxyles", "is_correct": false },
+        { "text": "Deux groupements amines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé est le plus petit et le plus simple ?",
+      "difficulty": "Facile",
+      "explanation": "La glycine est le plus petit acide aminé, sa chaîne latérale est simplement un atome d'hydrogène.",
+      "answers": [
+        { "text": "Alanine", "is_correct": false },
+        { "text": "Glycine", "is_correct": true },
+        { "text": "Sérine", "is_correct": false },
+        { "text": "Cystéine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé possède un groupement imidazole ?",
+      "difficulty": "Moyen",
+      "explanation": "L'histidine contient un groupement imidazole, important dans les sites actifs des enzymes.",
+      "answers": [
+        { "text": "Histidine", "is_correct": true },
+        { "text": "Lysine", "is_correct": false },
+        { "text": "Arginine", "is_correct": false },
+        { "text": "Tryptophane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la chymotrypsine ?",
+      "difficulty": "Moyen",
+      "explanation": "La chymotrypsine est une enzyme digestive qui hydrolyse les liaisons peptidiques des protéines.",
+      "answers": [
+        { "text": "Dégrade les lipides", "is_correct": false },
+        { "text": "Hydrolyse les protéines", "is_correct": true },
+        { "text": "Hydrolyse les sucres", "is_correct": false },
+        { "text": "Dégrade l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la conversion du glucose-6-phosphate en fructose-6-phosphate ?",
+      "difficulty": "Difficile",
+      "explanation": "La phosphohexose isomérase convertit le glucose-6-phosphate en fructose-6-phosphate dans la glycolyse.",
+      "answers": [
+        { "text": "Phosphofructokinase", "is_correct": false },
+        { "text": "Phosphohexose isomérase", "is_correct": true },
+        { "text": "Glucose-6-phosphatase", "is_correct": false },
+        { "text": "Enolase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cytochrome c dans la chaîne respiratoire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le cytochrome c transfère les électrons entre les complexes III et IV de la chaîne respiratoire mitochondriale.",
+      "answers": [
+        { "text": "Transporter le glucose", "is_correct": false },
+        { "text": "Transporter les électrons", "is_correct": true },
+        { "text": "Produire du CO₂", "is_correct": false },
+        { "text": "Former de l'eau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme dégrade les triglycérides dans le tissu adipeux ?",
+      "difficulty": "Moyen",
+      "explanation": "La lipase hormono-sensible hydrolyse les triglycérides en acides gras et glycérol.",
+      "answers": [
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Lipase hormono-sensible", "is_correct": true },
+        { "text": "Pepsine", "is_correct": false },
+        { "text": "Trypsine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ARN messager (ARNm) ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARNm transporte l'information génétique de l'ADN vers les ribosomes pour la synthèse des protéines.",
+      "answers": [
+        { "text": "Fixer les acides aminés", "is_correct": false },
+        { "text": "Transporter l'information génétique", "is_correct": true },
+        { "text": "Former les ribosomes", "is_correct": false },
+        { "text": "Réplication de l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du ribose dans les acides nucléiques ?",
+      "difficulty": "Facile",
+      "explanation": "Le ribose est un sucre à cinq carbones qui constitue la charpente de l'ARN.",
+      "answers": [
+        { "text": "Former les bases azotées", "is_correct": false },
+        {
+          "text": "Former l'ossature des acides nucléiques",
+          "is_correct": true
+        },
+        { "text": "Stocker l'énergie", "is_correct": false },
+        { "text": "Servir de coenzyme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de réaction correspond à la dégradation d'une molécule complexe en molécules plus simples ?",
+      "difficulty": "Facile",
+      "explanation": "Une réaction catabolique dégrade les molécules complexes pour libérer de l'énergie.",
+      "answers": [
+        { "text": "Anabolisme", "is_correct": false },
+        { "text": "Catabolisme", "is_correct": true },
+        { "text": "Oxydation", "is_correct": false },
+        { "text": "Hydratation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule sert de base à la synthèse du cholestérol ?",
+      "difficulty": "Difficile",
+      "explanation": "Le cholestérol est synthétisé à partir de l'acétyl-CoA dans le foie.",
+      "answers": [
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Acétyl-CoA", "is_correct": true },
+        { "text": "Pyruvate", "is_correct": false },
+        { "text": "Fructose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme permet de copier l'ADN en ARN ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ARN polymérase synthétise l'ARN à partir d'un brin d'ADN matrice lors de la transcription.",
+      "answers": [
+        { "text": "ADN polymérase", "is_correct": false },
+        { "text": "ARN polymérase", "is_correct": true },
+        { "text": "Transcriptase inverse", "is_correct": false },
+        { "text": "Ligase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la mitochondrie ?",
+      "difficulty": "Facile",
+      "explanation": "La mitochondrie produit de l'ATP par respiration cellulaire, c'est la “centrale énergétique” de la cellule.",
+      "answers": [
+        { "text": "Produire des hormones", "is_correct": false },
+        { "text": "Produire de l'énergie (ATP)", "is_correct": true },
+        { "text": "Stocker du calcium", "is_correct": false },
+        { "text": "Synthétiser l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la phosphofructokinase-1 dans la glycolyse ?",
+      "difficulty": "Difficile",
+      "explanation": "Elle catalyse la phosphorylation du fructose-6-phosphate en fructose-1,6-bisphosphate, une étape clé régulée de la glycolyse.",
+      "answers": [
+        { "text": "Première enzyme du cycle de Krebs", "is_correct": false },
+        { "text": "Enzyme régulatrice de la glycolyse", "is_correct": true },
+        { "text": "Dégrade le pyruvate", "is_correct": false },
+        { "text": "Transforme l'ATP en AMP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la vitamine C en biochimie ?",
+      "difficulty": "Moyen",
+      "explanation": "La vitamine C est un antioxydant et cofacteur nécessaire à la synthèse du collagène.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        {
+          "text": "Synthèse du collagène et action antioxydante",
+          "is_correct": true
+        },
+        { "text": "Régulation de la glycémie", "is_correct": false },
+        { "text": "Activation des phosphatases", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison lie les acides gras au glycérol dans un triglycéride ?",
+      "difficulty": "Moyen",
+      "explanation": "Les acides gras sont reliés au glycérol par des liaisons esters.",
+      "answers": [
+        { "text": "Liaison peptidique", "is_correct": false },
+        { "text": "Liaison ester", "is_correct": true },
+        { "text": "Liaison ionique", "is_correct": false },
+        { "text": "Liaison hydrogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la forme de stockage des lipides chez l'homme ?",
+      "difficulty": "Facile",
+      "explanation": "Les triglycérides constituent la principale forme de réserve lipidique dans le tissu adipeux.",
+      "answers": [
+        { "text": "Acides gras libres", "is_correct": false },
+        { "text": "Triglycérides", "is_correct": true },
+        { "text": "Phospholipides", "is_correct": false },
+        { "text": "Stéroïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel coenzyme est dérivé de la riboflavine (vitamine B2) ?",
+      "difficulty": "Difficile",
+      "explanation": "La riboflavine est le précurseur du FAD (flavine adénine dinucléotide).",
+      "answers": [
+        { "text": "NAD⁺", "is_correct": false },
+        { "text": "FAD", "is_correct": true },
+        { "text": "CoA", "is_correct": false },
+        { "text": "NADP⁺", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la lactase dans l'intestin grêle ?",
+      "difficulty": "Facile",
+      "explanation": "La lactase hydrolyse le lactose en glucose et galactose.",
+      "answers": [
+        { "text": "Hydrolyser le saccharose", "is_correct": false },
+        { "text": "Hydrolyser le lactose", "is_correct": true },
+        { "text": "Hydrolyser le maltose", "is_correct": false },
+        { "text": "Hydrolyser l'amidon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du glutathion dans la cellule ?",
+      "difficulty": "Difficile",
+      "explanation": "Le glutathion est un tripeptide antioxydant qui protège les cellules contre les espèces réactives de l'oxygène.",
+      "answers": [
+        { "text": "Transport du glucose", "is_correct": false },
+        { "text": "Protection contre le stress oxydatif", "is_correct": true },
+        { "text": "Synthèse de l'ADN", "is_correct": false },
+        { "text": "Stockage d'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du magnésium dans les réactions enzymatiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Le magnésium stabilise les charges négatives des ATP et participe à la catalyse enzymatique.",
+      "answers": [
+        { "text": "Former des membranes", "is_correct": false },
+        {
+          "text": "Stabiliser l'ATP et activer les enzymes",
+          "is_correct": true
+        },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Réguler la glycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la dégradation du glycogène ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycogène phosphorylase libère des molécules de glucose-1-phosphate à partir du glycogène.",
+      "answers": [
+        { "text": "Glycogène synthase", "is_correct": false },
+        { "text": "Glycogène phosphorylase", "is_correct": true },
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Glucokinase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la myoglobine ?",
+      "difficulty": "Moyen",
+      "explanation": "La myoglobine stocke l'oxygène dans les muscles pour une utilisation rapide.",
+      "answers": [
+        { "text": "Transporter l'oxygène dans le sang", "is_correct": false },
+        { "text": "Stocker l'oxygène dans les muscles", "is_correct": true },
+        { "text": "Fixer le dioxyde de carbone", "is_correct": false },
+        { "text": "Produire de l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des enzymes hydrolases ?",
+      "difficulty": "Facile",
+      "explanation": "Les hydrolases catalysent la rupture des liaisons covalentes par addition d'eau.",
+      "answers": [
+        { "text": "Former des liaisons peptidiques", "is_correct": false },
+        { "text": "Casser des liaisons avec de l'eau", "is_correct": true },
+        { "text": "Transférer des électrons", "is_correct": false },
+        { "text": "Former des radicaux libres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NADH dans la fermentation lactique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le NADH est réoxydé en NAD⁺ en réduisant le pyruvate en lactate, permettant à la glycolyse de continuer en absence d'oxygène.",
+      "answers": [
+        { "text": "Oxydation du lactate", "is_correct": false },
+        { "text": "Régénération du NAD⁺", "is_correct": true },
+        { "text": "Production d'ATP directe", "is_correct": false },
+        { "text": "Fixation du CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ATP synthase ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ATP synthase utilise le gradient de protons mitochondrial pour synthétiser de l'ATP à partir d'ADP et de phosphate inorganique.",
+      "answers": [
+        { "text": "Casser l'ATP", "is_correct": false },
+        {
+          "text": "Former l'ATP grâce au gradient de protons",
+          "is_correct": true
+        },
+        { "text": "Transporter des électrons", "is_correct": false },
+        { "text": "Réguler la glycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est responsable de la liaison des fragments d'ADN lors de la réplication ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN ligase relie les fragments d'Okazaki du brin discontinu.",
+      "answers": [
+        { "text": "ADN polymérase", "is_correct": false },
+        { "text": "ADN ligase", "is_correct": true },
+        { "text": "Hélicase", "is_correct": false },
+        { "text": "Topoisomérase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du complexe IV de la chaîne respiratoire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le complexe IV (cytochrome c oxydase) réduit l'oxygène moléculaire en eau en recevant des électrons du cytochrome c.",
+      "answers": [
+        { "text": "Transférer les électrons au NAD⁺", "is_correct": false },
+        { "text": "Réduire l'oxygène en eau", "is_correct": true },
+        { "text": "Produire du CO₂", "is_correct": false },
+        { "text": "Dégrader le glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la molécule énergétique universelle de la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "L'ATP (adénosine triphosphate) est la principale source d'énergie chimique utilisée par la cellule.",
+      "answers": [
+        { "text": "ADP", "is_correct": false },
+        { "text": "ATP", "is_correct": true },
+        { "text": "AMP", "is_correct": false },
+        { "text": "NADH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des enzymes ?",
+      "difficulty": "Facile",
+      "explanation": "Les enzymes catalysent les réactions chimiques en abaissant l'énergie d'activation.",
+      "answers": [
+        { "text": "Augmenter l'énergie d'activation", "is_correct": false },
+        { "text": "Accélérer les réactions chimiques", "is_correct": true },
+        { "text": "Modifier les produits finaux", "is_correct": false },
+        { "text": "Fournir de l'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion métallique est souvent présent dans les sites actifs enzymatiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ions comme le Mg²⁺, Zn²⁺ ou Fe²⁺ participent à la catalyse enzymatique.",
+      "answers": [
+        { "text": "Na⁺", "is_correct": false },
+        { "text": "Mg²⁺", "is_correct": true },
+        { "text": "Cl⁻", "is_correct": false },
+        { "text": "K⁺", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le substrat de la glycolyse ?",
+      "difficulty": "Facile",
+      "explanation": "La glycolyse dégrade une molécule de glucose pour produire du pyruvate.",
+      "answers": [
+        { "text": "Pyruvate", "is_correct": false },
+        { "text": "Glucose", "is_correct": true },
+        { "text": "Acétyl-CoA", "is_correct": false },
+        { "text": "Lactate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de molécules d'ATP nettes sont produites par la glycolyse d'un glucose ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycolyse génère 4 ATP mais en consomme 2, pour un gain net de 2 ATP.",
+      "answers": [
+        { "text": "1", "is_correct": false },
+        { "text": "2", "is_correct": true },
+        { "text": "4", "is_correct": false },
+        { "text": "6", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site de la synthèse d'ATP dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "La mitochondrie produit l'ATP grâce à la phosphorylation oxydative.",
+      "answers": [
+        { "text": "Noyau", "is_correct": false },
+        { "text": "Mitochondrie", "is_correct": true },
+        { "text": "Réticulum endoplasmique", "is_correct": false },
+        { "text": "Cytosol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé est soufré ?",
+      "difficulty": "Moyen",
+      "explanation": "La cystéine et la méthionine contiennent un atome de soufre dans leur chaîne latérale.",
+      "answers": [
+        { "text": "Alanine", "is_correct": false },
+        { "text": "Cystéine", "is_correct": true },
+        { "text": "Glycine", "is_correct": false },
+        { "text": "Proline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison relie deux acides aminés ?",
+      "difficulty": "Facile",
+      "explanation": "Les acides aminés sont reliés par des liaisons peptidiques formées par condensation.",
+      "answers": [
+        { "text": "Hydrogène", "is_correct": false },
+        { "text": "Peptidique", "is_correct": true },
+        { "text": "Ionique", "is_correct": false },
+        { "text": "Ester", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des enzymes oxydoréductases ?",
+      "difficulty": "Moyen",
+      "explanation": "Les oxydoréductases catalysent les réactions d'oxydoréduction, transférant des électrons.",
+      "answers": [
+        { "text": "Hydrolyser les protéines", "is_correct": false },
+        {
+          "text": "Catalyser des réactions d'oxydoréduction",
+          "is_correct": true
+        },
+        { "text": "Former des polymères", "is_correct": false },
+        { "text": "Rupture de liaisons ester", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte les électrons dans la respiration cellulaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le NADH transporte des électrons vers la chaîne respiratoire mitochondriale.",
+      "answers": [
+        { "text": "ATP", "is_correct": false },
+        { "text": "NADH", "is_correct": true },
+        { "text": "ADP", "is_correct": false },
+        { "text": "FADH₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du pyruvate dans le métabolisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pyruvate est un intermédiaire central, précurseur de l'acétyl-CoA dans la respiration aérobie.",
+      "answers": [
+        { "text": "Produit du cycle de Krebs", "is_correct": false },
+        {
+          "text": "Intermédiaire reliant glycolyse et cycle de Krebs",
+          "is_correct": true
+        },
+        { "text": "Produit final de la respiration", "is_correct": false },
+        { "text": "Cofacteur enzymatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cycle de Krebs ?",
+      "difficulty": "Facile",
+      "explanation": "Le cycle de Krebs oxyde l'acétyl-CoA pour produire NADH, FADH₂ et du CO₂.",
+      "answers": [
+        { "text": "Synthétiser des acides gras", "is_correct": false },
+        {
+          "text": "Produire des coenzymes réduits pour la respiration",
+          "is_correct": true
+        },
+        { "text": "Dégrader le glucose en pyruvate", "is_correct": false },
+        { "text": "Synthétiser des acides aminés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du FADH₂ dans la mitochondrie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le FADH₂ transfère ses électrons à la chaîne respiratoire, contribuant à la production d'ATP.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Transférer des électrons", "is_correct": true },
+        { "text": "Stocker du glucose", "is_correct": false },
+        { "text": "Former du CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NADPH dans la cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le NADPH fournit des électrons pour les réactions de biosynthèse et la lutte contre le stress oxydatif.",
+      "answers": [
+        { "text": "Production d'énergie", "is_correct": false },
+        {
+          "text": "Réductions biosynthétiques et antioxydantes",
+          "is_correct": true
+        },
+        { "text": "Hydrolyse de l'ATP", "is_correct": false },
+        { "text": "Dégradation du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est le précurseur de la synthèse des acides gras ?",
+      "difficulty": "Difficile",
+      "explanation": "L'acétyl-CoA est le substrat de départ pour la biosynthèse des acides gras.",
+      "answers": [
+        { "text": "Pyruvate", "is_correct": false },
+        { "text": "Acétyl-CoA", "is_correct": true },
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Glycérol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du coenzyme A (CoA) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CoA transporte des groupes acyles comme l'acétyl dans les réactions métaboliques.",
+      "answers": [
+        { "text": "Transport d'électrons", "is_correct": false },
+        { "text": "Transport de groupes acyles", "is_correct": true },
+        { "text": "Transport de protons", "is_correct": false },
+        { "text": "Fixation du CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du glycogène ?",
+      "difficulty": "Facile",
+      "explanation": "Le glycogène est la forme de stockage du glucose chez les animaux.",
+      "answers": [
+        { "text": "Stocker des acides gras", "is_correct": false },
+        { "text": "Stocker du glucose", "is_correct": true },
+        { "text": "Transporter de l'oxygène", "is_correct": false },
+        { "text": "Former l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la gluconéogenèse ?",
+      "difficulty": "Difficile",
+      "explanation": "La gluconéogenèse synthétise du glucose à partir de composés non glucidiques (acides aminés, lactate).",
+      "answers": [
+        { "text": "Dégrader le glucose", "is_correct": false },
+        {
+          "text": "Former du glucose à partir d'autres molécules",
+          "is_correct": true
+        },
+        { "text": "Stocker le glycogène", "is_correct": false },
+        { "text": "Former des lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la β-oxydation ?",
+      "difficulty": "Difficile",
+      "explanation": "La β-oxydation dégrade les acides gras en acétyl-CoA pour produire de l'énergie.",
+      "answers": [
+        { "text": "Synthèse d'acides gras", "is_correct": false },
+        { "text": "Dégradation des acides gras", "is_correct": true },
+        { "text": "Production de glucose", "is_correct": false },
+        { "text": "Hydrolyse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la dégradation de l'amidon en maltose ?",
+      "difficulty": "Facile",
+      "explanation": "L'amylase salivaire et pancréatique hydrolyse les liaisons α-1,4 de l'amidon.",
+      "answers": [
+        { "text": "Lactase", "is_correct": false },
+        { "text": "Amylase", "is_correct": true },
+        { "text": "Lipase", "is_correct": false },
+        { "text": "Protéase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule forme la double hélice de l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Deux brins d'ADN antiparallèles reliés par des liaisons hydrogène entre bases complémentaires.",
+      "answers": [
+        { "text": "ARN", "is_correct": false },
+        { "text": "ADN", "is_correct": true },
+        { "text": "Protéine", "is_correct": false },
+        { "text": "Glucide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel sucre se trouve dans l'ARN ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARN contient du ribose, contrairement à l'ADN qui contient du désoxyribose.",
+      "answers": [
+        { "text": "Désoxyribose", "is_correct": false },
+        { "text": "Ribose", "is_correct": true },
+        { "text": "Fructose", "is_correct": false },
+        { "text": "Glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la base complémentaire de l'adénine dans l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Dans l'ADN, l'adénine s'apparie à la thymine par deux liaisons hydrogène.",
+      "answers": [
+        { "text": "Guanine", "is_correct": false },
+        { "text": "Thymine", "is_correct": true },
+        { "text": "Cytosine", "is_correct": false },
+        { "text": "Uracile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du ribosome ?",
+      "difficulty": "Facile",
+      "explanation": "Le ribosome traduit l'ARN messager en séquence d'acides aminés pour former une protéine.",
+      "answers": [
+        { "text": "Réplication de l'ADN", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": true },
+        { "text": "Dégradation du glucose", "is_correct": false },
+        { "text": "Transport des lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la réplication de l'ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN polymérase synthétise un nouveau brin complémentaire lors de la réplication.",
+      "answers": [
+        { "text": "ARN polymérase", "is_correct": false },
+        { "text": "ADN polymérase", "is_correct": true },
+        { "text": "Transcriptase inverse", "is_correct": false },
+        { "text": "Ligase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme relie les fragments d'Okazaki ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN ligase relie les fragments du brin discontinu lors de la réplication.",
+      "answers": [
+        { "text": "Hélicase", "is_correct": false },
+        { "text": "ADN ligase", "is_correct": true },
+        { "text": "Topoisomérase", "is_correct": false },
+        { "text": "Primase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ARN de transfert (ARNt) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ARNt transporte les acides aminés vers le ribosome lors de la traduction.",
+      "answers": [
+        { "text": "Transcrit l'ADN", "is_correct": false },
+        { "text": "Transporte les acides aminés", "is_correct": true },
+        { "text": "Forme le ribosome", "is_correct": false },
+        { "text": "Stocke l'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des phospholipides ?",
+      "difficulty": "Facile",
+      "explanation": "Les phospholipides forment la bicouche lipidique des membranes cellulaires.",
+      "answers": [
+        { "text": "Stocker du glucose", "is_correct": false },
+        { "text": "Former les membranes", "is_correct": true },
+        { "text": "Transporter de l'oxygène", "is_correct": false },
+        { "text": "Catalyser des réactions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cholestérol dans les membranes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cholestérol régule la fluidité et la stabilité des membranes cellulaires.",
+      "answers": [
+        { "text": "Source d'énergie directe", "is_correct": false },
+        { "text": "Réguler la fluidité membranaire", "is_correct": true },
+        { "text": "Transport du glucose", "is_correct": false },
+        { "text": "Former l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est nécessaire à la synthèse du collagène ?",
+      "difficulty": "Moyen",
+      "explanation": "La vitamine C (acide ascorbique) est indispensable à l'hydroxylation des prolines dans le collagène.",
+      "answers": [
+        { "text": "Vitamine A", "is_correct": false },
+        { "text": "Vitamine C", "is_correct": true },
+        { "text": "Vitamine D", "is_correct": false },
+        { "text": "Vitamine K", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est coenzyme dans les réactions de carboxylation ?",
+      "difficulty": "Difficile",
+      "explanation": "La biotine (vitamine B7) est un cofacteur des carboxylases.",
+      "answers": [
+        { "text": "Vitamine B1", "is_correct": false },
+        { "text": "Vitamine B7 (biotine)", "is_correct": true },
+        { "text": "Vitamine B9", "is_correct": false },
+        { "text": "Vitamine B12", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte l'oxygène dans le sang ?",
+      "difficulty": "Facile",
+      "explanation": "L'hémoglobine transporte l'oxygène grâce à son fer ferreux (Fe²⁺).",
+      "answers": [
+        { "text": "Albumine", "is_correct": false },
+        { "text": "Hémoglobine", "is_correct": true },
+        { "text": "Myoglobine", "is_correct": false },
+        { "text": "Ferritine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion métallique est essentiel à la fonction de l'hémoglobine ?",
+      "difficulty": "Facile",
+      "explanation": "Le fer (Fe²⁺) se lie à l'oxygène dans le groupe hème.",
+      "answers": [
+        { "text": "Cuivre", "is_correct": false },
+        { "text": "Fer", "is_correct": true },
+        { "text": "Magnésium", "is_correct": false },
+        { "text": "Zinc", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le pH approximatif du cytoplasme ?",
+      "difficulty": "Facile",
+      "explanation": "Le pH intracellulaire est légèrement acide, autour de 7,2.",
+      "answers": [
+        { "text": "6,0", "is_correct": false },
+        { "text": "7,2", "is_correct": true },
+        { "text": "8,0", "is_correct": false },
+        { "text": "5,0", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la catalase ?",
+      "difficulty": "Moyen",
+      "explanation": "La catalase décompose le peroxyde d'hydrogène (H₂O₂) en eau et oxygène.",
+      "answers": [
+        { "text": "Dégrade le glucose", "is_correct": false },
+        { "text": "Dégrade le peroxyde d'hydrogène", "is_correct": true },
+        { "text": "Synthétise l'ATP", "is_correct": false },
+        { "text": "Réduit le NADH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme convertit le CO₂ en acide carbonique dans les globules rouges ?",
+      "difficulty": "Difficile",
+      "explanation": "L'anhydrase carbonique catalyse cette réaction réversible.",
+      "answers": [
+        { "text": "Lactate déshydrogénase", "is_correct": false },
+        { "text": "Anhydrase carbonique", "is_correct": true },
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Lipase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est un précurseur des hormones stéroïdes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cholestérol est la molécule de base de la synthèse des hormones stéroïdiennes.",
+      "answers": [
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Cholestérol", "is_correct": true },
+        { "text": "Glycogène", "is_correct": false },
+        { "text": "Acide pyruvique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du glutathion dans la cellule ?",
+      "difficulty": "Difficile",
+      "explanation": "Le glutathion protège les cellules contre le stress oxydatif en réduisant les radicaux libres.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Antioxydant intracellulaire", "is_correct": true },
+        { "text": "Cofacteur enzymatique", "is_correct": false },
+        { "text": "Stocker du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la phosphofructokinase dans la glycolyse ?",
+      "difficulty": "Difficile",
+      "explanation": "La PFK catalyse la phosphorylation du fructose-6-phosphate en fructose-1,6-bisphosphate, une étape clé régulée.",
+      "answers": [
+        {
+          "text": "Transformation du glucose en glucose-6-phosphate",
+          "is_correct": false
+        },
+        {
+          "text": "Phosphorylation du fructose-6-phosphate",
+          "is_correct": true
+        },
+        { "text": "Conversion du pyruvate", "is_correct": false },
+        { "text": "Oxydation du NADH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est inhibée par l'ATP dans la glycolyse ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ATP inhibe la phosphofructokinase, ce qui évite une surproduction d'énergie.",
+      "answers": [
+        { "text": "Hexokinase", "is_correct": false },
+        { "text": "Phosphofructokinase", "is_correct": true },
+        { "text": "Pyruvate kinase", "is_correct": false },
+        { "text": "Aldolase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé peut être transformé en sérotonine ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tryptophane est le précurseur de la sérotonine par hydroxylation puis décarboxylation.",
+      "answers": [
+        { "text": "Tyrosine", "is_correct": false },
+        { "text": "Tryptophane", "is_correct": true },
+        { "text": "Glycine", "is_correct": false },
+        { "text": "Alanine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale du NAD⁺ ?",
+      "difficulty": "Facile",
+      "explanation": "Le NAD⁺ agit comme coenzyme oxydant, acceptant des électrons dans les réactions métaboliques.",
+      "answers": [
+        { "text": "Fournir des électrons", "is_correct": false },
+        { "text": "Accepter des électrons", "is_correct": true },
+        { "text": "Former des protéines", "is_correct": false },
+        { "text": "Hydrolyser l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du complexe ATP synthase ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ATP synthase utilise le gradient de protons mitochondrial pour produire de l'ATP à partir d'ADP et de phosphate inorganique.",
+      "answers": [
+        { "text": "Pomper le sodium", "is_correct": false },
+        { "text": "Synthétiser l'ATP", "is_correct": true },
+        { "text": "Hydrolyser l'ATP", "is_correct": false },
+        { "text": "Transporter le glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cytochrome c ?",
+      "difficulty": "Difficile",
+      "explanation": "Le cytochrome c transporte des électrons entre les complexes III et IV de la chaîne respiratoire.",
+      "answers": [
+        { "text": "Synthèse de l'ATP", "is_correct": false },
+        { "text": "Transport d'électrons", "is_correct": true },
+        { "text": "Dégradation des lipides", "is_correct": false },
+        { "text": "Hydrolyse du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel composé relie la glycolyse au cycle de Krebs ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pyruvate est transformé en acétyl-CoA, entrant ensuite dans le cycle de Krebs.",
+      "answers": [
+        { "text": "Glucose-6-phosphate", "is_correct": false },
+        { "text": "Pyruvate", "is_correct": true },
+        { "text": "Citrate", "is_correct": false },
+        { "text": "Lactate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la lactate déshydrogénase ?",
+      "difficulty": "Moyen",
+      "explanation": "Elle convertit le pyruvate en lactate en absence d'oxygène, régénérant le NAD⁺.",
+      "answers": [
+        { "text": "Convertir le glucose en pyruvate", "is_correct": false },
+        { "text": "Convertir le pyruvate en lactate", "is_correct": true },
+        { "text": "Former du glycogène", "is_correct": false },
+        { "text": "Synthétiser des acides gras", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est le principal lieu de la gluconéogenèse ?",
+      "difficulty": "Facile",
+      "explanation": "La gluconéogenèse se déroule principalement dans le foie, et accessoirement dans le rein.",
+      "answers": [
+        { "text": "Cerveau", "is_correct": false },
+        { "text": "Foie", "is_correct": true },
+        { "text": "Muscle", "is_correct": false },
+        { "text": "Pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du NADH ?",
+      "difficulty": "Facile",
+      "explanation": "Le NADH transporte des électrons vers la chaîne respiratoire pour produire de l'ATP.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        {
+          "text": "Transférer des électrons pour produire de l'énergie",
+          "is_correct": true
+        },
+        { "text": "Dégrader le glucose", "is_correct": false },
+        { "text": "Transporter le CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du ribose-5-phosphate ?",
+      "difficulty": "Difficile",
+      "explanation": "Le ribose-5-phosphate est un précurseur des nucléotides et de l'ARN.",
+      "answers": [
+        { "text": "Synthèse de l'ATP", "is_correct": false },
+        { "text": "Synthèse des nucléotides", "is_correct": true },
+        { "text": "Production de lactate", "is_correct": false },
+        { "text": "Formation du glycogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du coenzyme Q (ubiquinone) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ubiquinone transporte des électrons entre les complexes I/II et III dans la chaîne respiratoire.",
+      "answers": [
+        { "text": "Stocker l'énergie", "is_correct": false },
+        {
+          "text": "Transporter des électrons dans la chaîne respiratoire",
+          "is_correct": true
+        },
+        { "text": "Fixer l'oxygène", "is_correct": false },
+        { "text": "Hydrolyser l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme dégrade les triglycérides ?",
+      "difficulty": "Facile",
+      "explanation": "Les lipases hydrolysent les triglycérides en acides gras et glycérol.",
+      "answers": [
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Lipase", "is_correct": true },
+        { "text": "Protéase", "is_correct": false },
+        { "text": "Lactase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NAD⁺ dans la glycolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "Le NAD⁺ accepte des électrons lors de l'oxydation du glycéraldéhyde-3-phosphate.",
+      "answers": [
+        { "text": "Fournir des électrons", "is_correct": false },
+        { "text": "Accepter des électrons", "is_correct": true },
+        { "text": "Stocker du glucose", "is_correct": false },
+        { "text": "Transférer du phosphate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la base complémentaire de la cytosine dans l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Dans l'ADN, la cytosine s'apparie à la guanine par trois liaisons hydrogène.",
+      "answers": [
+        { "text": "Adénine", "is_correct": false },
+        { "text": "Guanine", "is_correct": true },
+        { "text": "Uracile", "is_correct": false },
+        { "text": "Thymine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la pepsine ?",
+      "difficulty": "Facile",
+      "explanation": "La pepsine est une enzyme gastrique qui hydrolyse les protéines en peptides.",
+      "answers": [
+        { "text": "Digérer les lipides", "is_correct": false },
+        { "text": "Digérer les protéines", "is_correct": true },
+        { "text": "Digérer les glucides", "is_correct": false },
+        { "text": "Synthétiser de l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NADPH dans les globules rouges ?",
+      "difficulty": "Difficile",
+      "explanation": "Le NADPH maintient le glutathion sous forme réduite, protégeant les globules rouges du stress oxydatif.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Protéger contre le stress oxydatif", "is_correct": true },
+        { "text": "Synthétiser de l'ATP", "is_correct": false },
+        { "text": "Fixer le CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la pyruvate kinase ?",
+      "difficulty": "Moyen",
+      "explanation": "La pyruvate kinase catalyse la dernière étape de la glycolyse, formant du pyruvate et de l'ATP.",
+      "answers": [
+        { "text": "Début de la glycolyse", "is_correct": false },
+        { "text": "Dernière étape de la glycolyse", "is_correct": true },
+        { "text": "Formation du glucose", "is_correct": false },
+        { "text": "Hydrolyse du pyruvate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des glucides dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "Les glucides servent avant tout de source d'énergie rapide pour la cellule.",
+      "answers": [
+        { "text": "Former des membranes", "is_correct": false },
+        { "text": "Servir de source d'énergie", "is_correct": true },
+        { "text": "Stocker le calcium", "is_correct": false },
+        { "text": "Transporter l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de réaction permet la formation d'une liaison peptidique ?",
+      "difficulty": "Facile",
+      "explanation": "Une liaison peptidique se forme par une réaction de condensation entre deux acides aminés.",
+      "answers": [
+        { "text": "Hydrolyse", "is_correct": false },
+        { "text": "Condensation", "is_correct": true },
+        { "text": "Oxydation", "is_correct": false },
+        { "text": "Réduction", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du glucose-6-phosphate dans la cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "Il agit comme intermédiaire dans la glycolyse, la néoglucogenèse et la voie des pentoses.",
+      "answers": [
+        { "text": "Transport d'électrons", "is_correct": false },
+        { "text": "Intermédiaire métabolique central", "is_correct": true },
+        { "text": "Stockage d'énergie à long terme", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'hélicase lors de la réplication de l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "L'hélicase sépare les deux brins d'ADN pour permettre leur copie.",
+      "answers": [
+        { "text": "Relie les fragments d'Okazaki", "is_correct": false },
+        { "text": "Sépare les brins d'ADN", "is_correct": true },
+        { "text": "Synthétise un nouvel ADN", "is_correct": false },
+        { "text": "Supprime les introns", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du coenzyme A (CoA) dans le métabolisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Il transporte des groupes acyles, notamment l'acétyl, dans les réactions métaboliques.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Transporter des groupes acyles", "is_correct": true },
+        { "text": "Transporter des électrons", "is_correct": false },
+        { "text": "Hydrolyser le glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme catalyse la synthèse de l'ARN ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARN polymérase transcrit l'ADN en ARN messager.",
+      "answers": [
+        { "text": "ADN polymérase", "is_correct": false },
+        { "text": "ARN polymérase", "is_correct": true },
+        { "text": "Transcriptase inverse", "is_correct": false },
+        { "text": "Ligase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale différence entre ADN et ARN ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARN contient du ribose et l'uracile, alors que l'ADN contient du désoxyribose et de la thymine.",
+      "answers": [
+        { "text": "L'ARN contient de la thymine", "is_correct": false },
+        {
+          "text": "L'ARN contient de l'uracile et du ribose",
+          "is_correct": true
+        },
+        { "text": "L'ADN est simple brin", "is_correct": false },
+        { "text": "L'ADN contient de l'uracile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule relie le métabolisme des glucides, lipides et protéines ?",
+      "difficulty": "Moyen",
+      "explanation": "L'acétyl-CoA est un carrefour métabolique commun à ces voies.",
+      "answers": [
+        { "text": "Glucose-6-phosphate", "is_correct": false },
+        { "text": "Acétyl-CoA", "is_correct": true },
+        { "text": "Pyruvate", "is_correct": false },
+        { "text": "Lactate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule forme la structure principale des membranes cellulaires ?",
+      "difficulty": "Facile",
+      "explanation": "Les phospholipides s'organisent en bicouche, base de la membrane cellulaire.",
+      "answers": [
+        { "text": "Cholestérol", "is_correct": false },
+        { "text": "Phospholipides", "is_correct": true },
+        { "text": "Protéines", "is_correct": false },
+        { "text": "Triglycérides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison stabilise la structure secondaire des protéines ?",
+      "difficulty": "Facile",
+      "explanation": "Les liaisons hydrogène stabilisent les hélices alpha et feuillets bêta.",
+      "answers": [
+        { "text": "Covalente", "is_correct": false },
+        { "text": "Hydrogène", "is_correct": true },
+        { "text": "Ionique", "is_correct": false },
+        { "text": "Peptidique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des chaperonnes moléculaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles aident les protéines à adopter leur conformation tridimensionnelle correcte.",
+      "answers": [
+        { "text": "Dégradent les protéines", "is_correct": false },
+        { "text": "Aident au repliement des protéines", "is_correct": true },
+        { "text": "Synthétisent les acides aminés", "is_correct": false },
+        { "text": "Fixent le calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la vitamine K ?",
+      "difficulty": "Moyen",
+      "explanation": "Elle est essentielle à la coagulation sanguine.",
+      "answers": [
+        { "text": "Vision nocturne", "is_correct": false },
+        { "text": "Coagulation sanguine", "is_correct": true },
+        { "text": "Synthèse du collagène", "is_correct": false },
+        { "text": "Croissance osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NADH dans la chaîne respiratoire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le NADH transfère ses électrons aux complexes de la chaîne respiratoire pour produire de l'ATP.",
+      "answers": [
+        { "text": "Stocker du glucose", "is_correct": false },
+        { "text": "Transférer des électrons", "is_correct": true },
+        { "text": "Former des protéines", "is_correct": false },
+        { "text": "Fixer le CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est produite lors de la décarboxylation du pyruvate ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pyruvate est converti en acétyl-CoA, libérant du CO₂.",
+      "answers": [
+        { "text": "Lactate", "is_correct": false },
+        { "text": "Acétyl-CoA", "is_correct": true },
+        { "text": "Citrate", "is_correct": false },
+        { "text": "Malate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du citrate dans le cycle de Krebs ?",
+      "difficulty": "Moyen",
+      "explanation": "Le citrate est formé par la condensation de l'acétyl-CoA et de l'oxaloacétate.",
+      "answers": [
+        { "text": "Dernier intermédiaire", "is_correct": false },
+        {
+          "text": "Premier intermédiaire du cycle de Krebs",
+          "is_correct": true
+        },
+        { "text": "Molécule d'entrée du cycle", "is_correct": false },
+        { "text": "Résidu aminé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du NADPH dans la biosynthèse des acides gras ?",
+      "difficulty": "Difficile",
+      "explanation": "Le NADPH fournit le pouvoir réducteur nécessaire à la synthèse des acides gras.",
+      "answers": [
+        { "text": "Fournir de l'énergie directe", "is_correct": false },
+        { "text": "Fournir des électrons réducteurs", "is_correct": true },
+        { "text": "Transporter le CO₂", "is_correct": false },
+        { "text": "Hydrolyser l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme transforme le fructose-1,6-bisphosphate en deux trioses ?",
+      "difficulty": "Difficile",
+      "explanation": "L'aldolase coupe le fructose-1,6-bisphosphate en glycéraldéhyde-3-phosphate et dihydroxyacétone phosphate.",
+      "answers": [
+        { "text": "Hexokinase", "is_correct": false },
+        { "text": "Aldolase", "is_correct": true },
+        { "text": "Phosphofructokinase", "is_correct": false },
+        { "text": "Pyruvate kinase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe stocke principalement le glycogène chez l'humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie et les muscles sont les principaux sites de stockage du glycogène.",
+      "answers": [
+        { "text": "Cerveau", "is_correct": false },
+        { "text": "Foie", "is_correct": true },
+        { "text": "Poumon", "is_correct": false },
+        { "text": "Rein", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est responsable de la synthèse du glycogène ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycogène synthase catalyse la formation de liaisons α-1,4 entre les molécules de glucose.",
+      "answers": [
+        { "text": "Glycogénine", "is_correct": false },
+        { "text": "Glycogène synthase", "is_correct": true },
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Glucokinase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des lipides ?",
+      "difficulty": "Facile",
+      "explanation": "Les lipides servent de réserve d'énergie et participent à la formation des membranes.",
+      "answers": [
+        { "text": "Synthèse des protéines", "is_correct": false },
+        {
+          "text": "Réserve d'énergie et structure membranaire",
+          "is_correct": true
+        },
+        { "text": "Stockage du calcium", "is_correct": false },
+        { "text": "Transfert d'électrons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule donne la couleur rouge au sang ?",
+      "difficulty": "Facile",
+      "explanation": "C'est l'hémoglobine, contenant du fer, qui donne la couleur rouge au sang oxygéné.",
+      "answers": [
+        { "text": "Myoglobine", "is_correct": false },
+        { "text": "Hémoglobine", "is_correct": true },
+        { "text": "Hémocyanine", "is_correct": false },
+        { "text": "Ferritine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la structure tertiaire d'une protéine ?",
+      "difficulty": "Moyen",
+      "explanation": "C'est l'organisation tridimensionnelle complète d'une chaîne polypeptidique.",
+      "answers": [
+        { "text": "Séquence d'acides aminés", "is_correct": false },
+        { "text": "Structure tridimensionnelle", "is_correct": true },
+        { "text": "Assemblage de plusieurs sous-unités", "is_correct": false },
+        { "text": "Disposition locale des hélices", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le monomère des protéines ?",
+      "difficulty": "Facile",
+      "explanation": "Les protéines sont constituées d'acides aminés reliés entre eux par des liaisons peptidiques.",
+      "answers": [
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Acide aminé", "is_correct": true },
+        { "text": "Nucléotide", "is_correct": false },
+        { "text": "Acide gras", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la catalase ?",
+      "difficulty": "Moyen",
+      "explanation": "La catalase dégrade le peroxyde d'hydrogène (H₂O₂) en eau et oxygène.",
+      "answers": [
+        { "text": "Dégrade le glucose", "is_correct": false },
+        { "text": "Dégrade le peroxyde d'hydrogène", "is_correct": true },
+        { "text": "Synthétise l'ATP", "is_correct": false },
+        { "text": "Fixe le dioxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la base azotée complémentaire de la thymine dans l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Dans l'ADN, la thymine s'apparie avec l'adénine par deux liaisons hydrogène.",
+      "answers": [
+        { "text": "Guanine", "is_correct": false },
+        { "text": "Adénine", "is_correct": true },
+        { "text": "Cytosine", "is_correct": false },
+        { "text": "Uracile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du ribosome ?",
+      "difficulty": "Facile",
+      "explanation": "Le ribosome est le site de la traduction, c'est-à-dire de la synthèse des protéines à partir de l'ARN messager.",
+      "answers": [
+        { "text": "Répliquer l'ADN", "is_correct": false },
+        { "text": "Synthétiser les protéines", "is_correct": true },
+        { "text": "Produire de l'ATP", "is_correct": false },
+        { "text": "Dégrader les lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel élément chimique est central dans l'hème de l'hémoglobine ?",
+      "difficulty": "Facile",
+      "explanation": "Le fer (Fe²⁺) permet la fixation réversible de l'oxygène dans l'hémoglobine.",
+      "answers": [
+        { "text": "Cuivre", "is_correct": false },
+        { "text": "Fer", "is_correct": true },
+        { "text": "Magnésium", "is_correct": false },
+        { "text": "Zinc", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de réaction transforme l'amidon en glucose ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hydrolyse enzymatique dégrade les polymères comme l'amidon en monomères de glucose.",
+      "answers": [
+        { "text": "Oxydation", "is_correct": false },
+        { "text": "Hydrolyse", "is_correct": true },
+        { "text": "Condensation", "is_correct": false },
+        { "text": "Phosphorylation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé contient un groupement soufré ?",
+      "difficulty": "Moyen",
+      "explanation": "La cystéine contient un groupement thiol (-SH) qui forme des ponts disulfure dans les protéines.",
+      "answers": [
+        { "text": "Glycine", "is_correct": false },
+        { "text": "Cystéine", "is_correct": true },
+        { "text": "Alanine", "is_correct": false },
+        { "text": "Tyrosine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la phosphofructokinase dans la glycolyse ?",
+      "difficulty": "Difficile",
+      "explanation": "Elle catalyse la phosphorylation du fructose-6-phosphate en fructose-1,6-bisphosphate, étape clé régulatrice.",
+      "answers": [
+        { "text": "Première réaction de la glycolyse", "is_correct": false },
+        { "text": "Étape de régulation majeure", "is_correct": true },
+        { "text": "Dernière étape", "is_correct": false },
+        { "text": "Production de lactate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte les électrons dans la mitochondrie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coenzyme Q (ubiquinone) et le cytochrome C transportent les électrons dans la chaîne respiratoire.",
+      "answers": [
+        { "text": "ATP synthase", "is_correct": false },
+        { "text": "Cytochrome C", "is_correct": true },
+        { "text": "Acétyl-CoA", "is_correct": false },
+        { "text": "ADN mitochondrial", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction du cholestérol dans la membrane cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cholestérol régule la fluidité et la stabilité des membranes.",
+      "answers": [
+        { "text": "Rendre la membrane rigide", "is_correct": false },
+        { "text": "Réguler la fluidité membranaire", "is_correct": true },
+        { "text": "Transporter les lipides", "is_correct": false },
+        { "text": "Former les ribosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la formule chimique brute du glucose ?",
+      "difficulty": "Facile",
+      "explanation": "Le glucose est un hexose de formule C₆H₁₂O₆.",
+      "answers": [
+        { "text": "C₅H₁₀O₅", "is_correct": false },
+        { "text": "C₆H₁₂O₆", "is_correct": true },
+        { "text": "C₄H₈O₄", "is_correct": false },
+        { "text": "C₇H₁₄O₇", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la coenzyme NAD⁺ ?",
+      "difficulty": "Moyen",
+      "explanation": "Le NAD⁺ agit comme accepteur d'électrons dans de nombreuses réactions d'oxydoréduction.",
+      "answers": [
+        { "text": "Transport de CO₂", "is_correct": false },
+        { "text": "Accepteur d'électrons", "is_correct": true },
+        { "text": "Synthèse de glucose", "is_correct": false },
+        { "text": "Hydrolyse de l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme clive les triglycérides ?",
+      "difficulty": "Moyen",
+      "explanation": "La lipase hydrolyse les triglycérides en acides gras et glycérol.",
+      "answers": [
+        { "text": "Amylase", "is_correct": false },
+        { "text": "Lipase", "is_correct": true },
+        { "text": "Protéase", "is_correct": false },
+        { "text": "Lactase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du FAD dans la respiration cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le FAD capte des électrons et protons pour former FADH₂, utilisé dans la chaîne respiratoire.",
+      "answers": [
+        { "text": "Donneur de CO₂", "is_correct": false },
+        { "text": "Transporteur d'électrons", "is_correct": true },
+        { "text": "Enzyme catalytique", "is_correct": false },
+        { "text": "Stockage de glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ATP synthase ?",
+      "difficulty": "Moyen",
+      "explanation": "Elle utilise le gradient de protons à travers la membrane mitochondriale pour produire de l'ATP.",
+      "answers": [
+        { "text": "Casse l'ATP", "is_correct": false },
+        { "text": "Produit l'ATP", "is_correct": true },
+        { "text": "Dégrade les lipides", "is_correct": false },
+        { "text": "Fixe le glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est le principal lieu de la néoglucogenèse ?",
+      "difficulty": "Moyen",
+      "explanation": "La néoglucogenèse a lieu principalement dans le foie.",
+      "answers": [
+        { "text": "Rein", "is_correct": false },
+        { "text": "Foie", "is_correct": true },
+        { "text": "Cœur", "is_correct": false },
+        { "text": "Cerveau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du ribose dans les nucléotides ?",
+      "difficulty": "Facile",
+      "explanation": "Le ribose est le sucre constituant des nucléotides de l'ARN.",
+      "answers": [
+        { "text": "Former la base azotée", "is_correct": false },
+        { "text": "Former le squelette du nucléotide", "is_correct": true },
+        { "text": "Fournir de l'énergie", "is_correct": false },
+        { "text": "Transporter l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion est essentiel à l'activation de nombreuses enzymes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le magnésium (Mg²⁺) stabilise souvent les structures et participe à l'activité enzymatique.",
+      "answers": [
+        { "text": "Na⁺", "is_correct": false },
+        { "text": "Mg²⁺", "is_correct": true },
+        { "text": "Cl⁻", "is_correct": false },
+        { "text": "Fe³⁺", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de molécule est la trypsine ?",
+      "difficulty": "Facile",
+      "explanation": "La trypsine est une enzyme protéolytique du suc pancréatique.",
+      "answers": [
+        { "text": "Hormone", "is_correct": false },
+        { "text": "Enzyme protéase", "is_correct": true },
+        { "text": "Glucide", "is_correct": false },
+        { "text": "Vitamine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel acide aminé est le plus petit ?",
+      "difficulty": "Facile",
+      "explanation": "La glycine est le plus petit acide aminé, avec un hydrogène comme chaîne latérale.",
+      "answers": [
+        { "text": "Alanine", "is_correct": false },
+        { "text": "Glycine", "is_correct": true },
+        { "text": "Sérine", "is_correct": false },
+        { "text": "Valine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de réaction est catalysé par une oxydoréductase ?",
+      "difficulty": "Moyen",
+      "explanation": "Les oxydoréductases catalysent les réactions d'oxydation-réduction.",
+      "answers": [
+        { "text": "Hydrolyse", "is_correct": false },
+        { "text": "Oxydoréduction", "is_correct": true },
+        { "text": "Isomérisation", "is_correct": false },
+        { "text": "Condensation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des enzymes dans les réactions biochimiques ?",
+      "difficulty": "Facile",
+      "explanation": "Les enzymes accélèrent les réactions chimiques en abaissant l’énergie d’activation.",
+      "answers": [
+        { "text": "Elles ralentissent les réactions", "is_correct": false },
+        { "text": "Elles accélèrent les réactions", "is_correct": true },
+        { "text": "Elles consomment l’énergie", "is_correct": false },
+        { "text": "Elles remplacent les substrats", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale de la mitochondrie ?",
+      "difficulty": "Facile",
+      "explanation": "La mitochondrie est le siège de la respiration cellulaire et de la production d’ATP.",
+      "answers": [
+        { "text": "Stocker le calcium", "is_correct": false },
+        { "text": "Produire de l’ATP", "is_correct": true },
+        { "text": "Synthétiser les protéines", "is_correct": false },
+        { "text": "Dégrader les lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la glutamine dans le métabolisme ?",
+      "difficulty": "Moyen",
+      "explanation": "La glutamine transporte l’ammoniac sous forme non toxique et participe à la synthèse des nucléotides.",
+      "answers": [
+        { "text": "Transport du CO₂", "is_correct": false },
+        { "text": "Transport de l’ammoniac", "is_correct": true },
+        { "text": "Transport de l’oxygène", "is_correct": false },
+        { "text": "Stockage du fer", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison relie deux sucres dans un disaccharide ?",
+      "difficulty": "Facile",
+      "explanation": "Les sucres sont reliés par une liaison osidique (ou glycosidique).",
+      "answers": [
+        { "text": "Peptidique", "is_correct": false },
+        { "text": "Glycosidique", "is_correct": true },
+        { "text": "Hydrogène", "is_correct": false },
+        { "text": "Disulfure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la lactase ?",
+      "difficulty": "Facile",
+      "explanation": "La lactase hydrolyse le lactose en glucose et galactose.",
+      "answers": [
+        { "text": "Dégrade les protéines", "is_correct": false },
+        { "text": "Dégrade le lactose", "is_correct": true },
+        { "text": "Synthétise l’amidon", "is_correct": false },
+        { "text": "Hydrolyse les acides gras", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du glutathion dans la cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glutathion agit comme antioxydant et protège la cellule contre le stress oxydatif.",
+      "answers": [
+        { "text": "Hydrolyser les sucres", "is_correct": false },
+        { "text": "Agir comme antioxydant", "is_correct": true },
+        { "text": "Transporter l’oxygène", "is_correct": false },
+        { "text": "Synthétiser les lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale source d’énergie du cerveau humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le glucose est le carburant principal du cerveau, sauf en cas de jeûne prolongé où les corps cétoniques prennent le relais.",
+      "answers": [
+        { "text": "Acides gras", "is_correct": false },
+        { "text": "Glucose", "is_correct": true },
+        { "text": "Protéines", "is_correct": false },
+        { "text": "Vitamine C", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est formée lors de la phosphorylation du glucose ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glucose est converti en glucose-6-phosphate par la glucokinase ou l’hexokinase.",
+      "answers": [
+        { "text": "Fructose-6-phosphate", "is_correct": false },
+        { "text": "Glucose-6-phosphate", "is_correct": true },
+        { "text": "Pyruvate", "is_correct": false },
+        { "text": "Lactate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la biotine (vitamine B8) ?",
+      "difficulty": "Moyen",
+      "explanation": "La biotine agit comme coenzyme dans les réactions de carboxylation.",
+      "answers": [
+        { "text": "Transport des électrons", "is_correct": false },
+        { "text": "Cofacteur des carboxylases", "is_correct": true },
+        { "text": "Fixation du calcium", "is_correct": false },
+        { "text": "Dégradation des lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est principalement responsable de la détoxification métabolique ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie métabolise et élimine de nombreuses substances toxiques grâce à ses enzymes.",
+      "answers": [
+        { "text": "Rein", "is_correct": false },
+        { "text": "Foie", "is_correct": true },
+        { "text": "Cerveau", "is_correct": false },
+        { "text": "Rate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale de la vitamine C ?",
+      "difficulty": "Facile",
+      "explanation": "La vitamine C est un antioxydant et participe à la synthèse du collagène.",
+      "answers": [
+        { "text": "Production d’ATP", "is_correct": false },
+        {
+          "text": "Synthèse du collagène et rôle antioxydant",
+          "is_correct": true
+        },
+        { "text": "Fixation du fer dans l’hémoglobine", "is_correct": false },
+        { "text": "Hydrolyse du glucose", "is_correct": false }
+      ]
+    }
+  ]
+}
