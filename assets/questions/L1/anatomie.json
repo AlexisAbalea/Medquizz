@@ -946,6 +946,1315 @@
         { "text": "12 régions", "is_correct": false },
         { "text": "4 régions", "is_correct": false }
       ]
+    },
+    {
+      "question_text": "Quel os forme la partie latérale du crâne et contient l'oreille moyenne ?",
+      "difficulty": "Moyen",
+      "explanation": "L'os temporal forme la partie latérale et inférieure du crâne. Il contient les structures de l'oreille moyenne et interne.",
+      "answers": [
+        { "text": "L'os pariétal", "is_correct": false },
+        { "text": "L'os temporal", "is_correct": true },
+        { "text": "L'os sphénoïde", "is_correct": false },
+        { "text": "L'os occipital", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle valve cardiaque est située entre le ventricule droit et l'artère pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La valve pulmonaire (sigmoïde pulmonaire) se situe entre le ventricule droit et l'artère pulmonaire, empêchant le reflux du sang.",
+      "answers": [
+        { "text": "La valve tricuspide", "is_correct": false },
+        { "text": "La valve pulmonaire", "is_correct": true },
+        { "text": "La valve mitrale", "is_correct": false },
+        { "text": "La valve aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le muscle principal de la flexion de l'avant-bras ?",
+      "difficulty": "Facile",
+      "explanation": "Le biceps brachial est le principal muscle fléchisseur de l'avant-bras sur le bras. Il possède deux chefs : court et long.",
+      "answers": [
+        { "text": "Le triceps brachial", "is_correct": false },
+        { "text": "Le biceps brachial", "is_correct": true },
+        { "text": "Le brachial", "is_correct": false },
+        { "text": "Le deltoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments compose le sacrum adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sacrum est formé par la fusion de 5 vertèbres sacrées. Cette fusion se termine généralement vers 25-30 ans.",
+      "answers": [
+        { "text": "3 vertèbres", "is_correct": false },
+        { "text": "4 vertèbres", "is_correct": false },
+        { "text": "5 vertèbres", "is_correct": true },
+        { "text": "6 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du pancréas contient les îlots de Langerhans ?",
+      "difficulty": "Difficile",
+      "explanation": "Les îlots de Langerhans sont dispersés dans tout le pancréas, mais représentent le pancréas endocrine qui produit l'insuline et le glucagon.",
+      "answers": [
+        { "text": "La queue seulement", "is_correct": false },
+        { "text": "Tout le pancréas", "is_correct": true },
+        { "text": "La tête seulement", "is_correct": false },
+        { "text": "Le corps seulement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme la pommette ?",
+      "difficulty": "Facile",
+      "explanation": "L'os zygomatique (ou os malaire) forme la pommette et la partie latérale de l'orbite.",
+      "answers": [
+        { "text": "L'os maxillaire", "is_correct": false },
+        { "text": "L'os zygomatique", "is_correct": true },
+        { "text": "L'os nasal", "is_correct": false },
+        { "text": "L'os lacrymal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est palpable au poignet pour prendre le pouls ?",
+      "difficulty": "Facile",
+      "explanation": "L'artère radiale est située du côté latéral du poignet (côté du pouce) et est couramment utilisée pour prendre le pouls.",
+      "answers": [
+        { "text": "L'artère ulnaire", "is_correct": false },
+        { "text": "L'artère radiale", "is_correct": true },
+        { "text": "L'artère brachiale", "is_correct": false },
+        { "text": "L'artère cubitale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de métacarpiens possède chaque main ?",
+      "difficulty": "Facile",
+      "explanation": "Chaque main possède 5 os métacarpiens, un pour chaque doigt, numérotés de I à V du pouce vers l'auriculaire.",
+      "answers": [
+        { "text": "4 métacarpiens", "is_correct": false },
+        { "text": "5 métacarpiens", "is_correct": true },
+        { "text": "6 métacarpiens", "is_correct": false },
+        { "text": "8 métacarpiens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle membrane sépare la cavité thoracique de la cavité abdominale ?",
+      "difficulty": "Facile",
+      "explanation": "Le diaphragme est le muscle et membrane qui sépare les cavités thoracique et abdominale, jouant un rôle essentiel dans la respiration.",
+      "answers": [
+        { "text": "Le péritoine", "is_correct": false },
+        { "text": "Le diaphragme", "is_correct": true },
+        { "text": "La plèvre", "is_correct": false },
+        { "text": "Le médiastin", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'extension du bras ?",
+      "difficulty": "Moyen",
+      "explanation": "Le triceps brachial, situé à l'arrière du bras, est le principal muscle extenseur du coude. Il possède trois chefs.",
+      "answers": [
+        { "text": "Le biceps brachial", "is_correct": false },
+        { "text": "Le triceps brachial", "is_correct": true },
+        { "text": "Le deltoïde", "is_correct": false },
+        { "text": "Le brachial", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'intestin grêle suit immédiatement l'estomac ?",
+      "difficulty": "Facile",
+      "explanation": "Le duodénum est la première partie de l'intestin grêle, juste après le pylore de l'estomac. Il reçoit la bile et les sécrétions pancréatiques.",
+      "answers": [
+        { "text": "Le jéjunum", "is_correct": false },
+        { "text": "Le duodénum", "is_correct": true },
+        { "text": "L'iléon", "is_correct": false },
+        { "text": "Le côlon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de couches musculaires possède la paroi utérine ?",
+      "difficulty": "Moyen",
+      "explanation": "La paroi utérine possède trois couches : l'endomètre (muqueuse), le myomètre (muscle épais avec plusieurs couches) et le périmètre (séreuse).",
+      "answers": [
+        { "text": "2 couches", "is_correct": false },
+        { "text": "3 couches", "is_correct": true },
+        { "text": "4 couches", "is_correct": false },
+        { "text": "1 couche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf crânien contrôle les mouvements de la langue ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf hypoglosse (XII) innerve les muscles intrinsèques et extrinsèques de la langue, permettant ses mouvements.",
+      "answers": [
+        { "text": "Le nerf facial", "is_correct": false },
+        { "text": "Le nerf hypoglosse", "is_correct": true },
+        { "text": "Le nerf glossopharyngien", "is_correct": false },
+        { "text": "Le nerf vague", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure anatomique relie le fœtus au placenta ?",
+      "difficulty": "Facile",
+      "explanation": "Le cordon ombilical relie le fœtus au placenta, contenant deux artères ombilicales et une veine ombilicale pour les échanges.",
+      "answers": [
+        { "text": "L'amnios", "is_correct": false },
+        { "text": "Le cordon ombilical", "is_correct": true },
+        { "text": "Le chorion", "is_correct": false },
+        { "text": "La caduque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme l'arête du nez ?",
+      "difficulty": "Moyen",
+      "explanation": "Les os nasaux (os propres du nez), au nombre de deux, forment la partie supérieure de l'arête nasale. Le reste est cartilagineux.",
+      "answers": [
+        { "text": "L'os frontal", "is_correct": false },
+        { "text": "Les os nasaux", "is_correct": true },
+        { "text": "Le vomer", "is_correct": false },
+        { "text": "Le maxillaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de valves possède le cœur humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le cœur possède 4 valves : 2 valves auriculo-ventriculaires (tricuspide et mitrale) et 2 valves sigmoïdes (pulmonaire et aortique).",
+      "answers": [
+        { "text": "2 valves", "is_correct": false },
+        { "text": "3 valves", "is_correct": false },
+        { "text": "4 valves", "is_correct": true },
+        { "text": "6 valves", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme la partie charnue de la joue ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle buccinateur forme la paroi latérale de la cavité buccale. Il comprime les joues et aide à la mastication.",
+      "answers": [
+        { "text": "Le masséter", "is_correct": false },
+        { "text": "Le buccinateur", "is_correct": true },
+        { "text": "Le temporal", "is_correct": false },
+        { "text": "L'orbiculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la plus grande veine du corps humain ?",
+      "difficulty": "Moyen",
+      "explanation": "La veine cave inférieure est la plus grande veine du corps. Elle ramène le sang désoxygéné de la partie inférieure du corps vers l'oreillette droite.",
+      "answers": [
+        { "text": "La veine cave supérieure", "is_correct": false },
+        { "text": "La veine cave inférieure", "is_correct": true },
+        { "text": "La veine fémorale", "is_correct": false },
+        { "text": "La veine porte", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de parties compose l'aorte ?",
+      "difficulty": "Difficile",
+      "explanation": "L'aorte est divisée en 4 parties : l'aorte ascendante, la crosse aortique, l'aorte thoracique descendante et l'aorte abdominale.",
+      "answers": [
+        { "text": "2 parties", "is_correct": false },
+        { "text": "3 parties", "is_correct": false },
+        { "text": "4 parties", "is_correct": true },
+        { "text": "5 parties", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament maintient la tête du fémur dans l'acétabulum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le ligament rond de la tête fémorale relie la tête du fémur au fond de l'acétabulum. Il contient l'artère du ligament rond.",
+      "answers": [
+        { "text": "Le ligament croisé", "is_correct": false },
+        { "text": "Le ligament rond", "is_correct": true },
+        { "text": "Le ligament collatéral", "is_correct": false },
+        { "text": "Le ligament inguinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande sécrète les larmes ?",
+      "difficulty": "Facile",
+      "explanation": "La glande lacrymale, située dans l'angle supéro-externe de l'orbite, sécrète les larmes qui lubrifient et protègent la cornée.",
+      "answers": [
+        { "text": "La glande salivaire", "is_correct": false },
+        { "text": "La glande lacrymale", "is_correct": true },
+        { "text": "La glande de Meibomius", "is_correct": false },
+        { "text": "La glande thyroïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le plus grand muscle du corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "Le grand fessier (gluteus maximus) est le muscle le plus volumineux et le plus puissant du corps. Il permet l'extension de la hanche.",
+      "answers": [
+        { "text": "Le quadriceps", "is_correct": false },
+        { "text": "Le grand fessier", "is_correct": true },
+        { "text": "Le grand dorsal", "is_correct": false },
+        { "text": "Le triceps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de feuillets compose le péritoine ?",
+      "difficulty": "Moyen",
+      "explanation": "Le péritoine est une membrane séreuse composée de 2 feuillets : le péritoine pariétal (contre la paroi) et le péritoine viscéral (contre les organes).",
+      "answers": [
+        { "text": "1 feuillet", "is_correct": false },
+        { "text": "2 feuillets", "is_correct": true },
+        { "text": "3 feuillets", "is_correct": false },
+        { "text": "4 feuillets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf est responsable du réflexe pupillaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf optique (II) détecte la lumière et le nerf oculomoteur (III) innerve le sphincter pupillaire pour la constriction.",
+      "answers": [
+        { "text": "Le nerf facial", "is_correct": false },
+        { "text": "Le nerf oculomoteur", "is_correct": true },
+        { "text": "Le nerf trochléaire", "is_correct": false },
+        { "text": "Le nerf abducens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du cerveau relie les deux hémisphères au tronc cérébral ?",
+      "difficulty": "Moyen",
+      "explanation": "Le diencéphale (comprenant thalamus, hypothalamus, épithalamus) relie les hémisphères cérébraux au tronc cérébral.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "Le diencéphale", "is_correct": true },
+        { "text": "Le pont", "is_correct": false },
+        { "text": "Le bulbe rachidien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes possède la prostate ?",
+      "difficulty": "Moyen",
+      "explanation": "La prostate est classiquement divisée en 5 lobes : antérieur, postérieur, moyen et deux lobes latéraux.",
+      "answers": [
+        { "text": "2 lobes", "is_correct": false },
+        { "text": "3 lobes", "is_correct": false },
+        { "text": "4 lobes", "is_correct": false },
+        { "text": "5 lobes", "is_correct": true }
+      ]
+    },
+    {
+      "question_text": "Quel os forme le palais dur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le palais dur est formé par les processus palatins des os maxillaires (en avant) et les lames horizontales des os palatins (en arrière).",
+      "answers": [
+        { "text": "Le vomer", "is_correct": false },
+        { "text": "Le maxillaire et le palatin", "is_correct": true },
+        { "text": "La mandibule", "is_correct": false },
+        { "text": "Le sphénoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère alimente principalement l'intestin grêle ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère mésentérique supérieure irrigue l'intestin grêle, le cæcum et le côlon ascendant jusqu'au deux tiers du côlon transverse.",
+      "answers": [
+        { "text": "L'artère mésentérique inférieure", "is_correct": false },
+        { "text": "L'artère mésentérique supérieure", "is_correct": true },
+        { "text": "L'artère cœliaque", "is_correct": false },
+        { "text": "L'artère iliaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'abduction du bras ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle deltoïde, qui recouvre l'articulation de l'épaule, est le principal muscle abducteur du bras.",
+      "answers": [
+        { "text": "Le grand pectoral", "is_correct": false },
+        { "text": "Le deltoïde", "is_correct": true },
+        { "text": "Le trapèze", "is_correct": false },
+        { "text": "Le biceps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments compose le sternum du nouveau-né ?",
+      "difficulty": "Difficile",
+      "explanation": "Le sternum du nouveau-né est composé de plusieurs segments (sternèbres) qui fusionnent progressivement : le manubrium, le corps (4-5 segments) et le xiphoïde.",
+      "answers": [
+        { "text": "3 segments", "is_correct": false },
+        { "text": "6-7 segments", "is_correct": true },
+        { "text": "10 segments", "is_correct": false },
+        { "text": "12 segments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle membrane tapisse l'intérieur de l'utérus ?",
+      "difficulty": "Facile",
+      "explanation": "L'endomètre est la muqueuse qui tapisse la cavité utérine. Il s'épaissit durant le cycle menstruel et se détache lors des menstruations.",
+      "answers": [
+        { "text": "Le myomètre", "is_correct": false },
+        { "text": "L'endomètre", "is_correct": true },
+        { "text": "Le périmètre", "is_correct": false },
+        { "text": "L'épithélium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme l'articulation avec l'atlas ?",
+      "difficulty": "Moyen",
+      "explanation": "L'os occipital du crâne s'articule avec l'atlas (C1) au niveau des condyles occipitaux, formant l'articulation atlanto-occipitale.",
+      "answers": [
+        { "text": "L'axis", "is_correct": false },
+        { "text": "L'os occipital", "is_correct": true },
+        { "text": "L'os temporal", "is_correct": false },
+        { "text": "La mandibule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du système nerveux comprend les ganglions ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ganglions (amas de corps cellulaires neuronaux) se trouvent dans le système nerveux périphérique, contrairement aux noyaux du SNC.",
+      "answers": [
+        { "text": "Le système nerveux central", "is_correct": false },
+        { "text": "Le système nerveux périphérique", "is_correct": true },
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "La moelle épinière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de muscles composent la loge antérieure de la jambe ?",
+      "difficulty": "Difficile",
+      "explanation": "La loge antérieure de la jambe contient 4 muscles : le tibial antérieur, l'extenseur commun des orteils, l'extenseur propre du gros orteil et le troisième fibulaire.",
+      "answers": [
+        { "text": "2 muscles", "is_correct": false },
+        { "text": "3 muscles", "is_correct": false },
+        { "text": "4 muscles", "is_correct": true },
+        { "text": "5 muscles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure du rein contient les corpuscules rénaux ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cortex rénal (partie périphérique du rein) contient les corpuscules rénaux (glomérule + capsule de Bowman).",
+      "answers": [
+        { "text": "La médullaire", "is_correct": false },
+        { "text": "Le cortex", "is_correct": true },
+        { "text": "Le bassinet", "is_correct": false },
+        { "text": "Le calice", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle ferme l'œil ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle orbiculaire de l'œil (orbicularis oculi) entoure l'œil et permet la fermeture des paupières.",
+      "answers": [
+        { "text": "Le muscle droit supérieur", "is_correct": false },
+        { "text": "L'orbiculaire de l'œil", "is_correct": true },
+        { "text": "Le releveur de la paupière", "is_correct": false },
+        { "text": "Le muscle oblique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de chambres possède le cœur d'un reptile ?",
+      "difficulty": "Moyen",
+      "explanation": "Question piège : le cœur humain (et non reptile) possède 4 chambres. La plupart des reptiles ont 3 chambres (2 oreillettes, 1 ventricule partiellement divisé).",
+      "answers": [
+        { "text": "2 chambres", "is_correct": false },
+        { "text": "3 chambres", "is_correct": true },
+        { "text": "4 chambres", "is_correct": false },
+        { "text": "5 chambres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine ramène le sang de la tête vers le cœur ?",
+      "difficulty": "Facile",
+      "explanation": "Les veines jugulaires (interne et externe) ramènent le sang désoxygéné de la tête et du cou vers la veine cave supérieure.",
+      "answers": [
+        { "text": "La veine cave inférieure", "is_correct": false },
+        { "text": "La veine jugulaire", "is_correct": true },
+        { "text": "La veine porte", "is_correct": false },
+        { "text": "La veine fémorale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme l'épine dorsale du nez (cloison nasale) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le vomer est un os impair qui forme la partie postéro-inférieure de la cloison nasale (septum nasal).",
+      "answers": [
+        { "text": "L'ethmoïde", "is_correct": false },
+        { "text": "Le vomer", "is_correct": true },
+        { "text": "Le maxillaire", "is_correct": false },
+        { "text": "Le sphénoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du cerveau contrôle les fonctions vitales comme la respiration ?",
+      "difficulty": "Moyen",
+      "explanation": "Le bulbe rachidien (medulla oblongata), partie inférieure du tronc cérébral, contrôle les fonctions vitales : respiration, rythme cardiaque, pression artérielle.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "Le bulbe rachidien", "is_correct": true },
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Le cortex cérébral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de faces possède le fémur ?",
+      "difficulty": "Difficile",
+      "explanation": "Le corps (diaphyse) du fémur possède 3 faces : antérieure, postéro-médiale et postéro-latérale, séparées par 3 bords.",
+      "answers": [
+        { "text": "2 faces", "is_correct": false },
+        { "text": "3 faces", "is_correct": true },
+        { "text": "4 faces", "is_correct": false },
+        { "text": "5 faces", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament relie les vertèbres entre elles sur toute la longueur de la colonne ?",
+      "difficulty": "Difficile",
+      "explanation": "Le ligament longitudinal antérieur et le ligament longitudinal postérieur relient les corps vertébraux entre eux sur toute la longueur de la colonne.",
+      "answers": [
+        { "text": "Le ligament jaune", "is_correct": false },
+        { "text": "Le ligament longitudinal", "is_correct": true },
+        { "text": "Le ligament interépineux", "is_correct": false },
+        { "text": "Le ligament nuchal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande produit la salive dans la bouche ?",
+      "difficulty": "Facile",
+      "explanation": "Les glandes salivaires principales sont : les glandes parotides, sous-maxillaires (submandibulaires) et sublinguales qui produisent la salive.",
+      "answers": [
+        { "text": "La thyroïde", "is_correct": false },
+        { "text": "Les glandes salivaires", "is_correct": true },
+        { "text": "Le pancréas", "is_correct": false },
+        { "text": "Les amygdales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le plus petit muscle du corps humain ?",
+      "difficulty": "Difficile",
+      "explanation": "Le muscle stapédien (muscle de l'étrier), dans l'oreille moyenne, est le plus petit muscle du corps. Il protège l'oreille interne des sons trop forts.",
+      "answers": [
+        { "text": "Le muscle ciliaire", "is_correct": false },
+        { "text": "Le muscle stapédien", "is_correct": true },
+        { "text": "Le muscle orbiculaire", "is_correct": false },
+        { "text": "Le muscle styloïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de bourses séreuses possède l'articulation du genou ?",
+      "difficulty": "Difficile",
+      "explanation": "L'articulation du genou possède environ 13 bourses séreuses qui réduisent les frictions entre les structures. Les principales sont pré-patellaire, infra-patellaire et suprapatellaire.",
+      "answers": [
+        { "text": "5 bourses", "is_correct": false },
+        { "text": "8 bourses", "is_correct": false },
+        { "text": "13 bourses", "is_correct": true },
+        { "text": "20 bourses", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de la dent est visible dans la cavité buccale ?",
+      "difficulty": "Facile",
+      "explanation": "La couronne dentaire est la partie visible de la dent au-dessus de la gencive, recouverte d'émail.",
+      "answers": [
+        { "text": "La racine", "is_correct": false },
+        { "text": "La couronne", "is_correct": true },
+        { "text": "Le collet", "is_correct": false },
+        { "text": "La pulpe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle grand pectoral ?",
+      "difficulty": "Difficile",
+      "explanation": "Les nerfs pectoraux latéral et médial (issus du plexus brachial) innervent le muscle grand pectoral.",
+      "answers": [
+        { "text": "Le nerf radial", "is_correct": false },
+        { "text": "Les nerfs pectoraux", "is_correct": true },
+        { "text": "Le nerf ulnaire", "is_correct": false },
+        { "text": "Le nerf axillaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'os composent le squelette humain adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "Le squelette humain adulte est composé de 206 os. À la naissance, il y a environ 270 os qui fusionnent progressivement.",
+      "answers": [
+        { "text": "206 os", "is_correct": true },
+        { "text": "198 os", "is_correct": false },
+        { "text": "215 os", "is_correct": false },
+        { "text": "180 os", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la rotation de la tête ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle sterno-cléido-mastoïdien permet la rotation de la tête du côté opposé et l'inclinaison latérale du même côté.",
+      "answers": [
+        { "text": "Le trapèze", "is_correct": false },
+        { "text": "Le sterno-cléido-mastoïdien", "is_correct": true },
+        { "text": "Le splénius", "is_correct": false },
+        { "text": "Le scalène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la deuxième vertèbre cervicale ?",
+      "difficulty": "Facile",
+      "explanation": "L'axis (C2) est la deuxième vertèbre cervicale. Elle possède une apophyse odontoïde qui s'articule avec l'atlas.",
+      "answers": [
+        { "text": "L'atlas", "is_correct": false },
+        { "text": "L'axis", "is_correct": true },
+        { "text": "La C3", "is_correct": false },
+        { "text": "La C7", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os du carpe est le plus fréquemment fracturé ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scaphoïde est l'os du carpe le plus fréquemment fracturé, notamment lors de chutes sur la main tendue.",
+      "answers": [
+        { "text": "Le lunatum", "is_correct": false },
+        { "text": "Le scaphoïde", "is_correct": true },
+        { "text": "Le capitatum", "is_correct": false },
+        { "text": "Le trapèze", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le membre supérieur ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère subclavière devient artère axillaire puis artère brachiale pour irriguer le membre supérieur.",
+      "answers": [
+        { "text": "L'artère fémorale", "is_correct": false },
+        { "text": "L'artère subclavière", "is_correct": true },
+        { "text": "L'artère iliaque", "is_correct": false },
+        { "text": "L'artère mésentérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de compartiments contient le médiastin ?",
+      "difficulty": "Difficile",
+      "explanation": "Le médiastin est divisé en 4 compartiments : antérieur, moyen (contenant le cœur), postérieur et supérieur.",
+      "answers": [
+        { "text": "2 compartiments", "is_correct": false },
+        { "text": "3 compartiments", "is_correct": false },
+        { "text": "4 compartiments", "is_correct": true },
+        { "text": "5 compartiments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme le plancher de la bouche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle mylo-hyoïdien forme le plancher de la bouche et soutient la langue.",
+      "answers": [
+        { "text": "Le génio-hyoïdien", "is_correct": false },
+        { "text": "Le mylo-hyoïdien", "is_correct": true },
+        { "text": "Le digastrique", "is_correct": false },
+        { "text": "Le stylo-hyoïdien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure contient la moelle osseuse rouge chez l'adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "Chez l'adulte, la moelle osseuse rouge se trouve principalement dans les os plats (sternum, côtes, bassin) et les épiphyses des os longs.",
+      "answers": [
+        { "text": "Les diaphyses des os longs", "is_correct": false },
+        { "text": "Les os plats et épiphyses", "is_correct": true },
+        { "text": "Les phalanges", "is_correct": false },
+        { "text": "Les métacarpiens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf peut être comprimé dans le canal carpien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf médian traverse le canal carpien et peut être comprimé, causant le syndrome du canal carpien.",
+      "answers": [
+        { "text": "Le nerf ulnaire", "is_correct": false },
+        { "text": "Le nerf médian", "is_correct": true },
+        { "text": "Le nerf radial", "is_correct": false },
+        { "text": "Le nerf axillaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments compose le coccyx ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coccyx est formé par la fusion de 3 à 5 vertèbres coccygiennes (généralement 4).",
+      "answers": [
+        { "text": "2 vertèbres", "is_correct": false },
+        { "text": "3-5 vertèbres", "is_correct": true },
+        { "text": "6 vertèbres", "is_correct": false },
+        { "text": "1 vertèbre", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament croisé empêche le déplacement antérieur du tibia ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ligament croisé antérieur (LCA) empêche le déplacement antérieur du tibia par rapport au fémur.",
+      "answers": [
+        { "text": "Le ligament croisé postérieur", "is_correct": false },
+        { "text": "Le ligament croisé antérieur", "is_correct": true },
+        { "text": "Le ligament collatéral médial", "is_correct": false },
+        { "text": "Le ligament patellaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande entoure l'urètre masculin ?",
+      "difficulty": "Facile",
+      "explanation": "La prostate entoure la partie initiale de l'urètre masculin, juste sous la vessie.",
+      "answers": [
+        { "text": "Les vésicules séminales", "is_correct": false },
+        { "text": "La prostate", "is_correct": true },
+        { "text": "Les glandes de Cowper", "is_correct": false },
+        { "text": "L'épididyme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme l'angle de la mâchoire ?",
+      "difficulty": "Facile",
+      "explanation": "La mandibule forme l'angle de la mâchoire au niveau de la jonction entre le corps et la branche montante.",
+      "answers": [
+        { "text": "Le maxillaire", "is_correct": false },
+        { "text": "La mandibule", "is_correct": true },
+        { "text": "L'os temporal", "is_correct": false },
+        { "text": "L'os zygomatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de racines possède le plexus brachial ?",
+      "difficulty": "Difficile",
+      "explanation": "Le plexus brachial est formé par 5 racines nerveuses : C5, C6, C7, C8 et T1.",
+      "answers": [
+        { "text": "3 racines", "is_correct": false },
+        { "text": "4 racines", "is_correct": false },
+        { "text": "5 racines", "is_correct": true },
+        { "text": "6 racines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme le contour de l'aisselle en arrière ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle grand dorsal forme la paroi postérieure du creux axillaire (aisselle).",
+      "answers": [
+        { "text": "Le grand pectoral", "is_correct": false },
+        { "text": "Le grand dorsal", "is_correct": true },
+        { "text": "Le deltoïde", "is_correct": false },
+        { "text": "Le trapèze", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du foramen ovale du cœur fœtal ?",
+      "difficulty": "Difficile",
+      "explanation": "Le foramen ovale permet le passage du sang de l'oreillette droite vers l'oreillette gauche chez le fœtus, court-circuitant les poumons.",
+      "answers": [
+        { "text": "Oxygéner le sang", "is_correct": false },
+        { "text": "Court-circuiter les poumons", "is_correct": true },
+        { "text": "Séparer les ventricules", "is_correct": false },
+        { "text": "Réguler la pression", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os s'articule avec tous les autres os du crâne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'os sphénoïde, en forme de papillon, s'articule avec tous les autres os du crâne et forme la base du crâne.",
+      "answers": [
+        { "text": "L'os frontal", "is_correct": false },
+        { "text": "L'os sphénoïde", "is_correct": true },
+        { "text": "L'os occipital", "is_correct": false },
+        { "text": "L'os ethmoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'estomac se trouve près de l'œsophage ?",
+      "difficulty": "Facile",
+      "explanation": "Le cardia est la partie supérieure de l'estomac, près de la jonction œsophago-gastrique.",
+      "answers": [
+        { "text": "Le pylore", "is_correct": false },
+        { "text": "Le cardia", "is_correct": true },
+        { "text": "Le fundus", "is_correct": false },
+        { "text": "L'antre", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de côtes flottantes possède l'être humain ?",
+      "difficulty": "Moyen",
+      "explanation": "L'être humain possède 4 côtes flottantes (2 paires) : les 11ème et 12ème paires qui ne s'attachent pas au sternum.",
+      "answers": [
+        { "text": "2 côtes", "is_correct": false },
+        { "text": "4 côtes", "is_correct": true },
+        { "text": "6 côtes", "is_correct": false },
+        { "text": "8 côtes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle sépare l'abdomen du thorax ?",
+      "difficulty": "Facile",
+      "explanation": "Le diaphragme est le muscle en forme de dôme qui sépare la cavité thoracique de la cavité abdominale.",
+      "answers": [
+        { "text": "Le transverse", "is_correct": false },
+        { "text": "Le diaphragme", "is_correct": true },
+        { "text": "Les intercostaux", "is_correct": false },
+        { "text": "Le grand droit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère naît directement de l'aorte abdominale pour irriguer les reins ?",
+      "difficulty": "Moyen",
+      "explanation": "Les artères rénales naissent directement de l'aorte abdominale au niveau de L1-L2 pour irriguer les reins.",
+      "answers": [
+        { "text": "L'artère iliaque", "is_correct": false },
+        { "text": "L'artère rénale", "is_correct": true },
+        { "text": "L'artère mésentérique", "is_correct": false },
+        { "text": "L'artère lombaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de tubercules possède l'humérus ?",
+      "difficulty": "Moyen",
+      "explanation": "L'humérus possède 2 tubercules (tubérosités) : le tubercule majeur (trochiter) et le tubercule mineur (trochin).",
+      "answers": [
+        { "text": "1 tubercule", "is_correct": false },
+        { "text": "2 tubercules", "is_correct": true },
+        { "text": "3 tubercules", "is_correct": false },
+        { "text": "4 tubercules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le diaphragme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf phrénique (C3-C4-C5) innerve le diaphragme. Une lésion de ce nerf paralyse le diaphragme.",
+      "answers": [
+        { "text": "Le nerf vague", "is_correct": false },
+        { "text": "Le nerf phrénique", "is_correct": true },
+        { "text": "Le nerf intercostal", "is_correct": false },
+        { "text": "Le nerf accessoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du pancréas est la plus proche du duodénum ?",
+      "difficulty": "Moyen",
+      "explanation": "La tête du pancréas est enchâssée dans la courbure du duodénum (cadre duodénal).",
+      "answers": [
+        { "text": "La queue", "is_correct": false },
+        { "text": "La tête", "is_correct": true },
+        { "text": "Le corps", "is_correct": false },
+        { "text": "Le col", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os du tarse s'articule avec le tibia et la fibula ?",
+      "difficulty": "Moyen",
+      "explanation": "Le talus (ou astragale) s'articule avec le tibia et la fibula pour former l'articulation de la cheville.",
+      "answers": [
+        { "text": "Le calcanéus", "is_correct": false },
+        { "text": "Le talus", "is_correct": true },
+        { "text": "Le naviculaire", "is_correct": false },
+        { "text": "Le cuboïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes possède le poumon gauche ?",
+      "difficulty": "Facile",
+      "explanation": "Le poumon gauche possède 2 lobes (supérieur et inférieur), contrairement au poumon droit qui en a 3.",
+      "answers": [
+        { "text": "2 lobes", "is_correct": true },
+        { "text": "3 lobes", "is_correct": false },
+        { "text": "4 lobes", "is_correct": false },
+        { "text": "1 lobe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle fléchit la hanche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle psoas-iliaque est le principal fléchisseur de la hanche. Il permet de rapprocher la cuisse du tronc.",
+      "answers": [
+        { "text": "Le grand fessier", "is_correct": false },
+        { "text": "Le psoas-iliaque", "is_correct": true },
+        { "text": "Le quadriceps", "is_correct": false },
+        { "text": "Le piriforme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle membrane entoure chaque fibre musculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "L'endomysium est la fine membrane de tissu conjonctif qui entoure chaque fibre musculaire individuelle.",
+      "answers": [
+        { "text": "L'épimysium", "is_correct": false },
+        { "text": "L'endomysium", "is_correct": true },
+        { "text": "Le périmysium", "is_correct": false },
+        { "text": "Le fascia", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme la protubérance du coude ?",
+      "difficulty": "Facile",
+      "explanation": "L'olécrâne, processus de l'ulna (cubitus), forme la protubérance osseuse du coude.",
+      "answers": [
+        { "text": "L'épicondyle", "is_correct": false },
+        { "text": "L'olécrâne", "is_correct": true },
+        { "text": "La tête radiale", "is_correct": false },
+        { "text": "L'apophyse coronoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de sillons principaux divise le cerveau ?",
+      "difficulty": "Moyen",
+      "explanation": "Les principaux sillons cérébraux sont : le sillon central (Rolando), le sillon latéral (Sylvius) et le sillon pariéto-occipital.",
+      "answers": [
+        { "text": "2 sillons", "is_correct": false },
+        { "text": "3 sillons", "is_correct": true },
+        { "text": "4 sillons", "is_correct": false },
+        { "text": "5 sillons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel conduit relie la vessie à l'extérieur ?",
+      "difficulty": "Facile",
+      "explanation": "L'urètre est le conduit qui transporte l'urine de la vessie vers l'extérieur. Il est plus long chez l'homme.",
+      "answers": [
+        { "text": "L'uretère", "is_correct": false },
+        { "text": "L'urètre", "is_correct": true },
+        { "text": "Le néphron", "is_correct": false },
+        { "text": "Le bassinet", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du tube digestif absorbe le plus de nutriments ?",
+      "difficulty": "Moyen",
+      "explanation": "Le jéjunum, deuxième partie de l'intestin grêle, est le principal site d'absorption des nutriments.",
+      "answers": [
+        { "text": "L'estomac", "is_correct": false },
+        { "text": "Le jéjunum", "is_correct": true },
+        { "text": "Le duodénum", "is_correct": false },
+        { "text": "Le côlon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la protrusion de la langue ?",
+      "difficulty": "Difficile",
+      "explanation": "Le muscle génio-glosse, innervé par le nerf hypoglosse, permet la protrusion (sortie) de la langue.",
+      "answers": [
+        { "text": "Le stylo-glosse", "is_correct": false },
+        { "text": "Le génio-glosse", "is_correct": true },
+        { "text": "L'hyo-glosse", "is_correct": false },
+        { "text": "Le palato-glosse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de couches compose la paroi du cœur ?",
+      "difficulty": "Moyen",
+      "explanation": "La paroi du cœur est composée de 3 couches : l'endocarde (interne), le myocarde (muscle) et l'épicarde (externe).",
+      "answers": [
+        { "text": "2 couches", "is_correct": false },
+        { "text": "3 couches", "is_correct": true },
+        { "text": "4 couches", "is_correct": false },
+        { "text": "5 couches", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme le talon ?",
+      "difficulty": "Facile",
+      "explanation": "Le calcanéus (ou calcanéum) est l'os qui forme le talon. C'est le plus grand os du tarse.",
+      "answers": [
+        { "text": "Le talus", "is_correct": false },
+        { "text": "Le calcanéus", "is_correct": true },
+        { "text": "Le cuboïde", "is_correct": false },
+        { "text": "Le naviculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère pulse au niveau du pli de l'aine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère fémorale pulse au niveau du pli de l'aine, juste sous le ligament inguinal.",
+      "answers": [
+        { "text": "L'artère iliaque", "is_correct": false },
+        { "text": "L'artère fémorale", "is_correct": true },
+        { "text": "L'artère poplitée", "is_correct": false },
+        { "text": "L'artère tibiale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes compose chaque hémisphère cérébral ?",
+      "difficulty": "Moyen",
+      "explanation": "Chaque hémisphère cérébral est divisé en 4 lobes : frontal, pariétal, temporal et occipital.",
+      "answers": [
+        { "text": "3 lobes", "is_correct": false },
+        { "text": "4 lobes", "is_correct": true },
+        { "text": "5 lobes", "is_correct": false },
+        { "text": "6 lobes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf permet la sensibilité de la face ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf trijumeau (V) assure la sensibilité de la face par ses trois branches : ophtalmique, maxillaire et mandibulaire.",
+      "answers": [
+        { "text": "Le nerf facial", "is_correct": false },
+        { "text": "Le nerf trijumeau", "is_correct": true },
+        { "text": "Le nerf vague", "is_correct": false },
+        { "text": "Le nerf glossopharyngien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure anatomique produit le liquide synovial ?",
+      "difficulty": "Moyen",
+      "explanation": "La membrane synoviale, qui tapisse l'intérieur de la capsule articulaire, produit le liquide synovial lubrifiant.",
+      "answers": [
+        { "text": "Le cartilage", "is_correct": false },
+        { "text": "La membrane synoviale", "is_correct": true },
+        { "text": "Les ligaments", "is_correct": false },
+        { "text": "L'os spongieux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de muscles contrôlent les mouvements des yeux ?",
+      "difficulty": "Facile",
+      "explanation": "Six muscles extrinsèques contrôlent les mouvements de chaque œil : 4 droits et 2 obliques.",
+      "answers": [
+        { "text": "4 muscles", "is_correct": false },
+        { "text": "6 muscles", "is_correct": true },
+        { "text": "8 muscles", "is_correct": false },
+        { "text": "10 muscles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os de l'avant-bras est du côté du petit doigt ?",
+      "difficulty": "Facile",
+      "explanation": "L'ulna (ou cubitus) est l'os de l'avant-bras situé du côté médial (petit doigt).",
+      "answers": [
+        { "text": "Le radius", "is_correct": false },
+        { "text": "L'ulna", "is_correct": true },
+        { "text": "L'humérus", "is_correct": false },
+        { "text": "Le carpe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle valve empêche le reflux du sang de l'aorte vers le ventricule gauche ?",
+      "difficulty": "Moyen",
+      "explanation": "La valve aortique (sigmoïde aortique) empêche le reflux du sang de l'aorte vers le ventricule gauche lors de la diastole.",
+      "answers": [
+        { "text": "La valve mitrale", "is_correct": false },
+        { "text": "La valve aortique", "is_correct": true },
+        { "text": "La valve tricuspide", "is_correct": false },
+        { "text": "La valve pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de chambres possède le sinus veineux du cœur fœtal ?",
+      "difficulty": "Difficile",
+      "explanation": "Le sinus veineux est une structure embryonnaire qui s'incorpore dans l'oreillette droite. C'est une chambre unique chez le fœtus.",
+      "answers": [
+        { "text": "1 chambre", "is_correct": true },
+        { "text": "2 chambres", "is_correct": false },
+        { "text": "3 chambres", "is_correct": false },
+        { "text": "4 chambres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme la partie latérale de la paroi abdominale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle oblique externe (grand oblique) forme la couche superficielle de la paroi abdominale latérale.",
+      "answers": [
+        { "text": "Le grand droit", "is_correct": false },
+        { "text": "L'oblique externe", "is_correct": true },
+        { "text": "Le transverse", "is_correct": false },
+        { "text": "Le carré des lombes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du cerveau coordonne les mouvements ?",
+      "difficulty": "Facile",
+      "explanation": "Le cervelet coordonne les mouvements, maintient l'équilibre et le tonus musculaire.",
+      "answers": [
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Le cervelet", "is_correct": true },
+        { "text": "L'hypothalamus", "is_correct": false },
+        { "text": "Le tronc cérébral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de branches principales possède l'aorte thoracique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'aorte thoracique donne de nombreuses branches : artères bronchiques, œsophagiennes, intercostales postérieures et phréniques supérieures.",
+      "answers": [
+        { "text": "3 types", "is_correct": false },
+        { "text": "4 types", "is_correct": true },
+        { "text": "5 types", "is_correct": false },
+        { "text": "2 types", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme l'orbite de l'œil ?",
+      "difficulty": "Difficile",
+      "explanation": "L'orbite est formée par 7 os : frontal, zygomatique, maxillaire, lacrymal, ethmoïde, sphénoïde et palatin.",
+      "answers": [
+        { "text": "5 os", "is_correct": false },
+        { "text": "7 os", "is_correct": true },
+        { "text": "9 os", "is_correct": false },
+        { "text": "3 os", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure relie le muscle au squelette ?",
+      "difficulty": "Facile",
+      "explanation": "Le tendon est une structure de tissu conjonctif dense qui relie le muscle à l'os.",
+      "answers": [
+        { "text": "Le ligament", "is_correct": false },
+        { "text": "Le tendon", "is_correct": true },
+        { "text": "Le cartilage", "is_correct": false },
+        { "text": "L'aponévrose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres sacrées se fusionnent pour former le sacrum ?",
+      "difficulty": "Facile",
+      "explanation": "Le sacrum est formé par la fusion de 5 vertèbres sacrées (S1 à S5) à l'âge adulte.",
+      "answers": [
+        { "text": "3 vertèbres", "is_correct": false },
+        { "text": "5 vertèbres", "is_correct": true },
+        { "text": "7 vertèbres", "is_correct": false },
+        { "text": "4 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle deltoïde ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf axillaire (ou circonflexe) innerve le muscle deltoïde et le petit rond. Une lésion cause l'impossibilité d'abduction du bras.",
+      "answers": [
+        { "text": "Le nerf radial", "is_correct": false },
+        { "text": "Le nerf axillaire", "is_correct": true },
+        { "text": "Le nerf musculo-cutané", "is_correct": false },
+        { "text": "Le nerf ulnaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure sépare les deux ventricules du cœur ?",
+      "difficulty": "Facile",
+      "explanation": "Le septum interventriculaire est la paroi musculaire qui sépare les ventricules droit et gauche.",
+      "answers": [
+        { "text": "Le septum interauriculaire", "is_correct": false },
+        { "text": "Le septum interventriculaire", "is_correct": true },
+        { "text": "Le péricarde", "is_correct": false },
+        { "text": "La valve", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de phalanges possède le pouce ?",
+      "difficulty": "Facile",
+      "explanation": "Le pouce possède 2 phalanges (proximale et distale), contrairement aux autres doigts qui en ont 3.",
+      "answers": [
+        { "text": "2 phalanges", "is_correct": true },
+        { "text": "3 phalanges", "is_correct": false },
+        { "text": "1 phalange", "is_correct": false },
+        { "text": "4 phalanges", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe stocke la bile ?",
+      "difficulty": "Facile",
+      "explanation": "La vésicule biliaire stocke et concentre la bile produite par le foie avant de la libérer dans le duodénum.",
+      "answers": [
+        { "text": "Le foie", "is_correct": false },
+        { "text": "La vésicule biliaire", "is_correct": true },
+        { "text": "Le pancréas", "is_correct": false },
+        { "text": "La rate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le cervelet ?",
+      "difficulty": "Difficile",
+      "explanation": "Les artères cérébelleuses (supérieure, moyenne et postéro-inférieure) irriguent le cervelet. Elles naissent du système vertébro-basilaire.",
+      "answers": [
+        { "text": "L'artère cérébrale", "is_correct": false },
+        { "text": "L'artère cérébelleuse", "is_correct": true },
+        { "text": "L'artère carotide", "is_correct": false },
+        { "text": "L'artère basilaire seule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de dents de lait possède un enfant ?",
+      "difficulty": "Facile",
+      "explanation": "Un enfant possède 20 dents de lait (temporaires ou déciduale) : 8 incisives, 4 canines et 8 molaires.",
+      "answers": [
+        { "text": "16 dents", "is_correct": false },
+        { "text": "20 dents", "is_correct": true },
+        { "text": "24 dents", "is_correct": false },
+        { "text": "32 dents", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la flexion du genou ?",
+      "difficulty": "Facile",
+      "explanation": "Les muscles ischio-jambiers (biceps fémoral, semi-tendineux, semi-membraneux) permettent la flexion du genou.",
+      "answers": [
+        { "text": "Le quadriceps", "is_correct": false },
+        { "text": "Les ischio-jambiers", "is_correct": true },
+        { "text": "Le triceps sural", "is_correct": false },
+        { "text": "Les adducteurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'œil contrôle la quantité de lumière entrante ?",
+      "difficulty": "Facile",
+      "explanation": "L'iris contrôle la quantité de lumière qui entre dans l'œil en modifiant le diamètre de la pupille.",
+      "answers": [
+        { "text": "La cornée", "is_correct": false },
+        { "text": "L'iris", "is_correct": true },
+        { "text": "Le cristallin", "is_correct": false },
+        { "text": "La rétine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de branches possède la trachée ?",
+      "difficulty": "Facile",
+      "explanation": "La trachée se divise en 2 bronches principales (droite et gauche) au niveau de la carène (bifurcation trachéale).",
+      "answers": [
+        { "text": "2 bronches", "is_correct": true },
+        { "text": "3 bronches", "is_correct": false },
+        { "text": "4 bronches", "is_correct": false },
+        { "text": "5 bronches", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'adduction de la cuisse ?",
+      "difficulty": "Moyen",
+      "explanation": "Les muscles adducteurs (long, court et grand adducteur) rapprochent la cuisse de la ligne médiane.",
+      "answers": [
+        { "text": "Le grand fessier", "is_correct": false },
+        { "text": "Les adducteurs", "is_correct": true },
+        { "text": "Le tenseur du fascia lata", "is_correct": false },
+        { "text": "Le quadriceps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du néphron réabsorbe le plus d'eau ?",
+      "difficulty": "Difficile",
+      "explanation": "Le tubule contourné proximal réabsorbe environ 65% de l'eau filtrée, ainsi que la majorité du glucose et des électrolytes.",
+      "answers": [
+        { "text": "Le glomérule", "is_correct": false },
+        { "text": "Le tubule proximal", "is_correct": true },
+        { "text": "L'anse de Henlé", "is_correct": false },
+        { "text": "Le tube collecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme la voûte palatine ?",
+      "difficulty": "Moyen",
+      "explanation": "Le palais osseux (voûte palatine) est formé par les processus palatins des maxillaires et les lames horizontales des palatins.",
+      "answers": [
+        { "text": "Le vomer", "is_correct": false },
+        { "text": "Le maxillaire et le palatin", "is_correct": true },
+        { "text": "Le sphénoïde", "is_correct": false },
+        { "text": "L'ethmoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de paires de glandes salivaires majeures possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'être humain possède 3 paires de glandes salivaires majeures : parotides, submandibulaires et sublinguales.",
+      "answers": [
+        { "text": "2 paires", "is_correct": false },
+        { "text": "3 paires", "is_correct": true },
+        { "text": "4 paires", "is_correct": false },
+        { "text": "5 paires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf crânien contrôle l'expression faciale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf facial (VII) innerve les muscles de l'expression faciale. Une paralysie faciale périphérique affecte ce nerf.",
+      "answers": [
+        { "text": "Le nerf trijumeau", "is_correct": false },
+        { "text": "Le nerf facial", "is_correct": true },
+        { "text": "Le nerf vague", "is_correct": false },
+        { "text": "Le nerf glossopharyngien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure anatomique contient les cordes vocales ?",
+      "difficulty": "Facile",
+      "explanation": "Le larynx contient les cordes vocales (plis vocaux) qui vibrent pour produire la voix.",
+      "answers": [
+        { "text": "Le pharynx", "is_correct": false },
+        { "text": "Le larynx", "is_correct": true },
+        { "text": "La trachée", "is_correct": false },
+        { "text": "L'œsophage", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de sinus maxillaires possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "L'être humain possède 2 sinus maxillaires (un de chaque côté), les plus grands des sinus paranasaux.",
+      "answers": [
+        { "text": "1 sinus", "is_correct": false },
+        { "text": "2 sinus", "is_correct": true },
+        { "text": "3 sinus", "is_correct": false },
+        { "text": "4 sinus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle effectue la plantarflexion du pied ?",
+      "difficulty": "Moyen",
+      "explanation": "Le triceps sural (gastrocnémiens et soléaire) effectue la plantarflexion du pied (se mettre sur la pointe des pieds).",
+      "answers": [
+        { "text": "Le tibial antérieur", "is_correct": false },
+        { "text": "Le triceps sural", "is_correct": true },
+        { "text": "Les fibulaires", "is_correct": false },
+        { "text": "L'extenseur des orteils", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du rein filtre le sang ?",
+      "difficulty": "Facile",
+      "explanation": "Le néphron, unité fonctionnelle du rein, filtre le sang au niveau du glomérule dans le corpuscule rénal.",
+      "answers": [
+        { "text": "Le bassinet", "is_correct": false },
+        { "text": "Le néphron", "is_correct": true },
+        { "text": "L'uretère", "is_correct": false },
+        { "text": "Le calice", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de couches compose l'épiderme ?",
+      "difficulty": "Difficile",
+      "explanation": "L'épiderme est composé de 5 couches (de la profondeur vers la surface) : basale, épineuse, granuleuse, claire et cornée.",
+      "answers": [
+        { "text": "3 couches", "is_correct": false },
+        { "text": "5 couches", "is_correct": true },
+        { "text": "7 couches", "is_correct": false },
+        { "text": "2 couches", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme l'articulation du genou avec le fémur ?",
+      "difficulty": "Facile",
+      "explanation": "Le tibia s'articule avec le fémur pour former l'articulation du genou. La fibula ne participe pas directement à cette articulation.",
+      "answers": [
+        { "text": "La fibula", "is_correct": false },
+        { "text": "Le tibia", "is_correct": true },
+        { "text": "La patella", "is_correct": false },
+        { "text": "Le talus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle membrane protège le cerveau et la moelle épinière ?",
+      "difficulty": "Facile",
+      "explanation": "Les méninges (dure-mère, arachnoïde et pie-mère) protègent le cerveau et la moelle épinière.",
+      "answers": [
+        { "text": "Le péricarde", "is_correct": false },
+        { "text": "Les méninges", "is_correct": true },
+        { "text": "La plèvre", "is_correct": false },
+        { "text": "Le péritoine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de cavités nasales possède le nez ?",
+      "difficulty": "Facile",
+      "explanation": "Le nez possède 2 cavités nasales séparées par le septum nasal (cloison).",
+      "answers": [
+        { "text": "1 cavité", "is_correct": false },
+        { "text": "2 cavités", "is_correct": true },
+        { "text": "3 cavités", "is_correct": false },
+        { "text": "4 cavités", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet de sourire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle risorius (muscle du sourire) étire les commissures labiales latéralement. Le zygomatique majeur élève aussi les commissures.",
+      "answers": [
+        { "text": "L'orbiculaire de la bouche", "is_correct": false },
+        { "text": "Le risorius", "is_correct": true },
+        { "text": "Le masséter", "is_correct": false },
+        { "text": "Le mentonnier", "is_correct": false }
+      ]
     }
   ]
 }

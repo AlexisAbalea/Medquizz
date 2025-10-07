@@ -6,10 +6,10 @@
       "difficulty": "Moyen",
       "explanation": "La voie intraveineuse (IV) est la plus rapide car le médicament est directement injecté dans la circulation sanguine, sans passer par l'absorption.",
       "answers": [
-        {"text": "Voie orale", "is_correct": false},
-        {"text": "Voie intraveineuse", "is_correct": true},
-        {"text": "Voie intramusculaire", "is_correct": false},
-        {"text": "Voie cutanée", "is_correct": false}
+        { "text": "Voie orale", "is_correct": false },
+        { "text": "Voie intraveineuse", "is_correct": true },
+        { "text": "Voie intramusculaire", "is_correct": false },
+        { "text": "Voie cutanée", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,2190 @@
       "difficulty": "Difficile",
       "explanation": "Un antagoniste est un médicament qui se lie à un récepteur sans l'activer, bloquant ainsi l'action de l'agoniste (la molécule qui active normalement le récepteur).",
       "answers": [
-        {"text": "Un médicament qui active un récepteur", "is_correct": false},
-        {"text": "Un médicament qui bloque un récepteur", "is_correct": true},
-        {"text": "Un médicament qui détruit un récepteur", "is_correct": false},
-        {"text": "Un médicament qui augmente le nombre de récepteurs", "is_correct": false}
+        {
+          "text": "Un médicament qui activate un récepteur",
+          "is_correct": false
+        },
+        { "text": "Un médicament qui bloque un récepteur", "is_correct": true },
+        {
+          "text": "Un médicament qui détruit un récepteur",
+          "is_correct": false
+        },
+        {
+          "text": "Un médicament qui augmente le nombre de récepteurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des bêta-bloquants ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-bloquants bloquent les récepteurs bêta-adrénergiques, réduisant ainsi les effets des catécholamines (adrénaline, noradrénaline) sur le cœur et les vaisseaux.",
+      "answers": [
+        { "text": "Stimulation des récepteurs alpha", "is_correct": false },
+        {
+          "text": "Blocage des récepteurs bêta-adrénergiques",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false },
+        { "text": "Activation des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication des inhibiteurs de l'enzyme de conversion (IEC) ?",
+      "difficulty": "Facile",
+      "explanation": "Les IEC sont principalement utilisés dans l'hypertension artérielle et l'insuffisance cardiaque en bloquant la conversion de l'angiotensine I en angiotensine II.",
+      "answers": [
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": true },
+        { "text": "Hyperthyroïdie", "is_correct": false },
+        { "text": "Anémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidote de la warfarine ?",
+      "difficulty": "Moyen",
+      "explanation": "La vitamine K est l'antidote de la warfarine (anticoagulant anti-vitamine K), car elle permet de restaurer la synthèse des facteurs de coagulation dépendants de la vitamine K.",
+      "answers": [
+        { "text": "Protamine", "is_correct": false },
+        { "text": "Vitamine K", "is_correct": true },
+        { "text": "Naloxone", "is_correct": false },
+        { "text": "Flumazénil", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le métabolisme de premier passage hépatique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le métabolisme de premier passage est la métabolisation d'un médicament par le foie avant qu'il n'atteigne la circulation générale, réduisant ainsi sa biodisponibilité.",
+      "answers": [
+        { "text": "Élimination rénale directe", "is_correct": false },
+        {
+          "text": "Métabolisation hépatique avant circulation générale",
+          "is_correct": true
+        },
+        { "text": "Distribution dans les tissus", "is_correct": false },
+        { "text": "Absorption intestinale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle classe d'antibiotiques inhibe la synthèse de la paroi bactérienne ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-lactamines (pénicillines, céphalosporines) inhibent la synthèse de la paroi bactérienne en bloquant les transpeptidases (PLP - protéines liant la pénicilline).",
+      "answers": [
+        { "text": "Aminosides", "is_correct": false },
+        { "text": "Bêta-lactamines", "is_correct": true },
+        { "text": "Quinolones", "is_correct": false },
+        { "text": "Macrolides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'aspirine à faible dose ?",
+      "difficulty": "Moyen",
+      "explanation": "À faible dose, l'aspirine inhibe de manière irréversible la cyclo-oxygénase plaquettaire (COX-1), empêchant la synthèse de thromboxane A2 et donc l'agrégation plaquettaire.",
+      "answers": [
+        { "text": "Inhibition de la COX-2 uniquement", "is_correct": false },
+        {
+          "text": "Inhibition irréversible de la COX-1 plaquettaire",
+          "is_correct": true
+        },
+        { "text": "Stimulation de la fibrinolyse", "is_correct": false },
+        { "text": "Blocage des récepteurs à l'ADP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication des AINS ?",
+      "difficulty": "Facile",
+      "explanation": "Les AINS sont contre-indiqués en cas d'ulcère gastroduodénal évolutif car ils inhibent les prostaglandines protectrices de la muqueuse gastrique.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Ulcère gastroduodénal évolutif", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Asthme stable", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des statines ?",
+      "difficulty": "Moyen",
+      "explanation": "Les statines inhibent l'HMG-CoA réductase, enzyme clé de la synthèse du cholestérol, réduisant ainsi la cholestérolémie LDL.",
+      "answers": [
+        {
+          "text": "Inhibition de l'absorption intestinale du cholestérol",
+          "is_correct": false
+        },
+        { "text": "Inhibition de l'HMG-CoA réductase", "is_correct": true },
+        { "text": "Activation de la lipoprotéine lipase", "is_correct": false },
+        { "text": "Séquestration des acides biliaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication des aminosides ?",
+      "difficulty": "Moyen",
+      "explanation": "Les aminosides (gentamicine, amikacine) sont néphrotoxiques et ototoxiques. La surveillance de la fonction rénale et de l'audition est indispensable.",
+      "answers": [
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Néphrotoxicité et ototoxicité", "is_correct": true },
+        { "text": "Cardiotoxicité", "is_correct": false },
+        { "text": "Neurotoxicité centrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel diurétique est épargneur de potassium ?",
+      "difficulty": "Facile",
+      "explanation": "La spironolactone est un diurétique épargneur de potassium car elle antagonise l'aldostérone au niveau du tubule collecteur, évitant ainsi la perte de potassium.",
+      "answers": [
+        { "text": "Furosémide", "is_correct": false },
+        { "text": "Spironolactone", "is_correct": true },
+        { "text": "Hydrochlorothiazide", "is_correct": false },
+        { "text": "Mannitol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la demi-vie d'un médicament ?",
+      "difficulty": "Moyen",
+      "explanation": "La demi-vie (t1/2) est le temps nécessaire pour que la concentration plasmatique d'un médicament diminue de moitié. Elle détermine la fréquence d'administration.",
+      "answers": [
+        {
+          "text": "Temps pour atteindre la concentration maximale",
+          "is_correct": false
+        },
+        {
+          "text": "Temps pour réduire de moitié la concentration plasmatique",
+          "is_correct": true
+        },
+        { "text": "Temps d'élimination complète", "is_correct": false },
+        { "text": "Durée d'action thérapeutique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la metformine ?",
+      "difficulty": "Moyen",
+      "explanation": "La metformine diminue la production hépatique de glucose (néoglucogenèse), augmente la sensibilité à l'insuline et améliore l'utilisation périphérique du glucose.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la production hépatique de glucose",
+          "is_correct": true
+        },
+        { "text": "Inhibition des alpha-glucosidases", "is_correct": false },
+        { "text": "Inhibition de la DPP-4", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication du clopidogrel ?",
+      "difficulty": "Facile",
+      "explanation": "Le clopidogrel est un antiagrégant plaquettaire utilisé en prévention des événements thrombotiques artériels (infarctus, AVC) en bloquant les récepteurs P2Y12 à l'ADP.",
+      "answers": [
+        { "text": "Fibrillation auriculaire", "is_correct": false },
+        { "text": "Prévention des thromboses artérielles", "is_correct": true },
+        { "text": "Traitement de l'anémie", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur des corticoïdes au long cours ?",
+      "difficulty": "Facile",
+      "explanation": "Les corticoïdes au long cours entraînent une ostéoporose par inhibition de la formation osseuse et augmentation de la résorption osseuse.",
+      "answers": [
+        { "text": "Hypotension", "is_correct": false },
+        { "text": "Ostéoporose", "is_correct": true },
+        { "text": "Anémie", "is_correct": false },
+        { "text": "Bradycardie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel anticoagulant nécessite une surveillance de l'INR ?",
+      "difficulty": "Facile",
+      "explanation": "Les antivitamines K (AVK) comme la warfarine nécessitent une surveillance de l'INR pour ajuster la posologie et éviter les complications hémorragiques ou thrombotiques.",
+      "answers": [
+        { "text": "Héparine non fractionnée", "is_correct": false },
+        { "text": "Antivitamines K (AVK)", "is_correct": true },
+        { "text": "Dabigatran", "is_correct": false },
+        { "text": "Rivaroxaban", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la pompe à protons (IPP) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IPP inhibent de manière irréversible la H+/K+ ATPase (pompe à protons) des cellules pariétales gastriques, bloquant ainsi la sécrétion acide gastrique.",
+      "answers": [
+        { "text": "Blocage des récepteurs H2", "is_correct": false },
+        { "text": "Inhibition de la H+/K+ ATPase", "is_correct": true },
+        { "text": "Neutralisation de l'acide gastrique", "is_correct": false },
+        { "text": "Protection de la muqueuse gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication des inhibiteurs calciques ?",
+      "difficulty": "Facile",
+      "explanation": "Les inhibiteurs calciques (dihydropyridines, vérapamil, diltiazem) sont utilisés dans l'hypertension artérielle et l'angor en bloquant les canaux calciques.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": true },
+        { "text": "Arythmie ventriculaire", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidote de la morphine ?",
+      "difficulty": "Moyen",
+      "explanation": "La naloxone est l'antidote de la morphine et des autres opiacés. C'est un antagoniste compétitif des récepteurs opioïdes qui reverse la dépression respiratoire.",
+      "answers": [
+        { "text": "Flumazénil", "is_correct": false },
+        { "text": "Naloxone", "is_correct": true },
+        { "text": "Atropine", "is_correct": false },
+        { "text": "N-acétylcystéine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classe pharmacologique de l'amiodarone ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amiodarone est un antiarythmique de classe III selon Vaughan Williams. Elle prolonge la durée du potentiel d'action en bloquant les canaux potassiques.",
+      "answers": [
+        { "text": "Antiarythmique de classe I", "is_correct": false },
+        { "text": "Antiarythmique de classe III", "is_correct": true },
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Inhibiteur calcique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel antibiotique est contre-indiqué chez la femme enceinte ?",
+      "difficulty": "Facile",
+      "explanation": "Les tétracyclines sont contre-indiquées pendant la grossesse car elles entraînent une coloration jaune des dents et une atteinte de la croissance osseuse chez le fœtus.",
+      "answers": [
+        { "text": "Amoxicilline", "is_correct": false },
+        { "text": "Tétracyclines", "is_correct": true },
+        { "text": "Céfotaxime", "is_correct": false },
+        { "text": "Érythromycine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des sulfamides hypoglycémiants ?",
+      "difficulty": "Moyen",
+      "explanation": "Les sulfamides hypoglycémiants stimulent la sécrétion d'insuline par les cellules bêta pancréatiques en fermant les canaux K-ATP.",
+      "answers": [
+        {
+          "text": "Diminution de la production hépatique de glucose",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la sensibilité à l'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de l'absorption intestinale du glucose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'héparine ?",
+      "difficulty": "Facile",
+      "explanation": "La principale complication de l'héparine est la thrombopénie induite par l'héparine (TIH), complication immune pouvant être grave.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Thrombopénie induite (TIH)", "is_correct": true },
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des benzodiazépines ?",
+      "difficulty": "Moyen",
+      "explanation": "Les benzodiazépines potentialisent l'action du GABA (principal neurotransmetteur inhibiteur) en se fixant sur le récepteur GABA-A, augmentant l'ouverture des canaux chlore.",
+      "answers": [
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Potentialisation du GABA sur récepteur GABA-A",
+          "is_correct": true
+        },
+        {
+          "text": "Blocage des récepteurs dopaminergiques",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la MAO", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale des fibrates ?",
+      "difficulty": "Moyen",
+      "explanation": "Les fibrates sont utilisés dans le traitement des hypertriglycéridémies en activant les récepteurs PPAR-alpha, stimulant la lipolyse des triglycérides.",
+      "answers": [
+        { "text": "Hypercholestérolémie pure", "is_correct": false },
+        { "text": "Hypertriglycéridémie", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Diabète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidote du paracétamol ?",
+      "difficulty": "Moyen",
+      "explanation": "La N-acétylcystéine est l'antidote du paracétamol. Elle reconstitue les réserves de glutathion hépatique, protégeant ainsi le foie de la toxicité du métabolite NAPQI.",
+      "answers": [
+        { "text": "Vitamine K", "is_correct": false },
+        { "text": "N-acétylcystéine", "is_correct": true },
+        { "text": "Naloxone", "is_correct": false },
+        { "text": "Charbon activé uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre un agoniste partiel et un agoniste complet ?",
+      "difficulty": "Difficile",
+      "explanation": "Un agoniste complet active maximalement le récepteur, tandis qu'un agoniste partiel ne produit qu'une activation submaxim ale même à concentration saturante.",
+      "answers": [
+        { "text": "L'affinité pour le récepteur", "is_correct": false },
+        {
+          "text": "L'efficacité maximale d'activation du récepteur",
+          "is_correct": true
+        },
+        { "text": "La durée d'action", "is_correct": false },
+        { "text": "La voie d'administration", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des quinolones ?",
+      "difficulty": "Moyen",
+      "explanation": "Les quinolones inhibent l'ADN gyrase (topoisomérase II) et la topoisomérase IV bactériennes, empêchant la réplication de l'ADN bactérien.",
+      "answers": [
+        { "text": "Inhibition de la synthèse protéique", "is_correct": false },
+        { "text": "Inhibition de l'ADN gyrase", "is_correct": true },
+        {
+          "text": "Inhibition de la synthèse de la paroi",
+          "is_correct": false
+        },
+        { "text": "Altération de la membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de la dopamine à faible dose ?",
+      "difficulty": "Moyen",
+      "explanation": "À faible dose, la dopamine stimule les récepteurs dopaminergiques rénaux (DA1), entraînant une vasodilatation rénale et une augmentation de la diurèse.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        {
+          "text": "Stimulation de la diurèse (effet rénal)",
+          "is_correct": true
+        },
+        { "text": "Bradycardie", "is_correct": false },
+        { "text": "Anémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur de l'amiodarone ?",
+      "difficulty": "Facile",
+      "explanation": "L'amiodarone peut entraîner des dysthyroïdies (hyper ou hypothyroïdie) car elle contient de l'iode et interfère avec le métabolisme thyroïdien.",
+      "answers": [
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Dysthyroïdies", "is_correct": true },
+        { "text": "Hypoglycémie", "is_correct": false },
+        { "text": "Anémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classe pharmacologique de l'oméprazole ?",
+      "difficulty": "Facile",
+      "explanation": "L'oméprazole est un inhibiteur de la pompe à protons (IPP) utilisé dans le traitement de l'ulcère gastroduodénal et du reflux gastro-œsophagien.",
+      "answers": [
+        { "text": "Anti-H2", "is_correct": false },
+        {
+          "text": "Inhibiteur de la pompe à protons (IPP)",
+          "is_correct": true
+        },
+        { "text": "Antiacide", "is_correct": false },
+        { "text": "Protecteur de la muqueuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du tramadol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tramadol est un analgésique opioïde faible qui agit par double mécanisme : agoniste des récepteurs opioïdes mu et inhibition de la recapture de la sérotonine/noradrénaline.",
+      "answers": [
+        { "text": "Inhibition de la COX", "is_correct": false },
+        {
+          "text": "Agoniste opioïde et inhibition recapture 5-HT/NA",
+          "is_correct": true
+        },
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Stimulation des récepteurs GABA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication des bêta-bloquants ?",
+      "difficulty": "Facile",
+      "explanation": "Les bêta-bloquants sont contre-indiqués dans l'asthme et la BPCO sévère car ils peuvent provoquer un bronchospasme par blocage des récepteurs bêta-2.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Asthme et BPCO sévère", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la L-DOPA ?",
+      "difficulty": "Moyen",
+      "explanation": "La L-DOPA est un précurseur de la dopamine qui traverse la barrière hémato-encéphalique et est transformée en dopamine dans le cerveau pour traiter la maladie de Parkinson.",
+      "answers": [
+        { "text": "Agoniste dopaminergique direct", "is_correct": false },
+        { "text": "Précurseur de la dopamine", "is_correct": true },
+        { "text": "Inhibiteur de la MAO-B", "is_correct": false },
+        { "text": "Inhibiteur de la COMT", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la digoxine ?",
+      "difficulty": "Facile",
+      "explanation": "La digoxine est utilisée dans l'insuffisance cardiaque et la fibrillation auriculaire. Elle augmente la contractilité myocardique et ralentit la conduction AV.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        {
+          "text": "Insuffisance cardiaque et fibrillation auriculaire",
+          "is_correct": true
+        },
+        { "text": "Tachycardie sinusale", "is_correct": false },
+        { "text": "Angor stable", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des antagonistes des récepteurs de l'angiotensine II (ARA2) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ARA2 (sartans) bloquent les récepteurs AT1 de l'angiotensine II, empêchant la vasoconstriction et la sécrétion d'aldostérone, réduisant ainsi la pression artérielle.",
+      "answers": [
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false },
+        {
+          "text": "Blocage des récepteurs AT1 de l'angiotensine II",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la rénine", "is_correct": false },
+        { "text": "Stimulation des récepteurs AT2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication du lithium ?",
+      "difficulty": "Moyen",
+      "explanation": "Le lithium peut entraîner une insuffisance rénale chronique et une hypothyroïdie. Il nécessite une surveillance régulière de la lithémie, de la fonction rénale et thyroïdienne.",
+      "answers": [
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Insuffisance rénale et hypothyroïdie", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Anémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la colchicine ?",
+      "difficulty": "Difficile",
+      "explanation": "La colchicine inhibe la polymérisation de la tubuline, empêchant ainsi la migration et l'activation des polynucléaires neutrophiles, ce qui réduit l'inflammation dans la crise de goutte.",
+      "answers": [
+        { "text": "Inhibition de la COX", "is_correct": false },
+        {
+          "text": "Inhibition de la polymérisation de la tubuline",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la xanthine oxydase", "is_correct": false },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication de l'allopurinol ?",
+      "difficulty": "Facile",
+      "explanation": "L'allopurinol inhibe la xanthine oxydase, réduisant la production d'acide urique. Il est utilisé dans le traitement de fond de la goutte et de l'hyperuricémie.",
+      "answers": [
+        {
+          "text": "Traitement de la crise de goutte aiguë",
+          "is_correct": false
+        },
+        { "text": "Traitement de fond de l'hyperuricémie", "is_correct": true },
+        { "text": "Polyarthrite rhumatoïde", "is_correct": false },
+        { "text": "Ostéoporose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du méthotrexate ?",
+      "difficulty": "Difficile",
+      "explanation": "Le méthotrexate inhibe la dihydrofolate réductase, bloquant ainsi la synthèse des purines et pyrimidines, ce qui réduit la prolifération cellulaire (anticancéreux et immunosuppresseur).",
+      "answers": [
+        { "text": "Inhibition de la COX-2", "is_correct": false },
+        {
+          "text": "Inhibition de la dihydrofolate réductase",
+          "is_correct": true
+        },
+        { "text": "Inhibition des calcineurines", "is_correct": false },
+        { "text": "Blocage du TNF-alpha", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale surveillance biologique des AVK ?",
+      "difficulty": "Facile",
+      "explanation": "Les antivitamines K nécessitent une surveillance de l'INR (International Normalized Ratio) pour ajuster la dose et maintenir l'INR dans la zone thérapeutique (généralement 2-3).",
+      "answers": [
+        { "text": "Temps de céphaline activée (TCA)", "is_correct": false },
+        { "text": "INR (International Normalized Ratio)", "is_correct": true },
+        { "text": "Numération plaquettaire", "is_correct": false },
+        { "text": "Fibrinogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur des corticoïdes sur le métabolisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les corticoïdes augmentent la glycémie en stimulant la néoglucogenèse et en réduisant l'utilisation périphérique du glucose, pouvant entraîner un diabète cortico-induit.",
+      "answers": [
+        { "text": "Hypoglycémie", "is_correct": false },
+        {
+          "text": "Hyperglycémie et diabète cortico-induit",
+          "is_correct": true
+        },
+        { "text": "Hypokaliémie isolée", "is_correct": false },
+        { "text": "Hypocalcémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des anti-TNF alpha ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anti-TNF alpha (infliximab, adalimumab, étanercept) sont des anticorps monoclonaux ou protéines de fusion qui neutralisent le TNF-alpha, cytokine pro-inflammatoire.",
+      "answers": [
+        { "text": "Inhibition de la COX-2", "is_correct": false },
+        { "text": "Neutralisation du TNF-alpha", "is_correct": true },
+        { "text": "Inhibition de la calcineurine", "is_correct": false },
+        { "text": "Blocage des récepteurs à l'IL-1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de l'érythropoïétine (EPO) ?",
+      "difficulty": "Facile",
+      "explanation": "L'érythropoïétine recombinante est utilisée dans le traitement de l'anémie de l'insuffisance rénale chronique et de certaines chimiothérapies en stimulant l'érythropoïèse.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Anémie de l'insuffisance rénale", "is_correct": true },
+        { "text": "Thrombopénie", "is_correct": false },
+        { "text": "Leucopénie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des glitazones ?",
+      "difficulty": "Difficile",
+      "explanation": "Les glitazones (thiazolidinediones) activent les récepteurs PPAR-gamma, augmentant ainsi la sensibilité à l'insuline dans les tissus périphériques (muscle, tissu adipeux).",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        { "text": "Activation des récepteurs PPAR-gamma", "is_correct": true },
+        { "text": "Inhibition de la DPP-4", "is_correct": false },
+        { "text": "Inhibition des alpha-glucosidases", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la nitroglycérine ?",
+      "difficulty": "Facile",
+      "explanation": "La nitroglycérine (dérivé nitré) peut entraîner une hypotension artérielle par vasodilatation excessive, ainsi que des céphalées par vasodilatation cérébrale.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Hypotension et céphalées", "is_correct": true },
+        { "text": "Bradycardie sévère", "is_correct": false },
+        { "text": "Bronchospasme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la ciclosporine ?",
+      "difficulty": "Difficile",
+      "explanation": "La ciclosporine inhibe la calcineurine, empêchant ainsi l'activation des lymphocytes T et la production d'IL-2. C'est un immunosuppresseur utilisé en transplantation.",
+      "answers": [
+        {
+          "text": "Inhibition de la dihydrofolate réductase",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la calcineurine", "is_correct": true },
+        { "text": "Blocage du TNF-alpha", "is_correct": false },
+        { "text": "Inhibition de la synthèse des purines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du G-CSF (filgrastim) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le G-CSF (facteur de croissance granulocytaire) stimule la production de polynucléaires neutrophiles et est utilisé dans la neutropénie post-chimiothérapie.",
+      "answers": [
+        { "text": "Anémie", "is_correct": false },
+        { "text": "Neutropénie post-chimiothérapie", "is_correct": true },
+        { "text": "Thrombopénie", "is_correct": false },
+        { "text": "Leucémie aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la DPP-4 (gliptines) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les gliptines inhibent la dipeptidyl peptidase-4 (DPP-4), enzyme qui dégrade les incrétines (GLP-1, GIP), augmentant ainsi la sécrétion d'insuline glucose-dépendante.",
+      "answers": [
+        {
+          "text": "Stimulation directe de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la DPP-4 prolongeant l'action des incrétines",
+          "is_correct": true
+        },
+        { "text": "Activation des récepteurs PPAR-gamma", "is_correct": false },
+        {
+          "text": "Inhibition de l'absorption intestinale du glucose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la metformine ?",
+      "difficulty": "Moyen",
+      "explanation": "La metformine est contre-indiquée en cas d'insuffisance rénale sévère (DFG < 30 mL/min) car elle expose au risque d'acidose lactique.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Insuffisance rénale sévère", "is_correct": true },
+        { "text": "Obésité", "is_correct": false },
+        { "text": "Hypercholestérolémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidote des benzodiazépines ?",
+      "difficulty": "Facile",
+      "explanation": "Le flumazénil est un antagoniste compétitif des récepteurs GABA-A qui reverse les effets des benzodiazépines en cas d'intoxication.",
+      "answers": [
+        { "text": "Naloxone", "is_correct": false },
+        { "text": "Flumazénil", "is_correct": true },
+        { "text": "Atropine", "is_correct": false },
+        { "text": "N-acétylcystéine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes du GLP-1 (exénatide, liraglutide) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les agonistes du GLP-1 stimulent la sécrétion d'insuline de manière glucose-dépendante, inhibent la sécrétion de glucagon et ralentissent la vidange gastrique.",
+      "answers": [
+        { "text": "Inhibition de la DPP-4", "is_correct": false },
+        { "text": "Activation des récepteurs au GLP-1", "is_correct": true },
+        { "text": "Inhibition de l'alpha-glucosidase", "is_correct": false },
+        { "text": "Activation des récepteurs PPAR-gamma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication des anti-H2 (ranitidine) ?",
+      "difficulty": "Facile",
+      "explanation": "Les anti-H2 bloquent les récepteurs histaminiques H2 des cellules pariétales gastriques, réduisant la sécrétion acide. Ils sont utilisés dans l'ulcère gastroduodénal.",
+      "answers": [
+        { "text": "Allergie", "is_correct": false },
+        { "text": "Ulcère gastroduodénal", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Asthme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du misoprostol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le misoprostol est un analogue de la prostaglandine E1 qui protège la muqueuse gastrique en stimulant la sécrétion de mucus et de bicarbonates.",
+      "answers": [
+        { "text": "Inhibition de la pompe à protons", "is_correct": false },
+        { "text": "Analogue de la prostaglandine E1", "is_correct": true },
+        { "text": "Blocage des récepteurs H2", "is_correct": false },
+        { "text": "Neutralisation de l'acide gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la surveillance biologique nécessaire pour l'héparine non fractionnée ?",
+      "difficulty": "Moyen",
+      "explanation": "L'héparine non fractionnée nécessite une surveillance du TCA (temps de céphaline activée) ou de l'héparinémie pour ajuster la posologie.",
+      "answers": [
+        { "text": "INR", "is_correct": false },
+        { "text": "TCA (temps de céphaline activée)", "is_correct": true },
+        { "text": "TP (taux de prothrombine)", "is_correct": false },
+        { "text": "Numération plaquettaire uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la prednisone ?",
+      "difficulty": "Moyen",
+      "explanation": "La prednisone est un corticoïde qui se lie aux récepteurs aux glucocorticoïdes intracellulaires, modulant la transcription génique pour exercer des effets anti-inflammatoires et immunosuppresseurs.",
+      "answers": [
+        { "text": "Inhibition de la COX-2", "is_correct": false },
+        {
+          "text": "Liaison aux récepteurs aux glucocorticoïdes",
+          "is_correct": true
+        },
+        { "text": "Blocage du TNF-alpha", "is_correct": false },
+        { "text": "Inhibition de la calcineurine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de l'acide folique en association avec le méthotrexate ?",
+      "difficulty": "Facile",
+      "explanation": "L'acide folique est prescrit avec le méthotrexate pour prévenir les effets indésirables hématologiques et digestifs dus au déficit en folates induit par le méthotrexate.",
+      "answers": [
+        {
+          "text": "Augmenter l'efficacité du méthotrexate",
+          "is_correct": false
+        },
+        {
+          "text": "Prévenir les effets indésirables du méthotrexate",
+          "is_correct": true
+        },
+        { "text": "Traiter l'anémie préexistante", "is_correct": false },
+        {
+          "text": "Potentialiser l'effet immunosuppresseur",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la SGLT2 (gliflozines) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la SGLT2 bloquent le cotransporteur sodium-glucose de type 2 au niveau du tubule proximal rénal, augmentant l'excrétion urinaire de glucose.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la réabsorption rénale du glucose",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la production hépatique de glucose",
+          "is_correct": false
+        },
+        { "text": "Activation des récepteurs PPAR-gamma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication des macrolides ?",
+      "difficulty": "Moyen",
+      "explanation": "Les macrolides (érythromycine, clarithromycine, azithromycine) peuvent allonger l'intervalle QT et provoquer des torsades de pointes, ainsi que des troubles digestifs.",
+      "answers": [
+        { "text": "Néphrotoxicité", "is_correct": false },
+        {
+          "text": "Allongement du QT et troubles digestifs",
+          "is_correct": true
+        },
+        { "text": "Hépatotoxicité sévère", "is_correct": false },
+        { "text": "Ototoxicité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du baclofène ?",
+      "difficulty": "Difficile",
+      "explanation": "Le baclofène est un agoniste des récepteurs GABA-B qui réduit la spasticité musculaire en inhibant la transmission synaptique au niveau de la moelle épinière.",
+      "answers": [
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Agoniste des récepteurs GABA-B", "is_correct": true },
+        { "text": "Inhibition de l'acétylcholinestérase", "is_correct": false },
+        { "text": "Blocage des récepteurs NMDA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la naltrexone ?",
+      "difficulty": "Moyen",
+      "explanation": "La naltrexone est un antagoniste des récepteurs opioïdes utilisé dans le maintien de l'abstinence alcoolique et le sevrage aux opiacés.",
+      "answers": [
+        { "text": "Douleur chronique", "is_correct": false },
+        { "text": "Maintien de l'abstinence alcoolique", "is_correct": true },
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Anxiété", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'acarbose ?",
+      "difficulty": "Moyen",
+      "explanation": "L'acarbose inhibe les alpha-glucosidases intestinales, retardant la digestion et l'absorption des glucides complexes, réduisant ainsi la glycémie postprandiale.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition des alpha-glucosidases intestinales",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la production hépatique de glucose",
+          "is_correct": false
+        },
+        { "text": "Activation des récepteurs au GLP-1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de l'aspirine ?",
+      "difficulty": "Facile",
+      "explanation": "L'aspirine est contre-indiquée en cas d'ulcère gastroduodénal évolutif, de troubles de l'hémostase, d'allergie aux salicylés et chez l'enfant de moins de 16 ans (syndrome de Reye).",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Ulcère gastroduodénal évolutif", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des antihistaminiques H1 (cétirizine, loratadine) ?",
+      "difficulty": "Facile",
+      "explanation": "Les antihistaminiques H1 bloquent les récepteurs histaminiques H1, inhibant ainsi les effets de l'histamine responsables des symptômes allergiques (prurit, rhinorrhée, urticaire).",
+      "answers": [
+        {
+          "text": "Inhibition de la dégranulation mastocytaire",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des récepteurs histaminiques H1",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la synthèse d'histamine",
+          "is_correct": false
+        },
+        {
+          "text": "Activation des récepteurs aux glucocorticoïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du propranolol ?",
+      "difficulty": "Facile",
+      "explanation": "Le propranolol est un bêta-bloquant non cardiosélectif utilisé dans l'hypertension, l'angor, les troubles du rythme, la prévention de la migraine et l'hyperthyroïdie.",
+      "answers": [
+        { "text": "Asthme", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": true },
+        { "text": "Bradycardie", "is_correct": false },
+        { "text": "Hypotension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du sildénafil (Viagra) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sildénafil inhibe la phosphodiestérase de type 5 (PDE5), augmentant les taux de GMPc dans les corps caverneux, favorisant ainsi la vasodilatation et l'érection.",
+      "answers": [
+        { "text": "Agoniste alpha-adrénergique", "is_correct": false },
+        {
+          "text": "Inhibition de la phosphodiestérase 5 (PDE5)",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la sécrétion de testostérone",
+          "is_correct": false
+        },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la vancomycine ?",
+      "difficulty": "Moyen",
+      "explanation": "La vancomycine peut entraîner une néphrotoxicité et une ototoxicité, ainsi qu'un syndrome de l'homme rouge en cas de perfusion trop rapide.",
+      "answers": [
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Néphrotoxicité et ototoxicité", "is_correct": true },
+        { "text": "Cardiotoxicité", "is_correct": false },
+        { "text": "Neurotoxicité centrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la recapture de la sérotonine (ISRS) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ISRS (fluoxétine, paroxétine, sertraline) inhibent sélectivement la recapture de la sérotonine au niveau de la fente synaptique, augmentant sa disponibilité.",
+      "answers": [
+        { "text": "Inhibition de la MAO", "is_correct": false },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": true
+        },
+        { "text": "Agonisme des récepteurs 5-HT", "is_correct": false },
+        {
+          "text": "Inhibition de la dégradation de la sérotonine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du montelukast ?",
+      "difficulty": "Moyen",
+      "explanation": "Le montelukast est un antagoniste des récepteurs aux leucotriènes utilisé dans le traitement de fond de l'asthme persistant et de la rhinite allergique.",
+      "answers": [
+        { "text": "Crise d'asthme aiguë", "is_correct": false },
+        { "text": "Traitement de fond de l'asthme", "is_correct": true },
+        { "text": "BPCO", "is_correct": false },
+        { "text": "Pneumonie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'aténolol ?",
+      "difficulty": "Facile",
+      "explanation": "L'aténolol est un bêta-bloquant cardiosélectif (bêta-1) qui réduit la fréquence cardiaque, la contractilité myocardique et la pression artérielle.",
+      "answers": [
+        {
+          "text": "Blocage des récepteurs alpha-adrénergiques",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage sélectif des récepteurs bêta-1",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale surveillance du traitement par clozapine ?",
+      "difficulty": "Difficile",
+      "explanation": "La clozapine (antipsychotique atypique) nécessite une surveillance hématologique hebdomadaire puis mensuelle pour dépister une agranulocytose potentiellement mortelle.",
+      "answers": [
+        { "text": "Fonction hépatique", "is_correct": false },
+        {
+          "text": "Numération formule sanguine (agranulocytose)",
+          "is_correct": true
+        },
+        { "text": "ECG", "is_correct": false },
+        { "text": "Fonction rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du bisoprolol ?",
+      "difficulty": "Facile",
+      "explanation": "Le bisoprolol est un bêta-bloquant cardiosélectif (bêta-1) utilisé dans l'hypertension, l'angor et l'insuffisance cardiaque chronique stable.",
+      "answers": [
+        {
+          "text": "Blocage non sélectif des récepteurs bêta",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage sélectif des récepteurs bêta-1",
+          "is_correct": true
+        },
+        { "text": "Inhibition calcique", "is_correct": false },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la spironolactone dans l'insuffisance cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "Dans l'insuffisance cardiaque, la spironolactone antagonise l'aldostérone, réduisant la fibrose myocardique, la rétention hydrosodée et améliorant le pronostic.",
+      "answers": [
+        { "text": "Effet inotrope positif", "is_correct": false },
+        { "text": "Antagonisme de l'aldostérone", "is_correct": true },
+        { "text": "Vasodilatation artérielle", "is_correct": false },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du zanamivir (Relenza) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le zanamivir est un inhibiteur de la neuraminidase virale qui empêche la libération des virions de l'influenza à partir des cellules infectées.",
+      "answers": [
+        {
+          "text": "Inhibition de la transcriptase inverse",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la neuraminidase", "is_correct": true },
+        { "text": "Inhibition de la protéase", "is_correct": false },
+        { "text": "Blocage de la fusion virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de l'ondansétron ?",
+      "difficulty": "Facile",
+      "explanation": "L'ondansétron est un antagoniste des récepteurs 5-HT3 utilisé dans la prévention des nausées et vomissements induits par la chimiothérapie et la radiothérapie.",
+      "answers": [
+        { "text": "Diarrhée", "is_correct": false },
+        {
+          "text": "Nausées et vomissements de la chimiothérapie",
+          "is_correct": true
+        },
+        { "text": "Migraine", "is_correct": false },
+        { "text": "Dépression", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la desmopressine ?",
+      "difficulty": "Moyen",
+      "explanation": "La desmopressine est un analogue de l'ADH (hormone antidiurétique) utilisé dans le diabète insipide central et l'énurésie, augmentant la réabsorption rénale d'eau.",
+      "answers": [
+        { "text": "Stimulation de la sécrétion d'ADH", "is_correct": false },
+        {
+          "text": "Analogue de l'ADH (hormone antidiurétique)",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la vasopressine", "is_correct": false },
+        { "text": "Blocage des récepteurs V2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'isoniazide ?",
+      "difficulty": "Moyen",
+      "explanation": "L'isoniazide (antituberculeux) peut entraîner une hépatotoxicité et une neuropathie périphérique par carence en vitamine B6 (pyridoxine).",
+      "answers": [
+        { "text": "Néphrotoxicité", "is_correct": false },
+        {
+          "text": "Hépatotoxicité et neuropathie périphérique",
+          "is_correct": true
+        },
+        { "text": "Cardiotoxicité", "is_correct": false },
+        { "text": "Ototoxicité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du rivaroxaban ?",
+      "difficulty": "Moyen",
+      "explanation": "Le rivaroxaban est un anticoagulant oral direct (AOD) qui inhibe sélectivement et directement le facteur Xa de la coagulation.",
+      "answers": [
+        { "text": "Inhibition de la vitamine K", "is_correct": false },
+        { "text": "Inhibition directe du facteur Xa", "is_correct": true },
+        { "text": "Inhibition de la thrombine", "is_correct": false },
+        { "text": "Activation de l'antithrombine III", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la buprénorphine ?",
+      "difficulty": "Moyen",
+      "explanation": "La buprénorphine est un agoniste partiel des récepteurs opioïdes mu utilisé dans le traitement substitutif de la dépendance aux opiacés et comme antalgique.",
+      "answers": [
+        { "text": "Sevrage alcoolique", "is_correct": false },
+        {
+          "text": "Traitement substitutif de la dépendance aux opiacés",
+          "is_correct": true
+        },
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Anxiété", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la phénytoïne ?",
+      "difficulty": "Difficile",
+      "explanation": "La phénytoïne est un antiépileptique qui stabilise les membranes neuronales en bloquant les canaux sodiques voltage-dépendants, limitant la propagation des décharges épileptiques.",
+      "answers": [
+        { "text": "Potentialisation du GABA", "is_correct": false },
+        {
+          "text": "Blocage des canaux sodiques voltage-dépendants",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture du glutamate",
+          "is_correct": false
+        },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale surveillance du traitement par amiodarone ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amiodarone nécessite une surveillance thyroïdienne (TSH), hépatique (transaminases), pulmonaire (radiographie) et ophtalmologique régulière.",
+      "answers": [
+        { "text": "Glycémie", "is_correct": false },
+        { "text": "Fonction thyroïdienne et hépatique", "is_correct": true },
+        { "text": "Numération plaquettaire", "is_correct": false },
+        { "text": "Créatininémie uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du valsartan ?",
+      "difficulty": "Facile",
+      "explanation": "Le valsartan est un antagoniste des récepteurs AT1 de l'angiotensine II (ARA2 ou sartan) qui bloque les effets vasoconstricteurs de l'angiotensine II.",
+      "answers": [
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false },
+        {
+          "text": "Blocage des récepteurs AT1 de l'angiotensine II",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la rénine", "is_correct": false },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du triméthoprime-sulfaméthoxazole (Bactrim) ?",
+      "difficulty": "Facile",
+      "explanation": "Le triméthoprime-sulfaméthoxazole est utilisé dans les infections urinaires, la pneumocystose, la toxoplasmose et certaines infections bactériennes.",
+      "answers": [
+        { "text": "Infection fongique", "is_correct": false },
+        { "text": "Infections urinaires et pneumocystose", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Tuberculose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du topiramate ?",
+      "difficulty": "Difficile",
+      "explanation": "Le topiramate est un antiépileptique à mécanisme multiple : blocage des canaux sodiques, potentialisation du GABA et antagonisme des récepteurs glutamatergiques AMPA/kaïnate.",
+      "answers": [
+        { "text": "Inhibition de la MAO", "is_correct": false },
+        {
+          "text": "Blocage des canaux sodiques et potentialisation du GABA",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        { "text": "Agoniste dopaminergique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la rifampicine ?",
+      "difficulty": "Moyen",
+      "explanation": "La rifampicine (antituberculeux) peut entraîner une hépatotoxicité, une coloration orange des sécrétions et de nombreuses interactions médicamenteuses par induction enzymatique.",
+      "answers": [
+        { "text": "Néphrotoxicité", "is_correct": false },
+        {
+          "text": "Hépatotoxicité et interactions médicamenteuses",
+          "is_correct": true
+        },
+        { "text": "Cardiotoxicité", "is_correct": false },
+        { "text": "Ototoxicité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la mémantine ?",
+      "difficulty": "Difficile",
+      "explanation": "La mémantine est un antagoniste non compétitif des récepteurs NMDA au glutamate utilisé dans la maladie d'Alzheimer modérée à sévère.",
+      "answers": [
+        { "text": "Inhibition de l'acétylcholinestérase", "is_correct": false },
+        { "text": "Antagonisme des récepteurs NMDA", "is_correct": true },
+        { "text": "Inhibition de la MAO-B", "is_correct": false },
+        { "text": "Agoniste dopaminergique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du finastéride ?",
+      "difficulty": "Moyen",
+      "explanation": "Le finastéride inhibe la 5-alpha-réductase, enzyme convertissant la testostérone en dihydrotestostérone (DHT). Il est utilisé dans l'hypertrophie bénigne de la prostate et l'alopécie.",
+      "answers": [
+        { "text": "Cancer de la prostate", "is_correct": false },
+        { "text": "Hypertrophie bénigne de la prostate", "is_correct": true },
+        { "text": "Hypogonadisme", "is_correct": false },
+        { "text": "Dysfonction érectile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la doxazosine ?",
+      "difficulty": "Moyen",
+      "explanation": "La doxazosine est un alpha-bloquant sélectif (alpha-1) utilisé dans l'hypertension et l'hypertrophie bénigne de la prostate en induisant une relaxation des muscles lisses vasculaires et prostatiques.",
+      "answers": [
+        { "text": "Blocage des récepteurs bêta", "is_correct": false },
+        {
+          "text": "Blocage sélectif des récepteurs alpha-1",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la 5-alpha-réductase", "is_correct": false },
+        { "text": "Inhibition de la phosphodiestérase 5", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de l'iode radioactif (I-131) ?",
+      "difficulty": "Facile",
+      "explanation": "L'iode radioactif est contre-indiqué pendant la grossesse et l'allaitement car il traverse le placenta et passe dans le lait maternel, pouvant détruire la thyroïde fœtale ou néonatale.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Grossesse et allaitement", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du sumatriptan ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sumatriptan est un agoniste sélectif des récepteurs 5-HT1B/1D utilisé dans le traitement de la crise migraineuse, induisant une vasoconstriction des artères méningées.",
+      "answers": [
+        { "text": "Antagoniste des récepteurs 5-HT3", "is_correct": false },
+        { "text": "Agoniste des récepteurs 5-HT1B/1D", "is_correct": true },
+        { "text": "Inhibition de la COX", "is_correct": false },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'interféron alpha ?",
+      "difficulty": "Moyen",
+      "explanation": "L'interféron alpha est utilisé dans le traitement de certaines hépatites virales chroniques (VHB, VHC), de certains cancers (mélanome, leucémies) et de la sclérose en plaques.",
+      "answers": [
+        { "text": "Grippe", "is_correct": false },
+        { "text": "Hépatites virales chroniques", "is_correct": true },
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du tacrolimus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le tacrolimus inhibe la calcineurine comme la ciclosporine, empêchant l'activation des lymphocytes T. C'est un immunosuppresseur utilisé en transplantation d'organes.",
+      "answers": [
+        {
+          "text": "Inhibition de la dihydrofolate réductase",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la calcineurine", "is_correct": true },
+        { "text": "Blocage du TNF-alpha", "is_correct": false },
+        { "text": "Inhibition de la synthèse des purines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'éthambutol ?",
+      "difficulty": "Moyen",
+      "explanation": "L'éthambutol (antituberculeux) peut entraîner une névrite optique rétrobulbaire avec baisse de l'acuité visuelle et dyschromatopsie (troubles de la vision des couleurs).",
+      "answers": [
+        { "text": "Néphrotoxicité", "is_correct": false },
+        { "text": "Névrite optique", "is_correct": true },
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Ototoxicité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du raloxifène ?",
+      "difficulty": "Difficile",
+      "explanation": "Le raloxifène est un modulateur sélectif des récepteurs aux œstrogènes (SERM) qui agit comme agoniste sur l'os et antagoniste sur le sein et l'utérus, utilisé dans l'ostéoporose postménopausique.",
+      "answers": [
+        { "text": "Œstrogène naturel", "is_correct": false },
+        {
+          "text": "Modulateur sélectif des récepteurs aux œstrogènes (SERM)",
+          "is_correct": true
+        },
+        { "text": "Inhibiteur de l'aromatase", "is_correct": false },
+        { "text": "Anti-œstrogène pur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du mycophénolate mofétil ?",
+      "difficulty": "Moyen",
+      "explanation": "Le mycophénolate mofétil inhibe l'IMPDH (inosine monophosphate déshydrogénase), bloquant la synthèse des purines. C'est un immunosuppresseur utilisé en transplantation d'organes.",
+      "answers": [
+        { "text": "Polyarthrite rhumatoïde", "is_correct": false },
+        { "text": "Prévention du rejet de greffe", "is_correct": true },
+        { "text": "Lupus érythémateux", "is_correct": false },
+        { "text": "Cancer", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la pioglitazone ?",
+      "difficulty": "Moyen",
+      "explanation": "La pioglitazone est une glitazone (thiazolidinedione) qui active les récepteurs PPAR-gamma, augmentant la sensibilité à l'insuline dans les tissus périphériques.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        { "text": "Activation des récepteurs PPAR-gamma", "is_correct": true },
+        { "text": "Inhibition de la DPP-4", "is_correct": false },
+        { "text": "Inhibition de la néoglucogenèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'acide valproïque ?",
+      "difficulty": "Moyen",
+      "explanation": "L'acide valproïque (antiépileptique) peut entraîner une hépatotoxicité, une pancréatite, une prise de poids, des troubles hématologiques et est tératogène (risque de spina bifida).",
+      "answers": [
+        { "text": "Néphrotoxicité", "is_correct": false },
+        { "text": "Hépatotoxicité et tératogénicité", "is_correct": true },
+        { "text": "Cardiotoxicité", "is_correct": false },
+        { "text": "Ototoxicité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la carbamazépine ?",
+      "difficulty": "Moyen",
+      "explanation": "La carbamazépine est un antiépileptique qui bloque les canaux sodiques voltage-dépendants, stabilisant ainsi les membranes neuronales et limitant les décharges épileptiques.",
+      "answers": [
+        { "text": "Potentialisation du GABA", "is_correct": false },
+        {
+          "text": "Blocage des canaux sodiques voltage-dépendants",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        { "text": "Antagonisme des récepteurs NMDA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'atropine ?",
+      "difficulty": "Facile",
+      "explanation": "L'atropine est un antagoniste muscarinique utilisé dans la bradycardie, l'intoxication aux organophosphorés et comme mydriatique en ophtalmologie.",
+      "answers": [
+        { "text": "Tachycardie", "is_correct": false },
+        { "text": "Bradycardie", "is_correct": true },
+        { "text": "Hypertension", "is_correct": false },
+        { "text": "Asthme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la pénicilline G ?",
+      "difficulty": "Moyen",
+      "explanation": "La pénicilline G inhibe la synthèse de la paroi bactérienne en bloquant les transpeptidases (PLP - protéines liant la pénicilline), entraînant la lyse bactérienne.",
+      "answers": [
+        { "text": "Inhibition de la synthèse protéique", "is_correct": false },
+        {
+          "text": "Inhibition de la synthèse de la paroi bactérienne",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'ADN gyrase", "is_correct": false },
+        { "text": "Altération de la membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication des inhibiteurs de la pompe à protons (IPP) au long cours ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IPP au long cours peuvent entraîner une hypomagnésémie, une diminution de l'absorption du calcium (risque fracturaire), des infections digestives à Clostridium difficile et une carence en vitamine B12.",
+      "answers": [
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Hypomagnésémie et risque fracturaire", "is_correct": true },
+        { "text": "Hyperglycémie", "is_correct": false },
+        { "text": "Anémie ferriprive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'azathioprine ?",
+      "difficulty": "Difficile",
+      "explanation": "L'azathioprine est un antimétabolite promédicament converti en 6-mercaptopurine, inhibant la synthèse des purines et donc la prolifération lymphocytaire. C'est un immunosuppresseur.",
+      "answers": [
+        { "text": "Inhibition de la calcineurine", "is_correct": false },
+        { "text": "Inhibition de la synthèse des purines", "is_correct": true },
+        { "text": "Blocage du TNF-alpha", "is_correct": false },
+        {
+          "text": "Inhibition de la dihydrofolate réductase",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la néostigmine ?",
+      "difficulty": "Moyen",
+      "explanation": "La néostigmine est un anticholinestérasique utilisé dans la myasthénie, l'iléus paralytique et pour reverser la curarisation en anesthésie.",
+      "answers": [
+        { "text": "Maladie d'Alzheimer", "is_correct": false },
+        { "text": "Myasthénie", "is_correct": true },
+        { "text": "Maladie de Parkinson", "is_correct": false },
+        { "text": "Sclérose en plaques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'amoxicilline-acide clavulanique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amoxicilline inhibe la synthèse de la paroi bactérienne, tandis que l'acide clavulanique inhibe les bêta-lactamases bactériennes, protégeant l'amoxicilline de la dégradation.",
+      "answers": [
+        {
+          "text": "Double inhibition de la synthèse protéique",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la paroi + inhibition des bêta-lactamases",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'ADN gyrase", "is_correct": false },
+        { "text": "Double blocage de la membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la nitroglycérine ?",
+      "difficulty": "Facile",
+      "explanation": "La nitroglycérine est contre-indiquée en cas de prise récente d'inhibiteurs de la phosphodiestérase 5 (sildénafil) car l'association peut entraîner une hypotension sévère.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Prise récente de sildénafil (Viagra)", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du furosémide ?",
+      "difficulty": "Moyen",
+      "explanation": "Le furosémide inhibe le cotransporteur Na-K-2Cl au niveau de l'anse de Henlé, entraînant une diurèse importante avec perte de sodium, potassium et chlore.",
+      "answers": [
+        { "text": "Antagonisme de l'aldostérone", "is_correct": false },
+        {
+          "text": "Inhibition du cotransporteur Na-K-2Cl (anse de Henlé)",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition du cotransporteur Na-Cl (tubule distal)",
+          "is_correct": false
+        },
+        { "text": "Inhibition de l'anhydrase carbonique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'hydrochlorothiazide ?",
+      "difficulty": "Facile",
+      "explanation": "L'hydrochlorothiazide (diurétique thiazidique) peut entraîner une hypokaliémie, une hyponatrémie, une hyperuricémie et une hyperglycémie.",
+      "answers": [
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Hypokaliémie", "is_correct": true },
+        { "text": "Hypoglycémie", "is_correct": false },
+        { "text": "Hypocalcémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la lévothyroxine ?",
+      "difficulty": "Facile",
+      "explanation": "La lévothyroxine (L-T4) est une hormone thyroïdienne de synthèse qui remplace la thyroxine endogène et est convertie en T3 active dans les tissus périphériques.",
+      "answers": [
+        { "text": "Inhibition de la TSH", "is_correct": false },
+        {
+          "text": "Remplacement hormonal (T4 synthétique)",
+          "is_correct": true
+        },
+        { "text": "Stimulation de la thyroïde", "is_correct": false },
+        { "text": "Blocage des récepteurs thyroïdiens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du propylthiouracile ?",
+      "difficulty": "Moyen",
+      "explanation": "Le propylthiouracile inhibe la synthèse des hormones thyroïdiennes (T3, T4) et est utilisé dans le traitement de l'hyperthyroïdie, notamment pendant la grossesse.",
+      "answers": [
+        { "text": "Hypothyroïdie", "is_correct": false },
+        { "text": "Hyperthyroïdie", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Hyperparathyroïdie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la warfarine ?",
+      "difficulty": "Moyen",
+      "explanation": "La warfarine inhibe la vitamine K époxyde réductase, empêchant ainsi la régénération de la vitamine K et la synthèse des facteurs de coagulation II, VII, IX et X.",
+      "answers": [
+        { "text": "Inhibition directe de la thrombine", "is_correct": false },
+        {
+          "text": "Inhibition de la vitamine K époxyde réductase",
+          "is_correct": true
+        },
+        { "text": "Activation de l'antithrombine III", "is_correct": false },
+        { "text": "Inhibition du facteur Xa", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale surveillance biologique de l'héparine de bas poids moléculaire (HBPM) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les HBPM ne nécessitent généralement pas de surveillance, sauf en cas d'insuffisance rénale ou de poids extrêmes où l'on surveille l'activité anti-Xa. La numération plaquettaire est surveillée (TIH).",
+      "answers": [
+        { "text": "INR", "is_correct": false },
+        {
+          "text": "Activité anti-Xa (si nécessaire) et plaquettes",
+          "is_correct": true
+        },
+        { "text": "TCA", "is_correct": false },
+        { "text": "TP uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du dabigatran ?",
+      "difficulty": "Difficile",
+      "explanation": "Le dabigatran est un anticoagulant oral direct (AOD) qui inhibe sélectivement et réversiblement la thrombine (facteur IIa).",
+      "answers": [
+        { "text": "Inhibition du facteur Xa", "is_correct": false },
+        {
+          "text": "Inhibition directe de la thrombine (facteur IIa)",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la vitamine K", "is_correct": false },
+        { "text": "Activation de l'antithrombine III", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la protamine ?",
+      "difficulty": "Moyen",
+      "explanation": "La protamine est l'antidote de l'héparine non fractionnée. C'est une molécule chargée positivement qui neutralise l'héparine chargée négativement.",
+      "answers": [
+        { "text": "Surdosage en AVK", "is_correct": false },
+        { "text": "Surdosage en héparine", "is_correct": true },
+        { "text": "Surdosage en aspirine", "is_correct": false },
+        { "text": "Surdosage en dabigatran", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'atorvastatine ?",
+      "difficulty": "Facile",
+      "explanation": "L'atorvastatine est une statine qui inhibe l'HMG-CoA réductase, enzyme clé de la synthèse du cholestérol, réduisant ainsi le LDL-cholestérol.",
+      "answers": [
+        {
+          "text": "Inhibition de l'absorption intestinale du cholestérol",
+          "is_correct": false
+        },
+        { "text": "Inhibition de l'HMG-CoA réductase", "is_correct": true },
+        { "text": "Séquestration des acides biliaires", "is_correct": false },
+        { "text": "Activation de la lipoprotéine lipase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication musculaire des statines ?",
+      "difficulty": "Facile",
+      "explanation": "Les statines peuvent entraîner des myalgies, une myopathie et dans de rares cas une rhabdomyolyse avec élévation des CPK. La surveillance des CPK est recommandée si symptômes.",
+      "answers": [
+        { "text": "Crampes bénignes uniquement", "is_correct": false },
+        { "text": "Myopathie et rhabdomyolyse", "is_correct": true },
+        { "text": "Paralysie musculaire", "is_correct": false },
+        { "text": "Myasthénie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'ézétimibe ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ézétimibe inhibe sélectivement l'absorption intestinale du cholestérol au niveau de la bordure en brosse en bloquant la protéine NPC1L1.",
+      "answers": [
+        { "text": "Inhibition de l'HMG-CoA réductase", "is_correct": false },
+        {
+          "text": "Inhibition de l'absorption intestinale du cholestérol",
+          "is_correct": true
+        },
+        { "text": "Séquestration des acides biliaires", "is_correct": false },
+        { "text": "Activation de la lipoprotéine lipase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la cholestyramine ?",
+      "difficulty": "Moyen",
+      "explanation": "La cholestyramine est une résine échangeuse d'ions qui séquestre les acides biliaires dans l'intestin, augmentant leur élimination fécale et réduisant le cholestérol.",
+      "answers": [
+        { "text": "Hypertriglycéridémie pure", "is_correct": false },
+        { "text": "Hypercholestérolémie", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Diabète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'insuline rapide (analogues) ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuline se lie à son récepteur membranaire, activant la tyrosine kinase et favorisant l'entrée du glucose dans les cellules (muscle, tissu adipeux) et inhibant la néoglucogenèse hépatique.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion endogène d'insuline",
+          "is_correct": false
+        },
+        { "text": "Activation du récepteur à l'insuline", "is_correct": true },
+        { "text": "Inhibition de la DPP-4", "is_correct": false },
+        { "text": "Inhibition de l'alpha-glucosidase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'insulinothérapie ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypoglycémie est la principale complication de l'insulinothérapie, pouvant être grave avec confusion, convulsions et coma si non traitée.",
+      "answers": [
+        { "text": "Hyperglycémie", "is_correct": false },
+        { "text": "Hypoglycémie", "is_correct": true },
+        { "text": "Acidocétose", "is_correct": false },
+        { "text": "Déshydratation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du glucagon ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glucagon stimule la glycogénolyse et la néoglucogenèse hépatiques, augmentant rapidement la glycémie. Il est utilisé dans le traitement des hypoglycémies sévères.",
+      "answers": [
+        {
+          "text": "Inhibition de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la glycogénolyse hépatique",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de l'utilisation périphérique du glucose",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la néoglucogenèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'hydrocortisone en urgence ?",
+      "difficulty": "Facile",
+      "explanation": "L'hydrocortisone IV est utilisée en urgence dans le traitement de l'insuffisance surrénalienne aiguë (crise addisonienne) et du choc anaphylactique.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Insuffisance surrénalienne aiguë", "is_correct": true },
+        { "text": "Hyperthyroïdie", "is_correct": false },
+        { "text": "Diabète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la fludrocortisone ?",
+      "difficulty": "Moyen",
+      "explanation": "La fludrocortisone est un minéralocorticoïde de synthèse qui augmente la réabsorption rénale de sodium et l'excrétion de potassium, utilisée dans la maladie d'Addison.",
+      "answers": [
+        { "text": "Effet glucocorticoïde uniquement", "is_correct": false },
+        {
+          "text": "Effet minéralocorticoïde (rétention sodée)",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'aldostérone", "is_correct": false },
+        {
+          "text": "Stimulation de la sécrétion de cortisol",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'adrénaline en urgence ?",
+      "difficulty": "Facile",
+      "explanation": "L'adrénaline est le traitement de première ligne du choc anaphylactique et de l'arrêt cardiaque. Elle a des effets alpha et bêta adrénergiques puissants.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Choc anaphylactique", "is_correct": true },
+        { "text": "Asthme stable", "is_correct": false },
+        { "text": "Tachycardie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la noradrénaline ?",
+      "difficulty": "Moyen",
+      "explanation": "La noradrénaline est un vasopresseur qui stimule principalement les récepteurs alpha-1 adrénergiques, entraînant une vasoconstriction et une augmentation de la pression artérielle.",
+      "answers": [
+        {
+          "text": "Stimulation des récepteurs bêta-2 uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation des récepteurs alpha-1 (vasoconstriction)",
+          "is_correct": true
+        },
+        { "text": "Inhibition des récepteurs alpha", "is_correct": false },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du salbutamol ?",
+      "difficulty": "Facile",
+      "explanation": "Le salbutamol est un bêta-2 agoniste inhalé à courte durée d'action utilisé dans le traitement de la crise d'asthme et en prévention du bronchospasme d'effort.",
+      "answers": [
+        { "text": "BPCO stable uniquement", "is_correct": false },
+        { "text": "Crise d'asthme", "is_correct": true },
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Pneumonie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du salmétérol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le salmétérol est un bêta-2 agoniste inhalé à longue durée d'action (LABA) qui induit une bronchodilatation prolongée (12h), utilisé en traitement de fond de l'asthme.",
+      "answers": [
+        {
+          "text": "Bêta-2 agoniste à courte durée d'action",
+          "is_correct": false
+        },
+        {
+          "text": "Bêta-2 agoniste à longue durée d'action",
+          "is_correct": true
+        },
+        { "text": "Anticholinergique", "is_correct": false },
+        { "text": "Corticoïde inhalé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication du salmétérol en monothérapie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le salmétérol (LABA) ne doit jamais être utilisé seul dans l'asthme car il augmente le risque de décès. Il doit toujours être associé à un corticoïde inhalé.",
+      "answers": [
+        { "text": "BPCO", "is_correct": false },
+        { "text": "Asthme sans corticoïde inhalé associé", "is_correct": true },
+        { "text": "Bronchite chronique", "is_correct": false },
+        { "text": "Emphysème", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'ipratropium ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ipratropium est un anticholinergique (antagoniste muscarinique) inhalé qui bloque les récepteurs M3, induisant une bronchodilatation dans la BPCO et l'asthme.",
+      "answers": [
+        { "text": "Bêta-2 agoniste", "is_correct": false },
+        {
+          "text": "Antagoniste muscarinique (anticholinergique)",
+          "is_correct": true
+        },
+        { "text": "Inhibiteur de la phosphodiestérase", "is_correct": false },
+        { "text": "Corticoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la théophylline ?",
+      "difficulty": "Moyen",
+      "explanation": "La théophylline est un bronchodilatateur (inhibiteur de la phosphodiestérase) utilisé dans l'asthme et la BPCO résistants. Elle nécessite une surveillance de la théophyllinémie.",
+      "answers": [
+        { "text": "Pneumonie", "is_correct": false },
+        { "text": "Asthme et BPCO résistants", "is_correct": true },
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Hypertension pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du budésonide inhalé ?",
+      "difficulty": "Facile",
+      "explanation": "Le budésonide est un corticoïde inhalé qui exerce un effet anti-inflammatoire local au niveau bronchique en se liant aux récepteurs aux glucocorticoïdes.",
+      "answers": [
+        { "text": "Bronchodilatation directe", "is_correct": false },
+        { "text": "Effet anti-inflammatoire (corticoïde)", "is_correct": true },
+        { "text": "Antagonisme muscarinique", "is_correct": false },
+        { "text": "Bêta-2 agonisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale précaution avec les corticoïdes inhalés ?",
+      "difficulty": "Facile",
+      "explanation": "Après inhalation de corticoïdes, il faut se rincer la bouche pour prévenir la candidose oropharyngée (muguet) et la dysphonie.",
+      "answers": [
+        { "text": "Prendre à jeun", "is_correct": false },
+        { "text": "Rincer la bouche après utilisation", "is_correct": true },
+        { "text": "Éviter l'exposition au soleil", "is_correct": false },
+        { "text": "Prendre le soir uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du montélukast ?",
+      "difficulty": "Moyen",
+      "explanation": "Le montélukast est un antagoniste sélectif des récepteurs aux cystéinyl-leucotriènes (LTD4), réduisant l'inflammation bronchique dans l'asthme.",
+      "answers": [
+        {
+          "text": "Inhibiteur de la synthèse des leucotriènes",
+          "is_correct": false
+        },
+        {
+          "text": "Antagoniste des récepteurs aux leucotriènes",
+          "is_correct": true
+        },
+        { "text": "Corticoïde", "is_correct": false },
+        { "text": "Bêta-2 agoniste", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la codéine ?",
+      "difficulty": "Facile",
+      "explanation": "La codéine est un opiacé faible utilisé comme antitussif (suppression de la toux) et antalgique de palier II. Elle est métabolisée en morphine.",
+      "answers": [
+        { "text": "Diarrhée", "is_correct": false },
+        { "text": "Toux sèche", "is_correct": true },
+        { "text": "Asthme", "is_correct": false },
+        { "text": "Bronchite infectieuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la dompéridone ?",
+      "difficulty": "Moyen",
+      "explanation": "La dompéridone est un antagoniste dopaminergique périphérique (antiémétique) qui bloque les récepteurs D2 dans la zone gâchette chémoréceptrice.",
+      "answers": [
+        { "text": "Agoniste dopaminergique", "is_correct": false },
+        {
+          "text": "Antagoniste dopaminergique (antiémétique)",
+          "is_correct": true
+        },
+        { "text": "Antagoniste 5-HT3", "is_correct": false },
+        { "text": "Anticholinergique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la dompéridone ?",
+      "difficulty": "Moyen",
+      "explanation": "La dompéridone peut allonger l'intervalle QT et est contre-indiquée en cas d'allongement du QT, d'arythmie ventriculaire et d'insuffisance hépatique sévère.",
+      "answers": [
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Allongement de l'intervalle QT", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Insuffisance rénale légère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du lopéramide ?",
+      "difficulty": "Moyen",
+      "explanation": "Le lopéramide est un agoniste opioïde périphérique qui ralentit le transit intestinal en réduisant le péristaltisme, utilisé dans le traitement symptomatique de la diarrhée.",
+      "answers": [
+        { "text": "Antisécrétoire gastrique", "is_correct": false },
+        {
+          "text": "Agoniste opioïde ralentissant le transit",
+          "is_correct": true
+        },
+        { "text": "Antibiotique intestinal", "is_correct": false },
+        { "text": "Probiotique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication du lopéramide ?",
+      "difficulty": "Facile",
+      "explanation": "Le lopéramide est contre-indiqué en cas de diarrhée fébrile, sanglante ou de colite infectieuse car il peut aggraver l'infection en retardant l'élimination des pathogènes.",
+      "answers": [
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Diarrhée fébrile ou sanglante", "is_correct": true },
+        { "text": "Constipation chronique", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du métoclopramide ?",
+      "difficulty": "Moyen",
+      "explanation": "Le métoclopramide est un antagoniste dopaminergique et agoniste 5-HT4 qui stimule la motricité gastro-intestinale et a un effet antiémétique central.",
+      "answers": [
+        { "text": "Ralentissement du transit", "is_correct": false },
+        {
+          "text": "Stimulation de la motricité digestive et antiémétique",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la pompe à protons", "is_correct": false },
+        { "text": "Antagoniste 5-HT3 uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication du métoclopramide ?",
+      "difficulty": "Moyen",
+      "explanation": "Le métoclopramide peut entraîner des effets extrapyramidaux (dyskinésies, dystonie aiguë) par blocage dopaminergique central, surtout chez le sujet jeune et âgé.",
+      "answers": [
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Effets extrapyramidaux (dyskinésies)", "is_correct": true },
+        { "text": "Néphrotoxicité", "is_correct": false },
+        { "text": "Cardiotoxicité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la lactulose ?",
+      "difficulty": "Facile",
+      "explanation": "Le lactulose est un laxatif osmotique (disaccharide non absorbé) qui augmente le volume et l'hydratation des selles, facilitant le transit.",
+      "answers": [
+        { "text": "Stimulant du péristaltisme", "is_correct": false },
+        { "text": "Laxatif osmotique", "is_correct": true },
+        { "text": "Lubrifiant intestinal", "is_correct": false },
+        { "text": "Antibiotique intestinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication particulière de la lactulose en hépatologie ?",
+      "difficulty": "Moyen",
+      "explanation": "La lactulose est utilisée dans l'encéphalopathie hépatique car elle acidifie le côlon, piégeant l'ammoniaque sous forme d'ammonium non absorbable, réduisant ainsi l'ammoniémie.",
+      "answers": [
+        { "text": "Cirrhose avec ascite", "is_correct": false },
+        { "text": "Encéphalopathie hépatique", "is_correct": true },
+        { "text": "Hépatite virale aiguë", "is_correct": false },
+        { "text": "Lithiase biliaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la morphine ?",
+      "difficulty": "Moyen",
+      "explanation": "La morphine est un agoniste des récepteurs opioïdes mu, kappa et delta qui module la transmission nociceptive au niveau central et spinal, produisant une analgésie puissante.",
+      "answers": [
+        { "text": "Inhibition de la COX", "is_correct": false },
+        { "text": "Agoniste des récepteurs opioïdes mu", "is_correct": true },
+        { "text": "Blocage des canaux sodiques", "is_correct": false },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la morphine ?",
+      "difficulty": "Facile",
+      "explanation": "La morphine peut entraîner une dépression respiratoire dose-dépendante, qui est la principale cause de mortalité en cas de surdosage. Elle cause aussi constipation, nausées et dépendance.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Dépression respiratoire", "is_correct": true },
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Hyperglycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du fentanyl ?",
+      "difficulty": "Moyen",
+      "explanation": "Le fentanyl est un agoniste opioïde mu synthétique très puissant (80-100 fois plus que la morphine), à action rapide, utilisé en anesthésie et douleurs intenses.",
+      "answers": [
+        { "text": "Antagoniste opioïde", "is_correct": false },
+        { "text": "Agoniste opioïde mu très puissant", "is_correct": true },
+        { "text": "Agoniste partiel opioïde", "is_correct": false },
+        { "text": "AINS morphinique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la kétamine ?",
+      "difficulty": "Difficile",
+      "explanation": "La kétamine est un anesthésique dissociatif (antagoniste NMDA) utilisé en anesthésie, analgésie d'urgence et dépression résistante. Elle préserve la respiration et les réflexes laryngés.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Anesthésie et analgésie d'urgence", "is_correct": true },
+        { "text": "Asthme", "is_correct": false },
+        { "text": "Épilepsie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du propofol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le propofol est un anesthésique intraveineux qui potentialise l'action du GABA sur les récepteurs GABA-A, induisant une dépression rapide du SNC.",
+      "answers": [
+        { "text": "Antagoniste NMDA", "is_correct": false },
+        { "text": "Potentialisation du GABA", "is_correct": true },
+        { "text": "Agoniste opioïde", "is_correct": false },
+        { "text": "Blocage des canaux sodiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication du propofol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le propofol peut entraîner une dépression cardiovasculaire (hypotension, bradycardie) et respiratoire. Il existe aussi un syndrome d'infusion du propofol (rare mais grave).",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        {
+          "text": "Hypotension et dépression respiratoire",
+          "is_correct": true
+        },
+        { "text": "Hyperglycémie", "is_correct": false },
+        { "text": "Hépatotoxicité chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des curares (rocuronium, vécuronium) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les curares sont des bloqueurs neuromusculaires non dépolarisants qui bloquent de manière compétitive les récepteurs nicotiniques à l'acétylcholine de la jonction neuromusculaire.",
+      "answers": [
+        { "text": "Dépolarisation prolongée", "is_correct": false },
+        {
+          "text": "Blocage compétitif des récepteurs nicotiniques",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'acétylcholinestérase", "is_correct": false },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du sugammadex ?",
+      "difficulty": "Difficile",
+      "explanation": "Le sugammadex est une gamma-cyclodextrine qui encapsule et inactive les curares aminostéroïdiens (rocuronium, vécuronium), permettant une décurarisation rapide en fin d'anesthésie.",
+      "answers": [
+        { "text": "Réversion de la morphine", "is_correct": false },
+        {
+          "text": "Décurarisation (antagoniste des curares)",
+          "is_correct": true
+        },
+        { "text": "Réveil d'anesthésie générale", "is_correct": false },
+        { "text": "Réversion des benzodiazépines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la lidocaïne en anesthésie locale ?",
+      "difficulty": "Moyen",
+      "explanation": "La lidocaïne est un anesthésique local qui bloque les canaux sodiques voltage-dépendants, empêchant la génération et la propagation de l'influx nerveux.",
+      "answers": [
+        { "text": "Blocage des canaux potassiques", "is_correct": false },
+        { "text": "Blocage des canaux sodiques", "is_correct": true },
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Agoniste GABA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la lidocaïne avec adrénaline ?",
+      "difficulty": "Facile",
+      "explanation": "La lidocaïne avec adrénaline est contre-indiquée dans l'anesthésie des extrémités (doigts, orteils, nez, pénis) car la vasoconstriction peut entraîner une ischémie et une nécrose.",
+      "answers": [
+        { "text": "Diabète", "is_correct": false },
+        {
+          "text": "Anesthésie des extrémités (doigts, orteils)",
+          "is_correct": true
+        },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la prégabaline ?",
+      "difficulty": "Difficile",
+      "explanation": "La prégabaline se lie à la sous-unité alpha-2-delta des canaux calciques voltage-dépendants, réduisant la libération de neurotransmetteurs excitateurs. Elle est utilisée dans les douleurs neuropathiques.",
+      "answers": [
+        { "text": "Blocage des canaux sodiques", "is_correct": false },
+        {
+          "text": "Liaison aux sous-unités alpha-2-delta des canaux calciques",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la recapture du GABA", "is_correct": false },
+        { "text": "Agoniste opioïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la prégabaline ?",
+      "difficulty": "Moyen",
+      "explanation": "La prégabaline est utilisée dans le traitement des douleurs neuropathiques (diabétique, post-zostérienne), de l'épilepsie partielle et des troubles anxieux généralisés.",
+      "answers": [
+        { "text": "Dépression majeure", "is_correct": false },
+        { "text": "Douleurs neuropathiques", "is_correct": true },
+        { "text": "Douleurs inflammatoires", "is_correct": false },
+        { "text": "Migraine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la gabapentine ?",
+      "difficulty": "Moyen",
+      "explanation": "La gabapentine, comme la prégabaline, se lie aux sous-unités alpha-2-delta des canaux calciques voltage-dépendants, réduisant la libération de neurotransmetteurs excitateurs.",
+      "answers": [
+        { "text": "Potentialisation du GABA", "is_correct": false },
+        {
+          "text": "Liaison aux sous-unités alpha-2-delta des canaux calciques",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        { "text": "Blocage des canaux sodiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la duloxétine ?",
+      "difficulty": "Moyen",
+      "explanation": "La duloxétine est un inhibiteur de la recapture de la sérotonine et de la noradrénaline (IRSN) utilisé dans la dépression, les douleurs neuropathiques et la fibromyalgie.",
+      "answers": [
+        { "text": "Anxiété uniquement", "is_correct": false },
+        { "text": "Dépression et douleurs neuropathiques", "is_correct": true },
+        { "text": "Psychose", "is_correct": false },
+        { "text": "Troubles bipolaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la venlafaxine ?",
+      "difficulty": "Moyen",
+      "explanation": "La venlafaxine est un inhibiteur de la recapture de la sérotonine et de la noradrénaline (IRSN) utilisé dans la dépression et les troubles anxieux.",
+      "answers": [
+        { "text": "Inhibition de la MAO", "is_correct": false },
+        {
+          "text": "Inhibition de la recapture de la sérotonine et noradrénaline",
+          "is_correct": true
+        },
+        { "text": "Agoniste dopaminergique", "is_correct": false },
+        { "text": "Antagoniste des récepteurs 5-HT2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication du sevrage brutal des ISRS ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sevrage brutal des ISRS peut entraîner un syndrome de sevrage avec vertiges, paresthésies, anxiété, insomnie et symptômes pseudo-grippaux. Le sevrage doit être progressif.",
+      "answers": [
+        { "text": "Hépatotoxicité", "is_correct": false },
+        {
+          "text": "Syndrome de sevrage (vertiges, paresthésies)",
+          "is_correct": true
+        },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Agranulocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la mirtazapine ?",
+      "difficulty": "Difficile",
+      "explanation": "La mirtazapine est un antidépresseur noradrénergique et sérotoninergique spécifique (NaSSA) qui bloque les récepteurs alpha-2 présynaptiques et les récepteurs 5-HT2 et 5-HT3.",
+      "answers": [
+        { "text": "ISRS classique", "is_correct": false },
+        { "text": "Antagoniste alpha-2 et 5-HT2/5-HT3", "is_correct": true },
+        { "text": "Inhibition de la MAO", "is_correct": false },
+        { "text": "Agoniste dopaminergique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité de la mirtazapine ?",
+      "difficulty": "Moyen",
+      "explanation": "La mirtazapine a un effet sédatif et orexigène (augmentation de l'appétit) marqué, ce qui peut être bénéfique chez les patients dépressifs avec insomnie et perte de poids.",
+      "answers": [
+        { "text": "Effet amaigrissant", "is_correct": false },
+        { "text": "Effet sédatif et orexigène", "is_correct": true },
+        { "text": "Effet stimulant puissant", "is_correct": false },
+        { "text": "Pas d'effets secondaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'halopéridol ?",
+      "difficulty": "Moyen",
+      "explanation": "L'halopéridol est un antipsychotique typique (neuroleptique) qui bloque les récepteurs dopaminergiques D2, utilisé dans les psychoses et l'agitation aiguë.",
+      "answers": [
+        { "text": "Agoniste dopaminergique", "is_correct": false },
+        {
+          "text": "Antagoniste des récepteurs dopaminergiques D2",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture de la dopamine",
+          "is_correct": false
+        },
+        { "text": "Agoniste sérotoninergique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication des antipsychotiques typiques ?",
+      "difficulty": "Facile",
+      "explanation": "Les antipsychotiques typiques peuvent entraîner des effets extrapyramidaux (syndrome parkinsonien, dyskinésies, akathisie) par blocage dopaminergique dans les voies nigrostriées.",
+      "answers": [
+        { "text": "Hypoglycémie", "is_correct": false },
+        {
+          "text": "Effets extrapyramidaux (parkinsonisme)",
+          "is_correct": true
+        },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Hépatotoxicité sévère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'olanzapine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'olanzapine est un antipsychotique atypique qui bloque les récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A, avec moins d'effets extrapyramidaux que les typiques.",
+      "answers": [
+        { "text": "Blocage D2 uniquement", "is_correct": false },
+        { "text": "Blocage D2 et 5-HT2A", "is_correct": true },
+        { "text": "Agoniste dopaminergique", "is_correct": false },
+        { "text": "ISRS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication métabolique de l'olanzapine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'olanzapine peut entraîner une prise de poids importante, un syndrome métabolique (hyperglycémie, dyslipidémie) et augmente le risque de diabète de type 2.",
+      "answers": [
+        { "text": "Hypoglycémie", "is_correct": false },
+        {
+          "text": "Prise de poids et syndrome métabolique",
+          "is_correct": true
+        },
+        { "text": "Amaigrissement", "is_correct": false },
+        { "text": "Hypotension orthostatique uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la rispéridone ?",
+      "difficulty": "Moyen",
+      "explanation": "La rispéridone est un antipsychotique atypique qui antagonise les récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A.",
+      "answers": [
+        { "text": "Agoniste dopaminergique", "is_correct": false },
+        { "text": "Antagoniste D2 et 5-HT2A", "is_correct": true },
+        { "text": "ISRS", "is_correct": false },
+        { "text": "Inhibition de la MAO", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du méthylphénidate ?",
+      "difficulty": "Facile",
+      "explanation": "Le méthylphénidate est un psychostimulant (inhibiteur de la recapture de la dopamine et noradrénaline) utilisé dans le TDAH (trouble déficitaire de l'attention avec hyperactivité).",
+      "answers": [
+        { "text": "Dépression", "is_correct": false },
+        {
+          "text": "TDAH (trouble déficitaire de l'attention)",
+          "is_correct": true
+        },
+        { "text": "Psychose", "is_correct": false },
+        { "text": "Anxiété", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du donépézil ?",
+      "difficulty": "Moyen",
+      "explanation": "Le donépézil est un inhibiteur réversible de l'acétylcholinestérase qui augmente les taux d'acétylcholine cérébrale, utilisé dans la maladie d'Alzheimer légère à modérée.",
+      "answers": [
+        { "text": "Agoniste cholinergique direct", "is_correct": false },
+        { "text": "Inhibition de l'acétylcholinestérase", "is_correct": true },
+        { "text": "Antagoniste NMDA", "is_correct": false },
+        { "text": "Inhibition de la MAO-B", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication digestive du donépézil ?",
+      "difficulty": "Facile",
+      "explanation": "Le donépézil, par augmentation de l'activité cholinergique, peut entraîner des nausées, vomissements, diarrhée et douleurs abdominales.",
+      "answers": [
+        { "text": "Constipation", "is_correct": false },
+        { "text": "Nausées et diarrhée", "is_correct": true },
+        { "text": "Iléus paralytique", "is_correct": false },
+        { "text": "Hépatotoxicité sévère", "is_correct": false }
       ]
     }
   ]

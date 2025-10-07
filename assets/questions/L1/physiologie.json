@@ -6,10 +6,10 @@
       "difficulty": "Facile",
       "explanation": "Les globules rouges (érythrocytes) transportent l'oxygène des poumons vers les tissus et le dioxyde de carbone des tissus vers les poumons grâce à l'hémoglobine.",
       "answers": [
-        {"text": "Défense immunitaire", "is_correct": false},
-        {"text": "Transport de l'oxygène", "is_correct": true},
-        {"text": "Coagulation sanguine", "is_correct": false},
-        {"text": "Production d'hormones", "is_correct": false}
+        { "text": "Défense immunitaire", "is_correct": false },
+        { "text": "Transport de l'oxygène", "is_correct": true },
+        { "text": "Coagulation sanguine", "is_correct": false },
+        { "text": "Production d'hormones", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,2233 @@
       "difficulty": "Moyen",
       "explanation": "La fréquence cardiaque normale au repos pour un adulte se situe entre 60 et 100 battements par minute (bpm). Les athlètes peuvent avoir une fréquence plus basse.",
       "answers": [
-        {"text": "40-50 bpm", "is_correct": false},
-        {"text": "60-100 bpm", "is_correct": true},
-        {"text": "100-120 bpm", "is_correct": false},
-        {"text": "120-140 bpm", "is_correct": false}
+        { "text": "40-50 bpm", "is_correct": false },
+        { "text": "60-100 bpm", "is_correct": true },
+        { "text": "100-120 bpm", "is_correct": false },
+        { "text": "120-140 bpm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des poumons ?",
+      "difficulty": "Facile",
+      "explanation": "Les poumons assurent les échanges gazeux entre l'air et le sang : absorption d'oxygène et élimination du dioxyde de carbone.",
+      "answers": [
+        { "text": "Filtration du sang", "is_correct": false },
+        { "text": "Échanges gazeux", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Digestion des aliments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le volume d'air échangé lors d'une respiration normale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le volume courant, c'est-à-dire le volume d'air inspiré et expiré lors d'une respiration normale au repos, est d'environ 500 mL.",
+      "answers": [
+        { "text": "200 mL", "is_correct": false },
+        { "text": "500 mL", "is_correct": true },
+        { "text": "1000 mL", "is_correct": false },
+        { "text": "1500 mL", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe filtre le sang et produit l'urine ?",
+      "difficulty": "Facile",
+      "explanation": "Les reins filtrent le sang pour éliminer les déchets et l'excès d'eau, formant ainsi l'urine.",
+      "answers": [
+        { "text": "Le foie", "is_correct": false },
+        { "text": "Les reins", "is_correct": true },
+        { "text": "La rate", "is_correct": false },
+        { "text": "Le pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone régule la glycémie en la diminuant ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuline, produite par les cellules bêta du pancréas, diminue la glycémie en favorisant l'entrée du glucose dans les cellules.",
+      "answers": [
+        { "text": "Le glucagon", "is_correct": false },
+        { "text": "L'insuline", "is_correct": true },
+        { "text": "L'adrénaline", "is_correct": false },
+        { "text": "Le cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la température corporelle normale chez l'homme ?",
+      "difficulty": "Facile",
+      "explanation": "La température corporelle normale est d'environ 37°C (entre 36,5 et 37,5°C). Elle est régulée par l'hypothalamus.",
+      "answers": [
+        { "text": "35°C", "is_correct": false },
+        { "text": "37°C", "is_correct": true },
+        { "text": "39°C", "is_correct": false },
+        { "text": "40°C", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du système nerveux sympathique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système nerveux sympathique prépare l'organisme à l'action (réponse 'fight or flight') : augmentation de la fréquence cardiaque, dilatation des bronches, etc.",
+      "answers": [
+        { "text": "Repos et digestion", "is_correct": false },
+        { "text": "Préparation à l'action", "is_correct": true },
+        { "text": "Coordination des mouvements", "is_correct": false },
+        { "text": "Régulation de la température", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale protéine du plasma sanguin ?",
+      "difficulty": "Moyen",
+      "explanation": "L'albumine est la protéine la plus abondante du plasma, représentant environ 60% des protéines totales. Elle maintient la pression oncotique.",
+      "answers": [
+        { "text": "L'hémoglobine", "is_correct": false },
+        { "text": "L'albumine", "is_correct": true },
+        { "text": "La fibrine", "is_correct": false },
+        { "text": "L'insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de litres de sang pompe le cœur par minute au repos ?",
+      "difficulty": "Moyen",
+      "explanation": "Le débit cardiaque au repos est d'environ 5 litres par minute chez un adulte en bonne santé.",
+      "answers": [
+        { "text": "2 litres", "is_correct": false },
+        { "text": "5 litres", "is_correct": true },
+        { "text": "10 litres", "is_correct": false },
+        { "text": "15 litres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'hémoglobine ?",
+      "difficulty": "Facile",
+      "explanation": "L'hémoglobine est une protéine des globules rouges qui transporte l'oxygène et le dioxyde de carbone dans le sang.",
+      "answers": [
+        { "text": "Coagulation", "is_correct": false },
+        { "text": "Transport des gaz", "is_correct": true },
+        { "text": "Défense immunitaire", "is_correct": false },
+        { "text": "Production d'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle valve sépare l'oreillette gauche du ventricule gauche ?",
+      "difficulty": "Moyen",
+      "explanation": "La valve mitrale (ou bicuspide) empêche le reflux du sang du ventricule gauche vers l'oreillette gauche.",
+      "answers": [
+        { "text": "Valve aortique", "is_correct": false },
+        { "text": "Valve mitrale", "is_correct": true },
+        { "text": "Valve tricuspide", "is_correct": false },
+        { "text": "Valve pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du surfactant pulmonaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le surfactant réduit la tension superficielle des alvéoles, empêchant leur collapsus et facilitant la respiration.",
+      "answers": [
+        { "text": "Filtrer l'air", "is_correct": false },
+        { "text": "Empêcher le collapsus alvéolaire", "is_correct": true },
+        { "text": "Produire du mucus", "is_correct": false },
+        { "text": "Capturer les bactéries", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone augmente la réabsorption d'eau par les reins ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hormone antidiurétique (ADH ou vasopressine) augmente la réabsorption d'eau dans les tubes collecteurs rénaux.",
+      "answers": [
+        { "text": "L'aldostérone", "is_correct": false },
+        { "text": "L'ADH", "is_correct": true },
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "Le cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la durée moyenne d'un cycle cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "À une fréquence cardiaque de 75 bpm, un cycle cardiaque dure environ 0,8 seconde (800 ms).",
+      "answers": [
+        { "text": "0,4 seconde", "is_correct": false },
+        { "text": "0,8 seconde", "is_correct": true },
+        { "text": "1,5 seconde", "is_correct": false },
+        { "text": "2 secondes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des plaquettes sanguines ?",
+      "difficulty": "Facile",
+      "explanation": "Les plaquettes (thrombocytes) jouent un rôle essentiel dans l'hémostase et la coagulation sanguine.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Coagulation sanguine", "is_correct": true },
+        { "text": "Défense immunitaire", "is_correct": false },
+        { "text": "Production d'hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du cerveau contrôle la respiration ?",
+      "difficulty": "Moyen",
+      "explanation": "Le bulbe rachidien (ou moelle allongée) contient le centre respiratoire qui contrôle le rythme et l'amplitude de la respiration.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "Le bulbe rachidien", "is_correct": true },
+        { "text": "L'hypothalamus", "is_correct": false },
+        { "text": "Le cortex cérébral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression artérielle systolique normale ?",
+      "difficulty": "Facile",
+      "explanation": "La pression artérielle systolique normale est inférieure à 120 mmHg. Elle correspond à la contraction du ventricule gauche.",
+      "answers": [
+        { "text": "80 mmHg", "is_correct": false },
+        { "text": "120 mmHg", "is_correct": true },
+        { "text": "140 mmHg", "is_correct": false },
+        { "text": "160 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion est principalement responsable de la contraction musculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le calcium (Ca2+) déclenche la contraction musculaire en se liant à la troponine, permettant l'interaction actine-myosine.",
+      "answers": [
+        { "text": "Sodium", "is_correct": false },
+        { "text": "Calcium", "is_correct": true },
+        { "text": "Potassium", "is_correct": false },
+        { "text": "Chlore", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale du foie ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie a de nombreuses fonctions, dont la principale est la détoxification du sang et la production de bile pour la digestion.",
+      "answers": [
+        { "text": "Filtration de l'urine", "is_correct": false },
+        { "text": "Détoxification et production de bile", "is_correct": true },
+        { "text": "Production d'hormones sexuelles", "is_correct": false },
+        { "text": "Absorption de l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la capacité vitale pulmonaire moyenne ?",
+      "difficulty": "Difficile",
+      "explanation": "La capacité vitale est le volume maximal d'air pouvant être expiré après une inspiration maximale, environ 4,5 à 5 litres.",
+      "answers": [
+        { "text": "1-2 litres", "is_correct": false },
+        { "text": "2-3 litres", "is_correct": false },
+        { "text": "4,5-5 litres", "is_correct": true },
+        { "text": "7-8 litres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel neurotransmetteur est libéré à la jonction neuromusculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'acétylcholine est le neurotransmetteur qui permet la transmission de l'influx nerveux au muscle squelettique.",
+      "answers": [
+        { "text": "Dopamine", "is_correct": false },
+        { "text": "Acétylcholine", "is_correct": true },
+        { "text": "Sérotonine", "is_correct": false },
+        { "text": "Adrénaline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est produite par la thyroïde ?",
+      "difficulty": "Facile",
+      "explanation": "La thyroïde produit principalement la thyroxine (T4) et la triiodothyronine (T3) qui régulent le métabolisme.",
+      "answers": [
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "La thyroxine", "is_correct": true },
+        { "text": "L'adrénaline", "is_correct": false },
+        { "text": "Le cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des lymphocytes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes sont des globules blancs qui jouent un rôle central dans l'immunité adaptative (lymphocytes B et T).",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Défense immunitaire", "is_correct": true },
+        { "text": "Coagulation", "is_correct": false },
+        { "text": "Filtration rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal stimulus de la ventilation ?",
+      "difficulty": "Difficile",
+      "explanation": "L'augmentation de la pression partielle en CO2 (hypercapnie) est le principal stimulus qui déclenche l'augmentation de la ventilation.",
+      "answers": [
+        { "text": "Baisse d'O2", "is_correct": false },
+        { "text": "Augmentation de CO2", "is_correct": true },
+        { "text": "Augmentation de la température", "is_correct": false },
+        { "text": "Baisse du pH sanguin seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la durée de vie moyenne d'un globule rouge ?",
+      "difficulty": "Moyen",
+      "explanation": "Les globules rouges ont une durée de vie d'environ 120 jours avant d'être détruits principalement dans la rate.",
+      "answers": [
+        { "text": "30 jours", "is_correct": false },
+        { "text": "120 jours", "is_correct": true },
+        { "text": "180 jours", "is_correct": false },
+        { "text": "365 jours", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure sépare les deux ventricules du cœur ?",
+      "difficulty": "Facile",
+      "explanation": "Le septum interventriculaire est la paroi musculaire qui sépare les ventricules droit et gauche.",
+      "answers": [
+        { "text": "Le septum interauriculaire", "is_correct": false },
+        { "text": "Le septum interventriculaire", "is_correct": true },
+        { "text": "Le péricarde", "is_correct": false },
+        { "text": "L'endocarde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme gastrique digère les protéines ?",
+      "difficulty": "Moyen",
+      "explanation": "La pepsine, activée par l'acide chlorhydrique de l'estomac, commence la digestion des protéines.",
+      "answers": [
+        { "text": "L'amylase", "is_correct": false },
+        { "text": "La pepsine", "is_correct": true },
+        { "text": "La lipase", "is_correct": false },
+        { "text": "La trypsine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cônes dans la rétine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cônes sont des photorécepteurs responsables de la vision des couleurs et de l'acuité visuelle en lumière vive.",
+      "answers": [
+        { "text": "Vision nocturne", "is_correct": false },
+        { "text": "Vision des couleurs", "is_correct": true },
+        { "text": "Filtration de la lumière", "is_correct": false },
+        { "text": "Production de larmes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence respiratoire normale au repos ?",
+      "difficulty": "Facile",
+      "explanation": "La fréquence respiratoire normale au repos est de 12 à 20 cycles par minute chez l'adulte.",
+      "answers": [
+        { "text": "5-10 cycles/min", "is_correct": false },
+        { "text": "12-20 cycles/min", "is_correct": true },
+        { "text": "25-30 cycles/min", "is_correct": false },
+        { "text": "35-40 cycles/min", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe produit l'érythropoïétine (EPO) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les reins produisent l'EPO en réponse à l'hypoxie, stimulant ainsi la production de globules rouges par la moelle osseuse.",
+      "answers": [
+        { "text": "Le foie", "is_correct": false },
+        { "text": "Les reins", "is_correct": true },
+        { "text": "La rate", "is_correct": false },
+        { "text": "La moelle osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du pancréas exocrine ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pancréas exocrine sécrète des enzymes digestives (lipase, amylase, protéases) dans le duodénum.",
+      "answers": [
+        { "text": "Production d'insuline", "is_correct": false },
+        { "text": "Sécrétion d'enzymes digestives", "is_correct": true },
+        { "text": "Filtration du sang", "is_correct": false },
+        { "text": "Production de bile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du neurone reçoit les signaux ?",
+      "difficulty": "Facile",
+      "explanation": "Les dendrites sont les prolongements du neurone qui reçoivent les signaux provenant d'autres neurones.",
+      "answers": [
+        { "text": "L'axone", "is_correct": false },
+        { "text": "Les dendrites", "is_correct": true },
+        { "text": "Le corps cellulaire", "is_correct": false },
+        { "text": "La gaine de myéline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la myéline ?",
+      "difficulty": "Moyen",
+      "explanation": "La myéline est une gaine lipidique qui isole l'axone et accélère la conduction de l'influx nerveux (conduction saltatoire).",
+      "answers": [
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Accélération de l'influx nerveux", "is_correct": true },
+        { "text": "Synthèse de neurotransmetteurs", "is_correct": false },
+        { "text": "Réception des signaux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone déclenche l'ovulation ?",
+      "difficulty": "Difficile",
+      "explanation": "Le pic de LH (hormone lutéinisante) au milieu du cycle menstruel déclenche l'ovulation.",
+      "answers": [
+        { "text": "La FSH", "is_correct": false },
+        { "text": "La LH", "is_correct": true },
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le volume sanguin total chez un adulte ?",
+      "difficulty": "Moyen",
+      "explanation": "Le volume sanguin total représente environ 5 à 6 litres chez un adulte de 70 kg.",
+      "answers": [
+        { "text": "2-3 litres", "is_correct": false },
+        { "text": "5-6 litres", "is_correct": true },
+        { "text": "8-9 litres", "is_correct": false },
+        { "text": "10-12 litres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit la myéline dans le système nerveux central ?",
+      "difficulty": "Difficile",
+      "explanation": "Les oligodendrocytes produisent la myéline dans le SNC, tandis que les cellules de Schwann la produisent dans le SNP.",
+      "answers": [
+        { "text": "Les astrocytes", "is_correct": false },
+        { "text": "Les oligodendrocytes", "is_correct": true },
+        { "text": "Les cellules de Schwann", "is_correct": false },
+        { "text": "Les microglies", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la bile ?",
+      "difficulty": "Moyen",
+      "explanation": "La bile émulsionne les graisses, facilitant ainsi leur digestion et leur absorption par les lipases.",
+      "answers": [
+        { "text": "Digestion des protéines", "is_correct": false },
+        { "text": "Émulsification des graisses", "is_correct": true },
+        { "text": "Neutralisation de l'acidité", "is_correct": false },
+        { "text": "Absorption des vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de muscle est involontaire et strié ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle cardiaque est le seul muscle à la fois involontaire et strié, avec des contractions rythmiques automatiques.",
+      "answers": [
+        { "text": "Muscle squelettique", "is_correct": false },
+        { "text": "Muscle cardiaque", "is_correct": true },
+        { "text": "Muscle lisse", "is_correct": false },
+        { "text": "Tous les muscles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure filtre le sang dans le rein ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glomérule est un réseau de capillaires où se produit la filtration du sang, première étape de la formation de l'urine.",
+      "answers": [
+        { "text": "Le tubule proximal", "is_correct": false },
+        { "text": "Le glomérule", "is_correct": true },
+        { "text": "L'anse de Henlé", "is_correct": false },
+        { "text": "Le tube collecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du système nerveux parasympathique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système parasympathique favorise le repos, la digestion et la conservation de l'énergie ('rest and digest').",
+      "answers": [
+        { "text": "Préparation au combat", "is_correct": false },
+        { "text": "Repos et digestion", "is_correct": true },
+        {
+          "text": "Augmentation de la fréquence cardiaque",
+          "is_correct": false
+        },
+        { "text": "Dilatation des pupilles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est nécessaire à la coagulation sanguine ?",
+      "difficulty": "Moyen",
+      "explanation": "La vitamine K est essentielle à la synthèse des facteurs de coagulation II, VII, IX et X dans le foie.",
+      "answers": [
+        { "text": "Vitamine A", "is_correct": false },
+        { "text": "Vitamine K", "is_correct": true },
+        { "text": "Vitamine C", "is_correct": false },
+        { "text": "Vitamine D", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des villosités intestinales ?",
+      "difficulty": "Facile",
+      "explanation": "Les villosités augmentent considérablement la surface d'absorption de l'intestin grêle pour les nutriments.",
+      "answers": [
+        { "text": "Sécrétion d'enzymes", "is_correct": false },
+        {
+          "text": "Augmentation de la surface d'absorption",
+          "is_correct": true
+        },
+        { "text": "Protection contre les bactéries", "is_correct": false },
+        { "text": "Production de bile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal transporteur d'oxygène dans le sang ?",
+      "difficulty": "Facile",
+      "explanation": "L'hémoglobine, contenue dans les globules rouges, transporte environ 98% de l'oxygène sanguin.",
+      "answers": [
+        { "text": "Le plasma", "is_correct": false },
+        { "text": "L'hémoglobine", "is_correct": true },
+        { "text": "L'albumine", "is_correct": false },
+        { "text": "Les plaquettes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la production de lait ?",
+      "difficulty": "Moyen",
+      "explanation": "La prolactine, sécrétée par l'hypophyse antérieure, stimule la production de lait par les glandes mammaires.",
+      "answers": [
+        { "text": "L'ocytocine", "is_correct": false },
+        { "text": "La prolactine", "is_correct": true },
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression artérielle diastolique normale ?",
+      "difficulty": "Facile",
+      "explanation": "La pression diastolique normale est inférieure à 80 mmHg. Elle correspond au relâchement du ventricule.",
+      "answers": [
+        { "text": "60 mmHg", "is_correct": false },
+        { "text": "80 mmHg", "is_correct": true },
+        { "text": "100 mmHg", "is_correct": false },
+        { "text": "120 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des bâtonnets dans la rétine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bâtonnets sont des photorécepteurs très sensibles responsables de la vision en faible luminosité (vision nocturne).",
+      "answers": [
+        { "text": "Vision des couleurs", "is_correct": false },
+        { "text": "Vision nocturne", "is_correct": true },
+        { "text": "Acuité visuelle", "is_correct": false },
+        { "text": "Perception des mouvements", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande régule le métabolisme basal ?",
+      "difficulty": "Facile",
+      "explanation": "La glande thyroïde, par la production de T3 et T4, régule le métabolisme basal de l'organisme.",
+      "answers": [
+        { "text": "L'hypophyse", "is_correct": false },
+        { "text": "La thyroïde", "is_correct": true },
+        { "text": "Les surrénales", "is_correct": false },
+        { "text": "Le pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du diaphragme ?",
+      "difficulty": "Facile",
+      "explanation": "Le diaphragme est le principal muscle respiratoire. Sa contraction augmente le volume thoracique et permet l'inspiration.",
+      "answers": [
+        { "text": "Digestion", "is_correct": false },
+        { "text": "Respiration", "is_correct": true },
+        { "text": "Circulation sanguine", "is_correct": false },
+        { "text": "Filtration", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf contrôle la fréquence cardiaque au repos ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf vague (nerf crânien X) ralentit la fréquence cardiaque par son action parasympathique sur le nœud sinusal.",
+      "answers": [
+        { "text": "Le nerf phrénique", "is_correct": false },
+        { "text": "Le nerf vague", "is_correct": true },
+        { "text": "Le nerf sciatique", "is_correct": false },
+        { "text": "Le nerf facial", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la composition du sang en pourcentage de plasma ?",
+      "difficulty": "Moyen",
+      "explanation": "Le plasma représente environ 55% du volume sanguin total, le reste étant constitué d'éléments figurés (cellules).",
+      "answers": [
+        { "text": "35%", "is_correct": false },
+        { "text": "55%", "is_correct": true },
+        { "text": "75%", "is_correct": false },
+        { "text": "90%", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone augmente la glycémie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glucagon, produit par les cellules alpha du pancréas, augmente la glycémie en stimulant la glycogénolyse hépatique.",
+      "answers": [
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "Le glucagon", "is_correct": true },
+        { "text": "La thyroxine", "is_correct": false },
+        { "text": "L'aldostérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la rate ?",
+      "difficulty": "Moyen",
+      "explanation": "La rate filtre le sang, détruit les globules rouges vieillis et stocke les plaquettes. Elle joue aussi un rôle immunitaire.",
+      "answers": [
+        { "text": "Production d'insuline", "is_correct": false },
+        {
+          "text": "Filtration du sang et rôle immunitaire",
+          "is_correct": true
+        },
+        { "text": "Digestion des graisses", "is_correct": false },
+        { "text": "Production d'urine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la capacité pulmonaire totale moyenne ?",
+      "difficulty": "Difficile",
+      "explanation": "La capacité pulmonaire totale (CPT) est le volume maximal d'air contenu dans les poumons, environ 6 litres.",
+      "answers": [
+        { "text": "3 litres", "is_correct": false },
+        { "text": "6 litres", "is_correct": true },
+        { "text": "9 litres", "is_correct": false },
+        { "text": "12 litres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de récepteur détecte la douleur ?",
+      "difficulty": "Moyen",
+      "explanation": "Les nocicepteurs sont des récepteurs sensoriels spécialisés dans la détection de stimuli nocifs (douloureux).",
+      "answers": [
+        { "text": "Les mécanorécepteurs", "is_correct": false },
+        { "text": "Les nocicepteurs", "is_correct": true },
+        { "text": "Les thermorécepteurs", "is_correct": false },
+        { "text": "Les chimiorécepteurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'aldostérone ?",
+      "difficulty": "Difficile",
+      "explanation": "L'aldostérone, produite par les surrénales, augmente la réabsorption de sodium et l'excrétion de potassium par les reins.",
+      "answers": [
+        { "text": "Augmenter la glycémie", "is_correct": false },
+        { "text": "Réabsorption du sodium", "is_correct": true },
+        { "text": "Stimuler la respiration", "is_correct": false },
+        { "text": "Augmenter la fréquence cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le volume résiduel pulmonaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le volume résiduel est la quantité d'air qui reste dans les poumons après une expiration maximale, environ 1,2 litre.",
+      "answers": [
+        { "text": "0,5 litre", "is_correct": false },
+        { "text": "1,2 litre", "is_correct": true },
+        { "text": "2,5 litres", "is_correct": false },
+        { "text": "3,5 litres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la contraction utérine lors de l'accouchement ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ocytocine, produite par l'hypothalamus et libérée par l'hypophyse postérieure, stimule les contractions utérines.",
+      "answers": [
+        { "text": "La prolactine", "is_correct": false },
+        { "text": "L'ocytocine", "is_correct": true },
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La FSH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du système lymphatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système lymphatique draine les liquides interstitiels, transporte les lipides et assure la défense immunitaire.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Drainage et défense immunitaire", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Filtration de l'urine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cérébrale régule la température corporelle ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypothalamus est le thermostat de l'organisme, régulant la température corporelle par divers mécanismes.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "L'hypothalamus", "is_correct": true },
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Le cortex préfrontal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le pH du suc gastrique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le suc gastrique est très acide avec un pH entre 1,5 et 3,5, permettant l'activation de la pepsine et la digestion.",
+      "answers": [
+        { "text": "1,5-3,5", "is_correct": true },
+        { "text": "5-6", "is_correct": false },
+        { "text": "7-8", "is_correct": false },
+        { "text": "9-10", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit les anticorps ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plasmocytes, issus de la différenciation des lymphocytes B activés, produisent et sécrètent les anticorps.",
+      "answers": [
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les plasmocytes", "is_correct": true },
+        { "text": "Les neutrophiles", "is_correct": false },
+        { "text": "Les lymphocytes T", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la vitamine D ?",
+      "difficulty": "Moyen",
+      "explanation": "La vitamine D favorise l'absorption intestinale du calcium et sa fixation dans les os, essentielle pour la santé osseuse.",
+      "answers": [
+        { "text": "Coagulation sanguine", "is_correct": false },
+        { "text": "Absorption du calcium", "is_correct": true },
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme commence la digestion des glucides dans la bouche ?",
+      "difficulty": "Facile",
+      "explanation": "L'amylase salivaire commence la digestion de l'amidon en maltose dès la mastication.",
+      "answers": [
+        { "text": "La pepsine", "is_correct": false },
+        { "text": "L'amylase", "is_correct": true },
+        { "text": "La lipase", "is_correct": false },
+        { "text": "La trypsine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du nœud sinusal ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nœud sinusal (ou nœud sino-auriculaire) est le pacemaker naturel du cœur, générant le rythme cardiaque normal.",
+      "answers": [
+        { "text": "Pompage du sang", "is_correct": false },
+        { "text": "Génération du rythme cardiaque", "is_correct": true },
+        { "text": "Filtration du sang", "is_correct": false },
+        { "text": "Oxygénation du sang", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe sécrète l'adrénaline ?",
+      "difficulty": "Facile",
+      "explanation": "Les glandes surrénales (médullosurrénales) sécrètent l'adrénaline en réponse au stress.",
+      "answers": [
+        { "text": "Le pancréas", "is_correct": false },
+        { "text": "Les surrénales", "is_correct": true },
+        { "text": "La thyroïde", "is_correct": false },
+        { "text": "L'hypophyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des récepteurs alpha du système sympathique ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs alpha-adrénergiques provoquent généralement une vasoconstriction lorsqu'ils sont stimulés.",
+      "answers": [
+        { "text": "Vasodilatation", "is_correct": false },
+        { "text": "Vasoconstriction", "is_correct": true },
+        { "text": "Bronchodilatation", "is_correct": false },
+        { "text": "Diminution de la fréquence cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal cation intracellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le potassium (K+) est le principal cation à l'intérieur des cellules, essentiel au potentiel de membrane.",
+      "answers": [
+        { "text": "Sodium", "is_correct": false },
+        { "text": "Potassium", "is_correct": true },
+        { "text": "Calcium", "is_correct": false },
+        { "text": "Magnésium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone contrôle le cycle circadien ?",
+      "difficulty": "Moyen",
+      "explanation": "La mélatonine, produite par la glande pinéale, régule le cycle veille-sommeil et les rythmes circadiens.",
+      "answers": [
+        { "text": "Le cortisol", "is_correct": false },
+        { "text": "La mélatonine", "is_correct": true },
+        { "text": "L'hormone de croissance", "is_correct": false },
+        { "text": "La thyroxine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du tissu adipeux brun ?",
+      "difficulty": "Difficile",
+      "explanation": "Le tissu adipeux brun produit de la chaleur par thermogenèse non frissonnante, important chez les nouveau-nés.",
+      "answers": [
+        { "text": "Stockage de graisse", "is_correct": false },
+        { "text": "Production de chaleur", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Isolation thermique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le volume d'éjection systolique au repos ?",
+      "difficulty": "Difficile",
+      "explanation": "Le volume d'éjection systolique (VES) au repos est d'environ 70 mL, soit le volume éjecté par ventricule à chaque battement.",
+      "answers": [
+        { "text": "30 mL", "is_correct": false },
+        { "text": "70 mL", "is_correct": true },
+        { "text": "120 mL", "is_correct": false },
+        { "text": "150 mL", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est produite par la peau sous l'effet du soleil ?",
+      "difficulty": "Facile",
+      "explanation": "La vitamine D est synthétisée dans la peau lors de l'exposition aux rayons UVB du soleil.",
+      "answers": [
+        { "text": "Vitamine A", "is_correct": false },
+        { "text": "Vitamine D", "is_correct": true },
+        { "text": "Vitamine E", "is_correct": false },
+        { "text": "Vitamine K", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du liquide céphalo-rachidien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le LCR protège mécaniquement le cerveau et la moelle épinière, apporte des nutriments et évacue les déchets.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Protection et nutrition du SNC", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Régulation de la température", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal régulateur de la sécrétion de rénine ?",
+      "difficulty": "Difficile",
+      "explanation": "La baisse de la pression artérielle au niveau de l'artériole afférente rénale stimule la sécrétion de rénine.",
+      "answers": [
+        { "text": "L'augmentation de la glycémie", "is_correct": false },
+        { "text": "La baisse de la pression artérielle", "is_correct": true },
+        { "text": "L'augmentation du pH", "is_correct": false },
+        { "text": "La température corporelle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la durée du cycle menstruel normal ?",
+      "difficulty": "Facile",
+      "explanation": "Le cycle menstruel normal dure en moyenne 28 jours, avec des variations individuelles entre 21 et 35 jours.",
+      "answers": [
+        { "text": "14 jours", "is_correct": false },
+        { "text": "28 jours", "is_correct": true },
+        { "text": "45 jours", "is_correct": false },
+        { "text": "60 jours", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cortisol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cortisol est une hormone de stress qui augmente la glycémie, a des effets anti-inflammatoires et module le système immunitaire.",
+      "answers": [
+        { "text": "Diminuer la glycémie", "is_correct": false },
+        {
+          "text": "Augmenter la glycémie et gérer le stress",
+          "is_correct": true
+        },
+        { "text": "Stimuler la croissance", "is_correct": false },
+        { "text": "Réguler le calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure contrôle l'équilibre et la posture ?",
+      "difficulty": "Facile",
+      "explanation": "Le cervelet coordonne les mouvements fins, maintient l'équilibre et contrôle la posture.",
+      "answers": [
+        { "text": "Le cortex moteur", "is_correct": false },
+        { "text": "Le cervelet", "is_correct": true },
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Le bulbe rachidien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des récepteurs bêta-2 adrénergiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs bêta-2 provoquent la bronchodilatation et la vasodilatation des muscles squelettiques.",
+      "answers": [
+        { "text": "Vasoconstriction", "is_correct": false },
+        { "text": "Bronchodilatation", "is_correct": true },
+        { "text": "Diminution de la fréquence cardiaque", "is_correct": false },
+        { "text": "Augmentation du péristaltisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule assure la phagocytose dans les tissus ?",
+      "difficulty": "Moyen",
+      "explanation": "Les macrophages sont des cellules phagocytaires qui ingèrent et détruisent les agents pathogènes et les débris cellulaires.",
+      "answers": [
+        { "text": "Les lymphocytes", "is_correct": false },
+        { "text": "Les macrophages", "is_correct": true },
+        { "text": "Les érythrocytes", "is_correct": false },
+        { "text": "Les plaquettes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la parathormone (PTH) ?",
+      "difficulty": "Difficile",
+      "explanation": "La PTH augmente la calcémie en stimulant la résorption osseuse, la réabsorption rénale du calcium et la production de vitamine D active.",
+      "answers": [
+        { "text": "Diminuer le calcium sanguin", "is_correct": false },
+        { "text": "Augmenter le calcium sanguin", "is_correct": true },
+        { "text": "Réguler la glycémie", "is_correct": false },
+        { "text": "Stimuler la croissance", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des canaux sodiques voltage-dépendants ?",
+      "difficulty": "Difficile",
+      "explanation": "Ces canaux s'ouvrent en réponse à une dépolarisation membranaire, permettant l'entrée de sodium et la génération du potentiel d'action.",
+      "answers": [
+        { "text": "Maintenir le potentiel de repos", "is_correct": false },
+        { "text": "Générer le potentiel d'action", "is_correct": true },
+        { "text": "Transporter le glucose", "is_correct": false },
+        { "text": "Sécréter des hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site d'absorption des nutriments ?",
+      "difficulty": "Facile",
+      "explanation": "L'intestin grêle, particulièrement le jéjunum, est le principal site d'absorption des nutriments grâce à ses villosités.",
+      "answers": [
+        { "text": "L'estomac", "is_correct": false },
+        { "text": "L'intestin grêle", "is_correct": true },
+        { "text": "Le côlon", "is_correct": false },
+        { "text": "L'œsophage", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la troponine ?",
+      "difficulty": "Difficile",
+      "explanation": "La troponine régule la contraction musculaire en bloquant ou exposant les sites de liaison de la myosine sur l'actine selon la présence de calcium.",
+      "answers": [
+        { "text": "Production d'énergie", "is_correct": false },
+        {
+          "text": "Régulation de la contraction musculaire",
+          "is_correct": true
+        },
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel facteur déclenche la libération de l'insuline ?",
+      "difficulty": "Moyen",
+      "explanation": "L'augmentation de la glycémie après un repas stimule la libération d'insuline par les cellules bêta du pancréas.",
+      "answers": [
+        { "text": "La baisse de la glycémie", "is_correct": false },
+        { "text": "L'augmentation de la glycémie", "is_correct": true },
+        { "text": "L'augmentation du calcium", "is_correct": false },
+        { "text": "La diminution du pH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du thalamus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le thalamus est une station relais qui transmet les informations sensorielles (sauf l'olfaction) vers le cortex cérébral.",
+      "answers": [
+        { "text": "Régulation de la température", "is_correct": false },
+        { "text": "Relais des informations sensorielles", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Contrôle de l'équilibre", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de vaisseau sanguin permet les échanges avec les tissus ?",
+      "difficulty": "Facile",
+      "explanation": "Les capillaires, avec leur paroi très fine, permettent les échanges de gaz, nutriments et déchets entre le sang et les tissus.",
+      "answers": [
+        { "text": "Les artères", "is_correct": false },
+        { "text": "Les capillaires", "is_correct": true },
+        { "text": "Les veines", "is_correct": false },
+        { "text": "Les artérioles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la croissance ?",
+      "difficulty": "Facile",
+      "explanation": "L'hormone de croissance (GH ou somatotropine), sécrétée par l'hypophyse antérieure, stimule la croissance tissulaire.",
+      "answers": [
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "L'hormone de croissance", "is_correct": true },
+        { "text": "La thyroxine", "is_correct": false },
+        { "text": "Le cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du réflexe myotatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réflexe myotatique (ou d'étirement) maintient le tonus musculaire et la posture en réponse à l'étirement d'un muscle.",
+      "answers": [
+        { "text": "Protéger contre la douleur", "is_correct": false },
+        { "text": "Maintenir le tonus musculaire", "is_correct": true },
+        { "text": "Réguler la température", "is_correct": false },
+        { "text": "Faciliter la digestion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ANP (peptide natriurétique auriculaire) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ANP, sécrété par les oreillettes en cas d'étirement, augmente l'excrétion rénale de sodium et d'eau, diminuant ainsi la volémie et la pression artérielle.",
+      "answers": [
+        { "text": "Augmenter la pression artérielle", "is_correct": false },
+        { "text": "Diminuer la pression artérielle", "is_correct": true },
+        { "text": "Augmenter la glycémie", "is_correct": false },
+        { "text": "Stimuler la respiration", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit le mucus dans l'estomac ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules à mucus (ou cellules muqueuses) sécrètent un mucus protecteur qui tapisse la paroi gastrique.",
+      "answers": [
+        { "text": "Les cellules pariétales", "is_correct": false },
+        { "text": "Les cellules à mucus", "is_correct": true },
+        { "text": "Les cellules principales", "is_correct": false },
+        { "text": "Les cellules G", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la ferritine ?",
+      "difficulty": "Moyen",
+      "explanation": "La ferritine est une protéine de stockage du fer intracellulaire, principalement dans le foie, la rate et la moelle osseuse.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Stockage du fer", "is_correct": true },
+        { "text": "Coagulation", "is_correct": false },
+        { "text": "Production d'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure filtre le liquide dans l'œil ?",
+      "difficulty": "Difficile",
+      "explanation": "Le corps ciliaire produit l'humeur aqueuse qui est drainée par le trabéculum et le canal de Schlemm, régulant la pression intraoculaire.",
+      "answers": [
+        { "text": "La rétine", "is_correct": false },
+        { "text": "Le trabéculum", "is_correct": true },
+        { "text": "La cornée", "is_correct": false },
+        { "text": "Le cristallin", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal tampon du pH sanguin ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système bicarbonate (HCO3-/CO2) est le principal système tampon du sang, maintenant le pH autour de 7,4.",
+      "answers": [
+        { "text": "Les protéines plasmatiques", "is_correct": false },
+        { "text": "Le système bicarbonate", "is_correct": true },
+        { "text": "L'hémoglobine seule", "is_correct": false },
+        { "text": "Les phosphates", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule l'érythropoïèse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'érythropoïétine (EPO), produite par les reins, stimule la production de globules rouges par la moelle osseuse en réponse à l'hypoxie.",
+      "answers": [
+        { "text": "La thyroxine", "is_correct": false },
+        { "text": "L'érythropoïétine", "is_correct": true },
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "Le cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la gastrine ?",
+      "difficulty": "Moyen",
+      "explanation": "La gastrine, hormone produite par l'estomac, stimule la sécrétion d'acide chlorhydrique et la motilité gastrique.",
+      "answers": [
+        { "text": "Inhiber la digestion", "is_correct": false },
+        {
+          "text": "Stimuler la sécrétion d'acide gastrique",
+          "is_correct": true
+        },
+        { "text": "Neutraliser l'acidité", "is_correct": false },
+        { "text": "Produire de la bile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la barrière hémato-encéphalique ?",
+      "difficulty": "Moyen",
+      "explanation": "La barrière hémato-encéphalique protège le cerveau en régulant sélectivement le passage de substances du sang vers le tissu cérébral.",
+      "answers": [
+        { "text": "Produire du LCR", "is_correct": false },
+        {
+          "text": "Protéger le cerveau des substances toxiques",
+          "is_correct": true
+        },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Réguler la température", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la sécrétine ?",
+      "difficulty": "Difficile",
+      "explanation": "La sécrétine, sécrétée par le duodénum, stimule la libération de bicarbonate par le pancréas pour neutraliser l'acidité du chyme.",
+      "answers": [
+        { "text": "Stimuler la sécrétion d'acide", "is_correct": false },
+        { "text": "Stimuler la sécrétion de bicarbonate", "is_correct": true },
+        { "text": "Augmenter la motilité gastrique", "is_correct": false },
+        { "text": "Produire de la bile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du canal artériel chez le fœtus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le canal artériel permet au sang fœtal de court-circuiter les poumons non fonctionnels en reliant l'artère pulmonaire à l'aorte.",
+      "answers": [
+        { "text": "Oxygéner le sang", "is_correct": false },
+        { "text": "Court-circuiter les poumons", "is_correct": true },
+        { "text": "Filtrer le sang", "is_correct": false },
+        { "text": "Produire du sang", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet la thermorégulation par évaporation ?",
+      "difficulty": "Facile",
+      "explanation": "La sudation (transpiration) permet la perte de chaleur par évaporation de l'eau à la surface de la peau.",
+      "answers": [
+        { "text": "La vasodilatation", "is_correct": false },
+        { "text": "La sudation", "is_correct": true },
+        { "text": "Le frisson", "is_correct": false },
+        { "text": "La piloérection", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des cellules de Leydig ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules de Leydig, situées dans les testicules, produisent la testostérone en réponse à la LH.",
+      "answers": [
+        { "text": "Production de spermatozoïdes", "is_correct": false },
+        { "text": "Production de testostérone", "is_correct": true },
+        { "text": "Maturation des spermatozoïdes", "is_correct": false },
+        { "text": "Sécrétion de FSH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du système rénine-angiotensine-aldostérone ?",
+      "difficulty": "Difficile",
+      "explanation": "Ce système régule la pression artérielle et l'équilibre hydro-électrolytique en contrôlant la volémie et la vasoconstriction.",
+      "answers": [
+        { "text": "Réguler la glycémie", "is_correct": false },
+        { "text": "Réguler la pression artérielle", "is_correct": true },
+        { "text": "Contrôler la respiration", "is_correct": false },
+        { "text": "Stimuler la digestion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule sécrète l'acide chlorhydrique dans l'estomac ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules pariétales (ou bordantes) de la muqueuse gastrique sécrètent l'acide chlorhydrique (HCl).",
+      "answers": [
+        { "text": "Les cellules principales", "is_correct": false },
+        { "text": "Les cellules pariétales", "is_correct": true },
+        { "text": "Les cellules à mucus", "is_correct": false },
+        { "text": "Les cellules G", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du foramen ovale chez le fœtus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le foramen ovale permet au sang de passer directement de l'oreillette droite à l'oreillette gauche, court-circuitant les poumons fœtaux.",
+      "answers": [
+        { "text": "Filtrer le sang", "is_correct": false },
+        { "text": "Court-circuiter les poumons", "is_correct": true },
+        { "text": "Oxygéner le sang", "is_correct": false },
+        { "text": "Séparer les ventricules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone inhibe la sécrétion de prolactine ?",
+      "difficulty": "Difficile",
+      "explanation": "La dopamine (ou PIF - Prolactin Inhibiting Factor), produite par l'hypothalamus, inhibe en permanence la sécrétion de prolactine.",
+      "answers": [
+        { "text": "L'ocytocine", "is_correct": false },
+        { "text": "La dopamine", "is_correct": true },
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La sérotonine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site de production des cellules sanguines chez l'adulte ?",
+      "difficulty": "Facile",
+      "explanation": "La moelle osseuse rouge, principalement dans les os plats et les épiphyses des os longs, produit toutes les cellules sanguines (hématopoïèse).",
+      "answers": [
+        { "text": "La rate", "is_correct": false },
+        { "text": "La moelle osseuse", "is_correct": true },
+        { "text": "Le foie", "is_correct": false },
+        { "text": "Les ganglions lymphatiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la CCK (cholécystokinine) ?",
+      "difficulty": "Difficile",
+      "explanation": "La CCK stimule la contraction de la vésicule biliaire (libération de bile) et la sécrétion d'enzymes pancréatiques.",
+      "answers": [
+        {
+          "text": "Stimuler la sécrétion d'acide gastrique",
+          "is_correct": false
+        },
+        { "text": "Stimuler la libération de bile", "is_correct": true },
+        { "text": "Inhiber la digestion", "is_correct": false },
+        { "text": "Augmenter la glycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule assure la conduction rapide de l'influx cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules de Purkinje forment un réseau dans les ventricules permettant une conduction très rapide de l'influx électrique.",
+      "answers": [
+        { "text": "Les cardiomyocytes ordinaires", "is_correct": false },
+        { "text": "Les cellules de Purkinje", "is_correct": true },
+        { "text": "Les cellules pacemaker", "is_correct": false },
+        { "text": "Les fibroblastes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des cellules de Sertoli ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules de Sertoli dans les tubes séminifères nourrissent et soutiennent le développement des spermatozoïdes (spermatogenèse).",
+      "answers": [
+        { "text": "Production de testostérone", "is_correct": false },
+        { "text": "Support de la spermatogenèse", "is_correct": true },
+        { "text": "Production d'œstrogène", "is_correct": false },
+        { "text": "Stockage des spermatozoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme provoque la contraction du muscle lisse vasculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "L'augmentation du calcium intracellulaire active la calmoduline qui déclenche la phosphorylation de la myosine, provoquant la contraction.",
+      "answers": [
+        { "text": "Liaison directe actine-myosine", "is_correct": false },
+        { "text": "Activation calcium-calmoduline", "is_correct": true },
+        { "text": "Dépolarisation membranaire seule", "is_correct": false },
+        { "text": "Libération d'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression partielle normale d'oxygène dans le sang artériel ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression partielle d'oxygène (PaO2) dans le sang artériel est normalement de 80-100 mmHg.",
+      "answers": [
+        { "text": "40-50 mmHg", "is_correct": false },
+        { "text": "80-100 mmHg", "is_correct": true },
+        { "text": "120-140 mmHg", "is_correct": false },
+        { "text": "150-180 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du complément dans l'immunité ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système du complément est un ensemble de protéines plasmatiques qui lysent les bactéries, opsonisent les pathogènes et recrutent les cellules immunitaires.",
+      "answers": [
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Lyse des pathogènes et opsonisation", "is_correct": true },
+        { "text": "Maturation des lymphocytes", "is_correct": false },
+        { "text": "Coagulation sanguine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du rein concentre l'urine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anse de Henlé, par son mécanisme de contre-courant, permet la concentration de l'urine en créant un gradient osmotique médullaire.",
+      "answers": [
+        { "text": "Le glomérule", "is_correct": false },
+        { "text": "L'anse de Henlé", "is_correct": true },
+        { "text": "Le tubule proximal", "is_correct": false },
+        { "text": "La capsule de Bowman", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone déclenche l'accouchement ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ocytocine stimule les contractions utérines lors de l'accouchement. Son augmentation crée une boucle de rétroaction positive.",
+      "answers": [
+        { "text": "La prolactine", "is_correct": false },
+        { "text": "L'ocytocine", "is_correct": true },
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du glycogène hépatique ?",
+      "difficulty": "Facile",
+      "explanation": "Le glycogène hépatique constitue une réserve de glucose mobilisable rapidement pour maintenir la glycémie entre les repas.",
+      "answers": [
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Réserve de glucose", "is_correct": true },
+        { "text": "Synthèse de protéines", "is_correct": false },
+        { "text": "Détoxification", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la transferrine ?",
+      "difficulty": "Moyen",
+      "explanation": "La transferrine est une protéine plasmatique qui transporte le fer dans le sang vers les tissus qui en ont besoin.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Transport du fer", "is_correct": true },
+        { "text": "Stockage du fer", "is_correct": false },
+        { "text": "Coagulation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le diaphragme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf phrénique (C3-C4-C5) innerve le diaphragme, permettant sa contraction pour l'inspiration.",
+      "answers": [
+        { "text": "Le nerf vague", "is_correct": false },
+        { "text": "Le nerf phrénique", "is_correct": true },
+        { "text": "Le nerf intercostal", "is_correct": false },
+        { "text": "Le nerf facial", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du péristaltisme ?",
+      "difficulty": "Facile",
+      "explanation": "Le péristaltisme est une série de contractions musculaires ondulatoires qui propulsent le contenu le long du tube digestif.",
+      "answers": [
+        { "text": "Absorption des nutriments", "is_correct": false },
+        { "text": "Propulsion du bol alimentaire", "is_correct": true },
+        { "text": "Sécrétion d'enzymes", "is_correct": false },
+        { "text": "Neutralisation de l'acidité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du facteur intrinsèque ?",
+      "difficulty": "Difficile",
+      "explanation": "Le facteur intrinsèque, sécrété par les cellules pariétales gastriques, est essentiel à l'absorption de la vitamine B12 dans l'iléon.",
+      "answers": [
+        { "text": "Digestion des protéines", "is_correct": false },
+        { "text": "Absorption de la vitamine B12", "is_correct": true },
+        { "text": "Coagulation sanguine", "is_correct": false },
+        { "text": "Production d'acide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cérébrale est impliquée dans la mémoire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hippocampe joue un rôle crucial dans la formation de nouvelles mémoires, particulièrement les mémoires déclaratives.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "L'hippocampe", "is_correct": true },
+        { "text": "Le bulbe rachidien", "is_correct": false },
+        { "text": "Le thalamus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal neurotransmetteur inhibiteur du SNC ?",
+      "difficulty": "Moyen",
+      "explanation": "Le GABA (acide gamma-aminobutyrique) est le principal neurotransmetteur inhibiteur du système nerveux central.",
+      "answers": [
+        { "text": "Le glutamate", "is_correct": false },
+        { "text": "Le GABA", "is_correct": true },
+        { "text": "La dopamine", "is_correct": false },
+        { "text": "L'acétylcholine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du corps caverneux ?",
+      "difficulty": "Moyen",
+      "explanation": "Les corps caverneux sont des tissus érectiles qui se gorgent de sang lors de l'érection, permettant la rigidité du pénis.",
+      "answers": [
+        { "text": "Production de sperme", "is_correct": false },
+        { "text": "Érection", "is_correct": true },
+        { "text": "Production d'hormones", "is_correct": false },
+        { "text": "Filtration de l'urine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'haptoglobine ?",
+      "difficulty": "Difficile",
+      "explanation": "L'haptoglobine lie l'hémoglobine libre dans le plasma lors de l'hémolyse, permettant son recyclage et évitant sa toxicité rénale.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Liaison de l'hémoglobine libre", "is_correct": true },
+        { "text": "Coagulation", "is_correct": false },
+        { "text": "Défense immunitaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est nécessaire à la vision nocturne ?",
+      "difficulty": "Facile",
+      "explanation": "La vitamine A (rétinol) est essentielle à la synthèse du rétinal, composant des pigments visuels des bâtonnets.",
+      "answers": [
+        { "text": "Vitamine A", "is_correct": true },
+        { "text": "Vitamine C", "is_correct": false },
+        { "text": "Vitamine D", "is_correct": false },
+        { "text": "Vitamine K", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la leptine ?",
+      "difficulty": "Difficile",
+      "explanation": "La leptine, hormone produite par le tissu adipeux, régule l'appétit et le métabolisme énergétique en signalant la satiété au cerveau.",
+      "answers": [
+        { "text": "Augmenter l'appétit", "is_correct": false },
+        { "text": "Signaler la satiété", "is_correct": true },
+        { "text": "Augmenter la glycémie", "is_correct": false },
+        { "text": "Stimuler la croissance", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la durée de vie moyenne d'une plaquette ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plaquettes ont une durée de vie d'environ 7 à 10 jours avant d'être éliminées principalement par la rate.",
+      "answers": [
+        { "text": "1-2 jours", "is_correct": false },
+        { "text": "7-10 jours", "is_correct": true },
+        { "text": "30 jours", "is_correct": false },
+        { "text": "120 jours", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal neurotransmetteur excitateur du SNC ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glutamate est le principal neurotransmetteur excitateur du système nerveux central, impliqué dans l'apprentissage et la mémoire.",
+      "answers": [
+        { "text": "Le GABA", "is_correct": false },
+        { "text": "Le glutamate", "is_correct": true },
+        { "text": "La dopamine", "is_correct": false },
+        { "text": "La sérotonine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone régule le cycle veille-sommeil ?",
+      "difficulty": "Facile",
+      "explanation": "La mélatonine, sécrétée par la glande pinéale en réponse à l'obscurité, régule le rythme circadien et favorise le sommeil.",
+      "answers": [
+        { "text": "Le cortisol", "is_correct": false },
+        { "text": "La mélatonine", "is_correct": true },
+        { "text": "L'adrénaline", "is_correct": false },
+        { "text": "La dopamine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du système porte hépatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système porte hépatique draine le sang riche en nutriments des organes digestifs vers le foie pour un premier passage métabolique.",
+      "answers": [
+        { "text": "Oxygéner le foie", "is_correct": false },
+        { "text": "Transporter les nutriments au foie", "is_correct": true },
+        { "text": "Filtrer les toxines", "is_correct": false },
+        { "text": "Produire de la bile", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure permet la communication entre les deux hémisphères cérébraux ?",
+      "difficulty": "Facile",
+      "explanation": "Le corps calleux est un large faisceau de fibres nerveuses qui relie et permet la communication entre les deux hémisphères cérébraux.",
+      "answers": [
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Le corps calleux", "is_correct": true },
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "Le bulbe rachidien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la calcitonine ?",
+      "difficulty": "Difficile",
+      "explanation": "La calcitonine, produite par la thyroïde, diminue la calcémie en inhibant la résorption osseuse par les ostéoclastes.",
+      "answers": [
+        { "text": "Augmenter le calcium sanguin", "is_correct": false },
+        { "text": "Diminuer le calcium sanguin", "is_correct": true },
+        { "text": "Réguler la glycémie", "is_correct": false },
+        { "text": "Stimuler la croissance osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du sphincter œsophagien inférieur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sphincter œsophagien inférieur (cardia) empêche le reflux du contenu gastrique acide vers l'œsophage.",
+      "answers": [
+        { "text": "Faciliter la déglutition", "is_correct": false },
+        { "text": "Empêcher le reflux gastrique", "is_correct": true },
+        { "text": "Produire du mucus", "is_correct": false },
+        { "text": "Sécréter des enzymes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le pH normal du sang artériel ?",
+      "difficulty": "Facile",
+      "explanation": "Le pH sanguin artériel normal est compris entre 7,35 et 7,45, avec une valeur moyenne de 7,4.",
+      "answers": [
+        { "text": "6,8-7,0", "is_correct": false },
+        { "text": "7,35-7,45", "is_correct": true },
+        { "text": "7,8-8,0", "is_correct": false },
+        { "text": "8,2-8,4", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule immunitaire est responsable de la réponse allergique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les mastocytes et basophiles libèrent de l'histamine lors de réactions allergiques médiées par les IgE.",
+      "answers": [
+        { "text": "Les lymphocytes T", "is_correct": false },
+        { "text": "Les mastocytes", "is_correct": true },
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les neutrophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du réflexe de déglutition ?",
+      "difficulty": "Facile",
+      "explanation": "Le réflexe de déglutition permet le passage coordonné du bol alimentaire de la bouche vers l'estomac tout en protégeant les voies respiratoires.",
+      "answers": [
+        { "text": "Digérer les aliments", "is_correct": false },
+        { "text": "Acheminer les aliments vers l'estomac", "is_correct": true },
+        { "text": "Produire de la salive", "is_correct": false },
+        { "text": "Mâcher les aliments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe produit la rénine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules juxtaglomérulaires des reins produisent la rénine, enzyme clé du système rénine-angiotensine-aldostérone.",
+      "answers": [
+        { "text": "Le foie", "is_correct": false },
+        { "text": "Les reins", "is_correct": true },
+        { "text": "Les surrénales", "is_correct": false },
+        { "text": "Le cœur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des interneurones ?",
+      "difficulty": "Moyen",
+      "explanation": "Les interneurones assurent la connexion entre les neurones sensoriels et moteurs dans les circuits neuronaux du SNC.",
+      "answers": [
+        { "text": "Capter les stimuli externes", "is_correct": false },
+        { "text": "Connecter les neurones entre eux", "is_correct": true },
+        { "text": "Contracter les muscles", "is_correct": false },
+        { "text": "Produire des hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le volume de filtrat produit par les reins quotidiennement ?",
+      "difficulty": "Difficile",
+      "explanation": "Les reins filtrent environ 180 litres de plasma par jour, dont 99% est réabsorbé, produisant 1-2 litres d'urine.",
+      "answers": [
+        { "text": "18 litres", "is_correct": false },
+        { "text": "180 litres", "is_correct": true },
+        { "text": "500 litres", "is_correct": false },
+        { "text": "1000 litres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la réabsorption du calcium par les reins ?",
+      "difficulty": "Difficile",
+      "explanation": "La parathormone (PTH) augmente la réabsorption rénale du calcium et son absorption intestinale.",
+      "answers": [
+        { "text": "La calcitonine", "is_correct": false },
+        { "text": "La parathormone", "is_correct": true },
+        { "text": "L'ADH", "is_correct": false },
+        { "text": "L'aldostérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des podocytes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les podocytes sont des cellules épithéliales spécialisées qui forment la barrière de filtration glomérulaire par leurs prolongements.",
+      "answers": [
+        { "text": "Sécrétion d'hormones", "is_correct": false },
+        { "text": "Filtration du sang", "is_correct": true },
+        { "text": "Réabsorption du glucose", "is_correct": false },
+        { "text": "Production d'urine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle phase du cycle cardiaque dure le plus longtemps ?",
+      "difficulty": "Moyen",
+      "explanation": "La diastole (relaxation ventriculaire) dure plus longtemps que la systole, permettant le remplissage des ventricules.",
+      "answers": [
+        { "text": "La systole auriculaire", "is_correct": false },
+        { "text": "La diastole ventriculaire", "is_correct": true },
+        { "text": "La systole ventriculaire", "is_correct": false },
+        { "text": "La contraction isovolumétrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'épiglotte ?",
+      "difficulty": "Facile",
+      "explanation": "L'épiglotte est un cartilage qui ferme le larynx lors de la déglutition, empêchant les aliments d'entrer dans les voies respiratoires.",
+      "answers": [
+        { "text": "Produire des sons", "is_correct": false },
+        { "text": "Protéger les voies respiratoires", "is_correct": true },
+        { "text": "Filtrer l'air", "is_correct": false },
+        { "text": "Humidifier l'air", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est sécrétée en réponse à l'hypoglycémie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glucagon et l'adrénaline sont sécrétés en réponse à l'hypoglycémie pour augmenter la glycémie.",
+      "answers": [
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "Le glucagon", "is_correct": true },
+        { "text": "La thyroxine", "is_correct": false },
+        { "text": "Le cortisol seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des pneumocytes de type II ?",
+      "difficulty": "Difficile",
+      "explanation": "Les pneumocytes de type II produisent le surfactant pulmonaire et peuvent se différencier en pneumocytes de type I.",
+      "answers": [
+        { "text": "Échanges gazeux", "is_correct": false },
+        { "text": "Production de surfactant", "is_correct": true },
+        { "text": "Défense immunitaire", "is_correct": false },
+        { "text": "Contraction musculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la myoglobine ?",
+      "difficulty": "Moyen",
+      "explanation": "La myoglobine stocke l'oxygène dans les muscles squelettiques et cardiaques, le libérant lors de l'exercice.",
+      "answers": [
+        { "text": "Transport de l'oxygène dans le sang", "is_correct": false },
+        {
+          "text": "Stockage de l'oxygène dans les muscles",
+          "is_correct": true
+        },
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Contraction musculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du cerveau contrôle les émotions ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système limbique, notamment l'amygdale et l'hippocampe, joue un rôle majeur dans les émotions et la mémoire émotionnelle.",
+      "answers": [
+        { "text": "Le cervelet", "is_correct": false },
+        { "text": "Le système limbique", "is_correct": true },
+        { "text": "Le bulbe rachidien", "is_correct": false },
+        { "text": "Le cortex moteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur normale de la glycémie à jeun ?",
+      "difficulty": "Facile",
+      "explanation": "La glycémie normale à jeun se situe entre 0,7 et 1,1 g/L (ou 3,9 à 6,1 mmol/L).",
+      "answers": [
+        { "text": "0,4-0,6 g/L", "is_correct": false },
+        { "text": "0,7-1,1 g/L", "is_correct": true },
+        { "text": "1,5-2,0 g/L", "is_correct": false },
+        { "text": "2,5-3,0 g/L", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la pompe Na+/K+ ATPase ?",
+      "difficulty": "Difficile",
+      "explanation": "Cette pompe maintient le gradient électrochimique en expulsant 3 Na+ et en faisant entrer 2 K+ contre leurs gradients, consommant de l'ATP.",
+      "answers": [
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Maintenir le potentiel de membrane", "is_correct": true },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Synthétiser des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la maturation des follicules ovariens ?",
+      "difficulty": "Moyen",
+      "explanation": "La FSH (hormone folliculo-stimulante) stimule la croissance et la maturation des follicules ovariens.",
+      "answers": [
+        { "text": "La LH", "is_correct": false },
+        { "text": "La FSH", "is_correct": true },
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La prolactine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des récepteurs à l'étirement pulmonaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Ces récepteurs détectent la distension pulmonaire et déclenchent le réflexe de Hering-Breuer qui limite l'inspiration excessive.",
+      "answers": [
+        { "text": "Stimuler l'inspiration", "is_correct": false },
+        { "text": "Limiter l'inspiration excessive", "is_correct": true },
+        { "text": "Détecter l'hypoxie", "is_correct": false },
+        { "text": "Produire du surfactant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit l'insuline ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules bêta des îlots de Langerhans du pancréas produisent et sécrètent l'insuline.",
+      "answers": [
+        { "text": "Les cellules alpha", "is_correct": false },
+        { "text": "Les cellules bêta", "is_correct": true },
+        { "text": "Les cellules delta", "is_correct": false },
+        { "text": "Les hépatocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'endothélium vasculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'endothélium régule le tonus vasculaire, la coagulation, l'inflammation et la perméabilité vasculaire.",
+      "answers": [
+        { "text": "Contraction musculaire", "is_correct": false },
+        { "text": "Régulation du tonus vasculaire", "is_correct": true },
+        { "text": "Production de globules rouges", "is_correct": false },
+        { "text": "Filtration du sang", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression partielle normale de CO2 dans le sang artériel ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression partielle de CO2 (PaCO2) dans le sang artériel est normalement de 35-45 mmHg.",
+      "answers": [
+        { "text": "15-25 mmHg", "is_correct": false },
+        { "text": "35-45 mmHg", "is_correct": true },
+        { "text": "60-80 mmHg", "is_correct": false },
+        { "text": "100-120 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules de Kupffer ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules de Kupffer sont des macrophages hépatiques qui phagocytent les bactéries, débris cellulaires et vieux globules rouges.",
+      "answers": [
+        { "text": "Production de bile", "is_correct": false },
+        { "text": "Phagocytose dans le foie", "is_correct": true },
+        { "text": "Stockage du glycogène", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du réflexe pupillaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le réflexe pupillaire adapte la quantité de lumière entrant dans l'œil : constriction en lumière vive, dilatation en faible lumière.",
+      "answers": [
+        { "text": "Produire des larmes", "is_correct": false },
+        { "text": "Adapter la quantité de lumière", "is_correct": true },
+        { "text": "Accommoder la vision", "is_correct": false },
+        { "text": "Protéger la rétine seulement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la thyroglobuline ?",
+      "difficulty": "Difficile",
+      "explanation": "La thyroglobuline est une protéine précurseur servant à la synthèse et au stockage des hormones thyroïdiennes T3 et T4.",
+      "answers": [
+        { "text": "Transport des hormones thyroïdiennes", "is_correct": false },
+        { "text": "Synthèse et stockage de T3/T4", "is_correct": true },
+        { "text": "Régulation du métabolisme", "is_correct": false },
+        { "text": "Production d'iode", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des valves cardiaques ?",
+      "difficulty": "Facile",
+      "explanation": "Les valves cardiaques empêchent le reflux du sang, assurant une circulation unidirectionnelle dans le cœur.",
+      "answers": [
+        { "text": "Pomper le sang", "is_correct": false },
+        { "text": "Empêcher le reflux sanguin", "is_correct": true },
+        { "text": "Oxygéner le sang", "is_correct": false },
+        { "text": "Générer l'influx électrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel neurotransmetteur est déficient dans la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Parkinson est caractérisée par une dégénérescence des neurones dopaminergiques de la substance noire.",
+      "answers": [
+        { "text": "La sérotonine", "is_correct": false },
+        { "text": "La dopamine", "is_correct": true },
+        { "text": "L'acétylcholine", "is_correct": false },
+        { "text": "Le GABA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du système vestibulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système vestibulaire de l'oreille interne détecte les mouvements de la tête et maintient l'équilibre.",
+      "answers": [
+        { "text": "Perception des sons", "is_correct": false },
+        { "text": "Détection des mouvements et équilibre", "is_correct": true },
+        { "text": "Production de cérumen", "is_correct": false },
+        { "text": "Régulation de la pression", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion traverse les canaux ioniques lors de la dépolarisation ?",
+      "difficulty": "Moyen",
+      "explanation": "Lors de la dépolarisation, les canaux sodiques s'ouvrent permettant l'entrée massive de Na+ dans la cellule.",
+      "answers": [
+        { "text": "Le potassium", "is_correct": false },
+        { "text": "Le sodium", "is_correct": true },
+        { "text": "Le chlore", "is_correct": false },
+        { "text": "Le calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'angiotensine II ?",
+      "difficulty": "Difficile",
+      "explanation": "L'angiotensine II provoque une vasoconstriction, stimule la sécrétion d'aldostérone et augmente la pression artérielle.",
+      "answers": [
+        { "text": "Vasodilatation", "is_correct": false },
+        {
+          "text": "Vasoconstriction et augmentation de la PA",
+          "is_correct": true
+        },
+        { "text": "Diminution de la volémie", "is_correct": false },
+        { "text": "Inhibition de l'aldostérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure produit le liquide céphalo-rachidien ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plexus choroïdes des ventricules cérébraux produisent le liquide céphalo-rachidien par ultrafiltration du sang.",
+      "answers": [
+        { "text": "La moelle épinière", "is_correct": false },
+        { "text": "Les plexus choroïdes", "is_correct": true },
+        { "text": "Les méninges", "is_correct": false },
+        { "text": "Le cervelet", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site de production de la bilirubine ?",
+      "difficulty": "Moyen",
+      "explanation": "La bilirubine est produite principalement dans la rate lors de la dégradation de l'hémoglobine des vieux globules rouges.",
+      "answers": [
+        { "text": "Le foie", "is_correct": false },
+        { "text": "La rate", "is_correct": true },
+        { "text": "La moelle osseuse", "is_correct": false },
+        { "text": "Les reins", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone régule l'homéostasie du phosphate ?",
+      "difficulty": "Difficile",
+      "explanation": "Le FGF23 et la parathormone régulent l'homéostasie du phosphate en contrôlant son excrétion rénale.",
+      "answers": [
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "La parathormone", "is_correct": true },
+        { "text": "La thyroxine", "is_correct": false },
+        { "text": "Le cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des récepteurs muscariniques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs muscariniques sont des récepteurs à l'acétylcholine du système parasympathique, activant des effets comme la bradycardie.",
+      "answers": [
+        { "text": "Activation sympathique", "is_correct": false },
+        { "text": "Activation parasympathique", "is_correct": true },
+        { "text": "Contraction musculaire squelettique", "is_correct": false },
+        { "text": "Sécrétion d'adrénaline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'aquaporine ?",
+      "difficulty": "Difficile",
+      "explanation": "Les aquaporines sont des canaux protéiques membranaires permettant le passage rapide de l'eau à travers les membranes cellulaires.",
+      "answers": [
+        { "text": "Transport d'ions", "is_correct": false },
+        { "text": "Transport de l'eau", "is_correct": true },
+        { "text": "Transport du glucose", "is_correct": false },
+        { "text": "Production d'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal organe de la thermolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "La peau est l'organe principal de perte de chaleur par radiation, convection, conduction et évaporation (sudation).",
+      "answers": [
+        { "text": "Les poumons", "is_correct": false },
+        { "text": "La peau", "is_correct": true },
+        { "text": "Le foie", "is_correct": false },
+        { "text": "Les reins", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule assure la myélinisation dans le système nerveux périphérique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules de Schwann forment la gaine de myéline autour des axones du système nerveux périphérique.",
+      "answers": [
+        { "text": "Les oligodendrocytes", "is_correct": false },
+        { "text": "Les cellules de Schwann", "is_correct": true },
+        { "text": "Les astrocytes", "is_correct": false },
+        { "text": "Les microglies", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la lipase pancréatique ?",
+      "difficulty": "Facile",
+      "explanation": "La lipase pancréatique hydrolyse les triglycérides en acides gras et glycérol dans l'intestin grêle.",
+      "answers": [
+        { "text": "Digestion des protéines", "is_correct": false },
+        { "text": "Digestion des lipides", "is_correct": true },
+        { "text": "Digestion des glucides", "is_correct": false },
+        { "text": "Absorption des vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la production de lait maternel ?",
+      "difficulty": "Facile",
+      "explanation": "La prolactine stimule la lactogenèse (production de lait), tandis que l'ocytocine contrôle l'éjection du lait.",
+      "answers": [
+        { "text": "L'œstrogène", "is_correct": false },
+        { "text": "La prolactine", "is_correct": true },
+        { "text": "La progestérone", "is_correct": false },
+        { "text": "La LH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du centre apneustique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le centre apneustique, situé dans le pont, prolonge l'inspiration en stimulant les neurones inspiratoires.",
+      "answers": [
+        { "text": "Inhiber l'inspiration", "is_correct": false },
+        { "text": "Prolonger l'inspiration", "is_correct": true },
+        { "text": "Stimuler l'expiration", "is_correct": false },
+        { "text": "Détecter l'hypoxie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du réticulum sarcoplasmique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réticulum sarcoplasmique stocke et libère le calcium nécessaire à la contraction musculaire.",
+      "answers": [
+        { "text": "Synthèse de protéines", "is_correct": false },
+        { "text": "Stockage du calcium", "is_correct": true },
+        { "text": "Production d'ATP", "is_correct": false },
+        { "text": "Transport de l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules principales gastriques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules principales (ou peptiques) sécrètent le pepsinogène, précurseur inactif de la pepsine.",
+      "answers": [
+        { "text": "Sécrétion d'acide chlorhydrique", "is_correct": false },
+        { "text": "Sécrétion de pepsinogène", "is_correct": true },
+        { "text": "Production de mucus", "is_correct": false },
+        { "text": "Absorption des nutriments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle substance permet la transmission neuromusculaire ?",
+      "difficulty": "Facile",
+      "explanation": "L'acétylcholine, libérée par le motoneurone, se lie aux récepteurs nicotiniques de la plaque motrice déclenchant la contraction.",
+      "answers": [
+        { "text": "La dopamine", "is_correct": false },
+        { "text": "L'acétylcholine", "is_correct": true },
+        { "text": "La noradrénaline", "is_correct": false },
+        { "text": "Le GABA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du peptide YY ?",
+      "difficulty": "Difficile",
+      "explanation": "Le peptide YY, sécrété par l'intestin après un repas, induit la satiété en inhibant l'appétit.",
+      "answers": [
+        { "text": "Stimuler l'appétit", "is_correct": false },
+        { "text": "Induire la satiété", "is_correct": true },
+        { "text": "Augmenter la motilité gastrique", "is_correct": false },
+        { "text": "Sécréter des enzymes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du corps géniculé latéral ?",
+      "difficulty": "Difficile",
+      "explanation": "Le corps géniculé latéral du thalamus est un relais des voies visuelles vers le cortex visuel occipital.",
+      "answers": [
+        { "text": "Traitement de l'audition", "is_correct": false },
+        { "text": "Relais des informations visuelles", "is_correct": true },
+        { "text": "Contrôle moteur", "is_correct": false },
+        { "text": "Régulation de la température", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal anion extracellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le chlore (Cl-) est le principal anion du liquide extracellulaire, jouant un rôle dans l'équilibre osmotique.",
+      "answers": [
+        { "text": "Le phosphate", "is_correct": false },
+        { "text": "Le chlore", "is_correct": true },
+        { "text": "Le bicarbonate", "is_correct": false },
+        { "text": "Le sulfate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cardiaque reçoit le sang désoxygéné du corps ?",
+      "difficulty": "Facile",
+      "explanation": "L'oreillette droite reçoit le sang désoxygéné provenant des veines caves supérieure et inférieure.",
+      "answers": [
+        { "text": "L'oreillette gauche", "is_correct": false },
+        { "text": "L'oreillette droite", "is_correct": true },
+        { "text": "Le ventricule gauche", "is_correct": false },
+        { "text": "Le ventricule droit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'enzyme de conversion de l'angiotensine (ACE) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ACE convertit l'angiotensine I en angiotensine II (vasoconstricteur puissant) et dégrade la bradykinine (vasodilatateur).",
+      "answers": [
+        { "text": "Produire de la rénine", "is_correct": false },
+        { "text": "Convertir angiotensine I en II", "is_correct": true },
+        { "text": "Sécréter l'aldostérone", "is_correct": false },
+        { "text": "Filtrer le sang", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule détruit les cellules infectées par des virus ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T cytotoxiques (CD8+) et les cellules NK détruisent les cellules infectées par des virus.",
+      "answers": [
+        { "text": "Les lymphocytes B", "is_correct": false },
+        { "text": "Les lymphocytes T cytotoxiques", "is_correct": true },
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les neutrophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du GIP (peptide insulinotrope gastrique) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le GIP, sécrété par l'intestin en réponse au glucose, stimule la sécrétion d'insuline (effet incrétine).",
+      "answers": [
+        { "text": "Inhiber la sécrétion d'insuline", "is_correct": false },
+        { "text": "Stimuler la sécrétion d'insuline", "is_correct": true },
+        { "text": "Augmenter la vidange gastrique", "is_correct": false },
+        { "text": "Sécréter de la gastrine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du nerf optique ?",
+      "difficulty": "Facile",
+      "explanation": "Le nerf optique (II) transmet les informations visuelles de la rétine vers le cerveau.",
+      "answers": [
+        { "text": "Contrôler les mouvements oculaires", "is_correct": false },
+        {
+          "text": "Transmettre les informations visuelles",
+          "is_correct": true
+        },
+        { "text": "Réguler le réflexe pupillaire", "is_correct": false },
+        { "text": "Produire des larmes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la superoxyde dismutase ?",
+      "difficulty": "Difficile",
+      "explanation": "La superoxyde dismutase est une enzyme antioxydante qui convertit les radicaux superoxydes toxiques en peroxyde d'hydrogène.",
+      "answers": [
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Protection contre les radicaux libres", "is_correct": true },
+        { "text": "Synthèse de protéines", "is_correct": false },
+        { "text": "Transport de l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la lipolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'adrénaline, le glucagon et l'hormone de croissance stimulent la lipolyse (dégradation des triglycérides).",
+      "answers": [
+        { "text": "L'insuline", "is_correct": false },
+        { "text": "L'adrénaline", "is_correct": true },
+        { "text": "La leptine", "is_correct": false },
+        { "text": "L'aldostérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des récepteurs nicotiniques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les récepteurs nicotiniques sont des récepteurs ionotropiques à l'acétylcholine présents aux jonctions neuromusculaires et ganglionnaires.",
+      "answers": [
+        { "text": "Activation parasympathique lente", "is_correct": false },
+        { "text": "Transmission neuromusculaire rapide", "is_correct": true },
+        { "text": "Inhibition neuronale", "is_correct": false },
+        { "text": "Sécrétion hormonale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la macula densa ?",
+      "difficulty": "Difficile",
+      "explanation": "La macula densa détecte la concentration de sodium dans le tubule distal et régule la sécrétion de rénine.",
+      "answers": [
+        { "text": "Filtration du sang", "is_correct": false },
+        {
+          "text": "Détection du sodium et régulation de la rénine",
+          "is_correct": true
+        },
+        { "text": "Réabsorption de l'eau", "is_correct": false },
+        { "text": "Production d'EPO", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la créatine phosphate dans le muscle ?",
+      "difficulty": "Moyen",
+      "explanation": "La créatine phosphate sert de réserve énergétique immédiate, régénérant rapidement l'ATP lors des premières secondes d'effort.",
+      "answers": [
+        { "text": "Contraction musculaire directe", "is_correct": false },
+        { "text": "Régénération rapide d'ATP", "is_correct": true },
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Synthèse de protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure assure la coordination des mouvements volontaires ?",
+      "difficulty": "Facile",
+      "explanation": "Le cervelet coordonne et affine les mouvements volontaires, maintient l'équilibre et le tonus musculaire.",
+      "answers": [
+        { "text": "Le cortex moteur primaire", "is_correct": false },
+        { "text": "Le cervelet", "is_correct": true },
+        { "text": "Le thalamus", "is_correct": false },
+        { "text": "Les noyaux gris centraux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la ghreline ?",
+      "difficulty": "Difficile",
+      "explanation": "La ghreline, hormone produite par l'estomac, stimule l'appétit et est sécrétée avant les repas.",
+      "answers": [
+        { "text": "Induire la satiété", "is_correct": false },
+        { "text": "Stimuler l'appétit", "is_correct": true },
+        { "text": "Augmenter le métabolisme", "is_correct": false },
+        { "text": "Sécréter de l'insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du GLP-1 ?",
+      "difficulty": "Difficile",
+      "explanation": "Le GLP-1 (glucagon-like peptide 1) stimule la sécrétion d'insuline, inhibe le glucagon et ralentit la vidange gastrique.",
+      "answers": [
+        { "text": "Augmenter la glycémie", "is_correct": false },
+        { "text": "Stimuler la sécrétion d'insuline", "is_correct": true },
+        { "text": "Accélérer la digestion", "is_correct": false },
+        { "text": "Inhiber l'absorption du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de récepteur détecte la position des articulations ?",
+      "difficulty": "Moyen",
+      "explanation": "Les propriocepteurs (fuseaux neuromusculaires, organes tendineux de Golgi) détectent la position et le mouvement des articulations.",
+      "answers": [
+        { "text": "Les nocicepteurs", "is_correct": false },
+        { "text": "Les propriocepteurs", "is_correct": true },
+        { "text": "Les thermorécepteurs", "is_correct": false },
+        { "text": "Les mécanorécepteurs cutanés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du centre pneumotaxique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le centre pneumotaxique, situé dans le pont, limite l'inspiration et contrôle la fréquence respiratoire.",
+      "answers": [
+        { "text": "Stimuler l'inspiration profonde", "is_correct": false },
+        { "text": "Limiter l'inspiration", "is_correct": true },
+        {
+          "text": "Générer le rythme respiratoire de base",
+          "is_correct": false
+        },
+        { "text": "Détecter l'hypercapnie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du cœur dans la circulation sanguine ?",
+      "difficulty": "Facile",
+      "explanation": "Le cœur pompe le sang pour assurer l'apport en oxygène et nutriments aux tissus et l'élimination des déchets.",
+      "answers": [
+        { "text": "Filtrer le sang", "is_correct": false },
+        { "text": "Pomper le sang dans le corps", "is_correct": true },
+        { "text": "Produire des globules rouges", "is_correct": false },
+        { "text": "Synthétiser des hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des poumons ?",
+      "difficulty": "Facile",
+      "explanation": "Les poumons permettent les échanges gazeux : oxygène entrant dans le sang et dioxyde de carbone sortant.",
+      "answers": [
+        { "text": "Produire du sang", "is_correct": false },
+        { "text": "Assurer les échanges gazeux", "is_correct": true },
+        { "text": "Réguler la température", "is_correct": false },
+        { "text": "Filtrer les déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des reins dans l'organisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les reins filtrent le sang, éliminent les déchets et régulent l'équilibre hydrique et électrolytique.",
+      "answers": [
+        { "text": "Produire de l'insuline", "is_correct": false },
+        { "text": "Filtrer le sang et réguler l'eau", "is_correct": true },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        {
+          "text": "Synthétiser des hormones thyroïdiennes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des globules rouges ?",
+      "difficulty": "Facile",
+      "explanation": "Les globules rouges transportent l'oxygène grâce à l'hémoglobine et participent au transport partiel du CO₂.",
+      "answers": [
+        { "text": "Défendre l'organisme", "is_correct": false },
+        { "text": "Transporter l'oxygène", "is_correct": true },
+        { "text": "Produire des hormones", "is_correct": false },
+        { "text": "Filtrer les déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'insuline ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuline diminue la glycémie en favorisant le stockage du glucose dans le foie et les muscles sous forme de glycogène.",
+      "answers": [
+        { "text": "Augmenter la glycémie", "is_correct": false },
+        { "text": "Diminuer la glycémie", "is_correct": true },
+        { "text": "Stimuler la contraction musculaire", "is_correct": false },
+        { "text": "Activer la dégradation des lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est sécrétée par la glande thyroïde pour réguler le métabolisme ?",
+      "difficulty": "Facile",
+      "explanation": "La thyroxine (T4) et la triiodothyronine (T3) augmentent le métabolisme de base et stimulent la production de chaleur.",
+      "answers": [
+        { "text": "Cortisol", "is_correct": false },
+        { "text": "Thyroxine", "is_correct": true },
+        { "text": "Insuline", "is_correct": false },
+        { "text": "Adrénaline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des plaquettes ?",
+      "difficulty": "Facile",
+      "explanation": "Les plaquettes participent à la coagulation sanguine et préviennent les hémorragies.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Coaguler le sang", "is_correct": true },
+        { "text": "Combattre les infections", "is_correct": false },
+        { "text": "Filtrer les déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du système nerveux ?",
+      "difficulty": "Facile",
+      "explanation": "Le système nerveux coordonne les fonctions de l'organisme, détecte les stimuli et transmet les informations.",
+      "answers": [
+        { "text": "Produire des hormones", "is_correct": false },
+        {
+          "text": "Coordonner et transmettre des informations",
+          "is_correct": true
+        },
+        { "text": "Filtrer le sang", "is_correct": false },
+        { "text": "Transporter l'oxygène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'hormone adrénaline ?",
+      "difficulty": "Moyen",
+      "explanation": "L'adrénaline prépare l'organisme à l'effort ou au stress en augmentant le rythme cardiaque, la pression artérielle et la glycémie.",
+      "answers": [
+        { "text": "Diminuer la pression artérielle", "is_correct": false },
+        { "text": "Préparer le corps au stress", "is_correct": true },
+        { "text": "Stocker le glucose", "is_correct": false },
+        { "text": "Stimuler la digestion", "is_correct": false }
       ]
     }
   ]

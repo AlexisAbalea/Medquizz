@@ -45,6 +45,8 @@ class QuizProvider with ChangeNotifier {
     notifyListeners();
 
     try {
+      print('Starting quiz for categoryId: $categoryId with limit: $limit');
+
       // Charger les questions
       if (limit != null && limit > 0) {
         _questions =
@@ -53,6 +55,8 @@ class QuizProvider with ChangeNotifier {
         _questions = await _questionRepository.getQuestionsByCategory(categoryId);
         _questions.shuffle(); // Mélanger les questions
       }
+
+      print('Loaded ${_questions.length} questions');
 
       if (_questions.isEmpty) {
         _error = 'Aucune question disponible pour cette catégorie';

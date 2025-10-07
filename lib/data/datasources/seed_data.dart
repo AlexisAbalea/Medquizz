@@ -4,19 +4,43 @@ import 'package:medquizz_pass/data/datasources/database_helper.dart';
 
 class SeedData {
   static Future<void> initialize() async {
-    final db = DatabaseHelper.instance;
+    try {
+      print('=== SeedData.initialize() started ===');
+      final db = DatabaseHelper.instance;
 
-    // Vérifier si les données existent déjà
-    final categories = await db.queryAll('categories');
-    if (categories.isNotEmpty) {
-      return; // Données déjà initialisées
+      // Vérifier si les données existent déjà
+      final categories = await db.queryAll('categories');
+      print('Found ${categories.length} categories in database');
+
+      final questions = await db.queryAll('questions');
+      print('Found ${questions.length} questions in database');
+
+      if (categories.isNotEmpty && questions.isNotEmpty) {
+        print('Data already initialized, skipping seed');
+        return; // Données déjà initialisées
+      }
+
+      if (categories.isEmpty) {
+        print('No categories found, inserting categories...');
+        await _insertCategories(db);
+        print('Categories inserted successfully');
+      } else {
+        print('Categories already exist, skipping category insertion');
+      }
+
+      if (questions.isEmpty) {
+        print('No questions found, loading from JSON...');
+        await _insertQuestionsFromJson(db);
+        print('Questions inserted successfully');
+      } else {
+        print('Questions already exist, skipping question insertion');
+      }
+
+      print('=== SeedData.initialize() completed ===');
+    } catch (e, stackTrace) {
+      print('ERROR in SeedData.initialize(): $e');
+      print('StackTrace: $stackTrace');
     }
-
-    // Insérer les catégories
-    await _insertCategories(db);
-
-    // Insérer les questions depuis les fichiers JSON
-    await _insertQuestionsFromJson(db);
   }
 
   static Future<void> _insertCategories(DatabaseHelper db) async {
@@ -790,6 +814,8 @@ class SeedData {
 
   // Nouvelle méthode pour charger les questions depuis les fichiers JSON
   static Future<void> _insertQuestionsFromJson(DatabaseHelper db) async {
+    print('_insertQuestionsFromJson started');
+
     // Définir les fichiers JSON par niveau et par matière
     final Map<String, List<String>> jsonFilesByLevel = {
       'L1': [
@@ -814,33 +840,46 @@ class SeedData {
 
     // Récupérer toutes les catégories pour mapper les noms aux IDs
     final categoriesData = await db.queryAll('categories');
+    print('Found ${categoriesData.length} categories for mapping');
+
     final Map<String, int> categoryNameToId = {};
     for (var cat in categoriesData) {
       categoryNameToId[cat['name']] = cat['id'] as int;
+      print('Category: ${cat['name']} -> ID: ${cat['id']}');
     }
 
     // Parcourir chaque niveau
     for (final yearLevel in jsonFilesByLevel.keys) {
+      print('Processing year level: $yearLevel');
       final files = jsonFilesByLevel[yearLevel]!;
 
       // Charger chaque fichier de matière
       for (final filePath in files) {
         try {
+          print('Loading file: $filePath');
+
           // Charger le fichier JSON
           final String jsonString = await rootBundle.loadString(filePath);
+          print('File loaded, parsing JSON...');
+
           final Map<String, dynamic> jsonData = json.decode(jsonString);
+          print('JSON parsed successfully');
 
           final String categoryName = jsonData['category'] as String;
           final List<dynamic> questions = jsonData['questions'];
+          print('Category: $categoryName, Questions count: ${questions.length}');
 
           final categoryId = categoryNameToId[categoryName];
 
           if (categoryId == null) {
-            print('Warning: Category "$categoryName" not found in file $filePath, skipping');
+            print('Warning: Category "$categoryName" not found in database, skipping $filePath');
             continue;
           }
 
+          print('Inserting ${questions.length} questions for category $categoryName (ID: $categoryId)...');
+
           // Insérer chaque question
+          int insertedCount = 0;
           for (var questionData in questions) {
             await _insertQuestion(
               db,
@@ -854,13 +893,17 @@ class SeedData {
                 'isCorrect': a['is_correct'],
               }).toList(),
             );
+            insertedCount++;
           }
 
-          print('Loaded ${questions.length} questions from $filePath');
-        } catch (e) {
-          print('Error loading questions from $filePath: $e');
+          print('✓ Successfully loaded $insertedCount questions from $filePath');
+        } catch (e, stackTrace) {
+          print('✗ Error loading questions from $filePath: $e');
+          print('StackTrace: $stackTrace');
         }
       }
     }
+
+    print('_insertQuestionsFromJson completed');
   }
 }

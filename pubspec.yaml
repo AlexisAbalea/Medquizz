@@ -53,3 +53,6 @@ flutter:
     - assets/animations/
     - assets/icons/
     - assets/questions/
+    - assets/questions/L1/
+    - assets/questions/L2/
+    - assets/questions/L3/

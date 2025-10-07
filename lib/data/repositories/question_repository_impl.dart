@@ -52,10 +52,20 @@ class QuestionRepositoryImpl implements QuestionRepository {
   @override
   Future<List<QuestionModel>> getRandomQuestions(
       int categoryId, int limit) async {
+    print('getRandomQuestions: categoryId=$categoryId, limit=$limit');
+
+    // Vérifier le nombre total de questions pour cette catégorie
+    final totalQuestions = await _dbHelper.rawQuery(
+      'SELECT COUNT(*) as count FROM questions WHERE category_id = ?',
+      [categoryId],
+    );
+    print('Total questions for categoryId $categoryId: ${totalQuestions.first['count']}');
+
     final questions = await _dbHelper.rawQuery(
       'SELECT * FROM questions WHERE category_id = ? ORDER BY RANDOM() LIMIT ?',
       [categoryId, limit],
     );
+    print('Loaded ${questions.length} questions');
     return questions.map((q) => QuestionModel.fromMap(q)).toList();
   }
 

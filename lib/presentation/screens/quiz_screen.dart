@@ -43,13 +43,13 @@ class _QuizScreenState extends State<QuizScreen> {
               widget.category.id!,
               widget.category.yearLevel,
               student.id!,
-              limit: 10, // 10 questions par quiz
+              limit: 15, // 15 questions par quiz
             );
       } else {
         await context.read<QuizProvider>().startQuiz(
               widget.category.id!,
               student.id!,
-              limit: 10, // 10 questions par quiz
+              limit: 15, // 15 questions par quiz
             );
       }
     }

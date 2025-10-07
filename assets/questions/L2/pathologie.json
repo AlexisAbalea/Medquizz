@@ -6,10 +6,13 @@
       "difficulty": "Moyen",
       "explanation": "Une maladie auto-immune survient lorsque le système immunitaire attaque par erreur les propres cellules et tissus de l'organisme.",
       "answers": [
-        {"text": "Une infection virale", "is_correct": false},
-        {"text": "Une attaque du système immunitaire contre ses propres cellules", "is_correct": true},
-        {"text": "Une carence en vitamines", "is_correct": false},
-        {"text": "Une mutation génétique", "is_correct": false}
+        { "text": "Une infection virale", "is_correct": false },
+        {
+          "text": "Une attaque du système immunitaire contre ses propres cellules",
+          "is_correct": true
+        },
+        { "text": "Une carence en vitamines", "is_correct": false },
+        { "text": "Une mutation génétique", "is_correct": false }
       ]
     },
     {
@@ -17,10 +20,2324 @@
       "difficulty": "Facile",
       "explanation": "L'hypercholestérolémie (taux élevé de cholestérol) est un facteur de risque majeur de l'athérosclérose, avec le tabagisme, l'hypertension et le diabète.",
       "answers": [
-        {"text": "L'hypercholestérolémie", "is_correct": true},
-        {"text": "L'anémie", "is_correct": false},
-        {"text": "La déshydratation", "is_correct": false},
-        {"text": "L'hypoglycémie", "is_correct": false}
+        { "text": "L'hypercholestérolémie", "is_correct": true },
+        { "text": "L'anémie", "is_correct": false },
+        { "text": "La déshydratation", "is_correct": false },
+        { "text": "L'hypoglycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de l'infarctus du myocarde ?",
+      "difficulty": "Moyen",
+      "explanation": "L'infarctus du myocarde est principalement causé par l'obstruction d'une artère coronaire, entraînant une ischémie et une nécrose du muscle cardiaque.",
+      "answers": [
+        { "text": "Inflammation du myocarde", "is_correct": false },
+        { "text": "Obstruction d'une artère coronaire", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Traumatisme thoracique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la cirrhose hépatique ?",
+      "difficulty": "Facile",
+      "explanation": "La cirrhose hépatique est principalement causée par une consommation excessive et prolongée d'alcool, mais peut aussi être due à des hépatites virales.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Consommation excessive d'alcool", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Carença nutritionnelle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de l'insuffisance cardiaque gauche ?",
+      "difficulty": "Moyen",
+      "explanation": "L'œdème pulmonaire est un signe clinique majeur de l'insuffisance cardiaque gauche, dû à l'accumulation de liquide dans les poumons.",
+      "answers": [
+        { "text": "Œdème des membres inférieurs", "is_correct": false },
+        { "text": "Œdème pulmonaire", "is_correct": true },
+        { "text": "Douleur thoracique", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'hypertension artérielle non contrôlée ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypertension artérielle non contrôlée peut entraîner des accidents vasculaires cérébraux (AVC) en endommageant les vaisseaux sanguins.",
+      "answers": [
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Accident vasculaire cérébral", "is_correct": true },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Ostéoporose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie d'Alzheimer est caractérisée par l'accumulation de plaques amyloïdes et de dégénérescence neurofibrillaire dans le cerveau.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Accumulation de plaques amyloïdes", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la pancréatite aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "Les calculs biliaires et la consommation excessive d'alcool sont les principales causes de pancréatite aiguë.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Calculs biliaires", "is_correct": true },
+        { "text": "Traumatisme abdominal", "is_correct": false },
+        { "text": "Maladie génétique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la sclérose en plaques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les troubles de la vision, comme la névrite optique, sont des signes cliniques fréquents de la sclérose en plaques.",
+      "answers": [
+        { "text": "Douleur articulaire", "is_correct": false },
+        { "text": "Troubles de la vision", "is_correct": true },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Perte de poids", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'asthme non contrôlé ?",
+      "difficulty": "Facile",
+      "explanation": "Un asthme non contrôlé peut entraîner un état de mal asthmatique, une urgence médicale potentiellement mortelle.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "État de mal asthmatique", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la polyarthrite rhumatoïde ?",
+      "difficulty": "Difficile",
+      "explanation": "La polyarthrite rhumatoïde est une maladie auto-immune où le système immunitaire attaque les articulations, provoquant une inflammation chronique.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Maladie auto-immune", "is_correct": true },
+        { "text": "Déficience nutritionnelle", "is_correct": false },
+        { "text": "Traumatisme articulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'insuffisance rénale chronique ?",
+      "difficulty": "Facile",
+      "explanation": "Le diabète et l'hypertension artérielle sont les principales causes d'insuffisance rénale chronique.",
+      "answers": [
+        { "text": "Infection urinaire", "is_correct": false },
+        { "text": "Diabète", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme rénal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de l'hyperthyroïdie ?",
+      "difficulty": "Moyen",
+      "explanation": "La tachycardie est un signe clinique fréquent de l'hyperthyroïdie, due à l'excès d'hormones thyroïdiennes.",
+      "answers": [
+        { "text": "Prise de poids", "is_correct": false },
+        { "text": "Tachycardie", "is_correct": true },
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Constipation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'ulcère gastroduodénal non traité ?",
+      "difficulty": "Facile",
+      "explanation": "Un ulcère gastroduodénal non traité peut entraîner une perforation, une complication grave nécessitant une intervention chirurgicale.",
+      "answers": [
+        { "text": "Diarrhée chronique", "is_correct": false },
+        { "text": "Perforation", "is_correct": true },
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Cancer gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Parkinson ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Parkinson est caractérisée par la dégénérescence des neurones dopaminergiques dans la substance noire du cerveau.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        {
+          "text": "Dégénérescence des neurones dopaminergiques",
+          "is_correct": true
+        },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'anémie ferriprive ?",
+      "difficulty": "Facile",
+      "explanation": "L'anémie ferriprive est principalement causée par une carence en fer, souvent due à une perte de sang chronique ou une alimentation déséquilibrée.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Carença en fer", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Crohn ?",
+      "difficulty": "Moyen",
+      "explanation": "Les douleurs abdominales et la diarrhée chronique sont des signes cliniques fréquents de la maladie de Crohn.",
+      "answers": [
+        { "text": "Constipation", "is_correct": false },
+        {
+          "text": "Douleurs abdominales et diarrhée chronique",
+          "is_correct": true
+        },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Perte d'appétit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la bronchopneumopathie chronique obstructive (BPCO) ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuffisance respiratoire est une complication majeure de la BPCO, due à la destruction progressive des poumons.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Insuffisance respiratoire", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la sclérodermie ?",
+      "difficulty": "Difficile",
+      "explanation": "La sclérodermie est caractérisée par une fibrose excessive et une vascularopathie, entraînant un épaississement de la peau et des organes internes.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Fibrose excessive", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'ostéoporose ?",
+      "difficulty": "Facile",
+      "explanation": "La carence en calcium et en vitamine D, ainsi que les changements hormonaux, sont les principales causes de l'ostéoporose.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Carença en calcium et vitamine D", "is_correct": true },
+        { "text": "Traumatisme osseux", "is_correct": false },
+        { "text": "Maladie génétique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la méningite bactérienne ?",
+      "difficulty": "Moyen",
+      "explanation": "La raideur de la nuque est un signe clinique classique de la méningite bactérienne, due à l'inflammation des méninges.",
+      "answers": [
+        { "text": "Douleur abdominale", "is_correct": false },
+        { "text": "Raideur de la nuque", "is_correct": true },
+        { "text": "Toux", "is_correct": false },
+        { "text": "Diarrhée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'épilepsie non contrôlée ?",
+      "difficulty": "Facile",
+      "explanation": "Un état de mal épileptique est une complication grave de l'épilepsie non contrôlée, nécessitant une prise en charge urgente.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "État de mal épileptique", "is_correct": true },
+        { "text": "Infection cérébrale", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Huntington ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Huntington est causée par une mutation génétique entraînant une expansion anormale de répétitions CAG dans le gène huntingtine.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Mutation génétique", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la maladie cœliaque ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie cœliaque est causée par une intolérance au gluten, déclenchant une réaction immunitaire dans l'intestin grêle.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Intolérance au gluten", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme intestinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de l'hypothyroïdie ?",
+      "difficulty": "Moyen",
+      "explanation": "La fatigue est un signe clinique fréquent de l'hypothyroïdie, due à un manque d'hormones thyroïdiennes.",
+      "answers": [
+        { "text": "Perte de poids", "is_correct": false },
+        { "text": "Fatigue", "is_correct": true },
+        { "text": "Tachycardie", "is_correct": false },
+        { "text": "Diarrhée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la drépanocytose ?",
+      "difficulty": "Facile",
+      "explanation": "Les crises vaso-occlusives sont une complication majeure de la drépanocytose, causées par l'obstruction des vaisseaux sanguins.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Crises vaso-occlusives", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la fibrose kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "La fibrose kystique est causée par une mutation du gène CFTR, entraînant une production anormale de mucus épais.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Mutation du gène CFTR", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la goutte ?",
+      "difficulty": "Facile",
+      "explanation": "La goutte est principalement causée par une accumulation de cristaux d'acide urique dans les articulations.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Accumulation de cristaux d'acide urique",
+          "is_correct": true
+        },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme articulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Basedow ?",
+      "difficulty": "Moyen",
+      "explanation": "L'exophtalmie est un signe clinique caractéristique de la maladie de Basedow, due à l'hyperthyroïdie.",
+      "answers": [
+        { "text": "Prise de poids", "is_correct": false },
+        { "text": "Exophtalmie", "is_correct": true },
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Constipation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la leucémie myéloïde chronique ?",
+      "difficulty": "Facile",
+      "explanation": "La transformation en leucémie aiguë est une complication majeure de la leucémie myéloïde chronique.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Transformation en leucémie aiguë", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Wilson ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Wilson est causée par une accumulation de cuivre dans les tissus, due à un défaut d'excrétion biliaire.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Accumulation de cuivre", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la maladie de Charcot ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Charcot, ou sclérose latérale amyotrophique (SLA), est principalement due à la dégénérescence des motoneurones.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Dégénérescence des motoneurones", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Paget ?",
+      "difficulty": "Moyen",
+      "explanation": "Les douleurs osseuses sont un signe clinique fréquent de la maladie de Paget, due à une reconstruction osseuse anormale.",
+      "answers": [
+        { "text": "Fatigue", "is_correct": false },
+        { "text": "Douleurs osseuses", "is_correct": true },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Perte de poids", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Fabry ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuffisance rénale est une complication majeure de la maladie de Fabry, due à l'accumulation de globotriaosylcéramide.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Gaucher ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Gaucher est causée par un déficit en glucocérébrosidase, entraînant une accumulation de glucocérébroside dans les macrophages.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Déficit en glucocérébrosidase", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la maladie de Pompe ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Pompe est causée par un déficit en alpha-glucosidase acide, entraînant une accumulation de glycogène dans les lysosomes.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Déficit en alpha-glucosidase acide", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Tay-Sachs ?",
+      "difficulty": "Moyen",
+      "explanation": "La régression des compétences motrices est un signe clinique caractéristique de la maladie de Tay-Sachs.",
+      "answers": [
+        { "text": "Prise de poids", "is_correct": false },
+        { "text": "Régression des compétences motrices", "is_correct": true },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Diarrhée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Niemann-Pick ?",
+      "difficulty": "Facile",
+      "explanation": "Les troubles neurologiques sont une complication majeure de la maladie de Niemann-Pick, due à l'accumulation de lipides dans les cellules.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Atteinte neurologique", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Krabbe ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Krabbe est causée par un déficit en galactocérébrosidase, entraînant une accumulation de galactocérébroside dans les cellules.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Déficit en galactocérébrosidase", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la maladie de Tay-Sachs ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Tay-Sachs est causée par un déficit en hexosaminidase A, entraînant une accumulation de ganglioside GM2 dans les neurones.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Déficit en hexosaminidase A", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Sandhoff ?",
+      "difficulty": "Moyen",
+      "explanation": "Les troubles neurologiques progressifs sont un signe clinique caractéristique de la maladie de Sandhoff.",
+      "answers": [
+        { "text": "Fatigue", "is_correct": false },
+        { "text": "Troubles neurologiques progressifs", "is_correct": true },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Perte de poids", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Metachromatic Leukodystrophy ?",
+      "difficulty": "Facile",
+      "explanation": "Les troubles neurologiques sévères sont une complication majeure de la maladie de Metachromatic Leukodystrophy, due à l'accumulation de sulfatides.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Troubles neurologiques sévères", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Adrenoleukodystrophy ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Adrenoleukodystrophy est causée par un déficit en protéine ALD, entraînant une accumulation d'acides gras à très longue chaîne.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Déficit en protéine ALD", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la maladie de Zellweger ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Zellweger est causée par un déficit en peroxisomes, entraînant une accumulation d'acides gras à très longue chaîne.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Déficit en peroxisomes", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Refsum infantile ?",
+      "difficulty": "Moyen",
+      "explanation": "Les troubles neurologiques et la surdité sont des signes cliniques fréquents de la maladie de Refsum infantile.",
+      "answers": [
+        { "text": "Fatigue", "is_correct": false },
+        { "text": "Troubles neurologiques et surdité", "is_correct": true },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Perte de poids", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Canavan ?",
+      "difficulty": "Facile",
+      "explanation": "Les troubles neurologiques sévères sont une complication majeure de la maladie de Canavan, due à l'accumulation d'acide N-acétylaspartique.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Troubles neurologiques sévères", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Alexander ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Alexander est causée par une mutation du gène GFAP, entraînant une accumulation de filaments intermédiaires dans les astrocytes.",
+      "answers": [
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Mutation du gène GFAP", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Déficience en vitamines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la maladie de Pelizaeus-Merzbacher ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Pelizaeus-Merzbacher est causée par une mutation du gène PLP1, entraînant une démyélinisation du système nerveux central.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Mutation du gène PLP1", "is_correct": true },
+        { "text": "Maladie génétique", "is_correct": false },
+        { "text": "Traumatisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe clinique de la maladie de Van der Knaap ?",
+      "difficulty": "Moyen",
+      "explanation": "La mégalencéphalie est un signe clinique caractéristique de la maladie de Van der Knaap.",
+      "answers": [
+        { "text": "Fatigue", "is_correct": false },
+        { "text": "Mégalencéphalie", "is_correct": true },
+        { "text": "Fièvre", "is_correct": false },
+        { "text": "Perte de poids", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Pelizaeus-Merzbacher ?",
+      "difficulty": "Facile",
+      "explanation": "Les troubles neurologiques sévères sont une complication majeure de la maladie de Pelizaeus-Merzbacher, due à la démyélinisation.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Troubles neurologiques sévères", "is_correct": true },
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Hypertension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une dysplasie ?",
+      "difficulty": "Moyen",
+      "explanation": "La dysplasie est une anomalie du développement ou de la maturation cellulaire qui peut être précancéreuse dans certains tissus.",
+      "answers": [
+        { "text": "Mort cellulaire programmée", "is_correct": false },
+        { "text": "Anomalie du développement cellulaire", "is_correct": true },
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Augmentation du nombre de cellules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'hypersensibilité correspond à la réaction allergique immédiate ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypersensibilité de type I (anaphylactique) est médiée par les IgE et provoque des réactions allergiques immédiates comme l'asthme ou l'anaphylaxie.",
+      "answers": [
+        { "text": "Type I", "is_correct": true },
+        { "text": "Type II", "is_correct": false },
+        { "text": "Type III", "is_correct": false },
+        { "text": "Type IV", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre un adénome et un adénocarcinome ?",
+      "difficulty": "Moyen",
+      "explanation": "Un adénome est une tumeur bénigne du tissu glandulaire, tandis qu'un adénocarcinome est une tumeur maligne du même tissu avec capacité d'invasion et de métastase.",
+      "answers": [
+        {
+          "text": "L'adénome est bénin, l'adénocarcinome est malin",
+          "is_correct": true
+        },
+        {
+          "text": "L'adénome est malin, l'adénocarcinome est bénin",
+          "is_correct": false
+        },
+        { "text": "Aucune différence", "is_correct": false },
+        {
+          "text": "L'adénome touche les glandes, pas l'adénocarcinome",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un granulome ?",
+      "difficulty": "Moyen",
+      "explanation": "Un granulome est une structure inflammatoire organisée composée de macrophages activés (cellules épithélioïdes) et de lymphocytes, caractéristique de certaines infections comme la tuberculose.",
+      "answers": [
+        { "text": "Une tumeur bénigne", "is_correct": false },
+        { "text": "Une structure inflammatoire organisée", "is_correct": true },
+        { "text": "Une infection bactérienne aiguë", "is_correct": false },
+        { "text": "Une nécrose tissulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'embolie pulmonaire ?",
+      "difficulty": "Facile",
+      "explanation": "L'embolie pulmonaire est le plus souvent causée par la migration d'un thrombus veineux profond (phlébite) des membres inférieurs vers les artères pulmonaires.",
+      "answers": [
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Thrombose veineuse profonde", "is_correct": true },
+        { "text": "Pneumonie", "is_correct": false },
+        { "text": "Asthme sévère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la métaplasie ?",
+      "difficulty": "Moyen",
+      "explanation": "La métaplasie est la transformation d'un tissu différencié en un autre type de tissu différencié, souvent en réponse à une agression chronique (ex: métaplasie malpighienne du col utérin).",
+      "answers": [
+        { "text": "Transformation d'un tissu en un autre", "is_correct": true },
+        { "text": "Mort cellulaire", "is_correct": false },
+        { "text": "Prolifération cellulaire anarchique", "is_correct": false },
+        { "text": "Inflammation aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel marqueur tumoral est caractéristique du cancer du foie (hépatocarcinome) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'alpha-fœtoprotéine (AFP) est un marqueur tumoral élevé dans la plupart des hépatocarcinomes et utilisé pour le diagnostic et le suivi.",
+      "answers": [
+        { "text": "PSA", "is_correct": false },
+        { "text": "CA 19-9", "is_correct": false },
+        { "text": "Alpha-fœtoprotéine (AFP)", "is_correct": true },
+        { "text": "CA 125", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'ischémie ?",
+      "difficulty": "Facile",
+      "explanation": "L'ischémie est une diminution ou un arrêt de l'apport sanguin à un tissu, entraînant un déficit en oxygène et en nutriments pouvant mener à la nécrose.",
+      "answers": [
+        { "text": "Excès de sang dans un tissu", "is_correct": false },
+        { "text": "Diminution de l'apport sanguin", "is_correct": true },
+        { "text": "Inflammation aiguë", "is_correct": false },
+        { "text": "Infection bactérienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la thrombose artérielle ?",
+      "difficulty": "Facile",
+      "explanation": "La thrombose artérielle peut entraîner un infarctus du territoire irrigué par l'artère obstruée (infarctus du myocarde, AVC ischémique, ischémie de membre).",
+      "answers": [
+        { "text": "Hémorragie", "is_correct": false },
+        { "text": "Infarctus", "is_correct": true },
+        { "text": "Infection", "is_correct": false },
+        { "text": "Inflammation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un carcinome in situ ?",
+      "difficulty": "Moyen",
+      "explanation": "Le carcinome in situ est une prolifération maligne qui reste limitée à l'épithélium sans franchir la membrane basale, donc sans invasion ni métastase.",
+      "answers": [
+        { "text": "Cancer avec métastases", "is_correct": false },
+        { "text": "Cancer non invasif", "is_correct": true },
+        { "text": "Tumeur bénigne", "is_correct": false },
+        { "text": "Inflammation chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vitamine est impliquée dans le rachitisme ?",
+      "difficulty": "Facile",
+      "explanation": "Le rachitisme est causé par une carence en vitamine D chez l'enfant, entraînant un défaut de minéralisation osseuse.",
+      "answers": [
+        { "text": "Vitamine A", "is_correct": false },
+        { "text": "Vitamine C", "is_correct": false },
+        { "text": "Vitamine D", "is_correct": true },
+        { "text": "Vitamine K", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'amylose ?",
+      "difficulty": "Difficile",
+      "explanation": "L'amylose est une maladie caractérisée par le dépôt extracellulaire de protéines insolubles (substance amyloïde) dans divers organes, pouvant entraîner leur dysfonctionnement.",
+      "answers": [
+        { "text": "Accumulation de lipides", "is_correct": false },
+        { "text": "Dépôt de protéines anormales", "is_correct": true },
+        { "text": "Inflammation chronique", "is_correct": false },
+        { "text": "Prolifération cellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal facteur de risque du cancer du poumon ?",
+      "difficulty": "Facile",
+      "explanation": "Le tabagisme est de loin le principal facteur de risque du cancer du poumon, responsable d'environ 85-90% des cas.",
+      "answers": [
+        { "text": "Pollution atmosphérique", "is_correct": false },
+        { "text": "Tabagisme", "is_correct": true },
+        { "text": "Alcool", "is_correct": false },
+        { "text": "Obésité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la stéatose hépatique ?",
+      "difficulty": "Moyen",
+      "explanation": "La stéatose hépatique est l'accumulation excessive de triglycérides dans les hépatocytes, pouvant être causée par l'alcool, l'obésité ou le diabète.",
+      "answers": [
+        { "text": "Inflammation du foie", "is_correct": false },
+        { "text": "Accumulation de graisse dans le foie", "is_correct": true },
+        { "text": "Cancer du foie", "is_correct": false },
+        { "text": "Infection virale du foie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de nécrose est caractéristique de l'infarctus du myocarde ?",
+      "difficulty": "Moyen",
+      "explanation": "L'infarctus du myocarde entraîne une nécrose de coagulation où l'architecture tissulaire est préservée initialement malgré la mort cellulaire.",
+      "answers": [
+        { "text": "Nécrose de liquéfaction", "is_correct": false },
+        { "text": "Nécrose de coagulation", "is_correct": true },
+        { "text": "Nécrose caséeuse", "is_correct": false },
+        { "text": "Nécrose graisseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome paranéoplasique ?",
+      "difficulty": "Difficile",
+      "explanation": "Les syndromes paranéoplasiques sont des manifestations cliniques à distance d'un cancer, non liées aux métastases, dues à la sécrétion de substances biologiquement actives par la tumeur.",
+      "answers": [
+        { "text": "Métastase tumorale", "is_correct": false },
+        { "text": "Manifestation à distance d'un cancer", "is_correct": true },
+        { "text": "Rechute après traitement", "is_correct": false },
+        { "text": "Inflammation tumorale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'hépatite chronique dans le monde ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de l'hépatite B (VHB) est la cause la plus fréquente d'hépatite chronique dans le monde, suivi du virus de l'hépatite C.",
+      "answers": [
+        { "text": "Alcool", "is_correct": false },
+        { "text": "Virus de l'hépatite B", "is_correct": true },
+        { "text": "Médicaments", "is_correct": false },
+        { "text": "Maladie auto-immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'anasarque ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anasarque est un œdème généralisé massif touchant l'ensemble du tissu sous-cutané et les cavités séreuses (ascite, épanchement pleural).",
+      "answers": [
+        { "text": "Œdème localisé", "is_correct": false },
+        { "text": "Œdème généralisé massif", "is_correct": true },
+        { "text": "Déshydratation sévère", "is_correct": false },
+        { "text": "Inflammation généralisée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de l'athérosclérose ?",
+      "difficulty": "Moyen",
+      "explanation": "L'athérosclérose est causée par l'accumulation de lipides (notamment LDL oxydé) dans la paroi artérielle, déclenchant une inflammation et formation de plaques.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Accumulation de lipides dans la paroi artérielle",
+          "is_correct": true
+        },
+        { "text": "Spasme artériel", "is_correct": false },
+        { "text": "Thrombose veineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cachexie ?",
+      "difficulty": "Moyen",
+      "explanation": "La cachexie est un syndrome de dénutrition sévère avec perte de masse musculaire et de poids, fréquent dans les cancers avancés et maladies chroniques graves.",
+      "answers": [
+        { "text": "Obésité morbide", "is_correct": false },
+        {
+          "text": "Dénutrition sévère avec perte musculaire",
+          "is_correct": true
+        },
+        { "text": "Rétention hydrique", "is_correct": false },
+        { "text": "Infection chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause du syndrome néphrotique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome néphrotique peut avoir plusieurs causes, mais la glomérulonéphrite (inflammation des glomérules rénaux) est l'une des principales.",
+      "answers": [
+        { "text": "Infection urinaire", "is_correct": false },
+        { "text": "Glomérulonéphrite", "is_correct": true },
+        { "text": "Lithiase rénale", "is_correct": false },
+        { "text": "Tumeur rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hémochromatose ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hémochromatose est une maladie de surcharge en fer, le plus souvent héréditaire, entraînant des dépôts de fer dans divers organes (foie, cœur, pancréas).",
+      "answers": [
+        { "text": "Surcharge en cuivre", "is_correct": false },
+        { "text": "Surcharge en fer", "is_correct": true },
+        { "text": "Carence en fer", "is_correct": false },
+        { "text": "Surcharge en calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe histologique de la tuberculose ?",
+      "difficulty": "Moyen",
+      "explanation": "La tuberculose se caractérise par la formation de granulomes épithélioïdes et gigantocellulaires avec nécrose caséeuse centrale.",
+      "answers": [
+        { "text": "Nécrose de liquéfaction", "is_correct": false },
+        { "text": "Granulome avec nécrose caséeuse", "is_correct": true },
+        { "text": "Inflammation purulente", "is_correct": false },
+        { "text": "Fibrose diffuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'ascite ?",
+      "difficulty": "Facile",
+      "explanation": "L'ascite est l'accumulation de liquide dans la cavité péritonéale, souvent due à une cirrhose, une insuffisance cardiaque ou un cancer.",
+      "answers": [
+        { "text": "Épanchement pleural", "is_correct": false },
+        {
+          "text": "Accumulation de liquide dans l'abdomen",
+          "is_correct": true
+        },
+        { "text": "Œdème des membres inférieurs", "is_correct": false },
+        { "text": "Épanchement péricardique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme du choc septique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le choc septique est causé par une réponse inflammatoire systémique excessive à une infection, entraînant une vasodilatation et une hypotension sévères.",
+      "answers": [
+        { "text": "Déshydratation", "is_correct": false },
+        {
+          "text": "Réponse inflammatoire excessive à une infection",
+          "is_correct": true
+        },
+        { "text": "Hémorragie massive", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'endocardite infectieuse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'endocardite infectieuse est une infection des valves cardiaques, généralement d'origine bactérienne, formant des végétations qui peuvent se compliquer d'embolies.",
+      "answers": [
+        { "text": "Inflammation du myocarde", "is_correct": false },
+        { "text": "Infection des valves cardiaques", "is_correct": true },
+        { "text": "Inflammation du péricarde", "is_correct": false },
+        { "text": "Infarctus du myocarde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'obésité morbide ?",
+      "difficulty": "Facile",
+      "explanation": "L'obésité morbide augmente considérablement le risque de diabète de type 2, d'hypertension, de maladies cardiovasculaires et de certains cancers.",
+      "answers": [
+        { "text": "Anorexie", "is_correct": false },
+        { "text": "Diabète de type 2", "is_correct": true },
+        { "text": "Hypotension", "is_correct": false },
+        { "text": "Anémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le lupus érythémateux systémique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le lupus érythémateux systémique est une maladie auto-immune chronique caractérisée par la production d'auto-anticorps (notamment anti-ADN) touchant de multiples organes.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Maladie auto-immune systémique", "is_correct": true },
+        { "text": "Cancer hématologique", "is_correct": false },
+        { "text": "Maladie génétique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal facteur de risque du cancer colorectal ?",
+      "difficulty": "Facile",
+      "explanation": "L'âge supérieur à 50 ans est le principal facteur de risque du cancer colorectal, suivi des antécédents familiaux et des polypes adénomateux.",
+      "answers": [
+        { "text": "Tabagisme", "is_correct": false },
+        { "text": "Âge supérieur à 50 ans", "is_correct": true },
+        { "text": "Alcool", "is_correct": false },
+        { "text": "Obésité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la myocardite ?",
+      "difficulty": "Moyen",
+      "explanation": "La myocardite est une inflammation du muscle cardiaque (myocarde), souvent d'origine virale, pouvant entraîner une insuffisance cardiaque.",
+      "answers": [
+        { "text": "Inflammation des valves cardiaques", "is_correct": false },
+        { "text": "Inflammation du muscle cardiaque", "is_correct": true },
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        { "text": "Inflammation du péricarde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal marqueur du cancer de la prostate ?",
+      "difficulty": "Facile",
+      "explanation": "Le PSA (Antigène Prostatique Spécifique) est le principal marqueur utilisé pour le dépistage et le suivi du cancer de la prostate.",
+      "answers": [
+        { "text": "AFP", "is_correct": false },
+        { "text": "PSA", "is_correct": true },
+        { "text": "CA 19-9", "is_correct": false },
+        { "text": "CEA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Hodgkin ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Hodgkin est un lymphome (cancer du système lymphatique) caractérisé par la présence de cellules de Reed-Sternberg à l'examen histologique.",
+      "answers": [
+        { "text": "Leucémie aiguë", "is_correct": false },
+        { "text": "Lymphome", "is_correct": true },
+        { "text": "Anémie", "is_correct": false },
+        { "text": "Myélome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la pancréatite chronique ?",
+      "difficulty": "Facile",
+      "explanation": "L'alcoolisme chronique est la cause la plus fréquente de pancréatite chronique dans les pays occidentaux (70-80% des cas).",
+      "answers": [
+        { "text": "Calculs biliaires", "is_correct": false },
+        { "text": "Alcoolisme chronique", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Tabagisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hypertrophie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypertrophie est l'augmentation de la taille des cellules d'un tissu sans augmentation de leur nombre, entraînant une augmentation du volume de l'organe.",
+      "answers": [
+        { "text": "Augmentation du nombre de cellules", "is_correct": false },
+        {
+          "text": "Augmentation de la taille des cellules",
+          "is_correct": true
+        },
+        { "text": "Diminution de la taille des cellules", "is_correct": false },
+        { "text": "Mort cellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'hépatite virale devient chronique dans 80% des cas ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hépatite C évolue vers la chronicité dans environ 80% des cas, contrairement à l'hépatite A qui est toujours aiguë et l'hépatite B qui devient chronique dans 5-10% des cas adultes.",
+      "answers": [
+        { "text": "Hépatite A", "is_correct": false },
+        { "text": "Hépatite B", "is_correct": false },
+        { "text": "Hépatite C", "is_correct": true },
+        { "text": "Hépatite E", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'atrophie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'atrophie est la diminution de la taille d'un organe ou d'un tissu due à une réduction de la taille et/ou du nombre de cellules, souvent par dénutrition ou inactivité.",
+      "answers": [
+        {
+          "text": "Augmentation de la taille d'un organe",
+          "is_correct": false
+        },
+        { "text": "Diminution de la taille d'un organe", "is_correct": true },
+        { "text": "Transformation d'un tissu", "is_correct": false },
+        { "text": "Inflammation chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de mortalité chez les diabétiques de type 2 ?",
+      "difficulty": "Facile",
+      "explanation": "Les complications cardiovasculaires (infarctus du myocarde, AVC) sont la principale cause de mortalité chez les patients diabétiques de type 2.",
+      "answers": [
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Complications cardiovasculaires", "is_correct": true },
+        { "text": "Infections", "is_correct": false },
+        { "text": "Coma hypoglycémique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le purpura thrombopénique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le purpura thrombopénique est caractérisé par des hémorragies cutanéo-muqueuses dues à une diminution du nombre de plaquettes sanguines.",
+      "answers": [
+        { "text": "Excès de plaquettes", "is_correct": false },
+        { "text": "Diminution des plaquettes", "is_correct": true },
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Trouble de la coagulation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la maladie de Graves-Basedow ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Graves-Basedow est caractérisée par une hyperthyroïdie avec exophtalmie bilatérale (yeux globuleux) due aux auto-anticorps stimulant le récepteur de la TSH.",
+      "answers": [
+        { "text": "Hypothyroïdie", "is_correct": false },
+        { "text": "Hyperthyroïdie avec exophtalmie", "is_correct": true },
+        { "text": "Goitre simple", "is_correct": false },
+        { "text": "Nodules thyroïdiens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la pneumonie lobaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La pneumonie lobaire est une infection bactérienne aiguë (souvent à pneumocoque) touchant un ou plusieurs lobes pulmonaires de façon homogène.",
+      "answers": [
+        { "text": "Infection virale diffuse", "is_correct": false },
+        {
+          "text": "Infection bactérienne d'un lobe pulmonaire",
+          "is_correct": true
+        },
+        { "text": "Cancer du poumon", "is_correct": false },
+        { "text": "Inflammation chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la triade de Virchow dans la thrombose veineuse ?",
+      "difficulty": "Difficile",
+      "explanation": "La triade de Virchow regroupe les trois facteurs favorisant la thrombose : stase veineuse, lésion endothéliale et hypercoagulabilité.",
+      "answers": [
+        { "text": "Fièvre, douleur, œdème", "is_correct": false },
+        {
+          "text": "Stase, lésion endothéliale, hypercoagulabilité",
+          "is_correct": true
+        },
+        { "text": "Hypertension, diabète, tabac", "is_correct": false },
+        { "text": "Douleur, chaleur, rougeur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Cushing ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Cushing est causé par un excès de cortisol, entraînant obésité facio-tronculaire, vergetures pourpres, hypertension et ostéoporose.",
+      "answers": [
+        { "text": "Excès d'hormone thyroïdienne", "is_correct": false },
+        { "text": "Excès de cortisol", "is_correct": true },
+        { "text": "Déficit en cortisol", "is_correct": false },
+        { "text": "Excès d'insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'anémie hémolytique auto-immune ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anémie hémolytique auto-immune est causée par des auto-anticorps dirigés contre les globules rouges, entraînant leur destruction prématurée.",
+      "answers": [
+        { "text": "Carence en fer", "is_correct": false },
+        {
+          "text": "Auto-anticorps contre les globules rouges",
+          "is_correct": true
+        },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Hémorragie chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Behçet ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Behçet est une vascularite systémique caractérisée par une triade : aphtose buccale, aphtose génitale et uvéite.",
+      "answers": [
+        { "text": "Maladie cardiaque", "is_correct": false },
+        { "text": "Vascularite systémique", "is_correct": true },
+        { "text": "Maladie pulmonaire", "is_correct": false },
+        { "text": "Maladie infectieuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Guillain-Barré ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Guillain-Barré est une polyradiculonévrite aiguë inflammatoire auto-immune provoquant une paralysie ascendante progressive.",
+      "answers": [
+        { "text": "Maladie musculaire", "is_correct": false },
+        { "text": "Polyradiculonévrite auto-immune", "is_correct": true },
+        { "text": "Infection virale du cerveau", "is_correct": false },
+        { "text": "Tumeur de la moelle épinière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'œdème pulmonaire aigu ?",
+      "difficulty": "Facile",
+      "explanation": "L'œdème pulmonaire aigu est principalement causé par une insuffisance cardiaque gauche aiguë entraînant une accumulation de liquide dans les alvéoles.",
+      "answers": [
+        { "text": "Pneumonie", "is_correct": false },
+        { "text": "Insuffisance cardiaque gauche", "is_correct": true },
+        { "text": "Asthme sévère", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Berger (néphropathie à IgA) ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Berger est une glomérulopathie caractérisée par des dépôts mésangiaux d'IgA, principale cause de glomérulonéphrite primitive dans le monde.",
+      "answers": [
+        { "text": "Infection rénale", "is_correct": false },
+        { "text": "Glomérulopathie à dépôts d'IgA", "is_correct": true },
+        { "text": "Tumeur rénale", "is_correct": false },
+        { "text": "Lithiase rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de l'insuffisance cardiaque droite ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuffisance cardiaque droite se manifeste principalement par des œdèmes des membres inférieurs, une hépatomégalie et une turgescence jugulaire.",
+      "answers": [
+        { "text": "Œdème pulmonaire", "is_correct": false },
+        { "text": "Œdèmes des membres inférieurs", "is_correct": true },
+        { "text": "Toux sèche", "is_correct": false },
+        { "text": "Douleur thoracique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Takayasu ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Takayasu est une artérite inflammatoire chronique touchant principalement l'aorte et ses branches principales, surtout chez la femme jeune.",
+      "answers": [
+        { "text": "Thrombose veineuse", "is_correct": false },
+        { "text": "Artérite inflammatoire de l'aorte", "is_correct": true },
+        { "text": "Infection vasculaire", "is_correct": false },
+        { "text": "Anévrisme congénital", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la coagulation intravasculaire disséminée (CIVD) ?",
+      "difficulty": "Moyen",
+      "explanation": "La CIVD est un syndrome de coagulation pathologique déclenché par des situations comme le choc septique, les traumatismes graves ou certains cancers.",
+      "answers": [
+        { "text": "Carence en vitamine K", "is_correct": false },
+        { "text": "Choc septique ou traumatisme grave", "is_correct": true },
+        { "text": "Hémophilie", "is_correct": false },
+        { "text": "Thrombopénie idiopathique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Raynaud ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Raynaud se manifeste par des crises de vasospasme des extrémités (doigts, orteils) provoquant une décoloration triphasique : blanche, bleue puis rouge.",
+      "answers": [
+        { "text": "Thrombose artérielle", "is_correct": false },
+        { "text": "Vasospasme des extrémités", "is_correct": true },
+        { "text": "Neuropathie périphérique", "is_correct": false },
+        { "text": "Arthrite inflammatoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une tumeur bénigne et maligne ?",
+      "difficulty": "Facile",
+      "explanation": "Une tumeur bénigne reste localisée sans envahir les tissus voisins ni métastaser, contrairement à une tumeur maligne qui peut envahir et métastaser.",
+      "answers": [
+        { "text": "La taille de la tumeur", "is_correct": false },
+        {
+          "text": "La capacité d'invasion et de métastase",
+          "is_correct": true
+        },
+        { "text": "La vitesse de croissance uniquement", "is_correct": false },
+        { "text": "Le type de cellule atteint", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'anévrisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Un anévrisme est une dilatation localisée et permanente de la paroi d'une artère, avec risque de rupture potentiellement mortelle.",
+      "answers": [
+        { "text": "Rétrécissement artériel", "is_correct": false },
+        { "text": "Dilatation localisée d'une artère", "is_correct": true },
+        { "text": "Thrombose artérielle", "is_correct": false },
+        { "text": "Inflammation de l'artère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Creutzfeldt-Jakob ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Creutzfeldt-Jakob est une encéphalopathie spongiforme causée par des prions (protéines pathologiques) provoquant une démence rapidement progressive.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Accumulation de prions pathologiques", "is_correct": true },
+        { "text": "Maladie auto-immune", "is_correct": false },
+        { "text": "Déficit enzymatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Still de l'adulte ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Still de l'adulte est une forme d'arthrite inflammatoire systémique caractérisée par une fièvre élevée, des arthralgies et une éruption cutanée.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Arthrite inflammatoire systémique", "is_correct": true },
+        { "text": "Maladie virale", "is_correct": false },
+        { "text": "Cancer hématologique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la péricardite aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "La péricardite aiguë est le plus souvent d'origine virale (coxsackie, échovirus), mais peut aussi être due à un infarctus ou une infection bactérienne.",
+      "answers": [
+        { "text": "Traumatisme thoracique", "is_correct": false },
+        { "text": "Infection virale", "is_correct": true },
+        { "text": "Cancer", "is_correct": false },
+        { "text": "Maladie auto-immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Sjögren ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Sjögren est une maladie auto-immune caractérisée par une sécheresse oculaire et buccale due à l'atteinte des glandes exocrines.",
+      "answers": [
+        { "text": "Infection des glandes salivaires", "is_correct": false },
+        {
+          "text": "Maladie auto-immune des glandes exocrines",
+          "is_correct": true
+        },
+        { "text": "Tumeur des glandes lacrymales", "is_correct": false },
+        { "text": "Déshydratation chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal marqueur du cancer du pancréas ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CA 19-9 est le principal marqueur tumoral utilisé pour le diagnostic et le suivi du cancer du pancréas, bien qu'il ne soit pas totalement spécifique.",
+      "answers": [
+        { "text": "PSA", "is_correct": false },
+        { "text": "AFP", "is_correct": false },
+        { "text": "CA 19-9", "is_correct": true },
+        { "text": "CEA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Kawasaki ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Kawasaki est une vascularite aiguë fébrile de l'enfant touchant les artères de moyen calibre, notamment les artères coronaires.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Vascularite aiguë de l'enfant", "is_correct": true },
+        { "text": "Malformation cardiaque", "is_correct": false },
+        { "text": "Maladie virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la cholécystite aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "La cholécystite aiguë est principalement causée par l'obstruction du canal cystique par un calcul biliaire entraînant une inflammation de la vésicule.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Calcul biliaire obstructif", "is_correct": true },
+        { "text": "Tumeur de la vésicule", "is_correct": false },
+        { "text": "Pancréatite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Goodpasture ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Goodpasture est une maladie auto-immune rare caractérisée par une atteinte glomérulaire et pulmonaire due à des anticorps anti-membrane basale.",
+      "answers": [
+        { "text": "Infection pulmonaire", "is_correct": false },
+        {
+          "text": "Maladie auto-immune rénale et pulmonaire",
+          "is_correct": true
+        },
+        { "text": "Cancer du poumon", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la maladie de Addison ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie d'Addison (insuffisance surrénalienne) se manifeste par une asthénie, une hypotension et une mélanodermie (peau bronzée).",
+      "answers": [
+        { "text": "Obésité", "is_correct": false },
+        { "text": "Hypotension et mélanodermie", "is_correct": true },
+        { "text": "Hypertension", "is_correct": false },
+        { "text": "Pâleur cutanée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sarcoïdose ?",
+      "difficulty": "Difficile",
+      "explanation": "La sarcoïdose est une maladie inflammatoire multisystémique caractérisée par des granulomes épithélioïdes sans nécrose caséeuse, touchant surtout les poumons.",
+      "answers": [
+        { "text": "Infection tuberculeuse", "is_correct": false },
+        {
+          "text": "Maladie granulomateuse multisystémique",
+          "is_correct": true
+        },
+        { "text": "Cancer pulmonaire", "is_correct": false },
+        { "text": "Pneumonie virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Paget osseuse ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Paget peut se compliquer de fractures pathologiques, de surdité (atteinte des osselets) et rarement de transformation sarcomateuse.",
+      "answers": [
+        { "text": "Infection osseuse", "is_correct": false },
+        { "text": "Fractures pathologiques", "is_correct": true },
+        { "text": "Ostéoporose généralisée", "is_correct": false },
+        { "text": "Arthrite inflammatoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome néphrotique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome néphrotique associe une protéinurie massive (>3g/24h), une hypoalbuminémie, des œdèmes et une hyperlipidémie.",
+      "answers": [
+        { "text": "Infection rénale aiguë", "is_correct": false },
+        { "text": "Protéinurie massive avec œdèmes", "is_correct": true },
+        { "text": "Insuffisance rénale aiguë", "is_correct": false },
+        { "text": "Lithiase rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal facteur étiologique du carcinome épidermoïde de l'œsophage ?",
+      "difficulty": "Facile",
+      "explanation": "Le carcinome épidermoïde de l'œsophage est principalement lié à l'intoxication alcoolo-tabagique chronique.",
+      "answers": [
+        { "text": "Obésité", "is_correct": false },
+        { "text": "Alcool et tabac", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Reflux gastro-œsophagien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Horton ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Horton (artérite temporale) est une vascularite des artères de gros calibre touchant surtout les branches de la carotide externe chez le sujet âgé.",
+      "answers": [
+        { "text": "Infection cérébrale", "is_correct": false },
+        { "text": "Artérite temporale du sujet âgé", "is_correct": true },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Migraine chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de décès dans le diabète de type 1 ?",
+      "difficulty": "Moyen",
+      "explanation": "Dans le diabète de type 1, les complications cardiovasculaires sont la principale cause de décès à long terme, suivies de l'insuffisance rénale.",
+      "answers": [
+        { "text": "Coma hypoglycémique", "is_correct": false },
+        { "text": "Complications cardiovasculaires", "is_correct": true },
+        { "text": "Infections", "is_correct": false },
+        { "text": "Acidocétose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la pneumopathie interstitielle diffuse ?",
+      "difficulty": "Moyen",
+      "explanation": "Les pneumopathies interstitielles diffuses sont un groupe de maladies caractérisées par une inflammation et/ou fibrose du tissu interstitiel pulmonaire.",
+      "answers": [
+        { "text": "Infection bactérienne des alvéoles", "is_correct": false },
+        {
+          "text": "Inflammation/fibrose du tissu interstitiel",
+          "is_correct": true
+        },
+        { "text": "Cancer du poumon", "is_correct": false },
+        { "text": "Asthme sévère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la maladie de Whipple ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Whipple est une infection rare à Tropheryma whipplei se manifestant par une diarrhée chronique, une malabsorption et des arthralgies.",
+      "answers": [
+        { "text": "Constipation chronique", "is_correct": false },
+        { "text": "Diarrhée et malabsorption", "is_correct": true },
+        { "text": "Hémorragie digestive", "is_correct": false },
+        { "text": "Reflux gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'acromégalie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'acromégalie est causée par un excès d'hormone de croissance (GH) chez l'adulte, généralement due à un adénome hypophysaire, entraînant un élargissement des extrémités.",
+      "answers": [
+        { "text": "Nanisme hypophysaire", "is_correct": false },
+        { "text": "Excès d'hormone de croissance", "is_correct": true },
+        { "text": "Déficit en hormone thyroïdienne", "is_correct": false },
+        { "text": "Excès de cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause du syndrome de détresse respiratoire aiguë (SDRA) ?",
+      "difficulty": "Facile",
+      "explanation": "Le SDRA est causé par une atteinte inflammatoire aiguë de la membrane alvéolo-capillaire, souvent secondaire à un choc septique ou un traumatisme.",
+      "answers": [
+        { "text": "Asthme sévère", "is_correct": false },
+        { "text": "Choc septique ou traumatisme", "is_correct": true },
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Buerger ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Buerger (thromboangéite oblitérante) est une artérite inflammatoire des petites et moyennes artères des extrémités, fortement liée au tabagisme.",
+      "answers": [
+        { "text": "Infection vasculaire", "is_correct": false },
+        { "text": "Artérite inflammatoire liée au tabac", "is_correct": true },
+        { "text": "Thrombose veineuse", "is_correct": false },
+        { "text": "Anévrisme artériel", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de l'encéphalopathie hépatique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'encéphalopathie hépatique se manifeste par des troubles de la conscience allant de la confusion au coma, dus à l'accumulation de toxines (notamment ammoniaque).",
+      "answers": [
+        { "text": "Douleur abdominale", "is_correct": false },
+        { "text": "Troubles de la conscience", "is_correct": true },
+        { "text": "Ictère", "is_correct": false },
+        { "text": "Ascite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Wegener (granulomatose avec polyangéite) ?",
+      "difficulty": "Difficile",
+      "explanation": "La granulomatose avec polyangéite est une vascularite nécrosante systémique touchant surtout les voies aériennes supérieures, les poumons et les reins.",
+      "answers": [
+        { "text": "Infection pulmonaire", "is_correct": false },
+        { "text": "Vascularite nécrosante systémique", "is_correct": true },
+        { "text": "Cancer des voies respiratoires", "is_correct": false },
+        { "text": "Maladie auto-immune thyroïdienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'hypertension portale ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypertension portale peut entraîner des varices œsophagiennes avec risque d'hémorragie digestive massive, ainsi qu'une ascite et une splénomégalie.",
+      "answers": [
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        {
+          "text": "Hémorragie digestive par rupture de varices",
+          "is_correct": true
+        },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Pneumonie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Churg-Strauss ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Churg-Strauss (granulomatose éosinophilique avec polyangéite) est une vascularite associant asthme, hyperéosinophilie et atteinte multisystémique.",
+      "answers": [
+        { "text": "Asthme allergique simple", "is_correct": false },
+        {
+          "text": "Vascularite avec asthme et éosinophilie",
+          "is_correct": true
+        },
+        { "text": "Infection parasitaire", "is_correct": false },
+        { "text": "Cancer pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme du choc anaphylactique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le choc anaphylactique est une réaction d'hypersensibilité de type I massive avec libération brutale d'histamine et médiateurs vasoactifs entraînant une vasodilatation.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Réaction allergique massive avec vasodilatation",
+          "is_correct": true
+        },
+        { "text": "Hémorragie interne", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Dupuytren ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Dupuytren est une fibrose rétractile de l'aponévrose palmaire entraînant une flexion irréductible progressive des doigts.",
+      "answers": [
+        { "text": "Arthrite des doigts", "is_correct": false },
+        {
+          "text": "Fibrose rétractile de l'aponévrose palmaire",
+          "is_correct": true
+        },
+        { "text": "Tendinite chronique", "is_correct": false },
+        { "text": "Neuropathie périphérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause du mégacôlon toxique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le mégacôlon toxique est une complication grave de la colite inflammatoire (rectocolite hémorragique, Crohn) ou d'infections comme le Clostridium difficile.",
+      "answers": [
+        { "text": "Constipation chronique", "is_correct": false },
+        { "text": "Colite inflammatoire ou infection", "is_correct": true },
+        { "text": "Cancer du côlon", "is_correct": false },
+        { "text": "Obstruction intestinale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la polykystose rénale ?",
+      "difficulty": "Moyen",
+      "explanation": "La polykystose rénale est une maladie génétique caractérisée par le développement de multiples kystes dans les deux reins, évoluant vers l'insuffisance rénale.",
+      "answers": [
+        { "text": "Infection rénale chronique", "is_correct": false },
+        {
+          "text": "Maladie génétique avec kystes rénaux multiples",
+          "is_correct": true
+        },
+        { "text": "Tumeur rénale", "is_correct": false },
+        { "text": "Lithiase rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la cholangite aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "La cholangite aiguë se présente classiquement par la triade de Charcot : fièvre, ictère et douleur de l'hypochondre droit.",
+      "answers": [
+        { "text": "Constipation", "is_correct": false },
+        { "text": "Fièvre, ictère et douleur abdominale", "is_correct": true },
+        { "text": "Diarrhée chronique", "is_correct": false },
+        { "text": "Vomissements incoercibles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Lynch ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Lynch (HNPCC) est une prédisposition héréditaire au cancer colorectal due à des mutations des gènes de réparation de l'ADN.",
+      "answers": [
+        { "text": "Infection intestinale chronique", "is_correct": false },
+        {
+          "text": "Prédisposition génétique au cancer colorectal",
+          "is_correct": true
+        },
+        { "text": "Maladie inflammatoire intestinale", "is_correct": false },
+        { "text": "Malformation congénitale du côlon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la rectocolite hémorragique ?",
+      "difficulty": "Moyen",
+      "explanation": "La rectocolite hémorragique peut se compliquer de mégacôlon toxique, d'hémorragie massive et augmente significativement le risque de cancer colorectal.",
+      "answers": [
+        { "text": "Appendicite", "is_correct": false },
+        {
+          "text": "Mégacôlon toxique et cancer colorectal",
+          "is_correct": true
+        },
+        { "text": "Hernie abdominale", "is_correct": false },
+        { "text": "Diverticulite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Addison-Biermer ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Biermer est une anémie mégaloblastique par carence en vitamine B12 due à un déficit en facteur intrinsèque d'origine auto-immune.",
+      "answers": [
+        { "text": "Carence en fer", "is_correct": false },
+        {
+          "text": "Anémie par carence en vitamine B12 auto-immune",
+          "is_correct": true
+        },
+        { "text": "Hémolyse chronique", "is_correct": false },
+        { "text": "Infection parasitaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal facteur de risque du cancer de l'endomètre ?",
+      "difficulty": "Facile",
+      "explanation": "L'hyperoestrogénie relative (obésité, traitement œstrogénique sans progestatif, ménopause tardive) est le principal facteur de risque du cancer de l'endomètre.",
+      "answers": [
+        { "text": "Tabagisme", "is_correct": false },
+        { "text": "Hyperoestrogénie (obésité)", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Multiparité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Budd-Chiari ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Budd-Chiari est une thrombose des veines sus-hépatiques entraînant une congestion hépatique, une hépatomégalie douloureuse et une ascite.",
+      "answers": [
+        { "text": "Thrombose de la veine porte", "is_correct": false },
+        { "text": "Thrombose des veines sus-hépatiques", "is_correct": true },
+        { "text": "Hépatite fulminante", "is_correct": false },
+        { "text": "Cancer du foie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la fièvre méditerranéenne familiale ?",
+      "difficulty": "Difficile",
+      "explanation": "La fièvre méditerranéenne familiale est une maladie auto-inflammatoire héréditaire due à une mutation du gène MEFV, causant des accès fébriles récurrents.",
+      "answers": [
+        { "text": "Infection chronique", "is_correct": false },
+        { "text": "Mutation génétique du gène MEFV", "is_correct": true },
+        { "text": "Maladie auto-immune", "is_correct": false },
+        { "text": "Déficit immunitaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Mallory-Weiss ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Mallory-Weiss est une déchirure longitudinale de la muqueuse du bas œsophage ou du cardia, causée par des vomissements répétés, entraînant une hémorragie.",
+      "answers": [
+        { "text": "Perforation œsophagienne", "is_correct": false },
+        { "text": "Déchirure muqueuse par vomissements", "is_correct": true },
+        { "text": "Cancer de l'œsophage", "is_correct": false },
+        { "text": "Varices œsophagiennes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la thrombose veineuse profonde ?",
+      "difficulty": "Facile",
+      "explanation": "La thrombose veineuse profonde se manifeste par une douleur, un œdème, une chaleur et une rougeur du membre atteint, avec le signe de Homans positif.",
+      "answers": [
+        { "text": "Pâleur et froideur du membre", "is_correct": false },
+        { "text": "Œdème, chaleur et douleur du membre", "is_correct": true },
+        { "text": "Absence de pouls périphérique", "is_correct": false },
+        { "text": "Engourdissement et paresthésies", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Ménière ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Ménière est un trouble de l'oreille interne caractérisé par la triade : vertiges, acouphènes et surdité de perception fluctuante.",
+      "answers": [
+        { "text": "Infection de l'oreille moyenne", "is_correct": false },
+        {
+          "text": "Trouble de l'oreille interne avec vertiges",
+          "is_correct": true
+        },
+        { "text": "Tumeur du nerf auditif", "is_correct": false },
+        { "text": "Perforation tympanique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la diverticulose colique ?",
+      "difficulty": "Facile",
+      "explanation": "La diverticulose colique peut se compliquer de diverticulite (inflammation/infection), d'hémorragie digestive, de perforation ou de sténose.",
+      "answers": [
+        { "text": "Cancer du côlon", "is_correct": false },
+        { "text": "Diverticulite et hémorragie", "is_correct": true },
+        { "text": "Maladie de Crohn", "is_correct": false },
+        { "text": "Appendicite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Waldenström ?",
+      "difficulty": "Difficile",
+      "explanation": "La macroglobulinémie de Waldenström est un lymphome lymphoplasmocytaire caractérisé par une prolifération de cellules B produisant une IgM monoclonale.",
+      "answers": [
+        { "text": "Leucémie aiguë", "is_correct": false },
+        { "text": "Lymphome avec IgM monoclonale", "is_correct": true },
+        { "text": "Myélome multiple", "is_correct": false },
+        { "text": "Anémie hémolytique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de l'ostéomyélite ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ostéomyélite est une infection de l'os généralement d'origine bactérienne (staphylocoque doré), survenant par voie hématogène ou par contiguïté.",
+      "answers": [
+        { "text": "Fracture pathologique", "is_correct": false },
+        { "text": "Infection bactérienne de l'os", "is_correct": true },
+        { "text": "Tumeur osseuse", "is_correct": false },
+        { "text": "Maladie auto-immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Klinefelter ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Klinefelter est une anomalie chromosomique (47,XXY) chez l'homme, entraînant un hypogonadisme, une gynécomastie et une infertilité.",
+      "answers": [
+        { "text": "Déficit en hormone thyroïdienne", "is_correct": false },
+        { "text": "Anomalie chromosomique (47,XXY)", "is_correct": true },
+        { "text": "Maladie auto-immune", "is_correct": false },
+        { "text": "Infection congénitale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la dysplasie fibromusculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "La dysplasie fibromusculaire est une anomalie non athéroscléreuse de la paroi artérielle d'origine inconnue, touchant surtout les artères rénales et carotides.",
+      "answers": [
+        { "text": "Infection vasculaire", "is_correct": false },
+        {
+          "text": "Anomalie non athéroscléreuse de la paroi artérielle",
+          "is_correct": true
+        },
+        { "text": "Thrombose artérielle", "is_correct": false },
+        { "text": "Vascularite inflammatoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Bowen ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Bowen est un carcinome épidermoïde in situ de la peau se présentant comme une plaque érythémateuse bien limitée.",
+      "answers": [
+        { "text": "Mélanome malin", "is_correct": false },
+        { "text": "Carcinome épidermoïde in situ cutané", "is_correct": true },
+        { "text": "Infection fongique", "is_correct": false },
+        { "text": "Psoriasis", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la myasthénie auto-immune ?",
+      "difficulty": "Moyen",
+      "explanation": "La myasthénie auto-immune se caractérise par une faiblesse musculaire fluctuante s'aggravant à l'effort, due à des anticorps anti-récepteurs de l'acétylcholine.",
+      "answers": [
+        { "text": "Douleurs musculaires constantes", "is_correct": false },
+        { "text": "Faiblesse musculaire fluctuante", "is_correct": true },
+        { "text": "Paralysie permanente", "is_correct": false },
+        { "text": "Tremblements au repos", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Turner ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Turner est une monosomie X (45,X0) chez la femme, entraînant une petite taille, une dysgénésie gonadique et des malformations cardiaques.",
+      "answers": [
+        { "text": "Trisomie 21", "is_correct": false },
+        { "text": "Monosomie X (45,X0)", "is_correct": true },
+        { "text": "Syndrome de Down", "is_correct": false },
+        { "text": "Maladie métabolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication du diabète insipide ?",
+      "difficulty": "Facile",
+      "explanation": "Le diabète insipide (déficit en ADH) entraîne une polyurie massive avec risque de déshydratation sévère et d'hypernatrémie.",
+      "answers": [
+        { "text": "Hypoglycémie", "is_correct": false },
+        { "text": "Déshydratation et hypernatrémie", "is_correct": true },
+        { "text": "Acidocétose", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Lyme ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Lyme est une infection bactérienne à Borrelia burgdorferi transmise par les tiques, se manifestant par un érythème migrant caractéristique.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        {
+          "text": "Infection bactérienne transmise par les tiques",
+          "is_correct": true
+        },
+        { "text": "Maladie auto-immune", "is_correct": false },
+        { "text": "Infection fongique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la sténose du pylore chez le nourrisson ?",
+      "difficulty": "Facile",
+      "explanation": "La sténose du pylore se manifeste chez le nourrisson par des vomissements en jet non bilieux, une déshydratation et une alcalose métabolique.",
+      "answers": [
+        { "text": "Diarrhée chronique", "is_correct": false },
+        { "text": "Vomissements en jet non bilieux", "is_correct": true },
+        { "text": "Constipation sévère", "is_correct": false },
+        { "text": "Ictère néonatal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Reye ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Reye est une encéphalopathie aiguë avec stéatose hépatique, survenant chez l'enfant après une infection virale et la prise d'aspirine.",
+      "answers": [
+        { "text": "Méningite bactérienne", "is_correct": false },
+        {
+          "text": "Encéphalopathie avec stéatose hépatique",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Hépatite virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la spondylarthrite ankylosante ?",
+      "difficulty": "Moyen",
+      "explanation": "La spondylarthrite ankylosante est une maladie inflammatoire chronique du rachis et des articulations sacro-iliaques, associée à l'antigène HLA-B27.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Maladie inflammatoire associée à HLA-B27",
+          "is_correct": true
+        },
+        { "text": "Traumatisme vertébral", "is_correct": false },
+        { "text": "Arthrose dégénérative", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Kaposi ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sarcome de Kaposi est une tumeur vasculaire associée au virus HHV-8, fréquente chez les patients immunodéprimés (VIH).",
+      "answers": [
+        { "text": "Infection fongique", "is_correct": false },
+        { "text": "Tumeur vasculaire associée au HHV-8", "is_correct": true },
+        { "text": "Lymphome", "is_correct": false },
+        { "text": "Mélanome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de l'hypercalcémie maligne ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypercalcémie maligne est souvent due à la sécrétion de PTHrP (protéine apparentée à la PTH) par certaines tumeurs ou aux métastases osseuses ostéolytiques.",
+      "answers": [
+        { "text": "Carence en vitamine D", "is_correct": false },
+        {
+          "text": "Sécrétion de PTHrP ou métastases ostéolytiques",
+          "is_correct": true
+        },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Hyperparathyroïdie primitive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Tangier ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Tangier est une maladie génétique rare du métabolisme lipidique caractérisée par un déficit en HDL-cholestérol et des dépôts d'esters de cholestérol.",
+      "answers": [
+        { "text": "Hypercholestérolémie familiale", "is_correct": false },
+        { "text": "Déficit en HDL-cholestérol", "is_correct": true },
+        { "text": "Diabète lipidique", "is_correct": false },
+        { "text": "Stéatose hépatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'achalasie de l'œsophage ?",
+      "difficulty": "Moyen",
+      "explanation": "L'achalasie (défaut de relaxation du sphincter inférieur de l'œsophage) peut se compliquer de régurgitations, pneumopathies d'inhalation et augmente le risque de cancer œsophagien.",
+      "answers": [
+        { "text": "Reflux gastro-œsophagien", "is_correct": false },
+        { "text": "Pneumopathies d'inhalation et cancer", "is_correct": true },
+        { "text": "Ulcère gastrique", "is_correct": false },
+        { "text": "Pancréatite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Marfan ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Marfan est une maladie génétique du tissu conjonctif (mutation de la fibrilline) se manifestant par une grande taille, des anomalies oculaires et cardiovasculaires.",
+      "answers": [
+        { "text": "Nanisme hypophysaire", "is_correct": false },
+        { "text": "Maladie génétique du tissu conjonctif", "is_correct": true },
+        { "text": "Maladie auto-immune", "is_correct": false },
+        { "text": "Déficit enzymatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la glomérulonéphrite post-streptococcique ?",
+      "difficulty": "Facile",
+      "explanation": "La glomérulonéphrite post-streptococcique survient 1-3 semaines après une infection streptococcique et se manifeste par hématurie, protéinurie, œdèmes et HTA.",
+      "answers": [
+        { "text": "Polyurie", "is_correct": false },
+        { "text": "Hématurie et œdèmes", "is_correct": true },
+        { "text": "Hypotension", "is_correct": false },
+        { "text": "Hypoglycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Von Willebrand ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Von Willebrand est un trouble de l'hémostase héréditaire dû à un déficit quantitatif ou qualitatif du facteur de Von Willebrand.",
+      "answers": [
+        { "text": "Hémophilie A", "is_correct": false },
+        { "text": "Déficit en facteur de Von Willebrand", "is_correct": true },
+        { "text": "Thrombopénie auto-immune", "is_correct": false },
+        { "text": "Anémie hémolytique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de mort subite chez le sportif jeune ?",
+      "difficulty": "Moyen",
+      "explanation": "La cardiomyopathie hypertrophique est la première cause de mort subite chez le sportif jeune, suivie des anomalies coronaires congénitales.",
+      "answers": [
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        { "text": "Cardiomyopathie hypertrophique", "is_correct": true },
+        { "text": "Pneumonie", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Pierre Robin ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Pierre Robin est une malformation congénitale associant micrognathie (petit menton), glossoptose (chute de la langue) et fente palatine.",
+      "answers": [
+        { "text": "Malformation cardiaque", "is_correct": false },
+        { "text": "Malformation craniofaciale", "is_correct": true },
+        { "text": "Maladie génétique métabolique", "is_correct": false },
+        { "text": "Infection congénitale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme du syndrome de sécrétion inappropriée d'ADH (SIADH) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le SIADH est caractérisé par une sécrétion excessive d'ADH entraînant une rétention d'eau, une hyponatrémie de dilution et une hypervolémie.",
+      "answers": [
+        { "text": "Déficit en ADH", "is_correct": false },
+        { "text": "Sécrétion excessive d'ADH", "is_correct": true },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Déshydratation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Castleman ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Castleman est un trouble lymphoprolifératif rare caractérisé par une hyperplasie ganglionnaire, pouvant être localisée ou multicentrique.",
+      "answers": [
+        { "text": "Lymphome de Hodgkin", "is_correct": false },
+        {
+          "text": "Hyperplasie ganglionnaire lymphoproliférative",
+          "is_correct": true
+        },
+        { "text": "Leucémie chronique", "is_correct": false },
+        { "text": "Infection virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Peyronie ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Peyronie est une fibrose du tissu érectile de la verge entraînant une courbure pénienne douloureuse lors de l'érection.",
+      "answers": [
+        { "text": "Infection urogénitale", "is_correct": false },
+        { "text": "Fibrose du tissu érectile", "is_correct": true },
+        { "text": "Tumeur testiculaire", "is_correct": false },
+        { "text": "Malformation congénitale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de l'hépatite fulminante ?",
+      "difficulty": "Facile",
+      "explanation": "L'hépatite fulminante se manifeste par une insuffisance hépatocellulaire aiguë avec encéphalopathie hépatique, ictère massif et troubles de la coagulation.",
+      "answers": [
+        { "text": "Douleur abdominale chronique", "is_correct": false },
+        { "text": "Encéphalopathie et ictère massif", "is_correct": true },
+        { "text": "Fièvre isolée", "is_correct": false },
+        { "text": "Ascite modérée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Zollinger-Ellison ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Zollinger-Ellison est causé par un gastrinome (tumeur sécrétant de la gastrine) entraînant une hypersécrétion acide gastrique et des ulcères digestifs multiples.",
+      "answers": [
+        { "text": "Infection à Helicobacter pylori", "is_correct": false },
+        { "text": "Gastrinome avec hypersécrétion acide", "is_correct": true },
+        { "text": "Reflux gastro-œsophagien", "is_correct": false },
+        { "text": "Gastrite auto-immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de la stéatose hépatique non alcoolique (NASH) ?",
+      "difficulty": "Moyen",
+      "explanation": "La stéatose hépatique non alcoolique est principalement associée au syndrome métabolique (obésité, diabète, dyslipidémie, insulinorésistance).",
+      "answers": [
+        { "text": "Alcoolisme chronique", "is_correct": false },
+        { "text": "Syndrome métabolique", "is_correct": true },
+        { "text": "Hépatite virale", "is_correct": false },
+        { "text": "Médicaments hépatotoxiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Rendu-Osler ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Rendu-Osler (télangiectasie hémorragique héréditaire) est une maladie génétique caractérisée par des malformations vasculaires avec épistaxis récurrentes.",
+      "answers": [
+        { "text": "Trouble de la coagulation", "is_correct": false },
+        {
+          "text": "Malformations vasculaires héréditaires",
+          "is_correct": true
+        },
+        { "text": "Thrombopénie auto-immune", "is_correct": false },
+        { "text": "Anévrisme cérébral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la thrombose veineuse rétinienne ?",
+      "difficulty": "Moyen",
+      "explanation": "La thrombose veineuse rétinienne est souvent liée à l'hypertension artérielle, au diabète, à l'hyperviscosité sanguine ou au glaucome.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        {
+          "text": "Obstruction vasculaire avec hyperviscosité",
+          "is_correct": true
+        },
+        { "text": "Traumatisme oculaire", "is_correct": false },
+        { "text": "Maladie auto-immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la polychondrite atrophiante ?",
+      "difficulty": "Difficile",
+      "explanation": "La polychondrite atrophiante est une maladie auto-immune rare caractérisée par une inflammation récurrente des cartilages (oreilles, nez, larynx, articulations).",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Inflammation auto-immune des cartilages",
+          "is_correct": true
+        },
+        { "text": "Dégénérescence arthrosique", "is_correct": false },
+        { "text": "Tumeur cartilagineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la mononucléose infectieuse ?",
+      "difficulty": "Facile",
+      "explanation": "La mononucléose infectieuse peut se compliquer d'une rupture splénique, d'hépatite, d'anémie hémolytique ou rarement d'atteinte neurologique.",
+      "answers": [
+        { "text": "Pneumonie bactérienne", "is_correct": false },
+        { "text": "Rupture splénique", "is_correct": true },
+        { "text": "Insuffisance rénale", "is_correct": false },
+        { "text": "Méningite virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Fanconi rénal ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Fanconi rénal est une tubulopathie proximale généralisée entraînant une perte urinaire de glucose, acides aminés, phosphates et bicarbonates.",
+      "answers": [
+        { "text": "Glomérulopathie", "is_correct": false },
+        { "text": "Tubulopathie proximale", "is_correct": true },
+        { "text": "Insuffisance rénale aiguë", "is_correct": false },
+        { "text": "Lithiase rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de la périartérite noueuse ?",
+      "difficulty": "Moyen",
+      "explanation": "La périartérite noueuse est une vascularite nécrosante systémique des artères de moyen calibre se manifestant par fièvre, amaigrissement, HTA, atteinte rénale et neurologique.",
+      "answers": [
+        { "text": "Eczéma chronique", "is_correct": false },
+        {
+          "text": "Fièvre, HTA et atteinte multisystémique",
+          "is_correct": true
+        },
+        { "text": "Diarrhée chronique", "is_correct": false },
+        { "text": "Arthrite isolée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Caroli ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Caroli est une dilatation segmentaire congénitale des voies biliaires intrahépatiques prédisposant aux cholangites et à la lithiase biliaire.",
+      "answers": [
+        { "text": "Cirrhose hépatique", "is_correct": false },
+        {
+          "text": "Dilatation congénitale des voies biliaires",
+          "is_correct": true
+        },
+        { "text": "Cancer des voies biliaires", "is_correct": false },
+        { "text": "Hépatite auto-immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'insuffisance surrénalienne aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance surrénalienne aiguë peut être causée par un arrêt brutal de corticothérapie, une infection (Waterhouse-Friderichsen), ou une hémorragie surrénalienne.",
+      "answers": [
+        { "text": "Diabète", "is_correct": false },
+        {
+          "text": "Arrêt brutal de corticothérapie ou infection",
+          "is_correct": true
+        },
+        { "text": "Obésité", "is_correct": false },
+        { "text": "Hyperthyroïdie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Degos ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Degos (papulose atrophiante maligne) est une vascularite rare touchant la peau et les viscères avec un pronostic sévère en cas d'atteinte systémique.",
+      "answers": [
+        { "text": "Psoriasis sévère", "is_correct": false },
+        { "text": "Vascularite cutanéo-viscérale rare", "is_correct": true },
+        { "text": "Eczéma atopique", "is_correct": false },
+        { "text": "Infection fongique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de l'hyperthyroïdie dans la maladie de Basedow ?",
+      "difficulty": "Moyen",
+      "explanation": "Dans la maladie de Basedow, des anticorps stimulent le récepteur de la TSH, entraînant une hypersécrétion d'hormones thyroïdiennes et un goitre diffus.",
+      "answers": [
+        { "text": "Déficit en iode", "is_correct": false },
+        {
+          "text": "Auto-anticorps stimulant le récepteur TSH",
+          "is_correct": true
+        },
+        { "text": "Adénome thyroïdien", "is_correct": false },
+        { "text": "Thyroïdite virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Rosai-Dorfman ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Rosai-Dorfman (histiocytose sinusale) est une prolifération histiocytaire bénigne se manifestant par des adénopathies volumineuses indolores.",
+      "answers": [
+        { "text": "Lymphome malin", "is_correct": false },
+        { "text": "Prolifération histiocytaire bénigne", "is_correct": true },
+        { "text": "Infection tuberculeuse", "is_correct": false },
+        { "text": "Sarcoïdose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de l'endométriose ?",
+      "difficulty": "Facile",
+      "explanation": "L'endométriose peut entraîner des douleurs pelviennes chroniques, une dysménorrhée sévère, une dyspareunie et surtout une infertilité.",
+      "answers": [
+        { "text": "Cancer de l'endomètre", "is_correct": false },
+        { "text": "Infertilité", "is_correct": true },
+        { "text": "Ménopause précoce", "is_correct": false },
+        { "text": "Infection pelvienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Castleman multicentrique ?",
+      "difficulty": "Difficile",
+      "explanation": "La forme multicentrique de Castleman est associée au HHV-8, se manifestant par des adénopathies multiples, fièvre, splénomégalie et syndrome inflammatoire.",
+      "answers": [
+        { "text": "Lymphome de Burkitt", "is_correct": false },
+        {
+          "text": "Hyperplasie ganglionnaire associée au HHV-8",
+          "is_correct": true
+        },
+        { "text": "Mononucléose infectieuse", "is_correct": false },
+        { "text": "Tuberculose ganglionnaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de l'occlusion intestinale ?",
+      "difficulty": "Facile",
+      "explanation": "L'occlusion intestinale se manifeste par des douleurs abdominales, arrêt des matières et des gaz, vomissements et distension abdominale.",
+      "answers": [
+        { "text": "Diarrhée profuse", "is_correct": false },
+        { "text": "Arrêt des matières et des gaz", "is_correct": true },
+        { "text": "Constipation simple", "is_correct": false },
+        { "text": "Hémorragie digestive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Hailey-Hailey ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Hailey-Hailey (pemphigus chronique bénin familial) est une génodermatose caractérisée par des vésicules et érosions récurrentes des plis.",
+      "answers": [
+        { "text": "Psoriasis génétique", "is_correct": false },
+        { "text": "Génodermatose vésiculeuse des plis", "is_correct": true },
+        { "text": "Infection fongique", "is_correct": false },
+        { "text": "Eczéma atopique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause du syndrome de Cushing iatrogène ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Cushing iatrogène est le plus souvent causé par une corticothérapie prolongée à fortes doses, entraînant un hypercorticisme exogène.",
+      "answers": [
+        { "text": "Tumeur surrénalienne", "is_correct": false },
+        { "text": "Corticothérapie prolongée", "is_correct": true },
+        { "text": "Adénome hypophysaire", "is_correct": false },
+        { "text": "Stress chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Erdheim-Chester ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Erdheim-Chester est une histiocytose rare non langerhansienne caractérisée par une infiltration histiocytaire multiviscérale, notamment osseuse.",
+      "answers": [
+        { "text": "Leucémie aiguë", "is_correct": false },
+        { "text": "Histiocytose multiviscérale rare", "is_correct": true },
+        { "text": "Myélome multiple", "is_correct": false },
+        { "text": "Sarcoïdose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de l'aphtose buccale récidivante ?",
+      "difficulty": "Facile",
+      "explanation": "L'aphtose buccale récidivante se manifeste par des ulcérations douloureuses arrondies de la muqueuse buccale, récurrentes, sans cause identifiée.",
+      "answers": [
+        { "text": "Infection à Candida", "is_correct": false },
+        {
+          "text": "Ulcérations buccales douloureuses récurrentes",
+          "is_correct": true
+        },
+        { "text": "Leucoplasie", "is_correct": false },
+        { "text": "Cancer buccal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Darier ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Darier est une génodermatose autosomique dominante caractérisée par des papules kératosiques brunâtres des zones séborrhéiques.",
+      "answers": [
+        { "text": "Psoriasis", "is_correct": false },
+        { "text": "Génodermatose kératosique", "is_correct": true },
+        { "text": "Eczéma chronique", "is_correct": false },
+        { "text": "Infection fongique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la dissection aortique ?",
+      "difficulty": "Moyen",
+      "explanation": "La dissection aortique peut se compliquer d'une rupture aortique, d'un tamponnade péricardique, d'un AVC ou d'une ischémie viscérale.",
+      "answers": [
+        { "text": "Embolie pulmonaire", "is_correct": false },
+        { "text": "Rupture aortique et tamponnade", "is_correct": true },
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        { "text": "Pneumonie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Cogan ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Cogan est une maladie auto-immune rare associant kératite interstitielle et troubles audiovestibulaires (surdité, vertiges).",
+      "answers": [
+        { "text": "Infection de l'oreille interne", "is_correct": false },
+        {
+          "text": "Maladie auto-immune oculo-audiovestibulaire",
+          "is_correct": true
+        },
+        { "text": "Tumeur du nerf auditif", "is_correct": false },
+        { "text": "Sclérose en plaques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la fibrose pulmonaire idiopathique ?",
+      "difficulty": "Moyen",
+      "explanation": "La fibrose pulmonaire idiopathique est caractérisée par une fibrose progressive du parenchyme pulmonaire d'origine inconnue, entraînant une insuffisance respiratoire.",
+      "answers": [
+        { "text": "Infection bactérienne chronique", "is_correct": false },
+        {
+          "text": "Fibrose progressive d'origine inconnue",
+          "is_correct": true
+        },
+        { "text": "Asthme sévère", "is_correct": false },
+        { "text": "Cancer pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Mondor ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Mondor est une thrombophlébite superficielle de la paroi thoracique antérieure, se manifestant par un cordon induré douloureux sous-cutané.",
+      "answers": [
+        { "text": "Cancer du sein", "is_correct": false },
+        {
+          "text": "Thrombophlébite thoracique superficielle",
+          "is_correct": true
+        },
+        { "text": "Infection cutanée", "is_correct": false },
+        { "text": "Lymphangite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause du syndrome de Waterhouse-Friderichsen ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Waterhouse-Friderichsen est une insuffisance surrénalienne aiguë par nécrose hémorragique bilatérale des surrénales, souvent due au méningocoque.",
+      "answers": [
+        { "text": "Traumatisme abdominal", "is_correct": false },
+        { "text": "Infection à méningocoque", "is_correct": true },
+        { "text": "Tumeur surrénalienne", "is_correct": false },
+        { "text": "Corticothérapie prolongée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Köhler ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Köhler est une ostéochondrite du scaphoïde tarsien chez l'enfant, entraînant des douleurs du médio-pied avec boiterie.",
+      "answers": [
+        { "text": "Fracture de stress", "is_correct": false },
+        { "text": "Ostéochondrite du scaphoïde tarsien", "is_correct": true },
+        { "text": "Arthrite septique", "is_correct": false },
+        { "text": "Tumeur osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe de l'érythème noueux ?",
+      "difficulty": "Facile",
+      "explanation": "L'érythème noueux se manifeste par des nodules sous-cutanés douloureux, chauds, érythémateux, siégeant principalement sur les faces antérieures des jambes.",
+      "answers": [
+        { "text": "Vésicules prurigineuses", "is_correct": false },
+        {
+          "text": "Nodules érythémateux douloureux des jambes",
+          "is_correct": true
+        },
+        { "text": "Ulcérations cutanées", "is_correct": false },
+        { "text": "Plaques squameuses", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Dercum ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Dercum (adiposis dolorosa) est une pathologie rare caractérisée par des lipomes douloureux multiples, obésité et asthénie.",
+      "answers": [
+        { "text": "Liposarcome", "is_correct": false },
+        { "text": "Lipomes douloureux multiples", "is_correct": true },
+        { "text": "Syndrome métabolique", "is_correct": false },
+        { "text": "Fibromyalgie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication de la maladie de Scheuermann ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Scheuermann (ostéochondrose vertébrale de l'adolescent) peut entraîner une cyphose dorsale fixée et des douleurs rachidiennes chroniques.",
+      "answers": [
+        { "text": "Paraplégie", "is_correct": false },
+        { "text": "Cyphose dorsale fixée", "is_correct": true },
+        { "text": "Scoliose sévère", "is_correct": false },
+        { "text": "Spondylolisthésis", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Loeffler ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Loeffler est une pneumopathie éosinophilique transitoire avec infiltrats pulmonaires fugaces et hyperéosinophilie sanguine, souvent liée à des parasites.",
+      "answers": [
+        { "text": "Pneumonie bactérienne", "is_correct": false },
+        {
+          "text": "Pneumopathie éosinophilique transitoire",
+          "is_correct": true
+        },
+        { "text": "Tuberculose pulmonaire", "is_correct": false },
+        { "text": "Cancer pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de la maladie de Kimura ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Kimura est un trouble lymphoprolifératif bénin chronique d'origine inconnue touchant les glandes salivaires et ganglions, avec hyperéosinophilie.",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Trouble lymphoprolifératif bénin", "is_correct": true },
+        { "text": "Lymphome malin", "is_correct": false },
+        { "text": "Maladie auto-immune", "is_correct": false }
       ]
     }
   ]

@@ -6,10 +6,10 @@
       "difficulty": "Facile",
       "explanation": "Les mitochondries sont les centrales énergétiques de la cellule. Elles produisent de l'ATP par respiration cellulaire.",
       "answers": [
-        {"text": "Le noyau", "is_correct": false},
-        {"text": "Les mitochondries", "is_correct": true},
-        {"text": "Le réticulum endoplasmique", "is_correct": false},
-        {"text": "L'appareil de Golgi", "is_correct": false}
+        { "text": "Le noyau", "is_correct": false },
+        { "text": "Les mitochondries", "is_correct": true },
+        { "text": "Le réticulum endoplasmique", "is_correct": false },
+        { "text": "L'appareil de Golgi", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,2210 @@
       "difficulty": "Facile",
       "explanation": "Le noyau contient l'ADN et contrôle les activités cellulaires en régulant l'expression des gènes.",
       "answers": [
-        {"text": "Production d'énergie", "is_correct": false},
-        {"text": "Stockage de l'information génétique", "is_correct": true},
-        {"text": "Digestion des nutriments", "is_correct": false},
-        {"text": "Transport des protéines", "is_correct": false}
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Stockage de l'information génétique", "is_correct": true },
+        { "text": "Digestion des nutriments", "is_correct": false },
+        { "text": "Transport des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de base du vivant ?",
+      "difficulty": "Facile",
+      "explanation": "La cellule est la plus petite unité structurelle et fonctionnelle du vivant.",
+      "answers": [
+        { "text": "L'atome", "is_correct": false },
+        { "text": "La cellule", "is_correct": true },
+        { "text": "Le tissu", "is_correct": false },
+        { "text": "L'organe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Où se situe l'ADN dans une cellule eucaryote ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADN est contenu principalement dans le noyau, sous forme de chromatine.",
+      "answers": [
+        { "text": "Dans le cytoplasme", "is_correct": false },
+        { "text": "Dans le noyau", "is_correct": true },
+        { "text": "Dans la membrane", "is_correct": false },
+        { "text": "Dans les lysosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est responsable de la production d'ATP ?",
+      "difficulty": "Facile",
+      "explanation": "La mitochondrie produit l'ATP par phosphorylation oxydative.",
+      "answers": [
+        { "text": "Ribosome", "is_correct": false },
+        { "text": "Mitochondrie", "is_correct": true },
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Lysosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des ribosomes ?",
+      "difficulty": "Facile",
+      "explanation": "Les ribosomes synthétisent les protéines à partir de l'ARN messager.",
+      "answers": [
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": true },
+        { "text": "Production d'ATP", "is_correct": false },
+        { "text": "Dégradation des déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "De quoi est principalement constituée la membrane plasmique ?",
+      "difficulty": "Facile",
+      "explanation": "La membrane plasmique est une bicouche de phospholipides avec des protéines et du cholestérol.",
+      "answers": [
+        { "text": "De cellulose", "is_correct": false },
+        { "text": "De phospholipides", "is_correct": true },
+        { "text": "De sucres", "is_correct": false },
+        { "text": "D'acides aminés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est le siège de la photosynthèse ?",
+      "difficulty": "Facile",
+      "explanation": "Les chloroplastes contiennent la chlorophylle et réalisent la photosynthèse chez les plantes.",
+      "answers": [
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Chloroplaste", "is_correct": true },
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Réticulum endoplasmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cytosquelette ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cytosquelette maintient la forme de la cellule et participe aux mouvements intracellulaires.",
+      "answers": [
+        { "text": "Stocker l'énergie", "is_correct": false },
+        { "text": "Maintenir la forme et le mouvement", "is_correct": true },
+        { "text": "Produire des protéines", "is_correct": false },
+        { "text": "Protéger l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les trois types de filaments du cytosquelette ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cytosquelette comprend les microfilaments d'actine, les microtubules et les filaments intermédiaires.",
+      "answers": [
+        { "text": "Actine, tubuline et kératine", "is_correct": false },
+        {
+          "text": "Microfilaments, microtubules, filaments intermédiaires",
+          "is_correct": true
+        },
+        { "text": "Actine, myosine, collagène", "is_correct": false },
+        { "text": "Fibres, microvillosités, flagelles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'appareil de Golgi ?",
+      "difficulty": "Facile",
+      "explanation": "L'appareil de Golgi modifie, trie et exporte les protéines synthétisées par le réticulum endoplasmique.",
+      "answers": [
+        { "text": "Synthétiser les lipides", "is_correct": false },
+        { "text": "Modifier et trier les protéines", "is_correct": true },
+        { "text": "Produire de l'ATP", "is_correct": false },
+        { "text": "Dégrader les acides nucléiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite contient des enzymes digestives ?",
+      "difficulty": "Facile",
+      "explanation": "Les lysosomes contiennent des enzymes hydrolytiques qui dégradent les déchets cellulaires.",
+      "answers": [
+        { "text": "Peroxysome", "is_correct": false },
+        { "text": "Lysosome", "is_correct": true },
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Noyau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du réticulum endoplasmique rugueux ?",
+      "difficulty": "Facile",
+      "explanation": "Le réticulum endoplasmique rugueux est impliqué dans la synthèse des protéines grâce aux ribosomes fixés sur sa surface.",
+      "answers": [
+        { "text": "Stocker les lipides", "is_correct": false },
+        { "text": "Synthétiser les protéines", "is_correct": true },
+        { "text": "Produire l'ATP", "is_correct": false },
+        { "text": "Dégrader le glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment appelle-t-on la phase de division du noyau ?",
+      "difficulty": "Facile",
+      "explanation": "La mitose correspond à la division du noyau en deux noyaux identiques.",
+      "answers": [
+        { "text": "Cytocinèse", "is_correct": false },
+        { "text": "Mitose", "is_correct": true },
+        { "text": "Interphase", "is_correct": false },
+        { "text": "Apoptose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence principale entre cellule eucaryote et procaryote ?",
+      "difficulty": "Moyen",
+      "explanation": "Les eucaryotes possèdent un noyau et des organites membraneux, contrairement aux procaryotes.",
+      "answers": [
+        { "text": "Les eucaryotes sont plus petits", "is_correct": false },
+        { "text": "Les eucaryotes ont un noyau", "is_correct": true },
+        {
+          "text": "Les procaryotes ont un ADN double brin",
+          "is_correct": false
+        },
+        { "text": "Les eucaryotes n'ont pas de membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de transport nécessite de l'énergie ?",
+      "difficulty": "Facile",
+      "explanation": "Le transport actif consomme de l'ATP pour déplacer des molécules contre leur gradient de concentration.",
+      "answers": [
+        { "text": "Diffusion simple", "is_correct": false },
+        { "text": "Transport actif", "is_correct": true },
+        { "text": "Osmose", "is_correct": false },
+        { "text": "Diffusion facilitée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule compose principalement les microtubules ?",
+      "difficulty": "Moyen",
+      "explanation": "Les microtubules sont constitués de tubuline α et β.",
+      "answers": [
+        { "text": "Actine", "is_correct": false },
+        { "text": "Tubuline", "is_correct": true },
+        { "text": "Kératine", "is_correct": false },
+        { "text": "Collagène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que signifie le terme ‘eucaryote' ?",
+      "difficulty": "Facile",
+      "explanation": "‘Eucaryote' signifie ‘vraie cellule', c'est-à-dire avec un noyau défini.",
+      "answers": [
+        { "text": "Cellule sans noyau", "is_correct": false },
+        { "text": "Cellule avec noyau", "is_correct": true },
+        { "text": "Cellule végétale", "is_correct": false },
+        { "text": "Cellule procaryote", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Dans quelle phase du cycle cellulaire l'ADN est-il répliqué ?",
+      "difficulty": "Moyen",
+      "explanation": "La phase S de l'interphase est dédiée à la réplication de l'ADN.",
+      "answers": [
+        { "text": "Phase G1", "is_correct": false },
+        { "text": "Phase S", "is_correct": true },
+        { "text": "Phase G2", "is_correct": false },
+        { "text": "Phase M", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des centrioles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les centrioles participent à la formation du fuseau mitotique lors de la division cellulaire.",
+      "answers": [
+        { "text": "Stocker les protéines", "is_correct": false },
+        { "text": "Former le fuseau mitotique", "is_correct": true },
+        { "text": "Réplication de l'ADN", "is_correct": false },
+        { "text": "Synthèse lipidique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment appelle-t-on la structure externe rigide des cellules végétales ?",
+      "difficulty": "Facile",
+      "explanation": "La paroi végétale, composée de cellulose, protège et soutient la cellule.",
+      "answers": [
+        { "text": "Membrane plasmique", "is_correct": false },
+        { "text": "Paroi cellulaire", "is_correct": true },
+        { "text": "Capsule", "is_correct": false },
+        { "text": "Cytosquelette", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du noyau dans la cellule eucaryote ?",
+      "difficulty": "Facile",
+      "explanation": "Le noyau contient le matériel génétique et contrôle les activités cellulaires.",
+      "answers": [
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Contrôler les activités cellulaires", "is_correct": true },
+        { "text": "Dégrader les déchets", "is_correct": false },
+        { "text": "Stocker le calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que contient le nucléole ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nucléole contient les gènes codant pour les ARN ribosomiques et participe à la formation des ribosomes.",
+      "answers": [
+        { "text": "Des lipides", "is_correct": false },
+        { "text": "Des ARN ribosomiques", "is_correct": true },
+        { "text": "Des protéines de membrane", "is_correct": false },
+        { "text": "Des acides gras", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des peroxysomes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les peroxysomes détoxifient certaines molécules et participent à la dégradation des acides gras.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        {
+          "text": "Détoxifier et dégrader les acides gras",
+          "is_correct": true
+        },
+        { "text": "Stocker le glucose", "is_correct": false },
+        { "text": "Transporter les lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment se déplace l'eau à travers la membrane plasmique ?",
+      "difficulty": "Facile",
+      "explanation": "L'eau traverse la membrane par osmose ou via des aquaporines.",
+      "answers": [
+        { "text": "Par diffusion facilitée", "is_correct": false },
+        { "text": "Par osmose", "is_correct": true },
+        { "text": "Par transport actif", "is_correct": false },
+        { "text": "Par exocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale différence entre mitose et méiose ?",
+      "difficulty": "Moyen",
+      "explanation": "La mitose donne deux cellules identiques, la méiose produit quatre cellules haploïdes.",
+      "answers": [
+        { "text": "La méiose double l'ADN", "is_correct": false },
+        {
+          "text": "La mitose donne deux cellules identiques, la méiose quatre différentes",
+          "is_correct": true
+        },
+        {
+          "text": "La méiose ne concerne que les cellules somatiques",
+          "is_correct": false
+        },
+        { "text": "La mitose crée des gamètes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du centrosome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le centrosome organise les microtubules et participe à la formation du fuseau mitotique.",
+      "answers": [
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Organiser les microtubules", "is_correct": true },
+        { "text": "Produire de l'ARN", "is_correct": false },
+        { "text": "Stocker du calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des mitochondries dans la respiration cellulaire ?",
+      "difficulty": "Facile",
+      "explanation": "Elles transforment l'énergie chimique du glucose en ATP utilisable par la cellule.",
+      "answers": [
+        { "text": "Transformer l'oxygène en glucose", "is_correct": false },
+        { "text": "Produire de l'ATP", "is_correct": true },
+        { "text": "Dégrader l'ADN", "is_correct": false },
+        { "text": "Stocker du glycogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des jonctions serrées entre cellules ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles empêchent le passage de substances entre les cellules, assurant une barrière étanche.",
+      "answers": [
+        {
+          "text": "Permettre la communication cellulaire",
+          "is_correct": false
+        },
+        { "text": "Assurer une barrière étanche", "is_correct": true },
+        {
+          "text": "Attacher les cellules au cytosquelette",
+          "is_correct": false
+        },
+        { "text": "Transporter des ions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de microscope permet d'observer les organites en détail ?",
+      "difficulty": "Facile",
+      "explanation": "Le microscope électronique offre une très haute résolution permettant d'observer les organites.",
+      "answers": [
+        { "text": "Optique", "is_correct": false },
+        { "text": "Électronique", "is_correct": true },
+        { "text": "À fluorescence uniquement", "is_correct": false },
+        { "text": "À contraste de phase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la composition du cytoplasme ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytoplasme est composé d'eau, d'ions, de macromolécules et d'organites.",
+      "answers": [
+        { "text": "Uniquement d'eau", "is_correct": false },
+        { "text": "D'eau, d'ions et d'organites", "is_correct": true },
+        { "text": "De protéines seulement", "is_correct": false },
+        { "text": "De lipides uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ARN messager ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARN messager transporte l'information génétique du noyau vers les ribosomes.",
+      "answers": [
+        { "text": "Dégrader les protéines", "is_correct": false },
+        { "text": "Transporter l'information génétique", "is_correct": true },
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Former la membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des microvillosités ?",
+      "difficulty": "Moyen",
+      "explanation": "Les microvillosités augmentent la surface d'échange de la membrane plasmique.",
+      "answers": [
+        { "text": "Protéger la cellule", "is_correct": false },
+        { "text": "Augmenter la surface d'échange", "is_correct": true },
+        { "text": "Permettre le mouvement", "is_correct": false },
+        { "text": "Assurer la division cellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle phase du cycle cellulaire précède la mitose ?",
+      "difficulty": "Moyen",
+      "explanation": "La phase G2 précède la mitose et permet la préparation de la division cellulaire.",
+      "answers": [
+        { "text": "Phase G1", "is_correct": false },
+        { "text": "Phase G2", "is_correct": true },
+        { "text": "Phase S", "is_correct": false },
+        { "text": "Phase M", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des jonctions communicantes (gap junctions) ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles permettent le passage d'ions et de petites molécules entre les cellules voisines.",
+      "answers": [
+        { "text": "Assurer la rigidité", "is_correct": false },
+        { "text": "Permettre l'échange d'ions", "is_correct": true },
+        { "text": "Former la matrice extracellulaire", "is_correct": false },
+        { "text": "Attacher la cellule au substrat", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Dans quelle phase de la mitose les chromosomes s'alignent-ils sur le plan équatorial ?",
+      "difficulty": "Moyen",
+      "explanation": "Pendant la métaphase, les chromosomes s'alignent au centre de la cellule avant d'être séparés.",
+      "answers": [
+        { "text": "Prophase", "is_correct": false },
+        { "text": "Métaphase", "is_correct": true },
+        { "text": "Anaphase", "is_correct": false },
+        { "text": "Télophase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme permet la duplication de l'ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN polymérase assure la réplication de l'ADN en synthétisant un nouveau brin complémentaire.",
+      "answers": [
+        { "text": "ARN polymérase", "is_correct": false },
+        { "text": "ADN polymérase", "is_correct": true },
+        { "text": "Ligase", "is_correct": false },
+        { "text": "Primase", "is_correct": false }
+      ]
+    },
+
+    {
+      "question_text": "Quel organite est responsable de la synthèse des lipides ?",
+      "difficulty": "Facile",
+      "explanation": "Le réticulum endoplasmique lisse est le principal site de synthèse des lipides et des stéroïdes.",
+      "answers": [
+        { "text": "Réticulum endoplasmique rugueux", "is_correct": false },
+        { "text": "Réticulum endoplasmique lisse", "is_correct": true },
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Lysosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est la principale source d'énergie des cellules ?",
+      "difficulty": "Facile",
+      "explanation": "L'ATP est la molécule énergétique utilisée par la majorité des réactions cellulaires.",
+      "answers": [
+        { "text": "ADN", "is_correct": false },
+        { "text": "ATP", "is_correct": true },
+        { "text": "ARN", "is_correct": false },
+        { "text": "Glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que contient la membrane nucléaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La membrane nucléaire contient des pores qui régulent les échanges entre le noyau et le cytoplasme.",
+      "answers": [
+        { "text": "Des ribosomes liés", "is_correct": false },
+        { "text": "Des pores nucléaires", "is_correct": true },
+        { "text": "Des microtubules", "is_correct": false },
+        { "text": "Des lysosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du fuseau mitotique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le fuseau mitotique, formé de microtubules, sépare les chromosomes lors de la division cellulaire.",
+      "answers": [
+        { "text": "Fusionner les cellules", "is_correct": false },
+        { "text": "Séparer les chromosomes", "is_correct": true },
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Former la membrane plasmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que contient le cytosol ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytosol est la phase liquide du cytoplasme contenant des ions, protéines et métabolites.",
+      "answers": [
+        { "text": "Uniquement de l'eau", "is_correct": false },
+        { "text": "Eau, ions et protéines", "is_correct": true },
+        { "text": "ADN et ARN", "is_correct": false },
+        { "text": "Ribosomes uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est impliqué dans la dégradation des protéines endommagées ?",
+      "difficulty": "Moyen",
+      "explanation": "Le protéasome dégrade les protéines marquées par l'ubiquitine.",
+      "answers": [
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Protéasome", "is_correct": true },
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Peroxysome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que signifie le terme 'apoptose' ?",
+      "difficulty": "Facile",
+      "explanation": "L'apoptose correspond à la mort cellulaire programmée, un processus normal et contrôlé.",
+      "answers": [
+        { "text": "Mort accidentelle de la cellule", "is_correct": false },
+        { "text": "Mort cellulaire programmée", "is_correct": true },
+        { "text": "Division cellulaire", "is_correct": false },
+        { "text": "Réplication de l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du cholestérol dans la membrane plasmique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cholestérol régule la fluidité de la membrane plasmique.",
+      "answers": [
+        { "text": "Rend la membrane imperméable", "is_correct": false },
+        { "text": "Régule la fluidité de la membrane", "is_correct": true },
+        { "text": "Augmente la rigidité absolue", "is_correct": false },
+        { "text": "Forme les pores membranaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que sont les centrioles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les centrioles sont des structures cylindriques composées de microtubules, impliquées dans la division cellulaire.",
+      "answers": [
+        { "text": "Des enzymes de l'appareil de Golgi", "is_correct": false },
+        { "text": "Des structures du centrosome", "is_correct": true },
+        { "text": "Des fragments de membrane", "is_correct": false },
+        { "text": "Des acides aminés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison relie les bases complémentaires de l'ADN ?",
+      "difficulty": "Facile",
+      "explanation": "Les bases sont liées par des liaisons hydrogène : deux entre A et T, trois entre G et C.",
+      "answers": [
+        { "text": "Liaisons covalentes", "is_correct": false },
+        { "text": "Liaisons hydrogène", "is_correct": true },
+        { "text": "Ponts disulfure", "is_correct": false },
+        { "text": "Interactions ioniques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Dans quelle phase de la mitose les chromatides sœurs se séparent-elles ?",
+      "difficulty": "Moyen",
+      "explanation": "Lors de l'anaphase, les chromatides sœurs sont séparées vers les pôles opposés.",
+      "answers": [
+        { "text": "Prophase", "is_correct": false },
+        { "text": "Anaphase", "is_correct": true },
+        { "text": "Métaphase", "is_correct": false },
+        { "text": "Télophase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la membrane plasmique ?",
+      "difficulty": "Facile",
+      "explanation": "Elle délimite la cellule, contrôle les échanges et permet la communication avec l'extérieur.",
+      "answers": [
+        { "text": "Produire de l'ATP", "is_correct": false },
+        {
+          "text": "Contrôler les échanges avec le milieu extérieur",
+          "is_correct": true
+        },
+        { "text": "Stocker des protéines", "is_correct": false },
+        { "text": "Assurer la division", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule porte l'information génétique ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADN contient l'information génétique nécessaire à la synthèse des protéines.",
+      "answers": [
+        { "text": "ARN", "is_correct": false },
+        { "text": "ADN", "is_correct": true },
+        { "text": "Protéine", "is_correct": false },
+        { "text": "Lipide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure relie deux cellules végétales voisines ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plasmodesmes permettent les échanges entre cellules végétales à travers la paroi.",
+      "answers": [
+        { "text": "Jonctions serrées", "is_correct": false },
+        { "text": "Plasmodesmes", "is_correct": true },
+        { "text": "Desmosomes", "is_correct": false },
+        { "text": "Gap junctions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des lysosomes ?",
+      "difficulty": "Facile",
+      "explanation": "Les lysosomes dégradent les déchets et les composants cellulaires endommagés.",
+      "answers": [
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Dégrader les déchets", "is_correct": true },
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Stocker le calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction du cytosquelette ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytosquelette soutient la cellule et permet les mouvements intracellulaires.",
+      "answers": [
+        { "text": "Stocker l'ADN", "is_correct": false },
+        {
+          "text": "Donner la forme et assurer le mouvement",
+          "is_correct": true
+        },
+        { "text": "Fabriquer des protéines", "is_correct": false },
+        { "text": "Protéger le noyau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule forme la bicouche lipidique ?",
+      "difficulty": "Facile",
+      "explanation": "Les phospholipides forment une bicouche où les têtes hydrophiles sont tournées vers l'extérieur.",
+      "answers": [
+        { "text": "Protéines", "is_correct": false },
+        { "text": "Phospholipides", "is_correct": true },
+        { "text": "Glucides", "is_correct": false },
+        { "text": "Nucléotides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est responsable de la production d'énergie sous forme d'ATP ?",
+      "difficulty": "Facile",
+      "explanation": "Les mitochondries sont les centrales énergétiques de la cellule, produisant de l'ATP par respiration cellulaire.",
+      "answers": [
+        { "text": "Réticulum endoplasmique", "is_correct": false },
+        { "text": "Mitochondrie", "is_correct": true },
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Lysosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Où se déroule la transcription de l'ADN en ARN ?",
+      "difficulty": "Facile",
+      "explanation": "La transcription a lieu dans le noyau, où l'ADN est converti en ARN messager.",
+      "answers": [
+        { "text": "Dans le cytoplasme", "is_correct": false },
+        { "text": "Dans le noyau", "is_correct": true },
+        { "text": "Dans la mitochondrie", "is_correct": false },
+        { "text": "À la membrane plasmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est chargé de modifier et trier les protéines ?",
+      "difficulty": "Facile",
+      "explanation": "L'appareil de Golgi reçoit, modifie et expédie les protéines produites par le réticulum endoplasmique.",
+      "answers": [
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Appareil de Golgi", "is_correct": true },
+        { "text": "Noyau", "is_correct": false },
+        { "text": "Ribosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de transport nécessite de l'énergie ?",
+      "difficulty": "Facile",
+      "explanation": "Le transport actif consomme de l'ATP pour déplacer des molécules contre leur gradient.",
+      "answers": [
+        { "text": "Diffusion simple", "is_correct": false },
+        { "text": "Transport actif", "is_correct": true },
+        { "text": "Diffusion facilitée", "is_correct": false },
+        { "text": "Osmose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de jonction cellulaire empêche le passage de substances entre les cellules ?",
+      "difficulty": "Moyen",
+      "explanation": "Les jonctions serrées assurent l'étanchéité entre les cellules épithéliales.",
+      "answers": [
+        { "text": "Desmosomes", "is_correct": false },
+        { "text": "Jonctions serrées", "is_correct": true },
+        { "text": "Plasmodesmes", "is_correct": false },
+        { "text": "Jonctions communicantes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des ribosomes ?",
+      "difficulty": "Facile",
+      "explanation": "Les ribosomes assurent la traduction de l'ARN messager en protéines.",
+      "answers": [
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": true },
+        { "text": "Dégradation des déchets", "is_correct": false },
+        { "text": "Duplication de l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction du noyau ?",
+      "difficulty": "Facile",
+      "explanation": "Le noyau contient l'ADN et contrôle l'expression des gènes.",
+      "answers": [
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Stocker l'information génétique", "is_correct": true },
+        { "text": "Réguler le pH", "is_correct": false },
+        { "text": "Dégrader les protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du peroxysome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le peroxysome dégrade les acides gras et neutralise les radicaux libres.",
+      "answers": [
+        { "text": "Synthèse de l'ATP", "is_correct": false },
+        { "text": "Détoxification cellulaire", "is_correct": true },
+        { "text": "Stockage du calcium", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule constitue la paroi des cellules végétales ?",
+      "difficulty": "Facile",
+      "explanation": "La cellulose est le principal composant structural de la paroi végétale.",
+      "answers": [
+        { "text": "Amidon", "is_correct": false },
+        { "text": "Cellulose", "is_correct": true },
+        { "text": "Glycogène", "is_correct": false },
+        { "text": "Protéine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure maintient la forme de la cellule animale ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytosquelette soutient la cellule, organise le contenu et participe à son mouvement.",
+      "answers": [
+        { "text": "Matrice extracellulaire", "is_correct": false },
+        { "text": "Cytosquelette", "is_correct": true },
+        { "text": "Réticulum endoplasmique", "is_correct": false },
+        { "text": "Appareil de Golgi", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du centrosome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le centrosome organise les microtubules et forme le fuseau mitotique lors de la division.",
+      "answers": [
+        { "text": "Produire des ribosomes", "is_correct": false },
+        { "text": "Organiser les microtubules", "is_correct": true },
+        { "text": "Stocker des nutriments", "is_correct": false },
+        { "text": "Réguler le pH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale différence entre cellule eucaryote et procaryote ?",
+      "difficulty": "Facile",
+      "explanation": "Les eucaryotes possèdent un noyau délimité par une membrane, contrairement aux procaryotes.",
+      "answers": [
+        { "text": "La taille", "is_correct": false },
+        { "text": "La présence d'un noyau", "is_correct": true },
+        { "text": "La présence d'ADN", "is_correct": false },
+        { "text": "La présence d'ARN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ARN messager (ARNm) ?",
+      "difficulty": "Facile",
+      "explanation": "L'ARNm transporte l'information génétique du noyau vers les ribosomes pour la traduction.",
+      "answers": [
+        { "text": "Transporter des acides aminés", "is_correct": false },
+        { "text": "Transporter l'information génétique", "is_correct": true },
+        { "text": "Former le ribosome", "is_correct": false },
+        { "text": "Dégrader les protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est impliqué dans la photosynthèse ?",
+      "difficulty": "Facile",
+      "explanation": "Le chloroplaste contient la chlorophylle et réalise la photosynthèse chez les plantes.",
+      "answers": [
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Chloroplaste", "is_correct": true },
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Noyau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Dans quelle phase du cycle cellulaire l'ADN est-il répliqué ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN est répliqué durant la phase S du cycle cellulaire, avant la mitose.",
+      "answers": [
+        { "text": "Phase G1", "is_correct": false },
+        { "text": "Phase S", "is_correct": true },
+        { "text": "Phase G2", "is_correct": false },
+        { "text": "Phase M", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ARN de transfert (ARNt) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ARNt transporte les acides aminés jusqu'au ribosome pendant la traduction.",
+      "answers": [
+        { "text": "Transporter le glucose", "is_correct": false },
+        { "text": "Transporter les acides aminés", "is_correct": true },
+        { "text": "Copier l'ADN", "is_correct": false },
+        { "text": "Assembler les ribosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du nucléole ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nucléole est le site de synthèse des ARNr et d'assemblage des ribosomes.",
+      "answers": [
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Production des ARNr", "is_correct": true },
+        { "text": "Réparation de l'ADN", "is_correct": false },
+        { "text": "Stockage des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment s'appelle la division cellulaire des cellules sexuelles ?",
+      "difficulty": "Facile",
+      "explanation": "La méiose est la division cellulaire qui réduit le nombre de chromosomes de moitié.",
+      "answers": [
+        { "text": "Mitose", "is_correct": false },
+        { "text": "Méiose", "is_correct": true },
+        { "text": "Cytocinèse", "is_correct": false },
+        { "text": "Duplication", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est responsable de la réplication de l'ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN polymérase catalyse la synthèse du nouveau brin d'ADN.",
+      "answers": [
+        { "text": "ARN polymérase", "is_correct": false },
+        { "text": "ADN polymérase", "is_correct": true },
+        { "text": "Ligase", "is_correct": false },
+        { "text": "Hélicase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des microfilaments d'actine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les microfilaments participent à la contraction musculaire et à la motilité cellulaire.",
+      "answers": [
+        { "text": "Stocker l'ATP", "is_correct": false },
+        {
+          "text": "Permettre la contraction et le mouvement",
+          "is_correct": true
+        },
+        { "text": "Synthétiser les protéines", "is_correct": false },
+        { "text": "Dégrader les déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des microtubules ?",
+      "difficulty": "Moyen",
+      "explanation": "Les microtubules assurent le transport intracellulaire et la séparation des chromosomes.",
+      "answers": [
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Transport intracellulaire et division", "is_correct": true },
+        { "text": "Stockage du calcium", "is_correct": false },
+        { "text": "Réplication de l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale différence entre le réticulum endoplasmique lisse et rugueux ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réticulum rugueux porte des ribosomes et synthétise des protéines, tandis que le lisse synthétise des lipides et détoxifie la cellule.",
+      "answers": [
+        { "text": "Le rugueux synthétise des lipides", "is_correct": false },
+        { "text": "Le rugueux porte des ribosomes", "is_correct": true },
+        { "text": "Le lisse synthétise des protéines", "is_correct": false },
+        { "text": "Le lisse contient l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est impliqué dans la détoxification des substances nocives ?",
+      "difficulty": "Facile",
+      "explanation": "Le réticulum endoplasmique lisse participe à la détoxification, notamment dans les cellules hépatiques.",
+      "answers": [
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Réticulum endoplasmique lisse", "is_correct": true },
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Peroxysome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est spécifique aux cellules végétales ?",
+      "difficulty": "Facile",
+      "explanation": "Les chloroplastes réalisent la photosynthèse, et sont absents des cellules animales.",
+      "answers": [
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Chloroplaste", "is_correct": true },
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Ribosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de cytosquelette est impliqué dans le déplacement des organites ?",
+      "difficulty": "Moyen",
+      "explanation": "Les microtubules servent de rails pour le transport des vésicules et organites grâce à des protéines motrices.",
+      "answers": [
+        { "text": "Microfilaments d'actine", "is_correct": false },
+        { "text": "Microtubules", "is_correct": true },
+        { "text": "Filaments intermédiaires", "is_correct": false },
+        { "text": "Collagène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des filaments intermédiaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Ils assurent la résistance mécanique et la stabilité des cellules.",
+      "answers": [
+        { "text": "Transport intracellulaire", "is_correct": false },
+        { "text": "Résistance mécanique", "is_correct": true },
+        { "text": "Contraction musculaire", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que contient la matrice mitochondriale ?",
+      "difficulty": "Moyen",
+      "explanation": "La matrice contient des enzymes, de l'ADN mitochondrial et des ribosomes spécifiques.",
+      "answers": [
+        { "text": "Des enzymes et de l'ADN mitochondrial", "is_correct": true },
+        { "text": "De l'ARNm", "is_correct": false },
+        { "text": "Du glucose", "is_correct": false },
+        { "text": "Uniquement des ions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cils et flagelles ?",
+      "difficulty": "Facile",
+      "explanation": "Les cils et flagelles assurent le mouvement de la cellule ou de substances à sa surface.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        { "text": "Assurer le mouvement cellulaire", "is_correct": true },
+        { "text": "Stocker l'énergie", "is_correct": false },
+        { "text": "Dégrader des déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que permet la phagocytose ?",
+      "difficulty": "Moyen",
+      "explanation": "C'est un mécanisme d'endocytose qui permet à la cellule d'ingérer de grandes particules ou microorganismes.",
+      "answers": [
+        { "text": "L'excrétion de protéines", "is_correct": false },
+        { "text": "L'ingestion de grosses particules", "is_correct": true },
+        { "text": "La synthèse d'ARN", "is_correct": false },
+        { "text": "La dégradation du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure délimite le noyau du cytoplasme ?",
+      "difficulty": "Facile",
+      "explanation": "L'enveloppe nucléaire, formée de deux membranes, sépare le noyau du cytoplasme.",
+      "answers": [
+        { "text": "Le réticulum", "is_correct": false },
+        { "text": "L'enveloppe nucléaire", "is_correct": true },
+        { "text": "Le cytosquelette", "is_correct": false },
+        { "text": "La membrane plasmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du système endomembranaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Il regroupe plusieurs organites qui coopèrent pour la synthèse, le tri et le transport des protéines et lipides.",
+      "answers": [
+        { "text": "Réplication de l'ADN", "is_correct": false },
+        {
+          "text": "Synthèse et transport des macromolécules",
+          "is_correct": true
+        },
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Dégradation du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que permet la pinocytose ?",
+      "difficulty": "Moyen",
+      "explanation": "C'est une forme d'endocytose permettant l'ingestion de liquide extracellulaire et de petites molécules.",
+      "answers": [
+        { "text": "Ingestion de grosses particules", "is_correct": false },
+        { "text": "Absorption de liquide extracellulaire", "is_correct": true },
+        { "text": "Excrétion de déchets", "is_correct": false },
+        { "text": "Production de lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des jonctions communicantes (gap junctions) ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles permettent le passage direct d'ions et de petites molécules entre cellules animales voisines.",
+      "answers": [
+        { "text": "Rendre la barrière étanche", "is_correct": false },
+        {
+          "text": "Permettre le passage d'ions entre cellules",
+          "is_correct": true
+        },
+        { "text": "Renforcer l'adhésion", "is_correct": false },
+        { "text": "Créer une paroi", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la membrane interne de la mitochondrie ?",
+      "difficulty": "Moyen",
+      "explanation": "Elle contient les enzymes de la chaîne respiratoire et l'ATP synthase.",
+      "answers": [
+        { "text": "Transporter des protéines", "is_correct": false },
+        { "text": "Contenir la chaîne respiratoire", "is_correct": true },
+        { "text": "Former les ribosomes", "is_correct": false },
+        { "text": "Stocker des ions calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que contient le centrosome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le centrosome contient deux centrioles organisés perpendiculairement, essentiels à la division cellulaire.",
+      "answers": [
+        { "text": "Deux lysosomes", "is_correct": false },
+        { "text": "Deux centrioles", "is_correct": true },
+        { "text": "De l'ADN mitochondrial", "is_correct": false },
+        { "text": "Des ribosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule compose principalement la matrice extracellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La matrice extracellulaire contient surtout du collagène, des glycoprotéines et des polysaccharides.",
+      "answers": [
+        { "text": "Des lipides", "is_correct": false },
+        { "text": "Du collagène et des glycoprotéines", "is_correct": true },
+        { "text": "Uniquement des sucres simples", "is_correct": false },
+        { "text": "Des acides nucléiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite joue un rôle dans la formation des vésicules de sécrétion ?",
+      "difficulty": "Facile",
+      "explanation": "L'appareil de Golgi concentre et emballe les protéines dans des vésicules destinées à l'exocytose.",
+      "answers": [
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Appareil de Golgi", "is_correct": true },
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Cytosquelette", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du squelette nucléaire (lamina) ?",
+      "difficulty": "Moyen",
+      "explanation": "La lamina nucléaire soutient la membrane du noyau et ancre la chromatine.",
+      "answers": [
+        { "text": "Synthèse de l'ADN", "is_correct": false },
+        { "text": "Maintenir la structure du noyau", "is_correct": true },
+        { "text": "Transport d'ions", "is_correct": false },
+        { "text": "Dégradation des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment appelle-t-on la séparation du cytoplasme à la fin de la mitose ?",
+      "difficulty": "Facile",
+      "explanation": "La cytocinèse est la division du cytoplasme entre les deux cellules filles.",
+      "answers": [
+        { "text": "Télophase", "is_correct": false },
+        { "text": "Cytocinèse", "is_correct": true },
+        { "text": "Anaphase", "is_correct": false },
+        { "text": "Prophase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure permet aux vésicules de se déplacer dans la cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "Les protéines motrices, comme la kinésine et la dynéine, se déplacent le long des microtubules.",
+      "answers": [
+        { "text": "Filaments intermédiaires", "is_correct": false },
+        { "text": "Microtubules et protéines motrices", "is_correct": true },
+        { "text": "Ribosomes", "is_correct": false },
+        { "text": "Actine seule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme permet la dégradation du peroxyde d'hydrogène dans le peroxysome ?",
+      "difficulty": "Difficile",
+      "explanation": "La catalase transforme le peroxyde d'hydrogène en eau et oxygène, évitant des dommages cellulaires.",
+      "answers": [
+        { "text": "Oxydase", "is_correct": false },
+        { "text": "Catalase", "is_correct": true },
+        { "text": "Hydrolase", "is_correct": false },
+        { "text": "ATP synthase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des enzymes lysosomales ?",
+      "difficulty": "Facile",
+      "explanation": "Elles dégradent les macromolécules et organites endommagés dans un environnement acide.",
+      "answers": [
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Dégrader des macromolécules", "is_correct": true },
+        { "text": "Transporter des ions", "is_correct": false },
+        { "text": "Neutraliser les radicaux libres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la pompe Na⁺/K⁺ ATPase ?",
+      "difficulty": "Moyen",
+      "explanation": "Elle maintient le gradient ionique en expulsant 3 Na⁺ et en entrant 2 K⁺ grâce à l'ATP.",
+      "answers": [
+        { "text": "Transport passif du sodium", "is_correct": false },
+        { "text": "Transport actif de Na⁺ et K⁺", "is_correct": true },
+        { "text": "Diffusion de l'eau", "is_correct": false },
+        { "text": "Synthèse d'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité de l'ADN mitochondrial ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADN mitochondrial est circulaire et hérité uniquement de la mère.",
+      "answers": [
+        { "text": "Il est linéaire", "is_correct": false },
+        { "text": "Il est circulaire et maternel", "is_correct": true },
+        { "text": "Il est identique à l'ADN nucléaire", "is_correct": false },
+        { "text": "Il ne contient pas de gènes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment appelle-t-on l'état diffus de l'ADN dans le noyau ?",
+      "difficulty": "Facile",
+      "explanation": "La chromatine est l'état non condensé de l'ADN, permettant la transcription.",
+      "answers": [
+        { "text": "Chromosome", "is_correct": false },
+        { "text": "Chromatine", "is_correct": true },
+        { "text": "Centriole", "is_correct": false },
+        { "text": "Nucléosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule ne contient pas de noyau chez l'humain ?",
+      "difficulty": "Facile",
+      "explanation": "Les globules rouges matures perdent leur noyau pour maximiser l'espace pour l'hémoglobine.",
+      "answers": [
+        { "text": "Les neurones", "is_correct": false },
+        { "text": "Les globules rouges", "is_correct": true },
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les cellules musculaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est responsable de la production d'ATP dans la cellule eucaryote ?",
+      "difficulty": "Facile",
+      "explanation": "Les mitochondries sont les centrales énergétiques de la cellule où se déroule la respiration cellulaire.",
+      "answers": [
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Mitochondrie", "is_correct": true },
+        { "text": "Peroxysome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal de la membrane plasmique ?",
+      "difficulty": "Facile",
+      "explanation": "Elle contrôle les échanges entre le milieu intracellulaire et extracellulaire.",
+      "answers": [
+        { "text": "Stocker l'ADN", "is_correct": false },
+        { "text": "Contrôler les échanges cellulaires", "is_correct": true },
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        { "text": "Produire de l'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule forme la bicouche de la membrane plasmique ?",
+      "difficulty": "Facile",
+      "explanation": "Les phospholipides s'organisent en bicouche, constituant la base de la membrane.",
+      "answers": [
+        { "text": "Protéines", "is_correct": false },
+        { "text": "Phospholipides", "is_correct": true },
+        { "text": "Sucres", "is_correct": false },
+        { "text": "Acides nucléiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite joue un rôle majeur dans la synthèse des protéines ?",
+      "difficulty": "Facile",
+      "explanation": "Les ribosomes assemblent les acides aminés pour former des protéines.",
+      "answers": [
+        { "text": "Ribosome", "is_correct": true },
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Peroxysome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Où se trouve le matériel génétique dans une cellule eucaryote ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADN est contenu dans le noyau, sous forme de chromatine ou de chromosomes.",
+      "answers": [
+        { "text": "Dans le cytoplasme", "is_correct": false },
+        { "text": "Dans le noyau", "is_correct": true },
+        { "text": "Dans les mitochondries uniquement", "is_correct": false },
+        { "text": "Dans l'appareil de Golgi", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que contient le nucléole ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nucléole contient les gènes codant pour l'ARN ribosomique et assemble les sous-unités ribosomales.",
+      "answers": [
+        { "text": "Des enzymes digestives", "is_correct": false },
+        { "text": "Des gènes d'ARN ribosomique", "is_correct": true },
+        { "text": "Des lipides", "is_correct": false },
+        { "text": "Des ions calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du cytosquelette ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytosquelette soutient la cellule et permet le mouvement et le transport intracellulaire.",
+      "answers": [
+        { "text": "Synthèse de l'ADN", "is_correct": false },
+        { "text": "Soutien et mouvement cellulaires", "is_correct": true },
+        { "text": "Stockage de protéines", "is_correct": false },
+        { "text": "Production d'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du peroxysome ?",
+      "difficulty": "Moyen",
+      "explanation": "Il contient des enzymes qui oxydent des molécules et dégradent le peroxyde d'hydrogène.",
+      "answers": [
+        { "text": "Synthétiser l'ATP", "is_correct": false },
+        { "text": "Détoxifier la cellule", "is_correct": true },
+        { "text": "Fabriquer des ribosomes", "is_correct": false },
+        { "text": "Réguler la mitose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure relie les cellules entre elles dans un tissu épithélial ?",
+      "difficulty": "Moyen",
+      "explanation": "Les jonctions serrées et adhérentes maintiennent la cohésion des cellules épithéliales.",
+      "answers": [
+        { "text": "Les plasmodesmes", "is_correct": false },
+        { "text": "Les jonctions serrées", "is_correct": true },
+        { "text": "Les cils", "is_correct": false },
+        { "text": "Les lysosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte l'énergie dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "L'ATP (adénosine triphosphate) est la principale monnaie énergétique cellulaire.",
+      "answers": [
+        { "text": "ADN", "is_correct": false },
+        { "text": "ARN", "is_correct": false },
+        { "text": "ATP", "is_correct": true },
+        { "text": "NADH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus permet à la cellule d'expulser des substances vers l'extérieur ?",
+      "difficulty": "Moyen",
+      "explanation": "L'exocytose permet la libération de substances contenues dans des vésicules vers l'extérieur de la cellule.",
+      "answers": [
+        { "text": "Endocytose", "is_correct": false },
+        { "text": "Exocytose", "is_correct": true },
+        { "text": "Diffusion facilitée", "is_correct": false },
+        { "text": "Phagocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que se passe-t-il pendant la métaphase ?",
+      "difficulty": "Moyen",
+      "explanation": "Les chromosomes s'alignent au centre de la cellule sur la plaque équatoriale.",
+      "answers": [
+        { "text": "Les chromosomes se condensent", "is_correct": false },
+        { "text": "Les chromosomes s'alignent au centre", "is_correct": true },
+        { "text": "Les chromatides se séparent", "is_correct": false },
+        { "text": "La membrane nucléaire se reforme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite assure la dégradation des déchets cellulaires ?",
+      "difficulty": "Facile",
+      "explanation": "Les lysosomes contiennent des enzymes capables de dégrader les macromolécules et organites usés.",
+      "answers": [
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Lysosome", "is_correct": true },
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Réticulum endoplasmique lisse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment s'appelle l'ensemble du contenu interne de la cellule, hors noyau ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytoplasme comprend le cytosol et les organites (sauf le noyau).",
+      "answers": [
+        { "text": "Le nucléoplasme", "is_correct": false },
+        { "text": "Le cytoplasme", "is_correct": true },
+        { "text": "La matrice extracellulaire", "is_correct": false },
+        { "text": "La chromatine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des microfilaments d'actine ?",
+      "difficulty": "Moyen",
+      "explanation": "Ils participent au mouvement cellulaire, à la contraction et au maintien de la forme.",
+      "answers": [
+        { "text": "Transport d'ions", "is_correct": false },
+        { "text": "Contraction et mouvement cellulaire", "is_correct": true },
+        { "text": "Stockage d'énergie", "is_correct": false },
+        { "text": "Soutien du noyau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite modifie et trie les protéines avant leur sécrétion ?",
+      "difficulty": "Moyen",
+      "explanation": "L'appareil de Golgi reçoit les protéines du réticulum rugueux et les modifie avant exocytose.",
+      "answers": [
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Appareil de Golgi", "is_correct": true },
+        { "text": "Peroxysome", "is_correct": false },
+        { "text": "Cytosquelette", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure contrôle les échanges entre le noyau et le cytoplasme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les pores nucléaires permettent le passage sélectif de molécules entre noyau et cytoplasme.",
+      "answers": [
+        { "text": "Les jonctions serrées", "is_correct": false },
+        { "text": "Les pores nucléaires", "is_correct": true },
+        { "text": "Les ribosomes", "is_correct": false },
+        { "text": "Les microtubules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel phénomène permet la diffusion libre de l'eau à travers la membrane ?",
+      "difficulty": "Facile",
+      "explanation": "L'osmose est le mouvement passif de l'eau à travers une membrane semi-perméable.",
+      "answers": [
+        { "text": "Endocytose", "is_correct": false },
+        { "text": "Osmose", "is_correct": true },
+        { "text": "Transport actif", "is_correct": false },
+        { "text": "Phagocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule stabilise la membrane plasmique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cholestérol s'insère entre les phospholipides pour réguler la fluidité membranaire.",
+      "answers": [
+        { "text": "Le glucose", "is_correct": false },
+        { "text": "Le cholestérol", "is_correct": true },
+        { "text": "L'ADN", "is_correct": false },
+        { "text": "L'hémoglobine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cellulaire est visible uniquement lors de la division cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les chromosomes se condensent et deviennent visibles à la mitose.",
+      "answers": [
+        { "text": "La chromatine", "is_correct": false },
+        { "text": "Les chromosomes", "is_correct": true },
+        { "text": "Les ribosomes", "is_correct": false },
+        { "text": "Les pores nucléaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale du réticulum endoplasmique rugueux ?",
+      "difficulty": "Facile",
+      "explanation": "Il synthétise les protéines grâce aux ribosomes fixés à sa surface.",
+      "answers": [
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": true },
+        { "text": "Stockage du calcium", "is_correct": false },
+        { "text": "Dégradation des déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de transport nécessite de l'énergie (ATP) ?",
+      "difficulty": "Facile",
+      "explanation": "Le transport actif déplace les molécules contre leur gradient de concentration en utilisant de l'énergie.",
+      "answers": [
+        { "text": "Diffusion simple", "is_correct": false },
+        { "text": "Transport actif", "is_correct": true },
+        { "text": "Osmose", "is_correct": false },
+        { "text": "Diffusion facilitée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des mitochondries dans les cellules musculaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles produisent de l'ATP nécessaire à la contraction musculaire.",
+      "answers": [
+        { "text": "Stocker le calcium", "is_correct": false },
+        { "text": "Produire de l'ATP", "is_correct": true },
+        { "text": "Fabriquer des protéines", "is_correct": false },
+        { "text": "Synthétiser des lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle étape de la mitose suit la prophase ?",
+      "difficulty": "Facile",
+      "explanation": "Après la prophase, les chromosomes s'alignent sur la plaque équatoriale durant la métaphase.",
+      "answers": [
+        { "text": "Télophase", "is_correct": false },
+        { "text": "Métaphase", "is_correct": true },
+        { "text": "Anaphase", "is_correct": false },
+        { "text": "Cytocinèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du cytosol dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "Le cytosol est le fluide dans lequel baignent les organites, permettant la diffusion des molécules et réactions métaboliques.",
+      "answers": [
+        { "text": "Transport de l'oxygène", "is_correct": false },
+        { "text": "Support des réactions métaboliques", "is_correct": true },
+        { "text": "Stockage du calcium", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est directement produite par la glycolyse ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycolyse dégrade le glucose en pyruvate dans le cytoplasme.",
+      "answers": [
+        { "text": "Acétyl-CoA", "is_correct": false },
+        { "text": "Pyruvate", "is_correct": true },
+        { "text": "CO₂", "is_correct": false },
+        { "text": "Glucose-6-phosphate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que devient le pyruvate en absence d'oxygène dans une cellule musculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "En anaérobiose, le pyruvate est transformé en lactate pour régénérer le NAD⁺.",
+      "answers": [
+        { "text": "Acétyl-CoA", "is_correct": false },
+        { "text": "Lactate", "is_correct": true },
+        { "text": "Éthanol", "is_correct": false },
+        { "text": "CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure sépare les cellules végétales entre elles ?",
+      "difficulty": "Facile",
+      "explanation": "La paroi pectocellulosique entoure la membrane plasmique des cellules végétales.",
+      "answers": [
+        { "text": "Membrane plasmique", "is_correct": false },
+        { "text": "Paroi cellulosique", "is_correct": true },
+        { "text": "Cytosquelette", "is_correct": false },
+        { "text": "Matrice extracellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du nucléoplasme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nucléoplasme est le milieu interne du noyau où baignent la chromatine et le nucléole.",
+      "answers": [
+        { "text": "Support du cytosquelette", "is_correct": false },
+        { "text": "Milieu interne du noyau", "is_correct": true },
+        { "text": "Stockage de l'ATP", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite est impliqué dans la synthèse des lipides ?",
+      "difficulty": "Facile",
+      "explanation": "Le réticulum endoplasmique lisse est spécialisé dans la synthèse lipidique et la détoxification.",
+      "answers": [
+        { "text": "Appareil de Golgi", "is_correct": false },
+        { "text": "Réticulum endoplasmique lisse", "is_correct": true },
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Lysosome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que désigne la notion d'homéostasie cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'homéostasie est la capacité de la cellule à maintenir son équilibre interne malgré les variations extérieures.",
+      "answers": [
+        { "text": "L'adaptation au stress", "is_correct": false },
+        { "text": "Le maintien de l'équilibre interne", "is_correct": true },
+        { "text": "La division cellulaire", "is_correct": false },
+        { "text": "L'accumulation de nutriments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que se passe-t-il pendant la télophase ?",
+      "difficulty": "Facile",
+      "explanation": "La membrane nucléaire se reforme autour des lots de chromosomes et la cellule se prépare à la cytocinèse.",
+      "answers": [
+        { "text": "Les chromosomes s'alignent", "is_correct": false },
+        { "text": "Les noyaux se reforment", "is_correct": true },
+        { "text": "Les chromatides se séparent", "is_correct": false },
+        { "text": "La cellule se dédouble", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des histones dans le noyau ?",
+      "difficulty": "Moyen",
+      "explanation": "Les histones sont des protéines autour desquelles s'enroule l'ADN pour former la chromatine.",
+      "answers": [
+        { "text": "Stabiliser la membrane", "is_correct": false },
+        { "text": "Compacter l'ADN", "is_correct": true },
+        { "text": "Synthétiser les protéines", "is_correct": false },
+        { "text": "Transférer l'ARN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que signifie le terme eucaryote ?",
+      "difficulty": "Facile",
+      "explanation": "Les eucaryotes sont des organismes dont les cellules possèdent un noyau délimité par une membrane.",
+      "answers": [
+        { "text": "Cellule sans noyau", "is_correct": false },
+        { "text": "Cellule avec noyau", "is_correct": true },
+        { "text": "Organisme unicellulaire", "is_correct": false },
+        { "text": "Cellule procaryotique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Où se déroule la chaîne respiratoire ?",
+      "difficulty": "Moyen",
+      "explanation": "La chaîne respiratoire se situe dans la membrane interne des mitochondries.",
+      "answers": [
+        { "text": "Cytoplasme", "is_correct": false },
+        { "text": "Membrane interne mitochondriale", "is_correct": true },
+        { "text": "Réticulum endoplasmique", "is_correct": false },
+        { "text": "Noyau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de liaison unit les bases complémentaires de l'ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bases sont reliées par des liaisons hydrogène : deux pour A=T et trois pour G≡C.",
+      "answers": [
+        { "text": "Liaisons covalentes", "is_correct": false },
+        { "text": "Liaisons hydrogène", "is_correct": true },
+        { "text": "Ponts disulfure", "is_correct": false },
+        { "text": "Liaisons ioniques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des centrioles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les centrioles participent à la formation du fuseau mitotique pendant la division cellulaire.",
+      "answers": [
+        { "text": "Synthèse de l'ADN", "is_correct": false },
+        { "text": "Formation du fuseau mitotique", "is_correct": true },
+        { "text": "Production d'énergie", "is_correct": false },
+        { "text": "Stockage de protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Comment appelle-t-on la mort programmée d'une cellule ?",
+      "difficulty": "Facile",
+      "explanation": "L'apoptose est un processus naturel de destruction contrôlée des cellules inutiles ou endommagées.",
+      "answers": [
+        { "text": "Autolyse", "is_correct": false },
+        { "text": "Apoptose", "is_correct": true },
+        { "text": "Nécrose", "is_correct": false },
+        { "text": "Phagocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du complexe de Golgi dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "Il modifie, trie et expédie les protéines vers leur destination finale.",
+      "answers": [
+        { "text": "Stocker le calcium", "is_correct": false },
+        { "text": "Modifier et trier les protéines", "is_correct": true },
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Produire de l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du centrosome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le centrosome organise les microtubules et joue un rôle clé lors de la mitose.",
+      "answers": [
+        { "text": "Synthèse des protéines", "is_correct": false },
+        { "text": "Organisation des microtubules", "is_correct": true },
+        { "text": "Stockage du glucose", "is_correct": false },
+        { "text": "Production d'ARN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de transport ne nécessite pas d'énergie ?",
+      "difficulty": "Facile",
+      "explanation": "Le transport passif déplace les molécules selon leur gradient de concentration sans ATP.",
+      "answers": [
+        { "text": "Transport actif", "is_correct": false },
+        { "text": "Transport passif", "is_correct": true },
+        { "text": "Pompe ionique", "is_correct": false },
+        { "text": "Endocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que se passe-t-il pendant l'anaphase ?",
+      "difficulty": "Moyen",
+      "explanation": "Les chromatides sœurs se séparent et migrent vers les pôles opposés de la cellule.",
+      "answers": [
+        { "text": "Les chromosomes se condensent", "is_correct": false },
+        { "text": "Les chromatides se séparent", "is_correct": true },
+        { "text": "La membrane nucléaire disparaît", "is_correct": false },
+        { "text": "La cytocinèse commence", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des mitochondries dans la respiration cellulaire ?",
+      "difficulty": "Facile",
+      "explanation": "Elles produisent l'énergie (ATP) à partir du glucose et de l'oxygène.",
+      "answers": [
+        { "text": "Stocker du CO₂", "is_correct": false },
+        { "text": "Produire de l'ATP", "is_correct": true },
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Réguler la température", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des microvillosités ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles augmentent la surface d'échange pour l'absorption, notamment dans l'intestin.",
+      "answers": [
+        { "text": "Déplacement de la cellule", "is_correct": false },
+        { "text": "Augmentation de la surface d'échange", "is_correct": true },
+        { "text": "Détoxification", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du fuseau mitotique ?",
+      "difficulty": "Moyen",
+      "explanation": "Il permet la séparation correcte des chromosomes pendant la mitose.",
+      "answers": [
+        { "text": "Condensation de l'ADN", "is_correct": false },
+        { "text": "Séparation des chromosomes", "is_correct": true },
+        { "text": "Duplication de l'ADN", "is_correct": false },
+        { "text": "Régulation du cytoplasme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des protéines membranaires intégrales ?",
+      "difficulty": "Moyen",
+      "explanation": "Elles participent au transport, à la signalisation et à la reconnaissance cellulaire.",
+      "answers": [
+        { "text": "Synthèse des lipides", "is_correct": false },
+        { "text": "Transport et signalisation", "is_correct": true },
+        { "text": "Stockage d'énergie", "is_correct": false },
+        { "text": "Protection mécanique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du noyau dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "Le noyau contient l'ADN et contrôle les activités cellulaires.",
+      "answers": [
+        { "text": "Produire de l'énergie", "is_correct": false },
+        { "text": "Contrôler les activités cellulaires", "is_correct": true },
+        { "text": "Réguler la température", "is_correct": false },
+        { "text": "Stocker des lipides", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est le principal constituant du cytosquelette ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cytosquelette est formé de protéines comme l'actine et la tubuline.",
+      "answers": [
+        { "text": "Des acides nucléiques", "is_correct": false },
+        { "text": "Des protéines", "is_correct": true },
+        { "text": "Des lipides", "is_correct": false },
+        { "text": "Des sucres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de membranes composent l'enveloppe nucléaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'enveloppe nucléaire est formée de deux membranes concentriques avec un espace périnucléaire entre elles.",
+      "answers": [
+        { "text": "Une membrane", "is_correct": false },
+        { "text": "Deux membranes", "is_correct": true },
+        { "text": "Trois membranes", "is_correct": false },
+        { "text": "Quatre membranes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des protéines chaperonnes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les protéines chaperonnes aident au repliement correct des autres protéines et préviennent leur agrégation.",
+      "answers": [
+        { "text": "Dégrader les protéines", "is_correct": false },
+        { "text": "Aider au repliement des protéines", "is_correct": true },
+        { "text": "Transporter l'ADN", "is_correct": false },
+        { "text": "Synthétiser l'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cellulaire possède son propre ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "Les mitochondries et les chloroplastes possèdent leur propre ADN circulaire, hérité de leur origine endosymbiotique.",
+      "answers": [
+        { "text": "Le réticulum endoplasmique", "is_correct": false },
+        { "text": "Les mitochondries", "is_correct": true },
+        { "text": "L'appareil de Golgi", "is_correct": false },
+        { "text": "Les lysosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la vacuole dans une cellule végétale ?",
+      "difficulty": "Facile",
+      "explanation": "La vacuole est un grand organite de stockage contenant de l'eau, des ions et des déchets, maintenant la turgescence.",
+      "answers": [
+        { "text": "Un organite de synthèse", "is_correct": false },
+        { "text": "Un organite de stockage", "is_correct": true },
+        { "text": "Un centre de contrôle", "is_correct": false },
+        { "text": "Une structure énergétique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du signal peptidique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signal peptidique est une séquence d'acides aminés qui dirige les protéines vers le réticulum endoplasmique.",
+      "answers": [
+        { "text": "Dégrader les protéines", "is_correct": false },
+        { "text": "Diriger les protéines vers le RE", "is_correct": true },
+        { "text": "Activer les enzymes", "is_correct": false },
+        { "text": "Former des liaisons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de phases compose l'interphase ?",
+      "difficulty": "Moyen",
+      "explanation": "L'interphase comprend trois phases : G1 (croissance), S (synthèse d'ADN) et G2 (préparation à la mitose).",
+      "answers": [
+        { "text": "Deux phases", "is_correct": false },
+        { "text": "Trois phases", "is_correct": true },
+        { "text": "Quatre phases", "is_correct": false },
+        { "text": "Cinq phases", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du complexe de pore nucléaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Il régule les échanges bidirectionnels de molécules entre le noyau et le cytoplasme de manière sélective.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        {
+          "text": "Réguler les échanges nucléo-cytoplasmiques",
+          "is_correct": true
+        },
+        { "text": "Dupliquer l'ADN", "is_correct": false },
+        { "text": "Produire de l'énergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des desmosomes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les desmosomes assurent l'adhésion mécanique entre cellules voisines, particulièrement dans les tissus soumis à des contraintes.",
+      "answers": [
+        {
+          "text": "Permettre la communication cellulaire",
+          "is_correct": false
+        },
+        { "text": "Assurer l'adhésion cellulaire", "is_correct": true },
+        { "text": "Transporter des nutriments", "is_correct": false },
+        { "text": "Empêcher le passage de molécules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organite contient des oxydases produisant du peroxyde d'hydrogène ?",
+      "difficulty": "Moyen",
+      "explanation": "Les peroxysomes contiennent des oxydases et la catalase qui dégrade le H₂O₂ toxique.",
+      "answers": [
+        { "text": "Lysosome", "is_correct": false },
+        { "text": "Peroxysome", "is_correct": true },
+        { "text": "Mitochondrie", "is_correct": false },
+        { "text": "Appareil de Golgi", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la durée approximative du cycle cellulaire humain ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cycle cellulaire dure environ 24 heures chez les cellules humaines en division active.",
+      "answers": [
+        { "text": "6 heures", "is_correct": false },
+        { "text": "24 heures", "is_correct": true },
+        { "text": "48 heures", "is_correct": false },
+        { "text": "72 heures", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du coenzyme A dans la mitochondrie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coenzyme A transporte les groupements acétyl dans le cycle de Krebs, participant au métabolisme énergétique.",
+      "answers": [
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Transporter les groupements acétyl", "is_correct": true },
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Dégrader les protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de molécules d'ATP sont produites par la phosphorylation oxydative ?",
+      "difficulty": "Difficile",
+      "explanation": "La phosphorylation oxydative produit environ 32-34 molécules d'ATP par molécule de glucose.",
+      "answers": [
+        { "text": "2 ATP", "is_correct": false },
+        { "text": "32-34 ATP", "is_correct": true },
+        { "text": "10 ATP", "is_correct": false },
+        { "text": "50 ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle protéine motrice se déplace vers l'extrémité plus des microtubules ?",
+      "difficulty": "Difficile",
+      "explanation": "La kinésine se déplace vers l'extrémité plus (périphérie cellulaire) des microtubules.",
+      "answers": [
+        { "text": "Dynéine", "is_correct": false },
+        { "text": "Kinésine", "is_correct": true },
+        { "text": "Myosine", "is_correct": false },
+        { "text": "Actine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du réticulum sarcoplasmique dans les cellules musculaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Il stocke et libère le calcium nécessaire à la contraction musculaire.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        { "text": "Stocker et libérer le calcium", "is_correct": true },
+        { "text": "Produire de l'ATP", "is_correct": false },
+        { "text": "Dégrader les déchets", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure permet la communication directe entre cellules végétales ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plasmodesmes traversent la paroi cellulaire et relient le cytoplasme de cellules végétales adjacentes.",
+      "answers": [
+        { "text": "Gap junctions", "is_correct": false },
+        { "text": "Plasmodesmes", "is_correct": true },
+        { "text": "Desmosomes", "is_correct": false },
+        { "text": "Jonctions serrées", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de divisions cellulaires se produisent lors de la méiose ?",
+      "difficulty": "Facile",
+      "explanation": "La méiose comprend deux divisions successives (méiose I et II) produisant quatre cellules haploïdes.",
+      "answers": [
+        { "text": "Une division", "is_correct": false },
+        { "text": "Deux divisions", "is_correct": true },
+        { "text": "Trois divisions", "is_correct": false },
+        { "text": "Quatre divisions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ubiquitine dans la cellule ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ubiquitine marque les protéines défectueuses pour leur dégradation par le protéasome.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        {
+          "text": "Marquer les protéines pour dégradation",
+          "is_correct": true
+        },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Répliquer l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des intégrines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les intégrines sont des protéines transmembranaires qui lient la cellule à la matrice extracellulaire.",
+      "answers": [
+        { "text": "Transporter des ions", "is_correct": false },
+        { "text": "Lier la cellule à la matrice", "is_correct": true },
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Réguler la transcription", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un nucléosome ?",
+      "difficulty": "Difficile",
+      "explanation": "Un nucléosome est l'unité de base de la chromatine, formé d'ADN enroulé autour d'un octamère d'histones.",
+      "answers": [
+        { "text": "Un fragment d'ARN", "is_correct": false },
+        { "text": "ADN enroulé autour d'histones", "is_correct": true },
+        { "text": "Une protéine du noyau", "is_correct": false },
+        { "text": "Un organite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle phase du cycle cellulaire vérifie l'intégrité de l'ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "Les points de contrôle G1/S et G2/M vérifient l'intégrité de l'ADN avant la réplication et la mitose.",
+      "answers": [
+        { "text": "Phase M uniquement", "is_correct": false },
+        { "text": "Points de contrôle G1 et G2", "is_correct": true },
+        { "text": "Phase S uniquement", "is_correct": false },
+        { "text": "Cytocinèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la télomérase ?",
+      "difficulty": "Difficile",
+      "explanation": "La télomérase allonge les télomères aux extrémités des chromosomes, compensant leur raccourcissement lors de la réplication.",
+      "answers": [
+        { "text": "Réparer l'ADN endommagé", "is_correct": false },
+        { "text": "Allonger les télomères", "is_correct": true },
+        { "text": "Synthétiser les protéines", "is_correct": false },
+        { "text": "Dégrader l'ARN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure assure la cohésion des chromatides sœurs ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cohésines sont des protéines qui maintiennent les chromatides sœurs ensemble jusqu'à l'anaphase.",
+      "answers": [
+        { "text": "Histones", "is_correct": false },
+        { "text": "Cohésines", "is_correct": true },
+        { "text": "Kinésines", "is_correct": false },
+        { "text": "Tubulines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de membranes possède une mitochondrie ?",
+      "difficulty": "Facile",
+      "explanation": "La mitochondrie possède deux membranes : une membrane externe lisse et une membrane interne repliée en crêtes.",
+      "answers": [
+        { "text": "Une membrane", "is_correct": false },
+        { "text": "Deux membranes", "is_correct": true },
+        { "text": "Trois membranes", "is_correct": false },
+        { "text": "Quatre membranes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ARN polymérase ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ARN polymérase synthétise l'ARN à partir de la matrice d'ADN lors de la transcription.",
+      "answers": [
+        { "text": "Répliquer l'ADN", "is_correct": false },
+        { "text": "Synthétiser l'ARN", "is_correct": true },
+        { "text": "Dégrader les protéines", "is_correct": false },
+        { "text": "Transporter les acides aminés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du récepteur de mannose-6-phosphate ?",
+      "difficulty": "Difficile",
+      "explanation": "Ce récepteur dirige les enzymes hydrolytiques de l'appareil de Golgi vers les lysosomes.",
+      "answers": [
+        { "text": "Transporter le glucose", "is_correct": false },
+        {
+          "text": "Diriger les enzymes vers les lysosomes",
+          "is_correct": true
+        },
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Activer la transcription", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'autophagie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'autophagie est un processus de dégradation des composants cellulaires par les lysosomes pour le recyclage.",
+      "answers": [
+        { "text": "Division cellulaire", "is_correct": false },
+        { "text": "Auto-dégradation cellulaire", "is_correct": true },
+        { "text": "Synthèse protéique", "is_correct": false },
+        { "text": "Transport actif", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de paires de chromosomes possède une cellule humaine ?",
+      "difficulty": "Facile",
+      "explanation": "Une cellule humaine diploïde contient 23 paires de chromosomes, soit 46 chromosomes au total.",
+      "answers": [
+        { "text": "22 paires", "is_correct": false },
+        { "text": "23 paires", "is_correct": true },
+        { "text": "24 paires", "is_correct": false },
+        { "text": "46 paires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lamines nucléaires ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lamines forment un réseau de filaments intermédiaires qui soutient la membrane nucléaire et organise la chromatine.",
+      "answers": [
+        { "text": "Transporter l'ARN", "is_correct": false },
+        { "text": "Soutenir la membrane nucléaire", "is_correct": true },
+        { "text": "Répliquer l'ADN", "is_correct": false },
+        { "text": "Synthétiser des protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du corps basal ?",
+      "difficulty": "Moyen",
+      "explanation": "Le corps basal est une structure dérivée du centriole qui ancre les cils et flagelles à la membrane plasmique.",
+      "answers": [
+        { "text": "Synthétiser l'ATP", "is_correct": false },
+        { "text": "Ancrer les cils et flagelles", "is_correct": true },
+        { "text": "Organiser les chromosomes", "is_correct": false },
+        { "text": "Produire des ribosomes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel transporteur permet l'entrée du glucose dans la cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "Les transporteurs GLUT (glucose transporters) facilitent l'entrée du glucose selon son gradient de concentration.",
+      "answers": [
+        { "text": "Pompe Na⁺/K⁺", "is_correct": false },
+        { "text": "Transporteur GLUT", "is_correct": true },
+        { "text": "Canal calcique", "is_correct": false },
+        { "text": "Aquaporine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la glycocalyx ?",
+      "difficulty": "Difficile",
+      "explanation": "Le glycocalyx est une couche de glucides à la surface cellulaire impliquée dans la reconnaissance et l'adhésion cellulaires.",
+      "answers": [
+        { "text": "Un organite", "is_correct": false },
+        { "text": "Une couche de glucides membranaires", "is_correct": true },
+        { "text": "Une protéine du cytosquelette", "is_correct": false },
+        { "text": "Un lipide membranaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la clathrine ?",
+      "difficulty": "Difficile",
+      "explanation": "La clathrine forme un manteau protéique autour des vésicules lors de l'endocytose médiée par récepteur.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        { "text": "Former des vésicules d'endocytose", "is_correct": true },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Répliquer l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure caractérise les cellules procaryotes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les procaryotes possèdent un nucléoïde (région contenant l'ADN) sans membrane nucléaire et pas d'organites membraneux.",
+      "answers": [
+        { "text": "Un noyau délimité", "is_correct": false },
+        { "text": "Un nucléoïde sans membrane", "is_correct": true },
+        { "text": "De nombreux organites", "is_correct": false },
+        { "text": "Un cytosquelette complexe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le pH optimal des enzymes lysosomales ?",
+      "difficulty": "Moyen",
+      "explanation": "Les enzymes lysosomales fonctionnent optimalement en milieu acide (pH 4,5-5).",
+      "answers": [
+        { "text": "pH neutre (7)", "is_correct": false },
+        { "text": "pH acide (5)", "is_correct": true },
+        { "text": "pH basique (9)", "is_correct": false },
+        { "text": "pH très acide (2)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de la dynéine ?",
+      "difficulty": "Difficile",
+      "explanation": "La dynéine est une protéine motrice qui se déplace vers l'extrémité moins des microtubules (vers le centre cellulaire).",
+      "answers": [
+        { "text": "Synthétiser l'ATP", "is_correct": false },
+        { "text": "Transport vers le centre cellulaire", "is_correct": true },
+        { "text": "Répliquer l'ADN", "is_correct": false },
+        { "text": "Former la membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de sous-unités compose un ribosome eucaryote ?",
+      "difficulty": "Moyen",
+      "explanation": "Un ribosome eucaryote est formé de deux sous-unités : 60S (grande) et 40S (petite).",
+      "answers": [
+        { "text": "Une sous-unité", "is_correct": false },
+        { "text": "Deux sous-unités", "is_correct": true },
+        { "text": "Trois sous-unités", "is_correct": false },
+        { "text": "Quatre sous-unités", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus permet le brassage génétique lors de la méiose ?",
+      "difficulty": "Moyen",
+      "explanation": "Le crossing-over (ou enjambement) durant la prophase I permet l'échange de segments chromosomiques entre chromatides homologues.",
+      "answers": [
+        { "text": "La réplication", "is_correct": false },
+        { "text": "Le crossing-over", "is_correct": true },
+        { "text": "La transcription", "is_correct": false },
+        { "text": "La cytocinèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme répare les cassures double-brin de l'ADN ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ADN ligase répare les cassures en formant des liaisons phosphodiester entre les nucléotides.",
+      "answers": [
+        { "text": "ADN polymérase", "is_correct": false },
+        { "text": "ADN ligase", "is_correct": true },
+        { "text": "Hélicase", "is_correct": false },
+        { "text": "Primase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la matrice mitochondriale ?",
+      "difficulty": "Moyen",
+      "explanation": "La matrice est l'espace interne de la mitochondrie contenant les enzymes du cycle de Krebs, l'ADN et les ribosomes mitochondriaux.",
+      "answers": [
+        { "text": "L'espace entre les membranes", "is_correct": false },
+        { "text": "L'espace interne de la mitochondrie", "is_correct": true },
+        { "text": "La membrane externe", "is_correct": false },
+        { "text": "Les crêtes mitochondriales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des annexines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les annexines sont des protéines qui lient les membranes de manière calcium-dépendante, impliquées dans l'exocytose et la réparation membranaire.",
+      "answers": [
+        { "text": "Transporter le glucose", "is_correct": false },
+        {
+          "text": "Lier les membranes en présence de calcium",
+          "is_correct": true
+        },
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Former le cytosquelette", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du système COPI/COPII ?",
+      "difficulty": "Difficile",
+      "explanation": "COPI et COPII sont des complexes protéiques formant des vésicules pour le transport entre le RE et l'appareil de Golgi.",
+      "answers": [
+        { "text": "Répliquer l'ADN", "is_correct": false },
+        { "text": "Transport vésiculaire RE-Golgi", "is_correct": true },
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Dégrader les protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'ATP sont produits par la glycolyse seule ?",
+      "difficulty": "Moyen",
+      "explanation": "La glycolyse produit un gain net de 2 molécules d'ATP par molécule de glucose.",
+      "answers": [
+        { "text": "2 ATP", "is_correct": true },
+        { "text": "4 ATP", "is_correct": false },
+        { "text": "32 ATP", "is_correct": false },
+        { "text": "38 ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cavéoles ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cavéoles sont de petites invaginations de la membrane impliquées dans l'endocytose et la signalisation cellulaire.",
+      "answers": [
+        { "text": "Synthétiser des protéines", "is_correct": false },
+        { "text": "Endocytose et signalisation", "is_correct": true },
+        { "text": "Produire de l'ATP", "is_correct": false },
+        { "text": "Stocker l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule transporte les électrons dans la chaîne respiratoire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le NADH et le FADH₂ transportent les électrons vers la chaîne respiratoire mitochondriale.",
+      "answers": [
+        { "text": "ATP", "is_correct": false },
+        { "text": "NADH et FADH₂", "is_correct": true },
+        { "text": "Glucose", "is_correct": false },
+        { "text": "Pyruvate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des protéines Rab ?",
+      "difficulty": "Difficile",
+      "explanation": "Les protéines Rab sont des GTPases qui régulent le ciblage et la fusion des vésicules avec leurs membranes cibles.",
+      "answers": [
+        { "text": "Synthétiser l'ADN", "is_correct": false },
+        { "text": "Réguler le trafic vésiculaire", "is_correct": true },
+        { "text": "Transporter l'oxygène", "is_correct": false },
+        { "text": "Dégrader les protéines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du centromère ?",
+      "difficulty": "Moyen",
+      "explanation": "Le centromère est la région du chromosome où se fixe le kinétochore, permettant l'attachement aux microtubules du fuseau.",
+      "answers": [
+        { "text": "Stocker l'information génétique", "is_correct": false },
+        { "text": "Attacher le chromosome au fuseau", "is_correct": true },
+        { "text": "Répliquer l'ADN", "is_correct": false },
+        { "text": "Transcrire les gènes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le gradient de protons mitochondrial ?",
+      "difficulty": "Difficile",
+      "explanation": "C'est une différence de concentration de protons entre l'espace intermembranaire et la matrice, utilisée pour synthétiser l'ATP.",
+      "answers": [
+        { "text": "Un gradient de glucose", "is_correct": false },
+        {
+          "text": "Un gradient de H⁺ pour synthétiser l'ATP",
+          "is_correct": true
+        },
+        { "text": "Un gradient de sodium", "is_correct": false },
+        { "text": "Un gradient de calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure forme les microtubules ?",
+      "difficulty": "Moyen",
+      "explanation": "Les microtubules sont formés par la polymérisation de dimères de tubuline α et β.",
+      "answers": [
+        { "text": "Actine", "is_correct": false },
+        { "text": "Tubuline", "is_correct": true },
+        { "text": "Kératine", "is_correct": false },
+        { "text": "Collagène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du SNARE dans la fusion vésiculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Les protéines SNARE sur les vésicules et membranes cibles s'apparient pour permettre la fusion membranaire.",
+      "answers": [
+        { "text": "Transporter des ions", "is_correct": false },
+        { "text": "Permettre la fusion membranaire", "is_correct": true },
+        { "text": "Synthétiser des lipides", "is_correct": false },
+        { "text": "Répliquer l'ADN", "is_correct": false }
       ]
     }
   ]

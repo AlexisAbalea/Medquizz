@@ -6,10 +6,10 @@
       "difficulty": "Moyen",
       "explanation": "Les lymphocytes B, une fois activés, se différencient en plasmocytes qui produisent et sécrètent des anticorps spécifiques.",
       "answers": [
-        {"text": "Les lymphocytes T", "is_correct": false},
-        {"text": "Les lymphocytes B", "is_correct": true},
-        {"text": "Les macrophages", "is_correct": false},
-        {"text": "Les neutrophiles", "is_correct": false}
+        { "text": "Les lymphocytes T", "is_correct": false },
+        { "text": "Les lymphocytes B", "is_correct": true },
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les neutrophiles", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,2208 @@
       "difficulty": "Difficile",
       "explanation": "Les lymphocytes T cytotoxiques (CD8+) détruisent les cellules infectées par des virus ou les cellules cancéreuses en induisant leur apoptose.",
       "answers": [
-        {"text": "Production d'anticorps", "is_correct": false},
-        {"text": "Destruction des cellules infectées", "is_correct": true},
-        {"text": "Phagocytose des bactéries", "is_correct": false},
-        {"text": "Régulation de la température", "is_correct": false}
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Destruction des cellules infectées", "is_correct": true },
+        { "text": "Phagocytose des bactéries", "is_correct": false },
+        { "text": "Régulation de la température", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les deux grandes branches du système immunitaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le système immunitaire comprend l'immunité innée (non spécifique, rapide) et l'immunité adaptative (spécifique, avec mémoire).",
+      "answers": [
+        { "text": "Cellulaire et humorale", "is_correct": false },
+        { "text": "Innée et adaptative", "is_correct": true },
+        { "text": "Active et passive", "is_correct": false },
+        { "text": "Primaire et secondaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est considéré comme l'organe lymphoïde primaire pour les lymphocytes T ?",
+      "difficulty": "Facile",
+      "explanation": "Le thymus est le site de maturation des lymphocytes T. Les précurseurs y migrent depuis la moelle osseuse.",
+      "answers": [
+        { "text": "La rate", "is_correct": false },
+        { "text": "Le thymus", "is_correct": true },
+        { "text": "Les ganglions lymphatiques", "is_correct": false },
+        { "text": "La moelle osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline est la plus abondante dans le sérum ?",
+      "difficulty": "Facile",
+      "explanation": "Les IgG représentent 70-75% des immunoglobulines sériques. Elles traversent le placenta et assurent une immunité durable.",
+      "answers": [
+        { "text": "IgM", "is_correct": false },
+        { "text": "IgG", "is_correct": true },
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel marqueur CD caractérise les lymphocytes T auxiliaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T auxiliaires (helper) expriment le marqueur CD4 et reconnaissent les antigènes présentés par le CMH de classe II.",
+      "answers": [
+        { "text": "CD8", "is_correct": false },
+        { "text": "CD4", "is_correct": true },
+        { "text": "CD3", "is_correct": false },
+        { "text": "CD19", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule phagocytaire est la plus abondante dans le sang ?",
+      "difficulty": "Facile",
+      "explanation": "Les neutrophiles représentent 50-70% des leucocytes circulants. Ils sont les premiers à arriver sur un site d'infection.",
+      "answers": [
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les neutrophiles", "is_correct": true },
+        { "text": "Les éosinophiles", "is_correct": false },
+        { "text": "Les basophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est principalement produite par les lymphocytes Th1 ?",
+      "difficulty": "Moyen",
+      "explanation": "L'interféron gamma (IFN-γ) est la cytokine signature des Th1, activant les macrophages et favorisant l'immunité cellulaire.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du complément ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système du complément lyse les pathogènes, opsonise pour faciliter la phagocytose et recrute les cellules inflammatoires.",
+      "answers": [
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Lyse des pathogènes et opsonisation", "is_correct": true },
+        { "text": "Présentation antigénique", "is_correct": false },
+        { "text": "Maturation des lymphocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline est impliquée dans les réactions allergiques ?",
+      "difficulty": "Facile",
+      "explanation": "Les IgE se fixent sur les mastocytes et basophiles. Lors d'un contact avec l'allergène, elles déclenchent la dégranulation.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgE", "is_correct": true },
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgM", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule présente les antigènes aux lymphocytes T CD8+ ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CMH de classe I présente des peptides endogènes aux lymphocytes T CD8+. Toutes les cellules nucléées l'expriment.",
+      "answers": [
+        { "text": "CMH classe II", "is_correct": false },
+        { "text": "CMH classe I", "is_correct": true },
+        { "text": "TCR", "is_correct": false },
+        { "text": "Immunoglobuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'hypersensibilité est médié par les IgE ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypersensibilité de type I (immédiate/anaphylactique) est médiée par les IgE et survient rapidement après exposition à l'allergène.",
+      "answers": [
+        { "text": "Type II", "is_correct": false },
+        { "text": "Type I", "is_correct": true },
+        { "text": "Type III", "is_correct": false },
+        { "text": "Type IV", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe filtre le sang et élimine les globules rouges vieillissants ?",
+      "difficulty": "Facile",
+      "explanation": "La rate filtre le sang, élimine les vieux érythrocytes et participe à la réponse immunitaire contre les pathogènes sanguins.",
+      "answers": [
+        { "text": "Le thymus", "is_correct": false },
+        { "text": "La rate", "is_correct": true },
+        { "text": "Le foie", "is_correct": false },
+        { "text": "Les ganglions", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule présente des antigènes aux lymphocytes T naïfs ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules dendritiques sont les CPA professionnelles les plus efficaces pour activer les lymphocytes T naïfs.",
+      "answers": [
+        { "text": "Les lymphocytes B", "is_correct": false },
+        { "text": "Les cellules dendritiques", "is_correct": true },
+        { "text": "Les neutrophiles", "is_correct": false },
+        { "text": "Les érythrocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de chaînes polypeptidiques composent une molécule d'anticorps ?",
+      "difficulty": "Moyen",
+      "explanation": "Un anticorps est formé de 4 chaînes : 2 chaînes lourdes identiques et 2 chaînes légères identiques, liées par des ponts disulfure.",
+      "answers": [
+        { "text": "2 chaînes", "is_correct": false },
+        { "text": "4 chaînes", "is_correct": true },
+        { "text": "6 chaînes", "is_correct": false },
+        { "text": "8 chaînes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus permet la diversité des anticorps ?",
+      "difficulty": "Difficile",
+      "explanation": "La recombinaison V(D)J permet de générer une immense diversité d'anticorps en réarrangeant les segments géniques.",
+      "answers": [
+        { "text": "La transcription", "is_correct": false },
+        { "text": "La recombinaison V(D)J", "is_correct": true },
+        { "text": "La méthylation", "is_correct": false },
+        { "text": "La traduction", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle interleukine favorise la différenciation des lymphocytes Th2 ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IL-4 oriente la différenciation vers le profil Th2, favorisant l'immunité humorale et les réponses anti-parasitaires.",
+      "answers": [
+        { "text": "IL-2", "is_correct": false },
+        { "text": "IL-4", "is_correct": true },
+        { "text": "IL-12", "is_correct": false },
+        { "text": "IL-17", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la première immunoglobuline produite lors d'une réponse primaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgM sont les premiers anticorps produits lors d'une primo-infection. Elles sont pentamériques et très efficaces pour activer le complément.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgM", "is_correct": true },
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet aux lymphocytes T de reconnaître le soi du non-soi ?",
+      "difficulty": "Difficile",
+      "explanation": "La sélection thymique (positive et négative) élimine les lymphocytes T auto-réactifs et sélectionne ceux reconnaissant le CMH du soi.",
+      "answers": [
+        { "text": "La phagocytose", "is_correct": false },
+        { "text": "La sélection thymique", "is_correct": true },
+        { "text": "L'opsonisation", "is_correct": false },
+        { "text": "La commutation isotypique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit des histamines lors d'une réaction allergique ?",
+      "difficulty": "Facile",
+      "explanation": "Les mastocytes et basophiles libèrent de l'histamine lorsque les IgE fixées sur leur surface se lient à l'allergène.",
+      "answers": [
+        { "text": "Les lymphocytes T", "is_correct": false },
+        { "text": "Les mastocytes", "is_correct": true },
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les cellules dendritiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes T régulateurs ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T régulateurs (Treg CD4+CD25+) suppriment les réponses immunitaires excessives et préviennent l'auto-immunité.",
+      "answers": [
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Supprimer les réponses immunitaires", "is_correct": true },
+        { "text": "Lyser les cellules infectées", "is_correct": false },
+        { "text": "Activer le complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle voie du complément est activée par les complexes antigène-anticorps ?",
+      "difficulty": "Moyen",
+      "explanation": "La voie classique du complément est déclenchée par la liaison de C1q aux complexes immuns (IgM ou IgG).",
+      "answers": [
+        { "text": "Voie alterne", "is_correct": false },
+        { "text": "Voie classique", "is_correct": true },
+        { "text": "Voie des lectines", "is_correct": false },
+        { "text": "Voie directe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule de co-stimulation est nécessaire pour activer complètement un lymphocyte T ?",
+      "difficulty": "Difficile",
+      "explanation": "La liaison B7 (sur CPA) avec CD28 (sur lymphocyte T) fournit le signal 2 nécessaire à l'activation complète du lymphocyte T.",
+      "answers": [
+        { "text": "CD3", "is_correct": false },
+        { "text": "B7-CD28", "is_correct": true },
+        { "text": "TCR-CMH", "is_correct": false },
+        { "text": "CD4-CMH II", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline est présente dans les sécrétions muqueuses ?",
+      "difficulty": "Facile",
+      "explanation": "Les IgA sécrétoires protègent les muqueuses (intestin, poumons, salive, larmes) contre les pathogènes. Elles sont dimériques.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgA", "is_correct": true },
+        { "text": "IgE", "is_correct": false },
+        { "text": "IgM", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de lymphocyte T exprime le marqueur CD8 ?",
+      "difficulty": "Facile",
+      "explanation": "Les lymphocytes T cytotoxiques expriment CD8 et reconnaissent les antigènes présentés par le CMH de classe I.",
+      "answers": [
+        { "text": "T auxiliaires", "is_correct": false },
+        { "text": "T cytotoxiques", "is_correct": true },
+        { "text": "T régulateurs", "is_correct": false },
+        { "text": "T mémoires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est un pyrogène endogène majeur ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-1 et l'IL-6 sont des pyrogènes endogènes qui agissent sur l'hypothalamus pour induire la fièvre lors d'une infection.",
+      "answers": [
+        { "text": "IL-10", "is_correct": false },
+        { "text": "IL-1", "is_correct": true },
+        { "text": "IL-4", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus permet la commutation de classe des immunoglobulines ?",
+      "difficulty": "Difficile",
+      "explanation": "La commutation isotypique (class switching) permet à un lymphocyte B de changer de classe d'Ig (IgM vers IgG, IgA ou IgE) sans changer la spécificité.",
+      "answers": [
+        { "text": "La phagocytose", "is_correct": false },
+        { "text": "La commutation isotypique", "is_correct": true },
+        { "text": "La recombinaison V(D)J", "is_correct": false },
+        { "text": "L'opsonisation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule immunitaire est impliquée dans la défense contre les parasites helminthes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les éosinophiles libèrent des protéines toxiques pour les parasites et sont recrutés par les cytokines Th2 comme l'IL-5.",
+      "answers": [
+        { "text": "Les neutrophiles", "is_correct": false },
+        { "text": "Les éosinophiles", "is_correct": true },
+        { "text": "Les basophiles", "is_correct": false },
+        { "text": "Les monocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est le site de production des lymphocytes B chez l'adulte ?",
+      "difficulty": "Facile",
+      "explanation": "La moelle osseuse est le site de production et de maturation des lymphocytes B chez l'adulte.",
+      "answers": [
+        { "text": "Le thymus", "is_correct": false },
+        { "text": "La moelle osseuse", "is_correct": true },
+        { "text": "La rate", "is_correct": false },
+        { "text": "Le foie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule du CMH présente les antigènes aux lymphocytes T CD4+ ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CMH de classe II présente des peptides exogènes aux lymphocytes T CD4+. Il est exprimé par les cellules présentatrices d'antigènes.",
+      "answers": [
+        { "text": "CMH classe I", "is_correct": false },
+        { "text": "CMH classe II", "is_correct": true },
+        { "text": "CMH classe III", "is_correct": false },
+        { "text": "BCR", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'hypersensibilité est retardé et médié par les lymphocytes T ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypersensibilité de type IV (retardée) est médiée par les lymphocytes T et se manifeste 24-72h après l'exposition (ex: test tuberculinique).",
+      "answers": [
+        { "text": "Type I", "is_correct": false },
+        { "text": "Type IV", "is_correct": true },
+        { "text": "Type II", "is_correct": false },
+        { "text": "Type III", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule effectue la phagocytose et présente des antigènes ?",
+      "difficulty": "Facile",
+      "explanation": "Les macrophages phagocytent les pathogènes et débris cellulaires, puis présentent les antigènes aux lymphocytes T via le CMH II.",
+      "answers": [
+        { "text": "Les érythrocytes", "is_correct": false },
+        { "text": "Les macrophages", "is_correct": true },
+        { "text": "Les plaquettes", "is_correct": false },
+        { "text": "Les lymphocytes B", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel complexe du complément forme le pore membranaire lytique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le complexe d'attaque membranaire (MAC) C5b-C9 forme un pore dans la membrane des cellules cibles, causant leur lyse osmotique.",
+      "answers": [
+        { "text": "C1-C4", "is_correct": false },
+        { "text": "C5b-C9", "is_correct": true },
+        { "text": "C3a-C5a", "is_correct": false },
+        { "text": "C2-C4", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine favorise la prolifération des lymphocytes T activés ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-2 est le facteur de croissance autocrine des lymphocytes T, stimulant leur prolifération clonale après activation.",
+      "answers": [
+        { "text": "IL-10", "is_correct": false },
+        { "text": "IL-2", "is_correct": true },
+        { "text": "IL-6", "is_correct": false },
+        { "text": "TNF-α", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet aux lymphocytes B d'augmenter l'affinité de leurs anticorps ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hypermutation somatique introduit des mutations ponctuelles dans les régions variables, permettant la sélection de variants à haute affinité.",
+      "answers": [
+        { "text": "La phagocytose", "is_correct": false },
+        { "text": "L'hypermutation somatique", "is_correct": true },
+        { "text": "La translocation", "is_correct": false },
+        { "text": "La méthylation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule immunitaire possède des granules contenant de la perforine et des granzymes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T CD8+ cytotoxiques et les cellules NK utilisent la perforine pour perforer les membranes et les granzymes pour induire l'apoptose.",
+      "answers": [
+        { "text": "Les lymphocytes B", "is_correct": false },
+        { "text": "Les lymphocytes T CD8+", "is_correct": true },
+        { "text": "Les macrophages", "is_correct": false },
+        { "text": "Les neutrophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des anticorps opsonisants ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps opsonisants (IgG) se fixent sur les pathogènes, facilitant leur reconnaissance et phagocytose par les cellules possédant des récepteurs Fc.",
+      "answers": [
+        { "text": "Neutraliser les toxines uniquement", "is_correct": false },
+        { "text": "Faciliter la phagocytose", "is_correct": true },
+        { "text": "Activer les lymphocytes T", "is_correct": false },
+        { "text": "Produire des cytokines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur permet la reconnaissance du peptidoglycane bactérien ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs Toll-like (TLR), notamment TLR2, reconnaissent le peptidoglycane et activent la réponse immunitaire innée.",
+      "answers": [
+        { "text": "TCR", "is_correct": false },
+        { "text": "TLR", "is_correct": true },
+        { "text": "BCR", "is_correct": false },
+        { "text": "Récepteur Fc", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline peut traverser la barrière placentaire ?",
+      "difficulty": "Facile",
+      "explanation": "Seules les IgG traversent activement le placenta via les récepteurs FcRn, conférant une immunité passive au nouveau-né.",
+      "answers": [
+        { "text": "IgM", "is_correct": false },
+        { "text": "IgG", "is_correct": true },
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme les virus utilisent-ils pour échapper au système immunitaire en inhibant le CMH I ?",
+      "difficulty": "Difficile",
+      "explanation": "Certains virus (CMV, HSV) bloquent l'expression du CMH I pour éviter la reconnaissance par les lymphocytes T CD8+, mais cela active les cellules NK.",
+      "answers": [
+        { "text": "Augmentation du CMH I", "is_correct": false },
+        { "text": "Inhibition du CMH I", "is_correct": true },
+        { "text": "Surexpression du CMH II", "is_correct": false },
+        { "text": "Production d'IgG", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule immunitaire est la première ligne de défense contre les infections virales ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules NK (Natural Killer) détectent et lysent les cellules infectées par des virus avant l'établissement de la réponse adaptative.",
+      "answers": [
+        { "text": "Les lymphocytes B", "is_correct": false },
+        { "text": "Les cellules NK", "is_correct": true },
+        { "text": "Les basophiles", "is_correct": false },
+        { "text": "Les éosinophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel marqueur les cellules NK utilisent-elles pour distinguer les cellules saines des cellules anormales ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules NK détectent l'absence ou la diminution du CMH de classe I (missing self), signalant une cellule anormale ou infectée.",
+      "answers": [
+        { "text": "Présence d'anticorps", "is_correct": false },
+        { "text": "Absence de CMH I", "is_correct": true },
+        { "text": "Expression de CD4", "is_correct": false },
+        { "text": "Présence de complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle interleukine favorise la différenciation des lymphocytes Th17 ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IL-6 et le TGF-β ensemble induisent la différenciation des Th17, impliqués dans la défense contre les bactéries extracellulaires et les champignons.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IL-6", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des follicules lymphoïdes dans les ganglions ?",
+      "difficulty": "Moyen",
+      "explanation": "Les follicules lymphoïdes sont le site de prolifération et de maturation des lymphocytes B après stimulation antigénique.",
+      "answers": [
+        { "text": "Maturation des lymphocytes T", "is_correct": false },
+        { "text": "Prolifération des lymphocytes B", "is_correct": true },
+        { "text": "Filtration du sang", "is_correct": false },
+        { "text": "Production de neutrophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule d'adhésion permet l'extravasation des leucocytes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les sélectines, intégrines et ICAM/VCAM permettent le roulement, l'adhésion ferme et la diapédèse des leucocytes vers les tissus inflammés.",
+      "answers": [
+        { "text": "Immunoglobulines", "is_correct": false },
+        { "text": "Sélectines et intégrines", "is_correct": true },
+        { "text": "Complément", "is_correct": false },
+        { "text": "Cytokines seules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'immunité confère la vaccination ?",
+      "difficulty": "Facile",
+      "explanation": "La vaccination induit une immunité active artificielle en stimulant la production de lymphocytes mémoires et d'anticorps sans infection naturelle.",
+      "answers": [
+        { "text": "Immunité passive naturelle", "is_correct": false },
+        { "text": "Immunité active artificielle", "is_correct": true },
+        { "text": "Immunité innée", "is_correct": false },
+        { "text": "Immunité passive artificielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine inhibe les réponses immunitaires et possède un rôle anti-inflammatoire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-10 est une cytokine immunosuppressive qui limite les réponses inflammatoires et prévient les dommages tissulaires excessifs.",
+      "answers": [
+        { "text": "IL-1", "is_correct": false },
+        { "text": "IL-10", "is_correct": true },
+        { "text": "TNF-α", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle région de l'anticorps se lie à l'antigène ?",
+      "difficulty": "Facile",
+      "explanation": "La région Fab (fragment antigen-binding) contient les sites de liaison à l'antigène. Chaque anticorps possède deux sites Fab identiques.",
+      "answers": [
+        { "text": "Région Fc", "is_correct": false },
+        { "text": "Région Fab", "is_correct": true },
+        { "text": "Région charnière", "is_correct": false },
+        { "text": "Domaine constant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet l'élimination des lymphocytes auto-réactifs dans la moelle osseuse ?",
+      "difficulty": "Difficile",
+      "explanation": "La sélection négative des lymphocytes B (édition du récepteur ou délétion clonale) élimine les cellules auto-réactives dans la moelle.",
+      "answers": [
+        { "text": "Sélection positive", "is_correct": false },
+        { "text": "Sélection négative", "is_correct": true },
+        { "text": "Hypermutation somatique", "is_correct": false },
+        { "text": "Commutation isotypique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle chimiokine attire les neutrophiles vers le site d'infection ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IL-8 (CXCL8) est une chimiokine majeure qui recrute les neutrophiles vers les sites inflammatoires.",
+      "answers": [
+        { "text": "CCL2", "is_correct": false },
+        { "text": "IL-8", "is_correct": true },
+        { "text": "CCL5", "is_correct": false },
+        { "text": "CXCL12", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du récepteur des cellules T (TCR) ?",
+      "difficulty": "Facile",
+      "explanation": "Le TCR reconnaît spécifiquement le complexe peptide-CMH à la surface des cellules présentatrices d'antigènes.",
+      "answers": [
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Reconnaître le complexe peptide-CMH", "is_correct": true },
+        { "text": "Phagocyter les bactéries", "is_correct": false },
+        { "text": "Activer le complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle classe d'immunoglobuline est pentamérique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgM existent sous forme pentamérique (5 unités liées par la chaîne J), ce qui leur confère 10 sites de liaison à l'antigène.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgM", "is_correct": true },
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel phénomène décrit l'augmentation de l'affinité des anticorps au cours de la réponse immune ?",
+      "difficulty": "Difficile",
+      "explanation": "La maturation d'affinité résulte de l'hypermutation somatique et de la sélection clonale dans les centres germinatifs des ganglions.",
+      "answers": [
+        { "text": "Commutation isotypique", "is_correct": false },
+        { "text": "Maturation d'affinité", "is_correct": true },
+        { "text": "Recombinaison V(D)J", "is_correct": false },
+        { "text": "Expansion clonale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine active les macrophages pour augmenter leur capacité microbicide ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IFN-γ produit par les Th1 et les cellules NK active les macrophages, augmentant leur production de radicaux libres et leur capacité à tuer les pathogènes intracellulaires.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule du complément est une anaphylatoxine puissante ?",
+      "difficulty": "Moyen",
+      "explanation": "C5a est la plus puissante anaphylatoxine, recrutant les leucocytes, augmentant la perméabilité vasculaire et induisant la dégranulation des mastocytes.",
+      "answers": [
+        { "text": "C1q", "is_correct": false },
+        { "text": "C5a", "is_correct": true },
+        { "text": "C9", "is_correct": false },
+        { "text": "C2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme effecteur utilise l'ADCC ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ADCC (cytotoxicité cellulaire dépendante des anticorps) implique des cellules NK ou macrophages qui reconnaissent les IgG fixées sur les cibles et les détruisent.",
+      "answers": [
+        { "text": "Lyse directe par anticorps", "is_correct": false },
+        { "text": "Cytotoxicité via récepteurs Fc", "is_correct": true },
+        { "text": "Activation du complément seul", "is_correct": false },
+        { "text": "Phagocytose directe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la durée approximative de la réponse immunitaire primaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La réponse primaire prend 7-14 jours pour produire des anticorps détectables, principalement des IgM initialement.",
+      "answers": [
+        { "text": "1-2 jours", "is_correct": false },
+        { "text": "7-14 jours", "is_correct": true },
+        { "text": "30 jours", "is_correct": false },
+        { "text": "60 jours", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel facteur transcriptionnel est essentiel pour la différenciation des Th1 ?",
+      "difficulty": "Difficile",
+      "explanation": "T-bet est le facteur de transcription maître qui oriente la différenciation vers le profil Th1 et l'expression d'IFN-γ.",
+      "answers": [
+        { "text": "GATA-3", "is_correct": false },
+        { "text": "T-bet", "is_correct": true },
+        { "text": "RORγt", "is_correct": false },
+        { "text": "Foxp3", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure concentre les antigènes dans les ganglions lymphatiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les sinus sous-capsulaires et médullaires des ganglions filtrent la lymphe et concentrent les antigènes pour les présenter aux lymphocytes.",
+      "answers": [
+        { "text": "La pulpe rouge", "is_correct": false },
+        { "text": "Les sinus lymphatiques", "is_correct": true },
+        { "text": "Les veinules", "is_correct": false },
+        { "text": "Les artérioles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des protéines du choc thermique dans l'immunité ?",
+      "difficulty": "Difficile",
+      "explanation": "Les protéines de stress (HSP) peuvent être reconnues par le système immunitaire et servir de signaux de danger, activant l'immunité innée.",
+      "answers": [
+        { "text": "Inhiber l'immunité", "is_correct": false },
+        { "text": "Activer l'immunité innée", "is_correct": true },
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Lyser les cellules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit l'IL-12 pour orienter vers Th1 ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules dendritiques et les macrophages produisent l'IL-12 en réponse aux pathogènes intracellulaires, favorisant la différenciation Th1.",
+      "answers": [
+        { "text": "Les lymphocytes B", "is_correct": false },
+        { "text": "Les cellules dendritiques", "is_correct": true },
+        { "text": "Les éosinophiles", "is_correct": false },
+        { "text": "Les mastocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel anticorps est impliqué dans la neutralisation des toxines ?",
+      "difficulty": "Facile",
+      "explanation": "Les IgG et IgA neutralisent les toxines en se liant à elles, empêchant leur interaction avec les récepteurs cellulaires.",
+      "answers": [
+        { "text": "IgE uniquement", "is_correct": false },
+        { "text": "IgG et IgA", "is_correct": true },
+        { "text": "IgD uniquement", "is_correct": false },
+        { "text": "Aucun anticorps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des récepteurs Fc sur les phagocytes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les récepteurs Fc reconnaissent la partie constante des anticorps fixés sur les pathogènes, facilitant leur phagocytose (opsonisation).",
+      "answers": [
+        { "text": "Reconnaître le complément", "is_correct": false },
+        { "text": "Reconnaître les anticorps liés", "is_correct": true },
+        { "text": "Présenter les antigènes", "is_correct": false },
+        { "text": "Produire des cytokines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule inhibe l'activation du complément sur les cellules du soi ?",
+      "difficulty": "Difficile",
+      "explanation": "Le CD55 (DAF) et CD59 sont des protéines régulatrices qui protègent les cellules du soi contre l'activation inappropriée du complément.",
+      "answers": [
+        { "text": "C3", "is_correct": false },
+        { "text": "CD55 et CD59", "is_correct": true },
+        { "text": "IgG", "is_correct": false },
+        { "text": "C9", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus décrit la reconnaissance croisée d'antigènes similaires ?",
+      "difficulty": "Moyen",
+      "explanation": "La réaction croisée (cross-reactivity) permet à un anticorps de reconnaître des antigènes structurellement similaires mais distincts.",
+      "answers": [
+        { "text": "Sélection clonale", "is_correct": false },
+        { "text": "Réaction croisée", "is_correct": true },
+        { "text": "Tolérance", "is_correct": false },
+        { "text": "Anergie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est principalement produite par les lymphocytes Th2 ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-4, IL-5 et IL-13 sont les cytokines signature des Th2, favorisant l'immunité humorale et les réponses anti-parasitaires.",
+      "answers": [
+        { "text": "IFN-γ", "is_correct": false },
+        { "text": "IL-4", "is_correct": true },
+        { "text": "IL-12", "is_correct": false },
+        { "text": "TNF-α", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe lymphoïde tertiaire se forme lors d'inflammations chroniques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les structures lymphoïdes tertiaires se forment dans les tissus inflammés chroniques (ex: synoviales dans la polyarthrite rhumatoïde).",
+      "answers": [
+        { "text": "Thymus", "is_correct": false },
+        { "text": "Structures lymphoïdes induites", "is_correct": true },
+        { "text": "Rate", "is_correct": false },
+        { "text": "Moelle osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet la diversité jonctionnelle des récepteurs lymphocytaires ?",
+      "difficulty": "Difficile",
+      "explanation": "L'addition de nucléotides N et P aux jonctions V-D-J par la TdT crée une diversité supplémentaire unique à chaque lymphocyte.",
+      "answers": [
+        { "text": "Méthylation de l'ADN", "is_correct": false },
+        {
+          "text": "Diversité jonctionnelle (nucléotides N/P)",
+          "is_correct": true
+        },
+        { "text": "Épissage alternatif", "is_correct": false },
+        { "text": "Transcription inverse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des plasmocytes ?",
+      "difficulty": "Facile",
+      "explanation": "Les plasmocytes sont des lymphocytes B différenciés spécialisés dans la production massive d'anticorps (jusqu'à 2000 molécules/seconde).",
+      "answers": [
+        { "text": "Phagocytose", "is_correct": false },
+        { "text": "Production d'anticorps", "is_correct": true },
+        { "text": "Présentation antigénique", "is_correct": false },
+        { "text": "Cytolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule empêche l'activation excessive des lymphocytes T ?",
+      "difficulty": "Difficile",
+      "explanation": "CTLA-4 et PD-1 sont des récepteurs inhibiteurs qui limitent l'activation des lymphocytes T, prévenant les réponses excessives et l'auto-immunité.",
+      "answers": [
+        { "text": "CD28", "is_correct": false },
+        { "text": "CTLA-4 et PD-1", "is_correct": true },
+        { "text": "CD3", "is_correct": false },
+        { "text": "TCR", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de réponse immunitaire est déficient dans le SIDA ?",
+      "difficulty": "Facile",
+      "explanation": "Le VIH infecte et détruit les lymphocytes T CD4+, compromettant l'immunité cellulaire et la coordination de la réponse immune.",
+      "answers": [
+        { "text": "Immunité humorale uniquement", "is_correct": false },
+        { "text": "Immunité cellulaire", "is_correct": true },
+        { "text": "Complément", "is_correct": false },
+        { "text": "Phagocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule co-stimulatrice interagit avec CD40 sur les lymphocytes B ?",
+      "difficulty": "Difficile",
+      "explanation": "Le CD40L (CD154) exprimé sur les lymphocytes T activés se lie au CD40 des lymphocytes B, fournissant un signal essentiel pour leur activation.",
+      "answers": [
+        { "text": "CD28", "is_correct": false },
+        { "text": "CD40L", "is_correct": true },
+        { "text": "CTLA-4", "is_correct": false },
+        { "text": "B7", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule effectue la surveillance immunologique contre le cancer ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules NK et les lymphocytes T CD8+ effectuent l'immunosurveillance, détectant et éliminant les cellules tumorales.",
+      "answers": [
+        { "text": "Les éosinophiles", "is_correct": false },
+        { "text": "Les cellules NK et T CD8+", "is_correct": true },
+        { "text": "Les basophiles", "is_correct": false },
+        { "text": "Les érythrocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel phénomène décrit la tolérance acquise aux antigènes du soi ?",
+      "difficulty": "Moyen",
+      "explanation": "La tolérance centrale (thymus, moelle) et périphérique élimine ou inactive les lymphocytes auto-réactifs, prévenant l'auto-immunité.",
+      "answers": [
+        { "text": "Immunité innée", "is_correct": false },
+        { "text": "Tolérance immunitaire", "is_correct": true },
+        { "text": "Inflammation", "is_correct": false },
+        { "text": "Hypersensibilité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline active le plus efficacement le complément ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgM, grâce à leur structure pentamérique, activent très efficacement le complément via la voie classique (une seule IgM suffit).",
+      "answers": [
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgM", "is_correct": true },
+        { "text": "IgE", "is_correct": false },
+        { "text": "IgD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur des cellules NK inhibe leur activité lytique ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs KIR (killer immunoglobulin-like receptors) reconnaissent le CMH I et inhibent l'activité des NK lorsque les cellules sont normales.",
+      "answers": [
+        { "text": "NKG2D", "is_correct": false },
+        { "text": "KIR", "is_correct": true },
+        { "text": "CD16", "is_correct": false },
+        { "text": "CD56", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est impliquée dans le développement des lymphocytes T régulateurs ?",
+      "difficulty": "Difficile",
+      "explanation": "Le TGF-β, souvent en combinaison avec l'IL-2, favorise la différenciation et le maintien des lymphocytes T régulateurs Foxp3+.",
+      "answers": [
+        { "text": "IL-12", "is_correct": false },
+        { "text": "TGF-β", "is_correct": true },
+        { "text": "IFN-γ", "is_correct": false },
+        { "text": "IL-17", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes B mémoires ?",
+      "difficulty": "Facile",
+      "explanation": "Les lymphocytes B mémoires persistent après l'infection et permettent une réponse secondaire plus rapide et plus forte lors d'une réexposition.",
+      "answers": [
+        { "text": "Production continue d'anticorps", "is_correct": false },
+        { "text": "Réponse rapide lors de réexposition", "is_correct": true },
+        { "text": "Phagocytose", "is_correct": false },
+        { "text": "Cytolyse directe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle voie du complément est activée par les mannoses bactériens ?",
+      "difficulty": "Moyen",
+      "explanation": "La voie des lectines est activée par la liaison de la MBL (mannose-binding lectin) aux résidus mannose des surfaces bactériennes.",
+      "answers": [
+        { "text": "Voie classique", "is_correct": false },
+        { "text": "Voie des lectines", "is_correct": true },
+        { "text": "Voie alterne", "is_correct": false },
+        { "text": "Voie directe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de vaccin utilise des pathogènes vivants atténués ?",
+      "difficulty": "Facile",
+      "explanation": "Les vaccins vivants atténués (ROR, BCG) utilisent des pathogènes affaiblis qui se répliquent sans causer de maladie, induisant une forte immunité.",
+      "answers": [
+        { "text": "Vaccin inactivé", "is_correct": false },
+        { "text": "Vaccin vivant atténué", "is_correct": true },
+        { "text": "Vaccin sous-unitaire", "is_correct": false },
+        { "text": "Vaccin à ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme génère les radicaux libres dans le phagolysosome ?",
+      "difficulty": "Difficile",
+      "explanation": "La NADPH oxydase produit des espèces réactives de l'oxygène (burst oxydatif) qui tuent les pathogènes phagocytés.",
+      "answers": [
+        { "text": "Lysozyme", "is_correct": false },
+        { "text": "NADPH oxydase", "is_correct": true },
+        { "text": "Perforine", "is_correct": false },
+        { "text": "Cathepsine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie résulte d'un déficit en C3 du complément ?",
+      "difficulty": "Difficile",
+      "explanation": "Le déficit en C3 provoque des infections bactériennes récurrentes, particulièrement à bactéries encapsulées, et des maladies auto-immunes.",
+      "answers": [
+        { "text": "Asthme", "is_correct": false },
+        { "text": "Infections bactériennes récurrentes", "is_correct": true },
+        { "text": "Allergie alimentaire", "is_correct": false },
+        { "text": "Diabète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du facteur de transcription Foxp3 ?",
+      "difficulty": "Difficile",
+      "explanation": "Foxp3 est le facteur de transcription maître des lymphocytes T régulateurs, essentiel pour leur fonction suppressive.",
+      "answers": [
+        { "text": "Différenciation Th1", "is_correct": false },
+        { "text": "Développement des T régulateurs", "is_correct": true },
+        { "text": "Activation des lymphocytes B", "is_correct": false },
+        { "text": "Production d'anticorps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme les tumeurs utilisent-elles pour échapper au système immunitaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Les tumeurs expriment PD-L1 qui se lie à PD-1 sur les lymphocytes T, inhibant leur activation (checkpoint immunitaire).",
+      "answers": [
+        { "text": "Surexpression du CMH", "is_correct": false },
+        { "text": "Expression de PD-L1", "is_correct": true },
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Activation du complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule coordonne la réponse immunitaire adaptative ?",
+      "difficulty": "Facile",
+      "explanation": "Les lymphocytes T CD4+ auxiliaires coordonnent la réponse immune en activant les lymphocytes B, T CD8+ et les macrophages via les cytokines.",
+      "answers": [
+        { "text": "Les neutrophiles", "is_correct": false },
+        { "text": "Les lymphocytes T CD4+", "is_correct": true },
+        { "text": "Les éosinophiles", "is_correct": false },
+        { "text": "Les basophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la protéine C3b dans le complément ?",
+      "difficulty": "Moyen",
+      "explanation": "C3b agit comme opsonine en se fixant sur les pathogènes, facilitant leur phagocytose et initiant la formation du MAC.",
+      "answers": [
+        { "text": "Inhiber l'inflammation", "is_correct": false },
+        { "text": "Opsoniser les pathogènes", "is_correct": true },
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Activer les lymphocytes B", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est exprimée par toutes les cellules T matures ?",
+      "difficulty": "Facile",
+      "explanation": "Le CD3 est le marqueur universel des lymphocytes T, formant le complexe TCR-CD3 nécessaire à la signalisation.",
+      "answers": [
+        { "text": "CD4", "is_correct": false },
+        { "text": "CD3", "is_correct": true },
+        { "text": "CD8", "is_correct": false },
+        { "text": "CD19", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel déficit immunitaire primaire affecte la recombinaison V(D)J ?",
+      "difficulty": "Difficile",
+      "explanation": "Le SCID (déficit immunitaire combiné sévère) peut résulter d'un déficit en RAG ou Artemis, empêchant la recombinaison V(D)J.",
+      "answers": [
+        { "text": "Déficit en IgA", "is_correct": false },
+        { "text": "SCID", "is_correct": true },
+        { "text": "Syndrome de DiGeorge", "is_correct": false },
+        { "text": "Agammaglobulinémie de Bruton", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine induit la production d'IgE par les lymphocytes B ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-4 produite par les Th2 induit la commutation isotypique vers les IgE, impliquées dans les allergies.",
+      "answers": [
+        { "text": "IFN-γ", "is_correct": false },
+        { "text": "IL-4", "is_correct": true },
+        { "text": "IL-12", "is_correct": false },
+        { "text": "TNF-α", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'hypersensibilité implique des complexes immuns ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypersensibilité de type III résulte du dépôt de complexes immuns dans les tissus (ex: maladie sérique, lupus).",
+      "answers": [
+        { "text": "Type I", "is_correct": false },
+        { "text": "Type III", "is_correct": true },
+        { "text": "Type II", "is_correct": false },
+        { "text": "Type IV", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule permet aux lymphocytes de circuler vers les ganglions ?",
+      "difficulty": "Difficile",
+      "explanation": "Le CD62L (L-sélectine) et CCR7 permettent aux lymphocytes naïfs de migrer vers les ganglions via les HEV.",
+      "answers": [
+        { "text": "ICAM-1", "is_correct": false },
+        { "text": "CD62L", "is_correct": true },
+        { "text": "VCAM-1", "is_correct": false },
+        { "text": "E-sélectine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des veinules à endothélium élevé (HEV) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les HEV dans les ganglions permettent l'entrée sélective des lymphocytes depuis le sang vers les tissus lymphoïdes.",
+      "answers": [
+        { "text": "Filtrer le sang", "is_correct": false },
+        { "text": "Permettre l'entrée des lymphocytes", "is_correct": true },
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Stocker les antigènes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie auto-immune cible les récepteurs de l'acétylcholine ?",
+      "difficulty": "Moyen",
+      "explanation": "La myasthénie grave est causée par des auto-anticorps bloquant les récepteurs de l'acétylcholine à la jonction neuromusculaire.",
+      "answers": [
+        { "text": "Lupus érythémateux", "is_correct": false },
+        { "text": "Myasthénie grave", "is_correct": true },
+        { "text": "Polyarthrite rhumatoïde", "is_correct": false },
+        { "text": "Sclérose en plaques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel facteur de transcription caractérise les lymphocytes Th2 ?",
+      "difficulty": "Difficile",
+      "explanation": "GATA-3 est le facteur de transcription maître des Th2, induisant la production d'IL-4, IL-5 et IL-13.",
+      "answers": [
+        { "text": "T-bet", "is_correct": false },
+        { "text": "GATA-3", "is_correct": true },
+        { "text": "RORγt", "is_correct": false },
+        { "text": "Foxp3", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline est principalement sécrétée dans le lait maternel ?",
+      "difficulty": "Facile",
+      "explanation": "Les IgA sécrétoires protègent le tractus digestif du nouveau-né allaité contre les pathogènes.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgA", "is_correct": true },
+        { "text": "IgM", "is_correct": false },
+        { "text": "IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus décrit la mort cellulaire programmée des lymphocytes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'apoptose (AICD - activation-induced cell death) élimine les lymphocytes après une réponse immune pour éviter l'accumulation excessive.",
+      "answers": [
+        { "text": "Nécrose", "is_correct": false },
+        { "text": "Apoptose", "is_correct": true },
+        { "text": "Autophagie", "is_correct": false },
+        { "text": "Pyroptose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule du complément initie la voie alterne ?",
+      "difficulty": "Difficile",
+      "explanation": "C3b peut spontanément se fixer sur les surfaces microbiennes, initiant la voie alterne du complément sans anticorps.",
+      "answers": [
+        { "text": "C1q", "is_correct": false },
+        { "text": "C3b", "is_correct": true },
+        { "text": "MBL", "is_correct": false },
+        { "text": "C5", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule T helper produit l'IL-17 ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes Th17 produisent l'IL-17, recrutant les neutrophiles pour combattre les bactéries extracellulaires et champignons.",
+      "answers": [
+        { "text": "Th1", "is_correct": false },
+        { "text": "Th17", "is_correct": true },
+        { "text": "Th2", "is_correct": false },
+        { "text": "Treg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est déficiente dans la granulomatose septique chronique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le déficit en NADPH oxydase empêche le burst oxydatif, causant des infections bactériennes et fongiques récurrentes.",
+      "answers": [
+        { "text": "Myéloperoxydase", "is_correct": false },
+        { "text": "NADPH oxydase", "is_correct": true },
+        { "text": "Lysozyme", "is_correct": false },
+        { "text": "Catalase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes T γδ ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lymphocytes T γδ reconnaissent les antigènes sans restriction CMH, particulièrement aux interfaces épithéliales (intestin, peau).",
+      "answers": [
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Immunité aux épithéliums", "is_correct": true },
+        { "text": "Présentation antigénique", "is_correct": false },
+        { "text": "Régulation immune uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est la principale responsable de la fièvre ?",
+      "difficulty": "Facile",
+      "explanation": "L'IL-1, l'IL-6 et le TNF-α sont des pyrogènes endogènes majeurs agissant sur l'hypothalamus.",
+      "answers": [
+        { "text": "IL-10", "is_correct": false },
+        { "text": "IL-1 et IL-6", "is_correct": true },
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IFN-α", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel syndrome résulte d'une absence de thymus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de DiGeorge (délétion 22q11) cause une hypoplasie thymique, déficit en lymphocytes T et hypocalcémie.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "Syndrome de DiGeorge", "is_correct": true },
+        { "text": "Syndrome de Wiskott-Aldrich", "is_correct": false },
+        { "text": "Déficit en IgA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule limite la cascade du complément ?",
+      "difficulty": "Difficile",
+      "explanation": "Le facteur H et le facteur I régulent C3b, empêchant l'activation excessive du complément sur les cellules du soi.",
+      "answers": [
+        { "text": "C1-inhibiteur uniquement", "is_correct": false },
+        { "text": "Facteur H et I", "is_correct": true },
+        { "text": "C9", "is_correct": false },
+        { "text": "IgG", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des anticorps monoclonaux anti-TNF ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anti-TNF (infliximab, adalimumab) neutralisent le TNF-α, réduisant l'inflammation dans les maladies auto-immunes.",
+      "answers": [
+        { "text": "Activation du complément", "is_correct": false },
+        { "text": "Neutralisation du TNF-α", "is_correct": true },
+        { "text": "Stimulation des lymphocytes T", "is_correct": false },
+        { "text": "Production d'IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule présente les antigènes lipidiques via CD1 ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules dendritiques et certains macrophages présentent les lipides mycobactériens via CD1 aux lymphocytes T non conventionnels.",
+      "answers": [
+        { "text": "Lymphocytes B", "is_correct": false },
+        { "text": "Cellules dendritiques", "is_correct": true },
+        { "text": "Neutrophiles", "is_correct": false },
+        { "text": "Éosinophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle interleukine favorise la production d'IgA ?",
+      "difficulty": "Difficile",
+      "explanation": "Le TGF-β et l'IL-5 induisent la commutation isotypique vers les IgA, importantes pour l'immunité mucosale.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "TGF-β", "is_correct": true },
+        { "text": "IFN-γ", "is_correct": false },
+        { "text": "IL-12", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'inflammasome ?",
+      "difficulty": "Difficile",
+      "explanation": "L'inflammasome (complexe NLRP3) détecte les signaux de danger et active la caspase-1, produisant IL-1β et IL-18.",
+      "answers": [
+        { "text": "Phagocytose", "is_correct": false },
+        { "text": "Activation de l'IL-1β", "is_correct": true },
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Présentation antigénique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunodéficience affecte principalement les lymphocytes B ?",
+      "difficulty": "Moyen",
+      "explanation": "L'agammaglobulinémie de Bruton (déficit en BTK) empêche la maturation des lymphocytes B, causant l'absence d'anticorps.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "Agammaglobulinémie de Bruton", "is_correct": true },
+        { "text": "Syndrome de DiGeorge", "is_correct": false },
+        { "text": "LAD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel marqueur identifie les lymphocytes B ?",
+      "difficulty": "Facile",
+      "explanation": "Le CD19 et CD20 sont les marqueurs caractéristiques des lymphocytes B à différents stades de maturation.",
+      "answers": [
+        { "text": "CD3", "is_correct": false },
+        { "text": "CD19", "is_correct": true },
+        { "text": "CD4", "is_correct": false },
+        { "text": "CD8", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle voie métabolique est essentielle pour l'activation des lymphocytes T ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lymphocytes T activés augmentent la glycolyse et la phosphorylation oxydative pour répondre aux besoins énergétiques.",
+      "answers": [
+        { "text": "β-oxydation uniquement", "is_correct": false },
+        { "text": "Glycolyse et respiration", "is_correct": true },
+        { "text": "Fermentation lactique", "is_correct": false },
+        { "text": "Cycle de l'urée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'hypersensibilité cause la réaction transfusionnelle ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypersensibilité de type II implique des anticorps contre les antigènes de surface (groupes sanguins ABO, Rh).",
+      "answers": [
+        { "text": "Type I", "is_correct": false },
+        { "text": "Type II", "is_correct": true },
+        { "text": "Type III", "is_correct": false },
+        { "text": "Type IV", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est nécessaire à la sortie des lymphocytes T du thymus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le récepteur S1P1 permet aux thymocytes sélectionnés de quitter le thymus en réponse au gradient de sphingosine-1-phosphate.",
+      "answers": [
+        { "text": "CD3", "is_correct": false },
+        { "text": "S1P1", "is_correct": true },
+        { "text": "CCR7", "is_correct": false },
+        { "text": "CD28", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules iNKT ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules iNKT (invariant Natural Killer T) reconnaissent les glycolipides via CD1d et produisent rapidement des cytokines Th1/Th2.",
+      "answers": [
+        { "text": "Phagocytose", "is_correct": false },
+        { "text": "Reconnaissance de glycolipides", "is_correct": true },
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Régulation exclusive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine induit l'expression du CMH de classe II ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IFN-γ augmente l'expression du CMH II sur les cellules présentatrices d'antigènes, améliorant la présentation.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel syndrome auto-immun cible la thyroïde avec des anticorps stimulants ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Basedow produit des anticorps anti-récepteur TSH qui stimulent la thyroïde, causant l'hyperthyroïdie.",
+      "answers": [
+        { "text": "Thyroïdite d'Hashimoto", "is_correct": false },
+        { "text": "Maladie de Basedow", "is_correct": true },
+        { "text": "Lupus", "is_correct": false },
+        { "text": "Myasthénie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule co-stimulatrice active les lymphocytes T naïfs ?",
+      "difficulty": "Moyen",
+      "explanation": "L'interaction B7 (CD80/CD86) avec CD28 fournit le signal 2 essentiel à l'activation des lymphocytes T naïfs.",
+      "answers": [
+        { "text": "CTLA-4", "is_correct": false },
+        { "text": "CD28", "is_correct": true },
+        { "text": "PD-1", "is_correct": false },
+        { "text": "CD40", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel défaut cause le syndrome de Chédiak-Higashi ?",
+      "difficulty": "Difficile",
+      "explanation": "Le déficit en LYST perturbe la fusion lysosomale, causant des granules géants anormaux dans les neutrophiles et infections récurrentes.",
+      "answers": [
+        { "text": "Défaut de phagocytose", "is_correct": false },
+        { "text": "Défaut de fusion lysosomale", "is_correct": true },
+        { "text": "Absence de complément", "is_correct": false },
+        { "text": "Déficit en anticorps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline a la demi-vie la plus longue ?",
+      "difficulty": "Facile",
+      "explanation": "Les IgG ont une demi-vie de 21 jours grâce au récepteur FcRn qui les recycle, assurant une protection prolongée.",
+      "answers": [
+        { "text": "IgM", "is_correct": false },
+        { "text": "IgG", "is_correct": true },
+        { "text": "IgA", "is_correct": false },
+        { "text": "IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme les bactéries utilisent-elles pour éviter le complément ?",
+      "difficulty": "Difficile",
+      "explanation": "Certaines bactéries produisent des capsules polysaccharidiques qui inhibent le dépôt de C3b ou recrutent les régulateurs du complément.",
+      "answers": [
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Capsule polysaccharidique", "is_correct": true },
+        { "text": "Augmentation du CMH", "is_correct": false },
+        { "text": "Activation des lymphocytes T", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est produite par les cellules NK activées ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules NK produisent l'IFN-γ qui active les macrophages et oriente vers une réponse Th1.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la chaîne invariante (Ii) ?",
+      "difficulty": "Difficile",
+      "explanation": "La chaîne invariante protège le sillon du CMH II dans le RE et dirige le complexe vers les compartiments endosomaux (MIIC/CIIV).",
+      "answers": [
+        { "text": "Activer le complément", "is_correct": false },
+        { "text": "Protéger le sillon du CMH II", "is_correct": true },
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Lyser les cellules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie résulte d'un déficit en C1-inhibiteur ?",
+      "difficulty": "Moyen",
+      "explanation": "L'angio-œdème héréditaire résulte d'un déficit en C1-INH, causant une activation incontrôlée de la cascade du complément et de la kallikréine.",
+      "answers": [
+        { "text": "Lupus", "is_correct": false },
+        { "text": "Angio-œdème héréditaire", "is_correct": true },
+        { "text": "SCID", "is_correct": false },
+        { "text": "Polyarthrite rhumatoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur reconnaît l'ARN double brin viral ?",
+      "difficulty": "Difficile",
+      "explanation": "TLR3 reconnaît l'ARN double brin viral dans les endosomes, déclenchant la production d'interférons de type I.",
+      "answers": [
+        { "text": "TLR2", "is_correct": false },
+        { "text": "TLR3", "is_correct": true },
+        { "text": "TLR4", "is_correct": false },
+        { "text": "TLR9", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'IL-5 ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-5 active et recrute les éosinophiles, importante dans la défense contre les parasites helminthes et les réactions allergiques.",
+      "answers": [
+        { "text": "Activer les macrophages", "is_correct": false },
+        { "text": "Activer les éosinophiles", "is_correct": true },
+        { "text": "Inhiber l'inflammation", "is_correct": false },
+        { "text": "Produire des IgG", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel facteur de transcription induit les lymphocytes Th17 ?",
+      "difficulty": "Difficile",
+      "explanation": "RORγt (retinoic acid receptor-related orphan receptor gamma t) est le facteur maître de différenciation des Th17.",
+      "answers": [
+        { "text": "T-bet", "is_correct": false },
+        { "text": "RORγt", "is_correct": true },
+        { "text": "GATA-3", "is_correct": false },
+        { "text": "Foxp3", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de vaccin contient des sous-unités protéiques ?",
+      "difficulty": "Facile",
+      "explanation": "Les vaccins sous-unitaires (hépatite B, HPV) contiennent des antigènes purifiés ou recombinants, souvent avec adjuvants.",
+      "answers": [
+        { "text": "Vaccin vivant atténué", "is_correct": false },
+        { "text": "Vaccin sous-unitaire", "is_correct": true },
+        { "text": "Vaccin inactivé entier", "is_correct": false },
+        { "text": "Vaccin à vecteur viral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule permet la diapédèse des neutrophiles ?",
+      "difficulty": "Difficile",
+      "explanation": "PECAM-1 (CD31) et JAM-A facilitent le passage des neutrophiles entre les cellules endothéliales lors de la diapédèse.",
+      "answers": [
+        { "text": "Sélectines uniquement", "is_correct": false },
+        { "text": "PECAM-1", "is_correct": true },
+        { "text": "Immunoglobulines", "is_correct": false },
+        { "text": "Complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la protéine TAP ?",
+      "difficulty": "Difficile",
+      "explanation": "TAP (transporter associated with antigen processing) transporte les peptides du cytosol vers le RE pour le chargement sur CMH I.",
+      "answers": [
+        { "text": "Activer le complément", "is_correct": false },
+        { "text": "Transporter les peptides vers le RE", "is_correct": true },
+        { "text": "Produire des anticorps", "is_correct": false },
+        { "text": "Lyser les pathogènes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle pathologie résulte d'un déficit en défensines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les déficits en défensines (peptides antimicrobiens) causent une susceptibilité accrue aux infections bactériennes, notamment cutanées et intestinales.",
+      "answers": [
+        { "text": "Lupus", "is_correct": false },
+        { "text": "Infections bactériennes récurrentes", "is_correct": true },
+        { "text": "Allergie sévère", "is_correct": false },
+        { "text": "Auto-immunité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline ne peut pas activer le complément par la voie classique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgA et IgE n'activent pas efficacement le complément par la voie classique, contrairement aux IgG et IgM.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgE", "is_correct": true },
+        { "text": "IgM", "is_correct": false },
+        { "text": "IgG1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel marqueur est exprimé par les lymphocytes T mémoires centraux ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lymphocytes T mémoires centraux expriment CD62L et CCR7, leur permettant de circuler vers les organes lymphoïdes secondaires.",
+      "answers": [
+        { "text": "CD45RA", "is_correct": false },
+        { "text": "CD62L et CCR7", "is_correct": true },
+        { "text": "CD69 uniquement", "is_correct": false },
+        { "text": "Absence de CD45", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine antagonise l'action de l'IFN-γ ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-4 et l'IL-10 antagonisent les effets de l'IFN-γ, inhibant l'activation des macrophages et favorisant une réponse Th2.",
+      "answers": [
+        { "text": "IL-12", "is_correct": false },
+        { "text": "IL-4", "is_correct": true },
+        { "text": "IL-2", "is_correct": false },
+        { "text": "TNF-α", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur TLR reconnaît le LPS bactérien ?",
+      "difficulty": "Moyen",
+      "explanation": "TLR4 reconnaît le lipopolysaccharide (LPS) des bactéries Gram négatif, avec l'aide de MD-2 et CD14.",
+      "answers": [
+        { "text": "TLR2", "is_correct": false },
+        { "text": "TLR4", "is_correct": true },
+        { "text": "TLR3", "is_correct": false },
+        { "text": "TLR9", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du rituximab ?",
+      "difficulty": "Difficile",
+      "explanation": "Le rituximab est un anticorps anti-CD20 qui déplète les lymphocytes B par ADCC, CDC et apoptose directe.",
+      "answers": [
+        { "text": "Blocage du TNF-α", "is_correct": false },
+        { "text": "Déplétion des lymphocytes B", "is_correct": true },
+        { "text": "Inhibition de l'IL-6", "is_correct": false },
+        { "text": "Activation du complément seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est exprimée par les lymphocytes T effecteurs ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T effecteurs expriment CD45RO (perte de CD45RA) et perdent CD62L, leur permettant de migrer vers les tissus périphériques.",
+      "answers": [
+        { "text": "CD45RA", "is_correct": false },
+        { "text": "CD45RO", "is_correct": true },
+        { "text": "CD62L élevé", "is_correct": false },
+        { "text": "CCR7 élevé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel syndrome résulte d'un déficit en molécules d'adhésion (LAD) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le LAD (leukocyte adhesion deficiency) résulte d'un déficit en intégrines (CD18), empêchant la migration des leucocytes vers les tissus.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "LAD", "is_correct": true },
+        { "text": "Syndrome de DiGeorge", "is_correct": false },
+        { "text": "Bruton", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle interleukine est importante pour la survie des lymphocytes T mémoires ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IL-7 et l'IL-15 maintiennent la survie et l'homéostasie des lymphocytes T mémoires par prolifération homéostatique.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IL-7 et IL-15", "is_correct": true },
+        { "text": "IL-1", "is_correct": false },
+        { "text": "IL-6", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules dendritiques plasmacytoïdes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les pDC produisent massivement des interférons de type I (IFN-α/β) en réponse aux infections virales.",
+      "answers": [
+        { "text": "Phagocytose efficace", "is_correct": false },
+        { "text": "Production d'IFN de type I", "is_correct": true },
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Cytolyse directe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie auto-immune cible les îlots de Langerhans ?",
+      "difficulty": "Facile",
+      "explanation": "Le diabète de type 1 résulte d'une destruction auto-immune des cellules β des îlots de Langerhans par les lymphocytes T CD8+.",
+      "answers": [
+        { "text": "Diabète de type 2", "is_correct": false },
+        { "text": "Diabète de type 1", "is_correct": true },
+        { "text": "Thyroïdite", "is_correct": false },
+        { "text": "Lupus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur détecte l'ADN CpG non méthylé ?",
+      "difficulty": "Difficile",
+      "explanation": "TLR9 reconnaît les motifs CpG non méthylés (caractéristiques de l'ADN bactérien et viral) dans les endosomes.",
+      "answers": [
+        { "text": "TLR3", "is_correct": false },
+        { "text": "TLR9", "is_correct": true },
+        { "text": "TLR4", "is_correct": false },
+        { "text": "TLR7", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine induit la fièvre et la production de protéines de phase aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-6 est un pyrogène majeur qui induit aussi la production hépatique de protéines de phase aiguë (CRP, fibrinogène).",
+      "answers": [
+        { "text": "IL-10", "is_correct": false },
+        { "text": "IL-6", "is_correct": true },
+        { "text": "IL-4", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme cause l'anergie des lymphocytes T ?",
+      "difficulty": "Difficile",
+      "explanation": "L'anergie résulte d'une activation du TCR sans signal de co-stimulation (CD28), rendant le lymphocyte T non réactif.",
+      "answers": [
+        { "text": "Double signal d'activation", "is_correct": false },
+        { "text": "Signal 1 sans signal 2", "is_correct": true },
+        { "text": "Apoptose immédiate", "is_correct": false },
+        { "text": "Mutation du TCR", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule inhibe les cellules NK lorsque le CMH I est normal ?",
+      "difficulty": "Moyen",
+      "explanation": "Les récepteurs inhibiteurs KIR reconnaissent le CMH I et envoient un signal inhibiteur via leur motif ITIM.",
+      "answers": [
+        { "text": "NKG2D", "is_correct": false },
+        { "text": "KIR", "is_correct": true },
+        { "text": "CD16", "is_correct": false },
+        { "text": "Perforine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel syndrome présente une thrombopénie et un eczéma ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Wiskott-Aldrich (déficit en protéine WASP) cause thrombopénie, eczéma et immunodéficience.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "Syndrome de Wiskott-Aldrich", "is_correct": true },
+        { "text": "DiGeorge", "is_correct": false },
+        { "text": "Bruton", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'IL-23 ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IL-23 maintient et amplifie les réponses Th17, importante dans les maladies auto-immunes et l'inflammation chronique.",
+      "answers": [
+        { "text": "Différenciation Th1", "is_correct": false },
+        { "text": "Maintien des Th17", "is_correct": true },
+        { "text": "Production d'IgE", "is_correct": false },
+        { "text": "Inhibition immune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule permet la transcytose des IgA à travers l'épithélium ?",
+      "difficulty": "Difficile",
+      "explanation": "Le récepteur poly-Ig (pIgR) permet le transport des IgA dimériques à travers les cellules épithéliales vers les sécrétions.",
+      "answers": [
+        { "text": "FcRn", "is_correct": false },
+        { "text": "Récepteur poly-Ig", "is_correct": true },
+        { "text": "FcγR", "is_correct": false },
+        { "text": "CD89", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de tolérance implique les lymphocytes T régulateurs ?",
+      "difficulty": "Moyen",
+      "explanation": "La tolérance périphérique active utilise les Treg pour supprimer les réponses auto-immunes échappant à la sélection centrale.",
+      "answers": [
+        { "text": "Tolérance centrale uniquement", "is_correct": false },
+        { "text": "Tolérance périphérique", "is_correct": true },
+        { "text": "Ignorance immune", "is_correct": false },
+        { "text": "Séquestration antigénique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine favorise la commutation vers les IgG chez l'homme ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IFN-γ favorise la commutation vers les sous-classes IgG1 et IgG3, importantes pour l'opsonisation et l'activation du complément.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": true },
+        { "text": "TGF-β", "is_correct": false },
+        { "text": "IL-10", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme du choc anaphylactique ?",
+      "difficulty": "Moyen",
+      "explanation": "La dégranulation massive des mastocytes libère histamine et médiateurs vasoactifs, causant vasodilatation, œdème et bronchospasme.",
+      "answers": [
+        { "text": "Activation du complément", "is_correct": false },
+        { "text": "Dégranulation des mastocytes", "is_correct": true },
+        { "text": "Lyse cellulaire", "is_correct": false },
+        { "text": "Formation de complexes immuns", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est exprimée par les lymphocytes T activés récemment ?",
+      "difficulty": "Difficile",
+      "explanation": "CD69 est un marqueur précoce d'activation exprimé 1-2h après stimulation, retenant les lymphocytes dans les tissus lymphoïdes.",
+      "answers": [
+        { "text": "CD62L", "is_correct": false },
+        { "text": "CD69", "is_correct": true },
+        { "text": "CD45RA", "is_correct": false },
+        { "text": "CCR7", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel déficit cause des infections à germes catalase-positifs ?",
+      "difficulty": "Difficile",
+      "explanation": "Le déficit en NADPH oxydase (granulomatose septique) cause des infections par germes catalase+ (Staphylococcus, Aspergillus) qui neutralisent leur propre H₂O₂.",
+      "answers": [
+        { "text": "Déficit en C3", "is_correct": false },
+        { "text": "Déficit en NADPH oxydase", "is_correct": true },
+        { "text": "Déficit en IgA", "is_correct": false },
+        { "text": "LAD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie auto-immune cible la jonction dermo-épidermique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pemphigus et la pemphigoïde bulleuse produisent des auto-anticorps contre les desmogléines et les hémidesmosomes.",
+      "answers": [
+        { "text": "Lupus", "is_correct": false },
+        { "text": "Pemphigus", "is_correct": true },
+        { "text": "Sclérodermie", "is_correct": false },
+        { "text": "Vitiligo", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du CD40 sur les cellules B ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CD40 reçoit le signal de CD40L des lymphocytes T helper, induisant prolifération, commutation isotypique et maturation d'affinité.",
+      "answers": [
+        { "text": "Reconnaissance antigénique", "is_correct": false },
+        { "text": "Activation par les T helper", "is_correct": true },
+        { "text": "Migration vers les ganglions", "is_correct": false },
+        { "text": "Phagocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule du CMH présente les superantigènes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les superantigènes (toxines bactériennes) se lient directement au CMH II et au TCR sans traitement antigénique, activant massivement les lymphocytes T.",
+      "answers": [
+        { "text": "CMH I", "is_correct": false },
+        { "text": "CMH II", "is_correct": true },
+        { "text": "CD1", "is_correct": false },
+        { "text": "Aucun CMH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'enzyme AID ?",
+      "difficulty": "Difficile",
+      "explanation": "L'AID (activation-induced deaminase) catalyse l'hypermutation somatique et la commutation isotypique en déaminant les cytosines.",
+      "answers": [
+        { "text": "Recombinaison V(D)J", "is_correct": false },
+        { "text": "Hypermutation somatique", "is_correct": true },
+        { "text": "Apoptose", "is_correct": false },
+        { "text": "Phagocytose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine produite par les Th17 recrute les neutrophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-17 induit la production de chimiokines (IL-8, G-CSF) qui recrutent et activent les neutrophiles.",
+      "answers": [
+        { "text": "IFN-γ", "is_correct": false },
+        { "text": "IL-17", "is_correct": true },
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IL-10", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur de chimiokine guide les lymphocytes B vers les follicules ?",
+      "difficulty": "Difficile",
+      "explanation": "CXCR5 répond à CXCL13 produit dans les follicules, guidant les lymphocytes B et les Tfh vers les centres germinatifs.",
+      "answers": [
+        { "text": "CCR7", "is_correct": false },
+        { "text": "CXCR5", "is_correct": true },
+        { "text": "CXCR4", "is_correct": false },
+        { "text": "CCR5", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des lymphocytes T folliculaires helper (Tfh) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les Tfh aident les lymphocytes B dans les centres germinatifs pour la maturation d'affinité et la commutation isotypique via IL-21 et CD40L.",
+      "answers": [
+        { "text": "Cytolyse directe", "is_correct": false },
+        { "text": "Aide aux lymphocytes B", "is_correct": true },
+        { "text": "Phagocytose", "is_correct": false },
+        { "text": "Production d'anticorps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel test diagnostique la tuberculose par hypersensibilité retardée ?",
+      "difficulty": "Facile",
+      "explanation": "Le test IDR à la tuberculine (Mantoux) ou IGRA détecte une réaction d'hypersensibilité de type IV contre Mycobacterium tuberculosis.",
+      "answers": [
+        { "text": "Test de Coombs", "is_correct": false },
+        { "text": "Test IDR tuberculine", "is_correct": true },
+        { "text": "Test au latex", "is_correct": false },
+        { "text": "Test ELISA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle protéine du complément opsonise le plus efficacement ?",
+      "difficulty": "Moyen",
+      "explanation": "C3b fixé sur les pathogènes est reconnu par CR1 sur les phagocytes, facilitant massivement la phagocytose.",
+      "answers": [
+        { "text": "C5a", "is_correct": false },
+        { "text": "C3b", "is_correct": true },
+        { "text": "C1q", "is_correct": false },
+        { "text": "C9", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel syndrome résulte d'une mutation de FOXP3 ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome IPEX (dysrégulation immune, polyendocrinopathie, entéropathie) résulte d'un déficit en Treg par mutation de FOXP3.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "IPEX", "is_correct": true },
+        { "text": "DiGeorge", "is_correct": false },
+        { "text": "LAD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle voie de signalisation active le TCR ?",
+      "difficulty": "Difficile",
+      "explanation": "La liaison du TCR active les kinases Lck et ZAP-70 via les motifs ITAM de CD3, déclenchant les cascades PLCγ, Ras/MAPK et NF-κB.",
+      "answers": [
+        { "text": "Voie JAK-STAT uniquement", "is_correct": false },
+        { "text": "Voie ITAM/ZAP-70", "is_correct": true },
+        { "text": "Voie cAMP", "is_correct": false },
+        { "text": "Voie Notch", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme de la maladie du greffon contre l'hôte ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T du donneur reconnaissent les antigènes du receveur comme étrangers et attaquent ses tissus (peau, foie, intestin).",
+      "answers": [
+        { "text": "Rejet hyperaigu", "is_correct": false },
+        {
+          "text": "Lymphocytes T du donneur attaquent l'hôte",
+          "is_correct": true
+        },
+        { "text": "Anticorps anti-HLA", "is_correct": false },
+        { "text": "Activation du complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule de surface identifie les cellules souches hématopoïétiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Le CD34 est le marqueur classique des cellules souches hématopoïétiques utilisé pour l'enrichissement en greffe.",
+      "answers": [
+        { "text": "CD3", "is_correct": false },
+        { "text": "CD34", "is_correct": true },
+        { "text": "CD19", "is_correct": false },
+        { "text": "CD8", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de rejet est médié par des anticorps préformés ?",
+      "difficulty": "Moyen",
+      "explanation": "Le rejet hyperaigu survient en minutes par des anticorps anti-HLA préexistants qui activent le complément et causent thrombose.",
+      "answers": [
+        { "text": "Rejet chronique", "is_correct": false },
+        { "text": "Rejet hyperaigu", "is_correct": true },
+        { "text": "Rejet aigu cellulaire", "is_correct": false },
+        { "text": "GVH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est impliquée dans le choc septique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le TNF-α et l'IL-1 produits massivement lors d'une septicémie causent fièvre, vasodilatation, coagulation et défaillance d'organes.",
+      "answers": [
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TNF-α", "is_correct": true },
+        { "text": "IL-4", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la protéine C réactive (CRP) ?",
+      "difficulty": "Facile",
+      "explanation": "La CRP est une protéine de phase aiguë qui opsonise les pathogènes et active le complément, servant de marqueur d'inflammation.",
+      "answers": [
+        { "text": "Inhiber l'inflammation", "is_correct": false },
+        {
+          "text": "Opsonisation et activation du complément",
+          "is_correct": true
+        },
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Cytolyse directe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle immunoglobuline est monomérique dans le sang et dimérique dans les sécrétions ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgA sont monomériques dans le sérum mais dimériques (liées par la chaîne J) dans les sécrétions mucosales.",
+      "answers": [
+        { "text": "IgG", "is_correct": false },
+        { "text": "IgA", "is_correct": true },
+        { "text": "IgM", "is_correct": false },
+        { "text": "IgE", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet l'exclusion allélique du BCR ?",
+      "difficulty": "Difficile",
+      "explanation": "L'exclusion allélique assure qu'un lymphocyte B n'exprime qu'un seul BCR fonctionnel en inhibant la recombinaison du deuxième allèle après succès.",
+      "answers": [
+        { "text": "Délétion de l'autre allèle", "is_correct": false },
+        { "text": "Inhibition de la recombinaison", "is_correct": true },
+        { "text": "Méthylation de l'ADN", "is_correct": false },
+        { "text": "Apoptose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'IL-21 ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IL-21 produite par les Tfh stimule la différenciation des lymphocytes B en plasmocytes et cellules mémoires dans les centres germinatifs.",
+      "answers": [
+        { "text": "Inhibition immune", "is_correct": false },
+        { "text": "Différenciation des lymphocytes B", "is_correct": true },
+        { "text": "Activation des macrophages", "is_correct": false },
+        { "text": "Production d'éosinophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur active les lymphocytes B indépendamment de l'antigène ?",
+      "difficulty": "Difficile",
+      "explanation": "Les TLR sur les lymphocytes B (TLR9, TLR7) peuvent les activer directement via les PAMP, sans reconnaissance antigénique spécifique.",
+      "answers": [
+        { "text": "BCR uniquement", "is_correct": false },
+        { "text": "TLR", "is_correct": true },
+        { "text": "CD40", "is_correct": false },
+        { "text": "Récepteur Fc", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie résulte d'un déficit en adénosine déaminase (ADA) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le déficit en ADA cause un SCID par accumulation de métabolites toxiques (dATP) pour les lymphocytes T et B.",
+      "answers": [
+        { "text": "Bruton", "is_correct": false },
+        { "text": "SCID", "is_correct": true },
+        { "text": "DiGeorge", "is_correct": false },
+        { "text": "CGD", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du CD25 sur les lymphocytes T ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CD25 est la chaîne α du récepteur à l'IL-2, exprimé fortement par les Treg et les lymphocytes T activés.",
+      "answers": [
+        { "text": "Co-stimulation", "is_correct": false },
+        { "text": "Récepteur à l'IL-2", "is_correct": true },
+        { "text": "Reconnaissance antigénique", "is_correct": false },
+        { "text": "Adhésion cellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle population de lymphocytes T reconnaît les antigènes présentés par CD1d ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules NKT invariantes (iNKT) reconnaissent les glycolipides (α-GalCer) présentés par CD1d et produisent rapidement des cytokines.",
+      "answers": [
+        { "text": "T CD4+ classiques", "is_correct": false },
+        { "text": "Cellules NKT", "is_correct": true },
+        { "text": "T CD8+ classiques", "is_correct": false },
+        { "text": "Lymphocytes B", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel processus génère la diversité combinatoire des anticorps ?",
+      "difficulty": "Difficile",
+      "explanation": "La combinaison aléatoire de différents segments V, D et J crée une immense diversité combinatoire avant même l'ajout de nucléotides N.",
+      "answers": [
+        { "text": "Hypermutation somatique", "is_correct": false },
+        { "text": "Recombinaison aléatoire V(D)J", "is_correct": true },
+        { "text": "Commutation isotypique", "is_correct": false },
+        { "text": "Édition du récepteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme dégrade l'histamine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'histaminase (diamine oxydase) et la N-méthyltransférase dégradent l'histamine, limitant sa durée d'action.",
+      "answers": [
+        { "text": "Lysozyme", "is_correct": false },
+        { "text": "Histaminase", "is_correct": true },
+        { "text": "Perforine", "is_correct": false },
+        { "text": "Cathepsine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel antigène tumoral est reconnu par les lymphocytes T dans les mélanomes ?",
+      "difficulty": "Difficile",
+      "explanation": "MART-1, gp100 et tyrosinase sont des antigènes associés aux tumeurs (TAA) reconnus dans les mélanomes par les lymphocytes T CD8+.",
+      "answers": [
+        { "text": "HER2", "is_correct": false },
+        { "text": "MART-1", "is_correct": true },
+        { "text": "CEA", "is_correct": false },
+        { "text": "AFP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule favorise l'extravasation des lymphocytes vers les tissus inflammés ?",
+      "difficulty": "Moyen",
+      "explanation": "L'expression de VLA-4 (α4β1 intégrine) permet l'adhésion à VCAM-1 sur l'endothélium activé, facilitant la migration vers l'inflammation.",
+      "answers": [
+        { "text": "L-sélectine", "is_correct": false },
+        { "text": "VLA-4", "is_correct": true },
+        { "text": "CD62L", "is_correct": false },
+        { "text": "CCR7", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme d'action de la ciclosporine ?",
+      "difficulty": "Moyen",
+      "explanation": "La ciclosporine inhibe la calcineurine, bloquant la production d'IL-2 et l'activation des lymphocytes T.",
+      "answers": [
+        { "text": "Blocage du TNF-α", "is_correct": false },
+        { "text": "Inhibition de la calcineurine", "is_correct": true },
+        { "text": "Déplétion des lymphocytes B", "is_correct": false },
+        { "text": "Activation du complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du système HLA ?",
+      "difficulty": "Facile",
+      "explanation": "Le système HLA (Human Leukocyte Antigen) correspond au CMH humain, présentant les peptides aux lymphocytes T et déterminant la compatibilité de greffe.",
+      "answers": [
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Présentation antigénique", "is_correct": true },
+        { "text": "Phagocytose", "is_correct": false },
+        { "text": "Activation du complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel déficit immunitaire présente une ataxie-télangiectasie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ataxie-télangiectasie (déficit en ATM) cause ataxie cérébelleuse, télangiectasies, infections et prédisposition aux cancers.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "Ataxie-télangiectasie", "is_correct": true },
+        { "text": "Bruton", "is_correct": false },
+        { "text": "DiGeorge", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine est le principal facteur de croissance des éosinophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IL-5 est essentielle pour la différenciation, l'activation et la survie des éosinophiles.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "IL-5", "is_correct": true },
+        { "text": "IL-12", "is_correct": false },
+        { "text": "IFN-γ", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet aux pathogènes d'éviter les anticorps ?",
+      "difficulty": "Difficile",
+      "explanation": "La variation antigénique (changement de protéines de surface) permet aux pathogènes d'échapper aux anticorps préexistants (ex: influenza, VIH).",
+      "answers": [
+        { "text": "Inhibition du complément", "is_correct": false },
+        { "text": "Variation antigénique", "is_correct": true },
+        { "text": "Production d'IgG", "is_correct": false },
+        { "text": "Activation des Treg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'interféron de type I ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IFN-α/β induisent un état antiviral dans les cellules, augmentent le CMH I et activent les cellules NK.",
+      "answers": [
+        { "text": "Activation des lymphocytes B", "is_correct": false },
+        { "text": "Réponse antivirale", "is_correct": true },
+        { "text": "Production d'IgE", "is_correct": false },
+        { "text": "Recrutement des neutrophiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule est nécessaire à la présentation croisée ?",
+      "difficulty": "Difficile",
+      "explanation": "La présentation croisée permet aux cellules dendritiques de présenter des antigènes exogènes sur CMH I via TAP, activant les T CD8+.",
+      "answers": [
+        { "text": "CMH II uniquement", "is_correct": false },
+        { "text": "CMH I et TAP", "is_correct": true },
+        { "text": "CD1", "is_correct": false },
+        { "text": "BCR", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel syndrome auto-immun attaque le système nerveux périphérique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Guillain-Barré produit des auto-anticorps contre les gangliosides, causant une paralysie ascendante post-infectieuse.",
+      "answers": [
+        { "text": "Sclérose en plaques", "is_correct": false },
+        { "text": "Syndrome de Guillain-Barré", "is_correct": true },
+        { "text": "Myasthénie", "is_correct": false },
+        { "text": "Lupus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction de l'opsonisation ?",
+      "difficulty": "Facile",
+      "explanation": "L'opsonisation marque les pathogènes avec des anticorps ou C3b, facilitant leur reconnaissance et phagocytose par les cellules exprimant les récepteurs Fc ou CR1.",
+      "answers": [
+        { "text": "Lyse directe", "is_correct": false },
+        { "text": "Faciliter la phagocytose", "is_correct": true },
+        { "text": "Inhiber l'inflammation", "is_correct": false },
+        { "text": "Produire des cytokines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur de cytokine utilise la voie JAK-STAT ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs des interférons, IL-2, IL-6, IL-12 utilisent la voie JAK-STAT pour transduire leurs signaux.",
+      "answers": [
+        { "text": "TCR", "is_correct": false },
+        { "text": "Récepteurs de cytokines", "is_correct": true },
+        { "text": "TLR", "is_correct": false },
+        { "text": "BCR", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle maladie résulte d'un déficit en protéine régulatrice du complément ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hémoglobinurie paroxystique nocturne (HPN) résulte d'un déficit en CD55/CD59, causant la lyse des érythrocytes par le complément.",
+      "answers": [
+        { "text": "SCID", "is_correct": false },
+        { "text": "HPN", "is_correct": true },
+        { "text": "Anémie falciforme", "is_correct": false },
+        { "text": "Thalassémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type d'adjuvant active le NLRP3 inflammasome ?",
+      "difficulty": "Difficile",
+      "explanation": "Les sels d'aluminium (alum) activent le NLRP3 inflammasome, augmentant la production d'IL-1β et la réponse immune aux vaccins.",
+      "answers": [
+        { "text": "Adjuvants à ARN", "is_correct": false },
+        { "text": "Sels d'aluminium", "is_correct": true },
+        { "text": "Toxines inactivées", "is_correct": false },
+        { "text": "Lipides simples", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule caractérise les lymphocytes T mémoires résidents ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lymphocytes T mémoires résidents (Trm) expriment CD69 et CD103, restant dans les tissus périphériques pour une protection locale rapide.",
+      "answers": [
+        { "text": "CD62L élevé", "is_correct": false },
+        { "text": "CD69 et CD103", "is_correct": true },
+        { "text": "CCR7 élevé", "is_correct": false },
+        { "text": "CD45RA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme induit la tolérance orale ?",
+      "difficulty": "Difficile",
+      "explanation": "L'exposition à des antigènes par voie orale induit des Treg et la production de TGF-β/IL-10, créant une tolérance aux antigènes alimentaires.",
+      "answers": [
+        { "text": "Activation systémique", "is_correct": false },
+        { "text": "Induction de Treg", "is_correct": true },
+        { "text": "Production massive d'IgE", "is_correct": false },
+        { "text": "Activation du complément", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine inhibe la prolifération virale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les interférons de type I (IFN-α/β) et de type II (IFN-γ) inhibent la réplication virale en activant des gènes antiviraux.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "Interférons", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules M dans le système immunitaire mucosal ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules M des plaques de Peyer transportent les antigènes luminaux vers les tissus lymphoïdes sous-jacents pour initier une réponse immune.",
+      "answers": [
+        { "text": "Production d'anticorps", "is_correct": false },
+        { "text": "Transport d'antigènes", "is_correct": true },
+        { "text": "Phagocytose directe", "is_correct": false },
+        { "text": "Sécrétion de mucus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle molécule permet la liaison des neutrophiles à l'endothélium activé ?",
+      "difficulty": "Moyen",
+      "explanation": "Les intégrines (LFA-1, Mac-1) se lient à ICAM-1/VCAM-1 pour l'adhésion ferme après le roulement médié par les sélectines.",
+      "answers": [
+        { "text": "Sélectines uniquement", "is_correct": false },
+        { "text": "Intégrines", "is_correct": true },
+        { "text": "Immunoglobulines", "is_correct": false },
+        { "text": "Cadherines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel test détecte les anticorps anti-érythrocytaires ?",
+      "difficulty": "Facile",
+      "explanation": "Le test de Coombs (direct ou indirect) détecte les anticorps fixés sur les érythrocytes ou circulants, diagnostiquant les anémies hémolytiques auto-immunes.",
+      "answers": [
+        { "text": "Test ELISA", "is_correct": false },
+        { "text": "Test de Coombs", "is_correct": true },
+        { "text": "Test Western Blot", "is_correct": false },
+        { "text": "Test IDR", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle voie du complément est indépendante des anticorps ?",
+      "difficulty": "Moyen",
+      "explanation": "La voie alterne et la voie des lectines s'activent sans anticorps, contrairement à la voie classique qui nécessite des complexes immuns.",
+      "answers": [
+        { "text": "Voie classique", "is_correct": false },
+        { "text": "Voie alterne et des lectines", "is_correct": true },
+        { "text": "Voie classique et alterne", "is_correct": false },
+        { "text": "Aucune voie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme cause la maladie hémolytique du nouveau-né ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgG anti-Rh maternelles traversent le placenta et détruisent les érythrocytes Rh+ du fœtus (incompatibilité fœto-maternelle).",
+      "answers": [
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Incompatibilité Rh", "is_correct": true },
+        { "text": "Déficit en complément", "is_correct": false },
+        { "text": "Auto-immunité néonatale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cytokine favorise la différenciation des monocytes en macrophages ?",
+      "difficulty": "Moyen",
+      "explanation": "Le M-CSF (macrophage colony-stimulating factor) induit la différenciation des monocytes en macrophages dans les tissus.",
+      "answers": [
+        { "text": "IL-4", "is_correct": false },
+        { "text": "M-CSF", "is_correct": true },
+        { "text": "IL-10", "is_correct": false },
+        { "text": "TGF-β", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du mycophénolate mofétil ?",
+      "difficulty": "Difficile",
+      "explanation": "Le mycophénolate inhibe l'IMPDH, bloquant la synthèse des purines et la prolifération des lymphocytes T et B.",
+      "answers": [
+        { "text": "Inhibition de la calcineurine", "is_correct": false },
+        { "text": "Inhibition de la synthèse des purines", "is_correct": true },
+        { "text": "Blocage du TNF-α", "is_correct": false },
+        { "text": "Déplétion des lymphocytes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle population cellulaire produit massivement des anticorps ?",
+      "difficulty": "Facile",
+      "explanation": "Les plasmocytes (lymphocytes B terminalement différenciés) sont spécialisés dans la production massive d'anticorps.",
+      "answers": [
+        { "text": "Lymphocytes T", "is_correct": false },
+        { "text": "Plasmocytes", "is_correct": true },
+        { "text": "Cellules dendritiques", "is_correct": false },
+        { "text": "Macrophages", "is_correct": false }
       ]
     }
   ]

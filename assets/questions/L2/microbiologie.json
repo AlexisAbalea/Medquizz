@@ -6,10 +6,10 @@
       "difficulty": "Moyen",
       "explanation": "Les bactéries Gram+ ont une paroi cellulaire épaisse de peptidoglycane qui retient le colorant violet, tandis que les Gram- ont une paroi fine et une membrane externe.",
       "answers": [
-        {"text": "L'épaisseur de la paroi cellulaire", "is_correct": true},
-        {"text": "La présence d'ADN", "is_correct": false},
-        {"text": "Le nombre de flagelles", "is_correct": false},
-        {"text": "La taille de la bactérie", "is_correct": false}
+        { "text": "L'épaisseur de la paroi cellulaire", "is_correct": true },
+        { "text": "La présence d'ADN", "is_correct": false },
+        { "text": "Le nombre de flagelles", "is_correct": false },
+        { "text": "La taille de la bactérie", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,4748 @@
       "difficulty": "Facile",
       "explanation": "Le paludisme est causé par des parasites du genre Plasmodium, transmis par les piqûres de moustiques Anopheles femelles.",
       "answers": [
-        {"text": "Un virus", "is_correct": false},
-        {"text": "Une bactérie", "is_correct": false},
-        {"text": "Un parasite", "is_correct": true},
-        {"text": "Un champignon", "is_correct": false}
+        { "text": "Un virus", "is_correct": false },
+        { "text": "Une bactérie", "is_correct": false },
+        { "text": "Un parasite", "is_correct": true },
+        { "text": "Un champignon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'agent causal de la tuberculose ?",
+      "difficulty": "Facile",
+      "explanation": "Mycobacterium tuberculosis est une bactérie intracellulaire facultative responsable de la tuberculose. Elle se transmet principalement par voie aérienne.",
+      "answers": [
+        {
+          "text": "Staphylococcus aureus",
+          "is_correct": false
+        },
+        {
+          "text": "Mycobacterium tuberculosis",
+          "is_correct": true
+        },
+        {
+          "text": "Escherichia coli",
+          "is_correct": false
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de virus est le VIH ?",
+      "difficulty": "Facile",
+      "explanation": "Le VIH est un rétrovirus, c'est-à-dire qu'il utilise une enzyme appelée transcriptase inverse pour convertir son ARN en ADN dans la cellule hôte.",
+      "answers": [
+        {
+          "text": "Adénovirus",
+          "is_correct": false
+        },
+        {
+          "text": "Rétrovirus",
+          "is_correct": true
+        },
+        {
+          "text": "Herpèsvirus",
+          "is_correct": false
+        },
+        {
+          "text": "Coronavirus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action principal des bêta-lactamines ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-lactamines inhibent la synthèse de la paroi bactérienne en bloquant les enzymes appelées PLP (protéines liant la pénicilline).",
+      "answers": [
+        {
+          "text": "Inhibition de la synthèse protéique",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la synthèse de la paroi bactérienne",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la synthèse de l'ADN",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la synthèse de l'ARN",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mode de transmission principal de la grippe ?",
+      "difficulty": "Facile",
+      "explanation": "La grippe se transmet principalement par voie aérienne, via des gouttelettes respiratoires émises lors de la toux ou des éternuements.",
+      "answers": [
+        {
+          "text": "Voie sanguine",
+          "is_correct": false
+        },
+        {
+          "text": "Voie aérienne",
+          "is_correct": true
+        },
+        {
+          "text": "Voie digestive",
+          "is_correct": false
+        },
+        {
+          "text": "Voie cutanée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps IgM ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgM sont les premiers anticorps produits lors d'une réponse immunitaire primaire. Ils sont pentamériques et très efficaces pour l'agglutination des pathogènes.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire secondaire",
+          "is_correct": false
+        },
+        {
+          "text": "Réponse immunitaire primaire",
+          "is_correct": true
+        },
+        {
+          "text": "Mémoire immunitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Neutralisation des toxines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Legionella pneumophila ?",
+      "difficulty": "Moyen",
+      "explanation": "Legionella pneumophila est principalement présente dans les réseaux d'eau douce, notamment les systèmes de climatisation et les tours aéro-réfrigérantes.",
+      "answers": [
+        {
+          "text": "Les sols secs",
+          "is_correct": false
+        },
+        {
+          "text": "Les réseaux d'eau douce",
+          "is_correct": true
+        },
+        {
+          "text": "Les animaux domestiques",
+          "is_correct": false
+        },
+        {
+          "text": "Les aliments contaminés",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme de résistance des bactéries aux aminoglycosides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent produire des enzymes qui modifient chimiquement les aminoglycosides, les rendant inactifs.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le vecteur principal de la maladie de Lyme ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Lyme est transmise par les tiques du genre Ixodes, qui sont des arthropodes.",
+      "answers": [
+        {
+          "text": "Moustique",
+          "is_correct": false
+        },
+        {
+          "text": "Tique",
+          "is_correct": true
+        },
+        {
+          "text": "Puce",
+          "is_correct": false
+        },
+        {
+          "text": "Mouche",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des endotoxines bactériennes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les endotoxines, comme le lipopolysaccharide (LPS) des bactéries Gram négatif, déclenchent une réponse inflammatoire intense chez l'hôte.",
+      "answers": [
+        {
+          "text": "Stimuler la croissance bactérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Déclencher une réponse inflammatoire",
+          "is_correct": true
+        },
+        {
+          "text": "Inhiber la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Favoriser la conjugaison",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mode d'action des antiviraux inhibiteurs de la neuraminidase ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la neuraminidase empêchent la libération des virions nouvellement formés à partir des cellules infectées.",
+      "answers": [
+        {
+          "text": "Empêcher la pénétration virale",
+          "is_correct": false
+        },
+        {
+          "text": "Empêcher la libération des virions",
+          "is_correct": true
+        },
+        {
+          "text": "Inhiber la réplication de l'ARN",
+          "is_correct": false
+        },
+        {
+          "text": "Stimuler l'immunité cellulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la gastro-entérite virale ?",
+      "difficulty": "Facile",
+      "explanation": "Les rotavirus sont la cause la plus fréquente de gastro-entérite virale, en particulier chez les jeunes enfants.",
+      "answers": [
+        {
+          "text": "Norovirus",
+          "is_correct": false
+        },
+        {
+          "text": "Rotavirus",
+          "is_correct": true
+        },
+        {
+          "text": "Adénovirus",
+          "is_correct": false
+        },
+        {
+          "text": "Astrovirus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des plasmides dans la résistance aux antibiotiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plasmides peuvent porter des gènes de résistance aux antibiotiques, qui peuvent être transférés entre bactéries par conjugaison.",
+      "answers": [
+        {
+          "text": "Stocker des nutriments",
+          "is_correct": false
+        },
+        {
+          "text": "Porter des gènes de résistance",
+          "is_correct": true
+        },
+        {
+          "text": "Produire des toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Faciliter la motilité",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Clostridium tetani ?",
+      "difficulty": "Difficile",
+      "explanation": "Clostridium tetani produit une neurotoxine, la tétanospasmine, qui bloque la libération des neurotransmetteurs inhibiteurs.",
+      "answers": [
+        {
+          "text": "Production d'une entérotoxine",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'une neurotoxine",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la synthèse protéique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Salmonella typhi ?",
+      "difficulty": "Facile",
+      "explanation": "Salmonella typhi est principalement réservée chez l'homme, qui peut être porteur sain ou malade.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "L'homme",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des interférons dans la réponse antivirale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les interférons sont des cytokines qui induisent un état antiviral dans les cellules voisines, limitant ainsi la propagation virale.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Induire un état antiviral",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mode de transmission de l'hépatite B ?",
+      "difficulty": "Facile",
+      "explanation": "L'hépatite B se transmet principalement par voie parentérale, c'est-à-dire par contact avec du sang ou des liquides biologiques contaminés.",
+      "answers": [
+        {
+          "text": "Voie aérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Voie parentérale",
+          "is_correct": true
+        },
+        {
+          "text": "Voie digestive",
+          "is_correct": false
+        },
+        {
+          "text": "Voie cutanée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des bactéries lactiques dans l'industrie alimentaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bactéries lactiques sont utilisées pour la fermentation lactique, qui permet la conservation et la transformation des aliments comme le yaourt ou la choucroute.",
+      "answers": [
+        {
+          "text": "Production d'antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Fermentation lactique",
+          "is_correct": true
+        },
+        {
+          "text": "Dégradation des protéines",
+          "is_correct": false
+        },
+        {
+          "text": "Synthèse de vitamines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux quinolones ?",
+      "difficulty": "Difficile",
+      "explanation": "Les mutations dans les gènes codant pour les ADN gyrase et topoisomérase IV sont les principaux mécanismes de résistance aux quinolones.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Mutations des cibles",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la pneumonie atypique ?",
+      "difficulty": "Facile",
+      "explanation": "Mycoplasma pneumoniae est une bactérie dépourvue de paroi, responsable de pneumonies dites atypiques.",
+      "answers": [
+        {
+          "text": "Streptococcus pneumoniae",
+          "is_correct": false
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "is_correct": true
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "is_correct": false
+        },
+        {
+          "text": "Legionella pneumophila",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des exotoxines bactériennes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les exotoxines sont sécrétées par les bactéries et peuvent endommager les cellules de l'hôte ou moduler la réponse immunitaire.",
+      "answers": [
+        {
+          "text": "Stimuler la croissance bactérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Endommager les cellules de l'hôte",
+          "is_correct": true
+        },
+        {
+          "text": "Favoriser la conjugaison",
+          "is_correct": false
+        },
+        {
+          "text": "Inhiber la synthèse protéique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de transmission de la rage ?",
+      "difficulty": "Facile",
+      "explanation": "La rage se transmet principalement par morsure d'un animal enragé, permettant l'inoculation du virus dans les tissus.",
+      "answers": [
+        {
+          "text": "Voie aérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Morsure",
+          "is_correct": true
+        },
+        {
+          "text": "Voie digestive",
+          "is_correct": false
+        },
+        {
+          "text": "Contact cutané",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes T cytotoxiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T cytotoxiques (CD8+) détruisent les cellules infectées par des pathogènes intracellulaires, comme les virus.",
+      "answers": [
+        {
+          "text": "Produire des anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Détruire les cellules infectées",
+          "is_correct": true
+        },
+        {
+          "text": "Phagocyter les bactéries",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes B",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la listériose ?",
+      "difficulty": "Facile",
+      "explanation": "Listeria monocytogenes est une bactérie responsable de la listériose, une infection alimentaire grave.",
+      "answers": [
+        {
+          "text": "Escherichia coli",
+          "is_correct": false
+        },
+        {
+          "text": "Listeria monocytogenes",
+          "is_correct": true
+        },
+        {
+          "text": "Salmonella enterica",
+          "is_correct": false
+        },
+        {
+          "text": "Campylobacter jejuni",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps IgA ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgA sont principalement présentes dans les muqueuses et jouent un rôle clé dans la défense contre les pathogènes au niveau des surfaces épithéliales.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire secondaire",
+          "is_correct": false
+        },
+        {
+          "text": "Défense des muqueuses",
+          "is_correct": true
+        },
+        {
+          "text": "Mémoire immunitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Neutralisation des toxines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Staphylococcus aureus ?",
+      "difficulty": "Difficile",
+      "explanation": "Staphylococcus aureus produit de nombreuses toxines et enzymes, comme la leucocidine et la coagulase, qui favorisent son pouvoir pathogène.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production de toxines et enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Escherichia coli pathogène ?",
+      "difficulty": "Facile",
+      "explanation": "Escherichia coli pathogène est principalement présent dans le tube digestif de l'homme et des animaux.",
+      "answers": [
+        {
+          "text": "Les sols",
+          "is_correct": false
+        },
+        {
+          "text": "Le tube digestif",
+          "is_correct": true
+        },
+        {
+          "text": "Les plantes",
+          "is_correct": false
+        },
+        {
+          "text": "Les eaux stagnantes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des macrophages dans la réponse immunitaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les macrophages phagocytent les pathogènes et présentent les antigènes aux lymphocytes T pour initier la réponse immunitaire adaptative.",
+      "answers": [
+        {
+          "text": "Produire des anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Phagocyter et présenter les antigènes",
+          "is_correct": true
+        },
+        {
+          "text": "Détruire les cellules infectées",
+          "is_correct": false
+        },
+        {
+          "text": "Stimuler la coagulation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux macrolides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux macrolides par méthylation de l'ARNr 23S, ce qui empêche la fixation de l'antibiotique.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Méthylation de l'ARNr 23S",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la méningite à méningocoque ?",
+      "difficulty": "Facile",
+      "explanation": "Neisseria meningitidis est une bactérie responsable de méningites purulentes, souvent graves.",
+      "answers": [
+        {
+          "text": "Streptococcus pneumoniae",
+          "is_correct": false
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "is_correct": true
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "is_correct": false
+        },
+        {
+          "text": "Escherichia coli",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes B dans la réponse immunitaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes B produisent des anticorps spécifiques contre les antigènes, neutralisant ainsi les pathogènes.",
+      "answers": [
+        {
+          "text": "Phagocyter les bactéries",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des anticorps",
+          "is_correct": true
+        },
+        {
+          "text": "Détruire les cellules infectées",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les macrophages",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de transmission de la fièvre typhoïde ?",
+      "difficulty": "Facile",
+      "explanation": "La fièvre typhoïde se transmet principalement par voie fécale-orale, souvent par l'eau ou les aliments contaminés.",
+      "answers": [
+        {
+          "text": "Voie aérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Voie fécale-orale",
+          "is_correct": true
+        },
+        {
+          "text": "Voie parentérale",
+          "is_correct": false
+        },
+        {
+          "text": "Voie cutanée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cytokines dans la réponse immunitaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cytokines sont des médiateurs solubles qui régulent l'activité des cellules immunitaires et coordonnent la réponse inflammatoire.",
+      "answers": [
+        {
+          "text": "Détruire les pathogènes",
+          "is_correct": false
+        },
+        {
+          "text": "Réguler l'activité immunitaire",
+          "is_correct": true
+        },
+        {
+          "text": "Produire des anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Phagocyter les bactéries",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Vibrio cholerae ?",
+      "difficulty": "Difficile",
+      "explanation": "Vibrio cholerae produit une entérotoxine, la toxine cholérique, qui provoque une diarrhée sécrétoire massive.",
+      "answers": [
+        {
+          "text": "Production d'une neurotoxine",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'une entérotoxine",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la synthèse protéique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Borrelia burgdorferi ?",
+      "difficulty": "Facile",
+      "explanation": "Borrelia burgdorferi, responsable de la maladie de Lyme, a pour réservoir principal les petits rongeurs, comme les souris.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps IgE ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgE sont impliquées dans les réactions allergiques et la défense contre les parasites extracellulaires.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire primaire",
+          "is_correct": false
+        },
+        {
+          "text": "Réactions allergiques",
+          "is_correct": true
+        },
+        {
+          "text": "Mémoire immunitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Neutralisation des toxines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux tétracyclines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux tétracyclines par efflux actif ou par protection ribosomale.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Efflux actif ou protection ribosomale",
+          "is_correct": true
+        },
+        {
+          "text": "Méthylation de l'ARNr",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la coqueluche ?",
+      "difficulty": "Facile",
+      "explanation": "Bordetella pertussis est la bactérie responsable de la coqueluche, une infection respiratoire très contagieuse.",
+      "answers": [
+        {
+          "text": "Mycobacterium tuberculosis",
+          "is_correct": false
+        },
+        {
+          "text": "Bordetella pertussis",
+          "is_correct": true
+        },
+        {
+          "text": "Streptococcus pyogenes",
+          "is_correct": false
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes T auxiliaires (CD4+) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T auxiliaires (CD4+) activent les lymphocytes B et les macrophages en sécrétant des cytokines.",
+      "answers": [
+        {
+          "text": "Détruire les cellules infectées",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes B et macrophages",
+          "is_correct": true
+        },
+        {
+          "text": "Produire des anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Phagocyter les pathogènes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de transmission de la leptospirose ?",
+      "difficulty": "Facile",
+      "explanation": "La leptospirose se transmet principalement par contact avec l'urine d'animaux infectés, souvent via des eaux ou sols contaminés.",
+      "answers": [
+        {
+          "text": "Voie aérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Contact avec l'urine",
+          "is_correct": true
+        },
+        {
+          "text": "Voie digestive",
+          "is_correct": false
+        },
+        {
+          "text": "Morsure",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps IgG ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgG sont les anticorps les plus abondants dans le sérum et jouent un rôle clé dans la réponse immunitaire secondaire et la mémoire immunitaire.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire primaire",
+          "is_correct": false
+        },
+        {
+          "text": "Réponse immunitaire secondaire",
+          "is_correct": true
+        },
+        {
+          "text": "Défense des muqueuses",
+          "is_correct": false
+        },
+        {
+          "text": "Réactions allergiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Clostridium difficile ?",
+      "difficulty": "Difficile",
+      "explanation": "Clostridium difficile produit des toxines (A et B) qui endommagent la muqueuse intestinale, provoquant des diarrhées et des colites.",
+      "answers": [
+        {
+          "text": "Production d'une neurotoxine",
+          "is_correct": false
+        },
+        {
+          "text": "Production de toxines intestinales",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la synthèse protéique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Yersinia pestis ?",
+      "difficulty": "Facile",
+      "explanation": "Yersinia pestis, responsable de la peste, a pour réservoir principal les rongeurs, comme les rats.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps IgD ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgD sont principalement présentes à la surface des lymphocytes B et jouent un rôle dans leur activation.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire secondaire",
+          "is_correct": false
+        },
+        {
+          "text": "Activation des lymphocytes B",
+          "is_correct": true
+        },
+        {
+          "text": "Mémoire immunitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Neutralisation des toxines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux glycopeptides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux glycopeptides en modifiant la structure de leur paroi (remplacement du D-Ala-D-Ala par D-Ala-D-Lac).",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Modification de la paroi",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la syphilis ?",
+      "difficulty": "Facile",
+      "explanation": "Treponema pallidum est une bactérie spirochète responsable de la syphilis, une infection sexuellement transmissible.",
+      "answers": [
+        {
+          "text": "Neisseria gonorrhoeae",
+          "is_correct": false
+        },
+        {
+          "text": "Treponema pallidum",
+          "is_correct": true
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "is_correct": false
+        },
+        {
+          "text": "Mycoplasma genitalium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes T régulateurs ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T régulateurs (Treg) modulent la réponse immunitaire pour éviter une réaction excessive et maintenir la tolérance immunitaire.",
+      "answers": [
+        {
+          "text": "Détruire les cellules infectées",
+          "is_correct": false
+        },
+        {
+          "text": "Moduler la réponse immunitaire",
+          "is_correct": true
+        },
+        {
+          "text": "Produire des anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Phagocyter les pathogènes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la gonorrhée ?",
+      "difficulty": "Facile",
+      "explanation": "Neisseria gonorrhoeae est une bactérie responsable de la gonorrhée, une infection sexuellement transmissible.",
+      "answers": [
+        {
+          "text": "Chlamydia trachomatis",
+          "is_correct": false
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "is_correct": true
+        },
+        {
+          "text": "Treponema pallidum",
+          "is_correct": false
+        },
+        {
+          "text": "Mycoplasma genitalium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps IgA sécrétoires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IgA sécrétoires protègent les muqueuses en neutralisant les pathogènes avant qu'ils ne pénètrent dans l'organisme.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire secondaire",
+          "is_correct": false
+        },
+        {
+          "text": "Protection des muqueuses",
+          "is_correct": true
+        },
+        {
+          "text": "Mémoire immunitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Neutralisation des toxines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux sulfamides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux sulfamides en produisant des enzymes qui modifient la cible ou en utilisant des voies métaboliques alternatives.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la toxoplasmose ?",
+      "difficulty": "Facile",
+      "explanation": "Toxoplasma gondii est un parasite responsable de la toxoplasmose, souvent contractée par ingestion d'aliments contaminés.",
+      "answers": [
+        {
+          "text": "Plasmodium falciparum",
+          "is_correct": false
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "is_correct": true
+        },
+        {
+          "text": "Giardia lamblia",
+          "is_correct": false
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des lymphocytes T gamma-delta ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T gamma-delta reconnaissent des antigènes non peptidiques et jouent un rôle dans la réponse immunitaire innée.",
+      "answers": [
+        {
+          "text": "Réponse immunitaire adaptative",
+          "is_correct": false
+        },
+        {
+          "text": "Réponse immunitaire innée",
+          "is_correct": true
+        },
+        {
+          "text": "Production d'anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Phagocytose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Pseudomonas aeruginosa ?",
+      "difficulty": "Difficile",
+      "explanation": "Pseudomonas aeruginosa produit de nombreux facteurs de virulence, dont des exotoxines et des enzymes qui endommagent les tissus de l'hôte.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'exotoxines et d'enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Leptospira interrogans ?",
+      "difficulty": "Facile",
+      "explanation": "Leptospira interrogans, responsable de la leptospirose, a pour réservoir principal les rongeurs.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps monoclonaux en thérapeutique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps monoclonaux sont utilisés pour cibler spécifiquement des antigènes, comme dans le traitement de certains cancers ou maladies auto-immunes.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Cibler spécifiquement des antigènes",
+          "is_correct": true
+        },
+        {
+          "text": "Produire des vaccins",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux aminosides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux aminosides par modification enzymatique de l'antibiotique ou par mutation de la cible ribosomale.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre Q ?",
+      "difficulty": "Facile",
+      "explanation": "Coxiella burnetii est une bactérie intracellulaire responsable de la fièvre Q, transmise principalement par les animaux.",
+      "answers": [
+        {
+          "text": "Rickettsia rickettsii",
+          "is_correct": false
+        },
+        {
+          "text": "Coxiella burnetii",
+          "is_correct": true
+        },
+        {
+          "text": "Brucella abortus",
+          "is_correct": false
+        },
+        {
+          "text": "Francisella tularensis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps neutralisants ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisants bloquent l'infection en empêchant les pathogènes de se lier à leurs récepteurs cellulaires.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Bloquer l'infection",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Bacillus anthracis ?",
+      "difficulty": "Difficile",
+      "explanation": "Bacillus anthracis produit des toxines (facteur létal et œdémateux) qui causent des dommages tissulaires étendus.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production de toxines létales",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Brucella abortus ?",
+      "difficulty": "Facile",
+      "explanation": "Brucella abortus, responsable de la brucellose, a pour réservoir principal les bovins.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les bovins",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps anti-toxines ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps anti-toxines neutralisent les toxines bactériennes, empêchant ainsi leurs effets pathogènes.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux céphalosporines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent produire des bêta-lactamases à spectre étendu (BLSE) qui hydrolysent les céphalosporines.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Production de BLSE",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre hémorragique Ebola ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus Ebola est un filovirus responsable de fièvres hémorragiques sévères.",
+      "answers": [
+        {
+          "text": "Virus Marburg",
+          "is_correct": false
+        },
+        {
+          "text": "Virus Ebola",
+          "is_correct": true
+        },
+        {
+          "text": "Virus Lassa",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la dengue",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps opsonisants ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps opsonisants facilitent la phagocytose des pathogènes en les marquant pour les cellules immunitaires.",
+      "answers": [
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Faciliter la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Shigella dysenteriae ?",
+      "difficulty": "Difficile",
+      "explanation": "Shigella dysenteriae produit une toxine (Shiga-toxine) qui inhibe la synthèse protéique et endommage les cellules intestinales.",
+      "answers": [
+        {
+          "text": "Production d'une neurotoxine",
+          "is_correct": false
+        },
+        {
+          "text": "Production de Shiga-toxine",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Francisella tularensis ?",
+      "difficulty": "Facile",
+      "explanation": "Francisella tularensis, responsable de la tularémie, a pour réservoir principal les lagomorphes (lièvres, lapins).",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les lagomorphes",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la mémoire immunitaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps produits lors d'une réponse immunitaire primaire permettent une réponse plus rapide et plus efficace lors d'une exposition ultérieure au même antigène.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Permettre une réponse plus rapide",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux carbapénèmes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent produire des carbapénémases, des enzymes capables d'hydrolyser les carbapénèmes.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Production de carbapénémases",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre jaune ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la fièvre jaune est un flavivirus transmis par les moustiques.",
+      "answers": [
+        {
+          "text": "Virus de la dengue",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la fièvre jaune",
+          "is_correct": true
+        },
+        {
+          "text": "Virus Zika",
+          "is_correct": false
+        },
+        {
+          "text": "Virus du Nil occidental",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la neutralisation virale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les virus en bloquant leur capacité à infecter les cellules hôtes.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Bloquer l'infection virale",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Yersinia pestis ?",
+      "difficulty": "Difficile",
+      "explanation": "Yersinia pestis produit des toxines et des facteurs de virulence qui inhibent la réponse immunitaire de l'hôte.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la réponse immunitaire",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Rickettsia rickettsii ?",
+      "difficulty": "Facile",
+      "explanation": "Rickettsia rickettsii, responsable de la fièvre pourprée des Montagnes Rocheuses, a pour réservoir principal les tiques.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les tiques",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire humorale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps sont les effecteurs principaux de la réponse immunitaire humorale, neutralisant les pathogènes extracellulaires.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les pathogènes extracellulaires",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux polymyxines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent modifier la structure de leur membrane externe pour réduire l'affinité des polymyxines.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Modification de la membrane externe",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la dengue ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la dengue est un flavivirus transmis par les moustiques Aedes.",
+      "answers": [
+        {
+          "text": "Virus Zika",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la dengue",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la fièvre jaune",
+          "is_correct": false
+        },
+        {
+          "text": "Virus du Nil occidental",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire secondaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Lors d'une réponse immunitaire secondaire, les anticorps sont produits plus rapidement et en plus grande quantité grâce à la mémoire immunitaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Production plus rapide et abondante",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Helicobacter pylori ?",
+      "difficulty": "Difficile",
+      "explanation": "Helicobacter pylori produit des enzymes (comme l'uréase) et des toxines qui endommagent la muqueuse gastrique.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Bartonella henselae ?",
+      "difficulty": "Facile",
+      "explanation": "Bartonella henselae, responsable de la maladie des griffes du chat, a pour réservoir principal les chats.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les chats",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la prévention des infections ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les pathogènes avant qu'ils ne pénètrent dans les cellules, empêchant ainsi l'infection.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les pathogènes",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux quinolones ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux quinolones par mutation des gènes codant pour les ADN gyrase et topoisomérase IV.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Mutation des cibles",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la varicelle ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus varicelle-zona (VZV) est responsable de la varicelle, une infection virale très contagieuse.",
+      "answers": [
+        {
+          "text": "Virus de l'herpès simplex",
+          "is_correct": false
+        },
+        {
+          "text": "Virus varicelle-zona",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la rougeole",
+          "is_correct": false
+        },
+        {
+          "text": "Virus des oreillons",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire cellulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Bien que la réponse immunitaire cellulaire soit principalement médiée par les lymphocytes T, les anticorps peuvent faciliter la présentation de l'antigène.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Faciliter la présentation de l'antigène",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Campylobacter jejuni ?",
+      "difficulty": "Difficile",
+      "explanation": "Campylobacter jejuni envahit et endommage les cellules épithéliales intestinales, provoquant une inflammation et une diarrhée.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Envahissement des cellules épithéliales",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Chlamydia trachomatis ?",
+      "difficulty": "Facile",
+      "explanation": "Chlamydia trachomatis est principalement réservée chez l'homme, où elle peut causer des infections génitales.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "L'homme",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire innée ?",
+      "difficulty": "Moyen",
+      "explanation": "Bien que la réponse innée soit principalement médiée par d'autres mécanismes, les anticorps peuvent faciliter la phagocytose (opsonisation).",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux macrolides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux macrolides par méthylation de l'ARNr 23S ou par efflux actif.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Méthylation de l'ARNr 23S",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la rougeole ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la rougeole est un paramyxovirus responsable de cette maladie très contagieuse.",
+      "answers": [
+        {
+          "text": "Virus de la rubéole",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la rougeole",
+          "is_correct": true
+        },
+        {
+          "text": "Virus des oreillons",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la varicelle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire adaptative ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps sont produits par les lymphocytes B activés et jouent un rôle central dans la réponse adaptative en neutralisant les pathogènes.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les pathogènes",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Escherichia coli entérohémorragique (EHEC) ?",
+      "difficulty": "Difficile",
+      "explanation": "EHEC produit une toxine (Shiga-toxine) qui endommage les cellules endothéliales, provoquant des diarrhées hémorragiques.",
+      "answers": [
+        {
+          "text": "Production d'une neurotoxine",
+          "is_correct": false
+        },
+        {
+          "text": "Production de Shiga-toxine",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Salmonella enterica ?",
+      "difficulty": "Facile",
+      "explanation": "Salmonella enterica est principalement réservée dans le tube digestif des animaux, notamment des volailles.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les champignons ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps peuvent faciliter la phagocytose des champignons, bien que la réponse immunitaire cellulaire soit souvent plus importante.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux tétracyclines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux tétracyclines par efflux actif ou par protection ribosomale.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Efflux actif ou protection ribosomale",
+          "is_correct": true
+        },
+        {
+          "text": "Méthylation de l'ARNr",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la rubéole ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la rubéole est un togavirus responsable de cette maladie exanthématique.",
+      "answers": [
+        {
+          "text": "Virus de la rougeole",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la rubéole",
+          "is_correct": true
+        },
+        {
+          "text": "Virus des oreillons",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la varicelle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les parasites ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps peuvent faciliter la destruction des parasites extracellulaires par phagocytose ou activation du complément.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Vibrio vulnificus ?",
+      "difficulty": "Difficile",
+      "explanation": "Vibrio vulnificus produit des enzymes et des toxines qui causent une nécrose tissulaire rapide et une septicémie.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Cryptosporidium parvum ?",
+      "difficulty": "Facile",
+      "explanation": "Cryptosporidium parvum est principalement réservé dans le tube digestif des animaux, notamment des bovins.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les bovins",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les virus ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les virus en bloquant leur entrée dans les cellules hôtes ou en facilitant leur élimination.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les virus",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux aminosides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux aminosides par modification enzymatique de l'antibiotique ou par mutation de la cible ribosomale.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre typhoïde ?",
+      "difficulty": "Facile",
+      "explanation": "Salmonella typhi est la bactérie responsable de la fièvre typhoïde, une infection systémique grave.",
+      "answers": [
+        {
+          "text": "Escherichia coli",
+          "is_correct": false
+        },
+        {
+          "text": "Salmonella typhi",
+          "is_correct": true
+        },
+        {
+          "text": "Shigella dysenteriae",
+          "is_correct": false
+        },
+        {
+          "text": "Vibrio cholerae",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries (opsonisation) et peuvent neutraliser leurs toxines.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Klebsiella pneumoniae ?",
+      "difficulty": "Difficile",
+      "explanation": "Klebsiella pneumoniae produit une capsule polysaccharidique qui protège la bactérie de la phagocytose et favorise la formation de biofilms.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'une capsule protectrice",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Giardia lamblia ?",
+      "difficulty": "Facile",
+      "explanation": "Giardia lamblia est principalement réservée dans le tube digestif de l'homme et de certains animaux.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "L'homme et certains animaux",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les champignons pathogènes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps peuvent faciliter la phagocytose des champignons, bien que la réponse immunitaire cellulaire soit souvent plus importante.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux glycopeptides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux glycopeptides en modifiant la structure de leur paroi (remplacement du D-Ala-D-Ala par D-Ala-D-Lac).",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Modification de la paroi",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la grippe aviaire ?",
+      "difficulty": "Facile",
+      "explanation": "Les virus influenza de type A, notamment les souches H5N1 et H7N9, sont responsables de la grippe aviaire.",
+      "answers": [
+        {
+          "text": "Virus de la grippe B",
+          "is_correct": false
+        },
+        {
+          "text": "Virus influenza A",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la grippe C",
+          "is_correct": false
+        },
+        {
+          "text": "Coronavirus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les parasites intracellulaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps ont un rôle limité contre les parasites intracellulaires, car ceux-ci sont inaccessibles aux anticorps circulants.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Rôle limité",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Enterococcus faecalis ?",
+      "difficulty": "Difficile",
+      "explanation": "Enterococcus faecalis produit des facteurs de virulence comme les adhesines et les enzymes qui favorisent la formation de biofilms.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Formation de biofilms",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Plasmodium falciparum ?",
+      "difficulty": "Facile",
+      "explanation": "Plasmodium falciparum, responsable du paludisme, a pour réservoir principal l'homme et est transmis par les moustiques Anophèles.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "L'homme",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les virus à ARN ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les virus à ARN en bloquant leur entrée dans les cellules hôtes ou en facilitant leur élimination.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les virus",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux sulfamides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux sulfamides en produisant des enzymes qui modifient la cible ou en utilisant des voies métaboliques alternatives.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la rage ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la rage est un rhabdovirus responsable de cette encéphalite mortelle.",
+      "answers": [
+        {
+          "text": "Virus de la grippe",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la rage",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la rougeole",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la varicelle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries intracellulaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps ont un rôle limité contre les bactéries intracellulaires, car celles-ci sont inaccessibles aux anticorps circulants.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Rôle limité",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Staphylococcus epidermidis ?",
+      "difficulty": "Difficile",
+      "explanation": "Staphylococcus epidermidis produit des biofilms qui protègent les bactéries de la réponse immunitaire et des antibiotiques.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Formation de biofilms",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Toxoplasma gondii ?",
+      "difficulty": "Facile",
+      "explanation": "Toxoplasma gondii a pour réservoir principal les félins, où il effectue sa reproduction sexuelle.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les félins",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les virus à ADN ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les virus à ADN en bloquant leur entrée dans les cellules hôtes ou en facilitant leur élimination.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les virus",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux quinolones ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux quinolones par mutation des gènes codant pour les ADN gyrase et topoisomérase IV.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Mutation des cibles",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la poliomyélite ?",
+      "difficulty": "Facile",
+      "explanation": "Le poliovirus est un entérovirus responsable de la poliomyélite, une maladie neurologique grave.",
+      "answers": [
+        {
+          "text": "Virus de la grippe",
+          "is_correct": false
+        },
+        {
+          "text": "Poliovirus",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la rougeole",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la varicelle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les champignons dimorphiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps peuvent faciliter la phagocytose des champignons dimorphiques, bien que la réponse immunitaire cellulaire soit souvent plus importante.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Streptococcus pyogenes ?",
+      "difficulty": "Difficile",
+      "explanation": "Streptococcus pyogenes produit de nombreuses toxines et enzymes (comme la streptokinase) qui favorisent la dissémination de l'infection.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production de toxines et d'enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Trypanosoma cruzi ?",
+      "difficulty": "Facile",
+      "explanation": "Trypanosoma cruzi, responsable de la maladie de Chagas, a pour réservoir principal les animaux sauvages et domestiques.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les animaux sauvages et domestiques",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les parasites extracellulaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose et la destruction des parasites extracellulaires par activation du complément.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Enterobacter cloacae ?",
+      "difficulty": "Difficile",
+      "explanation": "Enterobacter cloacae produit des bêta-lactamases et des facteurs de virulence qui favorisent la résistance aux antibiotiques et la formation de biofilms.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production de bêta-lactamases et de biofilms",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Leishmania donovani ?",
+      "difficulty": "Facile",
+      "explanation": "Leishmania donovani, responsable de la leishmaniose viscérale, a pour réservoir principal les rongeurs et les chiens.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les rongeurs et les chiens",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries extracellulaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose et la destruction des bactéries extracellulaires par activation du complément.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux céphalosporines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent produire des bêta-lactamases à spectre étendu (BLSE) qui hydrolysent les céphalosporines.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Production de BLSE",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre hémorragique de Crimée-Congo ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la fièvre hémorragique de Crimée-Congo est un nairovirus transmis par les tiques.",
+      "answers": [
+        {
+          "text": "Virus Ebola",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de Crimée-Congo",
+          "is_correct": true
+        },
+        {
+          "text": "Virus Marburg",
+          "is_correct": false
+        },
+        {
+          "text": "Virus Lassa",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les virus enveloppés ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les virus enveloppés en bloquant leur entrée dans les cellules hôtes ou en facilitant leur élimination.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les virus",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Acinetobacter baumannii ?",
+      "difficulty": "Difficile",
+      "explanation": "Acinetobacter baumannii produit des facteurs de virulence et des biofilms qui favorisent la résistance aux antibiotiques et la persistance dans l'environnement hospitalier.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Formation de biofilms",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Schistosoma mansoni ?",
+      "difficulty": "Facile",
+      "explanation": "Schistosoma mansoni, responsable de la bilharziose, a pour réservoir principal l'homme.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "L'homme",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les virus non enveloppés ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps neutralisent les virus non enveloppés en bloquant leur entrée dans les cellules hôtes ou en facilitant leur élimination.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Neutraliser les virus",
+          "is_correct": true
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux carbapénèmes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent produire des carbapénémases, des enzymes capables d'hydrolyser les carbapénèmes.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Production de carbapénémases",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre de la vallée du Rift ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la fièvre de la vallée du Rift est un phlebovirus transmis par les moustiques.",
+      "answers": [
+        {
+          "text": "Virus de la dengue",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la vallée du Rift",
+          "is_correct": true
+        },
+        {
+          "text": "Virus Zika",
+          "is_correct": false
+        },
+        {
+          "text": "Virus du Nil occidental",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries Gram-négatives ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries Gram-négatives et activent le complément, ce qui favorise leur destruction.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Proteus mirabilis ?",
+      "difficulty": "Difficile",
+      "explanation": "Proteus mirabilis produit des uréases et des facteurs de virulence qui favorisent la formation de calculs rénaux et la persistance de l'infection.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'uréases",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Trichomonas vaginalis ?",
+      "difficulty": "Facile",
+      "explanation": "Trichomonas vaginalis est principalement réservé dans le tractus génital humain.",
+      "answers": [
+        {
+          "text": "Les oiseaux",
+          "is_correct": false
+        },
+        {
+          "text": "L'homme",
+          "is_correct": true
+        },
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries Gram-positives ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries Gram-positives et activent le complément, ce qui favorise leur destruction.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux polymyxines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent modifier la structure de leur membrane externe pour réduire l'affinité des polymyxines.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Modification de la membrane externe",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la leishmaniose cutanée ?",
+      "difficulty": "Facile",
+      "explanation": "Leishmania major est le principal agent responsable de la leishmaniose cutanée, transmise par les phlébotomes.",
+      "answers": [
+        {
+          "text": "Trypanosoma cruzi",
+          "is_correct": false
+        },
+        {
+          "text": "Leishmania major",
+          "is_correct": true
+        },
+        {
+          "text": "Plasmodium vivax",
+          "is_correct": false
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les mycobactéries ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps jouent un rôle limité contre les mycobactéries, car ces bactéries sont intracellulaires et résistantes à la phagocytose.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Rôle limité",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux oxazolidinones ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux oxazolidinones par mutation du gène codant pour la protéine ribosomale 23S.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": false
+        },
+        {
+          "text": "Mutation de la protéine ribosomale 23S",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la maladie de Lyme en Europe ?",
+      "difficulty": "Facile",
+      "explanation": "Borrelia afzelii est l'une des principales espèces responsables de la maladie de Lyme en Europe.",
+      "answers": [
+        {
+          "text": "Borrelia burgdorferi",
+          "is_correct": false
+        },
+        {
+          "text": "Borrelia afzelii",
+          "is_correct": true
+        },
+        {
+          "text": "Borrelia garinii",
+          "is_correct": false
+        },
+        {
+          "text": "Borrelia recurrentis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les levures ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des levures, bien que la réponse immunitaire cellulaire soit souvent plus importante.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Burkholderia cepacia ?",
+      "difficulty": "Difficile",
+      "explanation": "Burkholderia cepacia produit des facteurs de virulence et des biofilms qui favorisent la résistance aux antibiotiques et la persistance dans les poumons.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Formation de biofilms",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Cryptococcus neoformans ?",
+      "difficulty": "Facile",
+      "explanation": "Cryptococcus neoformans est principalement présent dans les sols contaminés par des fientes d'oiseaux, notamment des pigeons.",
+      "answers": [
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les sols contaminés par des fientes d'oiseaux",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries anaérobies ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries anaérobies, bien que leur destruction dépende souvent de l'oxygène.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux lincosamides ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux lincosamides par méthylation de l'ARNr 23S ou par modification enzymatique.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre boutonneuse méditerranéenne ?",
+      "difficulty": "Facile",
+      "explanation": "Rickettsia conorii est la bactérie responsable de la fièvre boutonneuse méditerranéenne, transmise par les tiques.",
+      "answers": [
+        {
+          "text": "Rickettsia rickettsii",
+          "is_correct": false
+        },
+        {
+          "text": "Rickettsia conorii",
+          "is_correct": true
+        },
+        {
+          "text": "Coxiella burnetii",
+          "is_correct": false
+        },
+        {
+          "text": "Brucella melitensis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries sporulées ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps ont un rôle limité contre les bactéries sporulées, car les spores sont résistantes à la phagocytose et aux anticorps.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Rôle limité",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Bacteroides fragilis ?",
+      "difficulty": "Difficile",
+      "explanation": "Bacteroides fragilis produit des enzymes et des toxines qui favorisent la destruction des tissus et la formation d'abcès.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Histoplasma capsulatum ?",
+      "difficulty": "Facile",
+      "explanation": "Histoplasma capsulatum est principalement présent dans les sols contaminés par des fientes d'oiseaux ou de chauves-souris.",
+      "answers": [
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les sols contaminés par des fientes",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries intracellulaires facultatives ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps peuvent faciliter la phagocytose des bactéries intracellulaires facultatives, mais leur destruction dépend souvent des lymphocytes T.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux nitrofuranes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux nitrofuranes par mutation des enzymes impliquées dans leur activation.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre récurrente ?",
+      "difficulty": "Facile",
+      "explanation": "Borrelia recurrentis est la bactérie responsable de la fièvre récurrente, transmise par les poux.",
+      "answers": [
+        {
+          "text": "Borrelia burgdorferi",
+          "is_correct": false
+        },
+        {
+          "text": "Borrelia recurrentis",
+          "is_correct": true
+        },
+        {
+          "text": "Borrelia afzelii",
+          "is_correct": false
+        },
+        {
+          "text": "Borrelia garinii",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les champignons filamenteux ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des champignons filamenteux, bien que la réponse immunitaire cellulaire soit souvent plus importante.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Fusobacterium nucleatum ?",
+      "difficulty": "Difficile",
+      "explanation": "Fusobacterium nucleatum produit des enzymes et des toxines qui favorisent la destruction des tissus et la formation d'abcès.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Coccidioides immitis ?",
+      "difficulty": "Facile",
+      "explanation": "Coccidioides immitis est principalement présent dans les sols des régions arides, comme le sud-ouest des États-Unis.",
+      "answers": [
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les sols des régions arides",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries à Gram variable ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries à Gram variable, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux phénicoles ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux phénicoles par modification enzymatique ou par mutation de la cible.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la tularémie ?",
+      "difficulty": "Facile",
+      "explanation": "Francisella tularensis est la bactérie responsable de la tularémie, une zoonose transmise par les rongeurs et les arthropodes.",
+      "answers": [
+        {
+          "text": "Yersinia pestis",
+          "is_correct": false
+        },
+        {
+          "text": "Francisella tularensis",
+          "is_correct": true
+        },
+        {
+          "text": "Brucella abortus",
+          "is_correct": false
+        },
+        {
+          "text": "Coxiella burnetii",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries acidorésistantes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries acidorésistantes, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Prevotella melaninogenica ?",
+      "difficulty": "Difficile",
+      "explanation": "Prevotella melaninogenica produit des enzymes et des toxines qui favorisent la destruction des tissus et la formation d'abcès.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Paracoccidioides brasiliensis ?",
+      "difficulty": "Facile",
+      "explanation": "Paracoccidioides brasiliensis est principalement présent dans les sols des régions tropicales d'Amérique du Sud.",
+      "answers": [
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les sols des régions tropicales",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries halophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries halophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux fosfomycine ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance à la fosfomycine par mutation des enzymes impliquées dans son transport ou son activation.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la mélioïdose ?",
+      "difficulty": "Facile",
+      "explanation": "Burkholderia pseudomallei est la bactérie responsable de la mélioïdose, une infection endémique en Asie du Sud-Est.",
+      "answers": [
+        {
+          "text": "Burkholderia cepacia",
+          "is_correct": false
+        },
+        {
+          "text": "Burkholderia pseudomallei",
+          "is_correct": true
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "is_correct": false
+        },
+        {
+          "text": "Acinetobacter baumannii",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries thermophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries thermophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Porphyromonas gingivalis ?",
+      "difficulty": "Difficile",
+      "explanation": "Porphyromonas gingivalis produit des enzymes et des toxines qui favorisent la destruction des tissus parodontaux.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Blastomyces dermatitidis ?",
+      "difficulty": "Facile",
+      "explanation": "Blastomyces dermatitidis est principalement présent dans les sols humides et les zones boisées d'Amérique du Nord.",
+      "answers": [
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les sols humides et zones boisées",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries psychrophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries psychrophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux nitrofuranes ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux nitrofuranes par mutation des enzymes impliquées dans leur activation.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la brucellose ?",
+      "difficulty": "Facile",
+      "explanation": "Brucella melitensis est l'une des principales espèces responsables de la brucellose, une zoonose transmise par les animaux.",
+      "answers": [
+        {
+          "text": "Brucella abortus",
+          "is_correct": false
+        },
+        {
+          "text": "Brucella melitensis",
+          "is_correct": true
+        },
+        {
+          "text": "Brucella suis",
+          "is_correct": false
+        },
+        {
+          "text": "Brucella canis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries extrêmophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries extrêmophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Veillonella parvula ?",
+      "difficulty": "Difficile",
+      "explanation": "Veillonella parvula produit des acides organiques et des enzymes qui favorisent la formation de biofilms et la destruction des tissus.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'acides organiques et d'enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Sporothrix schenckii ?",
+      "difficulty": "Facile",
+      "explanation": "Sporothrix schenckii est principalement présent dans les végétaux en décomposition et les sols riches en matière organique.",
+      "answers": [
+        {
+          "text": "Les rongeurs",
+          "is_correct": false
+        },
+        {
+          "text": "Les végétaux en décomposition",
+          "is_correct": true
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        },
+        {
+          "text": "Les reptiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries acidophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries acidophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux imidazolés ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux imidazolés par mutation des enzymes impliquées dans la synthèse de l'ergostérol.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la peste porcine ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la peste porcine classique est responsable de cette maladie virale chez les porcs.",
+      "answers": [
+        {
+          "text": "Virus de la grippe porcine",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la peste porcine classique",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la diarrhée épidémique porcine",
+          "is_correct": false
+        },
+        {
+          "text": "Circovirus porcine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries alcalophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries alcalophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Actinomyces israelii ?",
+      "difficulty": "Difficile",
+      "explanation": "Actinomyces israelii forme des granulomes et des abcès en produisant des enzymes qui favorisent la destruction des tissus.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Formation de granulomes et d'abcès",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Malassezia furfur ?",
+      "difficulty": "Facile",
+      "explanation": "Malassezia furfur est principalement présent sur la peau humaine et animale, où il peut causer des infections opportunistes.",
+      "answers": [
+        {
+          "text": "Les sols",
+          "is_correct": false
+        },
+        {
+          "text": "La peau humaine et animale",
+          "is_correct": true
+        },
+        {
+          "text": "Les végétaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries halotolérantes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries halotolérantes, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux triazolés ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux triazolés par mutation des enzymes impliquées dans la synthèse de l'ergostérol.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la fièvre aphteuse ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la fièvre aphteuse est un picornavirus responsable de cette maladie très contagieuse chez les bovins et les porcs.",
+      "answers": [
+        {
+          "text": "Virus de la peste bovine",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la fièvre aphteuse",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la diarrhée virale bovine",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la maladie de Newcastle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries osmophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries osmophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Nocardia asteroides ?",
+      "difficulty": "Difficile",
+      "explanation": "Nocardia asteroides produit des enzymes qui favorisent la destruction des tissus et la formation d'abcès.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Trichophyton rubrum ?",
+      "difficulty": "Facile",
+      "explanation": "Trichophyton rubrum est principalement présent sur la peau humaine et dans les environnements humides comme les douches publiques.",
+      "answers": [
+        {
+          "text": "Les sols",
+          "is_correct": false
+        },
+        {
+          "text": "La peau humaine et les environnements humides",
+          "is_correct": true
+        },
+        {
+          "text": "Les végétaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries barophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries barophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux échinocandines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux échinocandines par mutation des enzymes impliquées dans la synthèse du β-glucane.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la maladie de Newcastle ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la maladie de Newcastle est un paramyxovirus responsable de cette maladie aviaire très contagieuse.",
+      "answers": [
+        {
+          "text": "Virus de la grippe aviaire",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la maladie de Newcastle",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la bronchite infectieuse",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la laryngotrachéite infectieuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries piezophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries piezophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Rhodococcus equi ?",
+      "difficulty": "Difficile",
+      "explanation": "Rhodococcus equi produit des enzymes et des toxines qui favorisent la destruction des tissus et la formation d'abcès.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes et de toxines",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Microsporum canis ?",
+      "difficulty": "Facile",
+      "explanation": "Microsporum canis est principalement présent sur la peau des chats et des chiens, où il peut causer des infections fongiques.",
+      "answers": [
+        {
+          "text": "Les sols",
+          "is_correct": false
+        },
+        {
+          "text": "La peau des chats et des chiens",
+          "is_correct": true
+        },
+        {
+          "text": "Les végétaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries radiotolérantes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries radiotolérantes, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux allylamines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux allylamines par mutation des enzymes impliquées dans la synthèse de l'ergostérol.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la maladie de Marek ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la maladie de Marek est un herpesvirus responsable de cette maladie aviaire.",
+      "answers": [
+        {
+          "text": "Virus de la grippe aviaire",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la maladie de Marek",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la bronchite infectieuse",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la laryngotrachéite infectieuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries psychrotrophes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries psychrotrophes, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Dermatophilus congolensis ?",
+      "difficulty": "Difficile",
+      "explanation": "Dermatophilus congolensis produit des enzymes qui favorisent la destruction des tissus cutanés et la formation de croûtes.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal réservoir de Epidermophyton floccosum ?",
+      "difficulty": "Facile",
+      "explanation": "Epidermophyton floccosum est principalement présent sur la peau humaine et dans les environnements humides comme les vestiaires.",
+      "answers": [
+        {
+          "text": "Les sols",
+          "is_correct": false
+        },
+        {
+          "text": "La peau humaine et les environnements humides",
+          "is_correct": true
+        },
+        {
+          "text": "Les végétaux",
+          "is_correct": false
+        },
+        {
+          "text": "Les insectes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries mésophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries mésophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux thiocarbamates ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux thiocarbamates par mutation des enzymes impliquées dans leur métabolisme.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la bronchite infectieuse aviaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la bronchite infectieuse est un coronavirus responsable de cette maladie aviaire.",
+      "answers": [
+        {
+          "text": "Virus de la grippe aviaire",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la bronchite infectieuse",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la maladie de Newcastle",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la laryngotrachéite infectieuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries thermotolérantes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries thermotolérantes, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de pathogénicité de Erysipelothrix rhusiopathiae ?",
+      "difficulty": "Difficile",
+      "explanation": "Erysipelothrix rhusiopathiae produit des enzymes qui favorisent la dissémination de l'infection dans les tissus.",
+      "answers": [
+        {
+          "text": "Production d'endotoxines",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'enzymes",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la phagocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des tissus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la dermatite atopique chez le chien ?",
+      "difficulty": "Facile",
+      "explanation": "Malassezia pachydermatis est souvent impliquée dans les dermatites atopiques chez le chien, bien que d'autres facteurs allergiques jouent un rôle.",
+      "answers": [
+        {
+          "text": "Staphylococcus intermedius",
+          "is_correct": false
+        },
+        {
+          "text": "Malassezia pachydermatis",
+          "is_correct": true
+        },
+        {
+          "text": "Dermatophytes",
+          "is_correct": false
+        },
+        {
+          "text": "Puces",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries extrêmophiles halophiles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anticorps facilitent la phagocytose des bactéries extrêmophiles halophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
+      "answers": [
+        {
+          "text": "Stimuler la phagocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Neutraliser les toxines",
+          "is_correct": false
+        },
+        {
+          "text": "Activer les lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Produire des cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de résistance des bactéries aux acides hydroxamiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les bactéries peuvent développer une résistance aux acides hydroxamiques par mutation des enzymes cibles ou par efflux actif.",
+      "answers": [
+        {
+          "text": "Modification enzymatique",
+          "is_correct": true
+        },
+        {
+          "text": "Efflux actif",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité membranaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de la cible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal agent causal de la maladie de Gumboro ?",
+      "difficulty": "Facile",
+      "explanation": "Le virus de la maladie de Gumboro est un birnavirus responsable de cette maladie aviaire.",
+      "answers": [
+        {
+          "text": "Virus de la grippe aviaire",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la maladie de Gumboro",
+          "is_correct": true
+        },
+        {
+          "text": "Virus de la bronchite infectieuse",
+          "is_correct": false
+        },
+        {
+          "text": "Virus de la laryngotrachéite infectieuse",
+          "is_correct": false
+        }
       ]
     }
   ]
