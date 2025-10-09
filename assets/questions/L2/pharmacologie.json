@@ -2202,6 +2202,397 @@
         { "text": "Iléus paralytique", "is_correct": false },
         { "text": "Hépatotoxicité sévère", "is_correct": false }
       ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'amiloride ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amiloride est un diurétique épargneur de potassium qui bloque les canaux sodiques ENaC du tubule collecteur, réduisant la réabsorption de sodium sans perte de potassium.",
+      "answers": [
+        { "text": "Antagonisme de l'aldostérone", "is_correct": false },
+        { "text": "Blocage des canaux sodiques ENaC", "is_correct": true },
+        { "text": "Inhibition de l'anse de Henlé", "is_correct": false },
+        { "text": "Inhibition de l'anhydrase carbonique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'acétazolamide ?",
+      "difficulty": "Difficile",
+      "explanation": "L'acétazolamide est un inhibiteur de l'anhydrase carbonique utilisé dans le glaucome (réduction de la pression intraoculaire), le mal des montagnes et certaines épilepsies.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Glaucome et mal des montagnes", "is_correct": true },
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Œdème cérébral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la clonidine ?",
+      "difficulty": "Difficile",
+      "explanation": "La clonidine est un agoniste alpha-2 adrénergique central qui réduit la libération de noradrénaline, diminuant ainsi la pression artérielle. Elle est aussi utilisée dans le sevrage aux opiacés.",
+      "answers": [
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Agoniste alpha-2 central", "is_correct": true },
+        { "text": "Inhibiteur calcique", "is_correct": false },
+        { "text": "Inhibiteur de l'enzyme de conversion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la prazosine ?",
+      "difficulty": "Moyen",
+      "explanation": "La prazosine est un alpha-1 bloquant utilisé dans l'hypertension artérielle et l'hypertrophie bénigne de la prostate en induisant une relaxation des muscles lisses.",
+      "answers": [
+        { "text": "Asthme", "is_correct": false },
+        {
+          "text": "Hypertension et hypertrophie prostatique",
+          "is_correct": true
+        },
+        { "text": "Insuffisance cardiaque uniquement", "is_correct": false },
+        { "text": "Migraine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du losartan ?",
+      "difficulty": "Facile",
+      "explanation": "Le losartan est un antagoniste des récepteurs AT1 de l'angiotensine II (ARA2 ou sartan) qui bloque les effets vasoconstricteurs et la sécrétion d'aldostérone.",
+      "answers": [
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false },
+        { "text": "Blocage des récepteurs AT1", "is_correct": true },
+        { "text": "Inhibition de la rénine", "is_correct": false },
+        { "text": "Blocage calcique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale complication des IEC ?",
+      "difficulty": "Facile",
+      "explanation": "Les IEC peuvent entraîner une toux sèche (10-15% des patients) par accumulation de bradykinine, un angiœdème (rare mais grave), une hyperkaliémie et une insuffisance rénale.",
+      "answers": [
+        { "text": "Bronchospasme", "is_correct": false },
+        { "text": "Toux sèche", "is_correct": true },
+        { "text": "Hypokaliémie", "is_correct": false },
+        { "text": "Hyperglycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'hydralazine ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hydralazine est un vasodilatateur artériel direct qui relaxe les muscles lisses vasculaires par augmentation du GMPc. Elle est utilisée dans l'HTA résistante et la pré-éclampsie.",
+      "answers": [
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Vasodilatateur artériel direct", "is_correct": true },
+        { "text": "Inhibiteur calcique", "is_correct": false },
+        { "text": "Alpha-bloquant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du nitroprussiate de sodium ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nitroprussiate de sodium est un vasodilatateur mixte (artériel et veineux) utilisé en urgence dans les crises hypertensives sévères et l'insuffisance cardiaque aiguë.",
+      "answers": [
+        { "text": "Hypertension chronique légère", "is_correct": false },
+        { "text": "Crise hypertensive sévère", "is_correct": true },
+        { "text": "Hypotension", "is_correct": false },
+        { "text": "Angor stable", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'isosorbide dinitrate ?",
+      "difficulty": "Moyen",
+      "explanation": "L'isosorbide dinitrate est un dérivé nitré qui se transforme en NO (monoxyde d'azote), induisant une vasodilatation veineuse et artérielle, réduisant ainsi la précharge et la postcharge.",
+      "answers": [
+        { "text": "Blocage calcique", "is_correct": false },
+        { "text": "Libération de NO (vasodilatation)", "is_correct": true },
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale précaution avec les dérivés nitrés ?",
+      "difficulty": "Facile",
+      "explanation": "Les dérivés nitrés nécessitent une fenêtre thérapeutique (pause de 8-12h) pour éviter le phénomène de tolérance (échappement thérapeutique).",
+      "answers": [
+        { "text": "Prise continue 24h/24", "is_correct": false },
+        {
+          "text": "Fenêtre thérapeutique pour éviter la tolérance",
+          "is_correct": true
+        },
+        { "text": "Prise à jeun uniquement", "is_correct": false },
+        { "text": "Éviter l'exposition au soleil", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'ivabradine ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ivabradine inhibe sélectivement le courant If du nœud sinusal, ralentissant la fréquence cardiaque sans effet inotrope négatif. Elle est utilisée dans l'angor et l'insuffisance cardiaque.",
+      "answers": [
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Inhibition du courant If sinusal", "is_correct": true },
+        { "text": "Blocage calcique", "is_correct": false },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la ranolazine ?",
+      "difficulty": "Difficile",
+      "explanation": "La ranolazine inhibe le courant tardif du sodium dans les myocytes, réduisant la surcharge calcique intracellulaire. Elle est utilisée dans l'angor chronique stable résistant.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Angor chronique stable résistant", "is_correct": true },
+        { "text": "Insuffisance cardiaque aiguë", "is_correct": false },
+        { "text": "Arythmie ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du vérapamil ?",
+      "difficulty": "Moyen",
+      "explanation": "Le vérapamil est un inhibiteur calcique non dihydropyridinique qui bloque les canaux calciques de type L au niveau cardiaque, ralentissant la conduction AV et réduisant la contractilité.",
+      "answers": [
+        { "text": "Vasodilatateur artériel uniquement", "is_correct": false },
+        {
+          "text": "Blocage des canaux calciques cardiaques",
+          "is_correct": true
+        },
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Inhibition du courant If", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication du vérapamil ?",
+      "difficulty": "Facile",
+      "explanation": "Le vérapamil est contre-indiqué en association avec les bêta-bloquants (risque de bradycardie et bloc AV sévères), dans le BAV de haut degré et l'insuffisance cardiaque décompensée.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Association avec bêta-bloquants", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale légère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la flécaïnide ?",
+      "difficulty": "Difficile",
+      "explanation": "La flécaïnide est un antiarythmique de classe Ic qui bloque les canaux sodiques, ralentissant la conduction. Elle est utilisée dans les arythmies supraventriculaires.",
+      "answers": [
+        { "text": "Blocage des canaux potassiques", "is_correct": false },
+        {
+          "text": "Blocage des canaux sodiques (classe Ic)",
+          "is_correct": true
+        },
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Blocage calcique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la flécaïnide ?",
+      "difficulty": "Moyen",
+      "explanation": "La flécaïnide est contre-indiquée en cas de cardiopathie structurelle (infarctus, insuffisance cardiaque) car elle augmente le risque de mort subite (étude CAST).",
+      "answers": [
+        { "text": "Hypertension artérielle isolée", "is_correct": false },
+        {
+          "text": "Cardiopathie structurelle (post-infarctus)",
+          "is_correct": true
+        },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Hyperthyroïdie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du sotalol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sotalol a un double mécanisme : bêta-bloquant non sélectif et antiarythmique de classe III (blocage des canaux potassiques, prolongation du QT).",
+      "answers": [
+        { "text": "Bêta-bloquant uniquement", "is_correct": false },
+        {
+          "text": "Bêta-bloquant et antiarythmique classe III",
+          "is_correct": true
+        },
+        { "text": "Inhibiteur calcique", "is_correct": false },
+        { "text": "Antiarythmique classe Ia", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale surveillance du sotalol ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sotalol nécessite une surveillance ECG régulière pour dépister un allongement excessif du QT pouvant entraîner des torsades de pointes.",
+      "answers": [
+        { "text": "Glycémie", "is_correct": false },
+        { "text": "ECG (intervalle QT)", "is_correct": true },
+        { "text": "Fonction hépatique", "is_correct": false },
+        { "text": "Numération plaquettaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la dronédarone ?",
+      "difficulty": "Difficile",
+      "explanation": "La dronédarone est un antiarythmique multi-canaux (classe III principalement) apparenté à l'amiodarone mais sans iode, utilisé dans la fibrillation auriculaire.",
+      "answers": [
+        { "text": "Bêta-bloquant sélectif", "is_correct": false },
+        {
+          "text": "Antiarythmique multi-canaux (classe III)",
+          "is_correct": true
+        },
+        { "text": "Inhibiteur calcique", "is_correct": false },
+        { "text": "Digitalique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la dronédarone ?",
+      "difficulty": "Moyen",
+      "explanation": "La dronédarone est contre-indiquée dans l'insuffisance cardiaque décompensée ou NYHA IV car elle augmente la mortalité cardiovasculaire.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Insuffisance cardiaque décompensée", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale légère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'adénosine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'adénosine est un nucléoside endogène qui ralentit la conduction AV en activant les canaux potassiques. Elle est utilisée en IV pour réduire les tachycardies supraventriculaires.",
+      "answers": [
+        { "text": "Blocage des canaux sodiques", "is_correct": false },
+        { "text": "Ralentissement de la conduction AV", "is_correct": true },
+        { "text": "Bêta-bloquant", "is_correct": false },
+        { "text": "Inhibiteur calcique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité de l'administration de l'adénosine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'adénosine a une demi-vie très courte (<10 secondes) et doit être administrée en bolus IV rapide suivi d'un flush de sérum physiologique.",
+      "answers": [
+        { "text": "Perfusion lente sur 1 heure", "is_correct": false },
+        {
+          "text": "Bolus IV rapide (demi-vie très courte)",
+          "is_correct": true
+        },
+        { "text": "Administration orale", "is_correct": false },
+        { "text": "Perfusion continue", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'apixaban ?",
+      "difficulty": "Moyen",
+      "explanation": "L'apixaban est un anticoagulant oral direct (AOD) qui inhibe sélectivement et directement le facteur Xa de la coagulation.",
+      "answers": [
+        { "text": "Inhibition de la vitamine K", "is_correct": false },
+        { "text": "Inhibition directe du facteur Xa", "is_correct": true },
+        { "text": "Inhibition de la thrombine", "is_correct": false },
+        { "text": "Activation de l'antithrombine III", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'avantage des AOD par rapport aux AVK ?",
+      "difficulty": "Facile",
+      "explanation": "Les AOD ne nécessitent pas de surveillance biologique régulière (pas d'INR), ont moins d'interactions médicamenteuses et alimentaires, et un effet plus prévisible.",
+      "answers": [
+        { "text": "Coût moins élevé", "is_correct": false },
+        {
+          "text": "Pas de surveillance biologique régulière",
+          "is_correct": true
+        },
+        { "text": "Durée d'action plus longue", "is_correct": false },
+        { "text": "Moins d'effets secondaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action du prasugrel ?",
+      "difficulty": "Moyen",
+      "explanation": "Le prasugrel est un inhibiteur du récepteur P2Y12 à l'ADP (antiagrégant plaquettaire) plus puissant et à action plus rapide que le clopidogrel.",
+      "answers": [
+        { "text": "Inhibition de la COX-1", "is_correct": false },
+        { "text": "Inhibition du récepteur P2Y12 à l'ADP", "is_correct": true },
+        { "text": "Inhibition du facteur Xa", "is_correct": false },
+        { "text": "Activation de la fibrinolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du ticagrelor ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ticagrelor est un inhibiteur réversible du P2Y12 utilisé dans les syndromes coronariens aigus en association avec l'aspirine (double antiagrégation plaquettaire).",
+      "answers": [
+        { "text": "Fibrillation auriculaire", "is_correct": false },
+        { "text": "Syndrome coronarien aigu", "is_correct": true },
+        { "text": "AVC ischémique chronique", "is_correct": false },
+        { "text": "Thrombose veineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'altéplase (rtPA) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'altéplase est un activateur tissulaire du plasminogène recombinant qui convertit le plasminogène en plasmine, lysant le caillot. Elle est utilisée dans l'AVC ischémique et l'infarctus.",
+      "answers": [
+        { "text": "Anticoagulant direct", "is_correct": false },
+        {
+          "text": "Fibrinolytique (activation du plasminogène)",
+          "is_correct": true
+        },
+        { "text": "Antiagrégant plaquettaire", "is_correct": false },
+        { "text": "Inhibiteur du facteur Xa", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication de la thrombolyse ?",
+      "difficulty": "Facile",
+      "explanation": "La thrombolyse est contre-indiquée en cas de risque hémorragique élevé : AVC hémorragique, chirurgie récente, traumatisme crânien, trouble de l'hémostase.",
+      "answers": [
+        { "text": "Hypertension artérielle contrôlée", "is_correct": false },
+        { "text": "Risque hémorragique élevé", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale légère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la tranexamique (acide tranexamique) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'acide tranexamique est un antifibrinolytique qui inhibe la transformation du plasminogène en plasmine, stabilisant le caillot. Il est utilisé dans les hémorragies.",
+      "answers": [
+        { "text": "Activation de la coagulation", "is_correct": false },
+        {
+          "text": "Inhibition de la fibrinolyse (antifibrinolytique)",
+          "is_correct": true
+        },
+        { "text": "Antiagrégant plaquettaire", "is_correct": false },
+        { "text": "Activation plaquettaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'acide tranexamique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'acide tranexamique est utilisé dans les hémorragies (post-partum, chirurgicales, traumatiques) et les ménorragies pour limiter la perte sanguine.",
+      "answers": [
+        { "text": "Thrombose veineuse", "is_correct": false },
+        { "text": "Hémorragies et ménorragies", "is_correct": true },
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la desmopressine dans l'hémostase ?",
+      "difficulty": "Difficile",
+      "explanation": "La desmopressine (analogue de l'ADH) augmente la libération du facteur von Willebrand et du facteur VIII par l'endothélium, améliorant l'hémostase dans la maladie de von Willebrand et l'hémophilie A légère.",
+      "answers": [
+        { "text": "Activation directe des plaquettes", "is_correct": false },
+        {
+          "text": "Libération du facteur von Willebrand et facteur VIII",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la fibrinolyse", "is_correct": false },
+        {
+          "text": "Stimulation de la synthèse de facteurs de coagulation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de l'idarucizumab ?",
+      "difficulty": "Difficile",
+      "explanation": "L'idarucizumab est un fragment d'anticorps monoclonal humanisé qui se lie spécifiquement au dabigatran, neutralisant son effet anticoagulant en cas d'hémorragie ou de chirurgie urgente.",
+      "answers": [
+        { "text": "Antidote de la warfarine", "is_correct": false },
+        { "text": "Antidote spécifique du dabigatran", "is_correct": true },
+        { "text": "Antidote des anti-Xa", "is_correct": false },
+        { "text": "Activation de la coagulation", "is_correct": false }
+      ]
     }
   ]
 }

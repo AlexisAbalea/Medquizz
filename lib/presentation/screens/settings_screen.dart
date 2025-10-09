@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:medquizz_pass/core/constants/app_colors.dart';
 import 'package:medquizz_pass/core/constants/app_sizes.dart';
 import 'package:medquizz_pass/core/constants/app_text_styles.dart';
@@ -76,6 +77,285 @@ class _SettingsScreenState extends State<SettingsScreen> {
     }
   }
 
+  void _showLegalNotice() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Mentions légales'),
+        content: const SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'ÉDITEUR DE L\'APPLICATION',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Nom : HippoQuiz'),
+              Text('Éditeur : Monsieur ALEXIS ABALEA'),
+              Text('Statut juridique : Auto-entrepreneur'),
+              Text('SIRET : 90926936700035'),
+              Text('Adresse : 9 rue Saint-Exupéry, Plougastel-Daoulas, France'),
+              Text('Email : hippoquiz.app@gmail.com'),
+              SizedBox(height: 16),
+              Text(
+                'HÉBERGEMENT',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Cette application mobile ne dispose pas de serveur d\'hébergement. '
+                  'Toutes les données sont stockées localement sur votre appareil.'),
+              SizedBox(height: 16),
+              Text(
+                'PROPRIÉTÉ INTELLECTUELLE',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('L\'ensemble du contenu de cette application (textes, images, questions, '
+                  'design) est la propriété exclusive de Monsieur ALEXIS ABALEA. '
+                  'Toute reproduction, distribution ou utilisation sans autorisation est interdite.'),
+              SizedBox(height: 16),
+              Text(
+                'RESPONSABILITÉ',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Cette application est fournie à titre éducatif. L\'éditeur ne saurait '
+                  'être tenu responsable des erreurs ou omissions dans le contenu des questions. '
+                  'Les informations médicales fournies ne remplacent en aucun cas un enseignement '
+                  'médical officiel.'),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Fermer'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showPrivacyPolicy() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Politique de confidentialité'),
+        content: const SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'COLLECTE DES DONNÉES',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('HippoQuiz ne collecte AUCUNE donnée personnelle.'),
+              SizedBox(height: 8),
+              Text('Les seules données enregistrées sont :'),
+              Text('• Votre prénom (stocké localement sur votre appareil)'),
+              Text('• Votre niveau d\'études (L1, L2 ou L3)'),
+              Text('• Vos résultats de quiz et statistiques'),
+              SizedBox(height: 8),
+              Text('Ces données sont stockées UNIQUEMENT sur votre appareil et ne sont '
+                  'jamais transmises à un serveur externe.'),
+              SizedBox(height: 16),
+              Text(
+                'UTILISATION DES DONNÉES',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Les données locales sont utilisées exclusivement pour :'),
+              Text('• Personnaliser votre expérience'),
+              Text('• Sauvegarder votre progression'),
+              Text('• Afficher vos statistiques'),
+              SizedBox(height: 16),
+              Text(
+                'PARTAGE DES DONNÉES',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Aucune donnée n\'est partagée avec des tiers.'),
+              Text('Aucune donnée n\'est vendue.'),
+              Text('Aucune donnée n\'est transmise à des serveurs externes.'),
+              SizedBox(height: 16),
+              Text(
+                'VOS DROITS (RGPD)',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Vous pouvez à tout moment :'),
+              Text('• Supprimer vos données en désinstallant l\'application'),
+              Text('• Modifier votre profil dans les paramètres'),
+              SizedBox(height: 16),
+              Text(
+                'COOKIES ET TRACEURS',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Cette application n\'utilise aucun cookie ni outil de tracking/analytics.'),
+              SizedBox(height: 16),
+              Text(
+                'CONTACT',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Pour toute question : hippoquiz.app@gmail.com'),
+              SizedBox(height: 8),
+              Text('Dernière mise à jour : Janvier 2025'),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Fermer'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showTermsOfService() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Conditions d\'utilisation'),
+        content: const SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'ACCEPTATION DES CONDITIONS',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('En utilisant HippoQuiz, vous acceptez les présentes conditions d\'utilisation. '
+                  'Si vous n\'acceptez pas ces conditions, veuillez ne pas utiliser l\'application.'),
+              SizedBox(height: 16),
+              Text(
+                'OBJET DE L\'APPLICATION',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('HippoQuiz est une application éducative destinée aux étudiants en médecine '
+                  '(PASS L1 à L3) pour s\'entraîner aux QCM. Elle est fournie gratuitement '
+                  'à des fins pédagogiques.'),
+              SizedBox(height: 16),
+              Text(
+                'UTILISATION AUTORISÉE',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Vous vous engagez à :'),
+              Text('• Utiliser l\'application uniquement à des fins personnelles et éducatives'),
+              Text('• Ne pas copier, distribuer ou modifier le contenu'),
+              Text('• Ne pas tenter de décompiler ou reverse-engineer l\'application'),
+              Text('• Ne pas utiliser l\'application à des fins commerciales'),
+              SizedBox(height: 16),
+              Text(
+                'CONTENU ET EXACTITUDE',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('L\'éditeur s\'efforce de fournir un contenu exact et à jour, mais ne garantit pas :'),
+              Text('• L\'exhaustivité des informations'),
+              Text('• L\'absence d\'erreurs dans les questions'),
+              Text('• L\'adéquation avec les programmes officiels'),
+              SizedBox(height: 8),
+              Text('Les utilisateurs sont invités à vérifier les informations et à signaler '
+                  'toute erreur à : hippoquiz.app@gmail.com'),
+              SizedBox(height: 16),
+              Text(
+                'LIMITATION DE RESPONSABILITÉ',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('L\'éditeur ne peut être tenu responsable :'),
+              Text('• Des résultats académiques des utilisateurs'),
+              Text('• Des erreurs ou omissions dans le contenu'),
+              Text('• Des interruptions de service'),
+              Text('• De la perte de données due à un dysfonctionnement de l\'appareil'),
+              SizedBox(height: 16),
+              Text(
+                'PROPRIÉTÉ INTELLECTUELLE',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Tous les contenus de l\'application (questions, textes, design, graphismes) '
+                  'sont protégés par le droit d\'auteur et appartiennent à Monsieur ALEXIS ABALEA.'),
+              SizedBox(height: 16),
+              Text(
+                'MODIFICATION DES CONDITIONS',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('L\'éditeur se réserve le droit de modifier ces conditions à tout moment. '
+                  'Les utilisateurs seront informés des modifications majeures.'),
+              SizedBox(height: 16),
+              Text(
+                'LOI APPLICABLE',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              Text('Les présentes conditions sont régies par le droit français.'),
+              SizedBox(height: 8),
+              Text('Dernière mise à jour : Janvier 2025'),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Fermer'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _contactSupport() async {
+    final Uri emailUri = Uri(
+      scheme: 'mailto',
+      path: 'hippoquiz.app@gmail.com',
+      query: 'subject=Contact depuis HippoQuiz&body=Bonjour,\n\n',
+    );
+
+    try {
+      final canLaunch = await canLaunchUrl(emailUri);
+      if (canLaunch) {
+        await launchUrl(
+          emailUri,
+          mode: LaunchMode.externalApplication,
+        );
+      } else {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Aucune application mail trouvée. Veuillez installer Gmail ou une autre app mail.'),
+              backgroundColor: AppColors.error,
+              duration: Duration(seconds: 4),
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Erreur lors de l\'ouverture: $e'),
+            backgroundColor: AppColors.error,
+            duration: const Duration(seconds: 4),
+          ),
+        );
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -137,6 +417,193 @@ class _SettingsScreenState extends State<SettingsScreen> {
               icon: Icons.save,
               onPressed: _isLoading ? null : _saveSettings,
               isLoading: _isLoading,
+            ),
+
+            const SizedBox(height: AppSizes.spacingXl),
+
+            // Section Contact
+            Text(
+              'Support',
+              style: AppTextStyles.headlineSmall,
+            ),
+            const SizedBox(height: AppSizes.spacingMd),
+
+            // Carte Contact
+            CustomCard(
+              padding: const EdgeInsets.all(AppSizes.paddingMd),
+              child: InkWell(
+                onTap: _contactSupport,
+                borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                child: Padding(
+                  padding: const EdgeInsets.all(AppSizes.paddingSm),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(AppSizes.paddingSm),
+                        decoration: BoxDecoration(
+                          color: AppColors.primary.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                        ),
+                        child: const Icon(
+                          Icons.mail_outline,
+                          color: AppColors.primary,
+                          size: AppSizes.iconMd,
+                        ),
+                      ),
+                      const SizedBox(width: AppSizes.spacingMd),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Nous contacter',
+                              style: AppTextStyles.titleMedium,
+                            ),
+                            const SizedBox(height: AppSizes.spacingXs),
+                            Text(
+                              'Envoyez-nous vos questions ou suggestions',
+                              style: AppTextStyles.bodySmall.copyWith(
+                                color: AppColors.textSecondary,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const Icon(
+                        Icons.arrow_forward_ios,
+                        size: 16,
+                        color: AppColors.textSecondary,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: AppSizes.spacingMd),
+
+            // Carte Mentions légales
+            CustomCard(
+              padding: const EdgeInsets.all(AppSizes.paddingMd),
+              child: InkWell(
+                onTap: _showLegalNotice,
+                borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                child: Padding(
+                  padding: const EdgeInsets.all(AppSizes.paddingSm),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(AppSizes.paddingSm),
+                        decoration: BoxDecoration(
+                          color: AppColors.textSecondary.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                        ),
+                        child: Icon(
+                          Icons.description_outlined,
+                          color: AppColors.textSecondary,
+                          size: AppSizes.iconMd,
+                        ),
+                      ),
+                      const SizedBox(width: AppSizes.spacingMd),
+                      Expanded(
+                        child: Text(
+                          'Mentions légales',
+                          style: AppTextStyles.titleMedium,
+                        ),
+                      ),
+                      const Icon(
+                        Icons.arrow_forward_ios,
+                        size: 16,
+                        color: AppColors.textSecondary,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: AppSizes.spacingMd),
+
+            // Carte Politique de confidentialité
+            CustomCard(
+              padding: const EdgeInsets.all(AppSizes.paddingMd),
+              child: InkWell(
+                onTap: _showPrivacyPolicy,
+                borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                child: Padding(
+                  padding: const EdgeInsets.all(AppSizes.paddingSm),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(AppSizes.paddingSm),
+                        decoration: BoxDecoration(
+                          color: AppColors.textSecondary.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                        ),
+                        child: Icon(
+                          Icons.privacy_tip_outlined,
+                          color: AppColors.textSecondary,
+                          size: AppSizes.iconMd,
+                        ),
+                      ),
+                      const SizedBox(width: AppSizes.spacingMd),
+                      Expanded(
+                        child: Text(
+                          'Politique de confidentialité',
+                          style: AppTextStyles.titleMedium,
+                        ),
+                      ),
+                      const Icon(
+                        Icons.arrow_forward_ios,
+                        size: 16,
+                        color: AppColors.textSecondary,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: AppSizes.spacingMd),
+
+            // Carte CGU
+            CustomCard(
+              padding: const EdgeInsets.all(AppSizes.paddingMd),
+              child: InkWell(
+                onTap: _showTermsOfService,
+                borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                child: Padding(
+                  padding: const EdgeInsets.all(AppSizes.paddingSm),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(AppSizes.paddingSm),
+                        decoration: BoxDecoration(
+                          color: AppColors.textSecondary.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                        ),
+                        child: Icon(
+                          Icons.gavel_outlined,
+                          color: AppColors.textSecondary,
+                          size: AppSizes.iconMd,
+                        ),
+                      ),
+                      const SizedBox(width: AppSizes.spacingMd),
+                      Expanded(
+                        child: Text(
+                          'Conditions d\'utilisation',
+                          style: AppTextStyles.titleMedium,
+                        ),
+                      ),
+                      const Icon(
+                        Icons.arrow_forward_ios,
+                        size: 16,
+                        color: AppColors.textSecondary,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ),
           ],
         ),

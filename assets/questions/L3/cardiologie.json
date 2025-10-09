@@ -6,10 +6,10 @@
       "difficulty": "Moyen",
       "explanation": "L'insuffisance cardiaque est une complication fréquente et grave de l'infarctus, car le muscle cardiaque nécrosé ne peut plus se contracter efficacement.",
       "answers": [
-        {"text": "L'hypertension", "is_correct": false},
-        {"text": "L'insuffisance cardiaque", "is_correct": true},
-        {"text": "L'anémie", "is_correct": false},
-        {"text": "Le diabète", "is_correct": false}
+        { "text": "L'hypertension", "is_correct": false },
+        { "text": "L'insuffisance cardiaque", "is_correct": true },
+        { "text": "L'anémie", "is_correct": false },
+        { "text": "Le diabète", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,2862 @@
       "difficulty": "Facile",
       "explanation": "Le massage cardiaque externe (RCP) associé à la défibrillation précoce sont les éléments clés de la prise en charge d'un arrêt cardiaque.",
       "answers": [
-        {"text": "Antibiotiques", "is_correct": false},
-        {"text": "Massage cardiaque et défibrillation", "is_correct": true},
-        {"text": "Repos au lit", "is_correct": false},
-        {"text": "Oxygénothérapie seule", "is_correct": false}
+        { "text": "Antibiotiques", "is_correct": false },
+        { "text": "Massage cardiaque et défibrillation", "is_correct": true },
+        { "text": "Repos au lit", "is_correct": false },
+        { "text": "Oxygénothérapie seule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères ECG du syndrome coronarien aigu avec sus-décalage du segment ST (STEMI) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le STEMI est défini par un sus-décalage du segment ST ≥ 1 mm dans au moins 2 dérivations contiguës (ou ≥ 2 mm en V2-V3), témoignant d'une occlusion coronaire aiguë complète.",
+      "answers": [
+        { "text": "Sous-décalage du segment ST", "is_correct": false },
+        {
+          "text": "Sus-décalage du segment ST ≥ 1 mm dans 2 dérivations contiguës",
+          "is_correct": true
+        },
+        { "text": "Onde T négative isolée", "is_correct": false },
+        { "text": "Élargissement du QRS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la troponine et quelle est sa valeur diagnostique dans le syndrome coronarien aigu ?",
+      "difficulty": "Moyen",
+      "explanation": "La troponine (Tn I ou Tn T) est une protéine contractile cardiaque. Son élévation signe une nécrose myocardique et constitue le biomarqueur de référence du diagnostic d'infarctus du myocarde.",
+      "answers": [
+        {
+          "text": "Enzyme hépatique sans valeur cardiaque",
+          "is_correct": false
+        },
+        { "text": "Biomarqueur de nécrose myocardique", "is_correct": true },
+        { "text": "Marqueur de l'insuffisance rénale", "is_correct": false },
+        { "text": "Indicateur du cholestérol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le délai optimal de reperfusion coronaire (door-to-balloon) dans le STEMI ?",
+      "difficulty": "Moyen",
+      "explanation": "Le délai optimal entre l'arrivée à l'hôpital et l'angioplastie primaire (door-to-balloon time) doit être ≤ 90 minutes pour minimiser la taille de l'infarctus et améliorer le pronostic.",
+      "answers": [
+        { "text": "≤ 30 minutes", "is_correct": false },
+        { "text": "≤ 90 minutes", "is_correct": true },
+        { "text": "≤ 6 heures", "is_correct": false },
+        { "text": "≤ 24 heures", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classification de Killip dans l'infarctus du myocarde ?",
+      "difficulty": "Difficile",
+      "explanation": "La classification de Killip évalue la sévérité de l'insuffisance cardiaque post-infarctus : I (pas de signes), II (râles <50% champs pulmonaires), III (œdème pulmonaire), IV (choc cardiogénique).",
+      "answers": [
+        { "text": "Classification des valvulopathies", "is_correct": false },
+        {
+          "text": "Classification de la sévérité de l'insuffisance cardiaque post-IDM",
+          "is_correct": true
+        },
+        {
+          "text": "Classification des troubles du rythme",
+          "is_correct": false
+        },
+        {
+          "text": "Classification de l'hypertension artérielle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de l'angioplastie primaire dans le STEMI ?",
+      "difficulty": "Facile",
+      "explanation": "L'angioplastie primaire est le traitement de reperfusion de première ligne du STEMI, permettant la revascularisation mécanique de l'artère coronaire occluse.",
+      "answers": [
+        { "text": "Angine de poitrine stable", "is_correct": false },
+        {
+          "text": "Reperfusion coronaire en phase aiguë du STEMI",
+          "is_correct": true
+        },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Insuffisance cardiaque chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les complications mécaniques précoces de l'infarctus du myocarde ?",
+      "difficulty": "Difficile",
+      "explanation": "Les complications mécaniques précoces (J2-J7) incluent la rupture de la paroi libre du ventricule, la rupture du septum interventriculaire (CIV) et la rupture de pilier mitral (insuffisance mitrale aiguë).",
+      "answers": [
+        { "text": "Athérosclérose progressive", "is_correct": false },
+        {
+          "text": "Rupture de paroi libre, CIV, rupture de pilier mitral",
+          "is_correct": true
+        },
+        { "text": "Hypertension artérielle secondaire", "is_correct": false },
+        { "text": "Fibrillation auriculaire isolée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le score GRACE et quelle est son utilité ?",
+      "difficulty": "Difficile",
+      "explanation": "Le score GRACE (Global Registry of Acute Coronary Events) estime le risque de décès ou d'infarctus à 6 mois dans les syndromes coronariens aigus, guidant la stratégie thérapeutique (invasive précoce ou conservative).",
+      "answers": [
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        {
+          "text": "Score pronostique des syndromes coronariens aigus",
+          "is_correct": true
+        },
+        { "text": "Score de risque thromboembolique", "is_correct": false },
+        {
+          "text": "Score d'évaluation de la fonction rénale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la double antiagrégation plaquettaire (DAPT) recommandée après un syndrome coronarien aigu ?",
+      "difficulty": "Moyen",
+      "explanation": "La DAPT associe aspirine (75-160 mg/j) et un inhibiteur du P2Y12 (ticagrelor, prasugrel ou clopidogrel) pendant 12 mois après un SCA pour prévenir la thrombose de stent et la récidive ischémique.",
+      "answers": [
+        { "text": "Aspirine seule", "is_correct": false },
+        {
+          "text": "Aspirine + inhibiteur du P2Y12 (ticagrelor/prasugrel/clopidogrel)",
+          "is_correct": true
+        },
+        { "text": "AVK + aspirine", "is_correct": false },
+        { "text": "AOD seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Dressler ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Dressler est une péricardite auto-immune tardive (2 semaines à 3 mois) post-infarctus, se manifestant par fièvre, douleur thoracique, péricardite et syndrome inflammatoire.",
+      "answers": [
+        {
+          "text": "Arythmie ventriculaire post-infarctus",
+          "is_correct": false
+        },
+        {
+          "text": "Péricardite auto-immune tardive post-infarctus",
+          "is_correct": true
+        },
+        { "text": "Insuffisance mitrale aiguë", "is_correct": false },
+        { "text": "Embolie pulmonaire post-infarctus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classification NYHA de l'insuffisance cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "La classification NYHA (New York Heart Association) évalue la capacité fonctionnelle : I (asymptomatique), II (symptômes à l'effort modéré), III (symptômes à l'effort léger), IV (symptômes au repos).",
+      "answers": [
+        {
+          "text": "Classification anatomique des valvulopathies",
+          "is_correct": false
+        },
+        {
+          "text": "Classification fonctionnelle selon la tolérance à l'effort",
+          "is_correct": true
+        },
+        { "text": "Classification étiologique de l'IC", "is_correct": false },
+        { "text": "Classification des troubles du rythme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fraction d'éjection ventriculaire gauche (FEVG) normale ?",
+      "difficulty": "Facile",
+      "explanation": "La FEVG normale est ≥ 50-55%. Une FEVG < 40% définit l'insuffisance cardiaque à fraction d'éjection réduite (ICFEr), entre 40-49% l'IC à FEVG modérément réduite.",
+      "answers": [
+        { "text": "≥ 30%", "is_correct": false },
+        { "text": "≥ 50-55%", "is_correct": true },
+        { "text": "≥ 70%", "is_correct": false },
+        { "text": "≥ 90%", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les piliers thérapeutiques de l'insuffisance cardiaque à FEVG réduite ?",
+      "difficulty": "Moyen",
+      "explanation": "Les piliers thérapeutiques de l'ICFEr incluent : IEC/ARA2/ARNI, bêta-bloquants, anti-aldostérone (spironolactone), inhibiteurs SGLT2, et diurétiques si congestion.",
+      "answers": [
+        { "text": "Diurétiques seuls", "is_correct": false },
+        {
+          "text": "IEC/ARA2/ARNI + bêta-bloquants + anti-aldostérone + SGLT2i",
+          "is_correct": true
+        },
+        { "text": "Statines + antiagrégants", "is_correct": false },
+        { "text": "Corticoïdes + antibiotiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le BNP/NT-proBNP et quelle est son utilité diagnostique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le BNP (Brain Natriuretic Peptide) et le NT-proBNP sont des hormones sécrétées par les ventricules en cas de surcharge. Leur élévation aide au diagnostic d'insuffisance cardiaque.",
+      "answers": [
+        { "text": "Marqueur de nécrose myocardique", "is_correct": false },
+        {
+          "text": "Biomarqueur de surcharge ventriculaire (diagnostic IC)",
+          "is_correct": true
+        },
+        { "text": "Marqueur inflammatoire", "is_correct": false },
+        { "text": "Indicateur de fonction rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la resynchronisation cardiaque (CRT) ?",
+      "difficulty": "Difficile",
+      "explanation": "La CRT est indiquée dans l'ICFEr avec FEVG ≤ 35%, QRS large (≥ 130 ms, idéalement bloc de branche gauche), NYHA II-IV sous traitement médical optimal, pour améliorer la synchronisation ventriculaire.",
+      "answers": [
+        { "text": "Toute insuffisance cardiaque", "is_correct": false },
+        {
+          "text": "ICFEr + FEVG ≤ 35% + QRS large + NYHA II-IV",
+          "is_correct": true
+        },
+        { "text": "Fibrillation auriculaire isolée", "is_correct": false },
+        { "text": "Hypertension artérielle résistante", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la fibrillation auriculaire et quel est son principal risque ?",
+      "difficulty": "Facile",
+      "explanation": "La fibrillation auriculaire (FA) est un trouble du rythme supraventriculaire avec activité atriale anarchique. Le principal risque est thromboembolique (AVC ischémique par formation de thrombus auriculaire).",
+      "answers": [
+        { "text": "Arythmie ventriculaire", "is_correct": false },
+        {
+          "text": "Arythmie supraventriculaire avec risque thromboembolique (AVC)",
+          "is_correct": true
+        },
+        { "text": "Bradycardie sinusale", "is_correct": false },
+        { "text": "Tachycardie ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le score CHA2DS2-VASc et à quoi sert-il ?",
+      "difficulty": "Moyen",
+      "explanation": "Le score CHA2DS2-VASc évalue le risque thromboembolique dans la FA (Insuffisance Cardiaque, HTA, Âge ≥75, Diabète, AVC/AIT, Maladie Vasculaire, Âge 65-74, Sexe féminin). Il guide l'indication d'anticoagulation.",
+      "answers": [
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        {
+          "text": "Score de risque thromboembolique dans la FA",
+          "is_correct": true
+        },
+        {
+          "text": "Score pronostique de l'insuffisance cardiaque",
+          "is_correct": false
+        },
+        { "text": "Score de risque coronarien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le score HAS-BLED et son utilité ?",
+      "difficulty": "Moyen",
+      "explanation": "Le score HAS-BLED évalue le risque hémorragique chez les patients sous anticoagulants (HTA, Anomalie rénale/hépatique, AVC, Saignement, INR labile, Âge >65 ans, Médicaments/alcool). Un score ≥3 indique un risque élevé.",
+      "answers": [
+        { "text": "Score de risque thromboembolique", "is_correct": false },
+        {
+          "text": "Score de risque hémorragique sous anticoagulants",
+          "is_correct": true
+        },
+        {
+          "text": "Score de gravité de l'insuffisance cardiaque",
+          "is_correct": false
+        },
+        { "text": "Score de risque coronarien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les stratégies thérapeutiques de la fibrillation auriculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Deux stratégies : contrôle du rythme (cardioversion + antiarythmiques) ou contrôle de la fréquence (bêta-bloquants, inhibiteurs calciques, digoxine) + anticoagulation selon CHA2DS2-VASc.",
+      "answers": [
+        { "text": "Antibiotiques uniquement", "is_correct": false },
+        {
+          "text": "Contrôle du rythme ou de la fréquence + anticoagulation",
+          "is_correct": true
+        },
+        { "text": "Chirurgie cardiaque systématique", "is_correct": false },
+        { "text": "Abstention thérapeutique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'ablation de fibrillation auriculaire par radiofréquence ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ablation par cathéter de FA consiste à isoler électriquement les veines pulmonaires (principale source de déclenchement) par radiofréquence ou cryothérapie, restaurant le rythme sinusal.",
+      "answers": [
+        { "text": "Chirurgie à cœur ouvert", "is_correct": false },
+        {
+          "text": "Isolation électrique des veines pulmonaires par cathéter",
+          "is_correct": true
+        },
+        { "text": "Implantation d'un pacemaker", "is_correct": false },
+        { "text": "Traitement médicamenteux intraveineux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une tachycardie ventriculaire (TV) et quel est son risque principal ?",
+      "difficulty": "Moyen",
+      "explanation": "La TV est une succession rapide (>100 bpm) de ≥3 complexes QRS larges d'origine ventriculaire. Le risque principal est l'évolution vers la fibrillation ventriculaire et la mort subite.",
+      "answers": [
+        { "text": "Arythmie bénigne sans conséquence", "is_correct": false },
+        {
+          "text": "Arythmie ventriculaire avec risque de mort subite",
+          "is_correct": true
+        },
+        { "text": "Bradycardie sinusale", "is_correct": false },
+        { "text": "Fibrillation auriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications du défibrillateur automatique implantable (DAI) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le DAI est indiqué en prévention secondaire (après TV/FV récupérée) et primaire (ICFEr avec FEVG ≤ 35% sous traitement optimal, cardiomyopathie hypertrophique à haut risque, canalopathies).",
+      "answers": [
+        { "text": "Toute insuffisance cardiaque", "is_correct": false },
+        {
+          "text": "Prévention secondaire TV/FV et primaire si FEVG ≤ 35%",
+          "is_correct": true
+        },
+        { "text": "Bradycardie sinusale", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Wolff-Parkinson-White (WPW) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le WPW est un syndrome de pré-excitation ventriculaire par faisceau accessoire (Kent) court-circuitant le nœud AV. ECG : PR court, onde delta, QRS large. Risque : tachycardies supraventriculaires.",
+      "answers": [
+        { "text": "Bloc auriculo-ventriculaire complet", "is_correct": false },
+        {
+          "text": "Syndrome de pré-excitation par faisceau accessoire",
+          "is_correct": true
+        },
+        { "text": "Fibrillation ventriculaire", "is_correct": false },
+        { "text": "Bradycardie sinusale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un bloc auriculo-ventriculaire (BAV) du 3ème degré ?",
+      "difficulty": "Moyen",
+      "explanation": "Le BAV du 3ème degré (BAV complet) est une dissociation complète entre oreillettes et ventricules. Aucun influx auriculaire n'est conduit. Indication formelle de pacemaker.",
+      "answers": [
+        { "text": "Ralentissement de la conduction AV", "is_correct": false },
+        {
+          "text": "Dissociation complète atrio-ventriculaire",
+          "is_correct": true
+        },
+        { "text": "Tachycardie supraventriculaire", "is_correct": false },
+        { "text": "Extrasystole ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la stimulation cardiaque (pacemaker) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les indications incluent : BAV du 2ème degré Mobitz II et 3ème degré symptomatiques, maladie de l'oreillette (dysfonction sinusale) symptomatique, bradycardies symptomatiques réfractaires.",
+      "answers": [
+        { "text": "Tachycardie ventriculaire", "is_correct": false },
+        {
+          "text": "BAV de haut degré et bradycardies symptomatiques",
+          "is_correct": true
+        },
+        { "text": "Fibrillation auriculaire", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le rétrécissement aortique (RA) et quels sont ses symptômes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le RA est une sténose valvulaire aortique limitant l'éjection du VG. La triade symptomatique : dyspnée d'effort, angor, syncopes d'effort. L'apparition des symptômes impose le remplacement valvulaire.",
+      "answers": [
+        { "text": "Insuffisance de la valve aortique", "is_correct": false },
+        {
+          "text": "Sténose aortique avec triade dyspnée/angor/syncopes",
+          "is_correct": true
+        },
+        { "text": "Dilatation de l'aorte", "is_correct": false },
+        { "text": "Calcification coronarienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères de sévérité du rétrécissement aortique ?",
+      "difficulty": "Difficile",
+      "explanation": "RA serré : surface valvulaire aortique (SVA) < 1 cm², gradient moyen transvalvulaire > 40 mmHg, ou vitesse maximale > 4 m/s à l'échographie-Doppler.",
+      "answers": [
+        { "text": "SVA > 2 cm²", "is_correct": false },
+        {
+          "text": "SVA < 1 cm², gradient > 40 mmHg, vitesse > 4 m/s",
+          "is_correct": true
+        },
+        { "text": "FEVG < 40%", "is_correct": false },
+        { "text": "Absence de gradient", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le TAVI (Transcatheter Aortic Valve Implantation) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le TAVI est l'implantation percutanée d'une valve aortique bioprothétique par voie fémorale ou sous-clavière, alternative au remplacement chirurgical chez les patients à haut risque opératoire.",
+      "answers": [
+        { "text": "Chirurgie à cœur ouvert", "is_correct": false },
+        {
+          "text": "Implantation percutanée de valve aortique",
+          "is_correct": true
+        },
+        { "text": "Plastie mitrale", "is_correct": false },
+        { "text": "Pontage coronarien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'insuffisance mitrale (IM) et quelles en sont les causes principales ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IM est un reflux de sang du VG vers l'OG en systole. Causes : dégénérescence myxoïde (prolapsus), ischémique (rupture pilier), rhumatismale, endocardite, dilatation du VG (IM fonctionnelle).",
+      "answers": [
+        { "text": "Sténose de la valve mitrale", "is_correct": false },
+        {
+          "text": "Reflux du VG vers l'OG (prolapsus, ischémie, rhumatisme)",
+          "is_correct": true
+        },
+        { "text": "Insuffisance de la valve aortique", "is_correct": false },
+        { "text": "Calcification mitrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le prolapsus de la valve mitrale (PVM) ?",
+      "difficulty": "Facile",
+      "explanation": "Le PVM est un bombement anormal d'un ou des deux feuillets mitraux dans l'OG en systole, souvent bénin. Auscultation : clic mésosystolique ± souffle télésystolique. Complication rare : IM sévère.",
+      "answers": [
+        { "text": "Calcification de la valve mitrale", "is_correct": false },
+        {
+          "text": "Bombement systolique des feuillets mitraux dans l'OG",
+          "is_correct": true
+        },
+        { "text": "Rétrécissement mitral", "is_correct": false },
+        { "text": "Insuffisance aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le rétrécissement mitral (RM) et quelle est sa principale étiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le RM est une sténose de la valve mitrale limitant le remplissage du VG. Principale cause : séquelle de rhumatisme articulaire aigu (RAA). Signes : dyspnée, fibrillation auriculaire, hémoptysie.",
+      "answers": [
+        { "text": "Insuffisance mitrale", "is_correct": false },
+        { "text": "Sténose mitrale post-rhumatismale", "is_correct": true },
+        { "text": "Prolapsus mitral", "is_correct": false },
+        { "text": "Endocardite infectieuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'endocardite infectieuse et quels sont les germes les plus fréquents ?",
+      "difficulty": "Moyen",
+      "explanation": "L'endocardite infectieuse est une infection de l'endocarde et des valves cardiaques. Germes fréquents : streptocoques (viridans), staphylocoques (aureus, epidermidis), entérocoques.",
+      "answers": [
+        { "text": "Infection pulmonaire", "is_correct": false },
+        {
+          "text": "Infection valvulaire (streptocoques, staphylocoques)",
+          "is_correct": true
+        },
+        { "text": "Infection rénale", "is_correct": false },
+        { "text": "Infection digestive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères de Duke modifiés pour le diagnostic d'endocardite infectieuse ?",
+      "difficulty": "Difficile",
+      "explanation": "Critères majeurs : hémocultures positives (2 germes typiques), imagerie (végétations à l'ETT/ETO, abcès, désinsertion prothèse). Critères mineurs : fièvre, facteur prédisposant, phénomènes vasculaires/immunologiques, hémocultures atypiques.",
+      "answers": [
+        {
+          "text": "Fièvre + souffle cardiaque uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Hémocultures positives + imagerie (végétations) + critères mineurs",
+          "is_correct": true
+        },
+        { "text": "Syndrome inflammatoire isolé", "is_correct": false },
+        { "text": "Douleur thoracique + dyspnée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'antibioprophylaxie de l'endocardite infectieuse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'antibioprophylaxie (amoxicilline 2g PO 1h avant) n'est indiquée que pour les gestes dentaires à risque chez les patients à haut risque (prothèse valvulaire, ATCD d'EI, cardiopathie congénitale cyanogène).",
+      "answers": [
+        {
+          "text": "Systématique avant toute intervention",
+          "is_correct": false
+        },
+        {
+          "text": "Amoxicilline avant gestes dentaires si haut risque",
+          "is_correct": true
+        },
+        { "text": "Inutile dans tous les cas", "is_correct": false },
+        { "text": "Antibiotiques IV prolongés", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la péricardite aiguë et quels sont ses signes cliniques ?",
+      "difficulty": "Facile",
+      "explanation": "La péricardite aiguë est une inflammation du péricarde. Signes : douleur thoracique aggravée en décubitus et à l'inspiration, frottement péricardique, ECG (sus-décalage diffus ST concave), syndrome inflammatoire.",
+      "answers": [
+        { "text": "Inflammation du myocarde", "is_correct": false },
+        {
+          "text": "Inflammation du péricarde (douleur, frottement, sus-ST diffus)",
+          "is_correct": true
+        },
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la tamponnade péricardique et comment se manifeste-t-elle ?",
+      "difficulty": "Difficile",
+      "explanation": "La tamponnade est une compression cardiaque par un épanchement péricardique abondant. Triade de Beck : turgescence jugulaire, hypotension artérielle, assourdissement des bruits cardiaques. Urgence : drainage péricardique.",
+      "answers": [
+        { "text": "Inflammation péricardique simple", "is_correct": false },
+        {
+          "text": "Compression cardiaque par épanchement (triade de Beck)",
+          "is_correct": true
+        },
+        { "text": "Infarctus du myocarde étendu", "is_correct": false },
+        { "text": "Insuffisance cardiaque droite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardiomyopathie dilatée (CMD) ?",
+      "difficulty": "Moyen",
+      "explanation": "La CMD est une atteinte myocardique primitive avec dilatation du VG et altération de la fonction systolique (FEVG < 40%). Causes : idiopathique, toxique (alcool), virale, génétique.",
+      "answers": [
+        { "text": "Hypertrophie concentrique du VG", "is_correct": false },
+        {
+          "text": "Dilatation du VG avec altération de la FEVG",
+          "is_correct": true
+        },
+        { "text": "Sténose valvulaire aortique", "is_correct": false },
+        { "text": "Péricardite constrictive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardiomyopathie hypertrophique (CMH) ?",
+      "difficulty": "Moyen",
+      "explanation": "La CMH est une hypertrophie myocardique (souvent septale) sans cause (HTA, RA). Génétique (mutation sarcomère). Risque : obstruction CCVG, mort subite. Traitement : bêta-bloquants, DAI si haut risque.",
+      "answers": [
+        { "text": "Dilatation du ventricule gauche", "is_correct": false },
+        {
+          "text": "Hypertrophie ventriculaire primitive (génétique)",
+          "is_correct": true
+        },
+        { "text": "Insuffisance mitrale", "is_correct": false },
+        { "text": "Péricardite chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la myocardite et quelles en sont les causes ?",
+      "difficulty": "Moyen",
+      "explanation": "La myocardite est une inflammation du myocarde. Causes : virale (entérovirus, Coxsackie, adénovirus), auto-immune, toxique, médicamenteuse. Signes : douleur thoracique, insuffisance cardiaque, arythmies.",
+      "answers": [
+        { "text": "Inflammation du péricarde", "is_correct": false },
+        {
+          "text": "Inflammation du myocarde (virale, auto-immune, toxique)",
+          "is_correct": true
+        },
+        { "text": "Sténose valvulaire", "is_correct": false },
+        { "text": "Athérosclérose coronarienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dissection aortique et quels sont ses signes cliniques ?",
+      "difficulty": "Difficile",
+      "explanation": "La dissection aortique est un clivage de la média aortique. Signes : douleur thoracique brutale transfixiante migratrice, asymétrie tensionnelle/pouls, souffle d'insuffisance aortique. Classification Stanford A (aorte ascendante) vs B.",
+      "answers": [
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        {
+          "text": "Clivage de la paroi aortique (douleur brutale transfixiante)",
+          "is_correct": true
+        },
+        { "text": "Anévrisme de l'aorte abdominale", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classification de Stanford de la dissection aortique ?",
+      "difficulty": "Moyen",
+      "explanation": "Type A : atteinte de l'aorte ascendante (urgence chirurgicale). Type B : atteinte de l'aorte descendante uniquement (traitement médical initial, chirurgie si complications).",
+      "answers": [
+        {
+          "text": "Type A : aorte descendante, Type B : aorte ascendante",
+          "is_correct": false
+        },
+        {
+          "text": "Type A : aorte ascendante (chirurgie), Type B : aorte descendante",
+          "is_correct": true
+        },
+        {
+          "text": "Classification par taille de l'anévrisme",
+          "is_correct": false
+        },
+        {
+          "text": "Classification par origine traumatique ou spontanée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un anévrisme de l'aorte abdominale (AAA) et quand opérer ?",
+      "difficulty": "Moyen",
+      "explanation": "L'AAA est une dilatation de l'aorte abdominale > 30 mm (normale < 20 mm). Indication chirurgicale : diamètre > 55 mm (homme), > 50 mm (femme), ou croissance rapide (>10 mm/an), ou symptomatique.",
+      "answers": [
+        {
+          "text": "Opération systématique dès le diagnostic",
+          "is_correct": false
+        },
+        {
+          "text": "Opération si > 55 mm (homme) ou > 50 mm (femme)",
+          "is_correct": true
+        },
+        { "text": "Surveillance uniquement", "is_correct": false },
+        { "text": "Traitement médicamenteux seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'embolie pulmonaire (EP) et quels sont ses facteurs de risque ?",
+      "difficulty": "Facile",
+      "explanation": "L'EP est l'obstruction d'une ou plusieurs artères pulmonaires par un thrombus (origine : TVP dans 90% des cas). Facteurs de risque : immobilisation, chirurgie, cancer, thrombophilie, contraception œstroprogestative.",
+      "answers": [
+        { "text": "Infarctus pulmonaire infectieux", "is_correct": false },
+        {
+          "text": "Obstruction artérielle pulmonaire par thrombus (TVP++)",
+          "is_correct": true
+        },
+        { "text": "Œdème pulmonaire cardiogénique", "is_correct": false },
+        { "text": "Pneumonie bactérienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les signes cliniques de l'embolie pulmonaire ?",
+      "difficulty": "Facile",
+      "explanation": "Signes : dyspnée d'apparition brutale, douleur thoracique pleurale, tachycardie, hémoptysie. EP grave : état de choc, hypotension, syncope, défaillance ventriculaire droite.",
+      "answers": [
+        { "text": "Fièvre et toux productive", "is_correct": false },
+        {
+          "text": "Dyspnée brutale, douleur pleurale, tachycardie",
+          "is_correct": true
+        },
+        { "text": "Douleur épigastrique et vomissements", "is_correct": false },
+        { "text": "Céphalées et vertiges", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score de Wells pour l'embolie pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le score de Wells estime la probabilité clinique d'EP (signes de TVP, EP plus probable qu'un autre diagnostic, FC>100, immobilisation/chirurgie, ATCD EP/TVP, hémoptysie, cancer). Oriente vers D-dimères ou angio-TDM.",
+      "answers": [
+        { "text": "Score de gravité de l'EP", "is_correct": false },
+        { "text": "Score de probabilité clinique d'EP", "is_correct": true },
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        { "text": "Score de fonction cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le gold standard diagnostique de l'embolie pulmonaire ?",
+      "difficulty": "Facile",
+      "explanation": "L'angioscanner thoracique (angio-TDM pulmonaire) avec injection de produit de contraste est l'examen de référence pour le diagnostic d'EP, visualisant les thrombi dans les artères pulmonaires.",
+      "answers": [
+        { "text": "Radiographie thoracique", "is_correct": false },
+        { "text": "Angioscanner thoracique (angio-TDM)", "is_correct": true },
+        { "text": "Échographie cardiaque", "is_correct": false },
+        { "text": "ECG", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que les D-dimères et quelle est leur valeur diagnostique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les D-dimères sont des produits de dégradation de la fibrine. Valeur prédictive négative excellente : si négatifs et probabilité faible/modérée, EP exclue. Peu spécifiques (élevés dans nombreuses situations).",
+      "answers": [
+        { "text": "Marqueur spécifique de l'EP", "is_correct": false },
+        {
+          "text": "Marqueur sensible mais peu spécifique (VPN excellente)",
+          "is_correct": true
+        },
+        { "text": "Marqueur de nécrose myocardique", "is_correct": false },
+        { "text": "Marqueur de fonction rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de l'embolie pulmonaire non grave ?",
+      "difficulty": "Moyen",
+      "explanation": "Anticoagulation en urgence par HBPM ou AOD (rivaroxaban, apixaban) puis relais par AVK ou AOD au long cours (≥ 3 mois, parfois à vie selon facteurs de risque).",
+      "answers": [
+        { "text": "Thrombolyse systématique", "is_correct": false },
+        {
+          "text": "Anticoagulation (HBPM ou AOD puis relais)",
+          "is_correct": true
+        },
+        { "text": "Antiagrégants plaquettaires", "is_correct": false },
+        { "text": "Antibiotiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la thrombolyse dans l'embolie pulmonaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Thrombolyse indiquée dans l'EP à haut risque avec état de choc ou hypotension persistante (EP massive). Contre-indiquée si risque hémorragique majeur. Molécule : altéplase (rtPA).",
+      "answers": [
+        { "text": "Toute embolie pulmonaire", "is_correct": false },
+        {
+          "text": "EP à haut risque avec choc/hypotension",
+          "is_correct": true
+        },
+        { "text": "EP de probabilité faible", "is_correct": false },
+        { "text": "Jamais indiquée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hypertension artérielle pulmonaire (HTAP) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'HTAP est définie par une pression artérielle pulmonaire moyenne ≥ 20 mmHg au repos (cathétérisme droit). Causes : idiopathique, connectivites, cardiopathies congénitales, EP chronique. Traitement spécifique selon cause.",
+      "answers": [
+        { "text": "Hypertension artérielle systémique", "is_correct": false },
+        {
+          "text": "Élévation de la pression artérielle pulmonaire (≥ 20 mmHg)",
+          "is_correct": true
+        },
+        { "text": "Insuffisance cardiaque gauche", "is_correct": false },
+        { "text": "Asthme sévère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le cœur pulmonaire chronique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cœur pulmonaire chronique est une insuffisance ventriculaire droite secondaire à une pathologie respiratoire chronique (BPCO, fibrose pulmonaire) ou vasculaire pulmonaire (HTAP, EP chronique).",
+      "answers": [
+        { "text": "Insuffisance cardiaque gauche", "is_correct": false },
+        {
+          "text": "Insuffisance ventriculaire droite d'origine respiratoire/pulmonaire",
+          "is_correct": true
+        },
+        { "text": "Infarctus du ventricule droit", "is_correct": false },
+        { "text": "Péricardite chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les facteurs de risque cardiovasculaires majeurs modifiables ?",
+      "difficulty": "Facile",
+      "explanation": "Les facteurs de risque CV majeurs modifiables sont : tabagisme, HTA, dyslipidémie, diabète, sédentarité, obésité. Les non modifiables : âge, sexe masculin, antécédents familiaux.",
+      "answers": [
+        { "text": "Âge et sexe uniquement", "is_correct": false },
+        {
+          "text": "Tabac, HTA, dyslipidémie, diabète, sédentarité, obésité",
+          "is_correct": true
+        },
+        { "text": "Antécédents familiaux uniquement", "is_correct": false },
+        { "text": "Groupe sanguin", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome métabolique et quels sont ses critères ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome métabolique (≥3 critères) : obésité abdominale (tour de taille >102 cm H, >88 cm F), TG ≥1,5 g/L, HDL bas, PA ≥130/85 mmHg, glycémie ≥1 g/L. Augmente le risque CV et de diabète.",
+      "answers": [
+        { "text": "Hypertension isolée", "is_correct": false },
+        {
+          "text": "Obésité abdominale + dyslipidémie + HTA + hyperglycémie (≥3/5)",
+          "is_correct": true
+        },
+        { "text": "Diabète de type 1", "is_correct": false },
+        { "text": "Insuffisance rénale chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'objectif tensionnel chez un patient hypertendu sans comorbidité ?",
+      "difficulty": "Moyen",
+      "explanation": "L'objectif tensionnel est généralement <140/90 mmHg (ESC 2018), avec une cible optimale <130/80 mmHg si bien toléré. Chez le diabétique et l'insuffisant rénal : <130/80 mmHg.",
+      "answers": [
+        { "text": "<160/100 mmHg", "is_correct": false },
+        {
+          "text": "<140/90 mmHg (optimal <130/80 mmHg)",
+          "is_correct": true
+        },
+        { "text": "<120/70 mmHg systématiquement", "is_correct": false },
+        { "text": "Pas d'objectif précis", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la stratégie thérapeutique initiale de l'HTA essentielle non compliquée ?",
+      "difficulty": "Moyen",
+      "explanation": "Bithérapie initiale recommandée (IEC ou ARA2 + inhibiteur calcique ou diurétique thiazidique) en une prise quotidienne. Monothérapie possible si HTA grade 1 et patient âgé ou fragile.",
+      "answers": [
+        { "text": "Trithérapie d'emblée", "is_correct": false },
+        {
+          "text": "Bithérapie (IEC/ARA2 + IC ou thiazidique)",
+          "is_correct": true
+        },
+        { "text": "Règles hygiéno-diététiques seules", "is_correct": false },
+        { "text": "Diurétique de l'anse seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une HTA résistante et comment la traiter ?",
+      "difficulty": "Difficile",
+      "explanation": "HTA résistante : PA non contrôlée malgré trithérapie optimale (IEC/ARA2 + IC + thiazidique) avec observance vérifiée. Ajouter spironolactone, rechercher HTA secondaire, envisager dénervation rénale.",
+      "answers": [
+        {
+          "text": "HTA non contrôlée malgré monothérapie",
+          "is_correct": false
+        },
+        {
+          "text": "HTA non contrôlée malgré trithérapie optimale",
+          "is_correct": true
+        },
+        { "text": "Toute HTA nécessitant un traitement", "is_correct": false },
+        { "text": "HTA gravidique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les principales causes d'HTA secondaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Causes d'HTA secondaire : hyperaldostéronisme primaire (Conn), phéochromocytome, sténose artère rénale, syndrome d'apnées du sommeil, maladie rénale, syndrome de Cushing, coarctation aortique.",
+      "answers": [
+        { "text": "Stress uniquement", "is_correct": false },
+        {
+          "text": "Conn, phéochromocytome, sténose rénale, SAOS, néphropathie",
+          "is_correct": true
+        },
+        { "text": "Diabète isolé", "is_correct": false },
+        { "text": "Hyperthyroïdie uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hypercholestérolémie familiale et comment se manifeste-t-elle ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hypercholestérolémie familiale (mutation récepteur LDL) entraîne un LDL très élevé (>1,9 g/L), xanthomes tendineux, arc cornéen, athérosclérose précoce. Traitement : statines fortes doses + ézétimibe.",
+      "answers": [
+        { "text": "Dyslipidémie acquise bénigne", "is_correct": false },
+        {
+          "text": "Maladie génétique avec LDL très élevé et athérosclérose précoce",
+          "is_correct": true
+        },
+        { "text": "Hypertriglycéridémie isolée", "is_correct": false },
+        { "text": "Carence vitaminique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les objectifs de LDL-cholestérol selon le risque cardiovasculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Objectifs LDL : risque très élevé (SCA, diabète avec atteinte d'organe) <0,55 g/L et baisse ≥50%, risque élevé <0,70 g/L, risque modéré <1,00 g/L, risque faible <1,16 g/L.",
+      "answers": [
+        { "text": "<2,0 g/L pour tous", "is_correct": false },
+        {
+          "text": "<0,55 g/L (très haut risque), <0,70 g/L (haut risque)",
+          "is_correct": true
+        },
+        { "text": "Pas d'objectif précis", "is_correct": false },
+        { "text": "<1,5 g/L pour tous", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'angine de poitrine stable et quelles sont ses caractéristiques ?",
+      "difficulty": "Facile",
+      "explanation": "L'angine stable est une douleur thoracique rétrosternale constrictive déclenchée par l'effort, calmée par le repos ou la trinitrine en <5 min, sans modification récente (athérosclérose coronaire stable).",
+      "answers": [
+        { "text": "Douleur au repos prolongée", "is_correct": false },
+        {
+          "text": "Douleur d'effort calmée par le repos/trinitrine <5 min",
+          "is_correct": true
+        },
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        { "text": "Péricardite aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classification de la Canadian Cardiovascular Society (CCS) de l'angine de poitrine ?",
+      "difficulty": "Moyen",
+      "explanation": "Classification CCS : I (angor aux efforts intenses), II (angor limitant légèrement l'activité), III (angor limitant nettement l'activité), IV (angor au moindre effort ou au repos).",
+      "answers": [
+        {
+          "text": "Classification par gravité de l'infarctus",
+          "is_correct": false
+        },
+        {
+          "text": "Classification fonctionnelle de l'angor (I à IV)",
+          "is_correct": true
+        },
+        { "text": "Classification des valvulopathies", "is_correct": false },
+        {
+          "text": "Classification de l'insuffisance cardiaque",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de première intention de l'angine de poitrine stable ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement : contrôle des FDR CV, antiagrégants (aspirine), bêta-bloquants ou inhibiteurs calciques, statines, dérivés nitrés à la demande (trinitrine sublinguale). Si échec : revascularisation.",
+      "answers": [
+        { "text": "Angioplastie systématique", "is_correct": false },
+        {
+          "text": "Bêta-bloquants/IC + aspirine + statines + trinitrine",
+          "is_correct": true
+        },
+        { "text": "Antibiotiques", "is_correct": false },
+        { "text": "Repos strict uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'angor de Prinzmetal (angor vasospastique) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'angor de Prinzmetal est dû à un spasme coronaire avec sus-décalage transitoire du ST, survenant au repos (souvent la nuit). Diagnostic : test à l'acétylcholine. Traitement : inhibiteurs calciques, arrêt tabac.",
+      "answers": [
+        { "text": "Angine d'effort stable", "is_correct": false },
+        { "text": "Angor de repos par spasme coronaire", "is_correct": true },
+        { "text": "Infarctus du myocarde transmural", "is_correct": false },
+        { "text": "Syndrome coronarien aigu classique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre STEMI et NSTEMI ?",
+      "difficulty": "Facile",
+      "explanation": "STEMI : occlusion coronaire complète avec sus-décalage ST, nécessite reperfusion immédiate (angioplastie primaire). NSTEMI : occlusion incomplète, pas de sus-ST, troponine élevée, stratégie invasive selon le risque.",
+      "answers": [
+        { "text": "Pas de différence", "is_correct": false },
+        {
+          "text": "STEMI avec sus-ST (occlusion complète), NSTEMI sans sus-ST",
+          "is_correct": true
+        },
+        { "text": "NSTEMI plus grave que STEMI", "is_correct": false },
+        { "text": "STEMI sans élévation de troponine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'angine instable et comment se distingue-t-elle du NSTEMI ?",
+      "difficulty": "Moyen",
+      "explanation": "L'angine instable est un SCA sans élévation de troponine (ischémie sans nécrose), avec angor de repos, crescendo ou de novo sévère. NSTEMI : troponine élevée (nécrose myocardique).",
+      "answers": [
+        { "text": "Identique au NSTEMI", "is_correct": false },
+        {
+          "text": "SCA sans élévation de troponine (vs NSTEMI avec troponine+)",
+          "is_correct": true
+        },
+        { "text": "STEMI sans sus-décalage ST", "is_correct": false },
+        { "text": "Angine d'effort stable", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications du pontage aorto-coronarien (PAC) ?",
+      "difficulty": "Difficile",
+      "explanation": "Indications du PAC : tritronculaire ou tronc commun gauche, bivronculaire avec sténose IVA proximale, diabète avec maladie pluritronculaire, anatomie défavorable à l'angioplastie (score SYNTAX élevé).",
+      "answers": [
+        { "text": "Monotronculaire simple", "is_correct": false },
+        {
+          "text": "Tritronculaire, tronc commun, diabète pluritronculaire",
+          "is_correct": true
+        },
+        { "text": "Toute sténose coronaire", "is_correct": false },
+        { "text": "Jamais indiqué", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de tako-tsubo (cardiomyopathie de stress) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le tako-tsubo est une sidération myocardique transitoire post-stress émotionnel/physique intense mimant un IDM (douleur, sus-ST, troponine+), mais sans lésion coronaire. Ballooning apical à l'écho. Récupération généralement complète.",
+      "answers": [
+        { "text": "Infarctus du myocarde classique", "is_correct": false },
+        {
+          "text": "Sidération myocardique transitoire post-stress sans lésion coronaire",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie dilatée chronique", "is_correct": false },
+        { "text": "Péricardite aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le flutter auriculaire et comment se traite-t-il ?",
+      "difficulty": "Moyen",
+      "explanation": "Le flutter auriculaire est une tachycardie atriale régulière (macro-réentrée, 300 bpm) avec aspect en dents de scie à l'ECG. Traitement : ralentissement (bêta-bloquants), cardioversion, ablation isthmique (curatif).",
+      "answers": [
+        { "text": "Arythmie ventriculaire", "is_correct": false },
+        {
+          "text": "Tachycardie atriale régulière (300 bpm, dents de scie)",
+          "is_correct": true
+        },
+        { "text": "Bradycardie sinusale", "is_correct": false },
+        { "text": "Bloc auriculo-ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une tachycardie jonctionnelle (maladie de Bouveret) ?",
+      "difficulty": "Moyen",
+      "explanation": "La tachycardie jonctionnelle est une tachycardie régulière à QRS fins par réentrée intranodale (nœud AV). Début et fin brutaux. Manœuvres vagales efficaces. Traitement de crise : adénosine IV.",
+      "answers": [
+        { "text": "Arythmie ventriculaire", "is_correct": false },
+        {
+          "text": "Tachycardie supraventriculaire par réentrée (QRS fins)",
+          "is_correct": true
+        },
+        { "text": "Fibrillation auriculaire", "is_correct": false },
+        { "text": "Bloc auriculo-ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la torsade de pointes et quelles en sont les causes ?",
+      "difficulty": "Difficile",
+      "explanation": "La torsade de pointes est une TV polymorphe avec QT long (>500 ms). Causes : médicaments (antiarythmiques, macrolides, antipsychotiques), hypokaliémie, hypomagnésémie, QT long congénital. Urgence : sulfate de magnésium IV.",
+      "answers": [
+        { "text": "Bradycardie sinusale", "is_correct": false },
+        {
+          "text": "TV polymorphe sur QT long (médicaments, hypokaliémie)",
+          "is_correct": true
+        },
+        { "text": "Fibrillation auriculaire", "is_correct": false },
+        { "text": "Extrasystole ventriculaire isolée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome du QT long congénital ?",
+      "difficulty": "Difficile",
+      "explanation": "Le QT long congénital est une canalopathie génétique (mutation canaux potassiques/sodiques) avec QT allongé (>460 ms), risque de torsades de pointes et mort subite. Traitement : bêta-bloquants, DAI si haut risque.",
+      "answers": [
+        { "text": "Anomalie acquise bénigne", "is_correct": false },
+        {
+          "text": "Canalopathie génétique avec risque de torsades et mort subite",
+          "is_correct": true
+        },
+        { "text": "Bloc auriculo-ventriculaire", "is_correct": false },
+        { "text": "Cardiomyopathie dilatée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Brugada ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Brugada est une canalopathie génétique (mutation SCN5A) avec aspect ECG caractéristique (sus-ST en V1-V3), risque de fibrillation ventriculaire et mort subite. Traitement : DAI si symptomatique.",
+      "answers": [
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        {
+          "text": "Canalopathie avec sus-ST V1-V3 et risque de FV/mort subite",
+          "is_correct": true
+        },
+        { "text": "Péricardite aiguë", "is_correct": false },
+        { "text": "Cardiomyopathie hypertrophique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dysplasie arythmogène du ventricule droit (DAVD) ?",
+      "difficulty": "Difficile",
+      "explanation": "La DAVD est une cardiomyopathie génétique avec remplacement fibro-adipeux du VD, causant arythmies ventriculaires et mort subite. ECG : onde epsilon, inversion T en V1-V3. Diagnostic : IRM cardiaque. Traitement : DAI.",
+      "answers": [
+        { "text": "Cardiomyopathie dilatée classique", "is_correct": false },
+        {
+          "text": "Cardiomyopathie génétique du VD avec arythmies et mort subite",
+          "is_correct": true
+        },
+        { "text": "Infarctus du ventricule droit", "is_correct": false },
+        { "text": "Hypertension pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la communication interauriculaire (CIA) ?",
+      "difficulty": "Facile",
+      "explanation": "La CIA est une cardiopathie congénitale avec shunt gauche-droite entre les oreillettes. Signes : souffle systolique, dédoublement du B2. Complications : HTAP, FA. Fermeture si Qp/Qs >1,5.",
+      "answers": [
+        { "text": "Shunt ventriculaire", "is_correct": false },
+        { "text": "Shunt interauriculaire gauche-droite", "is_correct": true },
+        { "text": "Coarctation aortique", "is_correct": false },
+        { "text": "Sténose pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la communication interventriculaire (CIV) ?",
+      "difficulty": "Facile",
+      "explanation": "La CIV est un shunt gauche-droite entre les ventricules. Petite CIV : souvent asymptomatique (maladie de Roger). Large CIV : insuffisance cardiaque, HTAP. Fermeture chirurgicale/percutanée si significative.",
+      "answers": [
+        { "text": "Shunt interauriculaire", "is_correct": false },
+        {
+          "text": "Shunt interventriculaire gauche-droite",
+          "is_correct": true
+        },
+        { "text": "Tétralogie de Fallot", "is_correct": false },
+        { "text": "Coarctation aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la coarctation de l'aorte ?",
+      "difficulty": "Moyen",
+      "explanation": "La coarctation aortique est un rétrécissement congénital de l'aorte (après artère sous-clavière gauche). Signes : HTA membre supérieur, asymétrie tensionnelle, souffle systolique interscapulaire. Traitement : chirurgie/angioplastie.",
+      "answers": [
+        { "text": "Dilatation aortique", "is_correct": false },
+        {
+          "text": "Rétrécissement congénital de l'aorte isthmique",
+          "is_correct": true
+        },
+        { "text": "Sténose valvulaire aortique", "is_correct": false },
+        { "text": "Dissection aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la tétralogie de Fallot ?",
+      "difficulty": "Difficile",
+      "explanation": "La tétralogie de Fallot associe : CIV large, sténose pulmonaire, dextroposition de l'aorte, hypertrophie VD. Cardiopathie cyanogène. Traitement : chirurgie réparatrice précoce.",
+      "answers": [
+        {
+          "text": "Cardiopathie avec shunt gauche-droite",
+          "is_correct": false
+        },
+        {
+          "text": "CIV + sténose pulmonaire + dextroposition aorte + HVD (cyanogène)",
+          "is_correct": true
+        },
+        {
+          "text": "Communication interauriculaire simple",
+          "is_correct": false
+        },
+        { "text": "Coarctation aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la persistance du canal artériel (PCA) ?",
+      "difficulty": "Facile",
+      "explanation": "Le PCA est la persistance après la naissance du canal reliant l'aorte et l'artère pulmonaire. Shunt gauche-droite. Souffle continu sous-claviculaire gauche. Fermeture médicale (indométacine) ou chirurgicale/percutanée.",
+      "answers": [
+        { "text": "Shunt ventriculaire", "is_correct": false },
+        {
+          "text": "Persistance du canal aorte-artère pulmonaire (shunt G-D)",
+          "is_correct": true
+        },
+        { "text": "Communication interauriculaire", "is_correct": false },
+        { "text": "Sténose aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome d'Eisenmenger ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome d'Eisenmenger est l'inversion d'un shunt G-D en D-G par HTAP sévère sur cardiopathie congénitale (CIV, CIA, PCA) non opérée. Cyanose, polyglobulie, contre-indication chirurgicale. Traitement : HTAP spécifique, transplantation.",
+      "answers": [
+        { "text": "Shunt gauche-droite simple", "is_correct": false },
+        {
+          "text": "Inversion du shunt (D-G) par HTAP sévère (cyanose)",
+          "is_correct": true
+        },
+        {
+          "text": "Communication interauriculaire isolée",
+          "is_correct": false
+        },
+        { "text": "Insuffisance cardiaque gauche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Kawasaki et quelles sont ses complications cardiaques ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Kawasaki est une vascularite fébrile du jeune enfant. Complication : anévrismes coronariens (15-25% si non traité). Traitement : immunoglobulines IV + aspirine. Surveillance écho coronaire.",
+      "answers": [
+        { "text": "Infection bactérienne cardiaque", "is_correct": false },
+        {
+          "text": "Vascularite avec risque d'anévrismes coronariens",
+          "is_correct": true
+        },
+        { "text": "Malformation cardiaque congénitale", "is_correct": false },
+        { "text": "Péricardite infectieuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la thrombose veineuse profonde (TVP) et comment la diagnostiquer ?",
+      "difficulty": "Facile",
+      "explanation": "La TVP est une thrombose d'une veine profonde (membre inférieur++). Signes : douleur, œdème, chaleur, signe de Homans. Diagnostic : écho-Doppler veineux (gold standard). Score de Wells aide à la probabilité clinique.",
+      "answers": [
+        { "text": "Thrombose artérielle", "is_correct": false },
+        {
+          "text": "Thrombose veineuse profonde (écho-Doppler)",
+          "is_correct": true
+        },
+        { "text": "Embolie pulmonaire", "is_correct": false },
+        { "text": "Insuffisance veineuse superficielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de pose d'un filtre cave ?",
+      "difficulty": "Difficile",
+      "explanation": "Filtre cave (temporaire/permanent) indiqué si : contre-indication absolue aux anticoagulants avec TVP/EP récente, récidive d'EP sous anticoagulation bien conduite, EP massive avec réserve cardio-pulmonaire limitée.",
+      "answers": [
+        { "text": "Toute embolie pulmonaire", "is_correct": false },
+        {
+          "text": "Contre-indication anticoagulants ou récidive d'EP sous traitement",
+          "is_correct": true
+        },
+        { "text": "Toute thrombose veineuse", "is_correct": false },
+        {
+          "text": "Prévention systématique post-chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'artériopathie oblitérante des membres inférieurs (AOMI) ?",
+      "difficulty": "Facile",
+      "explanation": "L'AOMI est une athérosclérose artérielle des membres inférieurs. Stades (Leriche-Fontaine) : I asymptomatique, II claudication intermittente, III douleur de repos, IV troubles trophiques (nécrose, gangrène).",
+      "answers": [
+        { "text": "Thrombose veineuse profonde", "is_correct": false },
+        {
+          "text": "Athérosclérose artérielle avec claudication/ischémie",
+          "is_correct": true
+        },
+        { "text": "Insuffisance veineuse chronique", "is_correct": false },
+        { "text": "Anévrisme artériel", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'index de pression systolique (IPS) et comment l'interpréter ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IPS = PA cheville / PA brachiale. Normal : 0,9-1,3. AOMI si <0,9 (léger 0,7-0,9, modéré 0,4-0,7, sévère <0,4). >1,3 : médiacalcose (artères incompressibles, diabète, IRC).",
+      "answers": [
+        { "text": "Normal si <0,5", "is_correct": false },
+        { "text": "Normal 0,9-1,3, AOMI si <0,9", "is_correct": true },
+        { "text": "Pas de valeur diagnostique", "is_correct": false },
+        { "text": "Normal >1,5", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'ischémie aiguë de membre et comment se manifeste-t-elle ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ischémie aiguë de membre est une oblitération artérielle brutale (thrombus, embolie). Les 6P : Pain (douleur), Pallor (pâleur), Pulselessness (absence pouls), Paresthésies, Paralysie, Poïkilothermie. Urgence : revascularisation <6h.",
+      "answers": [
+        { "text": "Claudication intermittente chronique", "is_correct": false },
+        {
+          "text": "Oblitération artérielle brutale (6P) - urgence <6h",
+          "is_correct": true
+        },
+        { "text": "Thrombose veineuse profonde", "is_correct": false },
+        { "text": "Insuffisance veineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un accident vasculaire cérébral (AVC) ischémique ?",
+      "difficulty": "Facile",
+      "explanation": "L'AVC ischémique est une occlusion artérielle cérébrale causant un déficit neurologique brutal. Causes : athérosclérose, cardio-embolique (FA++), lacunaire. Urgence : thrombolyse si <4h30, thrombectomie si <6h.",
+      "answers": [
+        { "text": "Hémorragie cérébrale", "is_correct": false },
+        {
+          "text": "Occlusion artérielle cérébrale (déficit brutal)",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Méningite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un accident ischémique transitoire (AIT) ?",
+      "difficulty": "Facile",
+      "explanation": "L'AIT est un déficit neurologique focal transitoire d'origine vasculaire résolutif en <24h (souvent <1h), sans lésion à l'imagerie. Urgence : risque d'AVC constitué (10% à J7). Bilan étiologique et prévention secondaire urgents.",
+      "answers": [
+        { "text": "AVC avec séquelle permanente", "is_correct": false },
+        {
+          "text": "Déficit neurologique transitoire <24h sans lésion IRM",
+          "is_correct": true
+        },
+        { "text": "Migraine avec aura", "is_correct": false },
+        { "text": "Crise d'épilepsie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la thrombolyse IV dans l'AVC ischémique ?",
+      "difficulty": "Moyen",
+      "explanation": "Thrombolyse (rtPA) si : AVC ischémique <4h30, âge >18 ans, déficit neurologique mesurable, exclusion des contre-indications (hémorragie, chirurgie récente, AVC/trauma <3 mois, HTA non contrôlée >185/110).",
+      "answers": [
+        { "text": "Tout AVC quelle que soit l'heure", "is_correct": false },
+        {
+          "text": "AVC ischémique <4h30 sans contre-indication",
+          "is_correct": true
+        },
+        { "text": "AVC hémorragique", "is_correct": false },
+        { "text": "Jamais indiquée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la thrombectomie mécanique dans l'AVC ischémique ?",
+      "difficulty": "Moyen",
+      "explanation": "La thrombectomie mécanique (extraction du thrombus par cathéter) est indiquée en complément de la thrombolyse si occlusion proximale (carotide interne, M1) <6h (voire 24h si critères sélectionnés).",
+      "answers": [
+        {
+          "text": "Alternative à la thrombolyse uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Extraction mécanique du thrombus (occlusion proximale <6-24h)",
+          "is_correct": true
+        },
+        { "text": "Contre-indiquée dans l'AVC", "is_correct": false },
+        { "text": "Uniquement pour les AVC hémorragiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hémorragie intracrânienne et quelles en sont les causes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hémorragie intracrânienne (hématome intraparenchymateux) est due à : HTA chronique (capsulo-thalamique, protubérantiel), angiopathie amyloïde, anticoagulants, AVC hémorragique, malformation vasculaire, tumeur.",
+      "answers": [
+        { "text": "Occlusion artérielle cérébrale", "is_correct": false },
+        {
+          "text": "Saignement intraparenchymateux (HTA, angiopathie, AVK)",
+          "is_correct": true
+        },
+        { "text": "Infection cérébrale", "is_correct": false },
+        { "text": "Traumatisme crânien uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hémorragie méningée (sous-arachnoïdienne) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hémorragie méningée est un saignement dans l'espace sous-arachnoïdien. Cause principale : rupture d'anévrisme artériel. Signes : céphalée brutale (coup de tonnerre), raideur nuque. Diagnostic : TDM, PL. Traitement : exclusion anévrisme (clip/coil).",
+      "answers": [
+        { "text": "Hémorragie intraparenchymateuse", "is_correct": false },
+        {
+          "text": "Saignement sous-arachnoïdien (anévrisme rompu)",
+          "is_correct": true
+        },
+        { "text": "Hématome extradural", "is_correct": false },
+        { "text": "Méningite bactérienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'endartériectomie carotidienne et quelles sont ses indications ?",
+      "difficulty": "Difficile",
+      "explanation": "L'endartériectomie carotidienne est la chirurgie de la sténose carotidienne. Indications : sténose >70% symptomatique (AVC/AIT <6 mois), ou >60% asymptomatique si espérance de vie >5 ans et faible risque chirurgical.",
+      "answers": [
+        { "text": "Toute sténose carotidienne", "is_correct": false },
+        {
+          "text": "Sténose >70% symptomatique ou >60% asymptomatique sélectionnée",
+          "is_correct": true
+        },
+        { "text": "Jamais indiquée", "is_correct": false },
+        { "text": "Uniquement en urgence", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sténose carotidienne et comment se manifeste-t-elle ?",
+      "difficulty": "Moyen",
+      "explanation": "La sténose carotidienne est un rétrécissement athéroscléreux de l'artère carotide interne. Souvent asymptomatique ou révélée par AVC/AIT homolatéral, cécité monoculaire transitoire. Diagnostic : écho-Doppler, angio-TDM/IRM.",
+      "answers": [
+        { "text": "Toujours symptomatique", "is_correct": false },
+        {
+          "text": "Athérosclérose carotidienne (asymptomatique ou AVC/AIT)",
+          "is_correct": true
+        },
+        { "text": "Dissection artérielle", "is_correct": false },
+        { "text": "Anévrisme carotidien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la syncope et quelles en sont les principales causes ?",
+      "difficulty": "Facile",
+      "explanation": "La syncope est une perte de connaissance brève avec retour spontané. Causes : réflexe (vasovagale++), orthostatique (hypotension), cardiaque (BAV, TV, RA serré, CMH). Bilan selon contexte : ECG, Holter, test d'inclinaison.",
+      "answers": [
+        { "text": "Coma prolongé", "is_correct": false },
+        {
+          "text": "Perte de connaissance brève (vasovagale, orthostatique, cardiaque)",
+          "is_correct": true
+        },
+        { "text": "AVC ischémique", "is_correct": false },
+        { "text": "Crise d'épilepsie toujours", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la lipothymie ?",
+      "difficulty": "Facile",
+      "explanation": "La lipothymie est un malaise avec sensation de perte de connaissance imminente mais sans perte de connaissance effective. Souvent d'origine vasovagale (émotion, chaleur, station debout prolongée).",
+      "answers": [
+        { "text": "Perte de connaissance complète", "is_correct": false },
+        {
+          "text": "Sensation de malaise sans perte de connaissance",
+          "is_correct": true
+        },
+        { "text": "Syncope cardiaque", "is_correct": false },
+        { "text": "Crise d'épilepsie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le massage du sinus carotidien et à quoi sert-il ?",
+      "difficulty": "Moyen",
+      "explanation": "Le massage du sinus carotidien (MSC) stimule les barorécepteurs carotidiens, ralentissant le rythme cardiaque. Utile dans le diagnostic de syncope (hypersensibilité sino-carotidienne) et le traitement de tachycardies supraventriculaires.",
+      "answers": [
+        { "text": "Test diagnostique de l'angine", "is_correct": false },
+        {
+          "text": "Stimulation des barorécepteurs (diagnostic syncope, TSV)",
+          "is_correct": true
+        },
+        { "text": "Traitement de l'infarctus", "is_correct": false },
+        { "text": "Test de dépistage de l'AOMI", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test d'inclinaison (tilt test) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tilt test reproduit une syncope vasovagale en position orthostatique passive (table basculante 60-80°, 20-45 min). Positif si syncope ou lipothymie avec hypotension/bradycardie. Indication : syncopes récurrentes inexpliquées.",
+      "answers": [
+        { "text": "Test d'effort cardiaque", "is_correct": false },
+        {
+          "text": "Reproduction de syncope vasovagale en orthostatisme passif",
+          "is_correct": true
+        },
+        { "text": "Test de dépistage du diabète", "is_correct": false },
+        { "text": "Test de la fonction rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le choc cardiogénique et comment le traiter ?",
+      "difficulty": "Difficile",
+      "explanation": "Le choc cardiogénique est une défaillance circulatoire aiguë par pompe cardiaque (IDM++, myocardite fulminante). Signes : hypotension, oligurie, marbrures, œdème pulmonaire. Traitement : catécholamines (dobutamine, noradrénaline), assistance circulatoire (ECMO), revascularisation urgente.",
+      "answers": [
+        { "text": "Choc hypovolémique", "is_correct": false },
+        {
+          "text": "Défaillance de pompe cardiaque (IDM, catécholamines, ECMO)",
+          "is_correct": true
+        },
+        { "text": "Choc septique", "is_correct": false },
+        { "text": "Choc anaphylactique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'ECMO (ExtraCorporeal Membrane Oxygenation) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ECMO est une assistance circulatoire et respiratoire extracorporelle. ECMO veino-artérielle : choc cardiogénique réfractaire, arrêt cardiaque. ECMO veino-veineuse : SDRA sévère. Support temporaire en attente de récupération/transplantation.",
+      "answers": [
+        { "text": "Ventilation mécanique simple", "is_correct": false },
+        {
+          "text": "Assistance circulatoire/respiratoire extracorporelle (VA ou VV)",
+          "is_correct": true
+        },
+        { "text": "Dialyse rénale", "is_correct": false },
+        { "text": "Transfusion sanguine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la contre-pulsion par ballon intra-aortique (CPIA) ?",
+      "difficulty": "Difficile",
+      "explanation": "La CPIA est un dispositif d'assistance circulatoire temporaire (ballon gonflé en diastole, dégonflé en systole) augmentant la perfusion coronaire et réduisant la post-charge. Indications : choc cardiogénique, complications mécaniques de l'IDM.",
+      "answers": [
+        { "text": "Assistance respiratoire", "is_correct": false },
+        {
+          "text": "Assistance circulatoire par ballon intra-aortique",
+          "is_correct": true
+        },
+        { "text": "Technique de dialyse", "is_correct": false },
+        { "text": "Méthode de défibrillation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score TIMI dans le syndrome coronarien aigu ?",
+      "difficulty": "Moyen",
+      "explanation": "Le score TIMI (Thrombolysis In Myocardial Infarction) évalue le risque de décès, récidive d'infarctus ou ischémie sévère à 14 jours dans les SCA sans sus-ST. Variables : âge, FDR CV, sténose coronaire connue, aspirine récente, angor sévère récent, troponine, sous-ST.",
+      "answers": [
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        {
+          "text": "Score pronostique du NSTEMI/angine instable",
+          "is_correct": true
+        },
+        { "text": "Score de fonction rénale", "is_correct": false },
+        { "text": "Score de gravité de l'IC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le flux TIMI et comment est-il gradé ?",
+      "difficulty": "Moyen",
+      "explanation": "Le flux TIMI grade la perfusion coronaire à l'angiographie : 0 (occlusion complète), 1 (passage minime sans opacification distale), 2 (opacification lente), 3 (opacification normale). Le flux TIMI 3 après angioplastie est associé à un meilleur pronostic.",
+      "answers": [
+        { "text": "Classification des arythmies", "is_correct": false },
+        {
+          "text": "Gradation de la perfusion coronaire à l'angiographie (0-3)",
+          "is_correct": true
+        },
+        { "text": "Score de risque thromboembolique", "is_correct": false },
+        {
+          "text": "Classification de l'insuffisance cardiaque",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de no-reflow ?",
+      "difficulty": "Difficile",
+      "explanation": "Le no-reflow est l'absence de reperfusion myocardique malgré revascularisation coronaire réussie (flux TIMI <3), par obstruction microvasculaire (œdème, débris emboliques, spasme). Facteur de mauvais pronostic. Traitement : adénosine, nitroprussiate intracoronaire.",
+      "answers": [
+        { "text": "Resténose de stent", "is_correct": false },
+        {
+          "text": "Absence de reperfusion malgré ouverture coronaire (obstruction microvasculaire)",
+          "is_correct": true
+        },
+        { "text": "Spasme coronaire isolé", "is_correct": false },
+        { "text": "Occlusion veineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la resténose intra-stent et comment la prévenir ?",
+      "difficulty": "Moyen",
+      "explanation": "La resténose intra-stent est un re-rétrécissement par prolifération néo-intimale (stents nus : 20-30%, stents actifs : <5%). Prévention : stents actifs (éluant everolimus, sirolimus), DAPT prolongée, optimisation des FDR CV.",
+      "answers": [
+        { "text": "Thrombose aiguë de stent", "is_correct": false },
+        {
+          "text": "Re-rétrécissement par prolifération néo-intimale",
+          "is_correct": true
+        },
+        { "text": "Embolie distale", "is_correct": false },
+        { "text": "Spasme coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la thrombose de stent et quels sont ses facteurs de risque ?",
+      "difficulty": "Difficile",
+      "explanation": "La thrombose de stent est une occlusion thrombotique aiguë du stent (précoce <30j, tardive >30j, très tardive >1an). Facteurs de risque : arrêt prématuré de DAPT, sous-expansion du stent, longueur/nombre de stents, diabète. Grave : IDM, décès.",
+      "answers": [
+        { "text": "Complication bénigne fréquente", "is_correct": false },
+        {
+          "text": "Occlusion thrombotique du stent (arrêt DAPT++), IDM/décès",
+          "is_correct": true
+        },
+        { "text": "Resténose progressive", "is_correct": false },
+        { "text": "Simple inflammation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'échocardiographie transthoracique (ETT) ?",
+      "difficulty": "Facile",
+      "explanation": "L'ETT est l'examen d'imagerie cardiaque de première intention, non invasif. Évalue : fonction VG (FEVG), valves, péricarde, cavités, pressions. Indications : dyspnée, souffle, suspicion d'IC, bilan pré/post-IDM.",
+      "answers": [
+        { "text": "Examen invasif avec cathétérisme", "is_correct": false },
+        {
+          "text": "Échographie cardiaque non invasive de première intention",
+          "is_correct": true
+        },
+        { "text": "Imagerie par rayons X", "is_correct": false },
+        { "text": "IRM cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'échocardiographie transœsophagienne (ETO) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ETO est une échographie cardiaque par sonde œsophagienne, semi-invasive. Meilleure résolution que l'ETT. Indications : endocardite (végétations, abcès), thrombus auriculaire (FA), dissection aortique, prothèses valvulaires.",
+      "answers": [
+        { "text": "Identique à l'ETT", "is_correct": false },
+        {
+          "text": "Échographie par voie œsophagienne (endocardite, thrombus, dissection)",
+          "is_correct": true
+        },
+        { "text": "Scanner cardiaque", "is_correct": false },
+        { "text": "Coronarographie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'échocardiographie de stress (échographie d'effort ou sous dobutamine) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie de stress détecte l'ischémie myocardique en comparant la cinétique segmentaire au repos vs effort/dobutamine. Apparition d'hypokinésie = ischémie. Alternative non invasive à la coronarographie pour évaluer la viabilité myocardique.",
+      "answers": [
+        { "text": "Test électrique uniquement", "is_correct": false },
+        {
+          "text": "Détection d'ischémie par analyse de la cinétique sous stress",
+          "is_correct": true
+        },
+        { "text": "Examen au repos uniquement", "is_correct": false },
+        { "text": "IRM de stress", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'IRM cardiaque et quelles sont ses indications principales ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM cardiaque est l'examen de référence pour l'évaluation de la FEVG, la caractérisation tissulaire (fibrose, œdème, infiltration), le diagnostic de myocardite, cardiomyopathies, masses cardiaques. Technique : ciné, T1/T2 mapping, rehaussement tardif.",
+      "answers": [
+        { "text": "Examen de routine pour tous", "is_correct": false },
+        {
+          "text": "Référence FEVG, caractérisation tissulaire (myocardite, CMH, masses)",
+          "is_correct": true
+        },
+        { "text": "Alternative à l'ECG", "is_correct": false },
+        { "text": "Uniquement pour les valvulopathies", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le scanner coronaire (coroscanner) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coroscanner est un TDM avec injection permettant l'analyse non invasive des coronaires. Indications : exclusion de maladie coronaire si probabilité faible/intermédiaire, bilan pré-TAVI, anomalies coronaires congénitales. Score calcique d'Agatston.",
+      "answers": [
+        {
+          "text": "Examen invasif nécessitant cathétérisme",
+          "is_correct": false
+        },
+        {
+          "text": "TDM non invasif des coronaires (exclusion de sténose, score calcique)",
+          "is_correct": true
+        },
+        { "text": "IRM cardiaque", "is_correct": false },
+        { "text": "Échographie transthoracique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score calcique d'Agatston ?",
+      "difficulty": "Moyen",
+      "explanation": "Le score calcique quantifie les calcifications coronaires au scanner (sans injection). Interprétation : 0 (absence), 1-100 (faible), 101-400 (modéré), >400 (élevé). Facteur prédictif du risque CV. >400 : risque coronarien significatif.",
+      "answers": [
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        {
+          "text": "Quantification des calcifications coronaires (prédictif du risque CV)",
+          "is_correct": true
+        },
+        { "text": "Score de fonction rénale", "is_correct": false },
+        { "text": "Score de gravité de l'IC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la scintigraphie myocardique de perfusion ?",
+      "difficulty": "Moyen",
+      "explanation": "La scintigraphie myocardique (thallium, technétium) détecte l'ischémie et évalue la viabilité myocardique. Comparaison repos/effort : hypofixation réversible = ischémie, fixe = nécrose. Indications : diagnostic de maladie coronaire, évaluation pré-revascularisation.",
+      "answers": [
+        { "text": "Échographie cardiaque", "is_correct": false },
+        {
+          "text": "Imagerie nucléaire détectant ischémie/viabilité (repos/effort)",
+          "is_correct": true
+        },
+        { "text": "IRM de stress", "is_correct": false },
+        { "text": "Scanner coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le cathétérisme cardiaque droit et quelles sont ses indications ?",
+      "difficulty": "Difficile",
+      "explanation": "Le cathétérisme droit mesure les pressions intracardiaques droites et pulmonaires, le débit cardiaque. Indications : diagnostic d'HTAP, bilan pré-transplantation, cardiomyopathies, shunts, insuffisance tricuspide sévère.",
+      "answers": [
+        { "text": "Examen non invasif", "is_correct": false },
+        {
+          "text": "Mesure invasive des pressions droites/pulmonaires (HTAP, IC)",
+          "is_correct": true
+        },
+        { "text": "Coronarographie", "is_correct": false },
+        { "text": "Échographie transthoracique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le débit cardiaque et comment se calcule-t-il ?",
+      "difficulty": "Moyen",
+      "explanation": "Le débit cardiaque (DC) est le volume de sang éjecté par le cœur par minute. DC = Volume d'Ejection Systolique (VES) × Fréquence Cardiaque. Normal : 4-8 L/min au repos. Index cardiaque = DC/surface corporelle (normal 2,5-4 L/min/m²).",
+      "answers": [
+        { "text": "Pression artérielle × FC", "is_correct": false },
+        {
+          "text": "VES × Fréquence cardiaque (normal 4-8 L/min)",
+          "is_correct": true
+        },
+        { "text": "FEVG × 100", "is_correct": false },
+        { "text": "PA systolique - PA diastolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la précharge et la postcharge ventriculaires ?",
+      "difficulty": "Moyen",
+      "explanation": "La précharge est la tension pariétale en télédiastole (≈ volume télédiastolique, pression de remplissage). La postcharge est la résistance à l'éjection (≈ résistances vasculaires, PA). Loi de Frank-Starling : DC augmente avec précharge.",
+      "answers": [
+        { "text": "Précharge = PA, postcharge = FC", "is_correct": false },
+        {
+          "text": "Précharge = remplissage VG, postcharge = résistances à l'éjection",
+          "is_correct": true
+        },
+        { "text": "Identiques", "is_correct": false },
+        {
+          "text": "Précharge = débit, postcharge = volume",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la compliance cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "La compliance (ou capacitance) est la capacité du ventricule à se distendre pour une variation de pression donnée (ΔV/ΔP). Compliance réduite : cardiomyopathie restrictive, hypertrophie, fibrose. Entraîne une IC à FEVG préservée.",
+      "answers": [
+        { "text": "Force de contraction du cœur", "is_correct": false },
+        {
+          "text": "Capacité de distension ventriculaire (ΔV/ΔP)",
+          "is_correct": true
+        },
+        { "text": "Fréquence cardiaque maximale", "is_correct": false },
+        { "text": "Volume d'éjection systolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le peptide natriurétique auriculaire (ANP) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ANP (Atrial Natriuretic Peptide) est sécrété par les oreillettes en réponse à l'étirement. Effets : natriurèse, vasodilatation, inhibition du SRAA. Similaire au BNP mais origine auriculaire. Rôle protecteur dans l'insuffisance cardiaque.",
+      "answers": [
+        { "text": "Hormone augmentant la PA", "is_correct": false },
+        {
+          "text": "Peptide auriculaire (natriurèse, vasodilatation, anti-SRAA)",
+          "is_correct": true
+        },
+        { "text": "Biomarqueur de nécrose myocardique", "is_correct": false },
+        { "text": "Marqueur de fonction rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le système rénine-angiotensine-aldostérone (SRAA) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le SRAA est un système hormonal régulant PA et volémie. Rénine → Angiotensine I → Angiotensine II (vasoconstriction, aldostérone) → rétention hydrosodée. Activation délétère dans l'IC. Traitement : IEC, ARA2, anti-aldostérone.",
+      "answers": [
+        { "text": "Système nerveux sympathique", "is_correct": false },
+        {
+          "text": "Système hormonal (rénine-angiotensine-aldostérone) régulant PA/volémie",
+          "is_correct": true
+        },
+        { "text": "Système de coagulation", "is_correct": false },
+        { "text": "Système immunitaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le sacubitril/valsartan (ARNI) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le sacubitril/valsartan (Entresto®) associe un inhibiteur de la néprilysine (sacubitril, augmente peptides natriurétiques) et un ARA2 (valsartan). Indiqué dans l'ICFEr en remplacement des IEC/ARA2. Réduit mortalité et hospitalisations.",
+      "answers": [
+        { "text": "Bêta-bloquant", "is_correct": false },
+        {
+          "text": "Inhibiteur néprilysine + ARA2 (traitement ICFEr)",
+          "is_correct": true
+        },
+        { "text": "Diurétique de l'anse", "is_correct": false },
+        { "text": "Antiagrégant plaquettaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que les inhibiteurs SGLT2 (gliflozines) en cardiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs SGLT2 (dapagliflozine, empagliflozine) sont des antidiabétiques oraux ayant un bénéfice cardiovasculaire prouvé. Indications : ICFEr (± diabète), réduction des hospitalisations pour IC et de la mortalité CV. Mécanisme : glycosurie, natriurèse.",
+      "answers": [
+        { "text": "Antihypertenseurs uniquement", "is_correct": false },
+        {
+          "text": "Antidiabétiques avec bénéfice CV (traitement ICFEr)",
+          "is_correct": true
+        },
+        { "text": "Bêta-bloquants", "is_correct": false },
+        { "text": "Statines", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'ivabradine et quelle est son indication ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ivabradine est un inhibiteur sélectif du canal If (nœud sinusal), ralentissant la FC sans effet inotrope négatif. Indication : ICFEr symptomatique (NYHA II-III) avec FC ≥70 bpm en rythme sinusal, sous bêta-bloquant maximal toléré.",
+      "answers": [
+        { "text": "Antiarythmique de classe III", "is_correct": false },
+        {
+          "text": "Inhibiteur If ralentissant la FC (ICFEr avec FC ≥70 bpm)",
+          "is_correct": true
+        },
+        { "text": "Vasodilatateur artériel", "is_correct": false },
+        { "text": "Diurétique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la digoxine et quelles sont ses indications actuelles ?",
+      "difficulty": "Moyen",
+      "explanation": "La digoxine est un digitalique (effet inotrope positif et chronotrope négatif). Indications actuelles : contrôle de la FC dans la FA, IC avec FEVG altérée symptomatique malgré traitement optimal (améliore symptômes, pas la survie). Risque : intoxication.",
+      "answers": [
+        { "text": "Traitement de première ligne de l'IC", "is_correct": false },
+        {
+          "text": "Contrôle FC dans FA, symptômes IC réfractaire (pas de bénéfice sur mortalité)",
+          "is_correct": true
+        },
+        { "text": "Antiarythmique moderne", "is_correct": false },
+        { "text": "Traitement de l'HTA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'amiodarone et quels sont ses principaux effets indésirables ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amiodarone est un antiarythmique de classe III (allonge repolarisation) utilisé dans FA, flutter, TV. Effets indésirables : thyroïdiens (hyper/hypothyroïdie), pulmonaires (fibrose), hépatiques, cutanés (photosensibilité), cornéens. Surveillance : TSH, EFR.",
+      "answers": [
+        {
+          "text": "Bêta-bloquant sans effets indésirables",
+          "is_correct": false
+        },
+        {
+          "text": "Antiarythmique classe III (FA, TV) avec toxicité thyroïdienne/pulmonaire",
+          "is_correct": true
+        },
+        { "text": "Inhibiteur calcique", "is_correct": false },
+        { "text": "IEC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardioversion électrique externe (CEE) ?",
+      "difficulty": "Facile",
+      "explanation": "La CEE est un choc électrique synchronisé sur l'onde R pour restaurer le rythme sinusal (FA, flutter, TSV, TV stable). Sous anesthésie brève. Si FA >48h : anticoagulation 3 semaines avant ou ETO (exclusion thrombus).",
+      "answers": [
+        { "text": "Défibrillation non synchronisée", "is_correct": false },
+        {
+          "text": "Choc électrique synchronisé pour restaurer rythme sinusal (FA, flutter, TV)",
+          "is_correct": true
+        },
+        { "text": "Stimulation cardiaque permanente", "is_correct": false },
+        { "text": "Ablation par radiofréquence", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardioversion pharmacologique ?",
+      "difficulty": "Moyen",
+      "explanation": "La cardioversion pharmacologique utilise des antiarythmiques pour restaurer le rythme sinusal (FA, flutter). Molécules : flécaïnide, propafénone (si cœur sain), amiodarone (si cardiopathie). Moins efficace que la CEE mais non invasive.",
+      "answers": [
+        { "text": "Choc électrique externe", "is_correct": false },
+        {
+          "text": "Antiarythmiques pour restaurer rythme sinusal (FA, flutter)",
+          "is_correct": true
+        },
+        { "text": "Ablation par cathéter", "is_correct": false },
+        { "text": "Stimulation cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'appendice auriculaire gauche et pourquoi le fermer ?",
+      "difficulty": "Difficile",
+      "explanation": "L'appendice auriculaire gauche (AAG) est un diverticule de l'OG, site principal de formation des thrombi dans la FA (>90%). Fermeture percutanée (Watchman®) indiquée si FA avec contre-indication aux anticoagulants (hémorragie).",
+      "answers": [
+        { "text": "Partie du ventricule gauche", "is_correct": false },
+        {
+          "text": "Diverticule OG, site de thrombi FA (fermeture si CI aux AOD)",
+          "is_correct": true
+        },
+        { "text": "Valve cardiaque", "is_correct": false },
+        { "text": "Artère coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le MitraClip ?",
+      "difficulty": "Difficile",
+      "explanation": "Le MitraClip est un dispositif percutané d'agrafe des feuillets mitraux pour réduire une insuffisance mitrale sévère. Indications : IM dégénérative ou fonctionnelle, patient inopérable ou à haut risque chirurgical, FEVG 20-50%.",
+      "answers": [
+        { "text": "Remplacement valvulaire chirurgical", "is_correct": false },
+        {
+          "text": "Réparation percutanée de l'IM par agrafe des feuillets",
+          "is_correct": true
+        },
+        { "text": "Fermeture de CIA", "is_correct": false },
+        { "text": "Ablation de FA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la commissurotomie mitrale percutanée (valvuloplastie mitrale) ?",
+      "difficulty": "Difficile",
+      "explanation": "La commissurotomie mitrale percutanée est la dilatation au ballon du rétrécissement mitral par voie transeptale. Indications : RM serré symptomatique, anatomie favorable (score de Wilkins ≤8), absence de thrombus/IM. Alternative à la chirurgie.",
+      "answers": [
+        { "text": "Remplacement valvulaire chirurgical", "is_correct": false },
+        {
+          "text": "Dilatation percutanée du RM (alternative chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Fermeture d'appendice auriculaire", "is_correct": false },
+        { "text": "Angioplastie coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score de Wilkins (score échographique) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le score de Wilkins évalue l'anatomie mitrale avant commissurotomie percutanée : mobilité, épaississement, calcifications des feuillets, atteinte sous-valvulaire (1-4 chacun, total 4-16). Score ≤8 : anatomie favorable. >8 : préférer chirurgie.",
+      "answers": [
+        { "text": "Score de risque thromboembolique", "is_correct": false },
+        {
+          "text": "Score anatomique mitral (commissurotomie : favorable si ≤8)",
+          "is_correct": true
+        },
+        { "text": "Score de gravité de l'IC", "is_correct": false },
+        { "text": "Score de fonction rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dérivation ventriculaire gauche (LVAD) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le LVAD (Left Ventricular Assist Device) est une pompe mécanique implantable assistant la fonction du VG. Indications : IC terminale réfractaire, pont vers transplantation ou thérapie de destination. Améliore survie et qualité de vie.",
+      "answers": [
+        { "text": "Pacemaker simple", "is_correct": false },
+        {
+          "text": "Pompe mécanique d'assistance VG (IC terminale, pont/destination)",
+          "is_correct": true
+        },
+        { "text": "Défibrillateur implantable", "is_correct": false },
+        { "text": "Valve artificielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la transplantation cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "Indications : IC terminale réfractaire (NYHA IV, FEVG <25%, VO2 max <12 ml/kg/min), cardiomyopathies sévères, arythmies réfractaires avec risque vital. Contre-indications : infection active, cancer évolutif, HTAP fixée, comorbidités sévères.",
+      "answers": [
+        { "text": "Toute insuffisance cardiaque", "is_correct": false },
+        {
+          "text": "IC terminale réfractaire (NYHA IV, FEVG <25%, VO2 <12)",
+          "is_correct": true
+        },
+        { "text": "Angor stable", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le rejet de greffe cardiaque et comment le diagnostiquer ?",
+      "difficulty": "Difficile",
+      "explanation": "Le rejet de greffe est une réaction immunitaire contre le greffon (aigu cellulaire ou humoral, chronique = vasculopathie). Surveillance : biopsies endomyocardiques périodiques, échocardiographie. Traitement : immunosuppresseurs (tacrolimus, mycophénolate), bolus corticoïdes.",
+      "answers": [
+        {
+          "text": "Complication bénigne sans conséquence",
+          "is_correct": false
+        },
+        {
+          "text": "Réaction immunitaire contre le greffon (biopsies, immunosuppresseurs)",
+          "is_correct": true
+        },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Thrombose coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la vasculopathie du greffon cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "La vasculopathie du greffon est une artériopathie coronaire accélérée, diffuse et concentrique, principale cause de décès tardif post-transplantation. Mécanisme : rejet chronique, lésions endothéliales. Surveillance : coronarographie/échographie endocoronaire annuelles.",
+      "answers": [
+        { "text": "Athérosclérose coronaire classique", "is_correct": false },
+        {
+          "text": "Artériopathie coronaire accélérée du greffon (rejet chronique)",
+          "is_correct": true
+        },
+        { "text": "Rejet aigu", "is_correct": false },
+        { "text": "Infection opportuniste", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'artériopathie radique (toxicité cardiaque de la radiothérapie) ?",
+      "difficulty": "Difficile",
+      "explanation": "La radiothérapie thoracique (cancer sein, lymphomes) peut causer : péricardite, cardiomyopathie restrictive, valvulopathies (aortique, mitrale), maladie coronaire accélérée. Latence : 10-20 ans. Surveillance cardiovasculaire recommandée.",
+      "answers": [
+        { "text": "Effet bénéfique de la radiothérapie", "is_correct": false },
+        {
+          "text": "Toxicité CV de la radiothérapie (péricardite, CMR, valvulopathies, coronaropathie)",
+          "is_correct": true
+        },
+        { "text": "Infection cardiaque", "is_correct": false },
+        { "text": "Malformation congénitale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardiotoxicité des anthracyclines ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anthracyclines (doxorubicine, épirubicine) en chimiothérapie causent une cardiomyopathie dilatée dose-dépendante par stress oxydatif. Surveillance : échographie (FEVG) avant, pendant, après traitement. Prévention : dexrazoxane, limitation dose cumulative.",
+      "answers": [
+        { "text": "Effet bénéfique sur le cœur", "is_correct": false },
+        {
+          "text": "Cardiomyopathie dilatée dose-dépendante (surveillance FEVG)",
+          "is_correct": true
+        },
+        { "text": "Arythmie bénigne", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome coronarien X (angine microvasculaire) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome X associe : angine d'effort typique, test d'ischémie positif (ECG effort, scintigraphie), coronaires angiographiquement normales. Mécanisme : dysfonction microvasculaire. Traitement : bêta-bloquants, inhibiteurs calciques, statines.",
+      "answers": [
+        { "text": "Infarctus du myocarde", "is_correct": false },
+        {
+          "text": "Angine avec coronaires normales (dysfonction microvasculaire)",
+          "is_correct": true
+        },
+        { "text": "Syndrome métabolique", "is_correct": false },
+        { "text": "Dissection coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dissection spontanée des artères coronaires (SCAD) ?",
+      "difficulty": "Difficile",
+      "explanation": "La SCAD est un clivage de la paroi coronaire sans athérosclérose, cause d'IDM chez la femme jeune (post-partum, dysplasie fibromusculaire, stress). Diagnostic : angiographie, OCT. Traitement : conservateur préféré (guérison spontanée 70-80%), éviter angioplastie.",
+      "answers": [
+        { "text": "Athérosclérose coronaire classique", "is_correct": false },
+        {
+          "text": "Clivage spontané de la paroi coronaire (femme jeune, conservateur)",
+          "is_correct": true
+        },
+        { "text": "Thrombose de stent", "is_correct": false },
+        { "text": "Spasme coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la péricardite constrictive ?",
+      "difficulty": "Difficile",
+      "explanation": "La péricardite constrictive est une fibrose péricardique limitant le remplissage ventriculaire. Causes : post-chirurgie cardiaque, radiothérapie, tuberculose, idiopathique. Signes : IC droite, signe de Kussmaul. Traitement : péricardiectomie.",
+      "answers": [
+        { "text": "Péricardite aiguë simple", "is_correct": false },
+        {
+          "text": "Fibrose péricardique limitant le remplissage (péricardiectomie)",
+          "is_correct": true
+        },
+        { "text": "Tamponnade", "is_correct": false },
+        { "text": "Myocardite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Kussmaul ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Kussmaul est une augmentation paradoxale de la turgescence jugulaire à l'inspiration (normalement elle diminue). Témoigne d'une limitation du remplissage VD. Causes : péricardite constrictive, tamponnade, IC droite sévère.",
+      "answers": [
+        { "text": "Respiration ample en acidose", "is_correct": false },
+        {
+          "text": "Turgescence jugulaire augmentant à l'inspiration (constriction péricardique)",
+          "is_correct": true
+        },
+        { "text": "Pouls paradoxal", "is_correct": false },
+        { "text": "Souffle cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le pouls paradoxal ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pouls paradoxal est une baisse excessive (>10 mmHg) de la PA systolique à l'inspiration. Normalement : baisse physiologique <10 mmHg. Causes : tamponnade péricardique, péricardite constrictive, asthme sévère, BPCO.",
+      "answers": [
+        {
+          "text": "Augmentation de la PA à l'inspiration",
+          "is_correct": false
+        },
+        {
+          "text": "Baisse excessive PA systolique à l'inspiration (>10 mmHg, tamponnade)",
+          "is_correct": true
+        },
+        { "text": "Arythmie cardiaque", "is_correct": false },
+        { "text": "Tachycardie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le galop B3 et quelle est sa signification ?",
+      "difficulty": "Moyen",
+      "explanation": "Le galop B3 (protodiastolique) est un bruit surajouté précoce en diastole, témoignant d'une surcharge volumique ou d'une dysfonction VG. Physiologique chez l'enfant/jeune. Pathologique : insuffisance cardiaque, IM, CMD.",
+      "answers": [
+        { "text": "Souffle systolique", "is_correct": false },
+        {
+          "text": "Bruit protodiastolique (surcharge volumique, IC)",
+          "is_correct": true
+        },
+        { "text": "Clic d'éjection", "is_correct": false },
+        { "text": "Frottement péricardique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le galop B4 et quelle est sa signification ?",
+      "difficulty": "Moyen",
+      "explanation": "Le galop B4 (présystolique) est un bruit surajouté en télédiastole, correspondant à la contraction auriculaire contre un ventricule rigide. Témoigne d'une dysfonction diastolique (HVG, CMH, ischémie aiguë). Absent en FA (pas de contraction auriculaire).",
+      "answers": [
+        { "text": "Souffle diastolique", "is_correct": false },
+        {
+          "text": "Bruit présystolique (dysfonction diastolique, HVG, CMH)",
+          "is_correct": true
+        },
+        { "text": "Clic mésosystolique", "is_correct": false },
+        { "text": "Roulement diastolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'éclat de B2 au foyer pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'éclat de B2 au foyer pulmonaire (2e EICG) traduit une hypertension artérielle pulmonaire (HTAP) avec augmentation de la pression de fermeture de la valve pulmonaire. Rechercher cause : EP, HTAP primitive, cardiopathie gauche, pneumopathie.",
+      "answers": [
+        { "text": "Signe de sténose aortique", "is_correct": false },
+        {
+          "text": "Signe d'HTAP (fermeture claquante valve pulmonaire)",
+          "is_correct": true
+        },
+        { "text": "Insuffisance mitrale", "is_correct": false },
+        { "text": "Prolapsus mitral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le roulement diastolique de Flint ?",
+      "difficulty": "Difficile",
+      "explanation": "Le roulement de Flint est un souffle diastolique apexien dans l'insuffisance aortique sévère, mimant un rétrécissement mitral. Mécanisme : jet régurgitant aortique percute le feuillet mitral antérieur, créant une sténose fonctionnelle mitrale.",
+      "answers": [
+        {
+          "text": "Signe de rétrécissement mitral organique",
+          "is_correct": false
+        },
+        {
+          "text": "Roulement diastolique dans IA sévère (sténose fonctionnelle mitrale)",
+          "is_correct": true
+        },
+        { "text": "Souffle d'insuffisance tricuspide", "is_correct": false },
+        { "text": "Frottement péricardique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le souffle de Carey-Coombs ?",
+      "difficulty": "Difficile",
+      "explanation": "Le souffle de Carey-Coombs est un roulement mésodiastolique apexien survenant lors du rhumatisme articulaire aigu, par valvulite mitrale aiguë (œdème des feuillets). Distinguer du RM organique séquellaire. Disparaît avec la guérison.",
+      "answers": [
+        { "text": "Souffle d'insuffisance aortique", "is_correct": false },
+        {
+          "text": "Roulement diastolique du RAA (valvulite mitrale aiguë)",
+          "is_correct": true
+        },
+        { "text": "Souffle de rétrécissement aortique", "is_correct": false },
+        { "text": "Souffle d'EP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le souffle de Graham-Steell ?",
+      "difficulty": "Difficile",
+      "explanation": "Le souffle de Graham-Steell est un souffle diastolique aspiratif au foyer pulmonaire, témoignant d'une insuffisance pulmonaire secondaire à une HTAP sévère. Cause historique : RM serré avec HTAP. Distinguer de l'insuffisance aortique.",
+      "answers": [
+        { "text": "Souffle d'insuffisance mitrale", "is_correct": false },
+        {
+          "text": "Souffle d'IP secondaire à HTAP sévère (foyer pulmonaire)",
+          "is_correct": true
+        },
+        { "text": "Souffle de sténose pulmonaire", "is_correct": false },
+        { "text": "Souffle de CIA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'onde Q pathologique à l'ECG ?",
+      "difficulty": "Moyen",
+      "explanation": "L'onde Q pathologique (>40 ms de durée, >25% de l'amplitude de R, ou >2 mm en précordiales) témoigne d'une nécrose myocardique transmurale (séquelle d'IDM). Localisation selon dérivations : Q en V1-V4 (antérieur), DII-DIII-aVF (inférieur).",
+      "answers": [
+        { "text": "Onde normale chez tous", "is_correct": false },
+        {
+          "text": "Signe de nécrose myocardique transmurale (séquelle IDM)",
+          "is_correct": true
+        },
+        { "text": "Signe d'hypertrophie ventriculaire", "is_correct": false },
+        { "text": "Signe de péricardite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le critère de Sokolow-Lyon à l'ECG ?",
+      "difficulty": "Moyen",
+      "explanation": "Le critère de Sokolow-Lyon détecte l'hypertrophie ventriculaire gauche (HVG) électrique : SV1 + RV5 ou RV6 ≥35 mm. Autres critères HVG : indice de Cornell, onde R en aVL >11 mm. Causes HVG : HTA, RA, CMH.",
+      "answers": [
+        { "text": "Critère de nécrose myocardique", "is_correct": false },
+        {
+          "text": "Critère ECG d'HVG (SV1 + RV5/V6 ≥35 mm)",
+          "is_correct": true
+        },
+        { "text": "Critère de bloc de branche", "is_correct": false },
+        { "text": "Critère de péricardite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'onde epsilon à l'ECG ?",
+      "difficulty": "Difficile",
+      "explanation": "L'onde epsilon est une petite déflexion terminale du QRS en V1-V3, signe caractéristique (mais peu sensible) de la dysplasie arythmogène du ventricule droit (DAVD). Autres signes ECG de DAVD : inversion T en V1-V3, allongement QRS en V1-V3.",
+      "answers": [
+        { "text": "Signe d'infarctus", "is_correct": false },
+        {
+          "text": "Signe de DAVD (déflexion terminale QRS en V1-V3)",
+          "is_correct": true
+        },
+        { "text": "Signe de péricardite", "is_correct": false },
+        { "text": "Signe de bloc de branche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Cabrera à l'ECG ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Cabrera est une encoche ou un empâtement de la branche ascendante de l'onde S en dérivations latérales (V5-V6, D1, aVL), signe spécifique de bloc de branche gauche (BBG). Autres critères BBG : QRS ≥120 ms, aspect QS en V1, R élargie en V6.",
+      "answers": [
+        { "text": "Signe de bloc auriculo-ventriculaire", "is_correct": false },
+        {
+          "text": "Encoche de la branche ascendante de S (signe spécifique de BBG)",
+          "is_correct": true
+        },
+        { "text": "Signe d'infarctus inférieur", "is_correct": false },
+        { "text": "Signe de préexcitation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le QRS fragmenté à l'ECG ?",
+      "difficulty": "Difficile",
+      "explanation": "Le QRS fragmenté présente des encoches multiples ou un empâtement (aspect RSR' sans BBG complet). Traduit une cicatrice myocardique ou fibrose. Facteur de risque arythmique dans la cardiomyopathie ischémique et les CMD.",
+      "answers": [
+        { "text": "Onde normale", "is_correct": false },
+        {
+          "text": "QRS avec encoches multiples (fibrose/cicatrice myocardique)",
+          "is_correct": true
+        },
+        { "text": "Bloc de branche complet", "is_correct": false },
+        { "text": "Préexcitation ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'alternance électrique de l'onde T ?",
+      "difficulty": "Difficile",
+      "explanation": "L'alternance électrique de l'onde T (microvolt T-wave alternans) est une variation cyclique de l'amplitude/morphologie de l'onde T. Signe d'instabilité électrique, facteur prédictif de TV/FV et mort subite. Détectable par analyse numérique à l'effort.",
+      "answers": [
+        { "text": "Variation normale de l'ECG", "is_correct": false },
+        {
+          "text": "Variation cyclique de l'onde T (instabilité électrique, risque TV/FV)",
+          "is_correct": true
+        },
+        { "text": "Artefact technique", "is_correct": false },
+        { "text": "Signe de péricardite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le bloc de branche alternant ?",
+      "difficulty": "Difficile",
+      "explanation": "Le bloc de branche alternant est une alternance entre BBD et BBG, ou apparition/disparition d'un bloc de branche. Témoigne d'une atteinte bilatérale du faisceau de His. Risque élevé de BAV complet. Indication de pacemaker prophylactique.",
+      "answers": [
+        { "text": "Variante normale de la conduction", "is_correct": false },
+        {
+          "text": "Alternance BBD/BBG (atteinte bilatérale, indication pacemaker)",
+          "is_correct": true
+        },
+        { "text": "Artefact ECG", "is_correct": false },
+        { "text": "Signe de préexcitation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le bloc bi-fasciculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le bloc bi-fasciculaire associe un BBD + hémibloc antérieur gauche (ou postérieur). ECG : QRS large BBD + déviation axiale gauche (HAG) ou droite (HPG). Risque de progression vers BAV complet. Holter ECG et surveillance clinique.",
+      "answers": [
+        { "text": "Bloc auriculo-ventriculaire complet", "is_correct": false },
+        {
+          "text": "BBD + hémibloc (risque de progression vers BAV complet)",
+          "is_correct": true
+        },
+        { "text": "Bloc de branche isolé", "is_correct": false },
+        { "text": "Préexcitation ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le bloc tri-fasciculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le bloc tri-fasciculaire associe un bloc bi-fasciculaire + BAV du 1er degré (PR allongé). Témoigne d'une atteinte diffuse du système de conduction. Risque élevé de BAV complet. Surveillance étroite, pacemaker si symptômes ou BAV de haut degré.",
+      "answers": [
+        { "text": "BAV du 3ème degré", "is_correct": false },
+        {
+          "text": "Bloc bi-fasciculaire + BAV 1er degré (risque BAV complet)",
+          "is_correct": true
+        },
+        { "text": "Trois blocs de branche simultanés", "is_correct": false },
+        { "text": "Fibrillation ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hémibloc antérieur gauche ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hémibloc antérieur gauche (HAG) est un bloc de la branche antérieure de la branche gauche. ECG : déviation axiale gauche (< -30°), qR en D1-aVL, rS en DII-DIII-aVF, QRS <120 ms (si isolé). Cause : IDM, cardiomyopathies, dégénératif.",
+      "answers": [
+        { "text": "Bloc de branche gauche complet", "is_correct": false },
+        {
+          "text": "Bloc de la branche antérieure gauche (déviation axiale gauche)",
+          "is_correct": true
+        },
+        { "text": "BAV du 2ème degré", "is_correct": false },
+        { "text": "Préexcitation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hémibloc postérieur gauche ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hémibloc postérieur gauche (HPG) est un bloc de la branche postérieure gauche. ECG : déviation axiale droite (>110°), rS en D1-aVL, qR en DII-DIII-aVF. Rare (branche postérieure plus résistante). Causes : IDM inférieur étendu, pathologie valvulaire.",
+      "answers": [
+        { "text": "Bloc de branche droit", "is_correct": false },
+        {
+          "text": "Bloc de la branche postérieure gauche (déviation axiale droite)",
+          "is_correct": true
+        },
+        { "text": "Hémibloc antérieur gauche", "is_correct": false },
+        { "text": "BAV du 1er degré", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Sgarbossa ?",
+      "difficulty": "Difficile",
+      "explanation": "Les critères de Sgarbossa permettent le diagnostic d'IDM en présence de BBG : sus-ST ≥1 mm concordant au QRS (5 pts), sous-ST ≥1 mm en V1-V3 (3 pts), sus-ST ≥5 mm discordant (2 pts). Score ≥3 : IDM probable.",
+      "answers": [
+        { "text": "Critère de diagnostic d'HVG", "is_correct": false },
+        {
+          "text": "Critères ECG de diagnostic d'IDM avec BBG",
+          "is_correct": true
+        },
+        { "text": "Signe de péricardite", "is_correct": false },
+        { "text": "Critère de flutter auriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Wellens ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Wellens (ondes T profondes biphasiques ou négatives en V2-V3) indique une sténose critique de l'IVA proximale avec ischémie instable. Risque élevé d'IDM antérieur étendu. Troponine souvent normale/peu élevée. Indication de coronarographie urgente.",
+      "answers": [
+        { "text": "Signe bénin sans conséquence", "is_correct": false },
+        {
+          "text": "Ondes T V2-V3 évocatrices de sténose IVA critique (coronarographie urgente)",
+          "is_correct": true
+        },
+        { "text": "Signe de péricardite", "is_correct": false },
+        { "text": "Onde normale post-effort", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de de Winter ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de de Winter est un sous-décalage du segment ST en pente ascendante avec ondes T amples et symétriques en précordiales, dans l'occlusion aiguë de l'IVA. Équivalent de STEMI. Indication d'angioplastie primaire immédiate.",
+      "answers": [
+        { "text": "Variante normale de l'ECG", "is_correct": false },
+        {
+          "text": "Sous-ST ascendant + T amples (occlusion IVA, équivalent STEMI)",
+          "is_correct": true
+        },
+        { "text": "Signe de péricardite", "is_correct": false },
+        { "text": "Bloc de branche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'insuffisance tricuspide fonctionnelle ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance tricuspide (IT) fonctionnelle est secondaire à une dilatation du VD (HTAP, IC gauche, EP chronique) avec dilatation de l'anneau tricuspide. Valve morphologiquement normale. Traitement : traiter la cause, annuloplastie si IT sévère symptomatique.",
+      "answers": [
+        {
+          "text": "Lésion organique de la valve tricuspide",
+          "is_correct": false
+        },
+        {
+          "text": "IT secondaire à dilatation VD/anneau (HTAP, IC, EP)",
+          "is_correct": true
+        },
+        { "text": "Endocardite tricuspide", "is_correct": false },
+        { "text": "Malformation congénitale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sténose tricuspide ?",
+      "difficulty": "Moyen",
+      "explanation": "La sténose tricuspide (ST) est rare, souvent rhumatismale (associée au RM), ou carcinoïde. Signes : IC droite, turgescence jugulaire, hépatomégalie pulsatile, roulement diastolique au foyer tricuspide. Échocardiographie : gradient diastolique.",
+      "answers": [
+        { "text": "Insuffisance de la valve tricuspide", "is_correct": false },
+        {
+          "text": "Rétrécissement tricuspide (rhumatisme, carcinoïde, IC droite)",
+          "is_correct": true
+        },
+        { "text": "Sténose mitrale", "is_correct": false },
+        { "text": "HTAP primitive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie d'Ebstein ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie d'Ebstein est une malformation congénitale avec implantation basse de la valve tricuspide dans le VD, créant une 'atrialisation' du VD. Complications : IT, arythmies (FA, voies accessoires), IC droite. Traitement : chirurgie valvulaire si sévère.",
+      "answers": [
+        { "text": "Sténose aortique congénitale", "is_correct": false },
+        {
+          "text": "Malformation tricuspide avec implantation basse (atrialisation VD)",
+          "is_correct": true
+        },
+        { "text": "Communication interauriculaire", "is_correct": false },
+        { "text": "Cardiomyopathie dilatée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome carcinoïde cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome carcinoïde (tumeur neuroendocrine métastatique) cause des lésions valvulaires droites par sérotonine : épaississement fibreux, IT et sténose pulmonaire. Signes : flush, diarrhée, wheezing. Diagnostic : 5-HIAA urinaire, échocardiographie. Traitement : analogues somatostatine.",
+      "answers": [
+        { "text": "Infection valvulaire", "is_correct": false },
+        {
+          "text": "Valvulopathies droites par tumeur neuroendocrine (sérotonine)",
+          "is_correct": true
+        },
+        { "text": "Rhumatisme articulaire aigu", "is_correct": false },
+        { "text": "Endocardite infectieuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'insuffisance aortique aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IA aiguë (dissection, endocardite, trauma) entraîne une surcharge brutale du VG non adapté : OAP, choc cardiogénique. Pas de cardiomégalie (pas de temps pour remodelage). Urgence chirurgicale : remplacement valvulaire aortique en urgence.",
+      "answers": [
+        { "text": "Pathologie chronique bien tolérée", "is_correct": false },
+        {
+          "text": "IA brutale (dissection, endocardite) → OAP, choc (chirurgie urgente)",
+          "is_correct": true
+        },
+        { "text": "Sténose aortique progressive", "is_correct": false },
+        { "text": "Insuffisance mitrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'insuffisance aortique chronique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IA chronique (dégénérative, bicuspidie, dilatation aorte) permet un remodelage compensateur du VG (dilatation, HVG excentrique). Longtemps asymptomatique. Signes : pouls ample, souffle diastolique. Chirurgie si symptômes ou dilatation VG (DTSVG >70 mm, DTDVG >50 mm).",
+      "answers": [
+        { "text": "Urgence chirurgicale immédiate", "is_correct": false },
+        {
+          "text": "IA progressive avec remodelage VG (chirurgie si symptômes/dilatation)",
+          "is_correct": true
+        },
+        { "text": "Toujours asymptomatique", "is_correct": false },
+        { "text": "Sténose mitrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la bicuspidie aortique ?",
+      "difficulty": "Moyen",
+      "explanation": "La valve aortique bicuspide (2 feuillets au lieu de 3) est la malformation cardiaque congénitale la plus fréquente (1-2%). Complications : sténose aortique précoce, IA, endocardite, dissection aortique, anévrisme aorte ascendante. Surveillance échographique régulière.",
+      "answers": [
+        { "text": "Valve aortique normale", "is_correct": false },
+        {
+          "text": "Valve à 2 feuillets (RA, IA, dissection, surveillance++)",
+          "is_correct": true
+        },
+        { "text": "Sténose mitrale congénitale", "is_correct": false },
+        { "text": "Cardiomyopathie hypertrophique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Marfan et ses complications cardiaques ?",
+      "difficulty": "Moyen",
+      "explanation": "Le Marfan est une maladie génétique du tissu conjonctif (mutation fibrilline-1). Complications CV : dilatation/dissection aorte ascendante, IA, prolapsus mitral. Surveillance : échocardiographie annuelle. Chirurgie prophylactique si aorte >50 mm (ou 45 mm si ATCD familiaux).",
+      "answers": [
+        {
+          "text": "Maladie musculaire sans atteinte cardiaque",
+          "is_correct": false
+        },
+        {
+          "text": "Maladie du tissu conjonctif (dilatation aorte, dissection, IA, PVM)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie dilatée", "is_correct": false },
+        { "text": "Maladie coronarienne précoce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome d'Ehlers-Danlos vasculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "L'Ehlers-Danlos vasculaire (type IV, mutation COL3A1) est une maladie du collagène avec fragilité vasculaire extrême. Complications CV : dissections/ruptures artérielles (aorte, carotides, mésentériques), rupture cardiaque spontanée. Pronostic sévère.",
+      "answers": [
+        { "text": "Maladie bénigne de la peau", "is_correct": false },
+        {
+          "text": "Maladie du collagène (fragilité vasculaire, dissections/ruptures)",
+          "is_correct": true
+        },
+        { "text": "Syndrome de Marfan", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Loeys-Dietz ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Loeys-Dietz (mutation TGF-β) ressemble au Marfan mais plus sévère : dilatation/dissection aortique précoce et agressive, tortuosité artérielle, anévrismes multiples. Chirurgie prophylactique aorte si >42-45 mm. Bêta-bloquants + losartan.",
+      "answers": [
+        { "text": "Variante du syndrome de Marfan", "is_correct": false },
+        {
+          "text": "Maladie TGF-β (dissection aortique précoce, plus sévère que Marfan)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie hypertrophique", "is_correct": false },
+        { "text": "Athérosclérose précoce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardiopathie rhumatismale chronique ?",
+      "difficulty": "Moyen",
+      "explanation": "La cardiopathie rhumatismale est la séquelle du rhumatisme articulaire aigu (RAA, streptocoque A). Atteinte valvulaire : RM++ (fusion commissurale), IM, RA. Principale cause de valvulopathies dans pays en développement. Prophylaxie antibiotique (pénicilline) à vie.",
+      "answers": [
+        { "text": "Maladie coronarienne", "is_correct": false },
+        {
+          "text": "Valvulopathies séquellaires du RAA (RM++, prophylaxie pénicilline)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie dilatée", "is_correct": false },
+        { "text": "Endocardite infectieuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le rhumatisme articulaire aigu (RAA) et les critères de Jones ?",
+      "difficulty": "Moyen",
+      "explanation": "Le RAA est une complication post-streptococcique (pharyngite strep A). Critères de Jones : majeurs (cardite, polyarthrite, chorée, érythème marginé, nodules sous-cutanés), mineurs (fièvre, arthralgies, PR long, CRP/VS élevées). Diagnostic : 2 majeurs ou 1 majeur + 2 mineurs + preuve streptocoque.",
+      "answers": [
+        { "text": "Infection virale cardiaque", "is_correct": false },
+        {
+          "text": "Complication post-streptococcique (critères de Jones : cardite, arthrite, chorée)",
+          "is_correct": true
+        },
+        { "text": "Endocardite bactérienne", "is_correct": false },
+        { "text": "Péricardite tuberculeuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la cardiomyopathie restrictive ?",
+      "difficulty": "Difficile",
+      "explanation": "La CMR se caractérise par une restriction du remplissage ventriculaire avec compliance réduite, fonction systolique préservée. Causes : amylose, sarcoïdose, hémochromatose, fibrose endomyocardique. Signes : IC droite prédominante. Pronostic sombre.",
+      "answers": [
+        { "text": "Cardiomyopathie dilatée", "is_correct": false },
+        {
+          "text": "Restriction du remplissage VG (amylose, sarcoïdose, IC droite)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie hypertrophique", "is_correct": false },
+        { "text": "Péricardite constrictive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'amylose cardiaque et comment la diagnostiquer ?",
+      "difficulty": "Difficile",
+      "explanation": "L'amylose cardiaque (dépôts de substance amyloïde) cause une CMR. Types : AL (chaînes légères, myélome), ATTR (transthyrétine, sénile/héréditaire). IRM : rehaussement tardif diffus. Biopsie endomyocardique (rouge Congo). Scintigraphie osseuse (ATTR). Pronostic sombre (AL).",
+      "answers": [
+        { "text": "Infection cardiaque", "is_correct": false },
+        {
+          "text": "Dépôts amyloïdes (CMR, IRM, biopsie, pronostic sombre)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie ischémique", "is_correct": false },
+        { "text": "Valvulopathie rhumatismale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sarcoïdose cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "La sarcoïdose cardiaque (granulomes non caséeux) cause : BAV, TV, CMR, CMD, mort subite. Souvent asymptomatique. Diagnostic : IRM (rehaussement tardif patchy), PET-scan (hypermétabolisme), biopsie. Traitement : corticoïdes, immunosuppresseurs, pacemaker/DAI selon.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Granulomes cardiaques (BAV, TV, CMR, IRM/PET, corticoïdes)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie virale", "is_correct": false },
+        { "text": "Athérosclérose coronarienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hémochromatose cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hémochromatose (surcharge en fer) cause une CMD par dépôts de fer myocardiques. Signes : IC, arythmies. IRM : T2* bas (fer). Traitement : saignées, chélateurs du fer (déféroxamine, déférasirox). Amélioration possible si traitement précoce.",
+      "answers": [
+        { "text": "Carence en fer", "is_correct": false },
+        {
+          "text": "Surcharge en fer (CMD, IRM T2*, saignées/chélateurs)",
+          "is_correct": true
+        },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Cardiomyopathie hypertrophique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Fabry ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Fabry (déficit α-galactosidase A, lié à l'X) cause une accumulation de globotriaosylcéramide. Atteinte cardiaque : HVG, CMH-like, arythmies. Autres : neuropathie, angiokeratomes, insuffisance rénale. Traitement : enzymothérapie substitutive (agalsidase).",
+      "answers": [
+        { "text": "Cardiomyopathie ischémique", "is_correct": false },
+        {
+          "text": "Maladie lysosomale (HVG, CMH-like, enzymothérapie)",
+          "is_correct": true
+        },
+        { "text": "Syndrome de Marfan", "is_correct": false },
+        { "text": "Amylose cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Pompe ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Pompe (déficit α-glucosidase acide) est une glycogénose type II. Forme infantile : cardiomégalie massive, IC, décès précoce. Forme adulte : myopathie + atteinte cardiaque modérée. Traitement : enzymothérapie (alglucosidase α).",
+      "answers": [
+        { "text": "Maladie mitochondriale", "is_correct": false },
+        {
+          "text": "Glycogénose type II (cardiomégalie, IC, enzymothérapie)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie dilatée idiopathique", "is_correct": false },
+        { "text": "Maladie de Fabry", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Noonan ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Noonan (mutation RAS/MAPK) associe : dysmorphie faciale, petite taille, cardiopathie (sténose pulmonaire valvulaire, CMH). Peut ressembler au Turner mais caryotype normal. Traitement symptomatique des complications cardiaques.",
+      "answers": [
+        { "text": "Trisomie 21", "is_correct": false },
+        {
+          "text": "Syndrome RASopathie (dysmorphie, sténose pulmonaire, CMH)",
+          "is_correct": true
+        },
+        { "text": "Syndrome de Turner", "is_correct": false },
+        { "text": "Syndrome de Marfan", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Turner et ses complications cardiaques ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Turner (45,X0, femmes) associe : petite taille, dysgénésie gonadique, cardiopathies (coarctation aortique 10-15%, bicuspidie aortique 30%, dilatation/dissection aorte). Surveillance cardiovasculaire à vie recommandée.",
+      "answers": [
+        { "text": "Syndrome chromosomique masculin", "is_correct": false },
+        {
+          "text": "45,X0 (femmes, coarctation, bicuspidie, dissection aorte)",
+          "is_correct": true
+        },
+        { "text": "Trisomie 21", "is_correct": false },
+        { "text": "Syndrome de Marfan", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la trisomie 21 et ses cardiopathies associées ?",
+      "difficulty": "Facile",
+      "explanation": "La trisomie 21 (syndrome de Down) s'associe fréquemment à des cardiopathies congénitales (40-50%) : canal atrio-ventriculaire complet (CAV), CIV, CIA, PCA. Dépistage échographique anténatal et postnatal. Chirurgie cardiaque selon type et sévérité.",
+      "answers": [
+        { "text": "Pas de cardiopathie associée", "is_correct": false },
+        {
+          "text": "Cardiopathies fréquentes (CAV, CIV, CIA, PCA 40-50%)",
+          "is_correct": true
+        },
+        { "text": "Coarctation aortique uniquement", "is_correct": false },
+        { "text": "Syndrome de Marfan", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le canal atrio-ventriculaire complet ?",
+      "difficulty": "Moyen",
+      "explanation": "Le CAV complet associe une CIA ostium primum + CIV jonctionnelle + valve AV commune. Fréquent dans la trisomie 21. Shunt G-D massif, HTAP précoce. Chirurgie réparatrice dans la 1ère année de vie pour prévenir maladie d'Eisenmenger.",
+      "answers": [
+        { "text": "CIV isolée", "is_correct": false },
+        {
+          "text": "CIA + CIV + valve AV commune (trisomie 21++, chirurgie <1 an)",
+          "is_correct": true
+        },
+        { "text": "Coarctation aortique", "is_correct": false },
+        { "text": "Tétralogie de Fallot", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la transposition des gros vaisseaux (TGV) ?",
+      "difficulty": "Difficile",
+      "explanation": "La TGV est une cardiopathie cyanogène : l'aorte naît du VD, l'artère pulmonaire du VG (circulations en parallèle). Cyanose néonatale sévère. Survie nécessite communication (CIA, CIV, PCA). Traitement : switch artériel (chirurgie de Jatene) dans les 1ers jours de vie.",
+      "answers": [
+        { "text": "Shunt gauche-droite simple", "is_correct": false },
+        {
+          "text": "Aorte du VD, AP du VG (cyanose, switch artériel néonatal)",
+          "is_correct": true
+        },
+        { "text": "Tétralogie de Fallot", "is_correct": false },
+        { "text": "Coarctation aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le retour veineux pulmonaire anormal total (RVPAT) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le RVPAT est une malformation où les veines pulmonaires se drainent dans l'OD (directement ou via SVC, VCI, sinus coronaire). Shunt D-G via CIA obligatoire (survie). Cyanose, IC. Diagnostic : échographie, TDM. Chirurgie corrective néonatale.",
+      "answers": [
+        { "text": "Drainage veineux pulmonaire normal", "is_correct": false },
+        {
+          "text": "Veines pulmonaires drainant dans OD (cyanose, CIA, chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Transposition des gros vaisseaux", "is_correct": false },
+        { "text": "CIA simple", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le tronc artériel commun ?",
+      "difficulty": "Difficile",
+      "explanation": "Le tronc artériel commun est une malformation rare : un seul tronc vasculaire naît du cœur, donnant aorte et artères pulmonaires. Toujours associé à une CIV. Cyanose, IC, HTAP précoce. Chirurgie néonatale : fermeture CIV + conduit VD-AP.",
+      "answers": [
+        { "text": "Aorte et artère pulmonaire séparées", "is_correct": false },
+        {
+          "text": "Tronc vasculaire unique (CIV, cyanose, chirurgie néonatale)",
+          "is_correct": true
+        },
+        { "text": "Tétralogie de Fallot", "is_correct": false },
+        { "text": "Coarctation aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome du cœur gauche hypoplasique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le SCGH est une sous-développement du cœur gauche (VG, aorte, valve mitrale/aortique hypoplasiques). Circulation dépend du PCA. Cyanose et choc néonatal à la fermeture du canal. Traitement : chirurgie en 3 temps (Norwood) ou transplantation cardiaque néonatale.",
+      "answers": [
+        { "text": "Hypertrophie ventriculaire gauche", "is_correct": false },
+        {
+          "text": "Hypoplasie cœur gauche (PCA dépendant, Norwood ou transplantation)",
+          "is_correct": true
+        },
+        { "text": "Tétralogie de Fallot", "is_correct": false },
+        { "text": "CIA isolée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'interruption de l'arche aortique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'interruption de l'arche aortique est une discontinuité complète de l'aorte (types A, B, C selon localisation). Circulation distale dépend du PCA. Choc cardiogénique à la fermeture du canal. Urgence chirurgicale néonatale : reconstruction aortique.",
+      "answers": [
+        { "text": "Coarctation aortique légère", "is_correct": false },
+        {
+          "text": "Discontinuité aortique (PCA dépendant, choc, chirurgie urgente)",
+          "is_correct": true
+        },
+        { "text": "Sténose aortique", "is_correct": false },
+        { "text": "Anévrisme de l'aorte", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'atrésie pulmonaire à septum ventriculaire intact ?",
+      "difficulty": "Difficile",
+      "explanation": "L'atrésie pulmonaire avec SIV est une absence de communication VD-AP, avec septum intact. VD souvent hypoplasique. Circulation pulmonaire dépend du PCA. Cyanose néonatale. Traitement : PGE1, puis chirurgie/cathétérisme interventionnel selon anatomie VD.",
+      "answers": [
+        { "text": "Tétralogie de Fallot classique", "is_correct": false },
+        {
+          "text": "Absence communication VD-AP (PCA dépendant, cyanose, chirurgie)",
+          "is_correct": true
+        },
+        { "text": "CIA isolée", "is_correct": false },
+        { "text": "Sténose pulmonaire légère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'atrésie pulmonaire avec CIV (Fallot extrême) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'atrésie pulmonaire avec CIV (forme extrême de Fallot) associe : CIV, atrésie pulmonaire, dextroposition aorte. Circulation pulmonaire via collatérales aorto-pulmonaires (MAPCA). Cyanose. Chirurgie complexe : unifocalisation + conduit VD-AP.",
+      "answers": [
+        { "text": "Tétralogie de Fallot standard", "is_correct": false },
+        {
+          "text": "Atrésie pulmonaire + CIV (MAPCA, cyanose, chirurgie complexe)",
+          "is_correct": true
+        },
+        { "text": "CIA simple", "is_correct": false },
+        { "text": "Coarctation aortique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Bland-White-Garland ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de BWG (ALCAPA : Anomalous Left Coronary Artery from Pulmonary Artery) est une origine anormale de la coronaire gauche depuis l'AP. Ischémie myocardique néonatale, CMD, IM. Diagnostic : échographie, angio-TDM. Chirurgie : réimplantation coronaire dans l'aorte.",
+      "answers": [
+        { "text": "Coronaires normales", "is_correct": false },
+        {
+          "text": "Coronaire gauche née de l'AP (ischémie, CMD, réimplantation)",
+          "is_correct": true
+        },
+        { "text": "Athérosclérose coronarienne précoce", "is_correct": false },
+        { "text": "Dissection coronaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le foramen ovale perméable (FOP) ?",
+      "difficulty": "Facile",
+      "explanation": "Le FOP est une persistance de la communication interauriculaire physiologique fœtale (20-25% population adulte). Généralement asymptomatique. Complications possibles : embolie paradoxale (AVC), syndrome de platypnée-orthodéoxie. Fermeture percutanée si AVC cryptogénique récidivant.",
+      "answers": [
+        { "text": "Malformation cardiaque grave", "is_correct": false },
+        {
+          "text": "Persistance communication OD-OG (20-25%, embolie paradoxale, fermeture si AVC)",
+          "is_correct": true
+        },
+        { "text": "CIA large symptomatique", "is_correct": false },
+        { "text": "CIV", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de platypnée-orthodéoxie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de platypnée-orthodéoxie associe : dyspnée (platypnée) et désaturation (orthodéoxie) en position debout, améliorées en décubitus. Cause : shunt D-G (FOP, CIA) favorisé en orthostatisme. Diagnostic : ETO avec contraste + test postural. Traitement : fermeture du shunt.",
+      "answers": [
+        { "text": "Insuffisance cardiaque gauche", "is_correct": false },
+        {
+          "text": "Dyspnée/désaturation debout (shunt D-G orthostatique, fermeture FOP)",
+          "is_correct": true
+        },
+        { "text": "Embolie pulmonaire", "is_correct": false },
+        { "text": "BPCO", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'anévrisme du septum interauriculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anévrisme du SIA est un bombement excessif (>10-15 mm) du septum vers l'OD ou l'OG. Souvent associé au FOP. Généralement bénin mais facteur de risque d'AVC cryptogénique (embolie paradoxale). Découverte échographique fortuite.",
+      "answers": [
+        { "text": "Anévrisme de l'aorte", "is_correct": false },
+        {
+          "text": "Bombement excessif du SIA (souvent + FOP, risque AVC)",
+          "is_correct": true
+        },
+        { "text": "CIA large", "is_correct": false },
+        { "text": "Anévrisme ventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'anévrisme ventriculaire post-infarctus ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anévrisme ventriculaire est une dilatation segmentaire dyskinétique de la paroi ventriculaire, séquelle d'IDM transmural (antérieur++). Complications : IC, arythmies ventriculaires, thrombus mural, embolie systémique. Traitement : anticoagulation, résection chirurgicale si symptomatique.",
+      "answers": [
+        { "text": "Complication bénigne de l'IDM", "is_correct": false },
+        {
+          "text": "Dilatation segmentaire post-IDM (IC, TV, thrombus, chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Cardiomyopathie dilatée", "is_correct": false },
+        { "text": "Péricardite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le thrombus intracardiaque et comment le traiter ?",
+      "difficulty": "Moyen",
+      "explanation": "Le thrombus intracardiaque se forme dans : FA (OG/AAG), IC avec FEVG basse (apex VG), anévrisme VG post-IDM, prothèse valvulaire. Risque embolique majeur (AVC). Diagnostic : ETO. Traitement : anticoagulation efficace (AVK/AOD), parfois thrombectomie chirurgicale.",
+      "answers": [
+        { "text": "Tumeur cardiaque", "is_correct": false },
+        {
+          "text": "Caillot intracardiaque (FA, ICFEr, IDM, embolie, anticoagulation)",
+          "is_correct": true
+        },
+        { "text": "Végétation endocardite", "is_correct": false },
+        { "text": "Calcification valvulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le myxome cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "Le myxome est la tumeur cardiaque primitive bénigne la plus fréquente (75%). Localisation : OG (75%), pédiculé, mobile. Complications : obstruction mitrale, embolie systémique, syndrome inflammatoire. Diagnostic : échographie, IRM. Traitement : exérèse chirurgicale complète.",
+      "answers": [
+        { "text": "Tumeur maligne", "is_correct": false },
+        {
+          "text": "Tumeur bénigne OG (obstruction, embolie, exérèse chirurgicale)",
+          "is_correct": true
+        },
+        { "text": "Thrombus auriculaire", "is_correct": false },
+        { "text": "Végétation endocardite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le rhabdomyome cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "Le rhabdomyome est la tumeur cardiaque la plus fréquente chez l'enfant (hamartome). Fortement associé à la sclérose tubéreuse de Bourneville (50-80%). Généralement multiple, intraventriculaire. Régression spontanée fréquente. Arythmies possibles.",
+      "answers": [
+        { "text": "Tumeur maligne de l'adulte", "is_correct": false },
+        {
+          "text": "Tumeur bénigne enfant (sclérose tubéreuse, régression spontanée)",
+          "is_correct": true
+        },
+        { "text": "Myxome auriculaire", "is_correct": false },
+        { "text": "Sarcome cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le fibrome cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "Le fibrome est une tumeur bénigne rare, souvent ventriculaire, chez l'enfant. Non régressive (vs rhabdomyome). Complications : arythmies ventriculaires, mort subite, obstruction. Peut nécessiter exérèse chirurgicale ou transplantation cardiaque.",
+      "answers": [
+        { "text": "Tumeur maligne", "is_correct": false },
+        {
+          "text": "Tumeur bénigne enfant (arythmies, mort subite, chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Myxome", "is_correct": false },
+        { "text": "Rhabdomyome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le sarcome cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "Le sarcome cardiaque (angiosarcome, rhabdomyosarcome) est une tumeur maligne primitive rare. Localisation : OD (angiosarcome++), infiltrant. Signes : tamponnade, IC, métastases. Pronostic très sombre (survie médiane <12 mois). Traitement : chirurgie + chimiothérapie, souvent palliatif.",
+      "answers": [
+        { "text": "Tumeur bénigne", "is_correct": false },
+        {
+          "text": "Tumeur maligne primitive (OD, tamponnade, pronostic sombre)",
+          "is_correct": true
+        },
+        { "text": "Myxome", "is_correct": false },
+        { "text": "Métastase cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que les métastases cardiaques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les métastases cardiaques sont 20-40× plus fréquentes que les tumeurs primitives. Cancers métastatiques : poumon, sein, mélanome, lymphome, rein. Atteinte : péricarde (épanchement), myocarde, endocarde. Traitement : chimiothérapie du primitif, drainage péricardique si tamponnade.",
+      "answers": [
+        { "text": "Tumeurs primitives bénignes", "is_correct": false },
+        {
+          "text": "20-40× plus fréquentes que primitives (poumon, sein, péricarde)",
+          "is_correct": true
+        },
+        { "text": "Myxomes multiples", "is_correct": false },
+        { "text": "Fibromes", "is_correct": false }
       ]
     }
   ]

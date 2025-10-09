@@ -74,6 +74,13 @@ class SeedData {
         'color': '#FF9800',
         'description': 'Étude des cellules'
       },
+      {
+        'name': 'Histologie',
+        'year_level': 'L1',
+        'icon': 'microscope',
+        'color': '#9C27B0',
+        'description': 'Étude des tissus'
+      },
       // L2
       {
         'name': 'Pharmacologie',
@@ -823,6 +830,7 @@ class SeedData {
         'assets/questions/L1/physiologie.json',
         'assets/questions/L1/biochimie.json',
         'assets/questions/L1/biologie_cellulaire.json',
+        'assets/questions/L1/histologie.json',
       ],
       'L2': [
         'assets/questions/L2/pharmacologie.json',

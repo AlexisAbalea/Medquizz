@@ -6,10 +6,10 @@
       "difficulty": "Facile",
       "explanation": "L'IRM (Imagerie par Résonance Magnétique) offre un excellent contraste pour les tissus mous, contrairement à la radiographie standard.",
       "answers": [
-        {"text": "Radiographie standard", "is_correct": false},
-        {"text": "IRM", "is_correct": true},
-        {"text": "Échographie uniquement", "is_correct": false},
-        {"text": "Scintigraphie", "is_correct": false}
+        { "text": "Radiographie standard", "is_correct": false },
+        { "text": "IRM", "is_correct": true },
+        { "text": "Échographie uniquement", "is_correct": false },
+        { "text": "Scintigraphie", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,3992 @@
       "difficulty": "Moyen",
       "explanation": "Les dispositifs métalliques ferromagnétiques (pacemaker, clips vasculaires) sont une contre-indication absolue de l'IRM en raison du champ magnétique puissant.",
       "answers": [
-        {"text": "Grossesse", "is_correct": false},
-        {"text": "Présence de dispositifs métalliques ferromagnétiques", "is_correct": true},
-        {"text": "Diabète", "is_correct": false},
-        {"text": "Âge avancé", "is_correct": false}
+        { "text": "Grossesse", "is_correct": false },
+        {
+          "text": "Présence de dispositifs métalliques ferromagnétiques",
+          "is_correct": true
+        },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Âge avancé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe de base de la radiographie ?",
+      "difficulty": "Facile",
+      "explanation": "La radiographie repose sur l’absorption différentielle des rayons X par les tissus du corps.",
+      "answers": [
+        { "text": "Réflexion des ondes sonores", "is_correct": false },
+        {
+          "text": "Absorption différentielle des rayons X",
+          "is_correct": true
+        },
+        { "text": "Emission de lumière visible", "is_correct": false },
+        { "text": "Mesure de la radioactivité naturelle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle unité mesure la dose absorbée de rayonnements ionisants ?",
+      "difficulty": "Moyen",
+      "explanation": "La dose absorbée est mesurée en Gray (Gy), correspondant à 1 joule par kilogramme.",
+      "answers": [
+        { "text": "Sievert", "is_correct": false },
+        { "text": "Gray", "is_correct": true },
+        { "text": "Becquerel", "is_correct": false },
+        { "text": "Curie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du détecteur dans un appareil de radiographie numérique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le détecteur convertit les rayons X reçus en signal électrique pour produire une image numérique.",
+      "answers": [
+        { "text": "Produire des rayons X", "is_correct": false },
+        {
+          "text": "Convertir les rayons X en signal numérique",
+          "is_correct": true
+        },
+        { "text": "Augmenter la résolution optique", "is_correct": false },
+        { "text": "Mesurer la tension du tube", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la nature physique des rayons X ?",
+      "difficulty": "Facile",
+      "explanation": "Les rayons X sont des ondes électromagnétiques de haute énergie.",
+      "answers": [
+        { "text": "Des particules alpha", "is_correct": false },
+        { "text": "Des ondes électromagnétiques", "is_correct": true },
+        { "text": "Des neutrons", "is_correct": false },
+        { "text": "Des électrons libres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qui a découvert les rayons X ?",
+      "difficulty": "Facile",
+      "explanation": "Les rayons X ont été découverts par Wilhelm Conrad Röntgen en 1895.",
+      "answers": [
+        { "text": "Marie Curie", "is_correct": false },
+        { "text": "Wilhelm Röntgen", "is_correct": true },
+        { "text": "Henri Becquerel", "is_correct": false },
+        { "text": "Niels Bohr", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du tube à rayons X ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tube génère des rayons X par décélération d’électrons sur une anode métallique.",
+      "answers": [
+        { "text": "Filtrer les rayons X", "is_correct": false },
+        { "text": "Produire les rayons X", "is_correct": true },
+        { "text": "Mesurer l’intensité du faisceau", "is_correct": false },
+        { "text": "Refroidir le détecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal danger des rayons X pour les tissus biologiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les rayons X peuvent provoquer des lésions de l’ADN et des effets stochastiques comme le cancer.",
+      "answers": [
+        { "text": "Chauffage des tissus", "is_correct": false },
+        { "text": "Altération de l’ADN", "is_correct": true },
+        { "text": "Détérioration des protéines", "is_correct": false },
+        { "text": "Diminution du pH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle modalité d’imagerie repose sur l’émission de positons ?",
+      "difficulty": "Moyen",
+      "explanation": "La tomographie par émission de positons (TEP ou PET scan) détecte les annihilations positon-électron.",
+      "answers": [
+        { "text": "IRM", "is_correct": false },
+        { "text": "TEP (PET scan)", "is_correct": true },
+        { "text": "Échographie", "is_correct": false },
+        { "text": "Scanner", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe de l’IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "L’IRM repose sur la résonance des protons soumis à un champ magnétique intense et des ondes radio.",
+      "answers": [
+        { "text": "Absorption des rayons X", "is_correct": false },
+        { "text": "Résonance magnétique des protons", "is_correct": true },
+        { "text": "Réflexion des ultrasons", "is_correct": false },
+        { "text": "Émission de photons gamma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l’unité de mesure de la radioactivité ?",
+      "difficulty": "Facile",
+      "explanation": "Le Becquerel (Bq) correspond à une désintégration par seconde.",
+      "answers": [
+        { "text": "Gray", "is_correct": false },
+        { "text": "Sievert", "is_correct": false },
+        { "text": "Becquerel", "is_correct": true },
+        { "text": "Curie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de contraste est utilisé pour opacifier le tube digestif en radiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Les sels de baryum sont utilisés pour visualiser l’œsophage, l’estomac et l’intestin.",
+      "answers": [
+        { "text": "Gadolinium", "is_correct": false },
+        { "text": "Sulfate de baryum", "is_correct": true },
+        { "text": "Iode organique", "is_correct": false },
+        { "text": "Air comprimé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence principale entre scanner et radiographie standard ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner réalise des coupes axiales en 3D grâce à la rotation du tube et du détecteur.",
+      "answers": [
+        { "text": "Le scanner utilise des ultrasons", "is_correct": false },
+        {
+          "text": "Le scanner fournit une image tridimensionnelle",
+          "is_correct": true
+        },
+        { "text": "La radiographie utilise plus de dose", "is_correct": false },
+        { "text": "Le scanner est sans rayons ionisants", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel produit de contraste est utilisé en IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "Le gadolinium est un agent paramagnétique utilisé pour rehausser le signal IRM.",
+      "answers": [
+        { "text": "Sulfate de baryum", "is_correct": false },
+        { "text": "Gadolinium", "is_correct": true },
+        { "text": "Iode organique", "is_correct": false },
+        { "text": "Technétium 99m", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle précaution est essentielle avant une IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "Les objets métalliques et dispositifs implantables peuvent interagir avec le champ magnétique.",
+      "answers": [
+        { "text": "Être à jeun 24h", "is_correct": false },
+        { "text": "Retirer tout objet métallique", "is_correct": true },
+        { "text": "Boire du contraste oral", "is_correct": false },
+        { "text": "Prendre un calmant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle d’un collimateur en radiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le collimateur limite la zone irradiée et améliore le contraste de l’image.",
+      "answers": [
+        { "text": "Amplifier les rayons X", "is_correct": false },
+        {
+          "text": "Limiter le faisceau aux zones d’intérêt",
+          "is_correct": true
+        },
+        {
+          "text": "Convertir les rayons en signal lumineux",
+          "is_correct": false
+        },
+        { "text": "Refroidir l’anode", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel organe est le plus radiosensible ?",
+      "difficulty": "Moyen",
+      "explanation": "La moelle osseuse est très sensible car elle contient des cellules souches hématopoïétiques.",
+      "answers": [
+        { "text": "Cerveau", "is_correct": false },
+        { "text": "Moelle osseuse", "is_correct": true },
+        { "text": "Muscle", "is_correct": false },
+        { "text": "Os compact", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de rayonnement est utilisé en scintigraphie ?",
+      "difficulty": "Moyen",
+      "explanation": "La scintigraphie détecte les photons gamma émis par un traceur radioactif injecté.",
+      "answers": [
+        { "text": "Rayons X", "is_correct": false },
+        { "text": "Photons gamma", "is_correct": true },
+        { "text": "Ultrasons", "is_correct": false },
+        { "text": "Neutrons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du filtre en aluminium dans un tube à rayons X ?",
+      "difficulty": "Moyen",
+      "explanation": "Le filtre élimine les rayons X de basse énergie qui augmenteraient la dose sans améliorer l’image.",
+      "answers": [
+        { "text": "Concentrer le faisceau", "is_correct": false },
+        {
+          "text": "Éliminer les faibles énergies inutiles",
+          "is_correct": true
+        },
+        { "text": "Produire les rayons X", "is_correct": false },
+        { "text": "Mesurer la dose absorbée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Que mesure le Sievert (Sv) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le Sievert tient compte de la nature du rayonnement et de la sensibilité des tissus pour estimer le risque biologique.",
+      "answers": [
+        { "text": "La radioactivité émise", "is_correct": false },
+        { "text": "L’effet biologique des rayonnements", "is_correct": true },
+        { "text": "La densité osseuse", "is_correct": false },
+        { "text": "L’énergie totale absorbée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du technétium 99m en médecine nucléaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le technétium 99m est un isotope gamma-émetteur utilisé comme traceur pour de nombreuses scintigraphies.",
+      "answers": [
+        { "text": "Traceur gamma-émetteur", "is_correct": true },
+        { "text": "Agent paramagnétique", "is_correct": false },
+        { "text": "Produit de contraste iodé", "is_correct": false },
+        { "text": "Source de rayons X", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'examen de première intention pour diagnostiquer une fracture osseuse ?",
+      "difficulty": "Facile",
+      "explanation": "La radiographie standard est l'examen de première intention pour diagnostiquer une fracture osseuse. Elle permet de visualiser la discontinuité de la corticale osseuse et d'évaluer le déplacement des fragments.",
+      "answers": [
+        {
+          "text": "IRM",
+          "is_correct": false
+        },
+        {
+          "text": "Radiographie standard",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de l'IRM en neurologie ?",
+      "difficulty": "Facile",
+      "explanation": "L'IRM est principalement indiquée en neurologie pour visualiser les tissus mous du système nerveux central, comme le cerveau et la moelle épinière, avec une excellente résolution de contraste.",
+      "answers": [
+        {
+          "text": "Visualisation des os",
+          "is_correct": false
+        },
+        {
+          "text": "Visualisation des tissus mous (cerveau, moelle épinière)",
+          "is_correct": true
+        },
+        {
+          "text": "Diagnostic des fractures",
+          "is_correct": false
+        },
+        {
+          "text": "Évaluation des poumons",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'avantage principal du scanner par rapport à la radiographie standard ?",
+      "difficulty": "Facile",
+      "explanation": "Le scanner offre une visualisation en coupes transversales, permettant une meilleure évaluation des structures internes et des lésions complexes, avec une résolution spatiale supérieure à la radiographie standard.",
+      "answers": [
+        {
+          "text": "Moins coûteux",
+          "is_correct": false
+        },
+        {
+          "text": "Visualisation en coupes transversales, meilleure résolution spatiale",
+          "is_correct": true
+        },
+        {
+          "text": "Pas d'irradiation",
+          "is_correct": false
+        },
+        {
+          "text": "Meilleure visualisation des os",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus sensible pour détecter une lésion hépatique ?",
+      "difficulty": "Facile",
+      "explanation": "L'IRM est la technique d'imagerie la plus sensible pour détecter et caractériser les lésions hépatiques, grâce à sa capacité à différencier les tissus mous et à utiliser des séquences spécifiques (comme le T1 et T2).",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal inconvénient de l'IRM par rapport au scanner ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal inconvénient de l'IRM est sa durée plus longue et son coût plus élevé par rapport au scanner. De plus, elle est contre-indiquée chez les patients porteurs de certains dispositifs métalliques.",
+      "answers": [
+        {
+          "text": "Moins précise",
+          "is_correct": false
+        },
+        {
+          "text": "Durée plus longue, coût plus élevé, contre-indications métalliques",
+          "is_correct": true
+        },
+        {
+          "text": "Irradiation",
+          "is_correct": false
+        },
+        {
+          "text": "Moins accessible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'examen d'imagerie de choix pour évaluer une suspicion d'embolie pulmonaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le scanner thoracique avec injection de produit de contraste (angioscanner) est l'examen de choix pour évaluer une suspicion d'embolie pulmonaire, car il permet de visualiser les artères pulmonaires et de détecter les thrombus.",
+      "answers": [
+        {
+          "text": "Radiographie thoracique",
+          "is_correct": false
+        },
+        {
+          "text": "Angioscanner thoracique",
+          "is_correct": true
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale indication de l'échographie en radiologie ?",
+      "difficulty": "Facile",
+      "explanation": "L'échographie est principalement indiquée pour l'évaluation des organes abdominaux, pelviens, et des tissus mous, ainsi que pour le suivi de la grossesse, grâce à son absence d'irradiation et sa disponibilité.",
+      "answers": [
+        {
+          "text": "Visualisation des os",
+          "is_correct": false
+        },
+        {
+          "text": "Évaluation des organes abdominaux, pelviens, tissus mous, grossesse",
+          "is_correct": true
+        },
+        {
+          "text": "Diagnostic des fractures",
+          "is_correct": false
+        },
+        {
+          "text": "Visualisation des poumons",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du produit de contraste en imagerie ?",
+      "difficulty": "Facile",
+      "explanation": "Le produit de contraste est utilisé pour améliorer la visibilité des vaisseaux sanguins et des tissus, en augmentant le contraste entre les structures normales et pathologiques sur les images.",
+      "answers": [
+        {
+          "text": "Réduire la durée de l'examen",
+          "is_correct": false
+        },
+        {
+          "text": "Améliorer la visibilité des vaisseaux et des tissus",
+          "is_correct": true
+        },
+        {
+          "text": "Diminuer l'irradiation",
+          "is_correct": false
+        },
+        {
+          "text": "Remplacer l'IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale contre-indication à l'IRM ?",
+      "difficulty": "Facile",
+      "explanation": "La principale contre-indication à l'IRM est la présence de dispositifs métalliques non compatibles (comme certains pacemakers ou clips vasculaires), en raison du champ magnétique puissant.",
+      "answers": [
+        {
+          "text": "Grossesse",
+          "is_correct": false
+        },
+        {
+          "text": "Dispositifs métalliques non compatibles",
+          "is_correct": true
+        },
+        {
+          "text": "Allergie à l'iode",
+          "is_correct": false
+        },
+        {
+          "text": "Insuffisance rénale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'examen d'imagerie le plus utilisé pour le diagnostic des maladies cardiovasculaires ?",
+      "difficulty": "Facile",
+      "explanation": "L'échocardiographie est l'examen d'imagerie le plus utilisé pour le diagnostic des maladies cardiovasculaires, car elle permet d'évaluer la structure et la fonction du cœur de manière non invasive.",
+      "answers": [
+        {
+          "text": "Radiographie thoracique",
+          "is_correct": false
+        },
+        {
+          "text": "Échocardiographie",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion cérébrale ischémique aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM en diffusion est la technique la plus adaptée pour évaluer une lésion cérébrale ischémique aiguë, car elle permet de détecter précocement les zones d'ischémie.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM en diffusion",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner sans injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une pneumonie bactérienne ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une pneumonie bactérienne est un foyer de condensation alvéolaire, qui apparaît comme une opacité systématisée sur la radiographie thoracique.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Foyer de condensation alvéolaire",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        },
+        {
+          "text": "Emphysème",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus sensible pour détecter une tumeur cérébrale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM avec injection de gadolinium est la technique la plus sensible pour détecter et caractériser une tumeur cérébrale, grâce à sa capacité à mettre en évidence la rupture de la barrière hémato-encéphalique.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner sans injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de la hanche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture de la hanche est une discontinuité de la corticale osseuse au niveau du col fémoral ou de la région intertrochantérienne, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une suspicion de thrombose veineuse profonde ?",
+      "difficulty": "Moyen",
+      "explanation": "L'écho-Doppler veineux est la technique d'imagerie la plus adaptée pour évaluer une suspicion de thrombose veineuse profonde, car elle permet de visualiser les veines et de détecter les thrombus.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Écho-Doppler veineux",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une appendicite aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une appendicite aiguë est un appendice dilaté (>6 mm) avec une paroi épaissie, visible à l'échographie ou au scanner.",
+      "answers": [
+        {
+          "text": "Calcifications",
+          "is_correct": false
+        },
+        {
+          "text": "Appendice dilaté (>6 mm) avec paroi épaissie",
+          "is_correct": true
+        },
+        {
+          "text": "Épanchement péritonéal",
+          "is_correct": false
+        },
+        {
+          "text": "Occlusion intestinale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion rénale, car il permet de caractériser la lésion et d'évaluer son vascularisation.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une péritonite ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une péritonite est la présence de niveaux hydro-aériques sur une radiographie de l'abdomen sans préparation, indiquant une occlusion ou une perforation intestinale.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Niveaux hydro-aériques",
+          "is_correct": true
+        },
+        {
+          "text": "Calcifications",
+          "is_correct": false
+        },
+        {
+          "text": "Dilatation gastrique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique focale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM avec injection de gadolinium est la technique la plus adaptée pour évaluer une lésion hépatique focale, car elle offre une excellente résolution de contraste et permet de caractériser la lésion.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner sans injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une embolie pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une embolie pulmonaire est un défaut de remplissage dans une artère pulmonaire, visible sur un angioscanner thoracique.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Défect de remplissage dans une artère pulmonaire",
+          "is_correct": true
+        },
+        {
+          "text": "Condensation alvéolaire",
+          "is_correct": false
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion pancréatique, car il permet de visualiser la glande et ses rapports vasculaires.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une occlusion intestinale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une occlusion intestinale est la présence de niveaux hydro-aériques et de dilatations des anses intestinales sur une radiographie de l'abdomen sans préparation.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Niveaux hydro-aériques et dilatations des anses intestinales",
+          "is_correct": true
+        },
+        {
+          "text": "Calcifications",
+          "is_correct": false
+        },
+        {
+          "text": "Dilatation gastrique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion splénique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion splénique, car il permet de caractériser la lésion et d'évaluer son vascularisation.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du crâne ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du crâne est une ligne de fracture visible sur la radiographie ou le scanner, avec parfois un enfoncement ou une séparation des sutures.",
+      "answers": [
+        {
+          "text": "Épanchement sous-dural",
+          "is_correct": false
+        },
+        {
+          "text": "Ligne de fracture visible",
+          "is_correct": true
+        },
+        {
+          "text": "Hémorragie cérébrale",
+          "is_correct": false
+        },
+        {
+          "text": "Œdème cérébral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion thyroïdienne ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie est la technique d'imagerie la plus adaptée pour évaluer une lésion thyroïdienne, car elle permet de caractériser la lésion et de guider une éventuelle ponction.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une luxation de l'épaule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une luxation de l'épaule est une perte de congruence entre la tête humérale et la cavité glénoïde, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Fracture de la clavicule",
+          "is_correct": false
+        },
+        {
+          "text": "Perte de congruence tête humérale/cavité glénoïde",
+          "is_correct": true
+        },
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion surrénalienne, car il permet de caractériser la lésion et d'évaluer son vascularisation.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture vertébrale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture vertébrale est une déformation ou une discontinuité de la corticale osseuse au niveau d'une vertèbre, visible sur la radiographie ou le scanner.",
+      "answers": [
+        {
+          "text": "Scoliose",
+          "is_correct": false
+        },
+        {
+          "text": "Déformation ou discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Herniatediscale",
+          "is_correct": false
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie pelvienne est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine, car elle permet de visualiser l'utérus et les ovaires de manière non invasive.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du poignet ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du poignet est une discontinuité de la corticale osseuse au niveau des os du carpe ou de l'extrémité inférieure du radius ou du cubitus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie pelvienne est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne, car elle permet de visualiser les ovaires et de caractériser les kystes ou tumeurs.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de la cheville ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture de la cheville est une discontinuité de la corticale osseuse au niveau des malléoles ou des os du tarse, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique, car elle offre une excellente résolution de contraste et permet de caractériser la lésion.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du bassin ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du bassin est une discontinuité de la corticale osseuse au niveau des os du bassin, visible sur la radiographie standard ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La mammographie est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire, car elle permet de détecter les microcalcifications et les masses suspectes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Mammographie",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du fémur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du fémur est une discontinuité de la corticale osseuse au niveau du fémur, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie scrotale est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire, car elle permet de visualiser les testicules et de caractériser les lésions.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie scrotale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du tibia ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du tibia est une discontinuité de la corticale osseuse au niveau du tibia, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion vésicale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion vésicale, car il permet de visualiser la vessie et d'évaluer son intégrité.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du radius ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du radius est une discontinuité de la corticale osseuse au niveau du radius, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale kystique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale kystique, car elle permet de caractériser le contenu liquidien et la paroi du kyste.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du cubitus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du cubitus est une discontinuité de la corticale osseuse au niveau du cubitus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM avec injection de gadolinium est la technique la plus adaptée pour évaluer une lésion hépatique maligne, car elle permet de caractériser la lésion et d'évaluer son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner sans injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du péroné ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du péroné est une discontinuité de la corticale osseuse au niveau du péroné, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique kystique, car elle permet de caractériser le contenu et la paroi du kyste, ainsi que ses rapports avec les structures adjacentes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de la clavicule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture de la clavicule est une discontinuité de la corticale osseuse au niveau de la clavicule, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion splénique traumatique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion splénique traumatique, car il permet de détecter les hémorragies et les lésions parenchymateuses.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'humérus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture de l'humérus est une discontinuité de la corticale osseuse au niveau de l'humérus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion surrénalienne maligne, car il permet de caractériser la lésion et d'évaluer son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du sacrum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du sacrum est une discontinuité de la corticale osseuse au niveau du sacrum, visible sur la radiographie standard ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine maligne, car elle offre une excellente résolution de contraste et permet de caractériser la lésion et son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du coccyx ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du coccyx est une discontinuité de la corticale osseuse au niveau du coccyx, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne maligne, car elle offre une excellente résolution de contraste et permet de caractériser la lésion et son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du sternum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du sternum est une discontinuité de la corticale osseuse au niveau du sternum, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM mammaire est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire maligne, car elle offre une excellente résolution de contraste et permet de caractériser la lésion et son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM mammaire",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture des côtes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture des côtes est une discontinuité de la corticale osseuse au niveau des côtes, visible sur la radiographie thoracique.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        },
+        {
+          "text": "Condensation alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie scrotale est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire maligne, car elle permet de visualiser les testicules et de caractériser les lésions.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie scrotale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du scaphoïde carpien ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du scaphoïde carpien est une discontinuité de la corticale osseuse au niveau du scaphoïde, visible sur la radiographie standard ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique maligne, car elle offre une excellente résolution de contraste et permet de caractériser la lésion et son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du calcanéus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du calcanéus est une discontinuité de la corticale osseuse au niveau du calcanéus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion vésicale maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion vésicale maligne, car il permet de visualiser la vessie et d'évaluer son intégrité et l'extension de la lésion.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du métatarse ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du métatarse est une discontinuité de la corticale osseuse au niveau des os métatarsiens, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion rénale maligne, car il permet de caractériser la lésion et d'évaluer son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du talus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du talus est une discontinuité de la corticale osseuse au niveau du talus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique kystique compliquée ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion hépatique kystique compliquée, car il permet de détecter les complications comme les hémorragies ou les infections.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du naviculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du naviculaire est une discontinuité de la corticale osseuse au niveau du naviculaire, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion pancréatique maligne, car il permet de caractériser la lésion et d'évaluer son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du cunéiforme ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du cunéiforme est une discontinuité de la corticale osseuse au niveau du cunéiforme, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion splénique maligne ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion splénique maligne, car il permet de caractériser la lésion et d'évaluer son extension.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du cuboïde ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du cuboïde est une discontinuité de la corticale osseuse au niveau du cuboïde, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne kystique, car elle permet de caractériser le contenu et la paroi du kyste, ainsi que ses rapports avec les structures adjacentes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os hamatum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os hamatum est une discontinuité de la corticale osseuse au niveau de l'os hamatum, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie pelvienne est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine kystique, car elle permet de visualiser l'utérus et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os trapèze ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os trapèze est une discontinuité de la corticale osseuse au niveau de l'os trapèze, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie pelvienne est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne kystique, car elle permet de visualiser les ovaires et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os trapézoïde ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os trapézoïde est une discontinuité de la corticale osseuse au niveau de l'os trapézoïde, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie mammaire est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire kystique, car elle permet de visualiser les seins et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie mammaire",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os capitatum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os capitatum est une discontinuité de la corticale osseuse au niveau de l'os capitatum, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie scrotale est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire kystique, car elle permet de visualiser les testicules et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie scrotale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os hamulus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os hamulus est une discontinuité de la corticale osseuse au niveau de l'os hamulus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique kystique, car elle offre une excellente résolution de contraste et permet de caractériser la lésion.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os pisiforme ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os pisiforme est une discontinuité de la corticale osseuse au niveau de l'os pisiforme, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion vésicale kystique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie vésicale est la technique d'imagerie la plus adaptée pour évaluer une lésion vésicale kystique, car elle permet de visualiser la vessie et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie vésicale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner",
+          "is_correct": false
+        },
+        {
+          "text": "IRM",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'examen d'imagerie de première intention pour évaluer une douleur abdominale aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "L'échographie abdominale est souvent l'examen de première intention pour évaluer une douleur abdominale aiguë, car elle permet de visualiser rapidement les organes abdominaux sans irradiation.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner abdominal",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus sensible pour détecter une lésion cérébrale ischémique précoce ?",
+      "difficulty": "Facile",
+      "explanation": "L'IRM en diffusion est la technique la plus sensible pour détecter une lésion cérébrale ischémique précoce, car elle permet de visualiser les zones d'ischémie dans les premières heures.",
+      "answers": [
+        {
+          "text": "Radiographie du crâne",
+          "is_correct": false
+        },
+        {
+          "text": "IRM en diffusion",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner cérébral sans injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie transcrânienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une pneumonie lobaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal signe radiologique d'une pneumonie lobaire est une opacité alvéolaire systématisée, correspondant à une condensation du parenchyme pulmonaire, visible sur la radiographie thoracique.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Opacité alvéolaire systématisée",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        },
+        {
+          "text": "Emphysème",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie de choix pour évaluer une suspicion de thrombose veineuse profonde des membres inférieurs ?",
+      "difficulty": "Facile",
+      "explanation": "L'écho-Doppler veineux est la technique de choix pour évaluer une suspicion de thrombose veineuse profonde des membres inférieurs, car elle permet de visualiser les veines et de détecter les thrombus.",
+      "answers": [
+        {
+          "text": "Radiographie des membres inférieurs",
+          "is_correct": false
+        },
+        {
+          "text": "Écho-Doppler veineux",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner des membres inférieurs",
+          "is_correct": false
+        },
+        {
+          "text": "IRM des membres inférieurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'extrémité inférieure du radius ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'extrémité inférieure du radius est une discontinuité de la corticale osseuse au niveau de l'extrémité distale du radius, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique focale chez un patient cirrhotique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM avec injection de gadolinium est la technique la plus adaptée pour évaluer une lésion hépatique focale chez un patient cirrhotique, car elle permet de caractériser la lésion et de la différencier des nodules de régénération.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner sans injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une embolie pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une embolie pulmonaire est un défaut de remplissage dans une artère pulmonaire, visible sur un angioscanner thoracique.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Défect de remplissage dans une artère pulmonaire",
+          "is_correct": true
+        },
+        {
+          "text": "Condensation alvéolaire",
+          "is_correct": false
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale chez un patient insuffisant rénal ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie rénale est la technique la plus adaptée pour évaluer une lésion rénale chez un patient insuffisant rénal, car elle ne nécessite pas d'injection de produit de contraste et évite ainsi tout risque de néphrotoxicité.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie rénale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du col du fémur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du col du fémur est une discontinuité de la corticale osseuse au niveau du col fémoral, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique chez un patient présentant une pancréatite aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion pancréatique chez un patient présentant une pancréatite aiguë, car il permet de visualiser les complications comme les nécroses ou les collections liquidiennes.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une péritonite ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une péritonite est la présence de niveaux hydro-aériques sur une radiographie de l'abdomen sans préparation, indiquant une occlusion ou une perforation intestinale.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Niveaux hydro-aériques",
+          "is_correct": true
+        },
+        {
+          "text": "Calcifications",
+          "is_correct": false
+        },
+        {
+          "text": "Dilatation gastrique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion splénique post-traumatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion splénique post-traumatique, car il permet de détecter les hémorragies et les lésions parenchymateuses.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une appendicite aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une appendicite aiguë est un appendice dilaté (>6 mm) avec une paroi épaissie, visible à l'échographie ou au scanner.",
+      "answers": [
+        {
+          "text": "Calcifications",
+          "is_correct": false
+        },
+        {
+          "text": "Appendice dilaté (>6 mm) avec paroi épaissie",
+          "is_correct": true
+        },
+        {
+          "text": "Épanchement péritonéal",
+          "is_correct": false
+        },
+        {
+          "text": "Occlusion intestinale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique chez un patient avec une allergie à l'iode ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM avec injection de gadolinium est la technique la plus adaptée pour évaluer une lésion hépatique chez un patient avec une allergie à l'iode, car elle évite l'utilisation de produits de contraste iodés.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de la rotule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture de la rotule est une discontinuité de la corticale osseuse au niveau de la rotule, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion thyroïdienne chez un patient avec un goitre ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie thyroïdienne est la technique la plus adaptée pour évaluer une lésion thyroïdienne chez un patient avec un goitre, car elle permet de visualiser la glande et de caractériser les nodules.",
+      "answers": [
+        {
+          "text": "Radiographie cervicale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie thyroïdienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner cervical",
+          "is_correct": false
+        },
+        {
+          "text": "IRM cervicale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'olécrâne ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture de l'olécrâne est une discontinuité de la corticale osseuse au niveau de l'olécrâne, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne chez un patient hypertendu ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion surrénalienne chez un patient hypertendu, car il permet de caractériser la lésion et d'évaluer son vascularisation.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du bassin ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du bassin est une discontinuité de la corticale osseuse au niveau des os du bassin, visible sur la radiographie standard ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine chez une femme enceinte ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie pelvienne est la technique la plus adaptée pour évaluer une lésion utérine chez une femme enceinte, car elle ne présente pas de risque d'irradiation pour le fœtus.",
+      "answers": [
+        {
+          "text": "Radiographie pelvienne",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner pelvien",
+          "is_correct": false
+        },
+        {
+          "text": "IRM pelvienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de la clavicule ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal signe radiologique d'une fracture de la clavicule est une discontinuité de la corticale osseuse au niveau de la clavicule, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne chez une femme en âge de procréer ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie pelvienne est la technique la plus adaptée pour évaluer une lésion ovarienne chez une femme en âge de procréer, car elle permet de visualiser les ovaires et de caractériser les kystes ou tumeurs.",
+      "answers": [
+        {
+          "text": "Radiographie pelvienne",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner pelvien",
+          "is_correct": false
+        },
+        {
+          "text": "IRM pelvienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du fémur ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal signe radiologique d'une fracture du fémur est une discontinuité de la corticale osseuse au niveau du fémur, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire chez une femme jeune ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie mammaire est la technique la plus adaptée pour évaluer une lésion mammaire chez une femme jeune, car elle permet de différencier les kystes des masses solides et évite l'irradiation.",
+      "answers": [
+        {
+          "text": "Radiographie mammaire",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie mammaire",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner mammaire",
+          "is_correct": false
+        },
+        {
+          "text": "IRM mammaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du tibia ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal signe radiologique d'une fracture du tibia est une discontinuité de la corticale osseuse au niveau du tibia, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire chez un homme jeune ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie scrotale est la technique la plus adaptée pour évaluer une lésion testiculaire chez un homme jeune, car elle permet de visualiser les testicules et de caractériser les lésions.",
+      "answers": [
+        {
+          "text": "Radiographie scrotale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie scrotale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner scrotal",
+          "is_correct": false
+        },
+        {
+          "text": "IRM scrotale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du péroné ?",
+      "difficulty": "Facile",
+      "explanation": "Le principal signe radiologique d'une fracture du péroné est une discontinuité de la corticale osseuse au niveau du péroné, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion vésicale chez un patient avec une hématurie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion vésicale chez un patient avec une hématurie, car il permet de visualiser la vessie et d'évaluer son intégrité.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du calcanéus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du calcanéus est une discontinuité de la corticale osseuse au niveau du calcanéus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale kystique chez un patient avec une insuffisance rénale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie rénale est la technique la plus adaptée pour évaluer une lésion rénale kystique chez un patient avec une insuffisance rénale, car elle ne nécessite pas d'injection de produit de contraste.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie rénale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale avec gadolinium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du scaphoïde carpien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du scaphoïde carpien est une discontinuité de la corticale osseuse au niveau du scaphoïde, visible sur la radiographie standard ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique chez un patient avec une cirrhose ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM avec injection de gadolinium est la technique la plus adaptée pour évaluer une lésion hépatique chez un patient avec une cirrhose, car elle permet de caractériser la lésion et de la différencier des nodules de régénération.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM avec gadolinium",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du talus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du talus est une discontinuité de la corticale osseuse au niveau du talus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique chez un patient avec une pancréatite chronique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion pancréatique chez un patient avec une pancréatite chronique, car il permet de visualiser les calcifications et les complications comme les pseudo-kystes.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du sacrum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du sacrum est une discontinuité de la corticale osseuse au niveau du sacrum, visible sur la radiographie standard ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne chez un patient avec un phéochromocytome suspecté ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM abdominale est la technique la plus adaptée pour évaluer une lésion surrénalienne chez un patient avec un phéochromocytome suspecté, car elle permet de caractériser la lésion et d'évaluer son extension sans utiliser de produit de contraste iodé.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du coccyx ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du coccyx est une discontinuité de la corticale osseuse au niveau du coccyx, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine maligne chez une femme ménopausée ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM pelvienne est la technique la plus adaptée pour évaluer une lésion utérine maligne chez une femme ménopausée, car elle offre une excellente résolution de contraste et permet de caractériser la lésion et son extension.",
+      "answers": [
+        {
+          "text": "Radiographie pelvienne",
+          "is_correct": false
+        },
+        {
+          "text": "IRM pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner pelvien",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture des côtes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture des côtes est une discontinuité de la corticale osseuse au niveau des côtes, visible sur la radiographie thoracique.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        },
+        {
+          "text": "Condensation alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire maligne chez un homme adulte ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie scrotale est la technique la plus adaptée pour évaluer une lésion testiculaire maligne chez un homme adulte, car elle permet de visualiser les testicules et de caractériser les lésions.",
+      "answers": [
+        {
+          "text": "Radiographie scrotale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie scrotale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner scrotal",
+          "is_correct": false
+        },
+        {
+          "text": "IRM scrotale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du sternum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du sternum est une discontinuité de la corticale osseuse au niveau du sternum, visible sur la radiographie thoracique ou le scanner.",
+      "answers": [
+        {
+          "text": "Épanchement pleural",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumothorax",
+          "is_correct": false
+        },
+        {
+          "text": "Condensation alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire maligne chez une femme avec des antécédents familiaux de cancer du sein ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM mammaire est la technique la plus adaptée pour évaluer une lésion mammaire maligne chez une femme avec des antécédents familiaux de cancer du sein, car elle offre une excellente résolution de contraste et permet de détecter des lésions précoces.",
+      "answers": [
+        {
+          "text": "Radiographie mammaire",
+          "is_correct": false
+        },
+        {
+          "text": "IRM mammaire",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner mammaire",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie mammaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du métatarse ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal signe radiologique d'une fracture du métatarse est une discontinuité de la corticale osseuse au niveau des os métatarsiens, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion rénale maligne chez un patient avec une insuffisance rénale chronique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM abdominale est la technique la plus adaptée pour évaluer une lésion rénale maligne chez un patient avec une insuffisance rénale chronique, car elle évite l'utilisation de produits de contraste iodés.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du talus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du talus est une discontinuité de la corticale osseuse au niveau du talus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion hépatique kystique compliquée chez un patient avec une cirrhose ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion hépatique kystique compliquée chez un patient avec une cirrhose, car il permet de détecter les complications comme les hémorragies ou les infections.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du naviculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du naviculaire est une discontinuité de la corticale osseuse au niveau du naviculaire, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion pancréatique maligne chez un patient avec une pancréatite chronique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion pancréatique maligne chez un patient avec une pancréatite chronique, car il permet de visualiser les calcifications et les complications comme les pseudo-kystes.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du cunéiforme ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du cunéiforme est une discontinuité de la corticale osseuse au niveau du cunéiforme, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion splénique maligne chez un patient avec un traumatisme abdominal ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion splénique maligne chez un patient avec un traumatisme abdominal, car il permet de détecter les hémorragies et les lésions parenchymateuses.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture du cuboïde ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture du cuboïde est une discontinuité de la corticale osseuse au niveau du cuboïde, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion surrénalienne kystique chez un patient avec une hypertension artérielle ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM abdominale est la technique la plus adaptée pour évaluer une lésion surrénalienne kystique chez un patient avec une hypertension artérielle, car elle permet de caractériser le contenu et la paroi du kyste, ainsi que ses rapports avec les structures adjacentes.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner avec injection",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os hamatum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os hamatum est une discontinuité de la corticale osseuse au niveau de l'os hamatum, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion utérine kystique chez une femme en période de ménopause ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie pelvienne est la technique la plus adaptée pour évaluer une lésion utérine kystique chez une femme en période de ménopause, car elle permet de visualiser l'utérus et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie pelvienne",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner pelvien",
+          "is_correct": false
+        },
+        {
+          "text": "IRM pelvienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os trapèze ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os trapèze est une discontinuité de la corticale osseuse au niveau de l'os trapèze, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion ovarienne kystique chez une femme avec des antécédents de cancer de l'ovaire ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM pelvienne est la technique la plus adaptée pour évaluer une lésion ovarienne kystique chez une femme avec des antécédents de cancer de l'ovaire, car elle offre une excellente résolution de contraste et permet de caractériser la lésion.",
+      "answers": [
+        {
+          "text": "Radiographie pelvienne",
+          "is_correct": false
+        },
+        {
+          "text": "IRM pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner pelvien",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os trapézoïde ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os trapézoïde est une discontinuité de la corticale osseuse au niveau de l'os trapézoïde, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion mammaire kystique chez une femme avec des antécédents familiaux de cancer du sein ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie mammaire est la technique la plus adaptée pour évaluer une lésion mammaire kystique chez une femme avec des antécédents familiaux de cancer du sein, car elle permet de visualiser les seins et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie mammaire",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie mammaire",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner mammaire",
+          "is_correct": false
+        },
+        {
+          "text": "IRM mammaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os capitatum ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os capitatum est une discontinuité de la corticale osseuse au niveau de l'os capitatum, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion testiculaire kystique chez un homme avec des antécédents de traumatisme scrotal ?",
+      "difficulty": "Difficile",
+      "explanation": "L'échographie scrotale est la technique la plus adaptée pour évaluer une lésion testiculaire kystique chez un homme avec des antécédents de traumatisme scrotal, car elle permet de visualiser les testicules et de caractériser les kystes.",
+      "answers": [
+        {
+          "text": "Radiographie scrotale",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie scrotale",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner scrotal",
+          "is_correct": false
+        },
+        {
+          "text": "IRM scrotale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os hamulus ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os hamulus est une discontinuité de la corticale osseuse au niveau de l'os hamulus, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion prostatique kystique chez un homme avec des antécédents de cancer de la prostate ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM pelvienne est la technique la plus adaptée pour évaluer une lésion prostatique kystique chez un homme avec des antécédents de cancer de la prostate, car elle offre une excellente résolution de contraste et permet de caractériser la lésion.",
+      "answers": [
+        {
+          "text": "Radiographie pelvienne",
+          "is_correct": false
+        },
+        {
+          "text": "IRM pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Scanner pelvien",
+          "is_correct": false
+        },
+        {
+          "text": "Échographie pelvienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une fracture de l'os pisiforme ?",
+      "difficulty": "Difficile",
+      "explanation": "Le principal signe radiologique d'une fracture de l'os pisiforme est une discontinuité de la corticale osseuse au niveau de l'os pisiforme, visible sur la radiographie standard.",
+      "answers": [
+        {
+          "text": "Épanchement articulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Discontinuité de la corticale osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoporose",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la technique d'imagerie la plus adaptée pour évaluer une lésion vésicale kystique chez un patient avec des antécédents de cancer de la vessie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner abdominal avec injection de produit de contraste est la technique la plus adaptée pour évaluer une lésion vésicale kystique chez un patient avec des antécédents de cancer de la vessie, car il permet de visualiser la vessie et d'évaluer son intégrité.",
+      "answers": [
+        {
+          "text": "Radiographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Scanner abdominal avec injection",
+          "is_correct": true
+        },
+        {
+          "text": "Échographie abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "IRM abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le score utilisé pour standardiser les comptes rendus d'IRM prostatique multiparamétrique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le PI-RADS (Prostate Imaging Reporting and Data System) est un système de classification standardisé de 1 à 5 pour évaluer le risque de cancer prostatique cliniquement significatif en IRM.",
+      "answers": [
+        { "text": "BI-RADS", "is_correct": false },
+        { "text": "PI-RADS", "is_correct": true },
+        { "text": "LI-RADS", "is_correct": false },
+        { "text": "TI-RADS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle séquence IRM permet la meilleure détection des hémorragies cérébrales chroniques ?",
+      "difficulty": "Difficile",
+      "explanation": "La séquence T2* ou SWI (Susceptibility Weighted Imaging) est très sensible aux dépôts d'hémosidérine et permet de détecter des microbleeds cérébraux chroniques invisibles sur d'autres séquences.",
+      "answers": [
+        { "text": "T1 sans injection", "is_correct": false },
+        { "text": "T2 FLAIR", "is_correct": false },
+        { "text": "T2* ou SWI", "is_correct": true },
+        { "text": "Diffusion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal avantage de la technique DUAL ENERGY en scanner ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scanner double énergie permet de différencier les matériaux ayant des coefficients d'atténuation proches en utilisant deux spectres d'énergie différents, notamment pour caractériser les calculs urinaires ou détecter l'œdème médullaire.",
+      "answers": [
+        { "text": "Réduction de la dose", "is_correct": false },
+        { "text": "Caractérisation tissulaire améliorée", "is_correct": true },
+        {
+          "text": "Amélioration de la résolution temporelle",
+          "is_correct": false
+        },
+        { "text": "Élimination des artéfacts", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le diagnostic le plus probable devant un aspect de 'verre dépoli' bilatéral en scanner thoracique dans un contexte de COVID-19 ?",
+      "difficulty": "Moyen",
+      "explanation": "Les pneumopathies virales, notamment la COVID-19, se manifestent typiquement par des opacités en verre dépoli bilatérales et périphériques, correspondant à une alvéolite et un épaississement septal.",
+      "answers": [
+        { "text": "Embolie pulmonaire", "is_correct": false },
+        { "text": "Pneumopathie virale", "is_correct": true },
+        { "text": "Tuberculose", "is_correct": false },
+        { "text": "Fibrose pulmonaire idiopathique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'artériographie rénale en radiologie interventionnelle ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artériographie rénale est principalement utilisée pour l'embolisation d'angiomyolipomes rénaux hémorragiques, le traitement de malformations vasculaires ou la prise en charge d'hémorragies post-traumatiques.",
+      "answers": [
+        { "text": "Diagnostic d'insuffisance rénale", "is_correct": false },
+        { "text": "Embolisation d'angiomyolipomes", "is_correct": true },
+        { "text": "Bilan de lithiase", "is_correct": false },
+        { "text": "Dépistage de kystes rénaux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe radiologique pathognomonique de la pneumonie lobaire franche à la radiographie thoracique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le bronchogramme aérien (visualisation des bronches aériques au sein d'un parenchyme pulmonaire condensé) est un signe caractéristique de la pneumonie lobaire franche.",
+      "answers": [
+        { "text": "Épanchement pleural massif", "is_correct": false },
+        { "text": "Bronchogramme aérien", "is_correct": true },
+        { "text": "Pneumothorax", "is_correct": false },
+        { "text": "Nodule pulmonaire solitaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle technique d'imagerie permet le mieux d'évaluer la perfusion myocardique en temps réel ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM cardiaque de stress avec injection de gadolinium ou l'IRM de perfusion au premier passage permet d'évaluer la perfusion myocardique et de détecter l'ischémie avec une excellente résolution spatiale.",
+      "answers": [
+        { "text": "Radiographie thoracique", "is_correct": false },
+        { "text": "Scanner coronaire sans injection", "is_correct": false },
+        { "text": "IRM cardiaque de perfusion", "is_correct": true },
+        { "text": "Échographie transthoracique standard", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal risque lié à l'injection de produit de contraste iodé chez un patient sous metformine ?",
+      "difficulty": "Difficile",
+      "explanation": "L'acidose lactique est un risque rare mais grave chez les patients diabétiques sous metformine recevant un produit de contraste iodé, surtout en cas d'insuffisance rénale. Il est recommandé d'arrêter la metformine 48h avant l'examen.",
+      "answers": [
+        { "text": "Hypoglycémie sévère", "is_correct": false },
+        { "text": "Acidose lactique", "is_correct": true },
+        { "text": "Hyperglycémie majeure", "is_correct": false },
+        { "text": "Réaction allergique cutanée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle classification est utilisée pour évaluer la gravité des lésions rénales traumatiques au scanner ?",
+      "difficulty": "Moyen",
+      "explanation": "La classification de l'American Association for the Surgery of Trauma (AAST) grade les lésions rénales traumatiques de I à V selon leur gravité, allant de la contusion simple à l'avulsion du pédicule rénal.",
+      "answers": [
+        { "text": "Classification de Bosniak", "is_correct": false },
+        { "text": "Classification AAST", "is_correct": true },
+        { "text": "Classification de Child-Pugh", "is_correct": false },
+        { "text": "Score de Gleason", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe radiologique classique de la hernie discale postérolatérale en IRM lombaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La hernie discale postérolatérale se manifeste par une protrusion du matériel discal dans le canal rachidien avec compression de la racine nerveuse correspondante, souvent associée à un hypersignal de la racine en séquence T2.",
+      "answers": [
+        { "text": "Élargissement du canal rachidien", "is_correct": false },
+        {
+          "text": "Protrusion discale avec compression radiculaire",
+          "is_correct": true
+        },
+        { "text": "Fracture vertébrale", "is_correct": false },
+        { "text": "Spondylolisthésis", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'hystérosalpingographie ?",
+      "difficulty": "Facile",
+      "explanation": "L'hystérosalpingographie est principalement utilisée dans le bilan d'infertilité pour évaluer la perméabilité tubaire et la morphologie de la cavité utérine.",
+      "answers": [
+        { "text": "Diagnostic de cancer de l'ovaire", "is_correct": false },
+        { "text": "Bilan d'infertilité", "is_correct": true },
+        { "text": "Dépistage de grossesse extra-utérine", "is_correct": false },
+        { "text": "Évaluation de l'endométriose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal avantage de l'IRM DIFFUSION dans l'évaluation des AVC ischémiques ?",
+      "difficulty": "Moyen",
+      "explanation": "La séquence de diffusion IRM permet la détection ultra-précoce de l'ischémie cérébrale dès les premières minutes (avant que les signes ne soient visibles en scanner ou séquences conventionnelles), en détectant l'œdème cytotoxique.",
+      "answers": [
+        { "text": "Meilleure résolution anatomique", "is_correct": false },
+        { "text": "Détection ultra-précoce de l'ischémie", "is_correct": true },
+        { "text": "Visualisation des vaisseaux", "is_correct": false },
+        { "text": "Absence de contre-indication", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la dose efficace moyenne d'une TDM abdomino-pelvienne avec injection ?",
+      "difficulty": "Difficile",
+      "explanation": "La dose efficace moyenne d'une TDM abdomino-pelvienne est d'environ 10-15 mSv, ce qui équivaut à environ 5 ans d'irradiation naturelle. Cette dose doit être prise en compte dans la justification de l'examen.",
+      "answers": [
+        { "text": "0,1-0,5 mSv", "is_correct": false },
+        { "text": "1-3 mSv", "is_correct": false },
+        { "text": "10-15 mSv", "is_correct": true },
+        { "text": "50-100 mSv", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe radiologique classique de l'invagination intestinale aiguë chez l'enfant à l'échographie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'invagination intestinale se manifeste à l'échographie par le signe de la 'cocarde' ou 'target sign' en coupe transversale, correspondant à l'intestin invaginé dans sa gaine.",
+      "answers": [
+        { "text": "Pneumopéritoine", "is_correct": false },
+        { "text": "Signe de la cocarde", "is_correct": true },
+        { "text": "Signe du croissant", "is_correct": false },
+        { "text": "Signe du double trait", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de l'élastographie hépatique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'élastographie (FibroScan) permet d'évaluer de manière non invasive le degré de fibrose hépatique chez les patients atteints de maladies chroniques du foie, évitant souvent la biopsie hépatique.",
+      "answers": [
+        { "text": "Diagnostic de cancer hépatique", "is_correct": false },
+        { "text": "Évaluation de la fibrose hépatique", "is_correct": true },
+        { "text": "Mesure du débit portal", "is_correct": false },
+        { "text": "Détection de calculs biliaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le score utilisé pour évaluer les lésions kystiques du pancréas au scanner ?",
+      "difficulty": "Difficile",
+      "explanation": "Il n'existe pas de score unique pour les lésions kystiques pancréatiques, mais la classification de Fukuoka (2012) est utilisée pour stratifier le risque de dégénérescence maligne des TIPMP (Tumeurs Intracanalaires Papillaires et Mucineuses du Pancréas).",
+      "answers": [
+        { "text": "Score de Ranson", "is_correct": false },
+        { "text": "Classification de Fukuoka", "is_correct": true },
+        { "text": "Score de Balthazar", "is_correct": false },
+        { "text": "Classification de Child-Pugh", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle technique d'imagerie permet de visualiser les fistules périanales de manière optimale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'IRM pelvienne avec antenne de surface est l'examen de référence pour cartographier les trajets fistuleux périanaux et planifier la chirurgie, notamment chez les patients atteints de maladie de Crohn.",
+      "answers": [
+        { "text": "Radiographie standard", "is_correct": false },
+        { "text": "IRM pelvienne", "is_correct": true },
+        { "text": "Scanner abdominal", "is_correct": false },
+        { "text": "Coloscanner", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal signe radiologique d'une rupture de la coiffe des rotateurs à l'IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "La rupture de la coiffe des rotateurs se manifeste par une discontinuité des fibres tendineuses avec souvent un hypersignal T2 traduisant l'infiltration liquidienne ou la rétraction musculaire (signe de tangente).",
+      "answers": [
+        { "text": "Épanchement articulaire isolé", "is_correct": false },
+        {
+          "text": "Discontinuité tendineuse avec hypersignal T2",
+          "is_correct": true
+        },
+        { "text": "Fracture de la tête humérale", "is_correct": false },
+        { "text": "Calcifications intra-articulaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classification utilisée pour évaluer les lésions hépatiques focales au scanner triphasique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le LI-RADS (Liver Imaging Reporting and Data System) est un système de classification standardisé pour caractériser les lésions hépatiques focales chez les patients à risque de carcinome hépatocellulaire.",
+      "answers": [
+        { "text": "BI-RADS", "is_correct": false },
+        { "text": "LI-RADS", "is_correct": true },
+        { "text": "PI-RADS", "is_correct": false },
+        { "text": "TI-RADS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal avantage de l'ANGIO-IRM par temps de vol (TOF) sans injection ?",
+      "difficulty": "Difficile",
+      "explanation": "L'angio-IRM TOF permet de visualiser les vaisseaux artériels sans injection de produit de contraste en exploitant le phénomène d'entrée de spins frais, utile chez les patients insuffisants rénaux ou allergiques.",
+      "answers": [
+        { "text": "Meilleure résolution temporelle", "is_correct": false },
+        { "text": "Absence de produit de contraste", "is_correct": true },
+        { "text": "Coût réduit", "is_correct": false },
+        { "text": "Durée d'examen plus courte", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe radiologique classique de la torsion du cordon spermatique à l'échographie-Doppler ?",
+      "difficulty": "Moyen",
+      "explanation": "La torsion testiculaire se manifeste par une absence de flux vasculaire au Doppler couleur dans le testicule atteint, associée à un aspect hétérogène du parenchyme et à un épaississement des enveloppes.",
+      "answers": [
+        { "text": "Augmentation du flux vasculaire", "is_correct": false },
+        {
+          "text": "Absence de flux vasculaire testiculaire",
+          "is_correct": true
+        },
+        { "text": "Présence d'hydrocèle", "is_correct": false },
+        { "text": "Calcifications testiculaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle séquence IRM permet de supprimer le signal de la graisse de manière homogène ?",
+      "difficulty": "Moyen",
+      "explanation": "La séquence STIR (Short TI Inversion Recovery) supprime le signal de la graisse de façon homogène, contrairement à la saturation de graisse qui peut être inhomogène en cas de variation du champ magnétique.",
+      "answers": [
+        { "text": "T1 sans injection", "is_correct": false },
+        { "text": "STIR", "is_correct": true },
+        { "text": "T2 standard", "is_correct": false },
+        { "text": "Diffusion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal risque de l'artériographie diagnostique par voie fémorale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le principal risque de l'artériographie fémorale est la formation d'un hématome au point de ponction, pouvant évoluer vers un faux anévrisme ou une dissection artérielle locale. Les complications thromboemboliques sont également possibles.",
+      "answers": [
+        { "text": "Insuffisance rénale aiguë", "is_correct": false },
+        { "text": "Hématome et faux anévrisme", "is_correct": true },
+        { "text": "Réaction allergique systémique", "is_correct": false },
+        { "text": "Pneumothorax", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale de la scintigraphie osseuse au technétium-99m ?",
+      "difficulty": "Facile",
+      "explanation": "La scintigraphie osseuse est particulièrement sensible pour détecter les métastases osseuses, les foyers d'ostéomyélite ou les fractures de stress, en visualisant le remodelage osseux actif.",
+      "answers": [
+        { "text": "Diagnostic de fracture récente", "is_correct": false },
+        { "text": "Détection de métastases osseuses", "is_correct": true },
+        { "text": "Évaluation de l'arthrose", "is_correct": false },
+        { "text": "Mesure de la densité osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe radiologique pathognomonique de la maladie de Paget osseuse ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Paget se caractérise radiologiquement par un épaississement et une déformation de la corticale osseuse avec aspect trabéculaire anarchique, déformations osseuses, et parfois le signe du 'chapeau de gendarme' au crâne.",
+      "answers": [
+        { "text": "Ostéoporose diffuse", "is_correct": false },
+        {
+          "text": "Épaississement cortical et trabéculation anarchique",
+          "is_correct": true
+        },
+        { "text": "Lésion ostéolytique unique", "is_correct": false },
+        { "text": "Fracture pathologique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle technique permet la meilleure visualisation des ligaments du genou en IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "Les séquences pondérées en densité de protons (DP) avec saturation de graisse offrent le meilleur contraste pour visualiser les ligaments croisés et collatéraux du genou, ainsi que les ménisques.",
+      "answers": [
+        { "text": "T1 sans saturation de graisse", "is_correct": false },
+        {
+          "text": "Densité de protons avec saturation de graisse",
+          "is_correct": true
+        },
+        { "text": "T2 FLAIR", "is_correct": false },
+        { "text": "Diffusion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal critère radiologique de malignité d'un nodule thyroïdien à l'échographie ?",
+      "difficulty": "Moyen",
+      "explanation": "Les critères de malignité à l'échographie selon la classification EU-TIRADS incluent l'hypoéchogénicité marquée, les contours irréguliers, les microcalcifications, et une forme plus haute que large.",
+      "answers": [
+        { "text": "Contours réguliers bien limités", "is_correct": false },
+        {
+          "text": "Microcalcifications et contours irréguliers",
+          "is_correct": true
+        },
+        { "text": "Hyperéchogénicité homogène", "is_correct": false },
+        { "text": "Absence de vascularisation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'indication principale du TRANSIT ŒSOGASTRODUODÉNAL (TOGD) ?",
+      "difficulty": "Facile",
+      "explanation": "Le TOGD à la baryte ou au produit de contraste hydrosoluble permet d'évaluer les troubles de la déglutition, de détecter des sténoses, des fistules ou des perforations œsophagiennes et gastriques.",
+      "answers": [
+        { "text": "Diagnostic d'hépatite", "is_correct": false },
+        {
+          "text": "Évaluation des troubles de la déglutition",
+          "is_correct": true
+        },
+        { "text": "Dépistage du cancer du côlon", "is_correct": false },
+        { "text": "Bilan de lithiase biliaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe radiologique classique de l'œdème cérébral cytotoxique en IRM diffusion ?",
+      "difficulty": "Difficile",
+      "explanation": "L'œdème cytotoxique (comme dans l'AVC ischémique aigu) se manifeste par une restriction de la diffusion : hypersignal en diffusion (DWI) avec hyposignal sur la cartographie ADC, traduisant la diminution de la diffusion des molécules d'eau.",
+      "answers": [
+        {
+          "text": "Hyposignal en diffusion et hypersignal ADC",
+          "is_correct": false
+        },
+        {
+          "text": "Hypersignal en diffusion et hyposignal ADC",
+          "is_correct": true
+        },
+        { "text": "Isosignal en diffusion et ADC", "is_correct": false },
+        { "text": "Absence de signal en diffusion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classification utilisée pour évaluer les nodules pulmonaires suspects au scanner thoracique ?",
+      "difficulty": "Moyen",
+      "explanation": "La classification de Fleischner Society fournit des recommandations de surveillance des nodules pulmonaires selon leur taille, leur nombre, leur aspect et les facteurs de risque du patient.",
+      "answers": [
+        { "text": "Classification de Bosniak", "is_correct": false },
+        { "text": "Classification de Fleischner", "is_correct": true },
+        { "text": "Score de Ranson", "is_correct": false },
+        { "text": "Classification AAST", "is_correct": false }
       ]
     }
   ]

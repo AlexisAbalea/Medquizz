@@ -6,10 +6,16 @@
       "difficulty": "Moyen",
       "explanation": "Un souffle systolique est un bruit anormal entendu pendant la contraction du cœur (systole). Il peut indiquer une sténose ou une régurgitation valvulaire.",
       "answers": [
-        {"text": "Un bruit pendant la contraction du cœur", "is_correct": true},
-        {"text": "Un bruit pendant le remplissage du cœur", "is_correct": false},
-        {"text": "Un bruit continu", "is_correct": false},
-        {"text": "Un silence anormal", "is_correct": false}
+        {
+          "text": "Un bruit pendant la contraction du cœur",
+          "is_correct": true
+        },
+        {
+          "text": "Un bruit pendant le remplissage du cœur",
+          "is_correct": false
+        },
+        { "text": "Un bruit continu", "is_correct": false },
+        { "text": "Un silence anormal", "is_correct": false }
       ]
     },
     {
@@ -17,10 +23,4613 @@
       "difficulty": "Difficile",
       "explanation": "Un signe de Babinski positif (extension du gros orteil et écartement des autres orteils lors de la stimulation plantaire) indique une atteinte du faisceau pyramidal.",
       "answers": [
-        {"text": "Une atteinte du système nerveux périphérique", "is_correct": false},
-        {"text": "Une atteinte du faisceau pyramidal", "is_correct": true},
-        {"text": "Un réflexe normal chez l'adulte", "is_correct": false},
-        {"text": "Une paralysie faciale", "is_correct": false}
+        {
+          "text": "Une atteinte du système nerveux périphérique",
+          "is_correct": false
+        },
+        { "text": "Une atteinte du faisceau pyramidal", "is_correct": true },
+        { "text": "Un réflexe normal chez l'adulte", "is_correct": false },
+        { "text": "Une paralysie faciale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une méningite bactérienne ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une méningite bactérienne est la triade : fièvre, céphalées et raideur de la nuque. Ces symptômes reflètent l'inflammation des méninges et l'irritation des racines nerveuses.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Fièvre, céphalées, raideur de la nuque",
+          "is_correct": true
+        },
+        {
+          "text": "Toux productive",
+          "is_correct": false
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique caractéristique d'une crise d'épilepsie généralisée tonico-clonique ?",
+      "difficulty": "Facile",
+      "explanation": "La crise d'épilepsie généralisée tonico-clonique se manifeste par une perte de connaissance brutale, des convulsions tonico-cloniques, une morsure de langue et une incontinence urinaire.",
+      "answers": [
+        {
+          "text": "Paralysie faciale",
+          "is_correct": false
+        },
+        {
+          "text": "Perte de connaissance, convulsions tonico-cloniques, morsure de langue",
+          "is_correct": true
+        },
+        {
+          "text": "Vertiges",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées pulsatiles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'un accident vasculaire cérébral (AVC) ischémique ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'un AVC ischémique est un déficit neurologique focal d'installation brutale, comme une hémiparésie, une aphasie ou une hémiplégie.",
+      "answers": [
+        {
+          "text": "Douleurs thoraciques",
+          "is_correct": false
+        },
+        {
+          "text": "Déficit neurologique focal brutal",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Tachycardie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une insuffisance cardiaque gauche ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une insuffisance cardiaque gauche est la dyspnée, souvent associée à des râles crépitants bilatéraux à l'auscultation pulmonaire, traduisant un œdème pulmonaire.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Dyspnée et râles crépitants",
+          "is_correct": true
+        },
+        {
+          "text": "Ictère",
+          "is_correct": false
+        },
+        {
+          "text": "Hypotension",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une péritonite ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une péritonite est une douleur abdominale intense, généralisée, avec une défense ou une contracture abdominale, et une sensibilité au rebond.",
+      "answers": [
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur abdominale intense, défense, sensibilité au rebond",
+          "is_correct": true
+        },
+        {
+          "text": "Nausées",
+          "is_correct": false
+        },
+        {
+          "text": "Fièvre isolée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une appendicite aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une appendicite aiguë est une douleur abdominale en fosse iliaque droite, associée à une défense locale, une fièvre modérée et parfois des nausées.",
+      "answers": [
+        {
+          "text": "Douleur épigastrique",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur en fosse iliaque droite, défense locale, fièvre",
+          "is_correct": true
+        },
+        {
+          "text": "Diarrhée sanglante",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une insuffisance rénale aiguë ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une insuffisance rénale aiguë est une oligurie ou une anurie, associée à une élévation de la créatinine sérique et parfois des œdèmes.",
+      "answers": [
+        {
+          "text": "Polyurie",
+          "is_correct": false
+        },
+        {
+          "text": "Oligurie/anurie, élévation de la créatinine",
+          "is_correct": true
+        },
+        {
+          "text": "Hypotension",
+          "is_correct": false
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une cirrhose hépatique ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une cirrhose hépatique est l'association d'un ictère, d'une ascite, d'une hépatomégalie et de signes d'hypertension portale comme des varices œsophagiennes.",
+      "answers": [
+        {
+          "text": "Douleurs thoraciques",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère, ascite, hépatomégalie, varices œsophagiennes",
+          "is_correct": true
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        },
+        {
+          "text": "Tachycardie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une crise d'asthme ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une crise d'asthme est une dyspnée sifflante, associée à une toux sèche et une respiration sifflante à l'auscultation.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Dyspnée sifflante, toux sèche, respiration sifflante",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Hypotension",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une thrombose veineuse profonde ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une thrombose veineuse profonde est une douleur, un œdème et une chaleur locale du membre atteint, souvent associés à une rougeur.",
+      "answers": [
+        {
+          "text": "Douleurs thoraciques",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur, œdème, chaleur locale du membre",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Tachycardie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une pancréatite aiguë ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une pancréatite aiguë est une douleur abdominale épigastrique intense, irradiant en ceinture, associée à des nausées, des vomissements et une élévation des enzymes pancréatiques.",
+      "answers": [
+        {
+          "text": "Douleur en fosse iliaque droite",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur épigastrique intense, irradiant en ceinture, nausées, vomissements",
+          "is_correct": true
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une insuffisance hépatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une insuffisance hépatique est un ictère, associé à une encéphalopathie hépatique, une ascite et des troubles de la coagulation.",
+      "answers": [
+        {
+          "text": "Douleurs thoraciques",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère, encéphalopathie hépatique, ascite, troubles de la coagulation",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Tachycardie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une endocardite infectieuse ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une endocardite infectieuse est une fièvre prolongée, associée à un souffle cardiaque nouveau ou modifié, et des hémocultures positives.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Fièvre prolongée, souffle cardiaque, hémocultures positives",
+          "is_correct": true
+        },
+        {
+          "text": "Toux productive",
+          "is_correct": false
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une sclérose en plaques ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la sclérose en plaques est une dissémination spatio-temporelle des symptômes neurologiques, comme des troubles visuels, sensitifs ou moteurs, évoluant par poussées.",
+      "answers": [
+        {
+          "text": "Déficit neurologique fixe",
+          "is_correct": false
+        },
+        {
+          "text": "Dissémination spatio-temporelle des symptômes neurologiques",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la maladie de Parkinson est un syndrome parkinsonien : tremblement de repos, rigidité, akinésie et troubles de l'équilibre.",
+      "answers": [
+        {
+          "text": "Paralysie faciale",
+          "is_correct": false
+        },
+        {
+          "text": "Tremblement de repos, rigidité, akinésie, troubles de l'équilibre",
+          "is_correct": true
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        },
+        {
+          "text": "Vertiges",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une maladie d'Alzheimer ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la maladie d'Alzheimer est une démence progressive, avec des troubles de la mémoire, des fonctions exécutives et du comportement.",
+      "answers": [
+        {
+          "text": "Tremblements",
+          "is_correct": false
+        },
+        {
+          "text": "Troubles de la mémoire, fonctions exécutives, comportement",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une myasthénie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la myasthénie est une fatigabilité musculaire, avec une faiblesse fluctuante, souvent améliorée par le repos et aggravée par l'effort.",
+      "answers": [
+        {
+          "text": "Paralysie fixe",
+          "is_correct": false
+        },
+        {
+          "text": "Fatigabilité musculaire, faiblesse fluctuante",
+          "is_correct": true
+        },
+        {
+          "text": "Douleurs articulaires",
+          "is_correct": false
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la SLA est une faiblesse musculaire progressive, avec une atrophie et des fasciculations, touchant les membres et parfois les muscles respiratoires.",
+      "answers": [
+        {
+          "text": "Tremblements",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse musculaire progressive, atrophie, fasciculations",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une névralgie du trijumeau ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la névralgie du trijumeau est une douleur paroxystique, intense et brève, dans le territoire d'une branche du nerf trijumeau, souvent déclenchée par un stimulus.",
+      "answers": [
+        {
+          "text": "Douleur sourde et continue",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur paroxystique, intense, brève, déclenchée",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Paralysie faciale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une maladie de Ménière ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la maladie de Ménière est des crises de vertiges rotatoires, associées à une surdité fluctuante et des acouphènes.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Vertiges rotatoires, surdité fluctuante, acouphènes",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Tachycardie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une névralgie post-herpétique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal de la névralgie post-herpétique est une douleur chronique, souvent brûlante, dans le territoire cutané correspondant à un zona antérieur.",
+      "answers": [
+        {
+          "text": "Douleur paroxystique",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur chronique, brûlante, territoire cutané de zona",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Paralysie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une maladie de Creutzfeldt-Jakob ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal de la maladie de Creutzfeldt-Jakob est une démence rapidement progressive, associée à des myoclonies et des troubles de la marche.",
+      "answers": [
+        {
+          "text": "Tremblements",
+          "is_correct": false
+        },
+        {
+          "text": "Démence rapidement progressive, myoclonies, troubles de la marche",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une encéphalopathie spongiforme ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une encéphalopathie spongiforme est une démence rapidement progressive, avec des troubles moteurs et des myoclonies.",
+      "answers": [
+        {
+          "text": "Paralysie faciale",
+          "is_correct": false
+        },
+        {
+          "text": "Démence rapidement progressive, troubles moteurs, myoclonies",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une démence frontotemporale ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une démence frontotemporale est une altération précoce du comportement et du langage, avec une désinhibition et une apathie.",
+      "answers": [
+        {
+          "text": "Troubles de la mémoire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération du comportement et du langage, désinhibition, apathie",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs articulaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une démence à corps de Lewy ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une démence à corps de Lewy est une démence associée à des fluctuations cognitives, des hallucinations visuelles et des symptômes parkinsoniens.",
+      "answers": [
+        {
+          "text": "Tremblements isolés",
+          "is_correct": false
+        },
+        {
+          "text": "Démence, fluctuations cognitives, hallucinations visuelles, symptômes parkinsoniens",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une démence vasculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une démence vasculaire est une démence d'installation brutale ou par paliers, associée à des signes neurologiques focaux et des antécédents d'AVC.",
+      "answers": [
+        {
+          "text": "Démence lentement progressive",
+          "is_correct": false
+        },
+        {
+          "text": "Démence brutale ou par paliers, signes neurologiques focaux, antécédents d'AVC",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs thoraciques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une neuropathie périphérique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une neuropathie périphérique est une atteinte sensitive (paresthésies, douleurs) et/ou motrice (faiblesse musculaire), souvent distale et symétrique.",
+      "answers": [
+        {
+          "text": "Paralysie faciale",
+          "is_correct": false
+        },
+        {
+          "text": "Atteinte sensitive et/ou motrice, distale, symétrique",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une myopathie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une myopathie est une faiblesse musculaire proximale et symétrique, souvent progressive, avec une atrophie musculaire.",
+      "answers": [
+        {
+          "text": "Faiblesse distale",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse musculaire proximale, symétrique, progressive",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs articulaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal de la SLA est une faiblesse musculaire progressive, avec une atrophie et des fasciculations, touchant les membres et parfois les muscles respiratoires.",
+      "answers": [
+        {
+          "text": "Tremblements",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse musculaire progressive, atrophie, fasciculations",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une neuropathie optique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une neuropathie optique est une baisse de l'acuité visuelle, souvent associée à une douleur oculaire et une altération de la vision des couleurs.",
+      "answers": [
+        {
+          "text": "Cécité brutale",
+          "is_correct": false
+        },
+        {
+          "text": "Baisse de l'acuité visuelle, douleur oculaire, altération de la vision des couleurs",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une myasthénie en crise ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une myasthénie en crise est une faiblesse musculaire sévère, avec une atteinte des muscles respiratoires pouvant entraîner une insuffisance respiratoire.",
+      "answers": [
+        {
+          "text": "Paralysie fixe",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse musculaire sévère, atteinte respiratoire",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une sclérose en plaques en poussée ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une sclérose en plaques en poussée est l'apparition brutale ou subaiguë de symptômes neurologiques, comme une névrite optique, une paraparésie ou des troubles sensitifs.",
+      "answers": [
+        {
+          "text": "Déficit neurologique fixe",
+          "is_correct": false
+        },
+        {
+          "text": "Apparition brutale de symptômes neurologiques",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une maladie de Parkinson avancée ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une maladie de Parkinson avancée est une akinésie sévère, une rigidité, des troubles de l'équilibre et des chutes fréquentes.",
+      "answers": [
+        {
+          "text": "Tremblements isolés",
+          "is_correct": false
+        },
+        {
+          "text": "Akinésie sévère, rigidité, troubles de l'équilibre, chutes",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une maladie d'Alzheimer avancée ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'une maladie d'Alzheimer avancée est une démence sévère, avec une perte d'autonomie, des troubles du comportement et une aphasie.",
+      "answers": [
+        {
+          "text": "Tremblements",
+          "is_correct": false
+        },
+        {
+          "text": "Démence sévère, perte d'autonomie, troubles du comportement, aphasie",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une encéphalite ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une encéphalite est une altération de l'état de conscience, associée à de la fièvre, des céphalées et des signes neurologiques focaux.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Altération de l'état de conscience, fièvre, céphalées, signes neurologiques focaux",
+          "is_correct": true
+        },
+        {
+          "text": "Toux productive",
+          "is_correct": false
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une méningo-encéphalite ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une méningo-encéphalite est une association de signes méningés (raideur de la nuque, céphalées) et de signes d'atteinte du parenchyme cérébral (troubles de conscience, convulsions).",
+      "answers": [
+        {
+          "text": "Douleurs thoraciques",
+          "is_correct": false
+        },
+        {
+          "text": "Raideur de la nuque, céphalées, troubles de conscience, convulsions",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre isolée",
+          "is_correct": false
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une hémorragie méningée ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe clinique principal d'une hémorragie méningée est une céphalée brutale, intense, en 'coup de tonnerre', associée à des signes méningés et parfois des troubles de conscience.",
+      "answers": [
+        {
+          "text": "Douleurs abdominales",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalée brutale intense, signes méningés, troubles de conscience",
+          "is_correct": true
+        },
+        {
+          "text": "Toux productive",
+          "is_correct": false
+        },
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'un état de mal épileptique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe clinique principal d'un état de mal épileptique est une crise épileptique prolongée (>5 minutes) ou des crises répétées sans retour à un état de conscience normal entre elles.",
+      "answers": [
+        {
+          "text": "Crise unique de moins de 5 minutes",
+          "is_correct": false
+        },
+        {
+          "text": "Crise prolongée (>5 min) ou répétée sans reprise de conscience",
+          "is_correct": true
+        },
+        {
+          "text": "Absence de crise en 24h",
+          "is_correct": false
+        },
+        {
+          "text": "Crise partielle sans généralisation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique principal d'une crise de migraine ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe clinique principal d'une crise de migraine est une céphalée unilatérale, pulsatile, d'intensité modérée à sévère, aggravée par l'effort, associée à des nausées, des vomissements ou une photophobie.",
+      "answers": [
+        {
+          "text": "Céphalée bilatérale sourde",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalée unilatérale, pulsatile, nausées, photophobie",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Vertiges",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe de Murphy ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe de Murphy est une douleur provoquée lors de la palpation de la vésicule biliaire en inspiration profonde, évoquant une cholécystite aiguë.",
+      "answers": [
+        {
+          "text": "Douleur à la palpation vésiculaire en inspiration",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à la palpation du point de McBurney",
+          "is_correct": false
+        },
+        {
+          "text": "Raideur de la nuque",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de décompression péritonéale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Blumberg ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe de Blumberg est une douleur à la décompression brusque de l'abdomen, évoquant une irritation péritonéale.",
+      "answers": [
+        {
+          "text": "Douleur à la décompression abdominale brusque",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à la palpation profonde",
+          "is_correct": false
+        },
+        {
+          "text": "Défense abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Murphy",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Que recherche-t-on avec la manœuvre de Lasègue ?",
+      "difficulty": "Moyen",
+      "explanation": "La manœuvre de Lasègue consiste à soulever la jambe tendue du patient en décubitus dorsal. Elle est positive si elle déclenche une douleur radiculaire (sciatique) avant 60°, évoquant une compression radiculaire.",
+      "answers": [
+        {
+          "text": "Une compression radiculaire",
+          "is_correct": true
+        },
+        {
+          "text": "Une fracture de hanche",
+          "is_correct": false
+        },
+        {
+          "text": "Une thrombose veineuse",
+          "is_correct": false
+        },
+        {
+          "text": "Une déchirure musculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Kernig ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Kernig est une résistance douloureuse à l'extension du genou lorsque la hanche est fléchie à 90°. Il évoque une irritation méningée.",
+      "answers": [
+        {
+          "text": "Résistance douloureuse à l'extension du genou, hanche fléchie",
+          "is_correct": true
+        },
+        {
+          "text": "Flexion involontaire des jambes lors de la flexion du cou",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur à la palpation de la nuque",
+          "is_correct": false
+        },
+        {
+          "text": "Rigidité de la colonne vertébrale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Brudzinski ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Brudzinski est une flexion involontaire des membres inférieurs lors de la flexion passive du cou, évoquant une irritation méningée.",
+      "answers": [
+        {
+          "text": "Raideur de la nuque isolée",
+          "is_correct": false
+        },
+        {
+          "text": "Flexion involontaire des jambes lors de la flexion du cou",
+          "is_correct": true
+        },
+        {
+          "text": "Extension des orteils à la stimulation plantaire",
+          "is_correct": false
+        },
+        {
+          "text": "Résistance à l'extension du genou",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe de Homans ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Homans est une douleur au mollet provoquée par la dorsiflexion du pied. Il peut évoquer une thrombose veineuse profonde, mais manque de spécificité.",
+      "answers": [
+        {
+          "text": "Douleur au mollet à la dorsiflexion du pied",
+          "is_correct": true
+        },
+        {
+          "text": "Œdème bilatéral des membres inférieurs",
+          "is_correct": false
+        },
+        {
+          "text": "Chaleur locale du mollet",
+          "is_correct": false
+        },
+        {
+          "text": "Rougeur diffuse de la jambe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hippocratisme digital ?",
+      "difficulty": "Facile",
+      "explanation": "L'hippocratisme digital est un élargissement des extrémités digitales avec bombement unguéal, évoquant une hypoxie chronique (cardiopathie cyanogène, insuffisance respiratoire chronique, cancer bronchique).",
+      "answers": [
+        {
+          "text": "Élargissement des extrémités digitales avec bombement unguéal",
+          "is_correct": true
+        },
+        {
+          "text": "Cyanose des doigts",
+          "is_correct": false
+        },
+        {
+          "text": "Tremblements des mains",
+          "is_correct": false
+        },
+        {
+          "text": "Œdème des doigts",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Trousseau ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Trousseau est un spasme carpien (main d'accoucheur) provoqué par l'ischémie lors du gonflage d'un brassard au-dessus de la pression artérielle systolique pendant 3 minutes. Il évoque une hypocalcémie.",
+      "answers": [
+        {
+          "text": "Spasme carpien provoqué par l'ischémie, évoquant une hypocalcémie",
+          "is_correct": true
+        },
+        {
+          "text": "Fasciculations musculaires à la percussion du nerf facial",
+          "is_correct": false
+        },
+        {
+          "text": "Tremblements au repos",
+          "is_correct": false
+        },
+        {
+          "text": "Œdème des membres supérieurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Chvostek ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Chvostek est une contraction des muscles faciaux lors de la percussion du nerf facial en avant de l'oreille. Il évoque une hypocalcémie.",
+      "answers": [
+        {
+          "text": "Contraction faciale à la percussion du nerf facial, évoquant une hypocalcémie",
+          "is_correct": true
+        },
+        {
+          "text": "Paralysie faciale périphérique",
+          "is_correct": false
+        },
+        {
+          "text": "Spasme carpien à l'ischémie",
+          "is_correct": false
+        },
+        {
+          "text": "Tremblements faciaux au repos",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Rovsing ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Rovsing est une douleur en fosse iliaque droite provoquée par la palpation de la fosse iliaque gauche. Il évoque une appendicite aiguë.",
+      "answers": [
+        {
+          "text": "Douleur en FID provoquée par palpation de la FIG",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à la décompression abdominale",
+          "is_correct": false
+        },
+        {
+          "text": "Défense localisée en FID",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Murphy positif",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la triade de Charcot dans la cholangite ?",
+      "difficulty": "Moyen",
+      "explanation": "La triade de Charcot associe fièvre, ictère et douleur de l'hypochondre droit, évoquant une cholangite aiguë.",
+      "answers": [
+        {
+          "text": "Fièvre, ictère, douleur hypochondre droit",
+          "is_correct": true
+        },
+        {
+          "text": "Fièvre, céphalées, raideur de nuque",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur, défense, fièvre",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère, ascite, hépatomégalie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Claude Bernard-Horner ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Claude Bernard-Horner associe ptosis, myosis et énophtalmie du même côté, dû à une atteinte du système sympathique cervical (tumeur de Pancoast, dissection carotidienne, etc.).",
+      "answers": [
+        {
+          "text": "Ptosis, myosis, énophtalmie homolatéraux",
+          "is_correct": true
+        },
+        {
+          "text": "Mydriase, exophtalmie, paralysie faciale",
+          "is_correct": false
+        },
+        {
+          "text": "Diplopie, ptosis, strabisme",
+          "is_correct": false
+        },
+        {
+          "text": "Anisocorie, nystagmus, vertiges",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Lhermitte ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Lhermitte est une sensation de décharge électrique le long de la colonne vertébrale lors de la flexion du cou, évoquant une atteinte médullaire (sclérose en plaques, compression médullaire).",
+      "answers": [
+        {
+          "text": "Décharge électrique rachidienne à la flexion du cou",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur radiculaire à l'élévation de la jambe",
+          "is_correct": false
+        },
+        {
+          "text": "Raideur de la nuque",
+          "is_correct": false
+        },
+        {
+          "text": "Fasciculations musculaires cervicales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Romberg ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Romberg est une instabilité à la station debout pieds joints, aggravée par la fermeture des yeux. Il évoque une atteinte de la proprioception (ataxie sensitive).",
+      "answers": [
+        {
+          "text": "Instabilité debout pieds joints, aggravée yeux fermés",
+          "is_correct": true
+        },
+        {
+          "text": "Tremblements au repos",
+          "is_correct": false
+        },
+        {
+          "text": "Démarche ébrieuse",
+          "is_correct": false
+        },
+        {
+          "text": "Chutes fréquentes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de la roue dentée ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de la roue dentée est une résistance par à-coups lors de la mobilisation passive d'un membre, caractéristique d'un syndrome parkinsonien.",
+      "answers": [
+        {
+          "text": "Résistance par à-coups à la mobilisation passive",
+          "is_correct": true
+        },
+        {
+          "text": "Spasticité avec réflexe de préhension",
+          "is_correct": false
+        },
+        {
+          "text": "Hypotonie musculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Mouvements choréiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une dysarthrie ?",
+      "difficulty": "Facile",
+      "explanation": "La dysarthrie est un trouble de l'articulation de la parole par atteinte des muscles ou des nerfs impliqués, sans altération du langage lui-même.",
+      "answers": [
+        {
+          "text": "Trouble de l'articulation de la parole",
+          "is_correct": true
+        },
+        {
+          "text": "Trouble de la compréhension du langage",
+          "is_correct": false
+        },
+        {
+          "text": "Perte totale de la parole",
+          "is_correct": false
+        },
+        {
+          "text": "Trouble de l'expression écrite",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une aphasie de Broca ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aphasie de Broca est une aphasie non fluente avec réduction de l'expression orale, mais compréhension préservée. Elle résulte d'une lésion du lobe frontal inférieur gauche.",
+      "answers": [
+        {
+          "text": "Aphasie non fluente, expression réduite, compréhension préservée",
+          "is_correct": true
+        },
+        {
+          "text": "Aphasie fluente, compréhension altérée",
+          "is_correct": false
+        },
+        {
+          "text": "Trouble de l'articulation seul",
+          "is_correct": false
+        },
+        {
+          "text": "Perte totale du langage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une aphasie de Wernicke ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aphasie de Wernicke est une aphasie fluente avec trouble de la compréhension et jargonophasie. Elle résulte d'une lésion du lobe temporal supérieur gauche.",
+      "answers": [
+        {
+          "text": "Aphasie fluente, compréhension altérée, jargonophasie",
+          "is_correct": true
+        },
+        {
+          "text": "Aphasie non fluente, expression réduite",
+          "is_correct": false
+        },
+        {
+          "text": "Dysarthrie pure",
+          "is_correct": false
+        },
+        {
+          "text": "Mutisme complet",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une hémianopsie latérale homonyme ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hémianopsie latérale homonyme est une perte du champ visuel du même côté pour les deux yeux (droit ou gauche), évoquant une atteinte rétrochiasmatique controlatérale.",
+      "answers": [
+        {
+          "text": "Perte du même hémi-champ visuel des deux yeux",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de la vision d'un seul œil",
+          "is_correct": false
+        },
+        {
+          "text": "Perte des champs temporaux des deux yeux",
+          "is_correct": false
+        },
+        {
+          "text": "Vision en tunnel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une hémianopsie bitemporale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hémianopsie bitemporale est une perte des deux hémi-champs temporaux, évoquant une compression chiasmatique (adénome hypophysaire).",
+      "answers": [
+        {
+          "text": "Perte des deux hémi-champs temporaux",
+          "is_correct": true
+        },
+        {
+          "text": "Perte du même hémi-champ des deux yeux",
+          "is_correct": false
+        },
+        {
+          "text": "Vision en tunnel bilatérale",
+          "is_correct": false
+        },
+        {
+          "text": "Cécité monoculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un scotome central ?",
+      "difficulty": "Facile",
+      "explanation": "Un scotome central est une tache sombre dans le champ visuel central, évoquant une atteinte maculaire ou du nerf optique.",
+      "answers": [
+        {
+          "text": "Tache sombre dans le champ visuel central",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de la vision périphérique",
+          "is_correct": false
+        },
+        {
+          "text": "Vision double",
+          "is_correct": false
+        },
+        {
+          "text": "Perte complète de la vision",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une mydriase aréflexique unilatérale ?",
+      "difficulty": "Moyen",
+      "explanation": "Une mydriase aréflexique unilatérale est une dilatation pupillaire sans réflexe photomoteur, pouvant évoquer une compression du nerf oculomoteur (III) par engagement temporal.",
+      "answers": [
+        {
+          "text": "Dilatation pupillaire unilatérale sans réflexe photomoteur",
+          "is_correct": true
+        },
+        {
+          "text": "Myosis bilatéral",
+          "is_correct": false
+        },
+        {
+          "text": "Anisocorie physiologique",
+          "is_correct": false
+        },
+        {
+          "text": "Réflexe photomoteur vif",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un œdème papillaire (stase papillaire) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'œdème papillaire est un gonflement de la papille optique au fond d'œil, évoquant une hypertension intracrânienne.",
+      "answers": [
+        {
+          "text": "Gonflement de la papille optique, évoquant une HTIC",
+          "is_correct": true
+        },
+        {
+          "text": "Pâleur de la papille",
+          "is_correct": false
+        },
+        {
+          "text": "Hémorragies rétiniennes en flammèches",
+          "is_correct": false
+        },
+        {
+          "text": "Excavation papillaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le réflexe cornéen ?",
+      "difficulty": "Facile",
+      "explanation": "Le réflexe cornéen est un clignement bilatéral des paupières lors du contact avec la cornée. Il explore le nerf trijumeau (V) en afférence et le nerf facial (VII) en efférence.",
+      "answers": [
+        {
+          "text": "Clignement bilatéral au contact cornéen (V afférent, VII efférent)",
+          "is_correct": true
+        },
+        {
+          "text": "Constriction pupillaire à la lumière",
+          "is_correct": false
+        },
+        {
+          "text": "Mouvement oculaire réflexe",
+          "is_correct": false
+        },
+        {
+          "text": "Larmoiement réflexe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une paralysie du nerf facial périphérique ?",
+      "difficulty": "Facile",
+      "explanation": "La paralysie faciale périphérique (atteinte du VII) touche l'ensemble de l'hémiface avec impossibilité de fermer l'œil, de froncer le front, et déviation de la bouche.",
+      "answers": [
+        {
+          "text": "Paralysie de toute l'hémiface incluant le front",
+          "is_correct": true
+        },
+        {
+          "text": "Paralysie de l'hémiface inférieure seulement",
+          "is_correct": false
+        },
+        {
+          "text": "Ptosis et myosis",
+          "is_correct": false
+        },
+        {
+          "text": "Déviation de la langue",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une paralysie faciale centrale ?",
+      "difficulty": "Moyen",
+      "explanation": "La paralysie faciale centrale (atteinte du faisceau pyramidal) touche uniquement l'hémiface inférieure controlatérale, avec préservation du front.",
+      "answers": [
+        {
+          "text": "Paralysie de l'hémiface inférieure, front préservé",
+          "is_correct": true
+        },
+        {
+          "text": "Paralysie de toute l'hémiface",
+          "is_correct": false
+        },
+        {
+          "text": "Impossibilité de fermer l'œil",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome de Claude Bernard-Horner",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une diplopie ?",
+      "difficulty": "Facile",
+      "explanation": "La diplopie est une vision double résultant d'un défaut de parallélisme des axes visuels, souvent par atteinte d'un nerf oculomoteur (III, IV ou VI).",
+      "answers": [
+        {
+          "text": "Vision double",
+          "is_correct": true
+        },
+        {
+          "text": "Vision floue",
+          "is_correct": false
+        },
+        {
+          "text": "Perte du champ visuel",
+          "is_correct": false
+        },
+        {
+          "text": "Hallucinations visuelles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Hoffmann ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Hoffmann est une flexion du pouce et de l'index lors de la percussion de l'ongle du majeur, évoquant un syndrome pyramidal aux membres supérieurs.",
+      "answers": [
+        {
+          "text": "Flexion du pouce à la percussion de l'ongle du majeur",
+          "is_correct": true
+        },
+        {
+          "text": "Extension des orteils à la stimulation plantaire",
+          "is_correct": false
+        },
+        {
+          "text": "Contraction faciale à la percussion du nerf",
+          "is_correct": false
+        },
+        {
+          "text": "Spasme carpien provoqué",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une hypoesthésie en chaussette ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypoesthésie en chaussette est une diminution de la sensibilité distale symétrique des membres inférieurs, évoquant une neuropathie périphérique.",
+      "answers": [
+        {
+          "text": "Diminution de la sensibilité distale symétrique des membres inférieurs",
+          "is_correct": true
+        },
+        {
+          "text": "Hypoesthésie d'un dermatome radiculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Hypoesthésie hémi-corporelle",
+          "is_correct": false
+        },
+        {
+          "text": "Perte de sensibilité thermique isolée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un niveau sensitif ?",
+      "difficulty": "Moyen",
+      "explanation": "Un niveau sensitif est une limite horizontale au-dessous de laquelle la sensibilité est altérée, évoquant une atteinte médullaire.",
+      "answers": [
+        {
+          "text": "Limite horizontale en-dessous de laquelle la sensibilité est altérée",
+          "is_correct": true
+        },
+        {
+          "text": "Hypoesthésie en gant",
+          "is_correct": false
+        },
+        {
+          "text": "Hypoesthésie radiculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Anesthésie faciale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une hypoesthésie suspendue ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hypoesthésie suspendue est une perte de sensibilité thermo-algique respectant la sensibilité proprioceptive et tactile, typique d'une atteinte centro-médullaire (syringomyélie).",
+      "answers": [
+        {
+          "text": "Perte thermo-algique avec préservation proprioceptive",
+          "is_correct": true
+        },
+        {
+          "text": "Niveau sensitif complet",
+          "is_correct": false
+        },
+        {
+          "text": "Hypoesthésie en chaussette",
+          "is_correct": false
+        },
+        {
+          "text": "Anesthésie hémi-corporelle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une ataxie cérébelleuse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ataxie cérébelleuse se caractérise par une démarche ébrieuse, une dyschronométrie, un tremblement intentionnel et une hypermétrie, sans aggravation à la fermeture des yeux.",
+      "answers": [
+        {
+          "text": "Démarche ébrieuse, tremblement intentionnel, sans aggravation yeux fermés",
+          "is_correct": true
+        },
+        {
+          "text": "Instabilité aggravée yeux fermés",
+          "is_correct": false
+        },
+        {
+          "text": "Rigidité et akinésie",
+          "is_correct": false
+        },
+        {
+          "text": "Mouvements choréiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une dyskinésie ?",
+      "difficulty": "Facile",
+      "explanation": "Une dyskinésie est un mouvement involontaire anormal (choré, athétose, ballisme, dystonie, tics), résultant d'une atteinte des ganglions de la base.",
+      "answers": [
+        {
+          "text": "Mouvement involontaire anormal",
+          "is_correct": true
+        },
+        {
+          "text": "Trouble de la coordination",
+          "is_correct": false
+        },
+        {
+          "text": "Rigidité musculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse musculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un astérixis (flapping tremor) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'astérixis est un tremblement négatif consistant en de brefs relâchements du tonus musculaire lors du maintien d'une posture (mains tendues), évoquant une encéphalopathie métabolique (hépatique, urémique).",
+      "answers": [
+        {
+          "text": "Tremblement négatif des mains tendues, évoquant une encéphalopathie",
+          "is_correct": true
+        },
+        {
+          "text": "Tremblement de repos",
+          "is_correct": false
+        },
+        {
+          "text": "Tremblement intentionnel",
+          "is_correct": false
+        },
+        {
+          "text": "Fasciculations musculaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une anosognosie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anosognosie est un défaut de conscience ou de reconnaissance d'un déficit neurologique, fréquent dans les lésions de l'hémisphère droit (héminégligence).",
+      "answers": [
+        {
+          "text": "Absence de conscience d'un déficit neurologique",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de mémoire des mots",
+          "is_correct": false
+        },
+        {
+          "text": "Trouble de l'orientation",
+          "is_correct": false
+        },
+        {
+          "text": "Hallucinations",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une héminégligence ?",
+      "difficulty": "Moyen",
+      "explanation": "L'héminégligence est une négligence de l'hémi-espace ou de l'hémi-corps controlatéral à une lésion pariétale droite, souvent associée à une anosognosie.",
+      "answers": [
+        {
+          "text": "Négligence de l'hémi-espace ou hémi-corps controlatéral",
+          "is_correct": true
+        },
+        {
+          "text": "Hémianopsie latérale homonyme",
+          "is_correct": false
+        },
+        {
+          "text": "Hémiplégie pure",
+          "is_correct": false
+        },
+        {
+          "text": "Aphasie de Broca",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un syndrome frontal ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome frontal associe des troubles du comportement (désinhibition ou apathie), des troubles exécutifs, une perte d'initiative et parfois un grasping ou une persévération.",
+      "answers": [
+        {
+          "text": "Troubles du comportement, troubles exécutifs, perte d'initiative",
+          "is_correct": true
+        },
+        {
+          "text": "Troubles de la mémoire épisodique",
+          "is_correct": false
+        },
+        {
+          "text": "Aphasie et agnosie",
+          "is_correct": false
+        },
+        {
+          "text": "Héminégligence",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une apraxie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'apraxie est une incapacité à réaliser des gestes volontaires ou symboliques en l'absence de déficit moteur, sensitif ou de trouble de la compréhension.",
+      "answers": [
+        {
+          "text": "Incapacité à réaliser des gestes volontaires sans déficit moteur",
+          "is_correct": true
+        },
+        {
+          "text": "Trouble de l'articulation de la parole",
+          "is_correct": false
+        },
+        {
+          "text": "Incapacité à reconnaître les objets",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse musculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une agnosie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'agnosie est une incapacité à reconnaître des stimuli (visuels, auditifs, tactiles) en l'absence de déficit sensoriel primaire.",
+      "answers": [
+        {
+          "text": "Incapacité à reconnaître des stimuli sans déficit sensoriel",
+          "is_correct": true
+        },
+        {
+          "text": "Incapacité à réaliser des gestes",
+          "is_correct": false
+        },
+        {
+          "text": "Trouble de la mémoire",
+          "is_correct": false
+        },
+        {
+          "text": "Perte de vision",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une acalculie ?",
+      "difficulty": "Facile",
+      "explanation": "L'acalculie est une incapacité à effectuer des calculs simples, souvent associée à un syndrome de Gerstmann (lésion du gyrus angulaire gauche).",
+      "answers": [
+        {
+          "text": "Incapacité à effectuer des calculs",
+          "is_correct": true
+        },
+        {
+          "text": "Incapacité à écrire",
+          "is_correct": false
+        },
+        {
+          "text": "Incapacité à lire",
+          "is_correct": false
+        },
+        {
+          "text": "Troubles de la parole",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Gerstmann ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Gerstmann associe acalculie, agraphie, confusion droite-gauche et agnosie digitale. Il évoque une lésion du gyrus angulaire gauche.",
+      "answers": [
+        {
+          "text": "Acalculie, agraphie, confusion droite-gauche, agnosie digitale",
+          "is_correct": true
+        },
+        {
+          "text": "Ptosis, myosis, énophtalmie",
+          "is_correct": false
+        },
+        {
+          "text": "Aphasie, apraxie, agnosie",
+          "is_correct": false
+        },
+        {
+          "text": "Démence, myoclonies, troubles de la marche",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un syndrome confusionnel ?",
+      "difficulty": "Facile",
+      "explanation": "Le syndrome confusionnel est un trouble aigu de la conscience avec désorientation temporo-spatiale, troubles de l'attention et fluctuations de la vigilance.",
+      "answers": [
+        {
+          "text": "Trouble aigu de la conscience avec désorientation et troubles attentionnels",
+          "is_correct": true
+        },
+        {
+          "text": "Démence progressive",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome dépressif",
+          "is_correct": false
+        },
+        {
+          "text": "État de coma",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'échelle de Glasgow ?",
+      "difficulty": "Facile",
+      "explanation": "L'échelle de Glasgow évalue le niveau de conscience sur 15 points en cotant l'ouverture des yeux (4), la réponse verbale (5) et la réponse motrice (6).",
+      "answers": [
+        {
+          "text": "Évaluation de la conscience: ouverture des yeux, réponse verbale, réponse motrice",
+          "is_correct": true
+        },
+        {
+          "text": "Évaluation de la douleur sur 10",
+          "is_correct": false
+        },
+        {
+          "text": "Score de gravité d'un AVC",
+          "is_correct": false
+        },
+        {
+          "text": "Échelle de dépression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un myosis bilatéral serré ?",
+      "difficulty": "Moyen",
+      "explanation": "Un myosis bilatéral serré (pupilles en pointe d'épingle) évoque une intoxication aux opiacés, une lésion protubérantielle, ou un traitement par collyres myotiques.",
+      "answers": [
+        {
+          "text": "Pupilles en pointe d'épingle, évoquant opiacés ou lésion pontique",
+          "is_correct": true
+        },
+        {
+          "text": "Mydriase aréflexique",
+          "is_correct": false
+        },
+        {
+          "text": "Anisocorie physiologique",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome de Claude Bernard-Horner",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une tétraparésie/tétraplégie ?",
+      "difficulty": "Facile",
+      "explanation": "La tétraparésie/tétraplégie est un déficit moteur des quatre membres, évoquant une atteinte médullaire cervicale ou un syndrome de Guillain-Barré sévère.",
+      "answers": [
+        {
+          "text": "Déficit moteur des quatre membres",
+          "is_correct": true
+        },
+        {
+          "text": "Déficit moteur d'un hémicorps",
+          "is_correct": false
+        },
+        {
+          "text": "Déficit moteur des deux membres inférieurs",
+          "is_correct": false
+        },
+        {
+          "text": "Déficit moteur d'un membre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une paraparésie/paraplégie ?",
+      "difficulty": "Facile",
+      "explanation": "La paraparésie/paraplégie est un déficit moteur des deux membres inférieurs, évoquant une atteinte médullaire thoracique ou lombaire.",
+      "answers": [
+        {
+          "text": "Déficit moteur des deux membres inférieurs",
+          "is_correct": true
+        },
+        {
+          "text": "Déficit moteur des quatre membres",
+          "is_correct": false
+        },
+        {
+          "text": "Déficit moteur d'un hémicorps",
+          "is_correct": false
+        },
+        {
+          "text": "Déficit moteur d'un membre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un syndrome de la queue de cheval ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de la queue de cheval associe une paraparésie flasque asymétrique, une anesthésie en selle, des troubles sphinctériens et une abolition des réflexes achilléens, évoquant une compression des racines lombosacrées.",
+      "answers": [
+        {
+          "text": "Paraparésie flasque, anesthésie en selle, troubles sphinctériens",
+          "is_correct": true
+        },
+        {
+          "text": "Tétraparésie spastique",
+          "is_correct": false
+        },
+        {
+          "text": "Hémiplégie brachio-faciale",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome pyramidal isolé",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un syndrome de Brown-Séquard ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Brown-Séquard est une hémimoelle avec déficit moteur et sensitif profond homolatéral, et déficit sensitif thermo-algique controlatéral.",
+      "answers": [
+        {
+          "text": "Déficit moteur et sensitif profond homolatéral, thermo-algique controlatéral",
+          "is_correct": true
+        },
+        {
+          "text": "Paraparésie symétrique",
+          "is_correct": false
+        },
+        {
+          "text": "Tétraparésie avec niveau sensitif",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome de la queue de cheval",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Tinel ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Tinel est une paresthésie distale provoquée par la percussion d'un nerf périphérique, évoquant une neuropathie (syndrome du canal carpien, etc.).",
+      "answers": [
+        {
+          "text": "Paresthésie distale à la percussion d'un nerf",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur radiculaire à l'élévation de la jambe",
+          "is_correct": false
+        },
+        {
+          "text": "Spasme carpien provoqué",
+          "is_correct": false
+        },
+        {
+          "text": "Contraction faciale à la percussion",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Phalen ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Phalen est l'apparition de paresthésies dans le territoire du nerf médian lors de la flexion maximale du poignet maintenue 60 secondes, évoquant un syndrome du canal carpien.",
+      "answers": [
+        {
+          "text": "Paresthésies au territoire médian lors de la flexion du poignet",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur au mollet à la dorsiflexion du pied",
+          "is_correct": false
+        },
+        {
+          "text": "Paresthésie à la percussion du nerf",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse de la pince pouce-index",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Froment ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Froment est une flexion compensatrice de l'interphalangienne du pouce lors de la préhension d'un papier entre pouce et index, évoquant une atteinte du nerf ulnaire.",
+      "answers": [
+        {
+          "text": "Flexion compensatrice du pouce à la préhension, atteinte du nerf ulnaire",
+          "is_correct": true
+        },
+        {
+          "text": "Paresthésies à la flexion du poignet",
+          "is_correct": false
+        },
+        {
+          "text": "Main tombante",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Hoffmann positif",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une amaurose fugace ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amaurose fugace est une cécité monoculaire transitoire (quelques secondes à minutes), évoquant une ischémie rétinienne par embolie ou sténose carotidienne.",
+      "answers": [
+        {
+          "text": "Cécité monoculaire transitoire, évoquant ischémie rétinienne",
+          "is_correct": true
+        },
+        {
+          "text": "Diplopie transitoire",
+          "is_correct": false
+        },
+        {
+          "text": "Scotome central permanent",
+          "is_correct": false
+        },
+        {
+          "text": "Hémianopsie latérale homonyme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un souffle systolique éjectionnel ?",
+      "difficulty": "Moyen",
+      "explanation": "Un souffle systolique éjectionnel est un souffle crescendo-decrescendo entendu au foyer aortique ou pulmonaire, évoquant une sténose valvulaire ou un obstacle à l'éjection.",
+      "answers": [
+        {
+          "text": "Souffle crescendo-decrescendo au foyer aortique/pulmonaire",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle holosystolique à la pointe",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle diastolique",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle continu",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un souffle holosystolique de régurgitation ?",
+      "difficulty": "Moyen",
+      "explanation": "Un souffle holosystolique de régurgitation est un souffle constant pendant toute la systole, entendu à la pointe (insuffisance mitrale) ou au bord sternal gauche (insuffisance tricuspide).",
+      "answers": [
+        {
+          "text": "Souffle constant pendant toute la systole, régurgitation mitrale/tricuspide",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle crescendo-decrescendo",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle diastolique",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle éjectionnel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un souffle diastolique de remplissage ?",
+      "difficulty": "Moyen",
+      "explanation": "Un souffle diastolique de remplissage est un roulement diastolique entendu à la pointe, évoquant un rétrécissement mitral.",
+      "answers": [
+        {
+          "text": "Roulement diastolique à la pointe, évoquant rétrécissement mitral",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle protodiastolique dégressif",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle holosystolique",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle éjectionnel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un galop protodiastolique (B3) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le galop protodiastolique (B3) est un bruit surajouté en début de diastole, évoquant une insuffisance cardiaque ou une surcharge volumique.",
+      "answers": [
+        {
+          "text": "Bruit surajouté en début de diastole, évoquant insuffisance cardiaque",
+          "is_correct": true
+        },
+        {
+          "text": "Bruit présystolique",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle systolique",
+          "is_correct": false
+        },
+        {
+          "text": "Éclat de B2",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un pouls paradoxal ?",
+      "difficulty": "Difficile",
+      "explanation": "Le pouls paradoxal est une diminution anormale de la pression artérielle systolique (>10 mmHg) lors de l'inspiration, évoquant une tamponnade cardiaque ou un asthme sévère.",
+      "answers": [
+        {
+          "text": "Diminution de la PA systolique >10 mmHg à l'inspiration",
+          "is_correct": true
+        },
+        {
+          "text": "Pouls irrégulier",
+          "is_correct": false
+        },
+        {
+          "text": "Pouls bondissant",
+          "is_correct": false
+        },
+        {
+          "text": "Bradycardie sinusale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de la danse des artères ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de la danse des artères est une pulsation visible et palpable des artères périphériques, évoquant une insuffisance aortique sévère.",
+      "answers": [
+        {
+          "text": "Pulsations artérielles visibles et palpables",
+          "is_correct": true
+        },
+        {
+          "text": "Pouls filant",
+          "is_correct": false
+        },
+        {
+          "text": "Absence de pouls périphériques",
+          "is_correct": false
+        },
+        {
+          "text": "Pouls asymétrique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Musset ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Musset est un hochement rythmique de la tête synchrone avec les battements cardiaques, observé dans l'insuffisance aortique.",
+      "answers": [
+        {
+          "text": "Hochement rythmique de la tête synchrone avec les battements",
+          "is_correct": true
+        },
+        {
+          "text": "Tremblement intentionnel de la tête",
+          "is_correct": false
+        },
+        {
+          "text": "Raideur de la nuque",
+          "is_correct": false
+        },
+        {
+          "text": "Torticolis spasmodique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le pouls de Corrigan ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pouls de Corrigan est un pouls bondissant et ample avec chute brutale de la pression diastolique, caractéristique d'une insuffisance aortique.",
+      "answers": [
+        {
+          "text": "Pouls bondissant avec chute brutale, insuffisance aortique",
+          "is_correct": true
+        },
+        {
+          "text": "Pouls filant et rapide",
+          "is_correct": false
+        },
+        {
+          "text": "Pouls alternant fort et faible",
+          "is_correct": false
+        },
+        {
+          "text": "Pouls paradoxal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un souffle de Carey Coombs ?",
+      "difficulty": "Difficile",
+      "explanation": "Le souffle de Carey Coombs est un roulement méso-diastolique transitoire entendu au cours du rhumatisme articulaire aigu, lié à une valvulite mitrale.",
+      "answers": [
+        {
+          "text": "Roulement méso-diastolique transitoire du RAA",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle systolique d'insuffisance mitrale",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle continu",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle éjectionnel aortique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Traube ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Traube (ou double souffle de Traube) est un double souffle systolique et diastolique à la compression de l'artère fémorale, évoquant une insuffisance aortique.",
+      "answers": [
+        {
+          "text": "Double souffle systolo-diastolique fémoral, insuffisance aortique",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle carotidien isolé",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle veineux cervical",
+          "is_correct": false
+        },
+        {
+          "text": "Absence de souffle fémoral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Duroziez ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Duroziez est un double souffle systolo-diastolique entendu lors de la compression de l'artère fémorale, pathognomonique de l'insuffisance aortique.",
+      "answers": [
+        {
+          "text": "Double souffle fémoral à la compression, insuffisance aortique",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle systolique isolé",
+          "is_correct": false
+        },
+        {
+          "text": "Absence de souffle artériel",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle veineux jugulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le pouls alternant ?",
+      "difficulty": "Difficile",
+      "explanation": "Le pouls alternant est une alternance régulière de battements forts et faibles à rythme régulier, évoquant une insuffisance ventriculaire gauche sévère.",
+      "answers": [
+        {
+          "text": "Alternance régulière de battements forts et faibles",
+          "is_correct": true
+        },
+        {
+          "text": "Pouls irrégulier chaotique",
+          "is_correct": false
+        },
+        {
+          "text": "Pouls paradoxal",
+          "is_correct": false
+        },
+        {
+          "text": "Pouls bondissant",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Kussmaul veineux ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Kussmaul veineux est une augmentation paradoxale de la pression veineuse jugulaire à l'inspiration, évoquant une péricardite constrictive ou une tamponnade.",
+      "answers": [
+        {
+          "text": "Augmentation paradoxale de la pression veineuse jugulaire à l'inspiration",
+          "is_correct": true
+        },
+        {
+          "text": "Turgescence jugulaire à l'expiration",
+          "is_correct": false
+        },
+        {
+          "text": "Absence de pouls veineux jugulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Reflux hépato-jugulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le reflux hépato-jugulaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le reflux hépato-jugulaire est une turgescence jugulaire provoquée par la compression de l'hypochondre droit, évoquant une insuffisance cardiaque droite.",
+      "answers": [
+        {
+          "text": "Turgescence jugulaire à la compression de l'hypochondre droit",
+          "is_correct": true
+        },
+        {
+          "text": "Reflux gastro-œsophagien",
+          "is_correct": false
+        },
+        {
+          "text": "Hépatomégalie isolée",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère à bilirubine conjuguée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le choc de pointe dévié ?",
+      "difficulty": "Facile",
+      "explanation": "Le choc de pointe dévié en bas et en dehors (au-delà de la ligne médioclaviculaire) évoque une cardiomégalie avec hypertrophie ventriculaire gauche.",
+      "answers": [
+        {
+          "text": "Choc de pointe dévié en bas et en dehors, cardiomégalie",
+          "is_correct": true
+        },
+        {
+          "text": "Choc de pointe absent",
+          "is_correct": false
+        },
+        {
+          "text": "Choc de pointe droit parasternal",
+          "is_correct": false
+        },
+        {
+          "text": "Choc de pointe normal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un frottement péricardique ?",
+      "difficulty": "Facile",
+      "explanation": "Le frottement péricardique est un bruit superficiel, râpeux, systolo-diastolique, évoquant une péricardite aiguë.",
+      "answers": [
+        {
+          "text": "Bruit superficiel râpeux systolo-diastolique, péricardite",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle systolique",
+          "is_correct": false
+        },
+        {
+          "text": "Galop protodiastolique",
+          "is_correct": false
+        },
+        {
+          "text": "Éclat de B2",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un éclat du B2 au foyer pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Un éclat du B2 au foyer pulmonaire évoque une hypertension artérielle pulmonaire.",
+      "answers": [
+        {
+          "text": "Renforcement de B2 au foyer pulmonaire, HTAP",
+          "is_correct": true
+        },
+        {
+          "text": "Souffle systolique",
+          "is_correct": false
+        },
+        {
+          "text": "Galop B3",
+          "is_correct": false
+        },
+        {
+          "text": "Dédoublement de B1",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un dédoublement fixe de B2 ?",
+      "difficulty": "Difficile",
+      "explanation": "Un dédoublement fixe de B2 (persistant à l'expiration) évoque une communication interauriculaire (CIA).",
+      "answers": [
+        {
+          "text": "Dédoublement de B2 persistant à l'expiration, CIA",
+          "is_correct": true
+        },
+        {
+          "text": "Dédoublement physiologique variable",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle systolique",
+          "is_correct": false
+        },
+        {
+          "text": "Galop B3",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Cardarelli ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Cardarelli est une pulsation latérale de la trachée, évoquant un anévrisme de la crosse aortique.",
+      "answers": [
+        {
+          "text": "Pulsation latérale de la trachée, anévrisme de la crosse aortique",
+          "is_correct": true
+        },
+        {
+          "text": "Déviation trachéale latérale fixe",
+          "is_correct": false
+        },
+        {
+          "text": "Goitre compressif",
+          "is_correct": false
+        },
+        {
+          "text": "Turgescence jugulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe d'Oliver ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe d'Oliver (ou signe du larynx) est une descente du larynx à chaque systole cardiaque, évoquant un anévrisme de la crosse aortique ou une adhérence péricardique.",
+      "answers": [
+        {
+          "text": "Descente systolique du larynx, anévrisme de la crosse aortique",
+          "is_correct": true
+        },
+        {
+          "text": "Montée inspiratoire du larynx",
+          "is_correct": false
+        },
+        {
+          "text": "Dysphagie haute",
+          "is_correct": false
+        },
+        {
+          "text": "Stridor laryngé",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une matité déclive mobile ?",
+      "difficulty": "Moyen",
+      "explanation": "La matité déclive mobile à la percussion abdominale évoque la présence d'un épanchement liquidien péritonéal (ascite).",
+      "answers": [
+        {
+          "text": "Matité se déplaçant avec les changements de position, ascite",
+          "is_correct": true
+        },
+        {
+          "text": "Matité fixe médiane",
+          "is_correct": false
+        },
+        {
+          "text": "Tympanisme diffus",
+          "is_correct": false
+        },
+        {
+          "text": "Défense abdominale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe du glaçon ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe du glaçon est un rebond d'un organe profond (foie, rate) à la palpation en cas d'ascite, évoquant un épanchement péritonéal.",
+      "answers": [
+        {
+          "text": "Rebond d'un organe à la palpation en cas d'ascite",
+          "is_correct": true
+        },
+        {
+          "text": "Défense abdominale localisée",
+          "is_correct": false
+        },
+        {
+          "text": "Masse abdominale fixe",
+          "is_correct": false
+        },
+        {
+          "text": "Hépatomégalie isolée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe du flot ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe du flot est la perception d'une onde liquidienne transmise d'un flanc à l'autre lors de la percussion abdominale, évoquant une ascite.",
+      "answers": [
+        {
+          "text": "Onde liquidienne transmise d'un flanc à l'autre, ascite",
+          "is_correct": true
+        },
+        {
+          "text": "Matité sus-pubienne",
+          "is_correct": false
+        },
+        {
+          "text": "Tympanisme abdominal",
+          "is_correct": false
+        },
+        {
+          "text": "Défense généralisée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de McBurney ?",
+      "difficulty": "Facile",
+      "explanation": "Le point de McBurney est situé au tiers externe de la ligne joignant l'ombilic à l'épine iliaque antéro-supérieure droite. Une douleur à ce point évoque une appendicite.",
+      "answers": [
+        {
+          "text": "Douleur au tiers externe ombilic-EIAS droite, appendicite",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur épigastrique",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur hypochondre droit",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur hypogastrique médiane",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe du psoas ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe du psoas est une douleur abdominale provoquée par l'extension de la hanche droite, évoquant une appendicite rétrocæcale avec irritation du muscle psoas.",
+      "answers": [
+        {
+          "text": "Douleur à l'extension de la hanche, appendicite rétrocæcale",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à la flexion de la hanche",
+          "is_correct": false
+        },
+        {
+          "text": "Faiblesse du psoas",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Lasègue positif",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de l'obturateur ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de l'obturateur est une douleur abdominale provoquée par la rotation interne de la hanche fléchie, évoquant une appendicite pelvienne avec irritation du muscle obturateur.",
+      "answers": [
+        {
+          "text": "Douleur à la rotation interne de la hanche, appendicite pelvienne",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à l'abduction de la hanche",
+          "is_correct": false
+        },
+        {
+          "text": "Limitation de la mobilité de la hanche",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Lasègue controlatéral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Cullen ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Cullen est une ecchymose péri-ombilicale évoquant une pancréatite aiguë hémorragique ou un hémopéritoine.",
+      "answers": [
+        {
+          "text": "Ecchymose péri-ombilicale, pancréatite hémorragique",
+          "is_correct": true
+        },
+        {
+          "text": "Ecchymose des flancs",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère généralisé",
+          "is_correct": false
+        },
+        {
+          "text": "Érythème abdominal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Grey Turner ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Grey Turner est une ecchymose des flancs évoquant une pancréatite aiguë hémorragique ou un hémopéritoine.",
+      "answers": [
+        {
+          "text": "Ecchymose des flancs, pancréatite hémorragique",
+          "is_correct": true
+        },
+        {
+          "text": "Ecchymose péri-ombilicale",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère des flancs",
+          "is_correct": false
+        },
+        {
+          "text": "Turgescence des veines abdominales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la circulation veineuse collatérale abdominale ?",
+      "difficulty": "Moyen",
+      "explanation": "Une circulation veineuse collatérale abdominale visible (tête de méduse) évoque une hypertension portale.",
+      "answers": [
+        {
+          "text": "Veines abdominales dilatées visibles, hypertension portale",
+          "is_correct": true
+        },
+        {
+          "text": "Réseau veineux thoracique",
+          "is_correct": false
+        },
+        {
+          "text": "Varices des membres inférieurs",
+          "is_correct": false
+        },
+        {
+          "text": "Œdèmes déclives",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'angiome stellaire (spider nævus) ?",
+      "difficulty": "Facile",
+      "explanation": "L'angiome stellaire est une lésion vasculaire cutanée en forme d'étoile qui se déplétionne à la pression centrale, évoquant une insuffisance hépatocellulaire.",
+      "answers": [
+        {
+          "text": "Lésion vasculaire en étoile qui se déplétionne, insuffisance hépatique",
+          "is_correct": true
+        },
+        {
+          "text": "Tache pigmentaire brune",
+          "is_correct": false
+        },
+        {
+          "text": "Hémangiome caverneux",
+          "is_correct": false
+        },
+        {
+          "text": "Purpura pétéchial",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'érythrose palmaire ?",
+      "difficulty": "Facile",
+      "explanation": "L'érythrose palmaire est une rougeur des éminences thénar et hypothénar, évoquant une insuffisance hépatocellulaire chronique.",
+      "answers": [
+        {
+          "text": "Rougeur des paumes, insuffisance hépatique",
+          "is_correct": true
+        },
+        {
+          "text": "Cyanose des extrémités",
+          "is_correct": false
+        },
+        {
+          "text": "Pâleur palmaire",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère palmaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Dupuytren ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Dupuytren est une rétraction fibreuse de l'aponévrose palmaire entraînant une flexion irréductible des doigts (4e et 5e), associée à l'éthylisme chronique.",
+      "answers": [
+        {
+          "text": "Rétraction fibreuse palmaire avec flexion irréductible des doigts",
+          "is_correct": true
+        },
+        {
+          "text": "Arthrite déformante des doigts",
+          "is_correct": false
+        },
+        {
+          "text": "Neuropathie cubitale",
+          "is_correct": false
+        },
+        {
+          "text": "Ténosynovite des fléchisseurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la contracture de Volkmann ?",
+      "difficulty": "Difficile",
+      "explanation": "La contracture de Volkmann est une rétraction ischémique des muscles de l'avant-bras avec griffe des doigts, complication d'un syndrome de loge ou d'un plâtre trop serré.",
+      "answers": [
+        {
+          "text": "Rétraction ischémique des muscles de l'avant-bras avec griffe",
+          "is_correct": true
+        },
+        {
+          "text": "Paralysie du nerf médian",
+          "is_correct": false
+        },
+        {
+          "text": "Arthrite du poignet",
+          "is_correct": false
+        },
+        {
+          "text": "Ténosynovite de De Quervain",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Finkelstein ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Finkelstein est une douleur de la styloïde radiale provoquée par l'inclinaison ulnaire du poignet, pouce dans la paume fermée, évoquant une ténosynovite de De Quervain.",
+      "answers": [
+        {
+          "text": "Douleur à la styloïde radiale lors de l'inclinaison ulnaire, ténosynovite",
+          "is_correct": true
+        },
+        {
+          "text": "Signe de Phalen",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Tinel",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur à la flexion du pouce",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un doigt en maillet (mallet finger) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le doigt en maillet est une flexion de l'interphalangienne distale avec impossibilité d'extension active, due à une rupture du tendon extenseur terminal.",
+      "answers": [
+        {
+          "text": "Flexion de l'IPD avec impossibilité d'extension active",
+          "is_correct": true
+        },
+        {
+          "text": "Hyperextension de l'IPD",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation de l'IPD",
+          "is_correct": false
+        },
+        {
+          "text": "Arthrose de l'IPD",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un doigt en boutonnière ?",
+      "difficulty": "Moyen",
+      "explanation": "La déformation en boutonnière associe une flexion de l'interphalangienne proximale et une hyperextension de l'IPD, due à une rupture de la bandelette médiane du tendon extenseur.",
+      "answers": [
+        {
+          "text": "Flexion de l'IPP et hyperextension de l'IPD",
+          "is_correct": true
+        },
+        {
+          "text": "Hyperextension de l'IPP et flexion de l'IPD",
+          "is_correct": false
+        },
+        {
+          "text": "Flexion de toutes les articulations",
+          "is_correct": false
+        },
+        {
+          "text": "Extension complète impossible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un doigt en col de cygne ?",
+      "difficulty": "Moyen",
+      "explanation": "La déformation en col de cygne associe une hyperextension de l'IPP et une flexion de l'IPD, fréquente dans la polyarthrite rhumatoïde.",
+      "answers": [
+        {
+          "text": "Hyperextension de l'IPP et flexion de l'IPD",
+          "is_correct": true
+        },
+        {
+          "text": "Flexion de l'IPP et hyperextension de l'IPD",
+          "is_correct": false
+        },
+        {
+          "text": "Doigt en maillet",
+          "is_correct": false
+        },
+        {
+          "text": "Ankyloses articulaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Popeye ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe de Popeye est une boule musculaire au niveau du bras lors de la flexion du coude, due à une rupture du tendon du long biceps.",
+      "answers": [
+        {
+          "text": "Boule musculaire au bras à la flexion, rupture du long biceps",
+          "is_correct": true
+        },
+        {
+          "text": "Atrophie musculaire du biceps",
+          "is_correct": false
+        },
+        {
+          "text": "Hypertrophie musculaire normale",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation de l'épaule",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Jobe (test de la canette vide) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de Jobe (ou empty can test) évalue le sus-épineux : douleur ou faiblesse lors de l'abduction à 90°, bras en rotation interne (pouce vers le bas), évoquant une tendinopathie de la coiffe.",
+      "answers": [
+        {
+          "text": "Douleur à l'abduction 90° en rotation interne, tendinopathie coiffe",
+          "is_correct": true
+        },
+        {
+          "text": "Test du drop arm",
+          "is_correct": false
+        },
+        {
+          "text": "Manœuvre d'Hawkins",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de l'arche douloureuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test de Hawkins-Kennedy ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de Hawkins-Kennedy provoque une douleur par la rotation interne passive de l'épaule fléchie à 90°, évoquant un conflit sous-acromial.",
+      "answers": [
+        {
+          "text": "Douleur à la rotation interne passive épaule fléchie, conflit sous-acromial",
+          "is_correct": true
+        },
+        {
+          "text": "Test de Jobe",
+          "is_correct": false
+        },
+        {
+          "text": "Manœuvre de Neer",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Popeye",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test de Neer ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de Neer provoque une douleur par élévation antérieure forcée du bras en rotation interne, évoquant un conflit sous-acromial.",
+      "answers": [
+        {
+          "text": "Douleur à l'élévation antérieure forcée en rotation interne, conflit",
+          "is_correct": true
+        },
+        {
+          "text": "Test de Hawkins",
+          "is_correct": false
+        },
+        {
+          "text": "Test de Jobe",
+          "is_correct": false
+        },
+        {
+          "text": "Manœuvre d'appréhension",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test d'appréhension de l'épaule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test d'appréhension provoque une sensation de luxation imminente par abduction et rotation externe de l'épaule, évoquant une instabilité antérieure.",
+      "answers": [
+        {
+          "text": "Sensation de luxation à l'abduction-rotation externe, instabilité",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à la rotation interne",
+          "is_correct": false
+        },
+        {
+          "text": "Conflit sous-acromial",
+          "is_correct": false
+        },
+        {
+          "text": "Capsulite rétractile",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe du tiroir antérieur du genou ?",
+      "difficulty": "Facile",
+      "explanation": "Le tiroir antérieur du genou est une translation antérieure excessive du tibia par rapport au fémur, genou fléchi à 90°, évoquant une rupture du ligament croisé antérieur (LCA).",
+      "answers": [
+        {
+          "text": "Translation antérieure excessive du tibia, rupture LCA",
+          "is_correct": true
+        },
+        {
+          "text": "Translation postérieure du tibia",
+          "is_correct": false
+        },
+        {
+          "text": "Laxité médiale",
+          "is_correct": false
+        },
+        {
+          "text": "Instabilité rotatoire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test de Lachman ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de Lachman évalue le LCA par une translation antérieure du tibia sur le fémur, genou fléchi à 20-30°. Plus sensible que le tiroir antérieur.",
+      "answers": [
+        {
+          "text": "Translation antérieure du tibia genou fléchi 20-30°, rupture LCA",
+          "is_correct": true
+        },
+        {
+          "text": "Tiroir postérieur",
+          "is_correct": false
+        },
+        {
+          "text": "Test du ressaut",
+          "is_correct": false
+        },
+        {
+          "text": "Manœuvre de McMurray",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test de McMurray ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de McMurray provoque un claquement ou une douleur lors de la rotation du tibia sur le fémur, genou fléchi puis étendu, évoquant une lésion méniscale.",
+      "answers": [
+        {
+          "text": "Claquement/douleur à la rotation tibiale, lésion méniscale",
+          "is_correct": true
+        },
+        {
+          "text": "Test du tiroir antérieur",
+          "is_correct": false
+        },
+        {
+          "text": "Test de Lachman",
+          "is_correct": false
+        },
+        {
+          "text": "Signe du rabot",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe du rabot rotulien ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe du rabot est une crépitation douloureuse lors de la mobilisation de la rotule sur les condyles fémoraux, évoquant une chondropathie rotulienne.",
+      "answers": [
+        {
+          "text": "Crépitation douloureuse à la mobilisation rotulienne, chondropathie",
+          "is_correct": true
+        },
+        {
+          "text": "Luxation rotulienne",
+          "is_correct": false
+        },
+        {
+          "text": "Tendinite rotulienne",
+          "is_correct": false
+        },
+        {
+          "text": "Fracture de la rotule",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Zohlen ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Zohlen est une douleur provoquée par la pression du tendon rotulien, évoquant une tendinopathie rotulienne (jumper's knee).",
+      "answers": [
+        {
+          "text": "Douleur à la pression du tendon rotulien, tendinopathie",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur à la palpation du ménisque",
+          "is_correct": false
+        },
+        {
+          "text": "Signe du rabot",
+          "is_correct": false
+        },
+        {
+          "text": "Choc rotulien",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le choc rotulien ?",
+      "difficulty": "Facile",
+      "explanation": "Le choc rotulien est un rebond de la rotule lors de la pression, après avoir chassé l'épanchement articulaire vers le haut, évoquant une hydarthrose du genou.",
+      "answers": [
+        {
+          "text": "Rebond rotulien après chasse de l'épanchement, hydarthrose",
+          "is_correct": true
+        },
+        {
+          "text": "Fracture de la rotule",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation rotulienne",
+          "is_correct": false
+        },
+        {
+          "text": "Tendinite",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test de Thompson (ou test du signe du sillon) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de Thompson évalue le tendon d'Achille : absence de flexion plantaire passive du pied lors de la compression du mollet, évoquant une rupture du tendon d'Achille.",
+      "answers": [
+        {
+          "text": "Absence de flexion plantaire à la compression du mollet, rupture d'Achille",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur au mollet isolée",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Homans",
+          "is_correct": false
+        },
+        {
+          "text": "Test de Lasègue",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Kanavel ?",
+      "difficulty": "Difficile",
+      "explanation": "Les quatre signes de Kanavel évoquent une ténosynovite purulente des fléchisseurs : flexion antalgique du doigt, tuméfaction fusiforme, douleur à la palpation du trajet de la gaine, douleur à l'extension passive.",
+      "answers": [
+        {
+          "text": "Flexion antalgique, tuméfaction, douleur au trajet et à l'extension passive",
+          "is_correct": true
+        },
+        {
+          "text": "Fracture du doigt",
+          "is_correct": false
+        },
+        {
+          "text": "Arthrite septique",
+          "is_correct": false
+        },
+        {
+          "text": "Panaris",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le test de Schober ?",
+      "difficulty": "Moyen",
+      "explanation": "Le test de Schober évalue la mobilité lombaire : on mesure l'écartement de 2 points (à 10 cm au-dessus de L5) lors de la flexion antérieure. Une augmentation <5 cm évoque une spondylarthrite ankylosante.",
+      "answers": [
+        {
+          "text": "Mesure de l'écartement lombaire à la flexion <5 cm, spondylarthrite",
+          "is_correct": true
+        },
+        {
+          "text": "Test de Lasègue",
+          "is_correct": false
+        },
+        {
+          "text": "Manœuvre de Romberg",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de la sonnette",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de la sonnette (scapulaire) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de la sonnette est un décollement du bord médial de la scapula (omoplate décollée) lors de la poussée contre un mur, évoquant une paralysie du nerf thoracique long (dentelé antérieur).",
+      "answers": [
+        {
+          "text": "Décollement scapulaire médial à la poussée, paralysie nerf thoracique long",
+          "is_correct": true
+        },
+        {
+          "text": "Fracture de la scapula",
+          "is_correct": false
+        },
+        {
+          "text": "Luxation scapulo-thoracique",
+          "is_correct": false
+        },
+        {
+          "text": "Tendinopathie de la coiffe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la démarche de Trendelenburg ?",
+      "difficulty": "Moyen",
+      "explanation": "La démarche de Trendelenburg est une bascule du bassin du côté opposé lors de l'appui unipodal, due à une insuffisance du moyen fessier (luxation de hanche, coxarthrose).",
+      "answers": [
+        {
+          "text": "Bascule du bassin controlatérale à l'appui, insuffisance moyen fessier",
+          "is_correct": true
+        },
+        {
+          "text": "Démarche ébrieuse",
+          "is_correct": false
+        },
+        {
+          "text": "Steppage",
+          "is_correct": false
+        },
+        {
+          "text": "Marche en canard",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le steppage ?",
+      "difficulty": "Facile",
+      "explanation": "Le steppage est une démarche avec élévation excessive du genou et chute du pied à chaque pas, due à une paralysie des releveurs du pied (atteinte du nerf fibulaire commun ou sciatique poplité externe).",
+      "answers": [
+        {
+          "text": "Élévation excessive du genou et chute du pied, paralysie des releveurs",
+          "is_correct": true
+        },
+        {
+          "text": "Démarche de Trendelenburg",
+          "is_correct": false
+        },
+        {
+          "text": "Démarche ébrieuse",
+          "is_correct": false
+        },
+        {
+          "text": "Marche talonnante",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la marche fauchante (ou hémiparétique) ?",
+      "difficulty": "Facile",
+      "explanation": "La marche fauchante est caractérisée par une jambe raide en extension avec circumduction (mouvement en arc de cercle), typique d'une hémiparésie spastique.",
+      "answers": [
+        {
+          "text": "Jambe raide en extension avec circumduction, hémiparésie spastique",
+          "is_correct": true
+        },
+        {
+          "text": "Steppage",
+          "is_correct": false
+        },
+        {
+          "text": "Démarche de Trendelenburg",
+          "is_correct": false
+        },
+        {
+          "text": "Démarche ataxique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la marche dandinante (ou en canard) ?",
+      "difficulty": "Moyen",
+      "explanation": "La marche dandinante est une démarche avec oscillations latérales du tronc, due à une faiblesse bilatérale des ceintures pelviennes (myopathies).",
+      "answers": [
+        {
+          "text": "Oscillations latérales du tronc, faiblesse ceintures pelviennes, myopathie",
+          "is_correct": true
+        },
+        {
+          "text": "Démarche de Trendelenburg unilatérale",
+          "is_correct": false
+        },
+        {
+          "text": "Steppage bilatéral",
+          "is_correct": false
+        },
+        {
+          "text": "Marche ataxique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la marche à petits pas ?",
+      "difficulty": "Facile",
+      "explanation": "La marche à petits pas est caractérisée par des pas courts, traînants, sans ballant des bras, typique du syndrome parkinsonien ou d'une atteinte vasculaire sous-corticale.",
+      "answers": [
+        {
+          "text": "Pas courts et traînants, syndrome parkinsonien ou vasculaire",
+          "is_correct": true
+        },
+        {
+          "text": "Steppage",
+          "is_correct": false
+        },
+        {
+          "text": "Marche fauchante",
+          "is_correct": false
+        },
+        {
+          "text": "Démarche de Trendelenburg",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la festination ?",
+      "difficulty": "Moyen",
+      "explanation": "La festination est une accélération involontaire de la marche avec le tronc projeté en avant, le patient courant après son centre de gravité, typique de la maladie de Parkinson.",
+      "answers": [
+        {
+          "text": "Accélération involontaire avec tronc projeté en avant, Parkinson",
+          "is_correct": true
+        },
+        {
+          "text": "Ralentissement progressif de la marche",
+          "is_correct": false
+        },
+        {
+          "text": "Marche à petits pas réguliers",
+          "is_correct": false
+        },
+        {
+          "text": "Démarche ataxique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le freezing (enrayage cinétique) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le freezing est un blocage moteur brutal et transitoire de la marche, souvent au démarrage ou lors du franchissement de passages étroits, typique de la maladie de Parkinson évoluée.",
+      "answers": [
+        {
+          "text": "Blocage moteur brutal et transitoire de la marche, Parkinson",
+          "is_correct": true
+        },
+        {
+          "text": "Chute brutale sans perte de connaissance",
+          "is_correct": false
+        },
+        {
+          "text": "Crampe du mollet",
+          "is_correct": false
+        },
+        {
+          "text": "Claudication intermittente",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une claudication intermittente ?",
+      "difficulty": "Facile",
+      "explanation": "La claudication intermittente est une douleur musculaire à l'effort (marche) cédant au repos, évoquant une artériopathie oblitérante des membres inférieurs (AOMI).",
+      "answers": [
+        {
+          "text": "Douleur musculaire à la marche cédant au repos, AOMI",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur permanente du mollet",
+          "is_correct": false
+        },
+        {
+          "text": "Crampes nocturnes",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome de la queue de cheval",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la claudication médullaire (ou neurogène) ?",
+      "difficulty": "Moyen",
+      "explanation": "La claudication médullaire est une faiblesse et des paresthésies des membres inférieurs à la marche, soulagées par la flexion du tronc, évoquant un canal lombaire étroit (sténose canalaire).",
+      "answers": [
+        {
+          "text": "Faiblesse et paresthésies à la marche soulagées par flexion, canal étroit",
+          "is_correct": true
+        },
+        {
+          "text": "Douleur musculaire soulagée au repos, AOMI",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome de la queue de cheval aigu",
+          "is_correct": false
+        },
+        {
+          "text": "Neuropathie périphérique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un pied en varus équin ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pied varus équin associe une flexion plantaire (équin) et une supination (varus), observé dans les séquelles d'AVC avec spasticité ou le pied bot.",
+      "answers": [
+        {
+          "text": "Flexion plantaire et supination, séquelle AVC ou pied bot",
+          "is_correct": true
+        },
+        {
+          "text": "Flexion dorsale et pronation",
+          "is_correct": false
+        },
+        {
+          "text": "Pied plat valgus",
+          "is_correct": false
+        },
+        {
+          "text": "Pied creux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un pied tombant (drop foot) ?",
+      "difficulty": "Facile",
+      "explanation": "Le pied tombant est une impossibilité de dorsiflexion du pied due à une paralysie des muscles releveurs (atteinte du nerf fibulaire commun), responsable d'un steppage.",
+      "answers": [
+        {
+          "text": "Impossibilité de dorsiflexion, paralysie releveurs, steppage",
+          "is_correct": true
+        },
+        {
+          "text": "Pied varus équin",
+          "is_correct": false
+        },
+        {
+          "text": "Pied plat",
+          "is_correct": false
+        },
+        {
+          "text": "Hallux valgus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Godet ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe de Godet est une dépression persistante après pression digitale sur la peau, évoquant un œdème mou (cardiaque, rénal, veineux).",
+      "answers": [
+        {
+          "text": "Dépression persistante après pression digitale, œdème mou",
+          "is_correct": true
+        },
+        {
+          "text": "Œdème dur sans godet (lymphœdème)",
+          "is_correct": false
+        },
+        {
+          "text": "Érythème cutané",
+          "is_correct": false
+        },
+        {
+          "text": "Cyanose des extrémités",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un lymphœdème ?",
+      "difficulty": "Facile",
+      "explanation": "Le lymphœdème est un œdème ferme, sans godet, lié à une obstruction lymphatique (cancer, filariose, post-chirurgical), touchant souvent les membres.",
+      "answers": [
+        {
+          "text": "Œdème ferme sans godet, obstruction lymphatique",
+          "is_correct": true
+        },
+        {
+          "text": "Œdème mou avec godet",
+          "is_correct": false
+        },
+        {
+          "text": "Anasarque",
+          "is_correct": false
+        },
+        {
+          "text": "Ascite",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une anasarque ?",
+      "difficulty": "Facile",
+      "explanation": "L'anasarque est un œdème généralisé massif touchant tout le corps (membres, tronc, face), évoquant une insuffisance cardiaque sévère, un syndrome néphrotique ou une dénutrition.",
+      "answers": [
+        {
+          "text": "Œdème généralisé massif de tout le corps",
+          "is_correct": true
+        },
+        {
+          "text": "Œdème localisé aux membres inférieurs",
+          "is_correct": false
+        },
+        {
+          "text": "Ascite isolée",
+          "is_correct": false
+        },
+        {
+          "text": "Lymphœdème unilatéral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Stemmer ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Stemmer est l'impossibilité de pincer la peau de la base du 2e orteil, évoquant un lymphœdème des membres inférieurs.",
+      "answers": [
+        {
+          "text": "Impossibilité de pincer la peau de la base du 2e orteil, lymphœdème",
+          "is_correct": true
+        },
+        {
+          "text": "Signe de Godet positif",
+          "is_correct": false
+        },
+        {
+          "text": "Cyanose des orteils",
+          "is_correct": false
+        },
+        {
+          "text": "Hippocratisme digital",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un purpura pétéchial ?",
+      "difficulty": "Facile",
+      "explanation": "Le purpura pétéchial est constitué de petites taches rouges punctiformes ne s'effaçant pas à la vitropression, évoquant une thrombopénie ou une vascularite.",
+      "answers": [
+        {
+          "text": "Petites taches rouges ne s'effaçant pas à la vitropression",
+          "is_correct": true
+        },
+        {
+          "text": "Érythème diffus s'effaçant à la pression",
+          "is_correct": false
+        },
+        {
+          "text": "Hématome étendu",
+          "is_correct": false
+        },
+        {
+          "text": "Angiome stellaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un purpura ecchymotique ?",
+      "difficulty": "Facile",
+      "explanation": "Le purpura ecchymotique se présente sous forme de larges plaques hémorragiques (ecchymoses), évoquant un trouble de la coagulation ou un traumatisme.",
+      "answers": [
+        {
+          "text": "Larges plaques hémorragiques, trouble de coagulation",
+          "is_correct": true
+        },
+        {
+          "text": "Petites pétéchies punctiformes",
+          "is_correct": false
+        },
+        {
+          "text": "Érythème diffus",
+          "is_correct": false
+        },
+        {
+          "text": "Papules érythémateuses",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un purpura nécrotique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le purpura nécrotique (ou fulminans) associe des lésions purpuriques extensives avec nécrose cutanée, évoquant un purpura fulminans (méningococcémie, CIVD).",
+      "answers": [
+        {
+          "text": "Lésions purpuriques extensives avec nécrose, purpura fulminans",
+          "is_correct": true
+        },
+        {
+          "text": "Pétéchies isolées",
+          "is_correct": false
+        },
+        {
+          "text": "Ecchymoses bénignes",
+          "is_correct": false
+        },
+        {
+          "text": "Érythème polymorphe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Raynaud ?",
+      "difficulty": "Facile",
+      "explanation": "Le syndrome de Raynaud est une décoloration paroxystique des doigts (pâleur, cyanose, érythrose) déclenchée par le froid ou le stress, évoquant un vasospasme.",
+      "answers": [
+        {
+          "text": "Décoloration paroxystique des doigts au froid (pâleur-cyanose-érythrose)",
+          "is_correct": true
+        },
+        {
+          "text": "Cyanose permanente des extrémités",
+          "is_correct": false
+        },
+        {
+          "text": "Acrocyanose chronique",
+          "is_correct": false
+        },
+        {
+          "text": "Érythromélalgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une acrocyanose ?",
+      "difficulty": "Facile",
+      "explanation": "L'acrocyanose est une cyanose chronique, permanente, bilatérale et symétrique des extrémités (mains, pieds), souvent bénigne mais pouvant évoquer un trouble vasculaire.",
+      "answers": [
+        {
+          "text": "Cyanose chronique permanente bilatérale des extrémités",
+          "is_correct": true
+        },
+        {
+          "text": "Syndrome de Raynaud",
+          "is_correct": false
+        },
+        {
+          "text": "Érythromélalgie",
+          "is_correct": false
+        },
+        {
+          "text": "Livedo reticularis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un livedo reticularis ?",
+      "difficulty": "Moyen",
+      "explanation": "Le livedo reticularis est un aspect marbré, violacé, réticulé de la peau, évoquant un trouble vasculaire (vascularite, SAPL, athéro-embolie).",
+      "answers": [
+        {
+          "text": "Aspect marbré violacé réticulé, trouble vasculaire",
+          "is_correct": true
+        },
+        {
+          "text": "Cyanose diffuse",
+          "is_correct": false
+        },
+        {
+          "text": "Purpura pétéchial",
+          "is_correct": false
+        },
+        {
+          "text": "Érythème noueux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un érythème noueux ?",
+      "difficulty": "Moyen",
+      "explanation": "L'érythème noueux est constitué de nodules érythémateux douloureux des jambes (face antérieure), évoquant une sarcoïdose, une infection streptococcique, une MICI ou une tuberculose.",
+      "answers": [
+        {
+          "text": "Nodules érythémateux douloureux des jambes",
+          "is_correct": true
+        },
+        {
+          "text": "Purpura vasculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Livedo reticularis",
+          "is_correct": false
+        },
+        {
+          "text": "Ulcère de jambe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un xanthélasma ?",
+      "difficulty": "Facile",
+      "explanation": "Le xanthélasma est un dépôt jaunâtre de lipides au niveau des paupières, évoquant une hyperlipidémie (hypercholestérolémie).",
+      "answers": [
+        {
+          "text": "Dépôt jaunâtre lipidique des paupières, hyperlipidémie",
+          "is_correct": true
+        },
+        {
+          "text": "Ictère conjonctival",
+          "is_correct": false
+        },
+        {
+          "text": "Ptosis palpébral",
+          "is_correct": false
+        },
+        {
+          "text": "Œdème palpébral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un arc cornéen (gérontoxon) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'arc cornéen est un dépôt lipidique gris-blanc en périphérie de la cornée. Physiologique après 60 ans, il évoque une hyperlipidémie chez le sujet jeune.",
+      "answers": [
+        {
+          "text": "Dépôt lipidique gris-blanc périphérique cornéen",
+          "is_correct": true
+        },
+        {
+          "text": "Cataracte",
+          "is_correct": false
+        },
+        {
+          "text": "Ictère conjonctival",
+          "is_correct": false
+        },
+        {
+          "text": "Ptérygion",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un xanthome tendineux ?",
+      "difficulty": "Moyen",
+      "explanation": "Le xanthome tendineux est un nodule dur au niveau des tendons (Achille, extenseurs des doigts), évoquant une hypercholestérolémie familiale.",
+      "answers": [
+        {
+          "text": "Nodule dur tendineux, hypercholestérolémie familiale",
+          "is_correct": true
+        },
+        {
+          "text": "Tophus goutteux",
+          "is_correct": false
+        },
+        {
+          "text": "Kyste synovial",
+          "is_correct": false
+        },
+        {
+          "text": "Ténosynovite",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un tophus goutteux ?",
+      "difficulty": "Facile",
+      "explanation": "Le tophus goutteux est un dépôt blanchâtre d'urate de sodium au niveau des articulations (oreilles, mains, pieds), évoquant une goutte chronique.",
+      "answers": [
+        {
+          "text": "Dépôt blanchâtre d'urate au niveau articulaire, goutte chronique",
+          "is_correct": true
+        },
+        {
+          "text": "Xanthome tendineux",
+          "is_correct": false
+        },
+        {
+          "text": "Nodule rhumatoïde",
+          "is_correct": false
+        },
+        {
+          "text": "Kyste mucoïde",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un nodule rhumatoïde ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nodule rhumatoïde est un nodule sous-cutané ferme, indolore, mobile, situé au niveau des zones de pression (coudes, avant-bras), caractéristique de la polyarthrite rhumatoïde.",
+      "answers": [
+        {
+          "text": "Nodule sous-cutané ferme aux zones de pression, polyarthrite rhumatoïde",
+          "is_correct": true
+        },
+        {
+          "text": "Tophus goutteux",
+          "is_correct": false
+        },
+        {
+          "text": "Xanthome",
+          "is_correct": false
+        },
+        {
+          "text": "Lipome",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Battle ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Battle est une ecchymose rétro-auriculaire (mastoïdienne) évoquant une fracture de la base du crâne.",
+      "answers": [
+        {
+          "text": "Ecchymose rétro-auriculaire, fracture base du crâne",
+          "is_correct": true
+        },
+        {
+          "text": "Ecchymose périorbitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Otorragie",
+          "is_correct": false
+        },
+        {
+          "text": "Rhinorrhée cérébro-spinale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe du panda (yeux de raton laveur) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe du panda (ou raccoon eyes) est une ecchymose périorbitaire bilatérale évoquant une fracture de la base du crâne antérieure.",
+      "answers": [
+        {
+          "text": "Ecchymose périorbitaire bilatérale, fracture base crâne antérieure",
+          "is_correct": true
+        },
+        {
+          "text": "Signe de Battle",
+          "is_correct": false
+        },
+        {
+          "text": "Hématome temporal",
+          "is_correct": false
+        },
+        {
+          "text": "Œdème palpébral allergique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une rhinorrhée cérébro-spinale ?",
+      "difficulty": "Moyen",
+      "explanation": "La rhinorrhée cérébro-spinale est un écoulement de LCR par le nez, évoquant une fracture de la lame criblée de l'ethmoïde (fracture de la base du crâne).",
+      "answers": [
+        {
+          "text": "Écoulement de LCR par le nez, fracture lame criblée",
+          "is_correct": true
+        },
+        {
+          "text": "Épistaxis simple",
+          "is_correct": false
+        },
+        {
+          "text": "Rhinite aiguë",
+          "is_correct": false
+        },
+        {
+          "text": "Sinusite maxillaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une otorrhée cérébro-spinale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'otorrhée cérébro-spinale est un écoulement de LCR par l'oreille, évoquant une fracture du rocher (fracture de la base du crâne).",
+      "answers": [
+        {
+          "text": "Écoulement de LCR par l'oreille, fracture du rocher",
+          "is_correct": true
+        },
+        {
+          "text": "Otite moyenne aiguë",
+          "is_correct": false
+        },
+        {
+          "text": "Perforation tympanique traumatique",
+          "is_correct": false
+        },
+        {
+          "text": "Otite externe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de la nuque raide (raideur méningée) ?",
+      "difficulty": "Facile",
+      "explanation": "La raideur de nuque est une limitation douloureuse de la flexion cervicale passive, évoquant une irritation méningée (méningite, hémorragie méningée).",
+      "answers": [
+        {
+          "text": "Limitation douloureuse de la flexion cervicale, irritation méningée",
+          "is_correct": true
+        },
+        {
+          "text": "Torticolis musculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Arthrose cervicale",
+          "is_correct": false
+        },
+        {
+          "text": "Contracture trapézienne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un œdème papillaire (stase papillaire) bilatéral ?",
+      "difficulty": "Moyen",
+      "explanation": "Un œdème papillaire bilatéral évoque une hypertension intracrânienne (tumeur, hydrocéphalie, thrombose veineuse cérébrale).",
+      "answers": [
+        {
+          "text": "Gonflement bilatéral de la papille, hypertension intracrânienne",
+          "is_correct": true
+        },
+        {
+          "text": "Névrite optique unilatérale",
+          "is_correct": false
+        },
+        {
+          "text": "Rétinopathie hypertensive",
+          "is_correct": false
+        },
+        {
+          "text": "Glaucome aigu",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Pemberton ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Pemberton est l'apparition d'une congestion faciale, d'une cyanose et d'une dyspnée lors de l'élévation des bras au-dessus de la tête pendant 1 minute, évoquant un goitre compressif médiastinal.",
+      "answers": [
+        {
+          "text": "Congestion faciale et dyspnée à l'élévation des bras, goitre compressif",
+          "is_correct": true
+        },
+        {
+          "text": "Signe de Kussmaul veineux",
+          "is_correct": false
+        },
+        {
+          "text": "Turgescence jugulaire permanente",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome cave supérieur",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la respiration de Kussmaul ?",
+      "difficulty": "Difficile",
+      "explanation": "La respiration de Kussmaul est une hyperventilation profonde et régulière, évoquant une acidose métabolique sévère (acidocétose diabétique, insuffisance rénale).",
+      "answers": [
+        {
+          "text": "Hyperventilation profonde et régulière, acidose métabolique",
+          "is_correct": true
+        },
+        {
+          "text": "Respiration de Cheyne-Stokes",
+          "is_correct": false
+        },
+        {
+          "text": "Respiration superficielle rapide",
+          "is_correct": false
+        },
+        {
+          "text": "Bradypnée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la respiration de Cheyne-Stokes ?",
+      "difficulty": "Moyen",
+      "explanation": "La respiration de Cheyne-Stokes est une alternance de phases d'apnée et d'hyperpnée croissante puis décroissante, évoquant une insuffisance cardiaque sévère ou une atteinte neurologique.",
+      "answers": [
+        {
+          "text": "Alternance apnée-hyperpnée croissante/décroissante",
+          "is_correct": true
+        },
+        {
+          "text": "Hyperventilation régulière",
+          "is_correct": false
+        },
+        {
+          "text": "Bradypnée constante",
+          "is_correct": false
+        },
+        {
+          "text": "Polypnée superficielle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la respiration de Biot ?",
+      "difficulty": "Difficile",
+      "explanation": "La respiration de Biot est une respiration irrégulière avec des pauses anarchiques, évoquant une atteinte bulbaire ou du tronc cérébral.",
+      "answers": [
+        {
+          "text": "Respiration irrégulière avec pauses anarchiques, atteinte bulbaire",
+          "is_correct": true
+        },
+        {
+          "text": "Respiration de Cheyne-Stokes",
+          "is_correct": false
+        },
+        {
+          "text": "Respiration de Kussmaul",
+          "is_correct": false
+        },
+        {
+          "text": "Tachypnée régulière",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le tirage intercostal ?",
+      "difficulty": "Facile",
+      "explanation": "Le tirage intercostal est une dépression des espaces intercostaux à l'inspiration, signe de détresse respiratoire (obstruction des voies aériennes, insuffisance respiratoire).",
+      "answers": [
+        {
+          "text": "Dépression des espaces intercostaux à l'inspiration, détresse respiratoire",
+          "is_correct": true
+        },
+        {
+          "text": "Bombement thoracique",
+          "is_correct": false
+        },
+        {
+          "text": "Respiration paradoxale",
+          "is_correct": false
+        },
+        {
+          "text": "Thorax en tonneau",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le cornage ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cornage est un bruit inspiratoire rauque et bruyant, évoquant une obstruction laryngée ou trachéale haute (œdème laryngé, épiglottite, corps étranger).",
+      "answers": [
+        {
+          "text": "Bruit inspiratoire rauque, obstruction laryngée/trachéale haute",
+          "is_correct": true
+        },
+        {
+          "text": "Sibilants expiratoires",
+          "is_correct": false
+        },
+        {
+          "text": "Râles crépitants",
+          "is_correct": false
+        },
+        {
+          "text": "Wheezing",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un wheezing ?",
+      "difficulty": "Facile",
+      "explanation": "Le wheezing est un sifflement respiratoire expiratoire, évoquant un bronchospasme (asthme, BPCO, insuffisance cardiaque).",
+      "answers": [
+        {
+          "text": "Sifflement expiratoire, bronchospasme",
+          "is_correct": true
+        },
+        {
+          "text": "Cornage inspiratoire",
+          "is_correct": false
+        },
+        {
+          "text": "Râles crépitants",
+          "is_correct": false
+        },
+        {
+          "text": "Frottement pleural",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un frottement pleural ?",
+      "difficulty": "Facile",
+      "explanation": "Le frottement pleural est un bruit râpeux synchrone avec la respiration, évoquant une pleurésie sèche ou une inflammation pleurale.",
+      "answers": [
+        {
+          "text": "Bruit râpeux synchrone avec la respiration, pleurésie sèche",
+          "is_correct": true
+        },
+        {
+          "text": "Râles crépitants",
+          "is_correct": false
+        },
+        {
+          "text": "Wheezing",
+          "is_correct": false
+        },
+        {
+          "text": "Souffle tubaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un souffle tubaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le souffle tubaire est un murmure vésiculaire renforcé et soufflant, entendu lors d'une condensation pulmonaire (pneumonie) ou au-dessus d'un épanchement pleural (souffle pleurétique).",
+      "answers": [
+        {
+          "text": "Murmure vésiculaire renforcé soufflant, condensation pulmonaire",
+          "is_correct": true
+        },
+        {
+          "text": "Abolition du murmure vésiculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Wheezing diffus",
+          "is_correct": false
+        },
+        {
+          "text": "Frottement pleural",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'haleine cétonique (odeur de pomme) ?",
+      "difficulty": "Facile",
+      "explanation": "L'haleine cétonique avec odeur de pomme ou de fruits évoque une acidocétose diabétique.",
+      "answers": [
+        {
+          "text": "Odeur fruitée de l'haleine, acidocétose diabétique",
+          "is_correct": true
+        },
+        {
+          "text": "Haleine urémique (ammoniaque)",
+          "is_correct": false
+        },
+        {
+          "text": "Haleine fétide (infection ORL)",
+          "is_correct": false
+        },
+        {
+          "text": "Haleine alcoolique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le foetor hepaticus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le foetor hepaticus est une odeur douceâtre de l'haleine évoquant une insuffisance hépatocellulaire sévère avec encéphalopathie hépatique.",
+      "answers": [
+        {
+          "text": "Odeur douceâtre de l'haleine, insuffisance hépatique sévère",
+          "is_correct": true
+        },
+        {
+          "text": "Haleine cétonique",
+          "is_correct": false
+        },
+        {
+          "text": "Haleine urémique",
+          "is_correct": false
+        },
+        {
+          "text": "Haleine fétide",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'haleine urémique ?",
+      "difficulty": "Facile",
+      "explanation": "L'haleine urémique a une odeur d'ammoniaque ou d'urine, évoquant une insuffisance rénale chronique terminale.",
+      "answers": [
+        {
+          "text": "Odeur d'ammoniaque/urine, insuffisance rénale terminale",
+          "is_correct": true
+        },
+        {
+          "text": "Haleine cétonique fruitée",
+          "is_correct": false
+        },
+        {
+          "text": "Foetor hepaticus",
+          "is_correct": false
+        },
+        {
+          "text": "Haleine normale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Nikolsky ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Nikolsky est un décollement cutané provoqué par le frottement de la peau saine, évoquant une nécrolyse épidermique toxique (syndrome de Lyell) ou un pemphigus.",
+      "answers": [
+        {
+          "text": "Décollement cutané au frottement, Lyell ou pemphigus",
+          "is_correct": true
+        },
+        {
+          "text": "Purpura ne s'effaçant pas",
+          "is_correct": false
+        },
+        {
+          "text": "Dermographisme",
+          "is_correct": false
+        },
+        {
+          "text": "Érythème polymorphe",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le dermographisme ?",
+      "difficulty": "Facile",
+      "explanation": "Le dermographisme est l'apparition d'un placard urticarien en relief après grattage ou frottement de la peau, souvent bénin ou évoquant une urticaire physique.",
+      "answers": [
+        {
+          "text": "Placard urticarien en relief après grattage cutané",
+          "is_correct": true
+        },
+        {
+          "text": "Signe de Nikolsky",
+          "is_correct": false
+        },
+        {
+          "text": "Purpura pétéchial",
+          "is_correct": false
+        },
+        {
+          "text": "Livedo reticularis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Darier ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Darier est l'apparition d'un œdème et d'un érythème local après frottement d'une lésion pigmentée, évoquant une mastocytose cutanée (urticaire pigmentaire).",
+      "answers": [
+        {
+          "text": "Œdème et érythème au frottement d'une lésion pigmentée, mastocytose",
+          "is_correct": true
+        },
+        {
+          "text": "Dermographisme généralisé",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Nikolsky",
+          "is_correct": false
+        },
+        {
+          "text": "Purpura au frottement",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de la pastille (ou signe de la pièce de monnaie) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de la pastille est une zone d'alopécie arrondie, bien délimitée, évoquant une pelade ou une teigne.",
+      "answers": [
+        {
+          "text": "Alopécie arrondie bien délimitée, pelade ou teigne",
+          "is_correct": true
+        },
+        {
+          "text": "Alopécie diffuse",
+          "is_correct": false
+        },
+        {
+          "text": "Alopécie cicatricielle",
+          "is_correct": false
+        },
+        {
+          "text": "Alopécie androgénétique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Koebner (phénomène isomorphe) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le phénomène de Koebner est l'apparition de lésions cutanées dans les zones de traumatisme (grattage, frottement), typique du psoriasis, du lichen plan et du vitiligo.",
+      "answers": [
+        {
+          "text": "Apparition de lésions dans les zones traumatisées, psoriasis/lichen",
+          "is_correct": true
+        },
+        {
+          "text": "Dermographisme simple",
+          "is_correct": false
+        },
+        {
+          "text": "Signe de Nikolsky",
+          "is_correct": false
+        },
+        {
+          "text": "Purpura post-traumatique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Gödet thyroïdien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le signe de Gödet thyroïdien est l'ascension de la glande thyroïde à la déglutition, permettant de différencier une masse thyroïdienne d'une adénopathie cervicale.",
+      "answers": [
+        {
+          "text": "Ascension de la thyroïde à la déglutition",
+          "is_correct": true
+        },
+        {
+          "text": "Masse fixe ne bougeant pas",
+          "is_correct": false
+        },
+        {
+          "text": "Goitre plongeant",
+          "is_correct": false
+        },
+        {
+          "text": "Adénopathie cervicale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Stellwag ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Stellwag est une raréfaction du clignement palpébral, observée dans l'hyperthyroïdie (maladie de Basedow).",
+      "answers": [
+        {
+          "text": "Raréfaction du clignement palpébral, hyperthyroïdie",
+          "is_correct": true
+        },
+        {
+          "text": "Exophtalmie bilatérale",
+          "is_correct": false
+        },
+        {
+          "text": "Ptosis palpébral",
+          "is_correct": false
+        },
+        {
+          "text": "Myosis bilatéral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de Graefe ?",
+      "difficulty": "Difficile",
+      "explanation": "Le signe de Graefe est un retard de la paupière supérieure lors du regard vers le bas, laissant apparaître la sclère supérieure, observé dans l'hyperthyroïdie.",
+      "answers": [
+        {
+          "text": "Retard palpébral supérieur au regard vers le bas, hyperthyroïdie",
+          "is_correct": true
+        },
+        {
+          "text": "Ptosis bilatéral",
+          "is_correct": false
+        },
+        {
+          "text": "Exophtalmie isolée",
+          "is_correct": false
+        },
+        {
+          "text": "Rétraction palpébrale inférieure",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'exophtalmie ?",
+      "difficulty": "Facile",
+      "explanation": "L'exophtalmie est une protrusion du globe oculaire hors de l'orbite, évoquant principalement une orbitopathie dysthyroïdienne (Basedow) ou une tumeur orbitaire.",
+      "answers": [
+        {
+          "text": "Protrusion du globe oculaire, orbitopathie dysthyroïdienne",
+          "is_correct": true
+        },
+        {
+          "text": "Énophtalmie",
+          "is_correct": false
+        },
+        {
+          "text": "Ptosis",
+          "is_correct": false
+        },
+        {
+          "text": "Myosis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le signe de la main d'accoucheur (signe de Trousseau) ?",
+      "difficulty": "Moyen",
+      "explanation": "La main d'accoucheur est une contracture carpienne avec adduction du pouce et flexion des doigts, évoquant une hypocalcémie sévère (tétanie).",
+      "answers": [
+        {
+          "text": "Contracture carpienne avec adduction du pouce, hypocalcémie",
+          "is_correct": true
+        },
+        {
+          "text": "Main tombante par atteinte radiale",
+          "is_correct": false
+        },
+        {
+          "text": "Main en griffe cubitale",
+          "is_correct": false
+        },
+        {
+          "text": "Doigt en maillet",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une main tombante ?",
+      "difficulty": "Facile",
+      "explanation": "La main tombante est une impossibilité d'extension du poignet et des doigts due à une paralysie du nerf radial.",
+      "answers": [
+        {
+          "text": "Impossibilité d'extension du poignet, paralysie nerf radial",
+          "is_correct": true
+        },
+        {
+          "text": "Main en griffe",
+          "is_correct": false
+        },
+        {
+          "text": "Main d'accoucheur",
+          "is_correct": false
+        },
+        {
+          "text": "Contracture de Dupuytren",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une main en griffe cubitale ?",
+      "difficulty": "Moyen",
+      "explanation": "La main en griffe cubitale est une hyperextension des métacarpo-phalangiennes et une flexion des interphalangiennes des 4e et 5e doigts, due à une paralysie du nerf ulnaire (cubital).",
+      "answers": [
+        {
+          "text": "Hyperextension MCP et flexion IP des 4e-5e doigts, nerf ulnaire",
+          "is_correct": true
+        },
+        {
+          "text": "Main tombante",
+          "is_correct": false
+        },
+        {
+          "text": "Main en singe (nerf médian)",
+          "is_correct": false
+        },
+        {
+          "text": "Main d'accoucheur",
+          "is_correct": false
+        }
       ]
     }
   ]

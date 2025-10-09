@@ -6,10 +6,10 @@
       "difficulty": "Moyen",
       "explanation": "L'athérosclérose des artères cérébrales ou carotidiennes est la cause la plus fréquente d'AVC ischémique, par formation de caillots.",
       "answers": [
-        {"text": "Hémorragie cérébrale", "is_correct": false},
-        {"text": "Athérosclérose", "is_correct": true},
-        {"text": "Infection virale", "is_correct": false},
-        {"text": "Traumatisme crânien", "is_correct": false}
+        { "text": "Hémorragie cérébrale", "is_correct": false },
+        { "text": "Athérosclérose", "is_correct": true },
+        { "text": "Infection virale", "is_correct": false },
+        { "text": "Traumatisme crânien", "is_correct": false }
       ]
     },
     {
@@ -17,10 +17,3724 @@
       "difficulty": "Facile",
       "explanation": "Le tremblement de repos est un signe cardinal de la maladie de Parkinson, souvent associé à une rigidité et une akinésie.",
       "answers": [
-        {"text": "Paralysie faciale", "is_correct": false},
-        {"text": "Tremblement de repos", "is_correct": true},
-        {"text": "Perte de mémoire", "is_correct": false},
-        {"text": "Cécité", "is_correct": false}
+        { "text": "Paralysie faciale", "is_correct": false },
+        { "text": "Tremblement de repos", "is_correct": true },
+        { "text": "Perte de mémoire", "is_correct": false },
+        { "text": "Cécité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la classification TOAST des AVC ischémiques ?",
+      "difficulty": "Moyen",
+      "explanation": "La classification TOAST distingue 5 types : athérosclérose des gros troncs, cardio-embolique, occlusion des petites artères (lacunaire), autres causes déterminées, cause indéterminée. Elle guide l'étiologie et le traitement.",
+      "answers": [
+        { "text": "Classification anatomique uniquement", "is_correct": false },
+        { "text": "Classification étiologique en 5 types", "is_correct": true },
+        { "text": "Score de gravité neurologique", "is_correct": false },
+        { "text": "Classification des hémorragies", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score NIHSS ?",
+      "difficulty": "Moyen",
+      "explanation": "Le NIHSS (National Institutes of Health Stroke Scale) évalue la sévérité d'un AVC ischémique (0-42 points) : conscience, oculomotricité, champ visuel, motricité, sensibilité, langage, extinction/négligence. Guide indication thrombolyse/thrombectomie.",
+      "answers": [
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        {
+          "text": "Échelle de sévérité de l'AVC (0-42 points)",
+          "is_correct": true
+        },
+        { "text": "Classification étiologique", "is_correct": false },
+        { "text": "Score de pronostic à long terme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score de Rankin modifié (mRS) ?",
+      "difficulty": "Facile",
+      "explanation": "Le mRS évalue le handicap fonctionnel après AVC (0-6) : 0 (asymptomatique), 1-2 (handicap léger), 3 (handicap modéré), 4-5 (handicap sévère), 6 (décès). Utilisé pour évaluer l'efficacité des traitements.",
+      "answers": [
+        { "text": "Échelle de conscience", "is_correct": false },
+        { "text": "Échelle de handicap fonctionnel (0-6)", "is_correct": true },
+        { "text": "Score de sévérité initiale", "is_correct": false },
+        { "text": "Classification des infarctus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les territoires artériels cérébraux principaux ?",
+      "difficulty": "Moyen",
+      "explanation": "Les 3 territoires principaux : artère cérébrale antérieure (ACA, face interne hémisphère), artère cérébrale moyenne/sylvienne (ACM, convexité), artère cérébrale postérieure (ACP, lobe occipital). Permet localisation topographique des AVC.",
+      "answers": [
+        { "text": "Carotide, vertébrale, basilaire", "is_correct": false },
+        { "text": "ACA, ACM, ACP", "is_correct": true },
+        { "text": "Frontale, pariétale, temporale", "is_correct": false },
+        { "text": "Droite, gauche, médiane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un AVC sylvien (ACM) et quels sont ses signes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'AVC sylvien (territoire ACM, le plus fréquent) cause : hémiplégie et hémianesthésie facio-brachio-crurale controlatérales, aphasie (hémisphère dominant), héminégligence (hémisphère mineur), déviation conjuguée de la tête et des yeux vers la lésion.",
+      "answers": [
+        { "text": "Cécité bilatérale", "is_correct": false },
+        {
+          "text": "Hémiplégie + aphasie/héminégligence + déviation oculaire",
+          "is_correct": true
+        },
+        {
+          "text": "Paralysie des membres inférieurs isolée",
+          "is_correct": false
+        },
+        { "text": "Vertiges rotatoires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un AVC du territoire ACA et quels sont ses signes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'AVC du territoire ACA cause : monoparésie ou hémiparésie crurale prédominante controlatérale (cortex moteur face interne), troubles sphinctériens, apragmatisme, mutisme akinétique si bilatéral.",
+      "answers": [
+        { "text": "Hémiplégie brachio-faciale", "is_correct": false },
+        {
+          "text": "Hémiparésie crurale prédominante controlatérale",
+          "is_correct": true
+        },
+        { "text": "Hémianopsie latérale homonyme", "is_correct": false },
+        { "text": "Aphasie de Broca", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un AVC du territoire ACP et quels sont ses signes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'AVC du territoire ACP cause : hémianopsie latérale homonyme controlatérale (cortex occipital), cécité corticale si bilatéral, alexie sans agraphie, prosopagnosie, héminégligence visuelle, syndrome thalamique.",
+      "answers": [
+        { "text": "Hémiplégie motrice", "is_correct": false },
+        {
+          "text": "Hémianopsie latérale homonyme + troubles visuels",
+          "is_correct": true
+        },
+        { "text": "Aphasie de Wernicke", "is_correct": false },
+        { "text": "Syndrome cérébelleux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Wallenberg (infarctus bulbaire latéral) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le Wallenberg (PICA) associe : vertiges, syndrome cérébelleux homolatéral, syndrome de Claude Bernard-Horner homolatéral, hémianesthésie thermo-algique croisée (face homolatérale, corps controlatéral), dysphagie, dysarthrie, hoquet.",
+      "answers": [
+        { "text": "Hémiplégie avec aphasie", "is_correct": false },
+        {
+          "text": "Vertiges + CBH + anesthésie croisée + dysphagie",
+          "is_correct": true
+        },
+        { "text": "Cécité corticale", "is_correct": false },
+        { "text": "Syndrome pyramidal pur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de l'artère basilaire (top of the basilar) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'occlusion du tronc basilaire cause : tétraplégie, paralysie de tous les nerfs crâniens, troubles de conscience (coma), locked-in syndrome, atteinte des pédoncules cérébraux et du pont. Pronostic gravissime.",
+      "answers": [
+        { "text": "AVC sylvien bilatéral", "is_correct": false },
+        {
+          "text": "Tétraplégie + atteinte NC + coma (locked-in possible)",
+          "is_correct": true
+        },
+        { "text": "Cécité corticale isolée", "is_correct": false },
+        { "text": "Syndrome cérébelleux pur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le locked-in syndrome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le locked-in syndrome (infarctus pontique bilatéral ventral) : tétraplégie, anarthrie (mutisme), conscience et cognition préservées, communication uniquement par clignements oculaires verticaux (seuls mouvements préservés). Pronostic sombre.",
+      "answers": [
+        { "text": "Coma profond", "is_correct": false },
+        {
+          "text": "Tétraplégie + mutisme avec conscience préservée",
+          "is_correct": true
+        },
+        { "text": "État végétatif", "is_correct": false },
+        { "text": "Démence sévère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un AVC lacunaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'AVC lacunaire (infarctus profond <15 mm) résulte de l'occlusion d'une artère perforante (lipohyalinose, HTA chronique). 5 syndromes : hémiparésie motrice pure, hémianesthésie pure, hémiparésie-ataxie, dysarthrie-main malhabile, hémiparésie sensitive.",
+      "answers": [
+        { "text": "Infarctus cortical étendu", "is_correct": false },
+        {
+          "text": "Infarctus profond <15 mm (artère perforante, HTA)",
+          "is_correct": true
+        },
+        { "text": "Hémorragie intracérébrale", "is_correct": false },
+        { "text": "AVC embolique d'origine cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la thrombolyse IV (rtPA) dans l'AVC ischémique ?",
+      "difficulty": "Moyen",
+      "explanation": "Thrombolyse IV (altéplase 0,9 mg/kg) si : AVC ischémique <4h30, NIHSS mesurable, âge >18 ans, imagerie excluant hémorragie. Contre-indications : hémorragie active, chirurgie/trauma récent, HTA >185/110, glycémie <0,5 ou >4 g/L, plaquettes <100000.",
+      "answers": [
+        { "text": "Tout AVC dans les 24h", "is_correct": false },
+        {
+          "text": "AVC ischémique <4h30 sans contre-indication",
+          "is_correct": true
+        },
+        { "text": "Uniquement AVC hémorragique", "is_correct": false },
+        { "text": "AVC avec NIHSS >25", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la thrombectomie mécanique ?",
+      "difficulty": "Moyen",
+      "explanation": "Thrombectomie si : occlusion proximale (carotide interne, M1, M2 proximal, basilaire), <6h (ou 6-24h si critères sélectionnés : mismatch clinico-radiologique, ASPECTS favorable), en complément ou alternative à la thrombolyse IV.",
+      "answers": [
+        { "text": "Tout AVC mineur", "is_correct": false },
+        {
+          "text": "Occlusion proximale <6h (ou 6-24h si critères)",
+          "is_correct": true
+        },
+        { "text": "AVC lacunaire uniquement", "is_correct": false },
+        { "text": "Contre-indiquée si >80 ans", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score ASPECTS ?",
+      "difficulty": "Difficile",
+      "explanation": "L'ASPECTS (Alberta Stroke Program Early CT Score) évalue l'étendue précoce de l'infarctus sylvien au scanner (10 points). Score ≥6 : bon candidat à la thrombectomie. <6 : infarctus étendu, risque hémorragique élevé.",
+      "answers": [
+        { "text": "Score de sévérité clinique", "is_correct": false },
+        {
+          "text": "Score radiologique d'étendue de l'infarctus (10 points)",
+          "is_correct": true
+        },
+        { "text": "Score de risque hémorragique", "is_correct": false },
+        { "text": "Score de pronostic fonctionnel", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le mismatch diffusion-perfusion en IRM ?",
+      "difficulty": "Difficile",
+      "explanation": "Le mismatch diffusion-perfusion représente la pénombre ischémique (tissu hypoperfusé mais viable). Diffusion (DWI) = noyau nécrotique. Perfusion (PWI) = zone hypoperfusée. Mismatch = PWI > DWI, cible potentielle de reperfusion tardive (6-24h).",
+      "answers": [
+        { "text": "Artefact IRM", "is_correct": false },
+        {
+          "text": "Pénombre ischémique viable (cible reperfusion)",
+          "is_correct": true
+        },
+        { "text": "Zone d'hémorragie", "is_correct": false },
+        { "text": "Infarctus ancien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les principales causes d'hémorragie intracérébrale (HIC) ?",
+      "difficulty": "Facile",
+      "explanation": "Causes HIC : HTA chronique (capsulo-thalamique, protubérantielle, cérébelleuse), angiopathie amyloïde (lobaire, sujet âgé), anticoagulants/antiagrégants, malformations vasculaires (MAV, cavernome), tumeurs, thrombose veineuse.",
+      "answers": [
+        { "text": "Uniquement traumatisme", "is_correct": false },
+        {
+          "text": "HTA, angiopathie amyloïde, anticoagulants, MAV",
+          "is_correct": true
+        },
+        { "text": "Infection bactérienne", "is_correct": false },
+        { "text": "Carence vitaminique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'angiopathie amyloïde cérébrale ?",
+      "difficulty": "Difficile",
+      "explanation": "L'angiopathie amyloïde (dépôts de substance amyloïde β dans parois artérioles corticales) cause HIC lobaires récidivantes chez sujets âgés. IRM : microsaignements lobaires (T2*), sidérose corticale. Facteur de risque : ApoE ε4. Éviter anticoagulants.",
+      "answers": [
+        { "text": "Infection du SNC", "is_correct": false },
+        {
+          "text": "Dépôts amyloïdes (HIC lobaires récidivantes, sujet âgé)",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Athérosclérose coronarienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une hémorragie méningée (HSA) et quels sont ses signes ?",
+      "difficulty": "Facile",
+      "explanation": "L'HSA (hémorragie dans l'espace sous-arachnoïdien) se manifeste par : céphalée brutale en coup de tonnerre, raideur méningée, photophobie, vomissements, troubles de conscience. Cause principale : rupture d'anévrisme intracrânien (85%).",
+      "answers": [
+        { "text": "Céphalée progressive chronique", "is_correct": false },
+        {
+          "text": "Céphalée brutale (coup de tonnerre) + raideur méningée",
+          "is_correct": true
+        },
+        { "text": "Vertige isolé", "is_correct": false },
+        { "text": "Perte de mémoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le bilan diagnostique d'une hémorragie méningée ?",
+      "difficulty": "Moyen",
+      "explanation": "Bilan HSA : TDM cérébral sans injection (sang hyperdense dans espaces sous-arachnoïdiens). Si TDM négatif et forte suspicion : PL (LCR xanthochromique). Puis angioscanner/angio-IRM/artériographie pour rechercher anévrisme.",
+      "answers": [
+        { "text": "IRM uniquement", "is_correct": false },
+        {
+          "text": "TDM ± PL puis angiographie (recherche anévrisme)",
+          "is_correct": true
+        },
+        { "text": "EEG", "is_correct": false },
+        { "text": "Échographie transfontanellaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le vasospasme post-HSA ?",
+      "difficulty": "Difficile",
+      "explanation": "Le vasospasme (spasme artériel retardé J4-J14 post-HSA) cause infarctus cérébraux secondaires. Prévention : nimodipine PO systématique. Diagnostic : doppler transcrânien, angiographie. Traitement : triple H (hypervolémie, hypertension, hémodilution), angioplastie.",
+      "answers": [
+        { "text": "Complication bénigne sans traitement", "is_correct": false },
+        {
+          "text": "Spasme artériel J4-J14 (infarctus, nimodipine préventive)",
+          "is_correct": true
+        },
+        { "text": "Infection du LCR", "is_correct": false },
+        { "text": "Récidive hémorragique précoce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la classification de Fisher pour l'HSA ?",
+      "difficulty": "Difficile",
+      "explanation": "La classification de Fisher (scanner) prédit le risque de vasospasme : 1 (pas de sang visible), 2 (sang <1 mm), 3 (caillot >1 mm, risque vasospasme maximal), 4 (sang intraventriculaire/intraparenchymateux sans HSA diffuse).",
+      "answers": [
+        { "text": "Classification clinique de gravité", "is_correct": false },
+        {
+          "text": "Classification radiologique prédisant le vasospasme",
+          "is_correct": true
+        },
+        { "text": "Score de handicap post-AVC", "is_correct": false },
+        { "text": "Classification des anévrismes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la classification de Hunt et Hess ?",
+      "difficulty": "Moyen",
+      "explanation": "La classification de Hunt et Hess évalue la gravité clinique de l'HSA : I (asymptomatique/céphalée minime), II (céphalée modérée/sévère, raideur), III (somnolence, déficit minime), IV (stupeur, hémiparésie), V (coma profond). Pronostic selon grade.",
+      "answers": [
+        { "text": "Classification radiologique", "is_correct": false },
+        {
+          "text": "Classification clinique de gravité HSA (I-V)",
+          "is_correct": true
+        },
+        { "text": "Classification des tumeurs", "is_correct": false },
+        { "text": "Score de conscience de Glasgow", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un anévrisme intracrânien et quels sont les sites les plus fréquents ?",
+      "difficulty": "Moyen",
+      "explanation": "L'anévrisme intracrânien est une dilatation artérielle (sacciforme le plus souvent). Sites fréquents : communicante antérieure (30%), carotide interne (25%), ACM (20%), communicante postérieure, basilaire. Facteurs de risque : HTA, tabac, polykystose rénale.",
+      "answers": [
+        { "text": "Dilatation veineuse", "is_correct": false },
+        {
+          "text": "Dilatation artérielle (comm. ant., carotide, ACM)",
+          "is_correct": true
+        },
+        { "text": "Tumeur vasculaire", "is_correct": false },
+        { "text": "Malformation lymphatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement d'un anévrisme rompu ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement anévrisme rompu : exclusion précoce (<24-72h) par clippage chirurgical ou embolisation endovasculaire (coils). Choix selon anatomie, âge, état clinique. Nimodipine systématique (prévention vasospasme). Surveillance réanimation.",
+      "answers": [
+        { "text": "Surveillance simple", "is_correct": false },
+        {
+          "text": "Exclusion précoce (clippage ou coils) + nimodipine",
+          "is_correct": true
+        },
+        { "text": "Anticoagulation", "is_correct": false },
+        { "text": "Radiothérapie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une malformation artério-veineuse (MAV) cérébrale ?",
+      "difficulty": "Moyen",
+      "explanation": "La MAV est une communication anormale entre artères et veines (sans capillaires interposés). Risque : hémorragie (2-4%/an), crises d'épilepsie, déficit neurologique. Diagnostic : IRM, angiographie. Traitement : chirurgie, embolisation, radiochirurgie.",
+      "answers": [
+        { "text": "Tumeur vasculaire bénigne", "is_correct": false },
+        {
+          "text": "Communication artério-veineuse anormale (hémorragie, épilepsie)",
+          "is_correct": true
+        },
+        { "text": "Anévrisme artériel", "is_correct": false },
+        { "text": "Thrombose veineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un cavernome cérébral ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cavernome est une malformation vasculaire à bas débit (cavités sinusoïdales). Risque : hémorragie (plus faible que MAV), crises d'épilepsie. IRM : lésion en pop-corn, anneau d'hémosidérine (T2*). Traitement : chirurgie si symptomatique/accessible.",
+      "answers": [
+        { "text": "Anévrisme géant", "is_correct": false },
+        {
+          "text": "Malformation à bas débit (pop-corn IRM, hémorragie/épilepsie)",
+          "is_correct": true
+        },
+        { "text": "Tumeur maligne", "is_correct": false },
+        { "text": "Thrombose artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une thrombose veineuse cérébrale (TVC) ?",
+      "difficulty": "Moyen",
+      "explanation": "La TVC (thrombose sinus veineux/veines corticales) cause céphalées, crises d'épilepsie, déficit focal, HTIC. Causes : contraception œstroprogestative, grossesse/post-partum, thrombophilie, infections ORL, déshydratation. Diagnostic : IRM veineuse. Traitement : anticoagulation.",
+      "answers": [
+        { "text": "Thrombose artérielle", "is_correct": false },
+        {
+          "text": "Thrombose veineuse (céphalées, HTIC, contraception, anticoagulation)",
+          "is_correct": true
+        },
+        { "text": "Hémorragie méningée", "is_correct": false },
+        { "text": "Tumeur cérébrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'épilepsie et comment la définir ?",
+      "difficulty": "Facile",
+      "explanation": "L'épilepsie est une affection neurologique caractérisée par la prédisposition à générer des crises épileptiques récurrentes. Définition : ≥2 crises non provoquées espacées de >24h, ou 1 crise avec risque de récidive >60%, ou diagnostic de syndrome épileptique.",
+      "answers": [
+        { "text": "Une seule crise convulsive", "is_correct": false },
+        {
+          "text": "≥2 crises non provoquées ou 1 crise + risque >60%",
+          "is_correct": true
+        },
+        { "text": "Troubles du comportement", "is_correct": false },
+        { "text": "Maladie psychiatrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre crise épileptique généralisée et focale ?",
+      "difficulty": "Facile",
+      "explanation": "Crise généralisée : décharge synchrone bilatérale dès le début (tonico-clonique, absence, myoclonique). Crise focale : début localisé dans un hémisphère (motrice, sensitive, avec/sans troubles de conscience), peut se généraliser secondairement.",
+      "answers": [
+        { "text": "Pas de différence", "is_correct": false },
+        {
+          "text": "Généralisée : bilatérale d'emblée ; Focale : début localisé",
+          "is_correct": true
+        },
+        {
+          "text": "Généralisée : bénigne ; Focale : grave",
+          "is_correct": false
+        },
+        {
+          "text": "Généralisée : enfant ; Focale : adulte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une crise tonico-clonique généralisée (grand mal) ?",
+      "difficulty": "Facile",
+      "explanation": "La crise tonico-clonique généralisée associe : perte de conscience brutale, phase tonique (raideur, cri, morsure langue, apnée), phase clonique (secousses rythmiques), phase résolutive (confusion post-critique, hypotonie). Risque : traumatisme, état de mal.",
+      "answers": [
+        { "text": "Absence brève", "is_correct": false },
+        {
+          "text": "Perte conscience + phase tonique puis clonique",
+          "is_correct": true
+        },
+        { "text": "Myoclonies isolées", "is_correct": false },
+        { "text": "Spasmes infantiles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une absence épileptique (petit mal) ?",
+      "difficulty": "Facile",
+      "explanation": "L'absence est une crise généralisée brève (5-20 sec) avec suspension de conscience, regard fixe, arrêt activité en cours, sans chute ni phase post-critique. EEG : pointes-ondes 3 Hz. Typique de l'épilepsie-absence de l'enfant.",
+      "answers": [
+        { "text": "Crise convulsive généralisée", "is_correct": false },
+        {
+          "text": "Suspension de conscience brève (5-20s), EEG 3 Hz",
+          "is_correct": true
+        },
+        { "text": "Perte de mémoire progressive", "is_correct": false },
+        { "text": "Crise focale motrice", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un état de mal épileptique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'état de mal est une crise >5 min ou crises récurrentes sans récupération intercritique. Urgence vitale (état de mal convulsif). Traitement : benzodiazépines IV (diazépam, clonazépam), puis antiépileptique IV (phénytoïne, valproate, lévétiracétam), réanimation.",
+      "answers": [
+        { "text": "Crise brève isolée", "is_correct": false },
+        {
+          "text": "Crise >5 min ou crises sans récupération (urgence)",
+          "is_correct": true
+        },
+        { "text": "Absence typique", "is_correct": false },
+        { "text": "Myoclonies bénignes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les principaux antiépileptiques de première génération ?",
+      "difficulty": "Moyen",
+      "explanation": "Antiépileptiques 1ère génération : phénobarbital, phénytoïne, carbamazépine, valproate de sodium. Efficaces mais nombreuses interactions médicamenteuses, effets indésirables, surveillance des concentrations plasmatiques nécessaire.",
+      "answers": [
+        { "text": "Benzodiazépines uniquement", "is_correct": false },
+        {
+          "text": "Phénobarbital, phénytoïne, carbamazépine, valproate",
+          "is_correct": true
+        },
+        { "text": "Antidépresseurs", "is_correct": false },
+        { "text": "Neuroleptiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les principaux antiépileptiques de nouvelle génération ?",
+      "difficulty": "Moyen",
+      "explanation": "Antiépileptiques nouvelle génération : lévétiracétam, lamotrigine, topiramate, oxcarbazépine, gabapentine, prégabaline, lacosamide. Moins d'interactions médicamenteuses, meilleure tolérance, pas de surveillance plasmatique.",
+      "answers": [
+        { "text": "Phénytoïne, carbamazépine", "is_correct": false },
+        {
+          "text": "Lévétiracétam, lamotrigine, topiramate, oxcarbazépine",
+          "is_correct": true
+        },
+        { "text": "Benzodiazépines uniquement", "is_correct": false },
+        { "text": "Antipsychotiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les indications de la chirurgie de l'épilepsie ?",
+      "difficulty": "Difficile",
+      "explanation": "Chirurgie de l'épilepsie si : épilepsie focale pharmaco-résistante (≥2 antiépileptiques bien conduits), lésion accessible (sclérose hippocampique, tumeur, dysplasie corticale), bilan pré-chirurgical complet (EEG, IRM, SEEG, tests neuropsychologiques).",
+      "answers": [
+        { "text": "Toute épilepsie", "is_correct": false },
+        {
+          "text": "Épilepsie focale pharmaco-résistante avec lésion accessible",
+          "is_correct": true
+        },
+        { "text": "Épilepsie généralisée idiopathique", "is_correct": false },
+        { "text": "Première crise épileptique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sclérose hippocampique et quelle est son importance ?",
+      "difficulty": "Moyen",
+      "explanation": "La sclérose hippocampique est une atrophie/gliose de l'hippocampe, principale cause d'épilepsie temporale pharmaco-résistante. IRM : hypersignal T2 FLAIR et atrophie hippocampe. Bonne indication chirurgicale (lobectomie temporale antérieure).",
+      "answers": [
+        { "text": "Tumeur hippocampique", "is_correct": false },
+        {
+          "text": "Atrophie/gliose hippocampe (épilepsie temporale, chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Infection du SNC", "is_correct": false },
+        { "text": "Démence précoce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Parkinson idiopathique ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Parkinson est une maladie neurodégénérative liée à la perte de neurones dopaminergiques de la substance noire. Triade : tremblement de repos, rigidité, akinésie/bradykinésie. Signes non moteurs : troubles olfactifs, constipation, dépression, troubles cognitifs.",
+      "answers": [
+        { "text": "Maladie auto-immune", "is_correct": false },
+        {
+          "text": "Dégénérescence dopaminergique (tremblement, rigidité, akinésie)",
+          "is_correct": true
+        },
+        { "text": "Infection virale du SNC", "is_correct": false },
+        { "text": "Tumeur cérébrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères diagnostiques de la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "Critères diagnostiques : syndrome parkinsonien (akinésie + rigidité et/ou tremblement de repos), asymétrie initiale, amélioration nette sous L-dopa (test thérapeutique), absence de signes atypiques (chutes précoces, paralysie supranucléaire, dysautonomie sévère).",
+      "answers": [
+        { "text": "Tremblement isolé", "is_correct": false },
+        {
+          "text": "Akinésie + rigidité/tremblement + réponse L-dopa",
+          "is_correct": true
+        },
+        { "text": "IRM pathologique obligatoire", "is_correct": false },
+        { "text": "Troubles cognitifs précoces", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement Parkinson : L-dopa (+ inhibiteur décarboxylase : lévodopa/carbidopa ou bensérazide), agonistes dopaminergiques (pramipexole, ropinirole, rotigotine), IMAO-B (sélégiline, rasagiline), ICOMT (entacapone). Kinésithérapie. Stimulation cérébrale profonde si complications motrices.",
+      "answers": [
+        { "text": "Antibiotiques", "is_correct": false },
+        {
+          "text": "L-dopa + agonistes DA + IMAO-B ± stimulation profonde",
+          "is_correct": true
+        },
+        { "text": "Neuroleptiques", "is_correct": false },
+        { "text": "Immunosuppresseurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les complications motrices de la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "Complications motrices : fluctuations motrices (akinésie de fin de dose, effet on-off), dyskinésies (mouvements involontaires de pic de dose ou biphasiques), freezing (blocage moteur). Liées à la progression de la maladie et au traitement dopaminergique.",
+      "answers": [
+        { "text": "Pas de complications", "is_correct": false },
+        { "text": "Fluctuations, dyskinésies, freezing", "is_correct": true },
+        { "text": "Paralysie progressive", "is_correct": false },
+        { "text": "Cécité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la stimulation cérébrale profonde (DBS) dans la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "La DBS (stimulation du noyau sous-thalamique ou globus pallidus interne) est indiquée dans Parkinson avec complications motrices malgré traitement optimal. Améliore fluctuations, dyskinésies, tremblement. Nécessite bonne réponse initiale à la L-dopa, absence de troubles cognitifs sévères.",
+      "answers": [
+        { "text": "Traitement de première intention", "is_correct": false },
+        {
+          "text": "Stimulation NST/GPI (complications motrices, réponse L-dopa+)",
+          "is_correct": true
+        },
+        { "text": "Traitement de la démence", "is_correct": false },
+        { "text": "Ablation chirurgicale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la démence à corps de Lewy ?",
+      "difficulty": "Difficile",
+      "explanation": "La démence à corps de Lewy associe : syndrome démentiel précoce, fluctuations cognitives, hallucinations visuelles détaillées, parkinsonisme, hypersensibilité aux neuroleptiques, troubles du comportement en sommeil paradoxal. Inclusions de Lewy corticales et sous-corticales.",
+      "answers": [
+        { "text": "Maladie d'Alzheimer typique", "is_correct": false },
+        {
+          "text": "Démence + hallucinations visuelles + parkinsonisme + fluctuations",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Infection du SNC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la paralysie supranucléaire progressive (PSP) ?",
+      "difficulty": "Difficile",
+      "explanation": "La PSP (syndrome de Steele-Richardson-Olszewski) associe : syndrome parkinsonien axial (rigidité axiale, instabilité posturale, chutes précoces), paralysie supranucléaire du regard vertical (surtout vers le bas), dysarthrie, dysphagie, troubles cognitifs fronto-sous-corticaux. Pas de réponse L-dopa.",
+      "answers": [
+        { "text": "Maladie de Parkinson typique", "is_correct": false },
+        {
+          "text": "Parkinsonisme axial + paralysie regard vertical + chutes",
+          "is_correct": true
+        },
+        { "text": "Myasthénie", "is_correct": false },
+        { "text": "Sclérose en plaques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'atrophie multisystématisée (AMS) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'AMS associe syndrome parkinsonien, dysautonomie (hypotension orthostatique, troubles sphinctériens), syndrome cérébelleux et/ou pyramidal. Deux formes : AMS-P (parkinsonienne) et AMS-C (cérébelleuse). Pas de réponse L-dopa. IRM : atrophie putamen, pédoncules cérébelleux.",
+      "answers": [
+        { "text": "Maladie de Parkinson idiopathique", "is_correct": false },
+        {
+          "text": "Parkinsonisme + dysautonomie + syndrome cérébelleux/pyramidal",
+          "is_correct": true
+        },
+        { "text": "Sclérose en plaques", "is_correct": false },
+        { "text": "Maladie d'Alzheimer", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la chorée de Huntington ?",
+      "difficulty": "Moyen",
+      "explanation": "La chorée de Huntington (maladie génétique autosomique dominante, répétition CAG gène huntingtine) associe : mouvements choréiques (involontaires, irréguliers), troubles psychiatriques (dépression, irritabilité), démence sous-corticale progressive. Début adulte jeune. Pas de traitement curatif.",
+      "answers": [
+        { "text": "Maladie infectieuse", "is_correct": false },
+        {
+          "text": "Maladie génétique AD (chorée + troubles psy + démence)",
+          "is_correct": true
+        },
+        { "text": "Carence vitaminique", "is_correct": false },
+        { "text": "Tumeur cérébrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sclérose en plaques (SEP) ?",
+      "difficulty": "Facile",
+      "explanation": "La SEP est une maladie inflammatoire démyélinisante auto-immune du SNC. Critères : dissémination temporelle (≥2 poussées) et spatiale (≥2 lésions distinctes en IRM). Signes : névrite optique rétrobulbaire, syndrome médullaire, troubles moteurs/sensitifs/cérébelleux.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Maladie inflammatoire démyélinisante auto-immune",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Maladie vasculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères de McDonald pour le diagnostic de SEP ?",
+      "difficulty": "Difficile",
+      "explanation": "Critères de McDonald (2017) : dissémination spatiale (≥2 lésions T2 dans ≥2 zones : périventriculaire, corticale/juxtacorticale, infratentorielle, médullaire) et temporelle (lésions rehaussées et non rehaussées au gadolinium simultanément, ou nouvelle lésion). Bandes oligoclonales LCR aident.",
+      "answers": [
+        { "text": "Uniquement clinique", "is_correct": false },
+        {
+          "text": "Dissémination spatiale et temporelle (IRM, LCR)",
+          "is_correct": true
+        },
+        { "text": "Uniquement bandes oligoclonales", "is_correct": false },
+        { "text": "Test génétique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une poussée de sclérose en plaques ?",
+      "difficulty": "Facile",
+      "explanation": "Une poussée de SEP est l'apparition de nouveaux symptômes neurologiques ou aggravation de symptômes existants, durant ≥24h, en l'absence de fièvre/infection. Traduit une nouvelle lésion inflammatoire démyélinisante active. Traitement : corticoïdes IV (méthylprednisolone 1g/j × 3-5j).",
+      "answers": [
+        { "text": "Symptômes transitoires <1h", "is_correct": false },
+        {
+          "text": "Nouveaux symptômes ≥24h (corticoïdes IV)",
+          "is_correct": true
+        },
+        { "text": "Fièvre isolée", "is_correct": false },
+        { "text": "Crise d'épilepsie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les traitements de fond de la sclérose en plaques rémittente ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitements de fond SEP-RR : interférons β (1a, 1b), acétate de glatiramère, tériflunomide, diméthyl fumarate (1ère ligne). Natalizumab, fingolimod, ocrelizumab, alemtuzumab (2ème ligne si échec/forme agressive). But : réduire poussées, ralentir progression.",
+      "answers": [
+        { "text": "Corticoïdes au long cours", "is_correct": false },
+        {
+          "text": "Interférons, glatiramère, DMF, natalizumab, ocrelizumab",
+          "is_correct": true
+        },
+        { "text": "Antibiotiques", "is_correct": false },
+        { "text": "Aucun traitement disponible", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la névrite optique rétrobulbaire (NORB) ?",
+      "difficulty": "Facile",
+      "explanation": "La NORB (inflammation du nerf optique) se manifeste par : baisse d'acuité visuelle unilatérale subaiguë, douleur oculaire à la mobilisation, scotome central, signe de Marcus Gunn (déficit pupillaire afférent relatif). Cause fréquente : SEP (50%). IRM orbites + cérébrale.",
+      "answers": [
+        { "text": "Glaucome aigu", "is_correct": false },
+        {
+          "text": "Inflammation nerf optique (BAV, douleur, scotome, SEP 50%)",
+          "is_correct": true
+        },
+        { "text": "Décollement de rétine", "is_correct": false },
+        { "text": "Cataracte", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la neuromyélite optique de Devic (NMOSD) ?",
+      "difficulty": "Difficile",
+      "explanation": "La NMOSD est une maladie inflammatoire démyélinisante distincte de la SEP, liée aux anticorps anti-aquaporine-4. Atteinte : névrite optique bilatérale sévère, myélite étendue (≥3 segments), area postrema. IRM : lésions médullaires longues. Traitement : corticoïdes, échanges plasmatiques, rituximab.",
+      "answers": [
+        { "text": "Forme de SEP classique", "is_correct": false },
+        {
+          "text": "Maladie anti-AQP4 (névrite optique + myélite étendue)",
+          "is_correct": true
+        },
+        { "text": "Myasthénie", "is_correct": false },
+        { "text": "Polyradiculonévrite aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Moyen",
+      "explanation": "La SLA (maladie de Charcot) est une dégénérescence des motoneurones centraux (faisceau pyramidal) et périphériques (cornes antérieures). Signes : syndrome pyramidal + amyotrophie/fasciculations, dysarthrie, dysphagie, insuffisance respiratoire. Pas d'atteinte sensitive/cognitive (initialement). Pronostic sombre.",
+      "answers": [
+        { "text": "Maladie musculaire primitive", "is_correct": false },
+        {
+          "text": "Dégénérescence motoneurones (pyramidal + amyotrophie)",
+          "is_correct": true
+        },
+        { "text": "Neuropathie sensitive", "is_correct": false },
+        { "text": "Démence frontotemporale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères diagnostiques de la SLA (critères d'El Escorial) ?",
+      "difficulty": "Difficile",
+      "explanation": "Critères d'El Escorial : atteinte simultanée du motoneurone central (syndrome pyramidal) et périphérique (amyotrophie, fasciculations, EMG neurogène) dans plusieurs territoires (bulbaire, cervical, dorsal, lombaire). Progression inexorable. Exclusion diagnostics différentiels.",
+      "answers": [
+        { "text": "Uniquement clinique", "is_correct": false },
+        {
+          "text": "Atteinte MNC + MNP dans plusieurs territoires + progression",
+          "is_correct": true
+        },
+        { "text": "IRM cérébrale pathologique", "is_correct": false },
+        { "text": "Biopsie musculaire spécifique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la SLA ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement SLA : riluzole (ralentit légèrement progression, survie +3 mois), édaravone (antioxydant). Prise en charge multidisciplinaire : kinésithérapie, orthophonie, nutrition (gastrostomie si dysphagie), ventilation non invasive (VNI), soins palliatifs. Pas de traitement curatif.",
+      "answers": [
+        { "text": "Guérison complète possible", "is_correct": false },
+        {
+          "text": "Riluzole + édaravone + soins multidisciplinaires (pas de cure)",
+          "is_correct": true
+        },
+        { "text": "Corticoïdes", "is_correct": false },
+        { "text": "Immunosuppresseurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la myasthénie auto-immune ?",
+      "difficulty": "Moyen",
+      "explanation": "La myasthénie est une maladie auto-immune par anticorps anti-récepteurs de l'acétylcholine (anti-RACh) à la jonction neuromusculaire. Signes : fatigabilité musculaire fluctuante, ptosis, diplopie, dysarthrie, dysphagie, faiblesse membres. Test : injection édrophonium (Tensilon), EMG, anticorps.",
+      "answers": [
+        { "text": "Maladie musculaire primitive", "is_correct": false },
+        {
+          "text": "Auto-immun anti-RACh (fatigabilité, ptosis, diplopie)",
+          "is_correct": true
+        },
+        { "text": "Neuropathie périphérique", "is_correct": false },
+        { "text": "Atteinte du SNC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la myasthénie ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement myasthénie : anticholinestérasiques (pyridostigmine), corticoïdes, immunosuppresseurs (azathioprine, mycophénolate), thymectomie (si thymome ou hyperplasie thymique, <60 ans). Crise myasthénique : plasmaphérèse ou immunoglobulines IV, réanimation.",
+      "answers": [
+        { "text": "Antibiotiques", "is_correct": false },
+        {
+          "text": "Pyridostigmine + corticoïdes + immunosuppresseurs ± thymectomie",
+          "is_correct": true
+        },
+        { "text": "L-dopa", "is_correct": false },
+        { "text": "Neuroleptiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Guillain-Barré (polyradiculonévrite aiguë) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le Guillain-Barré est une polyradiculonévrite inflammatoire aiguë démyélinisante auto-immune, souvent post-infectieuse (Campylobacter, CMV, EBV). Signes : parésie ascendante symétrique aréflexique, paresthésies, atteinte nerfs crâniens, insuffisance respiratoire. LCR : dissociation albumino-cytologique.",
+      "answers": [
+        { "text": "Myopathie inflammatoire", "is_correct": false },
+        {
+          "text": "Polyradiculonévrite aiguë (parésie ascendante, aréflexie)",
+          "is_correct": true
+        },
+        { "text": "AVC du tronc cérébral", "is_correct": false },
+        { "text": "Myasthénie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement du syndrome de Guillain-Barré ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement Guillain-Barré : immunoglobulines IV (IgIV 0,4 g/kg/j × 5j) ou échanges plasmatiques (plasmaphérèse). Surveillance réanimation (fonction respiratoire, dysautonomie). Kinésithérapie. Récupération progressive sur plusieurs mois. Pas de corticoïdes.",
+      "answers": [
+        { "text": "Corticoïdes seuls", "is_correct": false },
+        {
+          "text": "IgIV ou plasmaphérèse + réanimation + kiné",
+          "is_correct": true
+        },
+        { "text": "Antibiotiques", "is_correct": false },
+        { "text": "Observation simple", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la neuropathie diabétique ?",
+      "difficulty": "Facile",
+      "explanation": "La neuropathie diabétique (complication du diabète) se manifeste par : polyneuropathie sensitive distale symétrique (pieds en chaussettes), dysautonomie (hypotension orthostatique, gastroparésie, troubles vésicaux/sexuels), mononeuropathies (nerfs crâniens, médian). Prévention : équilibre glycémique.",
+      "answers": [
+        { "text": "Infection du système nerveux", "is_correct": false },
+        {
+          "text": "Polyneuropathie sensitive distale + dysautonomie (diabète)",
+          "is_correct": true
+        },
+        { "text": "AVC récurrent", "is_correct": false },
+        { "text": "Tumeur cérébrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome du canal carpien ?",
+      "difficulty": "Facile",
+      "explanation": "Le syndrome du canal carpien est une compression du nerf médian au poignet. Signes : paresthésies nocturnes des 3 premiers doigts, douleur poignet/main, amélioration en secouant la main. EMG confirme. Traitement : attelle nocturne, infiltration corticoïdes, chirurgie (libération).",
+      "answers": [
+        { "text": "Compression nerf ulnaire", "is_correct": false },
+        {
+          "text": "Compression nerf médian au poignet (paresthésies nocturnes)",
+          "is_correct": true
+        },
+        { "text": "Tendinite du poignet", "is_correct": false },
+        { "text": "Arthrose de la main", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie d'Alzheimer ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie d'Alzheimer est une démence neurodégénérative (accumulation β-amyloïde et protéine tau hyperphosphorylée). Signes : troubles mnésiques (mémoire épisodique), désorientation temporo-spatiale, aphasie, apraxie, agnosie. Début insidieux, progression lente. IRM : atrophie hippocampique.",
+      "answers": [
+        { "text": "Démence vasculaire", "is_correct": false },
+        {
+          "text": "Démence neurodégénérative (troubles mnésiques, amyloïde/tau)",
+          "is_correct": true
+        },
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Delirium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les biomarqueurs de la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "Biomarqueurs Alzheimer : LCR (↓ Aβ42, ↑ protéine tau totale et phosphorylée), TEP-amyloïde (visualise plaques amyloïdes), TEP-tau (visualise dégénérescence neurofibrillaire), IRM (atrophie hippocampique/temporale interne). Aident au diagnostic précoce.",
+      "answers": [
+        { "text": "Uniquement clinique", "is_correct": false },
+        {
+          "text": "LCR (Aβ42↓, tau↑), TEP-amyloïde, TEP-tau, IRM (atrophie)",
+          "is_correct": true
+        },
+        { "text": "Glycémie et cholestérol", "is_correct": false },
+        { "text": "EEG pathologique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la maladie d'Alzheimer ?",
+      "difficulty": "Moyen",
+      "explanation": "Traitement Alzheimer : inhibiteurs de l'acétylcholinestérase (donépézil, rivastigmine, galantamine) au stade léger-modéré, mémantine (antagoniste NMDA) au stade modéré-sévère. Prise en charge non médicamenteuse : stimulation cognitive, activité physique, soutien aidants. Pas de traitement curatif.",
+      "answers": [
+        { "text": "Guérison complète", "is_correct": false },
+        {
+          "text": "Inhibiteurs acétylcholinestérase + mémantine (symptomatique)",
+          "is_correct": true
+        },
+        { "text": "Antibiotiques", "is_correct": false },
+        { "text": "Neuroleptiques uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la démence fronto-temporale (DFT) ?",
+      "difficulty": "Difficile",
+      "explanation": "La DFT (dégénérescence lobaire fronto-temporale) regroupe plusieurs syndromes : variante comportementale (désinhibition, apathie, troubles comportement alimentaire), aphasie primaire progressive (non fluente, sémantique, logopénique). Début précoce (<65 ans). IRM : atrophie frontale/temporale.",
+      "answers": [
+        { "text": "Maladie d'Alzheimer typique", "is_correct": false },
+        {
+          "text": "Démence avec atteinte fronto-temporale (comportement, langage)",
+          "is_correct": true
+        },
+        { "text": "Démence vasculaire", "is_correct": false },
+        { "text": "Infection du SNC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'encéphalopathie de Wernicke ?",
+      "difficulty": "Moyen",
+      "explanation": "L'encéphalopathie de Wernicke (carence en vitamine B1/thiamine, alcoolisme chronique++) associe : confusion, ophtalmoplégie, ataxie (triade). Lésions : corps mamillaires, thalamus. Urgence : thiamine IV immédiate (avant glucose). Prévention du syndrome de Korsakoff (amnésie antérograde).",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Carence thiamine (confusion, ophtalmoplégie, ataxie, thiamine IV)",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "AVC multiples", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Korsakoff ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Korsakoff (séquelle d'encéphalopathie de Wernicke non/mal traitée) se caractérise par : amnésie antérograde sévère (incapacité mémoriser nouveaux faits), fabulations, fausses reconnaissances, anosognosie. Lésions : corps mamillaires, thalamus. Souvent irréversible.",
+      "answers": [
+        { "text": "Démence d'Alzheimer", "is_correct": false },
+        {
+          "text": "Amnésie antérograde post-Wernicke (fabulations)",
+          "is_correct": true
+        },
+        { "text": "Delirium tremens", "is_correct": false },
+        { "text": "Dépression", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la méningite bactérienne et quels sont les germes fréquents ?",
+      "difficulty": "Facile",
+      "explanation": "La méningite bactérienne (infection des méninges) se manifeste par : fièvre, céphalées, raideur méningée, troubles de conscience. Germes : méningocoque (adulte jeune), pneumocoque (adulte, enfant), Listeria (>50 ans, immunodéprimé). Urgence : antibiothérapie IV immédiate.",
+      "answers": [
+        { "text": "Infection virale bénigne", "is_correct": false },
+        {
+          "text": "Infection bactérienne (méningocoque, pneumocoque, Listeria)",
+          "is_correct": true
+        },
+        { "text": "Infection fongique", "is_correct": false },
+        { "text": "Tumeur méningée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le bilan d'une suspicion de méningite ?",
+      "difficulty": "Moyen",
+      "explanation": "Bilan méningite : hémocultures, ponction lombaire (après TDM si signes d'HTIC/déficit focal). LCR : formule, glucose, protéines, direct/culture, PCR. Antibiothérapie IV probabiliste immédiate sans attendre résultats : C3G (ceftriaxone/céfotaxime) ± amoxicilline (Listeria si >50 ans).",
+      "answers": [
+        { "text": "Attendre résultats avant traiter", "is_correct": false },
+        {
+          "text": "Hémocultures + PL ± TDM + antibiotiques IV immédiats",
+          "is_correct": true
+        },
+        { "text": "IRM cérébrale uniquement", "is_correct": false },
+        { "text": "Observation sans traitement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la méningite à méningocoque et quelle est sa prévention ?",
+      "difficulty": "Moyen",
+      "explanation": "La méningite à méningocoque (Neisseria meningitidis, sérogroupes B, C, Y, W) cause méningite/méningococcémie (purpura fulminans). Contagieuse. Antibioprophylaxie sujets contacts : rifampicine ou ciprofloxacine. Vaccination : anti-méningocoque C (nourrisson), ACYW, B.",
+      "answers": [
+        { "text": "Pas de prévention possible", "is_correct": false },
+        {
+          "text": "Antibioprophylaxie contacts + vaccination (C, ACYW, B)",
+          "is_correct": true
+        },
+        { "text": "Isolation uniquement", "is_correct": false },
+        { "text": "Traitement curatif uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'encéphalite herpétique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'encéphalite herpétique (HSV-1) est la cause la plus fréquente d'encéphalite sporadique. Signes : fièvre, troubles conscience, crises épilepsie, troubles comportement, aphasie. IRM : hypersignal temporal interne bilatéral asymétrique. LCR : PCR HSV. Traitement : aciclovir IV urgent.",
+      "answers": [
+        { "text": "Infection bactérienne", "is_correct": false },
+        {
+          "text": "Infection HSV-1 (temporal, PCR LCR, aciclovir IV urgent)",
+          "is_correct": true
+        },
+        { "text": "Démence d'Alzheimer", "is_correct": false },
+        { "text": "AVC sylvien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'abcès cérébral ?",
+      "difficulty": "Moyen",
+      "explanation": "L'abcès cérébral (collection purulente intraparenchymateuse) résulte d'une infection bactérienne (contiguïté : otite, sinusite ; hématogène : endocardite). Signes : HTIC, fièvre, déficit focal, crises. IRM : lésion en cocarde avec rehaussement annulaire. Traitement : antibiotiques IV ± drainage chirurgical.",
+      "answers": [
+        { "text": "Tumeur bénigne", "is_correct": false },
+        {
+          "text": "Collection purulente (HTIC, déficit, antibiotiques ± chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Kyste arachnoïdien", "is_correct": false },
+        { "text": "Hématome spontané", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la céphalée de tension ?",
+      "difficulty": "Facile",
+      "explanation": "La céphalée de tension est la céphalée primaire la plus fréquente. Caractéristiques : bilatérale, en étau/casque, non pulsatile, intensité légère-modérée, pas d'aggravation par activité physique, pas de nausées/vomissements. Pas de signe de gravité. Traitement : antalgiques simples (paracétamol, AINS).",
+      "answers": [
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        {
+          "text": "Céphalée primaire (étau, bilatérale, antalgiques simples)",
+          "is_correct": true
+        },
+        { "text": "Hémorragie méningée", "is_correct": false },
+        { "text": "Méningite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la migraine sans aura ?",
+      "difficulty": "Facile",
+      "explanation": "La migraine sans aura (céphalée primaire) se caractérise par : crises récurrentes (4-72h), unilatérale, pulsatile, intensité modérée-sévère, aggravée par activité physique, phonophobie/photophobie, nausées/vomissements. Traitement crise : AINS, triptans. Traitement fond si >2 crises/mois.",
+      "answers": [
+        { "text": "Céphalée chronique quotidienne", "is_correct": false },
+        {
+          "text": "Crise unilatérale pulsatile 4-72h (AINS, triptans)",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Céphalée de tension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la migraine avec aura ?",
+      "difficulty": "Moyen",
+      "explanation": "La migraine avec aura associe des symptômes neurologiques focaux transitoires (5-60 min) précédant/accompagnant la céphalée : aura visuelle (scotome scintillant, spectre de fortification), sensitive (paresthésies), phasique (aphasie). Installation progressive, résolution complète.",
+      "answers": [
+        { "text": "AVC ischémique", "is_correct": false },
+        {
+          "text": "Symptômes neurologiques focaux transitoires avant céphalée",
+          "is_correct": true
+        },
+        { "text": "Crise d'épilepsie", "is_correct": false },
+        { "text": "Infection du SNC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'algie vasculaire de la face (cluster headache) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'algie vasculaire de la face (céphalée primaire) se manifeste par : crises sévères strictement unilatérales péri-orbitaires (15-180 min), signes dysautonomiques homolatéraux (larmoiement, rhinorrhée, ptosis, myosis), agitation. Crises en salves (cluster). Traitement crise : O2 100%, sumatriptan SC.",
+      "answers": [
+        { "text": "Migraine commune", "is_correct": false },
+        {
+          "text": "Crises péri-orbitaires sévères + signes dysautonomiques (O2, sumatriptan)",
+          "is_correct": true
+        },
+        { "text": "Sinusite aiguë", "is_correct": false },
+        { "text": "Névralgie du trijumeau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la névralgie du trijumeau ?",
+      "difficulty": "Moyen",
+      "explanation": "La névralgie du trijumeau (V) est caractérisée par : douleurs paroxystiques en éclairs électriques, unilatérales, dans territoire V2 ou V3, durée <2 min, déclenchées par stimulation (parole, mastication, froid). Idiopathique ou secondaire (compression vasculaire, SEP). Traitement : carbamazépine.",
+      "answers": [
+        { "text": "Douleur dentaire", "is_correct": false },
+        {
+          "text": "Douleurs paroxystiques en éclairs V2/V3 (carbamazépine)",
+          "is_correct": true
+        },
+        { "text": "Migraine avec aura", "is_correct": false },
+        { "text": "Zona ophtalmique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quels sont les signes de gravité d'une céphalée (drapeaux rouges) ?",
+      "difficulty": "Facile",
+      "explanation": "Drapeaux rouges : céphalée brutale en coup de tonnerre (HSA), fièvre + raideur méningée (méningite), troubles conscience, déficit focal, céphalée inhabituelle/progressive, âge >50 ans, immunodépression, traumatisme, céphalée d'effort/Valsalva. Nécessitent imagerie/bilan urgent.",
+      "answers": [
+        { "text": "Toute céphalée est grave", "is_correct": false },
+        {
+          "text": "Brutale, fièvre, déficit focal, troubles conscience, >50 ans",
+          "is_correct": true
+        },
+        { "text": "Céphalée chronique stable", "is_correct": false },
+        { "text": "Céphalée de tension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hydrocéphalie ?",
+      "difficulty": "Facile",
+      "explanation": "L'hydrocéphalie est une dilatation des ventricules cérébraux par excès de LCR. Causes : obstruction (tumeur, sténose aqueduc), trouble résorption, hypersécrétion (rare). Signes : HTIC (céphalées, vomissements, œdème papillaire), troubles de la marche, incontinence, troubles cognitifs. Traitement : dérivation.",
+      "answers": [
+        { "text": "Atrophie cérébrale", "is_correct": false },
+        {
+          "text": "Dilatation ventricules par excès LCR (HTIC, dérivation)",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale", "is_correct": false },
+        { "text": "Infection du SNC", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hydrocéphalie à pression normale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hydrocéphalie à pression normale (HPN, sujet âgé) associe triade d'Hakim-Adams : troubles de la marche (astasie-abasie), troubles cognitifs, incontinence urinaire. IRM : dilatation ventricules sans atrophie corticale. Traitement : dérivation ventriculo-péritonéale (amélioration possible).",
+      "answers": [
+        { "text": "Maladie d'Alzheimer", "is_correct": false },
+        {
+          "text": "Triade marche + cognition + incontinence (dérivation améliore)",
+          "is_correct": true
+        },
+        { "text": "Maladie de Parkinson", "is_correct": false },
+        { "text": "AVC multiples", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un glioblastome ?",
+      "difficulty": "Moyen",
+      "explanation": "Le glioblastome (grade IV OMS) est la tumeur cérébrale primitive maligne la plus fréquente chez l'adulte. Signes : HTIC, crises épileptiques, déficit focal. IRM : lésion hétérogène avec rehaussement annulaire, nécrose centrale, œdème. Traitement : chirurgie + radiothérapie + témozolomide. Pronostic sombre.",
+      "answers": [
+        { "text": "Tumeur bénigne", "is_correct": false },
+        {
+          "text": "Tumeur cérébrale maligne grade IV (chirurgie + RT + chimio)",
+          "is_correct": true
+        },
+        { "text": "Métastase cérébrale", "is_correct": false },
+        { "text": "Kyste arachnoïdien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un méningiome ?",
+      "difficulty": "Facile",
+      "explanation": "Le méningiome (tumeur des méninges, généralement bénin) est la tumeur intracrânienne primitive la plus fréquente. Signes : HTIC, crises épileptiques, déficit focal selon localisation. IRM : lésion extra-axiale, rehaussement homogène. Traitement : chirurgie si symptomatique/volumineux, surveillance si petit.",
+      "answers": [
+        { "text": "Tumeur maligne agressive", "is_correct": false },
+        {
+          "text": "Tumeur méningée bénigne (chirurgie si symptomatique)",
+          "is_correct": true
+        },
+        { "text": "Glioblastome", "is_correct": false },
+        { "text": "Métastase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une métastase cérébrale ?",
+      "difficulty": "Facile",
+      "explanation": "Les métastases cérébrales (tumeurs secondaires) sont plus fréquentes que primitives. Cancers : poumon, sein, mélanome, rein, côlon. Signes : HTIC, déficit focal, crises. IRM : lésions multiples jonction substance blanche/grise, rehaussement nodulaire. Traitement : corticoïdes, radiothérapie, chirurgie selon cas.",
+      "answers": [
+        { "text": "Tumeur cérébrale primitive", "is_correct": false },
+        {
+          "text": "Tumeurs secondaires (poumon, sein, mélanome, RT/chirurgie)",
+          "is_correct": true
+        },
+        { "text": "Infection cérébrale", "is_correct": false },
+        { "text": "AVC ischémiques multiples", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un neurinome de l'acoustique (schwannome vestibulaire) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le neurinome de l'acoustique est une tumeur bénigne du nerf vestibulaire (VIII). Signes : surdité unilatérale progressive, acouphènes, vertiges, atteinte V et VII (si volumineuse). IRM : lésion angle ponto-cérébelleux, rehaussement. Traitement : chirurgie, radiochirurgie, surveillance.",
+      "answers": [
+        { "text": "Tumeur maligne du tronc cérébral", "is_correct": false },
+        {
+          "text": "Tumeur bénigne VIII (surdité, acouphènes, chirurgie/RT)",
+          "is_correct": true
+        },
+        { "text": "AVC du tronc cérébral", "is_correct": false },
+        { "text": "Méningite chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'adénome hypophysaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'adénome hypophysaire (tumeur bénigne de l'hypophyse) peut être : micro-adénome (<10 mm) ou macro-adénome (≥10 mm). Signes : syndrome tumoral (céphalées, hémianopsie bitemporale), hypersécrétion hormonale (prolactine, GH, ACTH) ou hypopituitarisme. Traitement : chirurgie, agonistes dopaminergiques (prolactinome).",
+      "answers": [
+        { "text": "Tumeur cérébrale maligne", "is_correct": false },
+        {
+          "text": "Tumeur hypophysaire bénigne (tumoral, hormonal, chirurgie/médicament)",
+          "is_correct": true
+        },
+        { "text": "Méningiome", "is_correct": false },
+        { "text": "Gliome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Creutzfeldt-Jakob (MCJ) ?",
+      "difficulty": "Difficile",
+      "explanation": "La MCJ est une encéphalopathie spongiforme subaiguë à prions. Signes : démence rapidement progressive, myoclonies, syndrome cérébelleux, troubles visuels, mutisme akinétique. EEG : triphasiques périodiques. IRM : hypersignal FLAIR cortex/noyaux gris. Protéine 14-3-3 LCR. Pronostic fatal (<1 an).",
+      "answers": [
+        { "text": "Démence d'Alzheimer", "is_correct": false },
+        {
+          "text": "Encéphalopathie à prions (démence rapide, myoclonies, fatal)",
+          "is_correct": true
+        },
+        { "text": "Encéphalite virale", "is_correct": false },
+        { "text": "Tumeur cérébrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la sclérose tubéreuse de Bourneville ?",
+      "difficulty": "Difficile",
+      "explanation": "La sclérose tubéreuse de Bourneville (phacomatose autosomique dominante, TSC1/TSC2) associe : épilepsie pharmacorésistante, troubles du développement/autisme, tubéros corticaux (IRM), angiomyolipomes rénaux, angiofibromes faciaux, taches achromiques. Traitement : antiépileptiques, inhibiteurs mTOR (évérolimus).",
+      "answers": [
+        { "text": "Infection du SNC", "is_correct": false },
+        {
+          "text": "Phacomatose (épilepsie, tubéros, angiomyolipomes, évérolimus)",
+          "is_correct": true
+        },
+        { "text": "Tumeur cérébrale maligne", "is_correct": false },
+        { "text": "Maladie d'Alzheimer précoce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la neurofibromatose de type 1 (maladie de von Recklinghausen) ?",
+      "difficulty": "Moyen",
+      "explanation": "La NF1 (phacomatose autosomique dominante, gène NF1) associe : taches café-au-lait (≥6), neurofibromes cutanés/plexiformes, lentigines axillaires/inguinales, gliomes voies optiques, nodules de Lisch (iris). Complications : tumeurs, scoliose, HTA. Surveillance multidisciplinaire.",
+      "answers": [
+        { "text": "Maladie infectieuse", "is_correct": false },
+        {
+          "text": "Phacomatose (taches café-au-lait, neurofibromes, gliomes)",
+          "is_correct": true
+        },
+        { "text": "Vitiligo", "is_correct": false },
+        { "text": "Psoriasis", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la neurofibromatose de type 2 ?",
+      "difficulty": "Difficile",
+      "explanation": "La NF2 (autosomique dominante, gène NF2) se caractérise par : schwannomes vestibulaires bilatéraux (VIII), surdité progressive, méningiomes multiples, épendymomes médullaires. Peu de taches café-au-lait (vs NF1). Surveillance IRM régulière. Traitement : chirurgie, radiochirurgie.",
+      "answers": [
+        { "text": "Identique à NF1", "is_correct": false },
+        {
+          "text": "Schwannomes vestibulaires bilatéraux + méningiomes",
+          "is_correct": true
+        },
+        { "text": "Épilepsie réfractaire", "is_correct": false },
+        { "text": "Démence précoce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de von Hippel-Lindau ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de von Hippel-Lindau (phacomatose autosomique dominante, VHL) associe : hémangioblastomes cérébelleux/médullaires/rétiniens, carcinomes rénaux à cellules claires, phéochromocytomes, kystes rénaux/pancréatiques. Surveillance IRM/TDM régulière, dépistage familial.",
+      "answers": [
+        { "text": "Neurofibromatose", "is_correct": false },
+        {
+          "text": "Phacomatose (hémangioblastomes, cancers rénaux, phéochromocytomes)",
+          "is_correct": true
+        },
+        { "text": "Sclérose tubéreuse", "is_correct": false },
+        { "text": "Maladie de Parkinson", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le traumatisme crânien léger (commotion cérébrale) ?",
+      "difficulty": "Facile",
+      "explanation": "Le traumatisme crânien léger (Glasgow 13-15) se manifeste par : perte de conscience brève (<30 min), amnésie post-traumatique, confusion. Scanner cérébral si facteurs de risque (âge >65 ans, AVK/AOD, vomissements, amnésie). Syndrome post-commotionnel possible (céphalées, troubles cognitifs).",
+      "answers": [
+        { "text": "Coma profond", "is_correct": false },
+        {
+          "text": "Glasgow 13-15, perte conscience brève (scanner si FDR)",
+          "is_correct": true
+        },
+        { "text": "Hémorragie cérébrale systématique", "is_correct": false },
+        { "text": "Fracture du crâne obligatoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un hématome extradural (HED) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'HED (hématome entre dure-mère et os crânien) résulte d'une rupture artère méningée moyenne (fracture temporale). Intervalle libre classique puis dégradation neurologique. TDM : lésion hyperdense biconvexe. Urgence neurochirurgicale : évacuation immédiate.",
+      "answers": [
+        { "text": "Hématome sous-dural", "is_correct": false },
+        {
+          "text": "Hématome extra-dural (biconvexe, intervalle libre, chirurgie urgente)",
+          "is_correct": true
+        },
+        { "text": "Contusion cérébrale", "is_correct": false },
+        { "text": "Hémorragie méningée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un hématome sous-dural (HSD) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'HSD (hématome entre dure-mère et arachnoïde) résulte d'une rupture veines-ponts. HSD aigu (post-TC sévère) : hyperdense, urgence. HSD chronique (sujet âgé, TC mineur oublié) : isodense/hypodense, confusion, déficit focal. Traitement : drainage chirurgical si symptomatique.",
+      "answers": [
+        { "text": "Hématome extradural", "is_correct": false },
+        {
+          "text": "Hématome sous dure-mère (veines-ponts, aigu/chronique, drainage)",
+          "is_correct": true
+        },
+        { "text": "Contusion cérébrale", "is_correct": false },
+        { "text": "Hémorragie intraventriculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le score de Glasgow (GCS) ?",
+      "difficulty": "Facile",
+      "explanation": "Le Glasgow Coma Scale (GCS, 3-15) évalue la conscience : ouverture des yeux (1-4), réponse verbale (1-5), réponse motrice (1-6). GCS 3-8 : coma sévère, 9-12 : modéré, 13-15 : léger. Guide prise en charge traumatisme crânien.",
+      "answers": [
+        { "text": "Score de douleur", "is_correct": false },
+        {
+          "text": "Échelle de conscience (3-15 : yeux, verbal, moteur)",
+          "is_correct": true
+        },
+        { "text": "Score de risque AVC", "is_correct": false },
+        { "text": "Classification des tumeurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'engagement cérébral ?",
+      "difficulty": "Moyen",
+      "explanation": "L'engagement cérébral (hernie cérébrale) résulte d'une HTIC sévère avec déplacement structures cérébrales. Types : temporal (uncus, compression III : mydriase), sous-falcoriel, amygdales cérébelleuses (trou occipital, arrêt cardiorespiratoire). Urgence extrême : décompression chirurgicale, osmothérapie.",
+      "answers": [
+        { "text": "Complication bénigne", "is_correct": false },
+        {
+          "text": "Hernie cérébrale par HTIC (mydriase, urgence extrême)",
+          "is_correct": true
+        },
+        { "text": "Crise d'épilepsie", "is_correct": false },
+        { "text": "Syndrome confusionnel", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la mort encéphalique ?",
+      "difficulty": "Moyen",
+      "explanation": "La mort encéphalique (destruction irréversible du tronc cérébral) se définit par : coma aréactif (GCS 3), absence réflexes tronc cérébral (pupillaire, cornéen, oculocéphalique, toux), apnée (test apnée). Confirmer par EEG plat ou angiographie (arrêt circulation cérébrale). Prélèvement d'organes possible.",
+      "answers": [
+        { "text": "Coma réversible", "is_correct": false },
+        {
+          "text": "Destruction tronc cérébral (coma, aréflexie, apnée, EEG plat)",
+          "is_correct": true
+        },
+        { "text": "État végétatif", "is_correct": false },
+        { "text": "Locked-in syndrome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la paralysie faciale périphérique (paralysie de Bell) ?",
+      "difficulty": "Facile",
+      "explanation": "La paralysie faciale périphérique (VII périphérique, souvent idiopathique) atteint toute l'hémiface : impossibilité fermer l'œil, effacement pli naso-génien, déviation commissure, signe de Charles Bell. Causes : Bell (idiopathique), Lyme, zona auriculaire, otite. Traitement : corticoïdes précoces, protection oculaire.",
+      "answers": [
+        { "text": "AVC sylvien", "is_correct": false },
+        {
+          "text": "Atteinte VII périphérique (toute hémiface, corticoïdes)",
+          "is_correct": true
+        },
+        { "text": "Myasthénie", "is_correct": false },
+        { "text": "Paralysie faciale centrale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre paralysie faciale centrale et périphérique ?",
+      "difficulty": "Moyen",
+      "explanation": "Paralysie centrale (lésion voie pyramidale) : épargne front (innervation bilatérale), fermeture œil possible, signe naso-génien effacé. Paralysie périphérique (lésion VII) : atteinte tout l'hémiface, front inclus, impossibilité fermer œil, signe de Charles Bell.",
+      "answers": [
+        { "text": "Identiques", "is_correct": false },
+        {
+          "text": "Centrale : front épargné ; Périphérique : tout l'hémiface",
+          "is_correct": true
+        },
+        { "text": "Centrale : plus grave", "is_correct": false },
+        { "text": "Périphérique : épargne l'œil", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le vertige positionnel paroxystique bénin (VPPB) ?",
+      "difficulty": "Facile",
+      "explanation": "Le VPPB (cause la plus fréquente de vertige) résulte de canalolithiase (otolithes dans canaux semi-circulaires, postérieur++). Signes : vertige rotatoire bref (<1 min) déclenché par changement position tête. Manœuvre de Dix-Hallpike (diagnostic). Traitement : manœuvre libératoire d'Epley.",
+      "answers": [
+        { "text": "AVC du tronc cérébral", "is_correct": false },
+        {
+          "text": "Canalolithiase (vertige bref positionnel, manœuvre Epley)",
+          "is_correct": true
+        },
+        { "text": "Neurinome acoustique", "is_correct": false },
+        { "text": "Ménière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la maladie de Ménière ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Ménière (hydrops endolymphatique) associe : crises de vertiges rotatoires (minutes-heures), acouphènes, surdité fluctuante puis progressive, plénitude auriculaire. Unilatéral. Traitement crise : antivertigineux, benzodiazépines. Fond : régime hyposodé, bétahistine, chirurgie si réfractaire.",
+      "answers": [
+        { "text": "VPPB", "is_correct": false },
+        {
+          "text": "Hydrops endolymphatique (vertiges, acouphènes, surdité)",
+          "is_correct": true
+        },
+        { "text": "Neurinome VIII", "is_correct": false },
+        { "text": "Labyrinthite virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la névrite vestibulaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La névrite vestibulaire (inflammation aiguë du nerf vestibulaire, souvent post-virale) se manifeste par : grand vertige rotatoire unique et prolongé (jours), nausées/vomissements, déséquilibre, nystagmus horizonto-rotatoire. Pas de surdité (vs labyrinthite). Traitement : corticoïdes, antivertigineux, rééducation vestibulaire.",
+      "answers": [
+        { "text": "VPPB", "is_correct": false },
+        {
+          "text": "Inflammation vestibulaire (grand vertige unique, corticoïdes)",
+          "is_correct": true
+        },
+        { "text": "AVC du tronc", "is_correct": false },
+        { "text": "Maladie de Ménière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Claude Bernard-Horner ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de Claude Bernard-Horner (atteinte voie sympathique cervicale) associe : myosis, ptosis partiel, énophtalmie. Causes : Wallenberg, dissection carotide, tumeur apex pulmonaire (Pancoast-Tobias), trauma cervical. Localisation selon test pharmacologique (apraclonidine).",
+      "answers": [
+        { "text": "Atteinte du III", "is_correct": false },
+        {
+          "text": "Atteinte sympathique (myosis, ptosis partiel, énophtalmie)",
+          "is_correct": true
+        },
+        { "text": "Paralysie faciale", "is_correct": false },
+        { "text": "Glaucome aigu", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la diplopie et quelles en sont les principales causes ?",
+      "difficulty": "Facile",
+      "explanation": "La diplopie (vision double) peut être monoculaire (optique : cataracte, astigmatisme) ou binoculaire (paralysie oculomotrice : III, IV, VI, myasthénie, ophtalmopathie thyroïdienne, traumatisme orbitaire). Diplopie binoculaire disparaît en fermant un œil.",
+      "answers": [
+        { "text": "Toujours bénigne", "is_correct": false },
+        {
+          "text": "Monoculaire (optique) ou binoculaire (paralysie NC, myasthénie)",
+          "is_correct": true
+        },
+        { "text": "Uniquement cataracte", "is_correct": false },
+        { "text": "Glaucome", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la paralysie du III (nerf oculomoteur) ?",
+      "difficulty": "Moyen",
+      "explanation": "La paralysie du III (oculomoteur) cause : ptosis complet, œil dévié en bas et dehors (strabisme divergent), mydriase aréflexique (si atteinte intrinsèque). Causes : anévrisme communicante postérieure (mydriase++), ischémie diabétique (épargne pupille), tumeur.",
+      "answers": [
+        { "text": "Myosis et ptosis partiel", "is_correct": false },
+        {
+          "text": "Ptosis complet, strabisme divergent, mydriase (anévrisme++)",
+          "is_correct": true
+        },
+        { "text": "Paralysie faciale", "is_correct": false },
+        { "text": "Diplopie verticale isolée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'aphasie de Broca ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aphasie de Broca (non fluente, expression) résulte d'une lésion frontale inférieure gauche (aire de Broca, pied F3). Signes : langage réduit, effort, agrammatisme, manque du mot, compréhension préservée, conscience du trouble (frustration). AVC sylvien antérieur.",
+      "answers": [
+        { "text": "Aphasie de compréhension", "is_correct": false },
+        {
+          "text": "Aphasie d'expression (effort, agrammatisme, compréhension OK)",
+          "is_correct": true
+        },
+        { "text": "Dysarthrie pure", "is_correct": false },
+        { "text": "Aphasie amnésique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'aphasie de Wernicke ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aphasie de Wernicke (fluente, compréhension) résulte d'une lésion temporale postérieure gauche (aire de Wernicke). Signes : langage fluent mais vide de sens (jargon), paraphasies sémantiques et phonémiques, compréhension altérée, anosognosie. AVC sylvien postérieur.",
+      "answers": [
+        { "text": "Aphasie d'expression", "is_correct": false },
+        {
+          "text": "Aphasie de compréhension (jargon, paraphasies, anosognosie)",
+          "is_correct": true
+        },
+        { "text": "Aphasie de conduction", "is_correct": false },
+        { "text": "Dysarthrie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'aphasie de conduction ?",
+      "difficulty": "Difficile",
+      "explanation": "L'aphasie de conduction (lésion faisceau arqué) se caractérise par : langage spontané fluent, compréhension préservée, répétition altérée (élément clé), paraphasies phonémiques, conscience du trouble. AVC pariétal inférieur gauche.",
+      "answers": [
+        { "text": "Aphasie de Broca", "is_correct": false },
+        {
+          "text": "Langage fluent mais répétition impossible (faisceau arqué)",
+          "is_correct": true
+        },
+        { "text": "Aphasie de Wernicke", "is_correct": false },
+        { "text": "Dysarthrie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'héminégligence spatiale unilatérale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'héminégligence (syndrome de négligence) est une non-prise en compte de l'hémiespace controlatéral à la lésion (souvent hémisphère mineur droit). Signes : négligence visuelle, motrice, somatosensorielle, anosognosie, extinction sensitive. AVC pariétal droit. Tests : barrage, bissection ligne.",
+      "answers": [
+        { "text": "Hémianopsie latérale homonyme", "is_correct": false },
+        {
+          "text": "Non-prise compte hémiespace controlatéral (AVC pariétal droit)",
+          "is_correct": true
+        },
+        { "text": "Aphasie", "is_correct": false },
+        { "text": "Syndrome cérébelleux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'apraxie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'apraxie est l'incapacité d'exécuter des gestes volontaires en l'absence de déficit moteur, sensitif ou de trouble de compréhension. Types : idéomotrice (gestes simples), idéatoire (séquences), constructive (dessins), habillage. Lésions : pariétales, frontales, corps calleux gauche.",
+      "answers": [
+        { "text": "Paralysie motrice", "is_correct": false },
+        {
+          "text": "Incapacité exécuter gestes volontaires sans déficit moteur",
+          "is_correct": true
+        },
+        { "text": "Aphasie", "is_correct": false },
+        { "text": "Ataxie cérébelleuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'agnosie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'agnosie est un trouble de la reconnaissance en l'absence de déficit sensoriel primaire. Types : visuelle (objets, visages/prosopagnosie, couleurs), auditive, tactile (astéréognosie), spatiale. Lésions corticales associatives (occipitales, temporales, pariétales).",
+      "answers": [
+        { "text": "Cécité", "is_correct": false },
+        {
+          "text": "Trouble reconnaissance sans déficit sensoriel primaire",
+          "is_correct": true
+        },
+        { "text": "Aphasie", "is_correct": false },
+        { "text": "Démence", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de Gerstmann ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome de Gerstmann (lésion pariétale inférieure gauche, gyrus angulaire) associe : agraphie, acalculie, indistinction droite-gauche, agnosie digitale. Souvent incomplet. Peut s'associer à aphasie ou alexie.",
+      "answers": [
+        { "text": "Syndrome frontal", "is_correct": false },
+        {
+          "text": "Agraphie + acalculie + confusion D-G + agnosie digitale (pariétal G)",
+          "is_correct": true
+        },
+        { "text": "Syndrome cérébelleux", "is_correct": false },
+        { "text": "Aphasie de Broca", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome frontal ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome frontal associe : troubles exécutifs (planification, flexibilité), désinhibition comportementale, syndrome dysexécutif, apathie/abulie, troubles attention/mémoire de travail, persévérations. Lésions frontales (traumatisme, tumeur, DFT, AVC).",
+      "answers": [
+        { "text": "Syndrome moteur pur", "is_correct": false },
+        {
+          "text": "Troubles exécutifs + comportement (désinhibition, apathie)",
+          "is_correct": true
+        },
+        { "text": "Aphasie", "is_correct": false },
+        { "text": "Syndrome cérébelleux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le délirium (syndrome confusionnel aigu) ?",
+      "difficulty": "Facile",
+      "explanation": "Le délirium est un trouble aigu de la conscience et de l'attention, fluctuant. Causes : infection, déshydratation, médicaments (anticholinergiques, benzodiazépines), troubles métaboliques, sevrage alcoolique. Prévention/traitement : traiter cause, réorientation, éviter contentions/psychotropes.",
+      "answers": [
+        { "text": "Démence d'Alzheimer", "is_correct": false },
+        {
+          "text": "Trouble aigu conscience fluctuant (infection, médicaments, métabolique)",
+          "is_correct": true
+        },
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Psychose chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome de sevrage alcoolique (delirium tremens) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le delirium tremens (sevrage alcoolique sévère, J2-J4) associe : confusion, agitation, tremblements, hallucinations visuelles (zoopsies), fièvre, sueurs, tachycardie, convulsions. Urgence : benzodiazépines IV (diazépam), thiamine, réhydratation, réanimation.",
+      "answers": [
+        { "text": "Intoxication alcoolique aiguë", "is_correct": false },
+        {
+          "text": "Sevrage alcoolique sévère (confusion, hallucinations, BZD IV)",
+          "is_correct": true
+        },
+        { "text": "Encéphalopathie hépatique", "is_correct": false },
+        { "text": "Syndrome de Wernicke", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la narcolepsie-cataplexie ?",
+      "difficulty": "Moyen",
+      "explanation": "La narcolepsie-cataplexie (type 1, déficit en hypocrétine/orexine) associe : somnolence diurne excessive, cataplexie (perte brutale tonus musculaire déclenchée par émotion), hallucinations hypnagogiques, paralysie du sommeil. Test TILE (latence endormissement <8 min). Traitement : modafinil, oxybate de sodium.",
+      "answers": [
+        { "text": "Syndrome d'apnées du sommeil", "is_correct": false },
+        {
+          "text": "Somnolence + cataplexie (déficit orexine, modafinil)",
+          "is_correct": true
+        },
+        { "text": "Épilepsie", "is_correct": false },
+        { "text": "Dépression", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome des jambes sans repos (SJSR) ?",
+      "difficulty": "Facile",
+      "explanation": "Le SJSR (maladie de Willis-Ekbom) se caractérise par : besoin impérieux bouger jambes, paresthésies désagréables, aggravation repos/soir, amélioration mouvement. Causes : idiopathique, carence fer (ferritine <75), insuffisance rénale, grossesse. Traitement : fer, agonistes dopaminergiques (pramipexole, ropinirole).",
+      "answers": [
+        { "text": "Neuropathie diabétique", "is_correct": false },
+        {
+          "text": "Besoin bouger jambes, paresthésies (fer, agonistes DA)",
+          "is_correct": true
+        },
+        { "text": "Claudication artérielle", "is_correct": false },
+        { "text": "Crampes musculaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome d'apnées obstructives du sommeil (SAOS) ?",
+      "difficulty": "Facile",
+      "explanation": "Le SAOS se caractérise par : apnées/hypopnées répétées durant sommeil (IAH >5/h), ronflements, asphyxies nocturnes, somnolence diurne, HTA, risque cardiovasculaire. Diagnostic : polygraphie/polysomnographie. Traitement : PPC (pression positive continue), perte poids, orthèse mandibulaire.",
+      "answers": [
+        { "text": "Narcolepsie", "is_correct": false },
+        {
+          "text": "Apnées nocturnes (IAH >5/h, somnolence, PPC)",
+          "is_correct": true
+        },
+        { "text": "Syndrome jambes sans repos", "is_correct": false },
+        { "text": "Insomnie chronique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le syndrome d'apnées obstructives du sommeil (SAOS) ?",
+      "difficulty": "Facile",
+      "explanation": "Le SAOS se caractérise par des apnées/hypopnées répétées durant le sommeil (IAH >5/h), des ronflements, des asphyxies nocturnes, une somnolence diurne, une HTA, et un risque cardiovasculaire accru. Le diagnostic se fait par polygraphie ou polysomnographie. Le traitement inclut la PPC (pression positive continue), la perte de poids, et l'orthèse mandibulaire.",
+      "answers": [
+        {
+          "text": "Narcolepsie",
+          "is_correct": false
+        },
+        {
+          "text": "Apnées nocturnes (IAH >5/h, somnolence, PPC)",
+          "is_correct": true
+        },
+        {
+          "text": "Syndrome des jambes sans repos",
+          "is_correct": false
+        },
+        {
+          "text": "Insomnie chronique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal neurotransmetteur impliqué dans la maladie de Parkinson ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie de Parkinson est principalement due à une dégénérescence des neurones dopaminergiques dans la substance noire, entraînant une carence en dopamine. Cela provoque des symptômes moteurs comme le tremblement, la rigidité et l'akinésie.",
+      "answers": [
+        {
+          "text": "Sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Dopamine",
+          "is_correct": true
+        },
+        {
+          "text": "Acétylcholine",
+          "is_correct": false
+        },
+        {
+          "text": "Noradrénaline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente d'un accident vasculaire cérébral (AVC) ischémique ?",
+      "difficulty": "Facile",
+      "explanation": "L'AVC ischémique est généralement causé par une occlusion artérielle, souvent due à un thrombus ou une embolie. Les facteurs de risque incluent l'hypertension artérielle, le diabète, le tabagisme et les troubles du rythme cardiaque comme la fibrillation atriale.",
+      "answers": [
+        {
+          "text": "Hémorragie cérébrale",
+          "is_correct": false
+        },
+        {
+          "text": "Occlusion artérielle (thrombus/embolie)",
+          "is_correct": true
+        },
+        {
+          "text": "Traumatisme crânien",
+          "is_correct": false
+        },
+        {
+          "text": "Infection cérébrale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe clinique caractéristique de la sclérose en plaques ?",
+      "difficulty": "Facile",
+      "explanation": "La sclérose en plaques est une maladie démyélinisante du système nerveux central. Elle se manifeste souvent par des épisodes de dysfonction neurologique disséminés dans le temps et l'espace (critères de McDonald). Les signes cliniques incluent des troubles visuels, sensitifs, moteurs et de l'équilibre.",
+      "answers": [
+        {
+          "text": "Tremblements au repos",
+          "is_correct": false
+        },
+        {
+          "text": "Dissémination spatio-temporelle des symptômes",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de mémoire progressive",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs articulaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de première intention dans la crise d'épilepsie généralisée tonico-clonique ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de première intention pour une crise d'épilepsie généralisée tonico-clonique est le diazépam en intrarectal ou le midazolam en intranasal/intrabuccal. En milieu hospitalier, on utilise souvent le lorazépam en intraveineux.",
+      "answers": [
+        {
+          "text": "Phénytoïne",
+          "is_correct": false
+        },
+        {
+          "text": "Diazépam ou midazolam",
+          "is_correct": true
+        },
+        {
+          "text": "Carbamazépine",
+          "is_correct": false
+        },
+        {
+          "text": "Valproate de sodium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de démence chez les personnes âgées ?",
+      "difficulty": "Facile",
+      "explanation": "La maladie d'Alzheimer est la cause la plus fréquente de démence chez les personnes âgées. Elle se caractérise par une dégénérescence des neurones, une accumulation de plaques amyloïdes et de débris neurofibrillaires, entraînant une perte progressive de la mémoire et des fonctions cognitives.",
+      "answers": [
+        {
+          "text": "Maladie de Parkinson",
+          "is_correct": false
+        },
+        {
+          "text": "Maladie d'Alzheimer",
+          "is_correct": true
+        },
+        {
+          "text": "Démence vasculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Démence à corps de Lewy",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le signe de Babinski et que signifie-t-il ?",
+      "difficulty": "Facile",
+      "explanation": "Le signe de Babinski est l'extension du gros orteil et l'écartement des autres orteils en réponse à une stimulation de la plante du pied. Il est pathologique chez l'adulte et indique une lésion du faisceau pyramidal (voie corticospinale).",
+      "answers": [
+        {
+          "text": "Flexion du gros orteil, normal chez l'adulte",
+          "is_correct": false
+        },
+        {
+          "text": "Extension du gros orteil, pathologique chez l'adulte",
+          "is_correct": true
+        },
+        {
+          "text": "Absence de réaction, normal",
+          "is_correct": false
+        },
+        {
+          "text": "Douleur à la stimulation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de méningite bactérienne chez l'adulte ?",
+      "difficulty": "Facile",
+      "explanation": "La méningite bactérienne chez l'adulte est le plus souvent causée par Neisseria meningitidis (méningocoque) et Streptococcus pneumoniae (pneumocoque). Ces bactéries peuvent provoquer une inflammation des méninges, nécessitant une prise en charge urgente par antibiothérapie.",
+      "answers": [
+        {
+          "text": "Staphylococcus aureus",
+          "is_correct": false
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "is_correct": true
+        },
+        {
+          "text": "Escherichia coli",
+          "is_correct": false
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de référence pour une crise de migraine ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de référence pour une crise de migraine est un triptan (comme le sumatriptan), qui agit en vasoconstricteur des vaisseaux sanguins intracrâniens et en inhibant la libération de peptides inflammatoires. Les anti-inflammatoires non stéroïdiens (AINS) peuvent aussi être utilisés.",
+      "answers": [
+        {
+          "text": "Paracétamol",
+          "is_correct": false
+        },
+        {
+          "text": "Triptan (ex. sumatriptan)",
+          "is_correct": true
+        },
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de l'état de mal épileptique ?",
+      "difficulty": "Facile",
+      "explanation": "L'état de mal épileptique est défini comme une crise épileptique prolongée (généralement plus de 5 minutes) ou des crises répétées sans retour à un état de conscience normal entre elles. C'est une urgence médicale nécessitant une prise en charge immédiate.",
+      "answers": [
+        {
+          "text": "Crise unique de moins de 5 minutes",
+          "is_correct": false
+        },
+        {
+          "text": "Crise prolongée (>5 min) ou répétée sans reprise de conscience",
+          "is_correct": true
+        },
+        {
+          "text": "Absence de crise en 24h",
+          "is_correct": false
+        },
+        {
+          "text": "Crise partielle sans généralisation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal marqueur biologique de la maladie d'Alzheimer ?",
+      "difficulty": "Moyen",
+      "explanation": "Les marqueurs biologiques de la maladie d'Alzheimer incluent une diminution des niveaux de peptide Aβ42 et une augmentation des niveaux de protéine tau totale et phosphorylée dans le liquide céphalo-rachidien (LCR). Ces marqueurs reflètent la pathologie amyloïde et la dégénérescence neurofibrillaire.",
+      "answers": [
+        {
+          "text": "Augmentation de l'Aβ42 dans le LCR",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de l'Aβ42 et augmentation de la protéine tau dans le LCR",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la protéine S100B",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la protéine tau",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une hémorragie méningée et un AVC ischémique ?",
+      "difficulty": "Moyen",
+      "explanation": "Une hémorragie méningée est généralement due à la rupture d'un anévrisme cérébral, provoquant une accumulation de sang dans l'espace sous-arachnoïdien. Un AVC ischémique est causé par une occlusion artérielle, entraînant une ischémie cérébrale. Le diagnostic se fait par scanner cérébral sans injection pour l'hémorragie et par scanner ou IRM pour l'AVC ischémique.",
+      "answers": [
+        {
+          "text": "Les deux sont dus à une occlusion artérielle",
+          "is_correct": false
+        },
+        {
+          "text": "Hémorragie méningée : rupture anévrisme ; AVC ischémique : occlusion artérielle",
+          "is_correct": true
+        },
+        {
+          "text": "Les deux sont traités par thrombolyse",
+          "is_correct": false
+        },
+        {
+          "text": "Aucune différence clinique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la dopamine dans la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "La dopamine est un neurotransmetteur essentiel pour le contrôle des mouvements. Dans la maladie de Parkinson, la dégénérescence des neurones dopaminergiques dans la substance noire entraîne une carence en dopamine, provoquant des symptômes moteurs comme la rigidité, le tremblement et l'akinésie.",
+      "answers": [
+        {
+          "text": "Régulation de la température corporelle",
+          "is_correct": false
+        },
+        {
+          "text": "Contrôle des mouvements et de la motricité",
+          "is_correct": true
+        },
+        {
+          "text": "Régulation de l'humeur",
+          "is_correct": false
+        },
+        {
+          "text": "Contrôle de la pression artérielle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères diagnostiques de la sclérose en plaques selon McDonald ?",
+      "difficulty": "Moyen",
+      "explanation": "Les critères de McDonald pour le diagnostic de la sclérose en plaques reposent sur la démonstration d'une dissémination des lésions dans l'espace (DIS) et dans le temps (DIT). Cela peut être démontré par l'imagerie par résonance magnétique (IRM), l'analyse du liquide céphalo-rachidien (LCR) et les signes cliniques.",
+      "answers": [
+        {
+          "text": "Présence d'un seul épisode clinique",
+          "is_correct": false
+        },
+        {
+          "text": "Dissémination spatio-temporelle (DIS et DIT)",
+          "is_correct": true
+        },
+        {
+          "text": "Présence de plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation des anticorps anti-MOG",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des triptans dans le traitement de la migraine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les triptans agissent en tant qu'agonistes des récepteurs 5-HT1B et 5-HT1D de la sérotonine. Ils provoquent une vasoconstriction des vaisseaux sanguins intracrâniens et inhibent la libération de peptides inflammatoires, réduisant ainsi l'inflammation neurogène associée à la migraine.",
+      "answers": [
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Agonistes des récepteurs 5-HT1B/1D, vasoconstriction et inhibition de l'inflammation",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la libération de dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des canaux calciques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la prise en charge initiale d'un AVC ischémique dans les 4h30 ?",
+      "difficulty": "Moyen",
+      "explanation": "La prise en charge initiale d'un AVC ischémique dans les 4h30 repose sur la thrombolyse intraveineuse par rt-PA (activateur tissulaire du plasminogène recombinant), si le patient est éligible. Cela permet de dissoudre le caillot et de rétablir la perfusion cérébrale.",
+      "answers": [
+        {
+          "text": "Anticoagulation par héparine",
+          "is_correct": false
+        },
+        {
+          "text": "Thrombolyse IV par rt-PA",
+          "is_correct": true
+        },
+        {
+          "text": "Chirurgie de décompression",
+          "is_correct": false
+        },
+        {
+          "text": "Traitement anti-inflammatoire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les symptômes cardinaux de la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "Les symptômes cardinaux de la maladie de Parkinson sont le tremblement de repos, la rigidité musculaire, l'akinésie (lenteur des mouvements) et les troubles de l'équilibre. Ces symptômes sont liés à la dégénérescence des neurones dopaminergiques dans la substance noire.",
+      "answers": [
+        {
+          "text": "Tremblement d'action, hypertonie, hyperkinésie",
+          "is_correct": false
+        },
+        {
+          "text": "Tremblement de repos, rigidité, akinésie, troubles de l'équilibre",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de mémoire, confusion, désorientation",
+          "is_correct": false
+        },
+        {
+          "text": "Douleurs articulaires, raideur matinale, fièvre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de neuropathie périphérique chez le diabétique ?",
+      "difficulty": "Moyen",
+      "explanation": "La neuropathie périphérique diabétique est principalement causée par une hyperglycémie chronique, qui entraîne des lésions des nerfs périphériques. Cela se manifeste par des symptômes sensitifs (douleurs, paresthésies) et moteurs (faiblesse musculaire).",
+      "answers": [
+        {
+          "text": "Carence en vitamine B12",
+          "is_correct": false
+        },
+        {
+          "text": "Hyperglycémie chronique",
+          "is_correct": true
+        },
+        {
+          "text": "Infection virale",
+          "is_correct": false
+        },
+        {
+          "text": "Traumatisme nerveux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de fond de la maladie de Parkinson ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de fond de la maladie de Parkinson repose sur la L-DOPA (lévodopa), qui est un précurseur de la dopamine et permet de compenser le déficit dopaminergique. D'autres traitements incluent les agonistes dopaminergiques et les inhibiteurs de la MAO-B.",
+      "answers": [
+        {
+          "text": "Anticholinergiques",
+          "is_correct": false
+        },
+        {
+          "text": "L-DOPA (lévodopa)",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Antidépresseurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la complication la plus redoutée d'une hémorragie méningée ?",
+      "difficulty": "Moyen",
+      "explanation": "La complication la plus redoutée d'une hémorragie méningée est le vasospasme cérébral, qui peut survenir quelques jours après l'hémorragie et entraîner une ischémie cérébrale secondaire. Cela peut aggraver le pronostic et nécessiter une prise en charge spécifique.",
+      "answers": [
+        {
+          "text": "Infection nosocomiale",
+          "is_correct": false
+        },
+        {
+          "text": "Vasospasme cérébral",
+          "is_correct": true
+        },
+        {
+          "text": "Hydrocéphalie aiguë",
+          "is_correct": false
+        },
+        {
+          "text": "Épilepsie post-traumatique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme physiopathologique principal de la sclérose en plaques ?",
+      "difficulty": "Difficile",
+      "explanation": "La sclérose en plaques est une maladie auto-immune caractérisée par une inflammation chronique du système nerveux central, entraînant une démyélinisation des axones. Cela perturbe la conduction de l'influx nerveux et provoque les symptômes cliniques observés.",
+      "answers": [
+        {
+          "text": "Dégénérescence neuronale pure",
+          "is_correct": false
+        },
+        {
+          "text": "Démyélinisation auto-immune",
+          "is_correct": true
+        },
+        {
+          "text": "Accumulation de plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Ischémie cérébrale chronique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une démence vasculaire et la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "La démence vasculaire est causée par des lésions ischémiques ou hémorragiques du cerveau, souvent liées à des facteurs de risque cardiovasculaires. La maladie d'Alzheimer est une maladie neurodégénérative caractérisée par des plaques amyloïdes et des débris neurofibrillaires. Le début est souvent plus brutal dans la démence vasculaire, avec des signes neurologiques focaux.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Démence vasculaire : lésions ischémiques/hémorragiques ; Alzheimer : dégénérescence neurofibrillaire",
+          "is_correct": true
+        },
+        {
+          "text": "Alzheimer est toujours génétique",
+          "is_correct": false
+        },
+        {
+          "text": "Démence vasculaire : plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la protéine tau dans la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "La protéine tau est une protéine associée aux microtubules dans les neurones. Dans la maladie d'Alzheimer, elle devient hyperphosphorylée et s'agrège en débris neurofibrillaires, perturbant la structure et la fonction des neurones, contribuant ainsi à la dégénérescence neuronale.",
+      "answers": [
+        {
+          "text": "Régulation de la transmission synaptique",
+          "is_correct": false
+        },
+        {
+          "text": "Stabilisation des microtubules, agrégation en débris neurofibrillaires dans Alzheimer",
+          "is_correct": true
+        },
+        {
+          "text": "Production d'énergie cellulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Transport des neurotransmetteurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les critères diagnostiques d'une encéphalopathie spongiforme subaiguë (maladie de Creutzfeldt-Jakob) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les critères diagnostiques de la maladie de Creutzfeldt-Jakob incluent une démence rapidement progressive, des myoclonies, des anomalies à l'EEG (ondes périodiques), et une confirmation par IRM (hyperintensités des noyaux gris centraux) ou par analyse du liquide céphalo-rachidien (présence de protéine 14-3-3).",
+      "answers": [
+        {
+          "text": "Démence lentement progressive, absence de myoclonies",
+          "is_correct": false
+        },
+        {
+          "text": "Démence rapidement progressive, myoclonies, anomalies EEG/IRM",
+          "is_correct": true
+        },
+        {
+          "text": "Symptômes purement psychiatriques",
+          "is_correct": false
+        },
+        {
+          "text": "Atteinte exclusive du cervelet",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la sclérose en plaques en phase de poussée ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement de la sclérose en plaques en phase de poussée repose sur les corticoïdes à haute dose (comme la méthylprednisolone), administrés par voie intraveineuse. Cela permet de réduire l'inflammation et d'accélérer la récupération.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Corticoïdes à haute dose (ex. méthylprednisolone IV)",
+          "is_correct": true
+        },
+        {
+          "text": "Antiviraux",
+          "is_correct": false
+        },
+        {
+          "text": "Immunosuppresseurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de myasthénie ?",
+      "difficulty": "Difficile",
+      "explanation": "La myasthénie est une maladie auto-immune caractérisée par des anticorps dirigés contre les récepteurs de l'acétylcholine au niveau de la jonction neuromusculaire. Cela entraîne une faiblesse musculaire fluctuante et une fatigabilité, souvent améliorées par le repos.",
+      "answers": [
+        {
+          "text": "Dégénérescence musculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Auto-immunité (anticorps anti-récepteurs de l'acétylcholine)",
+          "is_correct": true
+        },
+        {
+          "text": "Carence en vitamine D",
+          "is_correct": false
+        },
+        {
+          "text": "Infection virale chronique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de l'acétylcholinestérase dans la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de l'acétylcholinestérase agissent en bloquant l'enzyme qui dégrade l'acétylcholine, augmentant ainsi les niveaux de ce neurotransmetteur dans le cerveau. Cela améliore temporairement les symptômes cognitifs de la maladie d'Alzheimer.",
+      "answers": [
+        {
+          "text": "Augmentation de la dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la dégradation de l'acétylcholine",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la neurogenèse",
+          "is_correct": false
+        },
+        {
+          "text": "Réduction de la protéine tau",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une crise d'épilepsie partielle et généralisée ?",
+      "difficulty": "Difficile",
+      "explanation": "Une crise d'épilepsie partielle prend naissance dans une zone localisée du cerveau et peut se généraliser secondairement. Une crise généralisée implique dès le début les deux hémisphères cérébraux, avec une perte de conscience immédiate et des manifestations motrices bilatérales.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Partielle : début localisé ; généralisée : implication bilatérale dès le début",
+          "is_correct": true
+        },
+        {
+          "text": "Partielle : perte de conscience immédiate",
+          "is_correct": false
+        },
+        {
+          "text": "Généralisée : toujours sans perte de conscience",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'IRM dans le diagnostic de la sclérose en plaques ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM est essentielle dans le diagnostic de la sclérose en plaques car elle permet de visualiser les plaques de démyélinisation disséminées dans le temps et l'espace (critères de McDonald). Les séquences FLAIR et T2 montrent des hyperintensités, et le gadolinium peut révéler des lésions actives.",
+      "answers": [
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Visualisation des plaques de démyélinisation (critères de McDonald)",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Diagnostic des anévrismes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la prise en charge d'une crise d'épilepsie en état de mal ?",
+      "difficulty": "Difficile",
+      "explanation": "La prise en charge d'un état de mal épileptique repose sur l'administration urgente de benzodiazépines (comme le diazépam ou le midazolam), suivie d'un antiépileptique intraveineux (comme le phénytoïne ou le valproate de sodium). Une prise en charge en réanimation est souvent nécessaire.",
+      "answers": [
+        {
+          "text": "Antibiotiques en urgence",
+          "is_correct": false
+        },
+        {
+          "text": "Benzodiazépines IV puis antiépileptiques IV",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes à haute dose",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie d'urgence",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le pronostic d'une hémorragie méningée non traitée ?",
+      "difficulty": "Difficile",
+      "explanation": "Une hémorragie méningée non traitée a un pronostic très sombre, avec un risque élevé de récidive hémorragique, de vasospasme cérébral, et de décès. La mortalité est élevée dans les premières heures ou jours suivant l'hémorragie.",
+      "answers": [
+        {
+          "text": "Récupération spontanée fréquente",
+          "is_correct": false
+        },
+        {
+          "text": "Risque élevé de récidive, vasospasme, décès",
+          "is_correct": true
+        },
+        {
+          "text": "Pas de risque de complications",
+          "is_correct": false
+        },
+        {
+          "text": "Évolution toujours bénigne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de neuropathie optique ?",
+      "difficulty": "Difficile",
+      "explanation": "La cause la plus fréquente de neuropathie optique est la sclérose en plaques, qui provoque une inflammation et une démyélinisation du nerf optique, entraînant une baisse de l'acuité visuelle, des douleurs oculaires et une altération de la vision des couleurs.",
+      "answers": [
+        {
+          "text": "Diabète",
+          "is_correct": false
+        },
+        {
+          "text": "Sclérose en plaques",
+          "is_correct": true
+        },
+        {
+          "text": "Hypertension artérielle",
+          "is_correct": false
+        },
+        {
+          "text": "Traumatisme oculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des corticoïdes dans la sclérose en plaques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les corticoïdes agissent en réduisant l'inflammation et l'œdème autour des plaques de démyélinisation dans la sclérose en plaques. Ils accélèrent la récupération fonctionnelle en limitant les dommages secondaires liés à l'inflammation.",
+      "answers": [
+        {
+          "text": "Stimulation de la remyélinisation",
+          "is_correct": false
+        },
+        {
+          "text": "Réduction de l'inflammation et de l'œdème",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la production de dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la transmission synaptique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une démence frontotemporale et la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "La démence frontotemporale se caractérise par une atrophie des lobes frontaux et temporaux, entraînant des troubles du comportement et du langage précoces. La maladie d'Alzheimer touche d'abord la mémoire épisodique et est associée à des plaques amyloïdes et des débris neurofibrillaires.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Frontotemporale : troubles comportementaux/linguistiques précoces ; Alzheimer : troubles mnésiques précoces",
+          "is_correct": true
+        },
+        {
+          "text": "Frontotemporale : plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Alzheimer : atrophie frontale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la myasthénie en crise ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement de la myasthénie en crise repose sur les échanges plasmiques ou les immunoglobulines intraveineuses (IVIg), qui permettent de réduire rapidement les anticorps pathogènes. Une assistance respiratoire peut être nécessaire en cas d'atteinte des muscles respiratoires.",
+      "answers": [
+        {
+          "text": "Corticoïdes oraux",
+          "is_correct": false
+        },
+        {
+          "text": "Échanges plasmiques ou IVIg",
+          "is_correct": true
+        },
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie du thymus en urgence",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'électroencéphalogramme (EEG) dans le diagnostic de l'épilepsie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'EEG permet d'enregistrer l'activité électrique du cerveau et de détecter des anomalies caractéristiques de l'épilepsie, comme des pointes ou des ondes pointes-ondes. Il aide à confirmer le diagnostic, à préciser le type de crise et à localiser la zone épileptogène.",
+      "answers": [
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des anomalies électriques (pointes, ondes pointes-ondes)",
+          "is_correct": true
+        },
+        {
+          "text": "Visualisation des lésions cérébrales",
+          "is_correct": false
+        },
+        {
+          "text": "Diagnostic des anévrismes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de céphalées chroniques quotidiennes ?",
+      "difficulty": "Difficile",
+      "explanation": "La cause la plus fréquente de céphalées chroniques quotidiennes est la migraine chronique, souvent liée à une surconsommation de médicaments antalgiques ou anti-migraineux. D'autres causes incluent les céphalées de tension chroniques et les céphalées par abus médicamenteux.",
+      "answers": [
+        {
+          "text": "Tumeur cérébrale",
+          "is_correct": false
+        },
+        {
+          "text": "Migraine chronique ou abus médicamenteux",
+          "is_correct": true
+        },
+        {
+          "text": "Hypertension intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Infection chronique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme physiopathologique de la maladie de Creutzfeldt-Jakob ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Creutzfeldt-Jakob est une encéphalopathie spongiforme due à l'accumulation de prions, des protéines mal repliées qui induisent la conversion d'autres protéines en forme pathologique. Cela entraîne une dégénérescence neuronale rapide et une démence.",
+      "answers": [
+        {
+          "text": "Inflammation auto-immune",
+          "is_correct": false
+        },
+        {
+          "text": "Accumulation de prions, dégénérescence neuronale",
+          "is_correct": true
+        },
+        {
+          "text": "Défaut de transmission synaptique",
+          "is_correct": false
+        },
+        {
+          "text": "Déficience en neurotransmetteurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la neuropathie diabétique douloureuse ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement de la neuropathie diabétique douloureuse repose sur le contrôle strict de la glycémie, ainsi que sur des médicaments comme les antidépresseurs tricycliques, la gabapentine ou la prégabaline, et les antidouleurs comme la duloxétine.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Contrôle glycémique, antidépresseurs tricycliques, gabapentine",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une hémorragie sous-arachnoïdienne et une hémorragie intracérébrale ?",
+      "difficulty": "Difficile",
+      "explanation": "Une hémorragie sous-arachnoïdienne est due à une rupture d'anévrisme cérébral, avec du sang dans l'espace sous-arachnoïdien. Une hémorragie intracérébrale est une extravasation de sang dans le parenchyme cérébral, souvent liée à l'hypertension artérielle.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Sous-arachnoïdienne : rupture d'anévrisme ; intracérébrale : extravasation dans le parenchyme",
+          "is_correct": true
+        },
+        {
+          "text": "Sous-arachnoïdienne : toujours bénigne",
+          "is_correct": false
+        },
+        {
+          "text": "Intracérébrale : due à une rupture d'anévrisme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la ponction lombaire dans le diagnostic de la sclérose en plaques ?",
+      "difficulty": "Difficile",
+      "explanation": "La ponction lombaire permet d'analyser le liquide céphalo-rachidien (LCR) à la recherche de bandes oligoclonales d'IgG, qui sont un marqueur d'inflammation intrathécale et soutiennent le diagnostic de sclérose en plaques, en complément de l'IRM et des critères cliniques.",
+      "answers": [
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Recherche de bandes oligoclonales d'IgG dans le LCR",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Diagnostic des anévrismes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la prise en charge d'une hémorragie méningée ?",
+      "difficulty": "Difficile",
+      "explanation": "La prise en charge d'une hémorragie méningée repose sur l'hospitalisation en urgence, la réalisation d'un scanner cérébral, la prévention et le traitement du vasospasme (nimodipine), et éventuellement un traitement neurochirurgical ou endovasculaire de l'anévrisme.",
+      "answers": [
+        {
+          "text": "Traitement antibiotique",
+          "is_correct": false
+        },
+        {
+          "text": "Hospitalisation, scanner, nimodipine, traitement de l'anévrisme",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes à haute dose",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie systématique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des immunoglobulines intraveineuses (IVIg) dans la myasthénie ?",
+      "difficulty": "Difficile",
+      "explanation": "Les immunoglobulines intraveineuses (IVIg) agissent en modulant la réponse immunitaire, en neutralisant les auto-anticorps pathogènes et en réduisant l'inflammation. Cela permet une amélioration rapide des symptômes dans les crises myasthéniques.",
+      "answers": [
+        {
+          "text": "Stimulation de la production d'anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Neutralisation des auto-anticorps, modulation immunitaire",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la libération d'acétylcholine",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la transmission synaptique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de céphalées en coup de tonnerre ?",
+      "difficulty": "Difficile",
+      "explanation": "Les céphalées en coup de tonnerre sont souvent causées par une hémorragie sous-arachnoïdienne, due à la rupture d'un anévrisme cérébral. D'autres causes incluent la thrombose veineuse cérébrale ou la dissection artérielle.",
+      "answers": [
+        {
+          "text": "Migraine",
+          "is_correct": false
+        },
+        {
+          "text": "Hémorragie sous-arachnoïdienne (rupture d'anévrisme)",
+          "is_correct": true
+        },
+        {
+          "text": "Sinusite",
+          "is_correct": false
+        },
+        {
+          "text": "Hypertension artérielle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la maladie de Creutzfeldt-Jakob ?",
+      "difficulty": "Difficile",
+      "explanation": "Il n'existe actuellement aucun traitement curatif pour la maladie de Creutzfeldt-Jakob. La prise en charge est symptomatique et palliative, visant à améliorer la qualité de vie du patient.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Traitement symptomatique et palliatif",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'IRM dans le diagnostic de la maladie de Parkinson ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM n'est pas utilisée pour le diagnostic positif de la maladie de Parkinson, mais elle permet d'éliminer d'autres causes de syndrome parkinsonien (comme les lésions vasculaires ou les tumeurs). Des techniques avancées (comme le DATSCAN) peuvent aider à confirmer le diagnostic.",
+      "answers": [
+        {
+          "text": "Diagnostic positif de la maladie de Parkinson",
+          "is_correct": false
+        },
+        {
+          "text": "Élimination des diagnostics différentiels (lésions vasculaires, tumeurs)",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la dopamine cérébrale",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une démence à corps de Lewy et la maladie d'Alzheimer ?",
+      "difficulty": "Difficile",
+      "explanation": "La démence à corps de Lewy se caractérise par des fluctuations cognitives, des hallucinations visuelles précoces, et des symptômes parkinsoniens. La maladie d'Alzheimer touche d'abord la mémoire et est associée à des plaques amyloïdes et des débris neurofibrillaires.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Corps de Lewy : fluctuations cognitives, hallucinations, symptômes parkinsoniens ; Alzheimer : troubles mnésiques précoces",
+          "is_correct": true
+        },
+        {
+          "text": "Corps de Lewy : plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Alzheimer : symptômes parkinsoniens",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la neuropathie optique dans la sclérose en plaques ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement de la neuropathie optique dans la sclérose en plaques repose sur les corticoïdes à haute dose (comme la méthylprednisolone IV), qui réduisent l'inflammation et accélèrent la récupération visuelle.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Corticoïdes à haute dose (ex. méthylprednisolone IV)",
+          "is_correct": true
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        },
+        {
+          "text": "Antiviraux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des antiépileptiques comme le valproate de sodium ?",
+      "difficulty": "Difficile",
+      "explanation": "Le valproate de sodium agit en augmentant les niveaux de GABA (acide gamma-aminobutyrique), un neurotransmetteur inhibiteur, et en bloquant les canaux sodiques, ce qui stabilise les membranes neuronales et réduit l'excitabilité cérébrale.",
+      "answers": [
+        {
+          "text": "Augmentation de la dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation du GABA, blocage des canaux sodiques",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de l'acétylcholinestérase",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la libération de glutamate",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de syndrome parkinsonien secondaire ?",
+      "difficulty": "Difficile",
+      "explanation": "La cause la plus fréquente de syndrome parkinsonien secondaire est l'utilisation de neuroleptiques (antipsychotiques), qui bloquent les récepteurs dopaminergiques et entraînent des symptômes parkinsoniens réversibles à l'arrêt du traitement.",
+      "answers": [
+        {
+          "text": "Maladie de Parkinson idiopathique",
+          "is_correct": false
+        },
+        {
+          "text": "Neuroleptiques (antipsychotiques)",
+          "is_correct": true
+        },
+        {
+          "text": "Traumatisme crânien",
+          "is_correct": false
+        },
+        {
+          "text": "Infection cérébrale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la tomodensitométrie (TDM) dans le diagnostic de l'AVC ?",
+      "difficulty": "Difficile",
+      "explanation": "La tomodensitométrie (TDM) permet de distinguer un AVC ischémique d'un AVC hémorragique en visualisant la présence ou l'absence de sang dans le parenchyme cérébral. Elle est essentielle pour orienter la prise en charge thérapeutique.",
+      "answers": [
+        {
+          "text": "Diagnostic des plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Différenciation entre AVC ischémique et hémorragique",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des anévrismes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la prise en charge d'une crise d'épilepsie généralisée tonico-clonique en dehors de l'hôpital ?",
+      "difficulty": "Moyen",
+      "explanation": "En dehors de l'hôpital, la prise en charge d'une crise d'épilepsie généralisée tonico-clonique repose sur la protection du patient (éviter les blessures), le placement en position latérale de sécurité, et l'administration de benzodiazépines (comme le diazépam rectal ou le midazolam buccal) si la crise persiste au-delà de 5 minutes.",
+      "answers": [
+        {
+          "text": "Appeler les secours immédiatement sans agir",
+          "is_correct": false
+        },
+        {
+          "text": "Protection, position latérale de sécurité, benzodiazépines si >5 min",
+          "is_correct": true
+        },
+        {
+          "text": "Donner de l'eau et des médicaments oraux",
+          "is_correct": false
+        },
+        {
+          "text": "Immobilisation forcée du patient",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de première intention de la migraine avec aura ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de première intention de la migraine avec aura est similaire à celui de la migraine sans aura : les triptans (comme le sumatriptan) ou les anti-inflammatoires non stéroïdiens (AINS). Les triptans sont contre-indiqués pendant l'aura elle-même.",
+      "answers": [
+        {
+          "text": "Triptans ou AINS (hors période d'aura)",
+          "is_correct": true
+        },
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Antidépresseurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une céphalée de tension et une migraine ?",
+      "difficulty": "Moyen",
+      "explanation": "La céphalée de tension est généralement bilatérale, de type serrement ou pression, et n'est pas aggravée par l'activité physique. La migraine est souvent unilatérale, pulsatile, et accompagnée de nausées, vomissements ou photophobie.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Céphalée de tension : bilatérale, serrement ; migraine : unilatérale, pulsatile, nausées",
+          "is_correct": true
+        },
+        {
+          "text": "Céphalée de tension : toujours avec aura",
+          "is_correct": false
+        },
+        {
+          "text": "Migraine : jamais de nausées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des bêta-bloquants dans la prévention de la migraine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-bloquants (comme le propranolol) agissent en réduisant l'excitabilité neuronale et en modulant la vasomotricité cérébrale, ce qui diminue la fréquence et l'intensité des crises de migraine.",
+      "answers": [
+        {
+          "text": "Augmentation de la libération de sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Réduction de l'excitabilité neuronale et modulation de la vasomotricité",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture de la dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la neurogenèse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de vertiges centraux ?",
+      "difficulty": "Moyen",
+      "explanation": "Les vertiges centraux sont souvent causés par des lésions du système nerveux central, comme un accident vasculaire cérébral (AVC) du tronc cérébral ou du cervelet, une sclérose en plaques, ou des tumeurs cérébrales.",
+      "answers": [
+        {
+          "text": "Vertige positionnel paroxystique bénin",
+          "is_correct": false
+        },
+        {
+          "text": "AVC du tronc cérébral ou du cervelet",
+          "is_correct": true
+        },
+        {
+          "text": "Névrite vestibulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Otite moyenne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement d'une névralgie du trijumeau ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de première intention de la névralgie du trijumeau est la carbamazépine, un antiépileptique qui réduit l'excitabilité des fibres nerveuses. En cas de résistance, on peut recourir à la chirurgie (comme la décompression microvasculaire).",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Carbamazépine",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Antidépresseurs tricycliques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une sclérose latérale amyotrophique (SLA) et une neuropathie périphérique ?",
+      "difficulty": "Difficile",
+      "explanation": "La SLA est une maladie neurodégénérative touchant les motoneurones centraux et périphériques, entraînant une faiblesse musculaire progressive et une atrophie. La neuropathie périphérique est une atteinte des nerfs périphériques, souvent sensitive et motrice, avec des symptômes comme des paresthésies et une faiblesse distale.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "SLA : atteinte des motoneurones ; neuropathie : atteinte des nerfs périphériques",
+          "is_correct": true
+        },
+        {
+          "text": "SLA : toujours réversible",
+          "is_correct": false
+        },
+        {
+          "text": "Neuropathie : atteinte exclusive des motoneurones",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement de la SLA repose sur le riluzole, qui ralentit la progression de la maladie en inhibant la libération de glutamate. La prise en charge est également symptomatique et palliative, incluant la kinésithérapie, l'orthophonie et le soutien respiratoire.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Riluzole, prise en charge symptomatique",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme physiopathologique de la névralgie du trijumeau ?",
+      "difficulty": "Difficile",
+      "explanation": "La névralgie du trijumeau est souvent causée par une compression vasculaire du nerf trijumeau, entraînant une hyperexcitabilité des fibres nerveuses et des douleurs paroxystiques. Elle peut aussi être liée à des lésions démyélinisantes (comme dans la sclérose en plaques).",
+      "answers": [
+        {
+          "text": "Inflammation bactérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Compression vasculaire, hyperexcitabilité des fibres nerveuses",
+          "is_correct": true
+        },
+        {
+          "text": "Dégénérescence neuronale",
+          "is_correct": false
+        },
+        {
+          "text": "Carence en vitamine B12",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'électromyographie (EMG) dans le diagnostic de la sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'EMG permet de mettre en évidence une atteinte des motoneurones en montrant des signes de dénervation (fibrillations, ondes positives) et de réinnervation (potentiels de grande amplitude). Cela aide à confirmer le diagnostic de SLA et à éliminer d'autres causes de faiblesse musculaire.",
+      "answers": [
+        {
+          "text": "Diagnostic des plaques amyloïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des signes de dénervation et réinnervation",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Diagnostic des anévrismes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une myopathie et une neuropathie ?",
+      "difficulty": "Difficile",
+      "explanation": "Une myopathie est une maladie du muscle lui-même, entraînant une faiblesse musculaire souvent proximale. Une neuropathie est une atteinte des nerfs périphériques, provoquant une faiblesse souvent distale, des troubles sensitifs et des réflexes diminués.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Myopathie : atteinte musculaire ; neuropathie : atteinte nerveuse périphérique",
+          "is_correct": true
+        },
+        {
+          "text": "Myopathie : toujours distale",
+          "is_correct": false
+        },
+        {
+          "text": "Neuropathie : atteinte exclusive des muscles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la myasthénie en dehors des crises ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de fond de la myasthénie repose sur les anticholinestérasiques (comme la pyridostigmine), les corticoïdes, et les immunosuppresseurs (comme l'azathioprine). La thymectomie peut être proposée dans certains cas.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Anticholinestérasiques, corticoïdes, immunosuppresseurs",
+          "is_correct": true
+        },
+        {
+          "text": "Chirurgie systématique",
+          "is_correct": false
+        },
+        {
+          "text": "Traitement antiviral",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action de la toxine botulique dans le traitement de la spasticité ?",
+      "difficulty": "Moyen",
+      "explanation": "La toxine botulique agit en bloquant la libération d'acétylcholine au niveau de la jonction neuromusculaire, réduisant ainsi la contraction musculaire et la spasticité.",
+      "answers": [
+        {
+          "text": "Stimulation de la libération d'acétylcholine",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage de la libération d'acétylcholine",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de vertiges périphériques ?",
+      "difficulty": "Moyen",
+      "explanation": "La cause la plus fréquente de vertiges périphériques est le vertige positionnel paroxystique bénin (VPPB), dû à des otoconies déplacées dans les canaux semi-circulaires de l'oreille interne.",
+      "answers": [
+        {
+          "text": "AVC cérébelleux",
+          "is_correct": false
+        },
+        {
+          "text": "Vertige positionnel paroxystique bénin (VPPB)",
+          "is_correct": true
+        },
+        {
+          "text": "Sclérose en plaques",
+          "is_correct": false
+        },
+        {
+          "text": "Névrite vestibulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement du vertige positionnel paroxystique bénin (VPPB) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement du VPPB repose sur des manœuvres de repositionnement des otoconies, comme la manœuvre d'Epley, qui permettent de déplacer les particules dans l'oreille interne et de soulager les symptômes.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Manœuvre d'Epley",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'audiométrie dans le diagnostic des vertiges ?",
+      "difficulty": "Moyen",
+      "explanation": "L'audiométrie permet d'évaluer la fonction auditive et de distinguer les causes périphériques (comme la maladie de Ménière) des causes centrales de vertiges. Une surdité associée oriente vers une origine périphérique.",
+      "answers": [
+        {
+          "text": "Diagnostic des AVC",
+          "is_correct": false
+        },
+        {
+          "text": "Évaluation de la fonction auditive, distinction périphérique/centrale",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une névralgie et une neuropathie ?",
+      "difficulty": "Moyen",
+      "explanation": "Une névralgie est une douleur paroxystique dans le territoire d'un nerf, sans déficit sensitif ou moteur. Une neuropathie est une atteinte du nerf lui-même, entraînant des douleurs, des troubles sensitifs et/ou moteurs.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Névralgie : douleur sans déficit ; neuropathie : atteinte nerveuse avec déficit",
+          "is_correct": true
+        },
+        {
+          "text": "Névralgie : toujours avec déficit moteur",
+          "is_correct": false
+        },
+        {
+          "text": "Neuropathie : douleur sans atteinte nerveuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la maladie de Ménière ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de la maladie de Ménière repose sur un régime pauvre en sel, des diurétiques, des corticoïdes, et parfois une chirurgie (comme la décompression du sac endolymphatique) en cas de résistance au traitement médical.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Régime pauvre en sel, diurétiques, corticoïdes, chirurgie",
+          "is_correct": true
+        },
+        {
+          "text": "Antiviraux",
+          "is_correct": false
+        },
+        {
+          "text": "Chimiothérapie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme physiopathologique de la maladie de Ménière ?",
+      "difficulty": "Difficile",
+      "explanation": "La maladie de Ménière est due à une augmentation de la pression de l'endolymphe dans l'oreille interne (hydrops endolymphatique), entraînant des vertiges, une surdité fluctuante et des acouphènes.",
+      "answers": [
+        {
+          "text": "Inflammation bactérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Hydrops endolymphatique",
+          "is_correct": true
+        },
+        {
+          "text": "Dégénérescence neuronale",
+          "is_correct": false
+        },
+        {
+          "text": "Carence en vitamine B12",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'IRM dans le diagnostic de la maladie de Ménière ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM n'est pas utilisée pour le diagnostic de la maladie de Ménière, mais elle permet d'éliminer d'autres causes de vertiges (comme un schwannome vestibulaire ou un AVC). Une IRM avec gadolinium peut montrer un hydrops endolymphatique.",
+      "answers": [
+        {
+          "text": "Diagnostic positif de la maladie de Ménière",
+          "is_correct": false
+        },
+        {
+          "text": "Élimination des diagnostics différentiels (schwannome, AVC)",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre un AVC ischémique et un AVC hémorragique ?",
+      "difficulty": "Facile",
+      "explanation": "Un AVC ischémique est dû à une occlusion artérielle, entraînant une ischémie cérébrale. Un AVC hémorragique est causé par une rupture vasculaire, avec extravasation de sang dans le parenchyme cérébral ou les espaces méningés. Le traitement et le pronostic diffèrent selon le type.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Ischémique : occlusion artérielle ; hémorragique : rupture vasculaire",
+          "is_correct": true
+        },
+        {
+          "text": "Ischémique : toujours hémorragique",
+          "is_correct": false
+        },
+        {
+          "text": "Hémorragique : toujours ischémique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de première intention d'un AVC ischémique dans les 4h30 ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de première intention d'un AVC ischémique dans les 4h30 est la thrombolyse intraveineuse par rt-PA (activateur tissulaire du plasminogène recombinant), si le patient est éligible. Cela permet de dissoudre le caillot et de rétablir la perfusion cérébrale.",
+      "answers": [
+        {
+          "text": "Anticoagulants oraux",
+          "is_correct": false
+        },
+        {
+          "text": "Thrombolyse IV par rt-PA",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une céphalée primaire et secondaire ?",
+      "difficulty": "Facile",
+      "explanation": "Une céphalée primaire (comme la migraine ou la céphalée de tension) n'est pas due à une autre pathologie. Une céphalée secondaire est le symptôme d'une autre affection (comme une méningite, un AVC ou une tumeur cérébrale).",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Primaire : pas de cause sous-jacente ; secondaire : due à une autre pathologie",
+          "is_correct": true
+        },
+        {
+          "text": "Primaire : toujours secondaire",
+          "is_correct": false
+        },
+        {
+          "text": "Secondaire : jamais de cause identifiable",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de première intention d'une crise de migraine ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de première intention d'une crise de migraine est un antalgique (comme l'ibuprofène ou le paracétamol) ou un triptan (comme le sumatriptan), selon l'intensité de la crise. Les triptans sont spécifiques de la migraine et agissent sur la vasoconstriction cérébrale.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Antalgiques ou triptans",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Antidépresseurs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de céphalées secondaires ?",
+      "difficulty": "Facile",
+      "explanation": "Les céphalées secondaires sont souvent causées par des infections (comme la méningite ou la sinusite), des traumatismes crâniens, des troubles vasculaires (comme un AVC ou une hémorragie sous-arachnoïdienne), ou des tumeurs cérébrales.",
+      "answers": [
+        {
+          "text": "Migraine",
+          "is_correct": false
+        },
+        {
+          "text": "Infections, traumatismes, troubles vasculaires, tumeurs",
+          "is_correct": true
+        },
+        {
+          "text": "Stress",
+          "is_correct": false
+        },
+        {
+          "text": "Manque de sommeil",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'IRM dans le diagnostic des céphalées ?",
+      "difficulty": "Facile",
+      "explanation": "L'IRM permet de visualiser les structures cérébrales et d'identifier d'éventuelles causes secondaires de céphalées, comme des tumeurs, des malformations vasculaires, des lésions ischémiques ou hémorragiques, ou des signes d'hypertension intracrânienne.",
+      "answers": [
+        {
+          "text": "Diagnostic des migraines",
+          "is_correct": false
+        },
+        {
+          "text": "Recherche de causes secondaires (tumeurs, AVC, hémorragies)",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression artérielle",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement préventif de la migraine ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement préventif de la migraine repose sur des médicaments comme les bêta-bloquants (propranolol), les antiépileptiques (topiramate), les antidépresseurs tricycliques (amitriptyline), ou les anticorps monoclonaux anti-CGRP (comme l'erenumab).",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Bêta-bloquants, antiépileptiques, antidépresseurs tricycliques, anti-CGRP",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une névralgie du trijumeau et une névralgie post-herpétique ?",
+      "difficulty": "Moyen",
+      "explanation": "La névralgie du trijumeau est une douleur paroxystique dans le territoire du nerf trijumeau, souvent déclenchée par un contact. La névralgie post-herpétique est une douleur chronique survenant après un zona, dans le territoire cutané concerné.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Trijumeau : douleur paroxystique, déclenchée ; post-herpétique : douleur chronique post-zona",
+          "is_correct": true
+        },
+        {
+          "text": "Trijumeau : toujours post-zona",
+          "is_correct": false
+        },
+        {
+          "text": "Post-herpétique : douleur paroxystique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la névralgie post-herpétique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de la névralgie post-herpétique repose sur des antidouleurs comme la gabapentine, la prégabaline, les antidépresseurs tricycliques (amitriptyline), ou les patchs de lidocaïne. Les opioïdes peuvent être utilisés en cas de résistance.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Gabapentine, prégabaline, antidépresseurs tricycliques, lidocaïne",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme physiopathologique de la névralgie post-herpétique ?",
+      "difficulty": "Difficile",
+      "explanation": "La névralgie post-herpétique est due à des lésions des nerfs sensitifs causées par le virus varicelle-zona, entraînant une hyperexcitabilité des fibres nerveuses et une douleur neuropathique chronique.",
+      "answers": [
+        {
+          "text": "Inflammation bactérienne",
+          "is_correct": false
+        },
+        {
+          "text": "Lésions nerveuses par le virus varicelle-zona, hyperexcitabilité",
+          "is_correct": true
+        },
+        {
+          "text": "Dégénérescence neuronale",
+          "is_correct": false
+        },
+        {
+          "text": "Carence en vitamine B12",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'EMG dans le diagnostic des neuropathies ?",
+      "difficulty": "Difficile",
+      "explanation": "L'EMG permet de confirmer le diagnostic de neuropathie en montrant une diminution des vitesses de conduction nerveuse, une réduction de l'amplitude des potentiels sensitifs et moteurs, et des signes de dénervation (fibrillations, ondes positives).",
+      "answers": [
+        {
+          "text": "Diagnostic des migraines",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des signes de dénervation et de ralentissement de conduction",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une myasthénie et une sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Difficile",
+      "explanation": "La myasthénie est une maladie auto-immune de la jonction neuromusculaire, entraînant une fatigabilité musculaire. La SLA est une dégénérescence des motoneurones, provoquant une faiblesse musculaire progressive et une atrophie, sans fatigabilité.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Myasthénie : fatigabilité, auto-immune ; SLA : dégénérescence des motoneurones, faiblesse progressive",
+          "is_correct": true
+        },
+        {
+          "text": "Myasthénie : toujours mortelle",
+          "is_correct": false
+        },
+        {
+          "text": "SLA : fatigabilité musculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement de la sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement de la SLA repose sur le riluzole, qui ralentit la progression de la maladie, et l'édaravone, un antioxydant. La prise en charge est également symptomatique (kinésithérapie, orthophonie, assistance respiratoire).",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Riluzole, édaravone, prise en charge symptomatique",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme physiopathologique de la sclérose latérale amyotrophique (SLA) ?",
+      "difficulty": "Difficile",
+      "explanation": "La SLA est due à une dégénérescence des motoneurones centraux et périphériques, entraînant une faiblesse musculaire progressive et une atrophie. Des mutations génétiques (comme celle du gène SOD1) et des mécanismes de stress oxydatif sont impliqués.",
+      "answers": [
+        {
+          "text": "Inflammation auto-immune",
+          "is_correct": false
+        },
+        {
+          "text": "Dégénérescence des motoneurones, mutations génétiques, stress oxydatif",
+          "is_correct": true
+        },
+        {
+          "text": "Accumulation de prions",
+          "is_correct": false
+        },
+        {
+          "text": "Carence en vitamine B12",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la ponction lombaire dans le diagnostic des méningites ?",
+      "difficulty": "Facile",
+      "explanation": "La ponction lombaire permet d'analyser le liquide céphalo-rachidien (LCR) pour identifier une inflammation (pléiocytose), une infection (bactéries, virus), ou une hémorragie. Elle est essentielle pour le diagnostic étiologique des méningites.",
+      "answers": [
+        {
+          "text": "Diagnostic des migraines",
+          "is_correct": false
+        },
+        {
+          "text": "Analyse du LCR pour identifier inflammation, infection, hémorragie",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression artérielle",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre une méningite bactérienne et virale ?",
+      "difficulty": "Facile",
+      "explanation": "La méningite bactérienne est souvent plus sévère, avec un LCR trouble, une pléiocytose à polynucléaires, une hypoglycorrachie et une hyperprotéinorachie. La méningite virale est généralement plus bénigne, avec un LCR clair, une pléiocytose à lymphocytes, et une glycémie normale.",
+      "answers": [
+        {
+          "text": "Les deux sont identiques",
+          "is_correct": false
+        },
+        {
+          "text": "Bactérienne : LCR trouble, polynucléaires ; virale : LCR clair, lymphocytes",
+          "is_correct": true
+        },
+        {
+          "text": "Bactérienne : toujours bénigne",
+          "is_correct": false
+        },
+        {
+          "text": "Virale : toujours mortelle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement d'une méningite bactérienne ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement d'une méningite bactérienne repose sur une antibiothérapie intraveineuse urgente (comme la ceftriaxone), associée à des corticoïdes pour réduire l'inflammation. Une hospitalisation en urgence est nécessaire.",
+      "answers": [
+        {
+          "text": "Antiviraux",
+          "is_correct": false
+        },
+        {
+          "text": "Antibiothérapie IV (ex. ceftriaxone) + corticoïdes",
+          "is_correct": true
+        },
+        {
+          "text": "Antidouleurs",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'imagerie cérébrale dans le diagnostic des méningites ?",
+      "difficulty": "Facile",
+      "explanation": "L'imagerie cérébrale (scanner ou IRM) permet d'éliminer d'autres causes de symptômes méningés (comme un abcès cérébral ou une hémorragie) et de rechercher des complications (comme un œdème cérébral ou une hydrocéphalie).",
+      "answers": [
+        {
+          "text": "Diagnostic positif de la méningite",
+          "is_correct": false
+        },
+        {
+          "text": "Élimination des diagnostics différentiels, recherche de complications",
+          "is_correct": true
+        },
+        {
+          "text": "Mesure de la pression intracrânienne",
+          "is_correct": false
+        },
+        {
+          "text": "Détection des plaques amyloïdes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cause la plus fréquente de méningite virale ?",
+      "difficulty": "Facile",
+      "explanation": "La cause la plus fréquente de méningite virale est l'entérovirus, suivi du virus herpes simplex (HSV) et du virus varicelle-zona (VZV).",
+      "answers": [
+        {
+          "text": "Bactérie",
+          "is_correct": false
+        },
+        {
+          "text": "Entérovirus",
+          "is_correct": true
+        },
+        {
+          "text": "Champignon",
+          "is_correct": false
+        },
+        {
+          "text": "Parasite",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le traitement d'une méningite virale ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement d'une méningite virale est généralement symptomatique (antalgiques, antipyrétiques), sauf en cas de méningite herpétique, où l'aciclovir est indiqué.",
+      "answers": [
+        {
+          "text": "Antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Traitement symptomatique (sauf herpétique : aciclovir)",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Chirurgie",
+          "is_correct": false
+        }
       ]
     }
   ]

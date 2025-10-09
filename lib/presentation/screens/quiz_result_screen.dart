@@ -5,18 +5,33 @@ import 'package:medquizz_pass/core/constants/app_sizes.dart';
 import 'package:medquizz_pass/core/constants/app_strings.dart';
 import 'package:medquizz_pass/core/constants/app_text_styles.dart';
 import 'package:medquizz_pass/core/widgets/custom_button.dart';
+import 'package:medquizz_pass/core/services/sound_service.dart';
 import 'package:medquizz_pass/data/models/quiz_session_model.dart';
 import 'package:medquizz_pass/presentation/providers/quiz_provider.dart';
 import 'package:medquizz_pass/presentation/screens/dashboard_screen.dart';
 import 'package:medquizz_pass/presentation/screens/category_selection_screen.dart';
 
-class QuizResultScreen extends StatelessWidget {
+class QuizResultScreen extends StatefulWidget {
   final QuizSessionModel session;
 
   const QuizResultScreen({
     super.key,
     required this.session,
   });
+
+  @override
+  State<QuizResultScreen> createState() => _QuizResultScreenState();
+}
+
+class _QuizResultScreenState extends State<QuizResultScreen> {
+  final SoundService _soundService = SoundService();
+
+  @override
+  void initState() {
+    super.initState();
+    // Play end sound when result screen is displayed
+    _soundService.playEndSound();
+  }
 
   Color _getScoreColor(double percentage) {
     if (percentage >= 80) return AppColors.success;
@@ -34,7 +49,7 @@ class QuizResultScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final percentage = session.percentage;
+    final percentage = widget.session.percentage;
     final scoreColor = _getScoreColor(percentage);
     final motivationalMessage =
         AppStrings.getMotivationalMessage(percentage);
@@ -65,7 +80,7 @@ class QuizResultScreen extends StatelessWidget {
             ),
             const SizedBox(height: AppSizes.spacingSm),
             Text(
-              '${session.score}/${session.totalQuestions}',
+              '${widget.session.score}/${widget.session.totalQuestions}',
               style: AppTextStyles.score.copyWith(color: scoreColor),
               textAlign: TextAlign.center,
             ),
@@ -87,20 +102,20 @@ class QuizResultScreen extends StatelessWidget {
                   children: [
                     _StatRow(
                       label: AppStrings.totalQuestions,
-                      value: session.totalQuestions.toString(),
+                      value: widget.session.totalQuestions.toString(),
                       icon: Icons.quiz,
                     ),
                     const Divider(),
                     _StatRow(
                       label: AppStrings.correctAnswers,
-                      value: session.score.toString(),
+                      value: widget.session.score.toString(),
                       icon: Icons.check_circle,
                       valueColor: AppColors.success,
                     ),
                     const Divider(),
                     _StatRow(
                       label: 'Réponses incorrectes',
-                      value: (session.totalQuestions - session.score)
+                      value: (widget.session.totalQuestions - widget.session.score)
                           .toString(),
                       icon: Icons.cancel,
                       valueColor: AppColors.error,

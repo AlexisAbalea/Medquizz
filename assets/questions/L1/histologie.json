@@ -1,0 +1,1155 @@
+{
+  "category": "Histologie",
+  "questions": [
+    {
+      "question_text": "Quels sont les quatre types de tissus fondamentaux ?",
+      "difficulty": "Facile",
+      "explanation": "Les quatre types de tissus fondamentaux sont : le tissu épithélial, le tissu conjonctif, le tissu musculaire et le tissu nerveux.",
+      "answers": [
+        {
+          "text": "Épithélial, conjonctif, musculaire, nerveux",
+          "is_correct": true
+        },
+        {
+          "text": "Épithélial, osseux, musculaire, sanguin",
+          "is_correct": false
+        },
+        {
+          "text": "Conjonctif, cartilagineux, osseux, sanguin",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélial, adipeux, musculaire, lymphatique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un épithélium ?",
+      "difficulty": "Facile",
+      "explanation": "Un épithélium est un tissu formé de cellules juxtaposées, reposant sur une lame basale, qui recouvre les surfaces externes du corps et tapisse les cavités internes.",
+      "answers": [
+        {
+          "text": "Tissu recouvrant les surfaces et cavités",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu de soutien avec beaucoup de matrice",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu permettant la contraction",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu transmettant l'influx nerveux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un épithélium pseudostratifié ?",
+      "difficulty": "Moyen",
+      "explanation": "Un épithélium pseudostratifié est un épithélium simple dont toutes les cellules reposent sur la lame basale, mais dont les noyaux sont à des hauteurs différentes, donnant une fausse impression de stratification.",
+      "answers": [
+        {
+          "text": "Épithélium simple avec noyaux à hauteurs différentes",
+          "is_correct": true
+        },
+        {
+          "text": "Épithélium avec plusieurs couches de cellules",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium avec des cellules de formes variées",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium simple avec une seule couche",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où trouve-t-on un épithélium pavimenteux stratifié non kératinisé ?",
+      "difficulty": "Moyen",
+      "explanation": "L'épithélium pavimenteux stratifié non kératinisé se trouve dans les muqueuses humides comme l'œsophage, la cavité buccale, le vagin et la cornée.",
+      "answers": [
+        {
+          "text": "Œsophage, cavité buccale, vagin",
+          "is_correct": true
+        },
+        {
+          "text": "Peau, paume des mains",
+          "is_correct": false
+        },
+        {
+          "text": "Intestin grêle, estomac",
+          "is_correct": false
+        },
+        {
+          "text": "Trachée, bronches",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type d'épithélium tapisse l'intestin grêle ?",
+      "difficulty": "Facile",
+      "explanation": "L'intestin grêle est tapissé d'un épithélium simple prismatique avec des microvillosités (bordure en brosse) pour augmenter la surface d'absorption.",
+      "answers": [
+        {
+          "text": "Épithélium simple prismatique",
+          "is_correct": true
+        },
+        {
+          "text": "Épithélium stratifié pavimenteux",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium simple pavimenteux",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium pseudostratifié cilié",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type d'épithélium tapisse les alvéoles pulmonaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les alvéoles pulmonaires sont tapissées d'un épithélium simple pavimenteux pour permettre les échanges gazeux rapides par diffusion.",
+      "answers": [
+        {
+          "text": "Épithélium simple pavimenteux",
+          "is_correct": true
+        },
+        {
+          "text": "Épithélium simple prismatique",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium pseudostratifié cilié",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium de transition",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un épithélium de transition (urothélium) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'épithélium de transition (urothélium) tapisse les voies urinaires (vessie, uretères). Il est stratifié et peut s'étirer sans se déchirer lors de la distension vésicale.",
+      "answers": [
+        {
+          "text": "Épithélium stratifié des voies urinaires extensible",
+          "is_correct": true
+        },
+        {
+          "text": "Épithélium simple de l'intestin",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium cilié des voies respiratoires",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium kératinisé de la peau",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale du tissu conjonctif ?",
+      "difficulty": "Facile",
+      "explanation": "Le tissu conjonctif assure le soutien structurel, la protection, le stockage énergétique et le transport de substances. Il contient beaucoup de matrice extracellulaire.",
+      "answers": [
+        {
+          "text": "Soutien, protection, stockage, transport",
+          "is_correct": true
+        },
+        {
+          "text": "Contraction et mouvement",
+          "is_correct": false
+        },
+        {
+          "text": "Recouvrement et protection de surface",
+          "is_correct": false
+        },
+        {
+          "text": "Transmission de l'influx nerveux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les principaux composants de la matrice extracellulaire du tissu conjonctif ?",
+      "difficulty": "Moyen",
+      "explanation": "La matrice extracellulaire du tissu conjonctif est composée de fibres (collagène, élastine, réticuline) et de substance fondamentale (protéoglycanes, glycosaminoglycanes).",
+      "answers": [
+        {
+          "text": "Fibres de collagène, élastine et substance fondamentale",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules épithéliales et lame basale",
+          "is_correct": false
+        },
+        {
+          "text": "Myofibrilles et sarcomères",
+          "is_correct": false
+        },
+        {
+          "text": "Neurones et cellules gliales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le type de cellule le plus abondant dans le tissu conjonctif lâche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le fibroblaste est la cellule la plus abondante du tissu conjonctif. Il synthétise et sécrète les composants de la matrice extracellulaire (collagène, élastine, substance fondamentale).",
+      "answers": [
+        {
+          "text": "Fibroblaste",
+          "is_correct": true
+        },
+        {
+          "text": "Macrophage",
+          "is_correct": false
+        },
+        {
+          "text": "Adipocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Mastocyte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule du tissu conjonctif joue un rôle dans la défense immunitaire par phagocytose ?",
+      "difficulty": "Facile",
+      "explanation": "Le macrophage est une cellule phagocytaire dérivée du monocyte sanguin. Il joue un rôle important dans la défense immunitaire, la phagocytose et la présentation d'antigènes.",
+      "answers": [
+        {
+          "text": "Macrophage",
+          "is_correct": true
+        },
+        {
+          "text": "Fibroblaste",
+          "is_correct": false
+        },
+        {
+          "text": "Adipocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Chondrocyte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule libère de l'histamine lors des réactions allergiques ?",
+      "difficulty": "Facile",
+      "explanation": "Le mastocyte contient des granules riches en histamine et en héparine. Il joue un rôle majeur dans les réactions allergiques et inflammatoires.",
+      "answers": [
+        {
+          "text": "Mastocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Fibroblaste",
+          "is_correct": false
+        },
+        {
+          "text": "Macrophage",
+          "is_correct": false
+        },
+        {
+          "text": "Plasmocyte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel tissu conjonctif spécialisé stocke l'énergie sous forme de lipides ?",
+      "difficulty": "Facile",
+      "explanation": "Le tissu adipeux est un tissu conjonctif spécialisé composé d'adipocytes qui stockent les lipides. Il existe deux types : blanc (réserve énergétique) et brun (thermogenèse).",
+      "answers": [
+        {
+          "text": "Tissu adipeux",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu osseux",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu cartilagineux",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu sanguin",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cellule caractéristique du tissu cartilagineux ?",
+      "difficulty": "Facile",
+      "explanation": "Le chondrocyte est la cellule du cartilage. Il sécrète la matrice cartilagineuse composée de collagène de type II et de protéoglycanes.",
+      "answers": [
+        {
+          "text": "Chondrocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Fibroblaste",
+          "is_correct": false
+        },
+        {
+          "text": "Adipocyte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les trois types de cartilage ?",
+      "difficulty": "Moyen",
+      "explanation": "Il existe trois types de cartilage : hyalin (le plus abondant, articulations), élastique (oreille, épiglotte) et fibreux (disques intervertébraux, ménisques).",
+      "answers": [
+        {
+          "text": "Hyalin, élastique, fibreux",
+          "is_correct": true
+        },
+        {
+          "text": "Compact, spongieux, trabéculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Blanc, jaune, rouge",
+          "is_correct": false
+        },
+        {
+          "text": "Dense, lâche, réticulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cellule mature du tissu osseux située dans les ostéoplastes ?",
+      "difficulty": "Facile",
+      "explanation": "L'ostéocyte est la cellule mature du tissu osseux, logée dans des lacunes appelées ostéoplastes. Il maintient la matrice osseuse.",
+      "answers": [
+        {
+          "text": "Ostéocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoblaste",
+          "is_correct": false
+        },
+        {
+          "text": "Ostéoclaste",
+          "is_correct": false
+        },
+        {
+          "text": "Chondrocyte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule est responsable de la formation (synthèse) de la matrice osseuse ?",
+      "difficulty": "Facile",
+      "explanation": "L'ostéoblaste est la cellule formatrice d'os. Il synthétise et sécrète la matrice osseuse (collagène de type I et substance fondamentale) qui sera ensuite minéralisée.",
+      "answers": [
+        {
+          "text": "Ostéoblaste",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Ostéoclaste",
+          "is_correct": false
+        },
+        {
+          "text": "Fibroblaste",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule est responsable de la résorption osseuse ?",
+      "difficulty": "Facile",
+      "explanation": "L'ostéoclaste est une cellule géante multinucléée d'origine hématopoïétique. Il résorbe (détruit) la matrice osseuse lors du remodelage osseux.",
+      "answers": [
+        {
+          "text": "Ostéoclaste",
+          "is_correct": true
+        },
+        {
+          "text": "Ostéoblaste",
+          "is_correct": false
+        },
+        {
+          "text": "Ostéocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Chondroclaste",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les trois types de tissu musculaire ?",
+      "difficulty": "Facile",
+      "explanation": "Il existe trois types de tissu musculaire : squelettique (strié volontaire), cardiaque (strié involontaire) et lisse (non strié involontaire).",
+      "answers": [
+        {
+          "text": "Squelettique, cardiaque, lisse",
+          "is_correct": true
+        },
+        {
+          "text": "Volontaire, involontaire, mixte",
+          "is_correct": false
+        },
+        {
+          "text": "Strié, non strié, réticulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Rapide, lent, intermédiaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la caractéristique du muscle squelettique ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle squelettique est strié (avec des bandes claires et sombres), volontaire (contrôlé consciemment) et multinucléé avec des noyaux périphériques.",
+      "answers": [
+        {
+          "text": "Strié, volontaire, multinucléé",
+          "is_correct": true
+        },
+        {
+          "text": "Lisse, involontaire, mononucléé",
+          "is_correct": false
+        },
+        {
+          "text": "Strié, involontaire, avec disques intercalaires",
+          "is_correct": false
+        },
+        {
+          "text": "Lisse, volontaire, multinucléé",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle structure est spécifique au muscle cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "Les disques intercalaires sont des jonctions spécialisées entre les cardiomyocytes. Ils contiennent des desmosomes (cohésion) et des jonctions gap (couplage électrique).",
+      "answers": [
+        {
+          "text": "Disques intercalaires",
+          "is_correct": true
+        },
+        {
+          "text": "Noyaux périphériques",
+          "is_correct": false
+        },
+        {
+          "text": "Corps denses",
+          "is_correct": false
+        },
+        {
+          "text": "Fibres de Purkinje uniquement",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où trouve-t-on le muscle lisse ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle lisse se trouve dans les parois des organes creux (tube digestif, vaisseaux sanguins, vessie, utérus). Il est involontaire et mononucléé.",
+      "answers": [
+        {
+          "text": "Parois des organes creux (tube digestif, vaisseaux)",
+          "is_correct": true
+        },
+        {
+          "text": "Muscles des membres",
+          "is_correct": false
+        },
+        {
+          "text": "Cœur uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Tendons et ligaments",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un sarcomère ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sarcomère est l'unité contractile du muscle strié, délimitée par deux lignes Z. Il contient des filaments fins (actine) et épais (myosine) organisés en bandes.",
+      "answers": [
+        {
+          "text": "Unité contractile du muscle strié entre deux lignes Z",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule musculaire entière",
+          "is_correct": false
+        },
+        {
+          "text": "Jonction neuromusculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Membrane plasmique du muscle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les deux types de cellules du tissu nerveux ?",
+      "difficulty": "Facile",
+      "explanation": "Le tissu nerveux est composé de neurones (cellules excitables transmettant l'influx) et de cellules gliales ou névroglies (soutien, nutrition, protection).",
+      "answers": [
+        {
+          "text": "Neurones et cellules gliales",
+          "is_correct": true
+        },
+        {
+          "text": "Neurones et fibroblastes",
+          "is_correct": false
+        },
+        {
+          "text": "Axones et dendrites",
+          "is_correct": false
+        },
+        {
+          "text": "Myéline et synapses",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les trois parties principales d'un neurone ?",
+      "difficulty": "Facile",
+      "explanation": "Un neurone est composé d'un corps cellulaire (soma ou péricaryon), de dendrites (reçoivent l'information) et d'un axone (transmet l'information).",
+      "answers": [
+        {
+          "text": "Corps cellulaire, dendrites, axone",
+          "is_correct": true
+        },
+        {
+          "text": "Noyau, cytoplasme, membrane",
+          "is_correct": false
+        },
+        {
+          "text": "Synapse, myéline, nœud de Ranvier",
+          "is_correct": false
+        },
+        {
+          "text": "Soma, astrocytes, oligodendrocytes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule gliale produit la myéline dans le système nerveux central ?",
+      "difficulty": "Moyen",
+      "explanation": "L'oligodendrocyte est la cellule gliale qui produit la myéline dans le SNC. Un oligodendrocyte peut myéliniser plusieurs axones différents.",
+      "answers": [
+        {
+          "text": "Oligodendrocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule de Schwann",
+          "is_correct": false
+        },
+        {
+          "text": "Astrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Microglie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit la myéline dans le système nerveux périphérique ?",
+      "difficulty": "Moyen",
+      "explanation": "La cellule de Schwann produit la myéline dans le SNP. Contrairement à l'oligodendrocyte, une cellule de Schwann ne myélinise qu'un seul segment d'un seul axone.",
+      "answers": [
+        {
+          "text": "Cellule de Schwann",
+          "is_correct": true
+        },
+        {
+          "text": "Oligodendrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Astrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Microglie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal des astrocytes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les astrocytes sont les cellules gliales les plus nombreuses du SNC. Ils assurent le soutien structural, la nutrition des neurones, la régulation ionique et la formation de la barrière hémato-encéphalique.",
+      "answers": [
+        {
+          "text": "Soutien, nutrition, régulation ionique, barrière hémato-encéphalique",
+          "is_correct": true
+        },
+        {
+          "text": "Production de myéline uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Phagocytose et défense immunitaire",
+          "is_correct": false
+        },
+        {
+          "text": "Transmission de l'influx nerveux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule gliale joue un rôle de macrophage dans le système nerveux central ?",
+      "difficulty": "Moyen",
+      "explanation": "La microglie est la cellule immunitaire résidente du SNC. Elle joue un rôle de macrophage en phagocytant les débris cellulaires et les agents pathogènes.",
+      "answers": [
+        {
+          "text": "Microglie",
+          "is_correct": true
+        },
+        {
+          "text": "Astrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Oligodendrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de Schwann",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une synapse ?",
+      "difficulty": "Facile",
+      "explanation": "Une synapse est une zone de communication entre deux neurones ou entre un neurone et une cellule effectrice (muscle, glande). Elle peut être chimique (avec neurotransmetteurs) ou électrique.",
+      "answers": [
+        {
+          "text": "Zone de communication entre neurones ou neurone-cellule effectrice",
+          "is_correct": true
+        },
+        {
+          "text": "Gaine de myéline entourant l'axone",
+          "is_correct": false
+        },
+        {
+          "text": "Corps cellulaire du neurone",
+          "is_correct": false
+        },
+        {
+          "text": "Espace entre deux nœuds de Ranvier",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la lame basale ?",
+      "difficulty": "Moyen",
+      "explanation": "La lame basale est une fine couche de matrice extracellulaire sur laquelle reposent les épithéliums. Elle est composée de collagène de type IV, laminine et protéoglycanes.",
+      "answers": [
+        {
+          "text": "Couche de matrice sur laquelle repose l'épithélium",
+          "is_correct": true
+        },
+        {
+          "text": "Membrane plasmique des cellules épithéliales",
+          "is_correct": false
+        },
+        {
+          "text": "Couche de cellules basales de l'épithélium",
+          "is_correct": false
+        },
+        {
+          "text": "Jonction entre deux cellules",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les principales jonctions cellulaires entre cellules épithéliales ?",
+      "difficulty": "Moyen",
+      "explanation": "Les principales jonctions sont : les jonctions serrées (étanchéité), les jonctions d'ancrage (desmosomes, jonctions adhérentes - cohésion) et les jonctions gap (communication).",
+      "answers": [
+        {
+          "text": "Jonctions serrées, desmosomes, jonctions gap",
+          "is_correct": true
+        },
+        {
+          "text": "Synapses, disques intercalaires, nœuds de Ranvier",
+          "is_correct": false
+        },
+        {
+          "text": "Lame basale, matrice extracellulaire, fibres",
+          "is_correct": false
+        },
+        {
+          "text": "Microvillosités, cils, flagelles",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où trouve-t-on des microvillosités ?",
+      "difficulty": "Facile",
+      "explanation": "Les microvillosités sont des expansions cytoplasmiques qui augmentent la surface d'absorption. On les trouve principalement dans l'intestin grêle (bordure en brosse) et les tubules rénaux.",
+      "answers": [
+        {
+          "text": "Intestin grêle (bordure en brosse), tubules rénaux",
+          "is_correct": true
+        },
+        {
+          "text": "Trachée et bronches",
+          "is_correct": false
+        },
+        {
+          "text": "Peau et muqueuses",
+          "is_correct": false
+        },
+        {
+          "text": "Muscle cardiaque",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où trouve-t-on des cils vibratiles ?",
+      "difficulty": "Facile",
+      "explanation": "Les cils vibratiles sont des prolongements mobiles qui permettent le déplacement du mucus. On les trouve dans l'épithélium pseudostratifié cilié de la trachée, des bronches et des trompes utérines.",
+      "answers": [
+        {
+          "text": "Trachée, bronches, trompes utérines",
+          "is_correct": true
+        },
+        {
+          "text": "Intestin grêle et côlon",
+          "is_correct": false
+        },
+        {
+          "text": "Peau et œsophage",
+          "is_correct": false
+        },
+        {
+          "text": "Vessie et uretères",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le collagène ?",
+      "difficulty": "Facile",
+      "explanation": "Le collagène est la protéine la plus abondante du corps humain. C'est une protéine fibreuse qui assure la résistance à la tension dans la matrice extracellulaire.",
+      "answers": [
+        {
+          "text": "Protéine fibreuse assurant résistance à la tension",
+          "is_correct": true
+        },
+        {
+          "text": "Protéine élastique permettant l'extensibilité",
+          "is_correct": false
+        },
+        {
+          "text": "Glycoprotéine de la substance fondamentale",
+          "is_correct": false
+        },
+        {
+          "text": "Protéine contractile du muscle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de collagène est le plus abondant dans la peau, les os et les tendons ?",
+      "difficulty": "Moyen",
+      "explanation": "Le collagène de type I est le plus abondant (90% du collagène total). On le trouve dans la peau, les os, les tendons, les ligaments et la dentine.",
+      "answers": [
+        {
+          "text": "Collagène de type I",
+          "is_correct": true
+        },
+        {
+          "text": "Collagène de type II",
+          "is_correct": false
+        },
+        {
+          "text": "Collagène de type III",
+          "is_correct": false
+        },
+        {
+          "text": "Collagène de type IV",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de collagène est spécifique du cartilage hyalin ?",
+      "difficulty": "Moyen",
+      "explanation": "Le collagène de type II est spécifique du cartilage hyalin et du cartilage élastique. Il forme un réseau de fibrilles fines.",
+      "answers": [
+        {
+          "text": "Collagène de type II",
+          "is_correct": true
+        },
+        {
+          "text": "Collagène de type I",
+          "is_correct": false
+        },
+        {
+          "text": "Collagène de type III",
+          "is_correct": false
+        },
+        {
+          "text": "Collagène de type IV",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de collagène est le principal composant de la lame basale ?",
+      "difficulty": "Difficile",
+      "explanation": "Le collagène de type IV est spécifique de la lame basale. Il forme un réseau en maille qui sert de support aux épithéliums.",
+      "answers": [
+        {
+          "text": "Collagène de type IV",
+          "is_correct": true
+        },
+        {
+          "text": "Collagène de type I",
+          "is_correct": false
+        },
+        {
+          "text": "Collagène de type II",
+          "is_correct": false
+        },
+        {
+          "text": "Collagène de type III",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'élastine ?",
+      "difficulty": "Facile",
+      "explanation": "L'élastine est une protéine fibreuse extensible qui permet aux tissus de reprendre leur forme après étirement. On la trouve dans les poumons, les artères et la peau.",
+      "answers": [
+        {
+          "text": "Protéine fibreuse extensible permettant le retour élastique",
+          "is_correct": true
+        },
+        {
+          "text": "Protéine résistante à la tension",
+          "is_correct": false
+        },
+        {
+          "text": "Glycoprotéine de la substance fondamentale",
+          "is_correct": false
+        },
+        {
+          "text": "Protéine contractile",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un tissu conjonctif lâche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tissu conjonctif lâche contient peu de fibres et beaucoup de substance fondamentale. Il remplit les espaces entre organes et sert de support souple (derme superficiel, sous-muqueuses).",
+      "answers": [
+        {
+          "text": "Tissu avec peu de fibres et beaucoup de substance fondamentale",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu avec beaucoup de fibres de collagène organisées",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu cartilagineux sans vascularisation",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu osseux compact",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un tissu conjonctif dense ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tissu conjonctif dense contient beaucoup de fibres de collagène et peu de cellules. Il peut être régulier (tendons, ligaments) ou irrégulier (derme profond).",
+      "answers": [
+        {
+          "text": "Tissu avec beaucoup de fibres de collagène",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu avec beaucoup de cellules et peu de fibres",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu avec matrice minéralisée",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu sans vascularisation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale caractéristique du sang en tant que tissu conjonctif ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sang est un tissu conjonctif liquide spécialisé. Sa matrice extracellulaire est le plasma (liquide) et il contient des cellules circulantes (érythrocytes, leucocytes, plaquettes).",
+      "answers": [
+        {
+          "text": "Matrice liquide (plasma) avec cellules circulantes",
+          "is_correct": true
+        },
+        {
+          "text": "Matrice solide avec des ostéocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Matrice gélatineuse avec des chondrocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Absence de matrice extracellulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'hématopoïèse ?",
+      "difficulty": "Facile",
+      "explanation": "L'hématopoïèse est le processus de formation des cellules sanguines à partir de cellules souches hématopoïétiques dans la moelle osseuse rouge.",
+      "answers": [
+        {
+          "text": "Formation des cellules sanguines dans la moelle osseuse",
+          "is_correct": true
+        },
+        {
+          "text": "Coagulation du sang",
+          "is_correct": false
+        },
+        {
+          "text": "Transport de l'oxygène",
+          "is_correct": false
+        },
+        {
+          "text": "Destruction des érythrocytes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une glande exocrine ?",
+      "difficulty": "Facile",
+      "explanation": "Une glande exocrine sécrète ses produits via un canal excréteur vers une surface externe ou une cavité corporelle (glandes salivaires, sudoripares, sébacées, pancréas exocrine).",
+      "answers": [
+        {
+          "text": "Glande avec canal excréteur vers une surface",
+          "is_correct": true
+        },
+        {
+          "text": "Glande sécrétant directement dans le sang",
+          "is_correct": false
+        },
+        {
+          "text": "Glande sans fonction sécrétoire",
+          "is_correct": false
+        },
+        {
+          "text": "Glande produisant uniquement des hormones",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une glande endocrine ?",
+      "difficulty": "Facile",
+      "explanation": "Une glande endocrine sécrète des hormones directement dans le sang sans canal excréteur (thyroïde, hypophyse, surrénales, pancréas endocrine).",
+      "answers": [
+        {
+          "text": "Glande sans canal, sécrétant des hormones dans le sang",
+          "is_correct": true
+        },
+        {
+          "text": "Glande avec canal excréteur",
+          "is_correct": false
+        },
+        {
+          "text": "Glande sécrétant vers une surface",
+          "is_correct": false
+        },
+        {
+          "text": "Glande sans fonction hormonale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la kératinisation ?",
+      "difficulty": "Moyen",
+      "explanation": "La kératinisation est le processus de transformation des kératinocytes qui accumulent de la kératine et perdent leurs organites pour former une couche cornée protectrice (peau).",
+      "answers": [
+        {
+          "text": "Accumulation de kératine avec perte des organites",
+          "is_correct": true
+        },
+        {
+          "text": "Production de mélanine par les mélanocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Formation de la lame basale",
+          "is_correct": false
+        },
+        {
+          "text": "Division des cellules épithéliales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les couches de l'épiderme de la peau épaisse (de la profondeur à la surface) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les couches de l'épiderme de profondeur en surface sont : basale (germinative), épineuse (spineuse), granuleuse, claire (lucide, seulement peau épaisse) et cornée.",
+      "answers": [
+        {
+          "text": "Basale, épineuse, granuleuse, claire, cornée",
+          "is_correct": true
+        },
+        {
+          "text": "Cornée, granuleuse, épineuse, basale",
+          "is_correct": false
+        },
+        {
+          "text": "Basale, granuleuse, cornée",
+          "is_correct": false
+        },
+        {
+          "text": "Épineuse, basale, claire, granuleuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule de l'épiderme produit la mélanine ?",
+      "difficulty": "Facile",
+      "explanation": "Le mélanocyte est une cellule dendritique de la couche basale qui synthétise la mélanine (pigment protégeant contre les UV) et la transfère aux kératinocytes.",
+      "answers": [
+        {
+          "text": "Mélanocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Kératinocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de Langerhans",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de Merkel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule de l'épiderme joue un rôle immunitaire de présentation d'antigènes ?",
+      "difficulty": "Moyen",
+      "explanation": "La cellule de Langerhans est une cellule dendritique d'origine hématopoïétique présente dans l'épiderme. Elle capte les antigènes et les présente aux lymphocytes T.",
+      "answers": [
+        {
+          "text": "Cellule de Langerhans",
+          "is_correct": true
+        },
+        {
+          "text": "Mélanocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Kératinocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de Merkel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la cellule de Merkel ?",
+      "difficulty": "Difficile",
+      "explanation": "La cellule de Merkel est une cellule neuroendocrine de la couche basale de l'épiderme associée aux terminaisons nerveuses. Elle joue un rôle de mécanorécepteur tactile.",
+      "answers": [
+        {
+          "text": "Mécanorécepteur tactile",
+          "is_correct": true
+        },
+        {
+          "text": "Production de mélanine",
+          "is_correct": false
+        },
+        {
+          "text": "Présentation d'antigènes",
+          "is_correct": false
+        },
+        {
+          "text": "Synthèse de kératine",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

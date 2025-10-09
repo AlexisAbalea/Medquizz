@@ -56,7 +56,13 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   void _selectAnswer(int answerId) {
-    context.read<QuizProvider>().selectAnswer(answerId);
+    final quizProvider = context.read<QuizProvider>();
+    quizProvider.selectAnswer(answerId);
+
+    // Play sound based on whether answer is correct
+    final isCorrect = quizProvider.isAnswerCorrect(answerId);
+    quizProvider.playAnswerSound(isCorrect ?? false);
+
     setState(() {
       _showExplanation = true;
     });

@@ -1,5 +1,5 @@
 name: medquizz_pass
-description: "Application de quiz pour étudiants PASS en médecine (L1-L3)"
+description: "HippoQuiz - Application de quiz pour étudiants PASS en médecine (L1-L3)"
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -30,6 +30,8 @@ dependencies:
   shared_preferences: ^2.2.2
   intl: ^0.19.0
   equatable: ^2.0.5
+  audioplayers: ^5.2.1
+  url_launcher: ^6.2.2
 
   # Icons
   cupertino_icons: ^1.0.6
@@ -52,6 +54,7 @@ flutter:
     - assets/images/
     - assets/animations/
     - assets/icons/
+    - assets/sounds/
     - assets/questions/
     - assets/questions/L1/
     - assets/questions/L2/

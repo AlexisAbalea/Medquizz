@@ -5,10 +5,12 @@ import 'package:medquizz_pass/data/models/quiz_session_model.dart';
 import 'package:medquizz_pass/data/models/user_progress_model.dart';
 import 'package:medquizz_pass/domain/repositories/question_repository.dart';
 import 'package:medquizz_pass/domain/repositories/quiz_repository.dart';
+import 'package:medquizz_pass/core/services/sound_service.dart';
 
 class QuizProvider with ChangeNotifier {
   final QuestionRepository _questionRepository;
   final QuizRepository _quizRepository;
+  final SoundService _soundService = SoundService();
 
   List<QuestionModel> _questions = [];
   final Map<int, List<AnswerModel>> _answers = {};
@@ -257,5 +259,14 @@ class QuizProvider with ChangeNotifier {
   void clearError() {
     _error = null;
     notifyListeners();
+  }
+
+  /// Play sound based on whether answer is correct or not
+  void playAnswerSound(bool isCorrect) {
+    if (isCorrect) {
+      _soundService.playCorrectSound();
+    } else {
+      _soundService.playWrongSound();
+    }
   }
 }
