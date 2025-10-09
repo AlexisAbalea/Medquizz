@@ -1150,6 +1150,2628 @@
           "is_correct": false
         }
       ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des desmosomes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les desmosomes sont des jonctions d'ancrage qui assurent la cohésion mécanique entre les cellules épithéliales en reliant leurs cytosquelettes de filaments intermédiaires.",
+      "answers": [
+        {
+          "text": "Cohésion mécanique entre cellules",
+          "is_correct": true
+        },
+        {
+          "text": "Communication intercellulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Imperméabilité entre cellules",
+          "is_correct": false
+        },
+        {
+          "text": "Transport de molécules",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des jonctions serrées (tight junctions) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les jonctions serrées assurent l'étanchéité entre les cellules épithéliales, empêchant le passage de substances entre les cellules (voie paracellulaire).",
+      "answers": [
+        {
+          "text": "Imperméabilité et étanchéité intercellulaire",
+          "is_correct": true
+        },
+        {
+          "text": "Cohésion mécanique",
+          "is_correct": false
+        },
+        {
+          "text": "Communication par passage d'ions",
+          "is_correct": false
+        },
+        {
+          "text": "Adhésion à la lame basale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction des jonctions gap ?",
+      "difficulty": "Moyen",
+      "explanation": "Les jonctions gap permettent la communication directe entre cellules adjacentes par passage d'ions, de petites molécules et de seconds messagers.",
+      "answers": [
+        {
+          "text": "Communication intercellulaire par passage d'ions et molécules",
+          "is_correct": true
+        },
+        {
+          "text": "Étanchéité intercellulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Adhésion mécanique forte",
+          "is_correct": false
+        },
+        {
+          "text": "Barrière de diffusion",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle protéine est caractéristique des filaments intermédiaires des cellules épithéliales ?",
+      "difficulty": "Difficile",
+      "explanation": "La kératine est la protéine des filaments intermédiaires spécifique des cellules épithéliales. Il existe de nombreux types de kératines.",
+      "answers": [
+        {
+          "text": "Kératine",
+          "is_correct": true
+        },
+        {
+          "text": "Vimentine",
+          "is_correct": false
+        },
+        {
+          "text": "Desmine",
+          "is_correct": false
+        },
+        {
+          "text": "Neurofilaments",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle protéine de filaments intermédiaires est spécifique du tissu musculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "La desmine est la protéine des filaments intermédiaires spécifique des cellules musculaires (striées squelettiques, cardiaques et lisses).",
+      "answers": [
+        {
+          "text": "Desmine",
+          "is_correct": true
+        },
+        {
+          "text": "Kératine",
+          "is_correct": false
+        },
+        {
+          "text": "Vimentine",
+          "is_correct": false
+        },
+        {
+          "text": "Actine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal glycosaminoglycane de la matrice cartilagineuse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aggrécane est le protéoglycane majeur du cartilage. Il est composé d'une protéine centrale liée à de nombreuses chaînes de chondroïtine sulfate et de kératane sulfate.",
+      "answers": [
+        {
+          "text": "Aggrécane (chondroïtine sulfate)",
+          "is_correct": true
+        },
+        {
+          "text": "Acide hyaluronique seul",
+          "is_correct": false
+        },
+        {
+          "text": "Héparane sulfate",
+          "is_correct": false
+        },
+        {
+          "text": "Dermatane sulfate",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel tissu conjonctif est avasculaire ?",
+      "difficulty": "Facile",
+      "explanation": "Le cartilage est un tissu conjonctif avasculaire (sans vaisseaux sanguins). Il est nourri par diffusion depuis le périchondre.",
+      "answers": [
+        {
+          "text": "Cartilage",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu osseux",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu adipeux",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu conjonctif lâche",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où trouve-t-on le cartilage élastique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cartilage élastique contient de nombreuses fibres élastiques. On le trouve dans le pavillon de l'oreille, l'épiglotte et certains cartilages du larynx.",
+      "answers": [
+        {
+          "text": "Oreille externe, épiglotte",
+          "is_correct": true
+        },
+        {
+          "text": "Disques intervertébraux, ménisques",
+          "is_correct": false
+        },
+        {
+          "text": "Cartilages articulaires",
+          "is_correct": false
+        },
+        {
+          "text": "Cartilages costaux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où trouve-t-on le cartilage fibreux (fibrocartilage) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le fibrocartilage est riche en fibres de collagène de type I. On le trouve dans les disques intervertébraux, les ménisques, la symphyse pubienne et les insertions tendineuses.",
+      "answers": [
+        {
+          "text": "Disques intervertébraux, ménisques",
+          "is_correct": true
+        },
+        {
+          "text": "Oreille externe, épiglotte",
+          "is_correct": false
+        },
+        {
+          "text": "Nez, trachée",
+          "is_correct": false
+        },
+        {
+          "text": "Cartilages articulaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le périchondre ?",
+      "difficulty": "Moyen",
+      "explanation": "Le périchondre est une membrane de tissu conjonctif dense qui entoure le cartilage (sauf le cartilage articulaire). Il assure la nutrition du cartilage et contient des cellules souches chondrogéniques.",
+      "answers": [
+        {
+          "text": "Membrane conjonctive entourant le cartilage",
+          "is_correct": true
+        },
+        {
+          "text": "Membrane entourant l'os",
+          "is_correct": false
+        },
+        {
+          "text": "Cavité contenant le chondrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Matrice cartilagineuse calcifiée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le périoste ?",
+      "difficulty": "Facile",
+      "explanation": "Le périoste est une membrane conjonctive fibreuse richement vascularisée qui entoure l'os (sauf aux surfaces articulaires). Il contient des ostéoblastes et joue un rôle dans la croissance et la réparation osseuse.",
+      "answers": [
+        {
+          "text": "Membrane conjonctive entourant l'os",
+          "is_correct": true
+        },
+        {
+          "text": "Membrane entourant le cartilage",
+          "is_correct": false
+        },
+        {
+          "text": "Cavité contenant l'ostéocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Moelle osseuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un ostéon (système de Havers) ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ostéon est l'unité structurale de l'os compact. Il est constitué de lamelles osseuses concentriques autour d'un canal central (canal de Havers) contenant des vaisseaux sanguins et des nerfs.",
+      "answers": [
+        {
+          "text": "Unité structurale de l'os compact avec lamelles concentriques",
+          "is_correct": true
+        },
+        {
+          "text": "Cavité contenant l'ostéocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Canal reliant les ostéocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Travée de l'os spongieux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un canalicule osseux ?",
+      "difficulty": "Moyen",
+      "explanation": "Les canalicules osseux sont de fins canaux qui relient les ostéoplastes (lacunes) entre eux et avec le canal de Havers. Ils permettent la diffusion des nutriments et des déchets.",
+      "answers": [
+        {
+          "text": "Fin canal reliant les ostéocytes entre eux",
+          "is_correct": true
+        },
+        {
+          "text": "Canal central de l'ostéon",
+          "is_correct": false
+        },
+        {
+          "text": "Cavité contenant l'ostéocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Canal reliant deux canaux de Havers",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre os compact et os spongieux ?",
+      "difficulty": "Facile",
+      "explanation": "L'os compact est dense avec des ostéons organisés, situé en périphérie. L'os spongieux est trabéculaire (en réseau), moins dense, situé aux extrémités des os longs et contenant la moelle osseuse.",
+      "answers": [
+        {
+          "text": "Os compact est dense et périphérique, spongieux est trabéculaire et central",
+          "is_correct": true
+        },
+        {
+          "text": "Os compact contient la moelle, spongieux non",
+          "is_correct": false
+        },
+        {
+          "text": "Os compact est cartilagineux, spongieux osseux",
+          "is_correct": false
+        },
+        {
+          "text": "Aucune différence structurale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la moelle osseuse rouge ?",
+      "difficulty": "Facile",
+      "explanation": "La moelle osseuse rouge est un tissu hématopoïétique situé dans les cavités osseuses (os spongieux, épiphyses). Elle produit les cellules sanguines (hématopoïèse).",
+      "answers": [
+        {
+          "text": "Tissu hématopoïétique produisant les cellules sanguines",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu adipeux de réserve",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu nerveux",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu cartilagineux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la moelle osseuse jaune ?",
+      "difficulty": "Facile",
+      "explanation": "La moelle osseuse jaune est constituée principalement de tissu adipeux. Elle remplace progressivement la moelle rouge dans les os longs avec l'âge et sert de réserve énergétique.",
+      "answers": [
+        {
+          "text": "Tissu adipeux de réserve énergétique",
+          "is_correct": true
+        },
+        {
+          "text": "Tissu hématopoïétique",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu cartilagineux calcifié",
+          "is_correct": false
+        },
+        {
+          "text": "Tissu osseux spongieux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les deux voies d'ossification ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ossification endochondrale (à partir d'un modèle cartilagineux - os longs) et l'ossification intramembraneuse (directement dans le mésenchyme - os plats du crâne).",
+      "answers": [
+        {
+          "text": "Endochondrale et intramembraneuse",
+          "is_correct": true
+        },
+        {
+          "text": "Directe et indirecte",
+          "is_correct": false
+        },
+        {
+          "text": "Primaire et secondaire",
+          "is_correct": false
+        },
+        {
+          "text": "Compact et spongieux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la bande A du sarcomère ?",
+      "difficulty": "Moyen",
+      "explanation": "La bande A (Anisotrope) est la zone sombre du sarcomère contenant les filaments épais de myosine. Sa longueur reste constante lors de la contraction.",
+      "answers": [
+        {
+          "text": "Zone sombre contenant les filaments de myosine",
+          "is_correct": true
+        },
+        {
+          "text": "Zone claire contenant uniquement l'actine",
+          "is_correct": false
+        },
+        {
+          "text": "Ligne délimitant le sarcomère",
+          "is_correct": false
+        },
+        {
+          "text": "Zone centrale sans filaments",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la bande I du sarcomère ?",
+      "difficulty": "Moyen",
+      "explanation": "La bande I (Isotrope) est la zone claire du sarcomère contenant uniquement les filaments fins d'actine. Elle se raccourcit lors de la contraction.",
+      "answers": [
+        {
+          "text": "Zone claire contenant uniquement les filaments d'actine",
+          "is_correct": true
+        },
+        {
+          "text": "Zone sombre contenant la myosine",
+          "is_correct": false
+        },
+        {
+          "text": "Zone centrale du sarcomère",
+          "is_correct": false
+        },
+        {
+          "text": "Ligne Z",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la ligne Z ?",
+      "difficulty": "Facile",
+      "explanation": "La ligne Z est une structure protéique dense qui délimite chaque sarcomère. Les filaments d'actine s'y ancrent. La distance entre deux lignes Z définit un sarcomère.",
+      "answers": [
+        {
+          "text": "Ligne délimitant le sarcomère, point d'ancrage de l'actine",
+          "is_correct": true
+        },
+        {
+          "text": "Zone centrale sans filaments",
+          "is_correct": false
+        },
+        {
+          "text": "Bande sombre de myosine",
+          "is_correct": false
+        },
+        {
+          "text": "Membrane du réticulum sarcoplasmique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la zone H du sarcomère ?",
+      "difficulty": "Moyen",
+      "explanation": "La zone H est la zone centrale claire de la bande A, contenant uniquement les filaments épais de myosine (sans chevauchement avec l'actine). Elle disparaît lors de la contraction maximale.",
+      "answers": [
+        {
+          "text": "Zone centrale claire avec uniquement la myosine",
+          "is_correct": true
+        },
+        {
+          "text": "Zone contenant uniquement l'actine",
+          "is_correct": false
+        },
+        {
+          "text": "Zone délimitée par les lignes Z",
+          "is_correct": false
+        },
+        {
+          "text": "Zone de chevauchement actine-myosine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le réticulum sarcoplasmique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réticulum sarcoplasmique est un réticulum endoplasmique lisse spécialisé des cellules musculaires. Il stocke et libère le calcium nécessaire à la contraction musculaire.",
+      "answers": [
+        {
+          "text": "Réticulum lisse stockant le calcium pour la contraction",
+          "is_correct": true
+        },
+        {
+          "text": "Membrane plasmique du muscle",
+          "is_correct": false
+        },
+        {
+          "text": "Mitochondrie musculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Système de tubules transverses",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un tubule transverse (tubule T) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les tubules T sont des invaginations de la membrane plasmique qui pénètrent profondément dans la fibre musculaire. Ils transmettent le potentiel d'action vers l'intérieur de la cellule.",
+      "answers": [
+        {
+          "text": "Invagination de la membrane transmettant le potentiel d'action",
+          "is_correct": true
+        },
+        {
+          "text": "Canal du réticulum sarcoplasmique",
+          "is_correct": false
+        },
+        {
+          "text": "Filament contractile",
+          "is_correct": false
+        },
+        {
+          "text": "Jonction entre deux cellules",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une triade dans le muscle squelettique ?",
+      "difficulty": "Difficile",
+      "explanation": "Une triade est une structure formée d'un tubule T entouré de deux citernes terminales du réticulum sarcoplasmique. Elle assure le couplage excitation-contraction.",
+      "answers": [
+        {
+          "text": "Tubule T entouré de deux citernes du réticulum sarcoplasmique",
+          "is_correct": true
+        },
+        {
+          "text": "Trois sarcomères consécutifs",
+          "is_correct": false
+        },
+        {
+          "text": "Trois types de filaments",
+          "is_correct": false
+        },
+        {
+          "text": "Trois noyaux dans une fibre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité du muscle cardiaque par rapport au muscle squelettique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle cardiaque possède des cellules mononucléées (un seul noyau central), des disques intercalaires, un réseau de cellules connectées et une contraction involontaire rythmique.",
+      "answers": [
+        {
+          "text": "Cellules mononucléées avec disques intercalaires",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules multinucléées sans striations",
+          "is_correct": false
+        },
+        {
+          "text": "Contraction volontaire",
+          "is_correct": false
+        },
+        {
+          "text": "Absence de sarcomères",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un neurone unipolaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Un neurone unipolaire possède un seul prolongement qui se divise en deux branches (une vers la périphérie, une vers le SNC). On les trouve dans les ganglions sensitifs (neurones en T).",
+      "answers": [
+        {
+          "text": "Neurone avec un prolongement qui se divise en deux",
+          "is_correct": true
+        },
+        {
+          "text": "Neurone avec un seul axone et pas de dendrites",
+          "is_correct": false
+        },
+        {
+          "text": "Neurone sans prolongement",
+          "is_correct": false
+        },
+        {
+          "text": "Neurone avec de multiples axones",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un neurone bipolaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Un neurone bipolaire possède deux prolongements : une dendrite et un axone, partant de pôles opposés du corps cellulaire. On les trouve dans la rétine et l'épithélium olfactif.",
+      "answers": [
+        {
+          "text": "Neurone avec deux prolongements opposés (dendrite et axone)",
+          "is_correct": true
+        },
+        {
+          "text": "Neurone avec deux axones",
+          "is_correct": false
+        },
+        {
+          "text": "Neurone avec deux noyaux",
+          "is_correct": false
+        },
+        {
+          "text": "Neurone multipolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un neurone multipolaire ?",
+      "difficulty": "Facile",
+      "explanation": "Un neurone multipolaire possède plusieurs dendrites et un seul axone. C'est le type le plus courant (neurones moteurs, interneurones, cellules pyramidales).",
+      "answers": [
+        {
+          "text": "Neurone avec plusieurs dendrites et un axone",
+          "is_correct": true
+        },
+        {
+          "text": "Neurone avec plusieurs axones",
+          "is_correct": false
+        },
+        {
+          "text": "Neurone avec deux prolongements",
+          "is_correct": false
+        },
+        {
+          "text": "Neurone sans dendrites",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la substance de Nissl ?",
+      "difficulty": "Moyen",
+      "explanation": "La substance de Nissl (corps de Nissl) correspond à des amas de réticulum endoplasmique rugueux et de ribosomes dans le corps cellulaire des neurones. Elle reflète l'intense activité de synthèse protéique.",
+      "answers": [
+        {
+          "text": "Amas de réticulum endoplasmique rugueux dans le neurone",
+          "is_correct": true
+        },
+        {
+          "text": "Pigment de lipofuscine",
+          "is_correct": false
+        },
+        {
+          "text": "Myéline du neurone",
+          "is_correct": false
+        },
+        {
+          "text": "Neurofilaments du cytosquelette",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un nœud de Ranvier ?",
+      "difficulty": "Facile",
+      "explanation": "Un nœud de Ranvier est un espace non myélinisé entre deux cellules de Schwann (ou segments de myéline). Il permet la conduction saltatoire du potentiel d'action.",
+      "answers": [
+        {
+          "text": "Espace non myélinisé entre deux segments de myéline",
+          "is_correct": true
+        },
+        {
+          "text": "Jonction entre neurone et muscle",
+          "is_correct": false
+        },
+        {
+          "text": "Synapse chimique",
+          "is_correct": false
+        },
+        {
+          "text": "Corps cellulaire du neurone",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre substance blanche et substance grise ?",
+      "difficulty": "Facile",
+      "explanation": "La substance grise contient les corps cellulaires des neurones, les dendrites et les synapses. La substance blanche contient les axones myélinisés (la myéline donne la couleur blanche).",
+      "answers": [
+        {
+          "text": "Grise : corps cellulaires ; Blanche : axones myélinisés",
+          "is_correct": true
+        },
+        {
+          "text": "Grise : axones ; Blanche : corps cellulaires",
+          "is_correct": false
+        },
+        {
+          "text": "Aucune différence fonctionnelle",
+          "is_correct": false
+        },
+        {
+          "text": "Grise : myélinisée ; Blanche : non myélinisée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la névroglie (ou glie) ?",
+      "difficulty": "Facile",
+      "explanation": "La névroglie désigne l'ensemble des cellules gliales du système nerveux. Elles assurent le soutien, la nutrition, la protection et la myélinisation des neurones.",
+      "answers": [
+        {
+          "text": "Ensemble des cellules de soutien du système nerveux",
+          "is_correct": true
+        },
+        {
+          "text": "Ensemble des neurones",
+          "is_correct": false
+        },
+        {
+          "text": "Gaine de myéline uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Liquide céphalo-rachidien",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la cellule gliale la plus abondante dans le système nerveux central ?",
+      "difficulty": "Facile",
+      "explanation": "L'astrocyte est la cellule gliale la plus abondante du SNC (environ 50% des cellules). Il joue de multiples rôles : soutien, nutrition, régulation, barrière hémato-encéphalique.",
+      "answers": [
+        {
+          "text": "Astrocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Oligodendrocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Microglie",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de Schwann",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Combien d'axones une cellule de Schwann peut-elle myéliniser ?",
+      "difficulty": "Moyen",
+      "explanation": "Une cellule de Schwann myélinise un seul segment d'un seul axone dans le système nerveux périphérique. Plusieurs cellules de Schwann se succèdent le long d'un axone.",
+      "answers": [
+        {
+          "text": "Un seul segment d'un seul axone",
+          "is_correct": true
+        },
+        {
+          "text": "Plusieurs axones simultanément",
+          "is_correct": false
+        },
+        {
+          "text": "Un axone entier",
+          "is_correct": false
+        },
+        {
+          "text": "Aucun, elle ne myélinise pas",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Combien d'axones un oligodendrocyte peut-il myéliniser ?",
+      "difficulty": "Moyen",
+      "explanation": "Un oligodendrocyte peut myéliniser plusieurs segments d'axones différents (jusqu'à 50) dans le système nerveux central grâce à ses multiples prolongements.",
+      "answers": [
+        {
+          "text": "Plusieurs axones différents (jusqu'à 50)",
+          "is_correct": true
+        },
+        {
+          "text": "Un seul axone",
+          "is_correct": false
+        },
+        {
+          "text": "Aucun, il ne myélinise pas",
+          "is_correct": false
+        },
+        {
+          "text": "Deux axones maximum",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que les cellules épendymaires ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules épendymaires sont des cellules gliales épithéliales ciliées qui tapissent les ventricules cérébraux et le canal central de la moelle épinière. Elles participent à la production du liquide céphalo-rachidien.",
+      "answers": [
+        {
+          "text": "Cellules épithéliales ciliées tapissant les ventricules",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules myélinisantes du SNC",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules immunitaires du SNC",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules de soutien des neurones",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'origine embryonnaire de la microglie ?",
+      "difficulty": "Difficile",
+      "explanation": "La microglie dérive du mésoderme (monocytes/macrophages de la moelle osseuse) contrairement aux autres cellules gliales qui dérivent de l'ectoderme (neuroectoderme).",
+      "answers": [
+        {
+          "text": "Mésoderme (origine hématopoïétique)",
+          "is_correct": true
+        },
+        {
+          "text": "Ectoderme (neuroectoderme)",
+          "is_correct": false
+        },
+        {
+          "text": "Endoderme",
+          "is_correct": false
+        },
+        {
+          "text": "Crête neurale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une synapse chimique ?",
+      "difficulty": "Facile",
+      "explanation": "Une synapse chimique est une zone de communication entre deux neurones où le signal est transmis par des neurotransmetteurs libérés dans la fente synaptique.",
+      "answers": [
+        {
+          "text": "Communication par libération de neurotransmetteurs",
+          "is_correct": true
+        },
+        {
+          "text": "Communication directe par jonctions gap",
+          "is_correct": false
+        },
+        {
+          "text": "Communication sans espace intercellulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Communication mécanique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une synapse électrique ?",
+      "difficulty": "Moyen",
+      "explanation": "Une synapse électrique est une zone de communication directe entre deux neurones via des jonctions gap, permettant un passage bidirectionnel et rapide des ions.",
+      "answers": [
+        {
+          "text": "Communication directe rapide par jonctions gap",
+          "is_correct": true
+        },
+        {
+          "text": "Communication par neurotransmetteurs",
+          "is_correct": false
+        },
+        {
+          "text": "Communication unidirectionnelle lente",
+          "is_correct": false
+        },
+        {
+          "text": "Synapse avec fente synaptique large",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la structure de la barrière hémato-encéphalique ?",
+      "difficulty": "Difficile",
+      "explanation": "La barrière hémato-encéphalique est formée par les cellules endothéliales des capillaires cérébraux reliées par des jonctions serrées, entourées de pieds astrocytaires et d'une lame basale.",
+      "answers": [
+        {
+          "text": "Endothélium avec jonctions serrées + pieds astrocytaires",
+          "is_correct": true
+        },
+        {
+          "text": "Oligodendrocytes entourant les capillaires",
+          "is_correct": false
+        },
+        {
+          "text": "Membrane de myéline",
+          "is_correct": false
+        },
+        {
+          "text": "Microglie activée",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal de la barrière hémato-encéphalique ?",
+      "difficulty": "Facile",
+      "explanation": "La barrière hémato-encéphalique protège le système nerveux central en contrôlant sélectivement le passage des substances entre le sang et le tissu nerveux, empêchant toxines et agents pathogènes d'entrer.",
+      "answers": [
+        {
+          "text": "Protection sélective du SNC contre toxines et pathogènes",
+          "is_correct": true
+        },
+        {
+          "text": "Production de liquide céphalo-rachidien",
+          "is_correct": false
+        },
+        {
+          "text": "Myélinisation des axones",
+          "is_correct": false
+        },
+        {
+          "text": "Transmission synaptique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la laminine ?",
+      "difficulty": "Difficile",
+      "explanation": "La laminine est une glycoprotéine majeure de la lame basale. Elle joue un rôle dans l'adhésion cellulaire, la migration et la différenciation.",
+      "answers": [
+        {
+          "text": "Glycoprotéine majeure de la lame basale",
+          "is_correct": true
+        },
+        {
+          "text": "Protéine de filaments intermédiaires",
+          "is_correct": false
+        },
+        {
+          "text": "Type de collagène",
+          "is_correct": false
+        },
+        {
+          "text": "Protéoglycane de la matrice",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la fibronectine ?",
+      "difficulty": "Difficile",
+      "explanation": "La fibronectine est une glycoprotéine de la matrice extracellulaire qui joue un rôle dans l'adhésion cellulaire, la migration, la cicatrisation et l'embryogenèse.",
+      "answers": [
+        {
+          "text": "Glycoprotéine d'adhésion de la matrice extracellulaire",
+          "is_correct": true
+        },
+        {
+          "text": "Protéine contractile du muscle",
+          "is_correct": false
+        },
+        {
+          "text": "Composant de la lame basale uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Glycosaminoglycane",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité histologique du foie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le foie est organisé en lobules hépatiques avec des travées d'hépatocytes radiaires convergeant vers une veine centrolobulaire. Entre les travées se trouvent les sinusoïdes hépatiques.",
+      "answers": [
+        {
+          "text": "Organisation en lobules avec sinusoïdes et travées d'hépatocytes",
+          "is_correct": true
+        },
+        {
+          "text": "Structure tubulaire glandulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Organisation en follicules",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium stratifié pavimenteux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un sinusoïde hépatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Un sinusoïde hépatique est un capillaire fenêtré spécialisé situé entre les travées d'hépatocytes. Il permet les échanges entre le sang et les hépatocytes.",
+      "answers": [
+        {
+          "text": "Capillaire fenêtré entre les travées d'hépatocytes",
+          "is_correct": true
+        },
+        {
+          "text": "Canal biliaire",
+          "is_correct": false
+        },
+        {
+          "text": "Veine porte",
+          "is_correct": false
+        },
+        {
+          "text": "Artère hépatique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une cellule de Kupffer ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules de Kupffer sont des macrophages résidents du foie situés dans les sinusoïdes hépatiques. Elles phagocytent les débris, agents pathogènes et globules rouges vieillis.",
+      "answers": [
+        {
+          "text": "Macrophage résident des sinusoïdes hépatiques",
+          "is_correct": true
+        },
+        {
+          "text": "Hépatocyte spécialisé",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule endothéliale du foie",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule stellaire (stockage lipides)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la villosité intestinale ?",
+      "difficulty": "Facile",
+      "explanation": "La villosité intestinale est un repli en forme de doigt de la muqueuse intestinale recouvert d'épithélium absorbant. Elle augmente considérablement la surface d'absorption.",
+      "answers": [
+        {
+          "text": "Repli de la muqueuse augmentant la surface d'absorption",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule épithéliale de l'intestin",
+          "is_correct": false
+        },
+        {
+          "text": "Glande de l'intestin",
+          "is_correct": false
+        },
+        {
+          "text": "Pli de la musculeuse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une crypte de Lieberkühn ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cryptes de Lieberkühn sont des invaginations glandulaires situées entre les villosités intestinales. Elles contiennent les cellules souches intestinales et les cellules sécrétrices.",
+      "answers": [
+        {
+          "text": "Glandes tubulaires entre les villosités intestinales",
+          "is_correct": true
+        },
+        {
+          "text": "Sommet des villosités",
+          "is_correct": false
+        },
+        {
+          "text": "Ganglion lymphatique intestinal",
+          "is_correct": false
+        },
+        {
+          "text": "Muscle lisse de l'intestin",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit le mucus dans l'épithélium respiratoire ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules caliciformes (ou cellules à mucus) sont des cellules épithéliales sécrétrices en forme de calice qui produisent et sécrètent le mucus.",
+      "answers": [
+        {
+          "text": "Cellule caliciforme",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule ciliée",
+          "is_correct": false
+        },
+        {
+          "text": "Pneumocyte de type II",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule basale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule produit le surfactant pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les pneumocytes de type II (ou cellules alvéolaires de type II) sécrètent le surfactant pulmonaire qui diminue la tension superficielle et empêche l'affaissement des alvéoles.",
+      "answers": [
+        {
+          "text": "Pneumocyte de type II",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumocyte de type I",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule caliciforme",
+          "is_correct": false
+        },
+        {
+          "text": "Macrophage alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule recouvre la majorité de la surface alvéolaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les pneumocytes de type I sont des cellules plates et fines qui couvrent environ 95% de la surface alvéolaire. Ils permettent les échanges gazeux.",
+      "answers": [
+        {
+          "text": "Pneumocyte de type I",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumocyte de type II",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule endothéliale",
+          "is_correct": false
+        },
+        {
+          "text": "Macrophage alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un macrophage alvéolaire (cellule à poussière) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les macrophages alvéolaires (ou cellules à poussière) sont des macrophages libres dans les alvéoles pulmonaires qui phagocytent les particules inhalées et les débris cellulaires.",
+      "answers": [
+        {
+          "text": "Macrophage phagocytant les particules dans les alvéoles",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule produisant le surfactant",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de l'épithélium alvéolaire",
+          "is_correct": false
+        },
+        {
+          "text": "Fibroblaste pulmonaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la structure de la barrière air-sang (barrière alvéolo-capillaire) ?",
+      "difficulty": "Difficile",
+      "explanation": "La barrière air-sang est constituée de : pneumocyte de type I, lame basale fusionnée, et endothélium capillaire fenêtré. Elle permet les échanges gazeux rapides.",
+      "answers": [
+        {
+          "text": "Pneumocyte I + lame basale + endothélium capillaire",
+          "is_correct": true
+        },
+        {
+          "text": "Pneumocyte II + mucus + endothélium",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium cilié + lame basale",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules caliciformes + capillaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un néphron ?",
+      "difficulty": "Facile",
+      "explanation": "Le néphron est l'unité fonctionnelle du rein. Il est composé du corpuscule rénal (glomérule + capsule de Bowman) et du tubule rénal (contourné proximal, anse de Henle, contourné distal).",
+      "answers": [
+        {
+          "text": "Unité fonctionnelle du rein",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule du rein",
+          "is_correct": false
+        },
+        {
+          "text": "Veine rénale",
+          "is_correct": false
+        },
+        {
+          "text": "Capsule du rein",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le glomérule rénal ?",
+      "difficulty": "Facile",
+      "explanation": "Le glomérule rénal est un réseau de capillaires fenêtrés situé dans la capsule de Bowman. Il assure la filtration du sang pour former l'urine primitive.",
+      "answers": [
+        {
+          "text": "Réseau de capillaires filtrant le sang",
+          "is_correct": true
+        },
+        {
+          "text": "Tubule collecteur de l'urine",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule épithéliale du rein",
+          "is_correct": false
+        },
+        {
+          "text": "Artère rénale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la capsule de Bowman ?",
+      "difficulty": "Facile",
+      "explanation": "La capsule de Bowman est une structure en double paroi qui entoure le glomérule rénal. Elle recueille le filtrat glomérulaire (urine primitive).",
+      "answers": [
+        {
+          "text": "Structure en double paroi entourant le glomérule",
+          "is_correct": true
+        },
+        {
+          "text": "Capsule fibreuse du rein",
+          "is_correct": false
+        },
+        {
+          "text": "Tubule contourné proximal",
+          "is_correct": false
+        },
+        {
+          "text": "Membrane basale glomérulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un podocyte ?",
+      "difficulty": "Difficile",
+      "explanation": "Les podocytes sont des cellules épithéliales spécialisées avec des prolongements (pédicelles) qui entourent les capillaires glomérulaires. Ils forment la paroi externe de la barrière de filtration.",
+      "answers": [
+        {
+          "text": "Cellule épithéliale entourant les capillaires glomérulaires",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule endothéliale du glomérule",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule du tubule contourné",
+          "is_correct": false
+        },
+        {
+          "text": "Macrophage rénal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel segment du néphron possède une bordure en brosse développée ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tubule contourné proximal possède une bordure en brosse (microvillosités abondantes) pour augmenter la surface de réabsorption des nutriments, ions et eau.",
+      "answers": [
+        {
+          "text": "Tubule contourné proximal",
+          "is_correct": true
+        },
+        {
+          "text": "Anse de Henle",
+          "is_correct": false
+        },
+        {
+          "text": "Tubule contourné distal",
+          "is_correct": false
+        },
+        {
+          "text": "Tubule collecteur",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'appareil juxtaglomérulaire ?",
+      "difficulty": "Difficile",
+      "explanation": "L'appareil juxtaglomérulaire est formé des cellules de la macula densa (tubule distal), des cellules juxtaglomérulaires (artériole afférente) et des cellules mésangiales. Il régule la pression artérielle et la filtration glomérulaire via la rénine.",
+      "answers": [
+        {
+          "text": "Structure régulant la pression artérielle via la rénine",
+          "is_correct": true
+        },
+        {
+          "text": "Glomérule adjacent au cortex",
+          "is_correct": false
+        },
+        {
+          "text": "Tubule collecteur médullaire",
+          "is_correct": false
+        },
+        {
+          "text": "Capsule de Bowman",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la macula densa ?",
+      "difficulty": "Difficile",
+      "explanation": "La macula densa est une zone spécialisée du tubule contourné distal au contact de l'artériole afférente. Elle détecte la concentration en NaCl de l'urine et régule la sécrétion de rénine.",
+      "answers": [
+        {
+          "text": "Zone du tubule distal détectant le NaCl",
+          "is_correct": true
+        },
+        {
+          "text": "Partie du glomérule",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule du tubule proximal",
+          "is_correct": false
+        },
+        {
+          "text": "Macrophage rénal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité de l'épithélium de la vessie ?",
+      "difficulty": "Facile",
+      "explanation": "La vessie est tapissée d'un urothélium (épithélium de transition) qui peut s'étirer lors du remplissage vésical sans se déchirer.",
+      "answers": [
+        {
+          "text": "Épithélium de transition extensible",
+          "is_correct": true
+        },
+        {
+          "text": "Épithélium simple pavimenteux",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium stratifié kératinisé",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium pseudostratifié cilié",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un follicule ovarien primordial ?",
+      "difficulty": "Moyen",
+      "explanation": "Le follicule primordial est le stade le plus immature du follicule ovarien. Il est constitué d'un ovocyte primaire entouré d'une seule couche de cellules folliculaires plates.",
+      "answers": [
+        {
+          "text": "Ovocyte entouré d'une couche de cellules folliculaires plates",
+          "is_correct": true
+        },
+        {
+          "text": "Follicule mature prêt à ovuler",
+          "is_correct": false
+        },
+        {
+          "text": "Follicule avec antrum",
+          "is_correct": false
+        },
+        {
+          "text": "Corps jaune",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un follicule de De Graaf (follicule mûr) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le follicule de De Graaf est le follicule ovarien mature prêt à ovuler. Il contient un grand antrum rempli de liquide folliculaire et l'ovocyte est entouré du cumulus oophorus.",
+      "answers": [
+        {
+          "text": "Follicule mature avec grand antrum prêt à ovuler",
+          "is_correct": true
+        },
+        {
+          "text": "Follicule primordial immature",
+          "is_correct": false
+        },
+        {
+          "text": "Corps jaune après ovulation",
+          "is_correct": false
+        },
+        {
+          "text": "Follicule atrésique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le corps jaune (corpus luteum) ?",
+      "difficulty": "Facile",
+      "explanation": "Le corps jaune est une structure endocrine temporaire qui se forme après l'ovulation à partir du follicule rompu. Il sécrète de la progestérone et des œstrogènes pour préparer l'utérus à l'implantation.",
+      "answers": [
+        {
+          "text": "Structure endocrine sécrétant progestérone après ovulation",
+          "is_correct": true
+        },
+        {
+          "text": "Follicule avant ovulation",
+          "is_correct": false
+        },
+        {
+          "text": "Ovocyte mature",
+          "is_correct": false
+        },
+        {
+          "text": "Glande de l'utérus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la zone pellucide ?",
+      "difficulty": "Moyen",
+      "explanation": "La zone pellucide est une couche glycoprotéique épaisse et transparente qui entoure l'ovocyte. Elle joue un rôle dans la reconnaissance et la liaison des spermatozoïdes lors de la fécondation.",
+      "answers": [
+        {
+          "text": "Enveloppe glycoprotéique entourant l'ovocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Membrane plasmique de l'ovocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Couche de cellules folliculaires",
+          "is_correct": false
+        },
+        {
+          "text": "Liquide folliculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'endomètre ?",
+      "difficulty": "Facile",
+      "explanation": "L'endomètre est la muqueuse interne de l'utérus. Il est composé d'un épithélium simple prismatique et de glandes utérines. Il se renouvelle cycliquement sous l'influence hormonale.",
+      "answers": [
+        {
+          "text": "Muqueuse interne de l'utérus",
+          "is_correct": true
+        },
+        {
+          "text": "Muscle lisse de l'utérus",
+          "is_correct": false
+        },
+        {
+          "text": "Séreuse externe de l'utérus",
+          "is_correct": false
+        },
+        {
+          "text": "Col de l'utérus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le myomètre ?",
+      "difficulty": "Facile",
+      "explanation": "Le myomètre est la couche musculaire épaisse de l'utérus constituée de muscle lisse. Il assure les contractions utérines lors de l'accouchement et des menstruations.",
+      "answers": [
+        {
+          "text": "Couche musculaire lisse de l'utérus",
+          "is_correct": true
+        },
+        {
+          "text": "Muqueuse utérine",
+          "is_correct": false
+        },
+        {
+          "text": "Séreuse utérine",
+          "is_correct": false
+        },
+        {
+          "text": "Endomètre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les deux couches de l'endomètre ?",
+      "difficulty": "Moyen",
+      "explanation": "L'endomètre comprend deux couches : la couche fonctionnelle (superficielle, qui desquame lors des menstruations) et la couche basale (profonde, permanente, qui régénère la couche fonctionnelle).",
+      "answers": [
+        {
+          "text": "Couche fonctionnelle et couche basale",
+          "is_correct": true
+        },
+        {
+          "text": "Couche muqueuse et couche séreuse",
+          "is_correct": false
+        },
+        {
+          "text": "Épithélium et lamina propria",
+          "is_correct": false
+        },
+        {
+          "text": "Couche circulaire et longitudinale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où se déroule la spermatogenèse ?",
+      "difficulty": "Facile",
+      "explanation": "La spermatogenèse se déroule dans les tubes séminifères des testicules. Les cellules germinales se différencient depuis la périphérie vers la lumière du tube.",
+      "answers": [
+        {
+          "text": "Tubes séminifères des testicules",
+          "is_correct": true
+        },
+        {
+          "text": "Épididyme",
+          "is_correct": false
+        },
+        {
+          "text": "Prostate",
+          "is_correct": false
+        },
+        {
+          "text": "Vésicules séminales",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une cellule de Sertoli ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules de Sertoli sont des cellules de soutien des tubes séminifères. Elles nourrissent les cellules germinales, forment la barrière hémato-testiculaire et sécrètent le liquide testiculaire.",
+      "answers": [
+        {
+          "text": "Cellule de soutien nourrissant les cellules germinales",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule produisant la testostérone",
+          "is_correct": false
+        },
+        {
+          "text": "Spermatozoïde mature",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de l'épididyme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une cellule de Leydig ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules de Leydig sont des cellules interstitielles situées entre les tubes séminifères. Elles produisent la testostérone sous l'influence de la LH.",
+      "answers": [
+        {
+          "text": "Cellule interstitielle produisant la testostérone",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule de soutien des cellules germinales",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule germinale immature",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de l'épididyme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la barrière hémato-testiculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "La barrière hémato-testiculaire est formée par les jonctions serrées entre les cellules de Sertoli. Elle divise le tube séminifère en compartiments basal et adluminal et protège les cellules germinales du système immunitaire.",
+      "answers": [
+        {
+          "text": "Jonctions serrées entre cellules de Sertoli protégeant les cellules germinales",
+          "is_correct": true
+        },
+        {
+          "text": "Membrane basale du tube séminifère",
+          "is_correct": false
+        },
+        {
+          "text": "Barrière épithéliale de l'épididyme",
+          "is_correct": false
+        },
+        {
+          "text": "Capsule fibreuse du testicule",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'épididyme ?",
+      "difficulty": "Facile",
+      "explanation": "L'épididyme est un long canal sinueux accolé au testicule où les spermatozoïdes acquièrent leur mobilité et sont stockés avant l'éjaculation.",
+      "answers": [
+        {
+          "text": "Canal de maturation et stockage des spermatozoïdes",
+          "is_correct": true
+        },
+        {
+          "text": "Lieu de production des spermatozoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Glande produisant le liquide séminal",
+          "is_correct": false
+        },
+        {
+          "text": "Canal déférent",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle glande produit le liquide alcalin neutralisant l'acidité vaginale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les glandes bulbo-urétrales (glandes de Cowper) sécrètent un liquide alcalin mucus qui neutralise l'acidité de l'urètre et du vagin avant l'éjaculation.",
+      "answers": [
+        {
+          "text": "Glandes bulbo-urétrales (Cowper)",
+          "is_correct": true
+        },
+        {
+          "text": "Prostate",
+          "is_correct": false
+        },
+        {
+          "text": "Vésicules séminales",
+          "is_correct": false
+        },
+        {
+          "text": "Épididyme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle glande sécrète un liquide riche en fructose pour les spermatozoïdes ?",
+      "difficulty": "Moyen",
+      "explanation": "Les vésicules séminales sécrètent un liquide visqueux riche en fructose (source d'énergie), prostaglandines et protéines. Il représente environ 60-70% du volume du sperme.",
+      "answers": [
+        {
+          "text": "Vésicules séminales",
+          "is_correct": true
+        },
+        {
+          "text": "Prostate",
+          "is_correct": false
+        },
+        {
+          "text": "Glandes bulbo-urétrales",
+          "is_correct": false
+        },
+        {
+          "text": "Épididyme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la prostate ?",
+      "difficulty": "Facile",
+      "explanation": "La prostate sécrète un liquide lactescent alcalin contenant des enzymes (PSA) et du zinc. Ce liquide représente environ 20-30% du sperme et active la mobilité des spermatozoïdes.",
+      "answers": [
+        {
+          "text": "Sécrétion d'un liquide alcalin activant la mobilité des spermatozoïdes",
+          "is_correct": true
+        },
+        {
+          "text": "Production de spermatozoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Stockage des spermatozoïdes",
+          "is_correct": false
+        },
+        {
+          "text": "Production de testostérone",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un follicule thyroïdien ?",
+      "difficulty": "Facile",
+      "explanation": "Le follicule thyroïdien est l'unité structurale et fonctionnelle de la thyroïde. Il est formé d'un épithélium simple cubique entourant une cavité remplie de colloïde contenant la thyroglobuline.",
+      "answers": [
+        {
+          "text": "Unité structurale de la thyroïde avec colloïde central",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule endocrine de la thyroïde",
+          "is_correct": false
+        },
+        {
+          "text": "Vaisseau sanguin thyroïdien",
+          "is_correct": false
+        },
+        {
+          "text": "Capsule de la thyroïde",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la colloïde thyroïdienne ?",
+      "difficulty": "Moyen",
+      "explanation": "La colloïde est une substance gélatineuse riche en thyroglobuline située au centre des follicules thyroïdiens. C'est la forme de stockage des hormones thyroïdiennes (T3 et T4).",
+      "answers": [
+        {
+          "text": "Substance gélatineuse stockant la thyroglobuline",
+          "is_correct": true
+        },
+        {
+          "text": "Cytoplasme des thyréocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Matrice extracellulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Liquide interstitiel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une cellule parafolliculaire (cellule C) de la thyroïde ?",
+      "difficulty": "Difficile",
+      "explanation": "Les cellules parafolliculaires (ou cellules C) sont situées entre les follicules thyroïdiens. Elles sécrètent la calcitonine, hormone hypocalcémiante qui inhibe la résorption osseuse.",
+      "answers": [
+        {
+          "text": "Cellule sécrétant la calcitonine",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule produisant T3 et T4",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule épithéliale du follicule",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule de soutien",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la parathormone (PTH) ?",
+      "difficulty": "Facile",
+      "explanation": "La parathormone (PTH) est l'hormone sécrétée par les glandes parathyroïdes. Elle augmente la calcémie en stimulant la résorption osseuse et la réabsorption rénale du calcium.",
+      "answers": [
+        {
+          "text": "Hormone hypercalcémiante des parathyroïdes",
+          "is_correct": true
+        },
+        {
+          "text": "Hormone thyroïdienne",
+          "is_correct": false
+        },
+        {
+          "text": "Hormone de la médullosurrénale",
+          "is_correct": false
+        },
+        {
+          "text": "Hormone hypophysaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les deux parties de la glande surrénale ?",
+      "difficulty": "Facile",
+      "explanation": "La glande surrénale comprend le cortex surrénalien (périphérique, origine mésodermique, sécrète stéroïdes) et la médullosurrénale (centrale, origine ectodermique, sécrète catécholamines).",
+      "answers": [
+        {
+          "text": "Cortex et médullosurrénale",
+          "is_correct": true
+        },
+        {
+          "text": "Antérieur et postérieur",
+          "is_correct": false
+        },
+        {
+          "text": "Interne et externe",
+          "is_correct": false
+        },
+        {
+          "text": "Gauche et droite",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles hormones sont produites par la médullosurrénale ?",
+      "difficulty": "Facile",
+      "explanation": "La médullosurrénale produit les catécholamines : adrénaline (80%) et noradrénaline (20%). Ces hormones sont sécrétées en réponse au stress et activent la réponse combat-fuite.",
+      "answers": [
+        {
+          "text": "Adrénaline et noradrénaline",
+          "is_correct": true
+        },
+        {
+          "text": "Cortisol et aldostérone",
+          "is_correct": false
+        },
+        {
+          "text": "Testostérone et œstrogènes",
+          "is_correct": false
+        },
+        {
+          "text": "Insuline et glucagon",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les trois zones du cortex surrénalien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cortex surrénalien comprend trois zones de l'extérieur vers l'intérieur : glomérulée (aldostérone), fasciculée (cortisol) et réticulée (androgènes). Moyen mnémotechnique : GFR comme Salt, Sugar, Sex.",
+      "answers": [
+        {
+          "text": "Glomérulée, fasciculée, réticulée",
+          "is_correct": true
+        },
+        {
+          "text": "Antérieure, moyenne, postérieure",
+          "is_correct": false
+        },
+        {
+          "text": "Externe, médiane, interne",
+          "is_correct": false
+        },
+        {
+          "text": "Corticale, médullaire, centrale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est produite par la zone glomérulée du cortex surrénalien ?",
+      "difficulty": "Moyen",
+      "explanation": "La zone glomérulée produit l'aldostérone (minéralocorticoïde) qui régule l'équilibre hydro-électrolytique en augmentant la réabsorption rénale de sodium et l'excrétion de potassium.",
+      "answers": [
+        {
+          "text": "Aldostérone",
+          "is_correct": true
+        },
+        {
+          "text": "Cortisol",
+          "is_correct": false
+        },
+        {
+          "text": "Adrénaline",
+          "is_correct": false
+        },
+        {
+          "text": "Testostérone",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est produite par la zone fasciculée du cortex surrénalien ?",
+      "difficulty": "Moyen",
+      "explanation": "La zone fasciculée produit le cortisol (glucocorticoïde), hormone du stress qui augmente la glycémie, a des effets anti-inflammatoires et immunosuppresseurs.",
+      "answers": [
+        {
+          "text": "Cortisol",
+          "is_correct": true
+        },
+        {
+          "text": "Aldostérone",
+          "is_correct": false
+        },
+        {
+          "text": "Adrénaline",
+          "is_correct": false
+        },
+        {
+          "text": "Insuline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un îlot de Langerhans ?",
+      "difficulty": "Facile",
+      "explanation": "Les îlots de Langerhans sont des amas de cellules endocrines dispersés dans le pancréas exocrine. Ils sécrètent les hormones régulant la glycémie (insuline, glucagon, somatostatine).",
+      "answers": [
+        {
+          "text": "Amas de cellules endocrines du pancréas",
+          "is_correct": true
+        },
+        {
+          "text": "Acini sécréteurs d'enzymes digestives",
+          "is_correct": false
+        },
+        {
+          "text": "Canal pancréatique",
+          "is_correct": false
+        },
+        {
+          "text": "Capsule du pancréas",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule des îlots de Langerhans produit l'insuline ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules bêta (β) représentent environ 70% des cellules des îlots. Elles produisent l'insuline, hormone hypoglycémiante favorisant le stockage du glucose.",
+      "answers": [
+        {
+          "text": "Cellules bêta (β)",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules alpha (α)",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules delta (δ)",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules PP",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule des îlots de Langerhans produit le glucagon ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules alpha (α) représentent environ 20% des cellules des îlots. Elles produisent le glucagon, hormone hyperglycémiante mobilisant les réserves de glucose.",
+      "answers": [
+        {
+          "text": "Cellules alpha (α)",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules bêta (β)",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules delta (δ)",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules PP",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule des îlots de Langerhans produit la somatostatine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules delta (δ) produisent la somatostatine qui inhibe la sécrétion d'insuline, de glucagon et d'hormones digestives. Elle régule le métabolisme énergétique.",
+      "answers": [
+        {
+          "text": "Cellules delta (δ)",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules alpha (α)",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules bêta (β)",
+          "is_correct": false
+        },
+        {
+          "text": "Cellules PP",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les deux parties de l'hypophyse ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypophyse comprend l'adénohypophyse (antérieure, glandulaire, d'origine épithéliale) et la neurohypophyse (postérieure, nerveuse, prolongement de l'hypothalamus).",
+      "answers": [
+        {
+          "text": "Adénohypophyse et neurohypophyse",
+          "is_correct": true
+        },
+        {
+          "text": "Cortex et médulla",
+          "is_correct": false
+        },
+        {
+          "text": "Droite et gauche",
+          "is_correct": false
+        },
+        {
+          "text": "Supérieure et inférieure",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles hormones sont stockées et libérées par la neurohypophyse ?",
+      "difficulty": "Moyen",
+      "explanation": "La neurohypophyse stocke et libère l'ocytocine (contractions utérines, éjection du lait) et l'ADH/vasopressine (réabsorption d'eau rénale). Ces hormones sont produites par l'hypothalamus.",
+      "answers": [
+        {
+          "text": "Ocytocine et ADH (vasopressine)",
+          "is_correct": true
+        },
+        {
+          "text": "GH et prolactine",
+          "is_correct": false
+        },
+        {
+          "text": "TSH et ACTH",
+          "is_correct": false
+        },
+        {
+          "text": "FSH et LH",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone hypophysaire stimule la croissance ?",
+      "difficulty": "Facile",
+      "explanation": "L'hormone de croissance (GH ou somatotropine) est sécrétée par les cellules somatotropes de l'adénohypophyse. Elle stimule la croissance osseuse et la synthèse protéique.",
+      "answers": [
+        {
+          "text": "Hormone de croissance (GH)",
+          "is_correct": true
+        },
+        {
+          "text": "Prolactine",
+          "is_correct": false
+        },
+        {
+          "text": "TSH",
+          "is_correct": false
+        },
+        {
+          "text": "ACTH",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone hypophysaire stimule la thyroïde ?",
+      "difficulty": "Facile",
+      "explanation": "La TSH (thyréostimuline) est sécrétée par les cellules thyréotropes de l'adénohypophyse. Elle stimule la production et la sécrétion d'hormones thyroïdiennes (T3 et T4).",
+      "answers": [
+        {
+          "text": "TSH (thyréostimuline)",
+          "is_correct": true
+        },
+        {
+          "text": "ACTH",
+          "is_correct": false
+        },
+        {
+          "text": "GH",
+          "is_correct": false
+        },
+        {
+          "text": "Prolactine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone hypophysaire stimule le cortex surrénalien ?",
+      "difficulty": "Facile",
+      "explanation": "L'ACTH (corticotrophine) est sécrétée par les cellules corticotropes de l'adénohypophyse. Elle stimule la production de cortisol par le cortex surrénalien.",
+      "answers": [
+        {
+          "text": "ACTH (corticotrophine)",
+          "is_correct": true
+        },
+        {
+          "text": "TSH",
+          "is_correct": false
+        },
+        {
+          "text": "FSH",
+          "is_correct": false
+        },
+        {
+          "text": "GH",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles hormones hypophysaires régulent les gonades ?",
+      "difficulty": "Facile",
+      "explanation": "La FSH (hormone folliculo-stimulante) et la LH (hormone lutéinisante) sont les gonadotrophines sécrétées par l'adénohypophyse. Elles régulent la gamétogenèse et la production d'hormones sexuelles.",
+      "answers": [
+        {
+          "text": "FSH et LH",
+          "is_correct": true
+        },
+        {
+          "text": "GH et prolactine",
+          "is_correct": false
+        },
+        {
+          "text": "TSH et ACTH",
+          "is_correct": false
+        },
+        {
+          "text": "Ocytocine et ADH",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone hypophysaire stimule la lactation ?",
+      "difficulty": "Facile",
+      "explanation": "La prolactine est sécrétée par les cellules lactotropes de l'adénohypophyse. Elle stimule la production de lait par les glandes mammaires après l'accouchement.",
+      "answers": [
+        {
+          "text": "Prolactine",
+          "is_correct": true
+        },
+        {
+          "text": "Ocytocine",
+          "is_correct": false
+        },
+        {
+          "text": "GH",
+          "is_correct": false
+        },
+        {
+          "text": "FSH",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la glande pinéale (épiphyse) ?",
+      "difficulty": "Moyen",
+      "explanation": "La glande pinéale est une petite glande endocrine du cerveau qui sécrète la mélatonine. Elle régule les rythmes circadiens et le cycle veille-sommeil.",
+      "answers": [
+        {
+          "text": "Glande sécrétant la mélatonine régulant le sommeil",
+          "is_correct": true
+        },
+        {
+          "text": "Partie postérieure de l'hypophyse",
+          "is_correct": false
+        },
+        {
+          "text": "Glande sécrétant les hormones thyroïdiennes",
+          "is_correct": false
+        },
+        {
+          "text": "Glande produisant l'insuline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un érythrocyte (globule rouge) ?",
+      "difficulty": "Facile",
+      "explanation": "L'érythrocyte est une cellule sanguine anucléée en forme de disque biconcave contenant de l'hémoglobine. Il transporte l'oxygène et le CO2.",
+      "answers": [
+        {
+          "text": "Cellule anucléée transportant l'oxygène",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule immunitaire phagocytaire",
+          "is_correct": false
+        },
+        {
+          "text": "Fragment cellulaire coagulant",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule produisant des anticorps",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un leucocyte ?",
+      "difficulty": "Facile",
+      "explanation": "Un leucocyte (globule blanc) est une cellule nucléée du sang impliquée dans la défense immunitaire. Il existe 5 types : neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles.",
+      "answers": [
+        {
+          "text": "Cellule nucléée de la défense immunitaire",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule transportant l'oxygène",
+          "is_correct": false
+        },
+        {
+          "text": "Fragment cellulaire de coagulation",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule épithéliale du sang",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le leucocyte le plus abondant dans le sang ?",
+      "difficulty": "Facile",
+      "explanation": "Les neutrophiles (polynucléaires neutrophiles) représentent 50-70% des leucocytes. Ce sont des phagocytes de première ligne dans la défense contre les bactéries.",
+      "answers": [
+        {
+          "text": "Neutrophile",
+          "is_correct": true
+        },
+        {
+          "text": "Lymphocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Monocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Éosinophile",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel leucocyte se transforme en macrophage dans les tissus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le monocyte est un gros leucocyte mononucléé qui circule dans le sang. Quand il migre dans les tissus, il se différencie en macrophage tissulaire (Kupffer, alvéolaire, etc.).",
+      "answers": [
+        {
+          "text": "Monocyte",
+          "is_correct": true
+        },
+        {
+          "text": "Neutrophile",
+          "is_correct": false
+        },
+        {
+          "text": "Lymphocyte",
+          "is_correct": false
+        },
+        {
+          "text": "Basophile",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels leucocytes sont impliqués dans les réactions allergiques et parasitaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les éosinophiles (polynucléaires éosinophiles) contiennent des granules orangés. Ils augmentent lors d'allergies et d'infections parasitaires et libèrent des médiateurs cytotoxiques.",
+      "answers": [
+        {
+          "text": "Éosinophiles",
+          "is_correct": true
+        },
+        {
+          "text": "Neutrophiles",
+          "is_correct": false
+        },
+        {
+          "text": "Lymphocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Monocytes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel leucocyte libère de l'histamine lors des réactions allergiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les basophiles (polynucléaires basophiles) sont les leucocytes les moins abondants. Leurs granules contiennent de l'histamine et de l'héparine. Ils sont impliqués dans les réactions allergiques (similaires aux mastocytes tissulaires).",
+      "answers": [
+        {
+          "text": "Basophile",
+          "is_correct": true
+        },
+        {
+          "text": "Neutrophile",
+          "is_correct": false
+        },
+        {
+          "text": "Éosinophile",
+          "is_correct": false
+        },
+        {
+          "text": "Monocyte",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les deux types principaux de lymphocytes ?",
+      "difficulty": "Facile",
+      "explanation": "Les lymphocytes T (immunité cellulaire, maturation thymique) et les lymphocytes B (immunité humorale/production d'anticorps, maturation dans la moelle osseuse) sont les deux types principaux. Il existe aussi les cellules NK.",
+      "answers": [
+        {
+          "text": "Lymphocytes T et lymphocytes B",
+          "is_correct": true
+        },
+        {
+          "text": "Lymphocytes alpha et beta",
+          "is_correct": false
+        },
+        {
+          "text": "Lymphocytes I et II",
+          "is_correct": false
+        },
+        {
+          "text": "Lymphocytes primaires et secondaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une plaquette sanguine (thrombocyte) ?",
+      "difficulty": "Facile",
+      "explanation": "Les plaquettes sont des fragments cytoplasmiques anucléés issus de la fragmentation des mégacaryocytes de la moelle osseuse. Elles jouent un rôle essentiel dans l'hémostase et la coagulation.",
+      "answers": [
+        {
+          "text": "Fragment cellulaire anucléé intervenant dans la coagulation",
+          "is_correct": true
+        },
+        {
+          "text": "Cellule entière produisant des anticorps",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule transportant l'oxygène",
+          "is_correct": false
+        },
+        {
+          "text": "Cellule phagocytaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Où se trouvent les organes lymphoïdes primaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les organes lymphoïdes primaires sont les sites de production et maturation des lymphocytes : la moelle osseuse (lymphocytes B) et le thymus (lymphocytes T).",
+      "answers": [
+        {
+          "text": "Moelle osseuse et thymus",
+          "is_correct": true
+        },
+        {
+          "text": "Rate et ganglions lymphatiques",
+          "is_correct": false
+        },
+        {
+          "text": "Foie et rate",
+          "is_correct": false
+        },
+        {
+          "text": "Amygdales et appendice",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quels sont les organes lymphoïdes secondaires ?",
+      "difficulty": "Moyen",
+      "explanation": "Les organes lymphoïdes secondaires sont les sites où se déroulent les réponses immunitaires : rate, ganglions lymphatiques, tissu lymphoïde associé aux muqueuses (MALT) comme les amygdales et les plaques de Peyer.",
+      "answers": [
+        {
+          "text": "Rate, ganglions lymphatiques, MALT",
+          "is_correct": true
+        },
+        {
+          "text": "Moelle osseuse et thymus",
+          "is_correct": false
+        },
+        {
+          "text": "Foie et pancréas",
+          "is_correct": false
+        },
+        {
+          "text": "Cœur et poumons",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la structure d'un ganglion lymphatique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le ganglion lymphatique comprend un cortex externe (follicules lymphoïdes avec centres germinatifs de lymphocytes B), une zone paracorticale (lymphocytes T) et une médullaire centrale avec des cordons médullaires.",
+      "answers": [
+        {
+          "text": "Cortex (follicules B), zone paracorticale (T), médullaire",
+          "is_correct": true
+        },
+        {
+          "text": "Pulpe rouge et pulpe blanche",
+          "is_correct": false
+        },
+        {
+          "text": "Lobules thymiques avec corpuscules de Hassal",
+          "is_correct": false
+        },
+        {
+          "text": "Sinusoïdes hépatiques et travées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelles sont les deux pulpes de la rate ?",
+      "difficulty": "Moyen",
+      "explanation": "La rate contient la pulpe blanche (tissu lymphoïde avec lymphocytes autour des artères) et la pulpe rouge (sinusoïdes sanguins, élimination des globules rouges vieillis, stockage sanguin).",
+      "answers": [
+        {
+          "text": "Pulpe blanche (lymphoïde) et pulpe rouge (sinusoïdes)",
+          "is_correct": true
+        },
+        {
+          "text": "Pulpe antérieure et postérieure",
+          "is_correct": false
+        },
+        {
+          "text": "Pulpe corticale et médullaire",
+          "is_correct": false
+        },
+        {
+          "text": "Pulpe externe et interne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un corpuscule de Hassal ?",
+      "difficulty": "Difficile",
+      "explanation": "Les corpuscules de Hassal sont des structures concentriques de cellules épithéliales kératinisées situées dans la médullaire du thymus. Leur fonction exacte n'est pas complètement élucidée.",
+      "answers": [
+        {
+          "text": "Structure de cellules épithéliales dans la médullaire thymique",
+          "is_correct": true
+        },
+        {
+          "text": "Follicule lymphoïde de la rate",
+          "is_correct": false
+        },
+        {
+          "text": "Centre germinatif d'un ganglion",
+          "is_correct": false
+        },
+        {
+          "text": "Corpuscule rénal de Malpighi",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une plaque de Peyer ?",
+      "difficulty": "Moyen",
+      "explanation": "Les plaques de Peyer sont des amas de follicules lymphoïdes situés dans la muqueuse de l'intestin grêle (surtout l'iléon). Elles font partie du MALT et assurent la surveillance immunitaire intestinale.",
+      "answers": [
+        {
+          "text": "Amas de follicules lymphoïdes dans l'intestin grêle",
+          "is_correct": true
+        },
+        {
+          "text": "Glandes de l'estomac",
+          "is_correct": false
+        },
+        {
+          "text": "Follicules de la rate",
+          "is_correct": false
+        },
+        {
+          "text": "Ganglions mésentériques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un centre germinatif ?",
+      "difficulty": "Difficile",
+      "explanation": "Le centre germinatif est la zone claire centrale d'un follicule lymphoïde secondaire où les lymphocytes B prolifèrent rapidement et subissent une hypermutation somatique en réponse à un antigène.",
+      "answers": [
+        {
+          "text": "Zone de prolifération et maturation des lymphocytes B activés",
+          "is_correct": true
+        },
+        {
+          "text": "Zone de maturation des lymphocytes T",
+          "is_correct": false
+        },
+        {
+          "text": "Centre de production des érythrocytes",
+          "is_correct": false
+        },
+        {
+          "text": "Zone de stockage des antigènes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le MALT ?",
+      "difficulty": "Moyen",
+      "explanation": "Le MALT (Mucosa-Associated Lymphoid Tissue) est le tissu lymphoïde associé aux muqueuses. Il comprend les amygdales, les plaques de Peyer, l'appendice et le tissu lymphoïde diffus des muqueuses.",
+      "answers": [
+        {
+          "text": "Tissu lymphoïde associé aux muqueuses",
+          "is_correct": true
+        },
+        {
+          "text": "Moelle osseuse active",
+          "is_correct": false
+        },
+        {
+          "text": "Médullaire du thymus",
+          "is_correct": false
+        },
+        {
+          "text": "Membrane alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la particularité de l'endothélium des veinules post-capillaires (HEV) des ganglions ?",
+      "difficulty": "Difficile",
+      "explanation": "Les veinules post-capillaires à endothélium élevé (HEV - High Endothelial Venules) possèdent des cellules endothéliales cubiques hautes. Elles permettent le passage sélectif des lymphocytes du sang vers le tissu lymphoïde.",
+      "answers": [
+        {
+          "text": "Endothélium cubique permettant le passage des lymphocytes",
+          "is_correct": true
+        },
+        {
+          "text": "Endothélium fenêtré filtrant le sang",
+          "is_correct": false
+        },
+        {
+          "text": "Endothélium continu imperméable",
+          "is_correct": false
+        },
+        {
+          "text": "Endothélium sinusoïdal discontinu",
+          "is_correct": false
+        }
+      ]
     }
   ]
 }
