@@ -1,11 +1,11 @@
-name: medquizz_pass
+name: hippoquiz
 description: "HippoQuiz - Application de quiz pour étudiants PASS en médecine (L1-L3)"
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: ">=3.2.6 <4.0.0"
 
 dependencies:
   flutter:
@@ -42,6 +42,7 @@ dev_dependencies:
   flutter_lints: ^3.0.0
   mockito: ^5.4.4
   build_runner: ^2.4.8
+  flutter_launcher_icons: ^0.13.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -54,6 +55,7 @@ flutter:
     - assets/images/
     - assets/animations/
     - assets/icons/
+    - assets/icons/logo/
     - assets/sounds/
     - assets/questions/
     - assets/questions/L1/

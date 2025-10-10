@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_strings.dart';
+import 'package:hippoquiz/core/constants/app_text_styles.dart';
+import 'package:hippoquiz/core/widgets/custom_button.dart';
+import 'package:hippoquiz/core/widgets/loading_indicator.dart';
+import 'package:hippoquiz/core/widgets/stat_card.dart';
+import 'package:hippoquiz/presentation/providers/category_provider.dart';
+import 'package:hippoquiz/presentation/providers/progress_provider.dart';
+import 'package:hippoquiz/presentation/providers/student_provider.dart';
+import 'package:hippoquiz/presentation/screens/category_selection_screen.dart';
+import 'package:hippoquiz/presentation/screens/settings_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
-import 'package:medquizz_pass/core/constants/app_sizes.dart';
-import 'package:medquizz_pass/core/constants/app_strings.dart';
-import 'package:medquizz_pass/core/constants/app_text_styles.dart';
-import 'package:medquizz_pass/core/widgets/custom_button.dart';
-import 'package:medquizz_pass/core/widgets/stat_card.dart';
-import 'package:medquizz_pass/core/widgets/loading_indicator.dart';
-import 'package:medquizz_pass/presentation/providers/student_provider.dart';
-import 'package:medquizz_pass/presentation/providers/category_provider.dart';
-import 'package:medquizz_pass/presentation/providers/progress_provider.dart';
-import 'package:medquizz_pass/presentation/screens/category_selection_screen.dart';
-import 'package:medquizz_pass/presentation/screens/settings_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -67,7 +67,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
         ],
       ),
       body: Consumer3<StudentProvider, CategoryProvider, ProgressProvider>(
-        builder: (context, studentProvider, categoryProvider, progressProvider, _) {
+        builder:
+            (context, studentProvider, categoryProvider, progressProvider, _) {
           if (studentProvider.isLoading) {
             return const LoadingIndicator(message: AppStrings.loading);
           }
@@ -226,7 +227,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 
-  Widget _buildCategoryStats(CategoryProvider categoryProvider, ProgressProvider progressProvider) {
+  Widget _buildCategoryStats(
+      CategoryProvider categoryProvider, ProgressProvider progressProvider) {
     if (progressProvider.successRatesByCategory.isEmpty) {
       return Center(
         child: Padding(
@@ -266,8 +268,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
           final entry = mapEntry.value;
 
           // Chercher la catégorie correspondante
-          final categoryMatch = categoryProvider.allCategories
-              .where((c) => c.id == entry.key);
+          final categoryMatch =
+              categoryProvider.allCategories.where((c) => c.id == entry.key);
 
           // Si la catégorie n'existe pas, on ignore cette entrée
           if (categoryMatch.isEmpty) {

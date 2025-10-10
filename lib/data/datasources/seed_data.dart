@@ -1,6 +1,7 @@
 import 'dart:convert';
+
 import 'package:flutter/services.dart';
-import 'package:medquizz_pass/data/datasources/database_helper.dart';
+import 'package:hippoquiz/data/datasources/database_helper.dart';
 
 class SeedData {
   static Future<void> initialize() async {
@@ -406,7 +407,8 @@ class SeedData {
       db,
       categoryId: 3,
       yearLevel: 'L1',
-      questionText: 'Quelle vitamine est nécessaire à la coagulation sanguine ?',
+      questionText:
+          'Quelle vitamine est nécessaire à la coagulation sanguine ?',
       difficulty: 'Moyen',
       explanation:
           'La vitamine K est essentielle à la synthèse des facteurs de coagulation II, VII, IX et X.',
@@ -428,10 +430,7 @@ class SeedData {
       explanation:
           'La pharmacocinétique étudie le devenir du médicament dans l\'organisme : absorption, distribution, métabolisme et élimination (ADME).',
       answers: [
-        {
-          'text': 'L\'effet du médicament sur l\'organisme',
-          'isCorrect': false
-        },
+        {'text': 'L\'effet du médicament sur l\'organisme', 'isCorrect': false},
         {
           'text': 'Le devenir du médicament dans l\'organisme',
           'isCorrect': true
@@ -486,7 +485,10 @@ class SeedData {
       answers: [
         {'text': 'Inhibition de la COX', 'isCorrect': true},
         {'text': 'Inhibition de la LOX', 'isCorrect': false},
-        {'text': 'Activation des récepteurs aux glucocorticoïdes', 'isCorrect': false},
+        {
+          'text': 'Activation des récepteurs aux glucocorticoïdes',
+          'isCorrect': false
+        },
         {'text': 'Blocage des récepteurs H1', 'isCorrect': false},
       ],
     );
@@ -541,10 +543,7 @@ class SeedData {
           'text': 'La nécrose cause de l\'inflammation, pas l\'apoptose',
           'isCorrect': true
         },
-        {
-          'text': 'Il n\'y a aucune différence',
-          'isCorrect': false
-        },
+        {'text': 'Il n\'y a aucune différence', 'isCorrect': false},
         {
           'text': 'L\'apoptose concerne uniquement les cellules cancéreuses',
           'isCorrect': false
@@ -607,10 +606,7 @@ class SeedData {
           'Une métastase est une tumeur secondaire formée par la migration de cellules cancéreuses depuis la tumeur primaire vers un autre organe.',
       answers: [
         {'text': 'Une tumeur bénigne', 'isCorrect': false},
-        {
-          'text': 'Une tumeur secondaire à distance',
-          'isCorrect': true
-        },
+        {'text': 'Une tumeur secondaire à distance', 'isCorrect': true},
         {'text': 'Une inflammation chronique', 'isCorrect': false},
         {'text': 'Une malformation congénitale', 'isCorrect': false},
       ],
@@ -745,10 +741,7 @@ class SeedData {
           'La fibrillation auriculaire est un trouble du rythme cardiaque caractérisé par une activité électrique anarchique des oreillettes.',
       answers: [
         {'text': 'Un arrêt cardiaque', 'isCorrect': false},
-        {
-          'text': 'Un trouble du rythme auriculaire',
-          'isCorrect': true
-        },
+        {'text': 'Un trouble du rythme auriculaire', 'isCorrect': true},
         {'text': 'Une maladie des valves cardiaques', 'isCorrect': false},
         {'text': 'Une inflammation du péricarde', 'isCorrect': false},
       ],
@@ -875,16 +868,19 @@ class SeedData {
 
           final String categoryName = jsonData['category'] as String;
           final List<dynamic> questions = jsonData['questions'];
-          print('Category: $categoryName, Questions count: ${questions.length}');
+          print(
+              'Category: $categoryName, Questions count: ${questions.length}');
 
           final categoryId = categoryNameToId[categoryName];
 
           if (categoryId == null) {
-            print('Warning: Category "$categoryName" not found in database, skipping $filePath');
+            print(
+                'Warning: Category "$categoryName" not found in database, skipping $filePath');
             continue;
           }
 
-          print('Inserting ${questions.length} questions for category $categoryName (ID: $categoryId)...');
+          print(
+              'Inserting ${questions.length} questions for category $categoryName (ID: $categoryId)...');
 
           // Insérer chaque question
           int insertedCount = 0;
@@ -896,15 +892,18 @@ class SeedData {
               questionText: questionData['question_text'],
               difficulty: questionData['difficulty'],
               explanation: questionData['explanation'],
-              answers: (questionData['answers'] as List).map((a) => {
-                'text': a['text'],
-                'isCorrect': a['is_correct'],
-              }).toList(),
+              answers: (questionData['answers'] as List)
+                  .map((a) => {
+                        'text': a['text'],
+                        'isCorrect': a['is_correct'],
+                      })
+                  .toList(),
             );
             insertedCount++;
           }
 
-          print('✓ Successfully loaded $insertedCount questions from $filePath');
+          print(
+              '✓ Successfully loaded $insertedCount questions from $filePath');
         } catch (e, stackTrace) {
           print('✗ Error loading questions from $filePath: $e');
           print('StackTrace: $stackTrace');

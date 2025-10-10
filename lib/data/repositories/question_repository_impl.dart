@@ -1,7 +1,7 @@
-import 'package:medquizz_pass/data/datasources/database_helper.dart';
-import 'package:medquizz_pass/data/models/question_model.dart';
-import 'package:medquizz_pass/data/models/answer_model.dart';
-import 'package:medquizz_pass/domain/repositories/question_repository.dart';
+import 'package:hippoquiz/data/datasources/database_helper.dart';
+import 'package:hippoquiz/data/models/answer_model.dart';
+import 'package:hippoquiz/data/models/question_model.dart';
+import 'package:hippoquiz/domain/repositories/question_repository.dart';
 
 class QuestionRepositoryImpl implements QuestionRepository {
   final DatabaseHelper _dbHelper;
@@ -59,7 +59,8 @@ class QuestionRepositoryImpl implements QuestionRepository {
       'SELECT COUNT(*) as count FROM questions WHERE category_id = ?',
       [categoryId],
     );
-    print('Total questions for categoryId $categoryId: ${totalQuestions.first['count']}');
+    print(
+        'Total questions for categoryId $categoryId: ${totalQuestions.first['count']}');
 
     final questions = await _dbHelper.rawQuery(
       'SELECT * FROM questions WHERE category_id = ? ORDER BY RANDOM() LIMIT ?',

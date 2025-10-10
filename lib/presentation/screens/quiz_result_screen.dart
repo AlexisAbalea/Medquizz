@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_strings.dart';
+import 'package:hippoquiz/core/constants/app_text_styles.dart';
+import 'package:hippoquiz/core/services/sound_service.dart';
+import 'package:hippoquiz/core/widgets/custom_button.dart';
+import 'package:hippoquiz/data/models/quiz_session_model.dart';
+import 'package:hippoquiz/presentation/providers/quiz_provider.dart';
+import 'package:hippoquiz/presentation/screens/category_selection_screen.dart';
+import 'package:hippoquiz/presentation/screens/dashboard_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
-import 'package:medquizz_pass/core/constants/app_sizes.dart';
-import 'package:medquizz_pass/core/constants/app_strings.dart';
-import 'package:medquizz_pass/core/constants/app_text_styles.dart';
-import 'package:medquizz_pass/core/widgets/custom_button.dart';
-import 'package:medquizz_pass/core/services/sound_service.dart';
-import 'package:medquizz_pass/data/models/quiz_session_model.dart';
-import 'package:medquizz_pass/presentation/providers/quiz_provider.dart';
-import 'package:medquizz_pass/presentation/screens/dashboard_screen.dart';
-import 'package:medquizz_pass/presentation/screens/category_selection_screen.dart';
 
 class QuizResultScreen extends StatefulWidget {
   final QuizSessionModel session;
@@ -51,8 +51,7 @@ class _QuizResultScreenState extends State<QuizResultScreen> {
   Widget build(BuildContext context) {
     final percentage = widget.session.percentage;
     final scoreColor = _getScoreColor(percentage);
-    final motivationalMessage =
-        AppStrings.getMotivationalMessage(percentage);
+    final motivationalMessage = AppStrings.getMotivationalMessage(percentage);
 
     return Scaffold(
       appBar: AppBar(
@@ -115,8 +114,9 @@ class _QuizResultScreenState extends State<QuizResultScreen> {
                     const Divider(),
                     _StatRow(
                       label: 'Réponses incorrectes',
-                      value: (widget.session.totalQuestions - widget.session.score)
-                          .toString(),
+                      value:
+                          (widget.session.totalQuestions - widget.session.score)
+                              .toString(),
                       icon: Icons.cancel,
                       valueColor: AppColors.error,
                     ),

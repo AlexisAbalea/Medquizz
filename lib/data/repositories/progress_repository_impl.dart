@@ -1,5 +1,5 @@
-import 'package:medquizz_pass/data/datasources/database_helper.dart';
-import 'package:medquizz_pass/domain/repositories/progress_repository.dart';
+import 'package:hippoquiz/data/datasources/database_helper.dart';
+import 'package:hippoquiz/domain/repositories/progress_repository.dart';
 
 class ProgressRepositoryImpl implements ProgressRepository {
   final DatabaseHelper _dbHelper;

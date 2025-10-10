@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
-import 'package:medquizz_pass/data/models/question_model.dart';
-import 'package:medquizz_pass/data/models/answer_model.dart';
-import 'package:medquizz_pass/data/models/quiz_session_model.dart';
-import 'package:medquizz_pass/data/models/user_progress_model.dart';
-import 'package:medquizz_pass/domain/repositories/question_repository.dart';
-import 'package:medquizz_pass/domain/repositories/quiz_repository.dart';
-import 'package:medquizz_pass/core/services/sound_service.dart';
+import 'package:hippoquiz/core/services/sound_service.dart';
+import 'package:hippoquiz/data/models/answer_model.dart';
+import 'package:hippoquiz/data/models/question_model.dart';
+import 'package:hippoquiz/data/models/quiz_session_model.dart';
+import 'package:hippoquiz/data/models/user_progress_model.dart';
+import 'package:hippoquiz/domain/repositories/question_repository.dart';
+import 'package:hippoquiz/domain/repositories/quiz_repository.dart';
 
 class QuizProvider with ChangeNotifier {
   final QuestionRepository _questionRepository;
@@ -33,8 +33,9 @@ class QuizProvider with ChangeNotifier {
   bool get isLoading => _isLoading;
   String? get error => _error;
   int get totalQuestions => _questions.length;
-  double get progress =>
-      _questions.isNotEmpty ? (_currentQuestionIndex + 1) / _questions.length : 0;
+  double get progress => _questions.isNotEmpty
+      ? (_currentQuestionIndex + 1) / _questions.length
+      : 0;
   QuizSessionModel? get currentSession => _currentSession;
 
   bool get hasNextQuestion => _currentQuestionIndex < _questions.length - 1;
@@ -54,7 +55,8 @@ class QuizProvider with ChangeNotifier {
         _questions =
             await _questionRepository.getRandomQuestions(categoryId, limit);
       } else {
-        _questions = await _questionRepository.getQuestionsByCategory(categoryId);
+        _questions =
+            await _questionRepository.getQuestionsByCategory(categoryId);
         _questions.shuffle(); // Mélanger les questions
       }
 
@@ -176,7 +178,8 @@ class QuizProvider with ChangeNotifier {
         completedAt: DateTime.now(),
       );
 
-      final sessionId = await _quizRepository.createQuizSession(completedSession);
+      final sessionId =
+          await _quizRepository.createQuizSession(completedSession);
       _currentSession = completedSession.copyWith(id: sessionId);
 
       return _currentSession;
@@ -197,7 +200,8 @@ class QuizProvider with ChangeNotifier {
     return _selectedAnswers.containsKey(questionId);
   }
 
-  Future<void> startRandomQuiz(int categoryId, String yearLevel, int studentId, {int? limit}) async {
+  Future<void> startRandomQuiz(int categoryId, String yearLevel, int studentId,
+      {int? limit}) async {
     _isLoading = true;
     _error = null;
     notifyListeners();

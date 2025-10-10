@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
-import 'package:medquizz_pass/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_sizes.dart';
 
 class CustomCard extends StatelessWidget {
   final Widget child;

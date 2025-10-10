@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_strings.dart';
+import 'package:hippoquiz/core/constants/app_text_styles.dart';
+import 'package:hippoquiz/core/widgets/loading_indicator.dart';
+import 'package:hippoquiz/data/models/category_model.dart';
+import 'package:hippoquiz/presentation/providers/category_provider.dart';
+import 'package:hippoquiz/presentation/providers/student_provider.dart';
+import 'package:hippoquiz/presentation/screens/quiz_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
-import 'package:medquizz_pass/core/constants/app_sizes.dart';
-import 'package:medquizz_pass/core/constants/app_strings.dart';
-import 'package:medquizz_pass/core/constants/app_text_styles.dart';
-import 'package:medquizz_pass/core/widgets/loading_indicator.dart';
-import 'package:medquizz_pass/data/models/category_model.dart';
-import 'package:medquizz_pass/presentation/providers/category_provider.dart';
-import 'package:medquizz_pass/presentation/providers/student_provider.dart';
-import 'package:medquizz_pass/presentation/screens/quiz_screen.dart';
 
 class CategorySelectionScreen extends StatefulWidget {
   const CategorySelectionScreen({super.key});

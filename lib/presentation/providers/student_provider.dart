@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:medquizz_pass/data/models/student_model.dart';
-import 'package:medquizz_pass/domain/repositories/student_repository.dart';
+import 'package:hippoquiz/data/models/student_model.dart';
+import 'package:hippoquiz/domain/repositories/student_repository.dart';
 
 class StudentProvider with ChangeNotifier {
   final StudentRepository _repository;

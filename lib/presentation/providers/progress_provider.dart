@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:medquizz_pass/data/models/quiz_session_model.dart';
-import 'package:medquizz_pass/domain/repositories/quiz_repository.dart';
-import 'package:medquizz_pass/domain/repositories/progress_repository.dart';
+import 'package:hippoquiz/data/models/quiz_session_model.dart';
+import 'package:hippoquiz/domain/repositories/progress_repository.dart';
+import 'package:hippoquiz/domain/repositories/quiz_repository.dart';
 
 class ProgressProvider with ChangeNotifier {
   final ProgressRepository _progressRepository;
@@ -55,7 +55,8 @@ class ProgressProvider with ChangeNotifier {
 
   Future<void> loadRecentSessions(int studentId, {int limit = 10}) async {
     try {
-      _recentSessions = await _quizRepository.getRecentSessions(studentId, limit);
+      _recentSessions =
+          await _quizRepository.getRecentSessions(studentId, limit);
       notifyListeners();
     } catch (e) {
       _error = 'Erreur lors du chargement des sessions récentes: $e';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
 
 class AppTextStyles {
   // Display - Très grands titres

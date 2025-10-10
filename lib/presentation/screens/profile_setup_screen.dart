@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_strings.dart';
+import 'package:hippoquiz/core/constants/app_text_styles.dart';
+import 'package:hippoquiz/core/widgets/custom_button.dart';
+import 'package:hippoquiz/presentation/providers/student_provider.dart';
+import 'package:hippoquiz/presentation/screens/dashboard_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
-import 'package:medquizz_pass/core/constants/app_sizes.dart';
-import 'package:medquizz_pass/core/constants/app_strings.dart';
-import 'package:medquizz_pass/core/constants/app_text_styles.dart';
-import 'package:medquizz_pass/core/widgets/custom_button.dart';
-import 'package:medquizz_pass/presentation/providers/student_provider.dart';
-import 'package:medquizz_pass/presentation/screens/dashboard_screen.dart';
 
 class ProfileSetupScreen extends StatefulWidget {
   const ProfileSetupScreen({super.key});
@@ -44,7 +44,8 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
       } else if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(studentProvider.error ?? AppStrings.somethingWentWrong),
+            content:
+                Text(studentProvider.error ?? AppStrings.somethingWentWrong),
             backgroundColor: AppColors.error,
           ),
         );
@@ -64,11 +65,13 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const SizedBox(height: AppSizes.spacingXl),
-                // Icône
-                Icon(
-                  Icons.person_add,
-                  size: AppSizes.iconXxxl,
-                  color: AppColors.primary,
+                // Logo
+                Center(
+                  child: Image.asset(
+                    'assets/icons/logo/logo_no_bg.png',
+                    width: 100,
+                    height: 100,
+                  ),
                 ),
                 const SizedBox(height: AppSizes.spacingLg),
                 // Titre
@@ -117,7 +120,8 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
                     });
                   },
                 ),
-                if (_selectedYear == null && _formKey.currentState?.validate() == false)
+                if (_selectedYear == null &&
+                    _formKey.currentState?.validate() == false)
                   Padding(
                     padding: const EdgeInsets.only(top: AppSizes.spacingSm),
                     child: Text(

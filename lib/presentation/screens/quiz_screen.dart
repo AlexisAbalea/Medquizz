@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:hippoquiz/core/constants/app_colors.dart';
+import 'package:hippoquiz/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_strings.dart';
+import 'package:hippoquiz/core/constants/app_text_styles.dart';
+import 'package:hippoquiz/core/widgets/answer_option_card.dart';
+import 'package:hippoquiz/core/widgets/custom_button.dart';
+import 'package:hippoquiz/core/widgets/loading_indicator.dart';
+import 'package:hippoquiz/core/widgets/progress_bar.dart';
+import 'package:hippoquiz/data/models/category_model.dart';
+import 'package:hippoquiz/presentation/providers/quiz_provider.dart';
+import 'package:hippoquiz/presentation/providers/student_provider.dart';
+import 'package:hippoquiz/presentation/screens/quiz_result_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:medquizz_pass/core/constants/app_colors.dart';
-import 'package:medquizz_pass/core/constants/app_sizes.dart';
-import 'package:medquizz_pass/core/constants/app_strings.dart';
-import 'package:medquizz_pass/core/constants/app_text_styles.dart';
-import 'package:medquizz_pass/core/widgets/answer_option_card.dart';
-import 'package:medquizz_pass/core/widgets/custom_button.dart';
-import 'package:medquizz_pass/core/widgets/loading_indicator.dart';
-import 'package:medquizz_pass/core/widgets/progress_bar.dart';
-import 'package:medquizz_pass/data/models/category_model.dart';
-import 'package:medquizz_pass/presentation/providers/quiz_provider.dart';
-import 'package:medquizz_pass/presentation/providers/student_provider.dart';
-import 'package:medquizz_pass/presentation/screens/quiz_result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
   final CategoryModel category;
@@ -172,8 +172,8 @@ class _QuizScreenState extends State<QuizScreen> {
                             child: Text(
                               question.difficulty,
                               style: AppTextStyles.labelSmall.copyWith(
-                                color:
-                                    AppColors.getDifficultyColor(question.difficulty),
+                                color: AppColors.getDifficultyColor(
+                                    question.difficulty),
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -233,7 +233,8 @@ class _QuizScreenState extends State<QuizScreen> {
                                 bottom: AppSizes.spacingMd),
                             child: AnswerOptionCard(
                               text: answer.answerText,
-                              optionLabel: String.fromCharCode(65 + index), // A, B, C, D
+                              optionLabel:
+                                  String.fromCharCode(65 + index), // A, B, C, D
                               state: state,
                               onTap: _showExplanation
                                   ? null
@@ -262,23 +263,28 @@ class _QuizScreenState extends State<QuizScreen> {
                                         begin: Alignment.topLeft,
                                         end: Alignment.bottomRight,
                                       ),
-                                      borderRadius: BorderRadius.circular(AppSizes.radiusLg),
+                                      borderRadius: BorderRadius.circular(
+                                          AppSizes.radiusLg),
                                       border: Border.all(
                                         color: AppColors.info.withOpacity(0.3),
                                         width: 1,
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: const EdgeInsets.all(AppSizes.paddingLg),
+                                      padding: const EdgeInsets.all(
+                                          AppSizes.paddingLg),
                                       child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Row(
                                             children: [
                                               Container(
-                                                padding: const EdgeInsets.all(8),
+                                                padding:
+                                                    const EdgeInsets.all(8),
                                                 decoration: BoxDecoration(
-                                                  color: AppColors.info.withOpacity(0.2),
+                                                  color: AppColors.info
+                                                      .withOpacity(0.2),
                                                   shape: BoxShape.circle,
                                                 ),
                                                 child: const Icon(
@@ -287,26 +293,35 @@ class _QuizScreenState extends State<QuizScreen> {
                                                   size: 20,
                                                 ),
                                               ),
-                                              const SizedBox(width: AppSizes.spacingMd),
+                                              const SizedBox(
+                                                  width: AppSizes.spacingMd),
                                               Text(
                                                 AppStrings.explanation,
-                                                style: AppTextStyles.titleMedium.copyWith(
+                                                style: AppTextStyles.titleMedium
+                                                    .copyWith(
                                                   color: AppColors.info,
                                                   fontWeight: FontWeight.bold,
                                                 ),
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: AppSizes.spacingMd),
+                                          const SizedBox(
+                                              height: AppSizes.spacingMd),
                                           Container(
-                                            padding: const EdgeInsets.all(AppSizes.paddingMd),
+                                            padding: const EdgeInsets.all(
+                                                AppSizes.paddingMd),
                                             decoration: BoxDecoration(
-                                              color: Colors.white.withOpacity(0.7),
-                                              borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+                                              color:
+                                                  Colors.white.withOpacity(0.7),
+                                              borderRadius:
+                                                  BorderRadius.circular(
+                                                      AppSizes.radiusMd),
                                             ),
                                             child: Text(
                                               question.explanation,
-                                              style: AppTextStyles.explanationText.copyWith(
+                                              style: AppTextStyles
+                                                  .explanationText
+                                                  .copyWith(
                                                 height: 1.5,
                                               ),
                                             ),

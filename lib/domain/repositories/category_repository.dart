@@ -1,4 +1,4 @@
-import 'package:medquizz_pass/data/models/category_model.dart';
+import 'package:hippoquiz/data/models/category_model.dart';
 
 abstract class CategoryRepository {
   Future<List<CategoryModel>> getAllCategories();

@@ -1,5 +1,5 @@
-import 'package:medquizz_pass/data/models/quiz_session_model.dart';
-import 'package:medquizz_pass/data/models/user_progress_model.dart';
+import 'package:hippoquiz/data/models/quiz_session_model.dart';
+import 'package:hippoquiz/data/models/user_progress_model.dart';
 
 abstract class QuizRepository {
   Future<int> createQuizSession(QuizSessionModel session);

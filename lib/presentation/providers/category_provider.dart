@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:medquizz_pass/data/models/category_model.dart';
-import 'package:medquizz_pass/domain/repositories/category_repository.dart';
+import 'package:hippoquiz/data/models/category_model.dart';
+import 'package:hippoquiz/domain/repositories/category_repository.dart';
 
 class CategoryProvider with ChangeNotifier {
   final CategoryRepository _repository;

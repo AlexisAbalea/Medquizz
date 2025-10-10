@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:hippoquiz/core/theme/app_theme.dart';
+import 'package:hippoquiz/data/datasources/database_helper.dart';
+import 'package:hippoquiz/data/datasources/seed_data.dart';
+import 'package:hippoquiz/data/repositories/category_repository_impl.dart';
+import 'package:hippoquiz/data/repositories/progress_repository_impl.dart';
+import 'package:hippoquiz/data/repositories/question_repository_impl.dart';
+import 'package:hippoquiz/data/repositories/quiz_repository_impl.dart';
+import 'package:hippoquiz/data/repositories/student_repository_impl.dart';
+import 'package:hippoquiz/presentation/providers/category_provider.dart';
+import 'package:hippoquiz/presentation/providers/progress_provider.dart';
+import 'package:hippoquiz/presentation/providers/quiz_provider.dart';
+import 'package:hippoquiz/presentation/providers/student_provider.dart';
+import 'package:hippoquiz/presentation/screens/dashboard_screen.dart';
+import 'package:hippoquiz/presentation/screens/profile_setup_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:medquizz_pass/core/theme/app_theme.dart';
-import 'package:medquizz_pass/data/datasources/database_helper.dart';
-import 'package:medquizz_pass/data/datasources/seed_data.dart';
-import 'package:medquizz_pass/data/repositories/student_repository_impl.dart';
-import 'package:medquizz_pass/data/repositories/category_repository_impl.dart';
-import 'package:medquizz_pass/data/repositories/question_repository_impl.dart';
-import 'package:medquizz_pass/data/repositories/quiz_repository_impl.dart';
-import 'package:medquizz_pass/data/repositories/progress_repository_impl.dart';
-import 'package:medquizz_pass/presentation/providers/student_provider.dart';
-import 'package:medquizz_pass/presentation/providers/category_provider.dart';
-import 'package:medquizz_pass/presentation/providers/quiz_provider.dart';
-import 'package:medquizz_pass/presentation/providers/progress_provider.dart';
-import 'package:medquizz_pass/presentation/screens/profile_setup_screen.dart';
-import 'package:medquizz_pass/presentation/screens/dashboard_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -125,10 +125,10 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
-              Icons.medical_services,
-              size: 100,
-              color: Theme.of(context).colorScheme.primary,
+            Image.asset(
+              'assets/icons/logo/logo_no_bg.png',
+              width: 120,
+              height: 120,
             ),
             const SizedBox(height: 24),
             Text(

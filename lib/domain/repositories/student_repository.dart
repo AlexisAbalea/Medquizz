@@ -1,4 +1,4 @@
-import 'package:medquizz_pass/data/models/student_model.dart';
+import 'package:hippoquiz/data/models/student_model.dart';
 
 abstract class StudentRepository {
   Future<StudentModel?> getCurrentStudent();

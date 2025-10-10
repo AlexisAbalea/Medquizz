@@ -1,6 +1,6 @@
-# medquizz_pass
+# HippoQuiz
 
-A new Flutter project.
+Quiz pour les etudiants en PASS
 
 ## Getting Started
 
