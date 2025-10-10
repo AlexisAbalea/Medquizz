@@ -400,7 +400,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 children: [
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.school,
                         color: AppColors.primary,
                         size: AppSizes.iconMd,
@@ -518,7 +518,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
-                        child: Icon(
+                        child: const Icon(
                           Icons.description_outlined,
                           color: AppColors.textSecondary,
                           size: AppSizes.iconMd,
@@ -561,7 +561,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
-                        child: Icon(
+                        child: const Icon(
                           Icons.privacy_tip_outlined,
                           color: AppColors.textSecondary,
                           size: AppSizes.iconMd,
@@ -604,7 +604,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
-                        child: Icon(
+                        child: const Icon(
                           Icons.gavel_outlined,
                           color: AppColors.textSecondary,
                           size: AppSizes.iconMd,

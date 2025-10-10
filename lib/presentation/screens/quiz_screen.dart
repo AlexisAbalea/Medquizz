@@ -208,6 +208,99 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         const SizedBox(height: AppSizes.spacingLg),
 
+                        AnimatedSize(
+                          duration: const Duration(milliseconds: 400),
+                          curve: Curves.easeInOut,
+                          child: _showExplanation
+                              ? AnimatedOpacity(
+                                  duration: const Duration(milliseconds: 300),
+                                  opacity: _showExplanation ? 1.0 : 0.0,
+                                  child: Column(
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          gradient: LinearGradient(
+                                            colors: [
+                                              AppColors.info.withOpacity(0.15),
+                                              AppColors.info.withOpacity(0.05),
+                                            ],
+                                            begin: Alignment.topLeft,
+                                            end: Alignment.bottomRight,
+                                          ),
+                                          borderRadius: BorderRadius.circular(
+                                              AppSizes.radiusLg),
+                                          border: Border.all(
+                                            color: AppColors.info.withOpacity(0.3),
+                                            width: 1,
+                                          ),
+                                        ),
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(
+                                              AppSizes.paddingLg),
+                                          child: Column(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Row(
+                                                children: [
+                                                  Container(
+                                                    padding:
+                                                        const EdgeInsets.all(8),
+                                                    decoration: BoxDecoration(
+                                                      color: AppColors.info
+                                                          .withOpacity(0.2),
+                                                      shape: BoxShape.circle,
+                                                    ),
+                                                    child: const Icon(
+                                                      Icons.lightbulb_outline,
+                                                      color: AppColors.info,
+                                                      size: 20,
+                                                    ),
+                                                  ),
+                                                  const SizedBox(
+                                                      width: AppSizes.spacingMd),
+                                                  Text(
+                                                    AppStrings.explanation,
+                                                    style: AppTextStyles.titleMedium
+                                                        .copyWith(
+                                                      color: AppColors.info,
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                              const SizedBox(
+                                                  height: AppSizes.spacingMd),
+                                              Container(
+                                                padding: const EdgeInsets.all(
+                                                    AppSizes.paddingMd),
+                                                decoration: BoxDecoration(
+                                                  color:
+                                                      Colors.white.withOpacity(0.7),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          AppSizes.radiusMd),
+                                                ),
+                                                child: Text(
+                                                  question.explanation,
+                                                  style: AppTextStyles
+                                                      .explanationText
+                                                      .copyWith(
+                                                    height: 1.5,
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                      const SizedBox(height: AppSizes.spacingLg),
+                                    ],
+                                  ),
+                                )
+                              : const SizedBox.shrink(),
+                        ),
+
                         // Réponses
                         ...List.generate(answers.length, (index) {
                           final answer = answers[index];
@@ -243,96 +336,6 @@ class _QuizScreenState extends State<QuizScreen> {
                             ),
                           );
                         }),
-
-                        // Explication avec animation
-                        const SizedBox(height: AppSizes.spacingMd),
-                        AnimatedSize(
-                          duration: const Duration(milliseconds: 400),
-                          curve: Curves.easeInOut,
-                          child: _showExplanation
-                              ? AnimatedOpacity(
-                                  duration: const Duration(milliseconds: 300),
-                                  opacity: _showExplanation ? 1.0 : 0.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      gradient: LinearGradient(
-                                        colors: [
-                                          AppColors.info.withOpacity(0.15),
-                                          AppColors.info.withOpacity(0.05),
-                                        ],
-                                        begin: Alignment.topLeft,
-                                        end: Alignment.bottomRight,
-                                      ),
-                                      borderRadius: BorderRadius.circular(
-                                          AppSizes.radiusLg),
-                                      border: Border.all(
-                                        color: AppColors.info.withOpacity(0.3),
-                                        width: 1,
-                                      ),
-                                    ),
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(
-                                          AppSizes.paddingLg),
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Row(
-                                            children: [
-                                              Container(
-                                                padding:
-                                                    const EdgeInsets.all(8),
-                                                decoration: BoxDecoration(
-                                                  color: AppColors.info
-                                                      .withOpacity(0.2),
-                                                  shape: BoxShape.circle,
-                                                ),
-                                                child: const Icon(
-                                                  Icons.lightbulb_outline,
-                                                  color: AppColors.info,
-                                                  size: 20,
-                                                ),
-                                              ),
-                                              const SizedBox(
-                                                  width: AppSizes.spacingMd),
-                                              Text(
-                                                AppStrings.explanation,
-                                                style: AppTextStyles.titleMedium
-                                                    .copyWith(
-                                                  color: AppColors.info,
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                          const SizedBox(
-                                              height: AppSizes.spacingMd),
-                                          Container(
-                                            padding: const EdgeInsets.all(
-                                                AppSizes.paddingMd),
-                                            decoration: BoxDecoration(
-                                              color:
-                                                  Colors.white.withOpacity(0.7),
-                                              borderRadius:
-                                                  BorderRadius.circular(
-                                                      AppSizes.radiusMd),
-                                            ),
-                                            child: Text(
-                                              question.explanation,
-                                              style: AppTextStyles
-                                                  .explanationText
-                                                  .copyWith(
-                                                height: 1.5,
-                                              ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ),
-                                )
-                              : const SizedBox.shrink(),
-                        ),
                       ],
                     ),
                   ),

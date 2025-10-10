@@ -69,7 +69,6 @@ class StatCard extends StatelessWidget {
   }
 }
 
-// Variante compacte
 class CompactStatCard extends StatelessWidget {
   final String label;
   final String value;

@@ -12,7 +12,7 @@ enum AnswerState {
 
 class AnswerOptionCard extends StatelessWidget {
   final String text;
-  final String optionLabel; // A, B, C, D
+  final String optionLabel;
   final AnswerState state;
   final VoidCallback? onTap;
   final bool isEnabled;
@@ -93,7 +93,6 @@ class AnswerOptionCard extends StatelessWidget {
         ),
         child: Row(
           children: [
-            // Libellé de l'option (A, B, C, D)
             Container(
               width: 32,
               height: 32,
@@ -113,14 +112,12 @@ class AnswerOptionCard extends StatelessWidget {
               ),
             ),
             const SizedBox(width: AppSizes.spacingMd),
-            // Texte de la réponse
             Expanded(
               child: Text(
                 text,
                 style: AppTextStyles.answerText,
               ),
             ),
-            // Icône de statut
             if (_getIcon() != null) ...[
               const SizedBox(width: AppSizes.spacingSm),
               Icon(

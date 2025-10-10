@@ -3,7 +3,8 @@
     "allow": [
       "Bash(flutter create:*)",
       "Bash(flutter analyze:*)",
-      "Bash(flutter clean:*)"
+      "Bash(flutter clean:*)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []

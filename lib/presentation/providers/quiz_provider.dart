@@ -15,7 +15,7 @@ class QuizProvider with ChangeNotifier {
   List<QuestionModel> _questions = [];
   final Map<int, List<AnswerModel>> _answers = {};
   int _currentQuestionIndex = 0;
-  final Map<int, int?> _selectedAnswers = {}; // questionId -> answerId
+  final Map<int, int?> _selectedAnswers = {};
   QuizSessionModel? _currentSession;
   bool _isLoading = false;
   String? _error;
@@ -48,39 +48,29 @@ class QuizProvider with ChangeNotifier {
     notifyListeners();
 
     try {
-      print('Starting quiz for categoryId: $categoryId with limit: $limit');
-
-      // Charger les questions
       if (limit != null && limit > 0) {
         _questions =
             await _questionRepository.getRandomQuestions(categoryId, limit);
       } else {
         _questions =
             await _questionRepository.getQuestionsByCategory(categoryId);
-        _questions.shuffle(); // Mélanger les questions
+        _questions.shuffle();
       }
-
-      print('Loaded ${_questions.length} questions');
-
       if (_questions.isEmpty) {
         _error = 'Aucune question disponible pour cette catégorie';
         _isLoading = false;
         notifyListeners();
         return;
       }
-
-      // Charger les réponses pour chaque question
       _answers.clear();
       for (var question in _questions) {
         if (question.id != null) {
           final answers =
               await _questionRepository.getAnswersForQuestion(question.id!);
-          answers.shuffle(); // Mélanger les réponses
+          answers.shuffle();
           _answers[question.id!] = answers;
         }
       }
-
-      // Créer une nouvelle session
       _currentSession = QuizSessionModel(
         studentId: studentId,
         categoryId: categoryId,
@@ -207,7 +197,6 @@ class QuizProvider with ChangeNotifier {
     notifyListeners();
 
     try {
-      // Charger des questions aléatoires de toutes les catégories du niveau
       _questions = await _questionRepository.getRandomQuestionsByYear(
         yearLevel,
         limit ?? 10,
@@ -220,18 +209,15 @@ class QuizProvider with ChangeNotifier {
         return;
       }
 
-      // Charger les réponses pour chaque question
       _answers.clear();
       for (var question in _questions) {
         if (question.id != null) {
           final answers =
               await _questionRepository.getAnswersForQuestion(question.id!);
-          answers.shuffle(); // Mélanger les réponses
+          answers.shuffle();
           _answers[question.id!] = answers;
         }
       }
-
-      // Créer une nouvelle session avec le categoryId fourni (la catégorie "Questions aléatoires")
       _currentSession = QuizSessionModel(
         studentId: studentId,
         categoryId: categoryId,
@@ -265,7 +251,6 @@ class QuizProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  /// Play sound based on whether answer is correct or not
   void playAnswerSound(bool isCorrect) {
     if (isCorrect) {
       _soundService.playCorrectSound();

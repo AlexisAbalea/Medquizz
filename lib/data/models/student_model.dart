@@ -3,7 +3,7 @@ import 'package:equatable/equatable.dart';
 class StudentModel extends Equatable {
   final int? id;
   final String name;
-  final String yearLevel; // L1, L2, L3
+  final String yearLevel;
   final DateTime createdAt;
 
   const StudentModel({
@@ -13,7 +13,6 @@ class StudentModel extends Equatable {
     required this.createdAt,
   });
 
-  // Convertir depuis la base de données
   factory StudentModel.fromMap(Map<String, dynamic> map) {
     return StudentModel(
       id: map['id'] as int?,
@@ -23,7 +22,6 @@ class StudentModel extends Equatable {
     );
   }
 
-  // Convertir vers la base de données
   Map<String, dynamic> toMap() {
     return {
       if (id != null) 'id': id,
@@ -33,7 +31,6 @@ class StudentModel extends Equatable {
     };
   }
 
-  // CopyWith pour faciliter les mises à jour
   StudentModel copyWith({
     int? id,
     String? name,

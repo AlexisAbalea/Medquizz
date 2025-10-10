@@ -47,7 +47,6 @@ class LoadingIndicator extends StatelessWidget {
   }
 }
 
-// Widget pour un indicateur de chargement en overlay
 class LoadingOverlay extends StatelessWidget {
   final bool isLoading;
   final Widget child;

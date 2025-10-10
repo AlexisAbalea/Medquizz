@@ -17,10 +17,7 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Initialiser la base de données et les données de test
   await SeedData.initialize();
-
   runApp(const MyApp());
 }
 
@@ -33,14 +30,11 @@ class MyApp extends StatelessWidget {
 
     return MultiProvider(
       providers: [
-        // Repositories
         Provider(create: (_) => StudentRepositoryImpl(dbHelper)),
         Provider(create: (_) => CategoryRepositoryImpl(dbHelper)),
         Provider(create: (_) => QuestionRepositoryImpl(dbHelper)),
         Provider(create: (_) => QuizRepositoryImpl(dbHelper)),
         Provider(create: (_) => ProgressRepositoryImpl(dbHelper)),
-
-        // Providers
         ChangeNotifierProvider(
           create: (context) => StudentProvider(
             context.read<StudentRepositoryImpl>(),
@@ -74,7 +68,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// Écran de splash avec navigation
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -90,14 +83,10 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   Future<void> _navigate() async {
-    // Attendre un peu pour montrer le splash
     await Future.delayed(const Duration(seconds: 2));
-
     if (!mounted) return;
-
     final studentProvider = context.read<StudentProvider>();
     final hasStudent = await studentProvider.checkIfHasStudent();
-
     if (!mounted) return;
 
     if (hasStudent) {

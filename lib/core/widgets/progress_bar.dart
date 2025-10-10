@@ -3,7 +3,7 @@ import 'package:hippoquiz/core/constants/app_colors.dart';
 import 'package:hippoquiz/core/constants/app_sizes.dart';
 
 class CustomProgressBar extends StatelessWidget {
-  final double progress; // 0.0 à 1.0
+  final double progress;
   final Color? color;
   final Color? backgroundColor;
   final double height;
@@ -53,9 +53,8 @@ class CustomProgressBar extends StatelessWidget {
   }
 }
 
-// Barre de progression circulaire
 class CircularProgress extends StatelessWidget {
-  final double progress; // 0.0 à 1.0
+  final double progress;
   final Color? color;
   final Color? backgroundColor;
   final double size;

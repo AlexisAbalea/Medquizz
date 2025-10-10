@@ -16,7 +16,6 @@ class AppTheme {
         background: AppColors.background,
       ),
 
-      // Typographie avec Google Fonts
       textTheme: GoogleFonts.poppinsTextTheme(
         const TextTheme(
           displayLarge: TextStyle(
@@ -97,7 +96,6 @@ class AppTheme {
         ),
       ),
 
-      // AppBar
       appBarTheme: AppBarTheme(
         backgroundColor: AppColors.surface,
         elevation: 0,
@@ -110,7 +108,6 @@ class AppTheme {
         ),
       ),
 
-      // Card
       cardTheme: CardTheme(
         elevation: 2,
         shape: RoundedRectangleBorder(
@@ -120,7 +117,6 @@ class AppTheme {
         shadowColor: Colors.black.withOpacity(0.1),
       ),
 
-      // Boutons élevés
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           backgroundColor: AppColors.primary,
@@ -137,7 +133,6 @@ class AppTheme {
         ),
       ),
 
-      // Boutons texte
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
           foregroundColor: AppColors.primary,
@@ -148,7 +143,6 @@ class AppTheme {
         ),
       ),
 
-      // Boutons outline
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
           foregroundColor: AppColors.primary,
@@ -164,7 +158,6 @@ class AppTheme {
         ),
       ),
 
-      // Champs de texte
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: AppColors.surface,
@@ -194,25 +187,21 @@ class AppTheme {
         hintStyle: const TextStyle(color: AppColors.textTertiary),
       ),
 
-      // Indicateur de progression
       progressIndicatorTheme: const ProgressIndicatorThemeData(
         color: AppColors.primary,
         linearTrackColor: AppColors.border,
       ),
 
-      // Icônes
       iconTheme: const IconThemeData(
         color: AppColors.textPrimary,
       ),
 
-      // Diviseurs
       dividerTheme: const DividerThemeData(
         color: AppColors.border,
         thickness: 1,
         space: 1,
       ),
 
-      // Scaffolds
       scaffoldBackgroundColor: AppColors.background,
     );
   }

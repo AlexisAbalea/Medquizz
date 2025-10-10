@@ -1,19 +1,12 @@
 class AppStrings {
-  // App
   static const String appName = 'MedQuizz PASS';
   static const String appTagline = 'Quiz médical pour étudiants PASS';
-
-  // Années
   static const String yearL1 = 'L1';
   static const String yearL2 = 'L2';
   static const String yearL3 = 'L3';
-
-  // Difficultés
   static const String difficultyEasy = 'Facile';
   static const String difficultyMedium = 'Moyen';
   static const String difficultyHard = 'Difficile';
-
-  // Onboarding
   static const String onboardingTitle1 = 'Bienvenue sur MedQuizz PASS';
   static const String onboardingDesc1 =
       'Préparez vos examens de médecine avec des quiz adaptés à votre niveau';
@@ -26,8 +19,6 @@ class AppStrings {
   static const String skip = 'Passer';
   static const String next = 'Suivant';
   static const String start = 'Commencer';
-
-  // Setup du profil
   static const String setupTitle = 'Créez votre profil';
   static const String setupSubtitle = 'Personnalisez votre expérience';
   static const String nameLabel = 'Votre prénom';
@@ -37,8 +28,6 @@ class AppStrings {
   static const String continueButton = 'Continuer';
   static const String nameRequired = 'Le prénom est requis';
   static const String yearRequired = 'Veuillez sélectionner une année';
-
-  // Dashboard
   static const String dashboard = 'Tableau de bord';
   static const String welcome = 'Bonjour';
   static const String welcomeBack = 'Bon retour';
@@ -50,14 +39,10 @@ class AppStrings {
   static const String continueStudying = 'Continuer à réviser';
   static const String newQuiz = 'Nouveau Quiz';
   static const String myCategories = 'Mes matières';
-
-  // Catégories
   static const String categories = 'Catégories';
   static const String selectCategory = 'Choisissez une matière';
   static const String questionsAvailable = 'questions disponibles';
   static const String noCategories = 'Aucune catégorie disponible';
-
-  // Quiz
   static const String quiz = 'Quiz';
   static const String question = 'Question';
   static const String of = 'sur';
@@ -72,8 +57,6 @@ class AppStrings {
   static const String questionsCount = 'Nombre de questions';
   static const String difficulty = 'Difficulté';
   static const String allDifficulties = 'Toutes';
-
-  // Résultats
   static const String results = 'Résultats';
   static const String yourScore = 'Votre score';
   static const String congratulations = 'Félicitations !';
@@ -84,8 +67,6 @@ class AppStrings {
   static const String reviewErrors = 'Revoir les erreurs';
   static const String backToDashboard = 'Retour au tableau de bord';
   static const String newQuizSameCategory = 'Nouveau quiz (même matière)';
-
-  // Statistiques
   static const String statistics = 'Statistiques';
   static const String overallStats = 'Statistiques globales';
   static const String categoryStats = 'Par matière';
@@ -95,8 +76,6 @@ class AppStrings {
   static const String completedSessions = 'Quiz terminés';
   static const String noStats = 'Aucune statistique disponible';
   static const String startQuizToSeeStats = 'Commencez un quiz pour voir vos statistiques';
-
-  // Paramètres
   static const String settings = 'Paramètres';
   static const String profile = 'Profil';
   static const String editProfile = 'Modifier le profil';
@@ -108,8 +87,6 @@ class AppStrings {
   static const String about = 'À propos';
   static const String version = 'Version';
   static const String logout = 'Se déconnecter';
-
-  // Actions
   static const String save = 'Enregistrer';
   static const String cancel = 'Annuler';
   static const String delete = 'Supprimer';
@@ -120,8 +97,6 @@ class AppStrings {
   static const String close = 'Fermer';
   static const String retry = 'Réessayer';
   static const String back = 'Retour';
-
-  // Messages
   static const String loading = 'Chargement...';
   static const String error = 'Erreur';
   static const String success = 'Succès';
@@ -129,30 +104,21 @@ class AppStrings {
   static const String noInternet = 'Pas de connexion Internet';
   static const String tryAgainLater = 'Veuillez réessayer plus tard';
   static const String somethingWentWrong = 'Une erreur s\'est produite';
-
-  // Validation
   static const String fieldRequired = 'Ce champ est requis';
   static const String invalidInput = 'Entrée invalide';
-
-  // Quiz messages
   static const String quizStarted = 'Quiz commencé !';
   static const String quizCompleted = 'Quiz terminé !';
   static const String pleaseSelectAnswer = 'Veuillez sélectionner une réponse';
   static const String allQuestionsAnswered = 'Toutes les questions ont été répondues';
-
-  // Empty states
   static const String noQuestionsAvailable = 'Aucune question disponible';
   static const String noCategoriesForYear = 'Aucune matière disponible pour cette année';
   static const String noRecentSessions = 'Aucune session récente';
-
-  // Temps
   static const String today = 'Aujourd\'hui';
   static const String yesterday = 'Hier';
   static const String daysAgo = 'Il y a # jours';
   static const String minutesAgo = 'Il y a # minutes';
   static const String hoursAgo = 'Il y a # heures';
 
-  // Messages de motivation selon le score
   static String getMotivationalMessage(double percentage) {
     if (percentage == 100) {
       return 'Parfait ! 🎉 Score parfait !';
