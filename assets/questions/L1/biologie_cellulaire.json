@@ -1095,12 +1095,12 @@
       ]
     },
     {
-      "question_text": "Quel est le rôle de la pompe Na⁺/K⁺ ATPase ?",
+      "question_text": "Quel est le rôle de la pompe Na+/K+ ATPase ?",
       "difficulty": "Moyen",
-      "explanation": "Elle maintient le gradient ionique en expulsant 3 Na⁺ et en entrant 2 K⁺ grâce à l'ATP.",
+      "explanation": "Elle maintient le gradient ionique en expulsant 3 Na+ et en entrant 2 K+ grâce à l'ATP.",
       "answers": [
         { "text": "Transport passif du sodium", "is_correct": false },
-        { "text": "Transport actif de Na⁺ et K⁺", "is_correct": true },
+        { "text": "Transport actif de Na+ et K+", "is_correct": true },
         { "text": "Diffusion de l'eau", "is_correct": false },
         { "text": "Synthèse d'ATP", "is_correct": false }
       ]
@@ -1427,7 +1427,7 @@
     {
       "question_text": "Que devient le pyruvate en absence d'oxygène dans une cellule musculaire ?",
       "difficulty": "Moyen",
-      "explanation": "En anaérobiose, le pyruvate est transformé en lactate pour régénérer le NAD⁺.",
+      "explanation": "En anaérobiose, le pyruvate est transformé en lactate pour régénérer le NAD+.",
       "answers": [
         { "text": "Acétyl-CoA", "is_correct": false },
         { "text": "Lactate", "is_correct": true },
@@ -2002,7 +2002,7 @@
       "difficulty": "Moyen",
       "explanation": "Les transporteurs GLUT (glucose transporters) facilitent l'entrée du glucose selon son gradient de concentration.",
       "answers": [
-        { "text": "Pompe Na⁺/K⁺", "is_correct": false },
+        { "text": "Pompe Na+/K+", "is_correct": false },
         { "text": "Transporteur GLUT", "is_correct": true },
         { "text": "Canal calcique", "is_correct": false },
         { "text": "Aquaporine", "is_correct": false }
@@ -2194,7 +2194,7 @@
       "answers": [
         { "text": "Un gradient de glucose", "is_correct": false },
         {
-          "text": "Un gradient de H⁺ pour synthétiser l'ATP",
+          "text": "Un gradient de H+ pour synthétiser l'ATP",
           "is_correct": true
         },
         { "text": "Un gradient de sodium", "is_correct": false },

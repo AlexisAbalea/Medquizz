@@ -1,9 +1,9 @@
-# Plan de Développement - MedQuizz PASS
+# Plan de Développement - HippoQuiz
 
 ## 📋 Vue d'ensemble du projet
 
-**Nom:** MedQuizz PASS
-**Description:** Application mobile Flutter permettant aux étudiants en médecine (PASS - L1 à L3) de s'entraîner avec des quiz interactifs.
+**Nom:** HippoQuiz
+**Description:** Application mobile Flutter permettant aux étudiants en médecine (L1 à L3) de s'entraîner avec des quiz interactifs.
 **Technologies:** Flutter, SQLite, Architecture Clean
 
 ---
@@ -11,6 +11,7 @@
 ## 🏗️ Architecture de l'application
 
 ### Structure des dossiers
+
 ```
 lib/
 ├── core/
@@ -39,12 +40,14 @@ lib/
 ### Tables SQLite
 
 #### 1. **students**
+
 - `id` (INTEGER PRIMARY KEY)
 - `name` (TEXT)
 - `year_level` (TEXT) - L1, L2, ou L3
 - `created_at` (TIMESTAMP)
 
 #### 2. **categories**
+
 - `id` (INTEGER PRIMARY KEY)
 - `name` (TEXT) - Ex: Anatomie, Physiologie, Pharmacologie
 - `year_level` (TEXT) - L1, L2, L3
@@ -52,6 +55,7 @@ lib/
 - `color` (TEXT) - Couleur hexadécimale
 
 #### 3. **questions**
+
 - `id` (INTEGER PRIMARY KEY)
 - `category_id` (INTEGER FOREIGN KEY)
 - `year_level` (TEXT)
@@ -60,12 +64,14 @@ lib/
 - `explanation` (TEXT) - Explication de la bonne réponse
 
 #### 4. **answers**
+
 - `id` (INTEGER PRIMARY KEY)
 - `question_id` (INTEGER FOREIGN KEY)
 - `answer_text` (TEXT)
 - `is_correct` (BOOLEAN)
 
 #### 5. **user_progress**
+
 - `id` (INTEGER PRIMARY KEY)
 - `student_id` (INTEGER FOREIGN KEY)
 - `question_id` (INTEGER FOREIGN KEY)
@@ -73,6 +79,7 @@ lib/
 - `answered_at` (TIMESTAMP)
 
 #### 6. **quiz_sessions**
+
 - `id` (INTEGER PRIMARY KEY)
 - `student_id` (INTEGER FOREIGN KEY)
 - `category_id` (INTEGER FOREIGN KEY)
@@ -86,6 +93,7 @@ lib/
 ## 🎨 Design et UI/UX
 
 ### Palette de couleurs moderne
+
 - **Primaire:** Bleu médical (#2E7D99)
 - **Secondaire:** Vert succès (#4CAF50)
 - **Accent:** Orange (#FF9800)
@@ -94,6 +102,7 @@ lib/
 - **Texte:** Gris foncé (#212121)
 
 ### Écrans principaux
+
 1. **Splash Screen** - Logo et chargement
 2. **Onboarding** - Introduction pour nouveaux utilisateurs
 3. **Profil Setup** - Choix du nom et de l'année (L1/L2/L3)
@@ -111,13 +120,16 @@ lib/
 ### **PHASE 1: Configuration initiale (Jour 1)**
 
 #### Étape 1.1: Initialiser le projet Flutter
+
 ```bash
-flutter create medquizz_pass
-cd medquizz_pass
+flutter create hippoquiz
+cd hippoquiz
 ```
 
 #### Étape 1.2: Configurer pubspec.yaml
+
 Ajouter les dépendances:
+
 - `sqflite` - Base de données SQLite
 - `path_provider` - Gestion des chemins de fichiers
 - `provider` ou `riverpod` - State management
@@ -130,6 +142,7 @@ Ajouter les dépendances:
 - `lottie` - Animations
 
 #### Étape 1.3: Créer l'architecture des dossiers
+
 Créer tous les dossiers selon la structure définie ci-dessus.
 
 ---
@@ -137,12 +150,14 @@ Créer tous les dossiers selon la structure définie ci-dessus.
 ### **PHASE 2: Configuration de la base de données (Jour 1-2)**
 
 #### Étape 2.1: Créer le Database Helper
+
 - Fichier: `lib/data/datasources/database_helper.dart`
 - Singleton pour gérer la connexion SQLite
 - Méthodes pour créer/mettre à jour les tables
 - Version de la base de données
 
 #### Étape 2.2: Créer les modèles de données
+
 - `lib/data/models/student_model.dart`
 - `lib/data/models/category_model.dart`
 - `lib/data/models/question_model.dart`
@@ -151,11 +166,13 @@ Créer tous les dossiers selon la structure définie ci-dessus.
 - `lib/data/models/quiz_session_model.dart`
 
 Chaque modèle doit inclure:
+
 - `fromMap()` - Convertir depuis SQLite
 - `toMap()` - Convertir vers SQLite
 - `fromJson()` / `toJson()` - Sérialisation
 
 #### Étape 2.3: Pré-remplir la base de données
+
 - Créer un fichier `lib/data/datasources/seed_data.dart`
 - Insérer des données de test (minimum 50 questions par année)
 - Questions variées par catégorie et difficulté
@@ -165,17 +182,21 @@ Chaque modèle doit inclure:
 ### **PHASE 3: Couche Domain et Repositories (Jour 2)**
 
 #### Étape 3.1: Créer les entités
+
 - Versions "propres" des modèles dans `lib/domain/entities/`
 - Sans logique de persistence
 
 #### Étape 3.2: Créer les interfaces de repositories
+
 - `lib/domain/repositories/student_repository.dart`
 - `lib/domain/repositories/question_repository.dart`
 - `lib/domain/repositories/quiz_repository.dart`
 - `lib/domain/repositories/progress_repository.dart`
 
 #### Étape 3.3: Implémenter les repositories
+
 Dans `lib/data/repositories/`:
+
 - Implémentation concrète avec SQLite
 - Gestion des erreurs
 - Conversion modèles ↔ entités
@@ -185,10 +206,12 @@ Dans `lib/data/repositories/`:
 ### **PHASE 4: State Management (Jour 3)**
 
 #### Étape 4.1: Configurer Provider/Riverpod
+
 - Setup dans `main.dart`
 - Créer les providers principaux
 
 #### Étape 4.2: Créer les providers/notifiers
+
 - `student_provider.dart` - Gestion du profil étudiant
 - `quiz_provider.dart` - Gestion de l'état du quiz
 - `progress_provider.dart` - Statistiques et progression
@@ -199,17 +222,20 @@ Dans `lib/data/repositories/`:
 ### **PHASE 5: Thème et Design System (Jour 3)**
 
 #### Étape 5.1: Créer le thème
+
 - `lib/core/theme/app_theme.dart`
 - ThemeData personnalisé avec Material 3
 - Mode clair uniquement (ou ajouter mode sombre)
 
 #### Étape 5.2: Définir les constantes
+
 - `lib/core/constants/app_colors.dart`
 - `lib/core/constants/app_text_styles.dart`
 - `lib/core/constants/app_sizes.dart`
 - `lib/core/constants/app_strings.dart`
 
 #### Étape 5.3: Créer les widgets réutilisables
+
 - `custom_button.dart` - Boutons personnalisés
 - `custom_card.dart` - Cartes avec ombre et radius
 - `loading_indicator.dart` - Indicateur de chargement
@@ -222,16 +248,19 @@ Dans `lib/data/repositories/`:
 ### **PHASE 6: Écrans - Onboarding et Setup (Jour 4)**
 
 #### Étape 6.1: Splash Screen
+
 - Animation du logo
 - Chargement de la base de données
 - Navigation automatique
 
 #### Étape 6.2: Onboarding
+
 - 3-4 slides explicatifs avec PageView
 - Skip/Next navigation
 - Animations Lottie ou illustrations
 
 #### Étape 6.3: Profil Setup
+
 - Formulaire de saisie du nom
 - Sélection de l'année (L1/L2/L3) avec cards
 - Validation et sauvegarde dans SQLite
@@ -241,6 +270,7 @@ Dans `lib/data/repositories/`:
 ### **PHASE 7: Écran principal - Dashboard (Jour 4-5)**
 
 #### Étape 7.1: Layout du Dashboard
+
 - AppBar avec nom de l'utilisateur
 - Section "Mes statistiques" avec cartes:
   - Questions réussies
@@ -250,6 +280,7 @@ Dans `lib/data/repositories/`:
 - Bouton principal "Nouveau Quiz"
 
 #### Étape 7.2: Intégrer les données
+
 - Charger les statistiques depuis SQLite
 - Affichage dynamique
 - Pull-to-refresh
@@ -259,6 +290,7 @@ Dans `lib/data/repositories/`:
 ### **PHASE 8: Sélection de catégorie (Jour 5)**
 
 #### Étape 8.1: Écran de catégories
+
 - Grid/List de catégories filtrées par année
 - Chaque carte affiche:
   - Icône de la catégorie
@@ -267,6 +299,7 @@ Dans `lib/data/repositories/`:
   - Progression (%)
 
 #### Étape 8.2: Navigation
+
 - Tap sur une catégorie → Écran de configuration du quiz
 - Choix de la difficulté (optionnel)
 - Nombre de questions
@@ -276,6 +309,7 @@ Dans `lib/data/repositories/`:
 ### **PHASE 9: Écran de Quiz (Jour 6-7)**
 
 #### Étape 9.1: UI du Quiz
+
 - Barre de progression en haut
 - Numéro de la question
 - Texte de la question (scrollable si long)
@@ -283,6 +317,7 @@ Dans `lib/data/repositories/`:
 - Boutons: Précédent, Suivant, Terminer
 
 #### Étape 9.2: Logique du Quiz
+
 - Chargement aléatoire des questions
 - Sélection d'une réponse
 - Validation (couleur verte/rouge)
@@ -291,6 +326,7 @@ Dans `lib/data/repositories/`:
 - Timer optionnel
 
 #### Étape 9.3: Animations
+
 - Transition entre questions
 - Feedback visuel lors de la sélection
 - Shake animation si erreur
@@ -300,17 +336,20 @@ Dans `lib/data/repositories/`:
 ### **PHASE 10: Écran de Résultats (Jour 7)**
 
 #### Étape 10.1: Vue d'ensemble
+
 - Score final avec animation
 - Pourcentage de réussite
 - Message motivant selon le score
 - Badge de performance
 
 #### Étape 10.2: Détails par question
+
 - Liste expansible des questions
 - Réponse donnée vs correcte
 - Explication complète
 
 #### Étape 10.3: Actions
+
 - Revoir les questions ratées
 - Nouveau quiz dans la même catégorie
 - Retour au dashboard
@@ -320,12 +359,14 @@ Dans `lib/data/repositories/`:
 ### **PHASE 11: Statistiques et Progression (Jour 8)**
 
 #### Étape 11.1: Écran de statistiques
+
 - Vue par catégorie avec graphiques
 - Graphique en ligne: progression dans le temps
 - Graphique circulaire: répartition par matière
 - Utiliser `fl_chart` pour les graphiques
 
 #### Étape 11.2: Historique des sessions
+
 - Liste des quiz passés
 - Date, score, catégorie
 - Possibilité de revoir les détails
@@ -335,12 +376,14 @@ Dans `lib/data/repositories/`:
 ### **PHASE 12: Paramètres et Profil (Jour 8)**
 
 #### Étape 12.1: Écran de paramètres
+
 - Modifier le profil (nom, année)
 - Réinitialiser la progression
 - À propos de l'app
 - Version
 
 #### Étape 12.2: Gestion du profil
+
 - Changer d'année → recharger les catégories
 - Confirmation avant réinitialisation
 
@@ -349,11 +392,13 @@ Dans `lib/data/repositories/`:
 ### **PHASE 13: Polissage et Optimisation (Jour 9)**
 
 #### Étape 13.1: Performance
+
 - Optimiser les requêtes SQLite (indexes)
 - Lazy loading des questions
 - Cache des images/icônes
 
 #### Étape 13.2: UX/UI
+
 - Transitions fluides
 - Micro-animations
 - Haptic feedback
@@ -361,6 +406,7 @@ Dans `lib/data/repositories/`:
 - Gestion des erreurs
 
 #### Étape 13.3: Accessibilité
+
 - Taille de police ajustable
 - Contraste suffisant
 - Support des lecteurs d'écran
@@ -370,15 +416,18 @@ Dans `lib/data/repositories/`:
 ### **PHASE 14: Tests et Debug (Jour 10)**
 
 #### Étape 14.1: Tests unitaires
+
 - Tests des repositories
 - Tests des providers
 - Tests des modèles
 
 #### Étape 14.2: Tests d'intégration
+
 - Flow complet: setup → quiz → résultats
 - Navigation entre écrans
 
 #### Étape 14.3: Tests manuels
+
 - Tester sur différents appareils
 - Android et iOS
 - Différentes tailles d'écran
@@ -388,17 +437,20 @@ Dans `lib/data/repositories/`:
 ### **PHASE 15: Préparation au déploiement (Jour 11)**
 
 #### Étape 15.1: Configuration Android
+
 - `android/app/build.gradle` - Version, nom du package
 - Icône de l'application
 - Splash screen natif
 - Permissions
 
 #### Étape 15.2: Configuration iOS
+
 - `ios/Runner/Info.plist`
 - Icône et launch screen
 - Bundle identifier
 
 #### Étape 15.3: Build
+
 - `flutter build apk --release`
 - `flutter build ios --release`
 
@@ -407,6 +459,7 @@ Dans `lib/data/repositories/`:
 ## 🎯 Fonctionnalités avancées (Bonus)
 
 ### À ajouter après la V1:
+
 1. **Mode révision espacée** - Algorithme de répétition espacée
 2. **Mode challenge** - Quiz contre la montre
 3. **Favoris** - Marquer des questions pour révision
@@ -501,6 +554,7 @@ dev_dependencies:
 ## 📞 Support et maintenance
 
 ### Post-lancement:
+
 - Collecter les retours utilisateurs
 - Corriger les bugs critiques
 - Ajouter des questions régulièrement

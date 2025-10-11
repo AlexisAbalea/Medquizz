@@ -236,7 +236,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                         ),
                                         child: Padding(
                                           padding: const EdgeInsets.all(
-                                              AppSizes.paddingLg),
+                                              AppSizes.paddingMd),
                                           child: Column(
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
@@ -245,7 +245,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                                 children: [
                                                   Container(
                                                     padding:
-                                                        const EdgeInsets.all(8),
+                                                        const EdgeInsets.all(6),
                                                     decoration: BoxDecoration(
                                                       color: AppColors.info
                                                           .withOpacity(0.2),
@@ -254,26 +254,27 @@ class _QuizScreenState extends State<QuizScreen> {
                                                     child: const Icon(
                                                       Icons.lightbulb_outline,
                                                       color: AppColors.info,
-                                                      size: 20,
+                                                      size: 18,
                                                     ),
                                                   ),
                                                   const SizedBox(
-                                                      width: AppSizes.spacingMd),
+                                                      width: AppSizes.spacingSm),
                                                   Text(
                                                     AppStrings.explanation,
                                                     style: AppTextStyles.titleMedium
                                                         .copyWith(
                                                       color: AppColors.info,
                                                       fontWeight: FontWeight.bold,
+                                                      fontSize: 15,
                                                     ),
                                                   ),
                                                 ],
                                               ),
                                               const SizedBox(
-                                                  height: AppSizes.spacingMd),
+                                                  height: AppSizes.spacingSm),
                                               Container(
                                                 padding: const EdgeInsets.all(
-                                                    AppSizes.paddingMd),
+                                                    AppSizes.paddingSm),
                                                 decoration: BoxDecoration(
                                                   color:
                                                       Colors.white.withOpacity(0.7),
@@ -286,7 +287,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                                   style: AppTextStyles
                                                       .explanationText
                                                       .copyWith(
-                                                    height: 1.5,
+                                                    height: 1.4,
                                                   ),
                                                 ),
                                               ),

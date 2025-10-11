@@ -1,13 +1,13 @@
 class AppStrings {
-  static const String appName = 'MedQuizz PASS';
-  static const String appTagline = 'Quiz médical pour étudiants PASS';
+  static const String appName = 'HippoQuiz';
+  static const String appTagline = 'Quiz médical pour étudiants';
   static const String yearL1 = 'L1';
   static const String yearL2 = 'L2';
   static const String yearL3 = 'L3';
   static const String difficultyEasy = 'Facile';
   static const String difficultyMedium = 'Moyen';
   static const String difficultyHard = 'Difficile';
-  static const String onboardingTitle1 = 'Bienvenue sur MedQuizz PASS';
+  static const String onboardingTitle1 = 'Bienvenue sur HippoQuiz';
   static const String onboardingDesc1 =
       'Préparez vos examens de médecine avec des quiz adaptés à votre niveau';
   static const String onboardingTitle2 = 'Testez vos connaissances';
@@ -75,7 +75,8 @@ class AppStrings {
   static const String correctAnswers = 'Réponses correctes';
   static const String completedSessions = 'Quiz terminés';
   static const String noStats = 'Aucune statistique disponible';
-  static const String startQuizToSeeStats = 'Commencez un quiz pour voir vos statistiques';
+  static const String startQuizToSeeStats =
+      'Commencez un quiz pour voir vos statistiques';
   static const String settings = 'Paramètres';
   static const String profile = 'Profil';
   static const String editProfile = 'Modifier le profil';
@@ -109,9 +110,11 @@ class AppStrings {
   static const String quizStarted = 'Quiz commencé !';
   static const String quizCompleted = 'Quiz terminé !';
   static const String pleaseSelectAnswer = 'Veuillez sélectionner une réponse';
-  static const String allQuestionsAnswered = 'Toutes les questions ont été répondues';
+  static const String allQuestionsAnswered =
+      'Toutes les questions ont été répondues';
   static const String noQuestionsAvailable = 'Aucune question disponible';
-  static const String noCategoriesForYear = 'Aucune matière disponible pour cette année';
+  static const String noCategoriesForYear =
+      'Aucune matière disponible pour cette année';
   static const String noRecentSessions = 'Aucune session récente';
   static const String today = 'Aujourd\'hui';
   static const String yesterday = 'Hier';

@@ -109,7 +109,7 @@
     {
       "question_text": "Quel ion métallique est au centre de l'hémoglobine ?",
       "difficulty": "Moyen",
-      "explanation": "L'atome de fer (Fe²⁺) est au centre du groupement hème, permettant la fixation de l'oxygène.",
+      "explanation": "L'atome de fer (Fe²+) est au centre du groupement hème, permettant la fixation de l'oxygène.",
       "answers": [
         { "text": "Magnésium", "is_correct": false },
         { "text": "Fer", "is_correct": true },
@@ -173,9 +173,9 @@
       ]
     },
     {
-      "question_text": "Quelle vitamine est essentielle à la synthèse du coenzyme NAD⁺ ?",
+      "question_text": "Quelle vitamine est essentielle à la synthèse du coenzyme NAD+ ?",
       "difficulty": "Difficile",
-      "explanation": "La niacine (vitamine B3) est le précurseur du NAD⁺, un cofacteur clé dans les réactions d'oxydoréduction.",
+      "explanation": "La niacine (vitamine B3) est le précurseur du NAD+, un cofacteur clé dans les réactions d'oxydoréduction.",
       "answers": [
         { "text": "Vitamine B1", "is_correct": false },
         { "text": "Vitamine B3", "is_correct": true },
@@ -385,11 +385,11 @@
       ]
     },
     {
-      "question_text": "Quelle est la forme réduite du NAD⁺ ?",
+      "question_text": "Quelle est la forme réduite du NAD+ ?",
       "difficulty": "Facile",
-      "explanation": "Lorsque le NAD⁺ accepte des électrons, il devient NADH, sa forme réduite.",
+      "explanation": "Lorsque le NAD+ accepte des électrons, il devient NADH, sa forme réduite.",
       "answers": [
-        { "text": "NADP⁺", "is_correct": false },
+        { "text": "NADP+", "is_correct": false },
         { "text": "NADH", "is_correct": true },
         { "text": "ATP", "is_correct": false },
         { "text": "FAD", "is_correct": false }
@@ -911,10 +911,10 @@
       "difficulty": "Difficile",
       "explanation": "La riboflavine est le précurseur du FAD (flavine adénine dinucléotide).",
       "answers": [
-        { "text": "NAD⁺", "is_correct": false },
+        { "text": "NAD+", "is_correct": false },
         { "text": "FAD", "is_correct": true },
         { "text": "CoA", "is_correct": false },
-        { "text": "NADP⁺", "is_correct": false }
+        { "text": "NADP+", "is_correct": false }
       ]
     },
     {
@@ -989,10 +989,10 @@
     {
       "question_text": "Quel est le rôle du NADH dans la fermentation lactique ?",
       "difficulty": "Difficile",
-      "explanation": "Le NADH est réoxydé en NAD⁺ en réduisant le pyruvate en lactate, permettant à la glycolyse de continuer en absence d'oxygène.",
+      "explanation": "Le NADH est réoxydé en NAD+ en réduisant le pyruvate en lactate, permettant à la glycolyse de continuer en absence d'oxygène.",
       "answers": [
         { "text": "Oxydation du lactate", "is_correct": false },
-        { "text": "Régénération du NAD⁺", "is_correct": true },
+        { "text": "Régénération du NAD+", "is_correct": true },
         { "text": "Production d'ATP directe", "is_correct": false },
         { "text": "Fixation du CO₂", "is_correct": false }
       ]
@@ -1027,7 +1027,7 @@
       "difficulty": "Difficile",
       "explanation": "Le complexe IV (cytochrome c oxydase) réduit l'oxygène moléculaire en eau en recevant des électrons du cytochrome c.",
       "answers": [
-        { "text": "Transférer les électrons au NAD⁺", "is_correct": false },
+        { "text": "Transférer les électrons au NAD+", "is_correct": false },
         { "text": "Réduire l'oxygène en eau", "is_correct": true },
         { "text": "Produire du CO₂", "is_correct": false },
         { "text": "Dégrader le glucose", "is_correct": false }
@@ -1058,12 +1058,12 @@
     {
       "question_text": "Quel ion métallique est souvent présent dans les sites actifs enzymatiques ?",
       "difficulty": "Moyen",
-      "explanation": "Les ions comme le Mg²⁺, Zn²⁺ ou Fe²⁺ participent à la catalyse enzymatique.",
+      "explanation": "Les ions comme le Mg²+, Zn²+ ou Fe²+ participent à la catalyse enzymatique.",
       "answers": [
-        { "text": "Na⁺", "is_correct": false },
-        { "text": "Mg²⁺", "is_correct": true },
+        { "text": "Na+", "is_correct": false },
+        { "text": "Mg²+", "is_correct": true },
         { "text": "Cl⁻", "is_correct": false },
-        { "text": "K⁺", "is_correct": false }
+        { "text": "K+", "is_correct": false }
       ]
     },
     {
@@ -1392,7 +1392,7 @@
     {
       "question_text": "Quelle molécule transporte l'oxygène dans le sang ?",
       "difficulty": "Facile",
-      "explanation": "L'hémoglobine transporte l'oxygène grâce à son fer ferreux (Fe²⁺).",
+      "explanation": "L'hémoglobine transporte l'oxygène grâce à son fer ferreux (Fe²+).",
       "answers": [
         { "text": "Albumine", "is_correct": false },
         { "text": "Hémoglobine", "is_correct": true },
@@ -1403,7 +1403,7 @@
     {
       "question_text": "Quel ion métallique est essentiel à la fonction de l'hémoglobine ?",
       "difficulty": "Facile",
-      "explanation": "Le fer (Fe²⁺) se lie à l'oxygène dans le groupe hème.",
+      "explanation": "Le fer (Fe²+) se lie à l'oxygène dans le groupe hème.",
       "answers": [
         { "text": "Cuivre", "is_correct": false },
         { "text": "Fer", "is_correct": true },
@@ -1506,9 +1506,9 @@
       ]
     },
     {
-      "question_text": "Quelle est la fonction principale du NAD⁺ ?",
+      "question_text": "Quelle est la fonction principale du NAD+ ?",
       "difficulty": "Facile",
-      "explanation": "Le NAD⁺ agit comme coenzyme oxydant, acceptant des électrons dans les réactions métaboliques.",
+      "explanation": "Le NAD+ agit comme coenzyme oxydant, acceptant des électrons dans les réactions métaboliques.",
       "answers": [
         { "text": "Fournir des électrons", "is_correct": false },
         { "text": "Accepter des électrons", "is_correct": true },
@@ -1552,7 +1552,7 @@
     {
       "question_text": "Quel est le rôle de la lactate déshydrogénase ?",
       "difficulty": "Moyen",
-      "explanation": "Elle convertit le pyruvate en lactate en absence d'oxygène, régénérant le NAD⁺.",
+      "explanation": "Elle convertit le pyruvate en lactate en absence d'oxygène, régénérant le NAD+.",
       "answers": [
         { "text": "Convertir le glucose en pyruvate", "is_correct": false },
         { "text": "Convertir le pyruvate en lactate", "is_correct": true },
@@ -1622,9 +1622,9 @@
       ]
     },
     {
-      "question_text": "Quel est le rôle du NAD⁺ dans la glycolyse ?",
+      "question_text": "Quel est le rôle du NAD+ dans la glycolyse ?",
       "difficulty": "Moyen",
-      "explanation": "Le NAD⁺ accepte des électrons lors de l'oxydation du glycéraldéhyde-3-phosphate.",
+      "explanation": "Le NAD+ accepte des électrons lors de l'oxydation du glycéraldéhyde-3-phosphate.",
       "answers": [
         { "text": "Fournir des électrons", "is_correct": false },
         { "text": "Accepter des électrons", "is_correct": true },
@@ -1974,7 +1974,7 @@
     {
       "question_text": "Quel élément chimique est central dans l'hème de l'hémoglobine ?",
       "difficulty": "Facile",
-      "explanation": "Le fer (Fe²⁺) permet la fixation réversible de l'oxygène dans l'hémoglobine.",
+      "explanation": "Le fer (Fe²+) permet la fixation réversible de l'oxygène dans l'hémoglobine.",
       "answers": [
         { "text": "Cuivre", "is_correct": false },
         { "text": "Fer", "is_correct": true },
@@ -2049,9 +2049,9 @@
       ]
     },
     {
-      "question_text": "Quel est le rôle de la coenzyme NAD⁺ ?",
+      "question_text": "Quel est le rôle de la coenzyme NAD+ ?",
       "difficulty": "Moyen",
-      "explanation": "Le NAD⁺ agit comme accepteur d'électrons dans de nombreuses réactions d'oxydoréduction.",
+      "explanation": "Le NAD+ agit comme accepteur d'électrons dans de nombreuses réactions d'oxydoréduction.",
       "answers": [
         { "text": "Transport de CO₂", "is_correct": false },
         { "text": "Accepteur d'électrons", "is_correct": true },
@@ -2117,12 +2117,12 @@
     {
       "question_text": "Quel ion est essentiel à l'activation de nombreuses enzymes ?",
       "difficulty": "Moyen",
-      "explanation": "Le magnésium (Mg²⁺) stabilise souvent les structures et participe à l'activité enzymatique.",
+      "explanation": "Le magnésium (Mg²+) stabilise souvent les structures et participe à l'activité enzymatique.",
       "answers": [
-        { "text": "Na⁺", "is_correct": false },
-        { "text": "Mg²⁺", "is_correct": true },
+        { "text": "Na+", "is_correct": false },
+        { "text": "Mg²+", "is_correct": true },
         { "text": "Cl⁻", "is_correct": false },
-        { "text": "Fe³⁺", "is_correct": false }
+        { "text": "Fe³+", "is_correct": false }
       ]
     },
     {

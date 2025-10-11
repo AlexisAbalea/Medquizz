@@ -252,7 +252,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               SizedBox(height: 8),
               Text(
                   'HippoQuiz est une application éducative destinée aux étudiants en médecine '
-                  '(PASS L1 à L3) pour s\'entraîner aux QCM. Elle est fournie gratuitement '
+                  '(L1 à L3) pour s\'entraîner aux QCM. Elle est fournie gratuitement '
                   'à des fins pédagogiques.'),
               SizedBox(height: 16),
               Text(

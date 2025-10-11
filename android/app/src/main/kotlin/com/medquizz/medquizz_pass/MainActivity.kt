@@ -1,4 +1,4 @@
-package com.medquizz.medquizz_pass
+package com.hippoquiz.hippoquiz_app
 
 import io.flutter.embedding.android.FlutterActivity
 

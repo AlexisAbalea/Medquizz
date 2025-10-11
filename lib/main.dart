@@ -129,7 +129,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              'Quiz médical pour étudiants PASS',
+              'Quiz médical pour étudiants',
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                     color: Colors.grey,
                   ),

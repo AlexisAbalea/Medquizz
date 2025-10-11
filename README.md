@@ -1,6 +1,6 @@
 # HippoQuiz
 
-Quiz pour les etudiants en PASS
+Quiz pour les etudiants en médecine
 
 ## Getting Started
 
