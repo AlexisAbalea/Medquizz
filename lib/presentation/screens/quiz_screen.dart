@@ -282,12 +282,31 @@ class _QuizScreenState extends State<QuizScreen> {
                                                       BorderRadius.circular(
                                                           AppSizes.radiusMd),
                                                 ),
-                                                child: Text(
-                                                  question.explanation,
-                                                  style: AppTextStyles
-                                                      .explanationText
-                                                      .copyWith(
-                                                    height: 1.4,
+                                                child: RichText(
+                                                  text: TextSpan(
+                                                    style: AppTextStyles
+                                                        .explanationText
+                                                        .copyWith(
+                                                      height: 1.4,
+                                                    ),
+                                                    children: [
+                                                      TextSpan(
+                                                        text: answers
+                                                            .firstWhere(
+                                                                (a) => a.isCorrect)
+                                                            .answerText,
+                                                        style: const TextStyle(
+                                                          color: AppColors.success,
+                                                          fontWeight: FontWeight.w600,
+                                                        ),
+                                                      ),
+                                                      const TextSpan(
+                                                        text: ' - ',
+                                                      ),
+                                                      TextSpan(
+                                                        text: question.explanation,
+                                                      ),
+                                                    ],
                                                   ),
                                                 ),
                                               ),
