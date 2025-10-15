@@ -21,10 +21,23 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
+  late Map<String, bool> _expandedSections;
+
   @override
   void initState() {
     super.initState();
+    _initializeExpandedSections();
     _loadData();
+  }
+
+  void _initializeExpandedSections() {
+    final student = context.read<StudentProvider>().currentStudent;
+    final studentYear = student?.yearLevel ?? 'L1';
+    _expandedSections = {
+      'L1': studentYear == 'L1',
+      'L2': studentYear == 'L2',
+      'L3': studentYear == 'L3',
+    };
   }
 
   Future<void> _loadData() async {
@@ -128,7 +141,22 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 
+  String _getYearFullName(String year) {
+    switch (year) {
+      case 'L1':
+        return AppStrings.yearL1Full;
+      case 'L2':
+        return AppStrings.yearL2Full;
+      case 'L3':
+        return AppStrings.yearL3Full;
+      default:
+        return year;
+    }
+  }
+
   Widget _buildHeader(String name, String year) {
+    final yearFullName = _getYearFullName(year);
+
     return Container(
       padding: const EdgeInsets.all(AppSizes.paddingLg),
       decoration: BoxDecoration(
@@ -176,7 +204,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     borderRadius: BorderRadius.circular(AppSizes.radiusSm),
                   ),
                   child: Text(
-                    year,
+                    yearFullName,
                     style: AppTextStyles.labelMedium.copyWith(
                       color: Colors.white,
                     ),
@@ -244,8 +272,32 @@ class _DashboardScreenState extends State<DashboardScreen> {
       );
     }
 
-    // Récupérer toutes les catégories triées par taux de réussite (meilleur au moins bon)
+    // Récupérer toutes les catégories avec leurs stats
     final allCategoriesStats = progressProvider.getTopCategories(limit: 100);
+
+    // Grouper par année et trier par taux de réussite dans chaque année
+    final Map<String, List<MapEntry<int, double>>> statsByYear = {
+      'L1': [],
+      'L2': [],
+      'L3': [],
+    };
+
+    for (var entry in allCategoriesStats) {
+      final categoryMatch =
+          categoryProvider.allCategories.where((c) => c.id == entry.key);
+      if (categoryMatch.isNotEmpty) {
+        final category = categoryMatch.first;
+        final year = category.yearLevel;
+        if (statsByYear.containsKey(year)) {
+          statsByYear[year]!.add(entry);
+        }
+      }
+    }
+
+    // Trier chaque année par taux de réussite (déjà trié normalement)
+    for (var year in statsByYear.keys) {
+      statsByYear[year]!.sort((a, b) => b.value.compareTo(a.value));
+    }
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -262,91 +314,182 @@ class _DashboardScreenState extends State<DashboardScreen> {
         ),
         const SizedBox(height: AppSizes.spacingMd),
 
-        // Afficher toutes les catégories classées par taux de réussite
-        ...allCategoriesStats.asMap().entries.map((mapEntry) {
-          final index = mapEntry.key;
-          final entry = mapEntry.value;
+        // Sections par année
+        _buildYearSection('L1', AppStrings.yearL1Full, statsByYear['L1']!, categoryProvider),
+        const SizedBox(height: AppSizes.spacingMd),
+        _buildYearSection('L2', AppStrings.yearL2Full, statsByYear['L2']!, categoryProvider),
+        const SizedBox(height: AppSizes.spacingMd),
+        _buildYearSection('L3', AppStrings.yearL3Full, statsByYear['L3']!, categoryProvider),
+      ],
+    );
+  }
 
-          // Chercher la catégorie correspondante
-          final categoryMatch =
-              categoryProvider.allCategories.where((c) => c.id == entry.key);
+  Widget _buildYearSection(
+    String yearKey,
+    String yearLabel,
+    List<MapEntry<int, double>> categoryStats,
+    CategoryProvider categoryProvider,
+  ) {
+    // Si aucune stat pour cette année, ne pas afficher la section
+    if (categoryStats.isEmpty) {
+      return const SizedBox.shrink();
+    }
 
-          // Si la catégorie n'existe pas, on ignore cette entrée
-          if (categoryMatch.isEmpty) {
-            return const SizedBox.shrink();
-          }
+    final isExpanded = _expandedSections[yearKey] ?? false;
+    final yearColor = AppColors.getYearColor(yearKey);
 
-          final category = categoryMatch.first;
-          final color = AppColors.getCategoryColor(category.name);
-          final percentage = entry.value;
+    return Card(
+      elevation: 2,
+      child: Column(
+        children: [
+          InkWell(
+            onTap: () {
+              setState(() {
+                _expandedSections[yearKey] = !isExpanded;
+              });
+            },
+            child: Padding(
+              padding: const EdgeInsets.all(AppSizes.paddingMd),
+              child: Row(
+                children: [
+                  Container(
+                    width: 4,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: yearColor,
+                      borderRadius: BorderRadius.circular(AppSizes.radiusSm),
+                    ),
+                  ),
+                  const SizedBox(width: AppSizes.spacingMd),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          yearLabel,
+                          style: AppTextStyles.titleLarge.copyWith(
+                            color: yearColor,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const SizedBox(height: AppSizes.spacingXs),
+                        Text(
+                          '${categoryStats.length} ${categoryStats.length > 1 ? 'matières' : 'matière'}',
+                          style: AppTextStyles.bodySmall.copyWith(
+                            color: AppColors.textSecondary,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(AppSizes.paddingXs),
+                    decoration: BoxDecoration(
+                      color: yearColor.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(AppSizes.radiusSm),
+                    ),
+                    child: Icon(
+                      isExpanded
+                          ? Icons.keyboard_arrow_up
+                          : Icons.keyboard_arrow_down,
+                      color: yearColor,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          if (isExpanded)
+            Column(
+              children: categoryStats.asMap().entries.map((mapEntry) {
+                final index = mapEntry.key;
+                final entry = mapEntry.value;
 
-          // Déterminer la couleur du badge selon le pourcentage
-          Color badgeColor;
-          if (percentage >= 80) {
-            badgeColor = AppColors.success;
-          } else if (percentage >= 60) {
-            badgeColor = AppColors.info;
-          } else if (percentage >= 40) {
-            badgeColor = AppColors.warning;
-          } else {
-            badgeColor = AppColors.error;
-          }
+                final categoryMatch = categoryProvider.allCategories
+                    .where((c) => c.id == entry.key);
 
-          return Padding(
-            padding: const EdgeInsets.only(bottom: AppSizes.spacingSm),
-            child: Card(
-              child: ListTile(
-                leading: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    // Numéro de classement
-                    Container(
-                      width: 24,
-                      height: 24,
-                      alignment: Alignment.center,
+                if (categoryMatch.isEmpty) {
+                  return const SizedBox.shrink();
+                }
+
+                final category = categoryMatch.first;
+                final color = AppColors.getCategoryColor(category.name);
+                final percentage = entry.value;
+
+                // Déterminer la couleur du badge selon le pourcentage
+                Color badgeColor;
+                if (percentage >= 80) {
+                  badgeColor = AppColors.success;
+                } else if (percentage >= 60) {
+                  badgeColor = AppColors.info;
+                } else if (percentage >= 40) {
+                  badgeColor = AppColors.warning;
+                } else {
+                  badgeColor = AppColors.error;
+                }
+
+                return Container(
+                  decoration: const BoxDecoration(
+                    border: Border(
+                      top: BorderSide(
+                        color: AppColors.surfaceVariant,
+                        width: 1,
+                      ),
+                    ),
+                  ),
+                  child: ListTile(
+                    leading: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        // Numéro de classement dans l'année
+                        Container(
+                          width: 24,
+                          height: 24,
+                          alignment: Alignment.center,
+                          child: Text(
+                            '${index + 1}',
+                            style: AppTextStyles.titleSmall.copyWith(
+                              fontWeight: FontWeight.bold,
+                              color: AppColors.textSecondary,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: AppSizes.spacingSm),
+                        // Icône de la catégorie
+                        CircleAvatar(
+                          backgroundColor: color.withOpacity(0.1),
+                          radius: 18,
+                          child: Icon(Icons.book, color: color, size: 18),
+                        ),
+                      ],
+                    ),
+                    title: Text(
+                      category.name,
+                      style: AppTextStyles.titleMedium,
+                    ),
+                    trailing: Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: AppSizes.paddingSm,
+                        vertical: AppSizes.paddingXs,
+                      ),
+                      decoration: BoxDecoration(
+                        color: badgeColor.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(AppSizes.radiusSm),
+                      ),
                       child: Text(
-                        '${index + 1}',
-                        style: AppTextStyles.titleSmall.copyWith(
+                        '${percentage.toStringAsFixed(0)}%',
+                        style: AppTextStyles.titleMedium.copyWith(
+                          color: badgeColor,
                           fontWeight: FontWeight.bold,
-                          color: AppColors.textSecondary,
                         ),
                       ),
                     ),
-                    const SizedBox(width: AppSizes.spacingSm),
-                    // Icône de la catégorie
-                    CircleAvatar(
-                      backgroundColor: color.withOpacity(0.1),
-                      radius: 18,
-                      child: Icon(Icons.book, color: color, size: 18),
-                    ),
-                  ],
-                ),
-                title: Text(
-                  category.name,
-                  style: AppTextStyles.titleMedium,
-                ),
-                trailing: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: AppSizes.paddingSm,
-                    vertical: AppSizes.paddingXs,
                   ),
-                  decoration: BoxDecoration(
-                    color: badgeColor.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(AppSizes.radiusSm),
-                  ),
-                  child: Text(
-                    '${percentage.toStringAsFixed(0)}%',
-                    style: AppTextStyles.titleMedium.copyWith(
-                      color: badgeColor,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
+                );
+              }).toList(),
             ),
-          );
-        }),
-      ],
+        ],
+      ),
     );
   }
 }

@@ -1,5 +1,6 @@
 {
   "category": "Radiologie",
+  "year_level": "L3",
   "questions": [
     {
       "question_text": "Quel examen radiologique permet de visualiser les tissus mous ?",

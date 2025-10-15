@@ -1,5 +1,6 @@
 {
   "category": "Microbiologie",
+  "year_level": "L2",
   "questions": [
     {
       "question_text": "Quelle est la principale différence entre bactéries Gram+ et Gram- ?",
@@ -1979,24 +1980,24 @@
       ]
     },
     {
-      "question_text": "Quel est le principal agent causal de la rougeole ?",
+      "question_text": "À quelle famille de virus appartient l'agent responsable de la rougeole ?",
       "difficulty": "Facile",
-      "explanation": "Le virus de la rougeole est un paramyxovirus responsable de cette maladie très contagieuse.",
+      "explanation": "L'agent de la rougeole est un paramyxovirus à ARN monocaténaire négatif, de la famille des Paramyxoviridae, responsable de cette maladie hautement contagieuse.",
       "answers": [
         {
-          "text": "Virus de la rubéole",
+          "text": "Herpesviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la rougeole",
+          "text": "Paramyxoviridae",
           "is_correct": true
         },
         {
-          "text": "Virus des oreillons",
+          "text": "Orthomyxoviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la varicelle",
+          "text": "Picornaviridae",
           "is_correct": false
         }
       ]
@@ -2117,24 +2118,24 @@
       ]
     },
     {
-      "question_text": "Quel est le principal agent causal de la rubéole ?",
+      "question_text": "À quelle famille de virus appartient l'agent responsable de la rubéole ?",
       "difficulty": "Facile",
-      "explanation": "Le virus de la rubéole est un togavirus responsable de cette maladie exanthématique.",
+      "explanation": "L'agent de la rubéole est un togavirus à ARN monocaténaire positif, de la famille des Togaviridae, responsable de cette maladie exanthématique particulièrement dangereuse chez la femme enceinte.",
       "answers": [
         {
-          "text": "Virus de la rougeole",
+          "text": "Paramyxoviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la rubéole",
+          "text": "Togaviridae",
           "is_correct": true
         },
         {
-          "text": "Virus des oreillons",
+          "text": "Herpesviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la varicelle",
+          "text": "Picornaviridae",
           "is_correct": false
         }
       ]
@@ -2531,24 +2532,24 @@
       ]
     },
     {
-      "question_text": "Quel est le principal agent causal de la rage ?",
+      "question_text": "À quelle famille de virus appartient l'agent responsable de la rage ?",
       "difficulty": "Facile",
-      "explanation": "Le virus de la rage est un rhabdovirus responsable de cette encéphalite mortelle.",
+      "explanation": "L'agent de la rage est un rhabdovirus à ARN monocaténaire négatif, de la famille des Rhabdoviridae, responsable d'une encéphalite mortelle transmise principalement par morsure d'animaux infectés.",
       "answers": [
         {
-          "text": "Virus de la grippe",
+          "text": "Orthomyxoviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la rage",
+          "text": "Rhabdoviridae",
           "is_correct": true
         },
         {
-          "text": "Virus de la rougeole",
+          "text": "Paramyxoviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la varicelle",
+          "text": "Herpesviridae",
           "is_correct": false
         }
       ]
@@ -2669,24 +2670,24 @@
       ]
     },
     {
-      "question_text": "Quel est le principal agent causal de la poliomyélite ?",
+      "question_text": "À quelle famille de virus appartient l'agent responsable de la fièvre aphteuse ?",
       "difficulty": "Facile",
-      "explanation": "Le poliovirus est un entérovirus responsable de la poliomyélite, une maladie neurologique grave.",
+      "explanation": "L'agent de la fièvre aphteuse est un picornavirus à ARN monocaténaire positif, de la famille des Picornaviridae. Cette maladie hautement contagieuse touche les animaux à onglons (bovins, porcins, ovins, caprins) et provoque des vésicules dans la bouche et sur les pieds, d'où son nom.",
       "answers": [
         {
-          "text": "Virus de la grippe",
+          "text": "Paramyxoviridae",
           "is_correct": false
         },
         {
-          "text": "Poliovirus",
+          "text": "Picornaviridae",
           "is_correct": true
         },
         {
-          "text": "Virus de la rougeole",
+          "text": "Flaviviridae",
           "is_correct": false
         },
         {
-          "text": "Virus de la varicelle",
+          "text": "Reoviridae",
           "is_correct": false
         }
       ]
@@ -4187,29 +4188,6 @@
       ]
     },
     {
-      "question_text": "Quel est le principal agent causal de la fièvre aphteuse ?",
-      "difficulty": "Facile",
-      "explanation": "Le virus de la fièvre aphteuse est un picornavirus responsable de cette maladie très contagieuse chez les bovins et les porcs.",
-      "answers": [
-        {
-          "text": "Virus de la peste bovine",
-          "is_correct": false
-        },
-        {
-          "text": "Virus de la fièvre aphteuse",
-          "is_correct": true
-        },
-        {
-          "text": "Virus de la diarrhée virale bovine",
-          "is_correct": false
-        },
-        {
-          "text": "Virus de la maladie de Newcastle",
-          "is_correct": false
-        }
-      ]
-    },
-    {
       "question_text": "Quel est le rôle des anticorps dans la réponse immunitaire contre les bactéries osmophiles ?",
       "difficulty": "Moyen",
       "explanation": "Les anticorps facilitent la phagocytose des bactéries osmophiles, bien que leur destruction dépende souvent de la réponse immunitaire cellulaire.",
@@ -4739,24 +4717,24 @@
       ]
     },
     {
-      "question_text": "Quel est le principal agent causal de la maladie de Gumboro ?",
-      "difficulty": "Facile",
-      "explanation": "Le virus de la maladie de Gumboro est un birnavirus responsable de cette maladie aviaire.",
+      "question_text": "Un élevage de poulets présente une mortalité importante chez les jeunes de 3-6 semaines. L'autopsie révèle une bourse de Fabricius œdémateuse et hémorragique, associée à une immunodépression sévère. Quel agent infectieux est le plus probablement en cause ?",
+      "difficulty": "Moyen",
+      "explanation": "La maladie de Gumboro (bursite infectieuse) est causée par un birnavirus à ARN double brin (famille Birnaviridae). Elle affecte spécifiquement la bourse de Fabricius chez les jeunes poulets (3-6 semaines), organe lymphoïde essentiel à la maturation des lymphocytes B. La destruction de cet organe entraîne une immunodépression sévère rendant les oiseaux sensibles aux infections secondaires. Le diagnostic repose sur les lésions caractéristiques de la bourse et la détection du virus.",
       "answers": [
         {
-          "text": "Virus de la grippe aviaire",
+          "text": "Virus influenza A (grippe aviaire)",
           "is_correct": false
         },
         {
-          "text": "Virus de la maladie de Gumboro",
+          "text": "Birnavirus (maladie de Gumboro)",
           "is_correct": true
         },
         {
-          "text": "Virus de la bronchite infectieuse",
+          "text": "Coronavirus aviaire (bronchite infectieuse)",
           "is_correct": false
         },
         {
-          "text": "Virus de la laryngotrachéite infectieuse",
+          "text": "Herpèsvirus gallidé 1 (maladie de Marek)",
           "is_correct": false
         }
       ]

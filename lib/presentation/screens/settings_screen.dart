@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hippoquiz/core/constants/app_colors.dart';
 import 'package:hippoquiz/core/constants/app_sizes.dart';
+import 'package:hippoquiz/core/constants/app_strings.dart';
 import 'package:hippoquiz/core/constants/app_text_styles.dart';
 import 'package:hippoquiz/core/widgets/custom_button.dart';
 import 'package:hippoquiz/core/widgets/custom_card.dart';
@@ -682,18 +683,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 const SizedBox(width: AppSizes.spacingMd),
                 Text(
-                  year,
+                  _getYearFullName(year),
                   style: AppTextStyles.titleMedium.copyWith(
                     color: isSelected ? color : AppColors.textPrimary,
                     fontWeight:
                         isSelected ? FontWeight.bold : FontWeight.normal,
-                  ),
-                ),
-                const SizedBox(width: AppSizes.spacingSm),
-                Text(
-                  _getYearDescription(year),
-                  style: AppTextStyles.bodyMedium.copyWith(
-                    color: AppColors.textSecondary,
                   ),
                 ),
               ],
@@ -704,16 +698,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
     }).toList();
   }
 
-  String _getYearDescription(String year) {
+  String _getYearFullName(String year) {
     switch (year) {
       case 'L1':
-        return '(Première année)';
+        return AppStrings.yearL1Full;
       case 'L2':
-        return '(Deuxième année)';
+        return AppStrings.yearL2Full;
       case 'L3':
-        return '(Troisième année)';
+        return AppStrings.yearL3Full;
       default:
-        return '';
+        return year;
     }
   }
 }

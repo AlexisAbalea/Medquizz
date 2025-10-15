@@ -159,6 +159,19 @@ class _YearSelector extends StatelessWidget {
     required this.onYearSelected,
   });
 
+  String _getYearFullName(String year) {
+    switch (year) {
+      case 'L1':
+        return AppStrings.yearL1Full;
+      case 'L2':
+        return AppStrings.yearL2Full;
+      case 'L3':
+        return AppStrings.yearL3Full;
+      default:
+        return year;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final years = [
@@ -171,6 +184,7 @@ class _YearSelector extends StatelessWidget {
       children: years.map((year) {
         final isSelected = selectedYear == year;
         final color = AppColors.getYearColor(year);
+        final displayName = _getYearFullName(year);
 
         return Expanded(
           child: Padding(
@@ -199,11 +213,12 @@ class _YearSelector extends StatelessWidget {
                     ),
                     const SizedBox(height: AppSizes.spacingSm),
                     Text(
-                      year,
+                      displayName,
                       style: AppTextStyles.titleLarge.copyWith(
                         color: isSelected ? Colors.white : color,
                         fontWeight: FontWeight.bold,
                       ),
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),

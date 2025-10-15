@@ -4,7 +4,11 @@
       "Bash(flutter create:*)",
       "Bash(flutter analyze:*)",
       "Bash(flutter clean:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(flutter build:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

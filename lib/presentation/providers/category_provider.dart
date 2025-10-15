@@ -22,6 +22,23 @@ class CategoryProvider with ChangeNotifier {
 
   int getQuestionCount(int categoryId) => _questionCounts[categoryId] ?? 0;
 
+  /// Récupère les catégories groupées par année
+  Map<String, List<CategoryModel>> getCategoriesGroupedByYear() {
+    final Map<String, List<CategoryModel>> grouped = {
+      'L1': [],
+      'L2': [],
+      'L3': [],
+    };
+
+    for (var category in _categories) {
+      if (grouped.containsKey(category.yearLevel)) {
+        grouped[category.yearLevel]!.add(category);
+      }
+    }
+
+    return grouped;
+  }
+
   Future<void> loadAllCategories() async {
     _isLoading = true;
     _error = null;

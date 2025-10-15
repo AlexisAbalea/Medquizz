@@ -1,0 +1,3007 @@
+{
+  "category": "Biophysique",
+  "year_level": "L1",
+  "questions": [
+    {
+      "question_text": "Quelle est l'unité de mesure de la dose absorbée en radiologie ?",
+      "difficulty": "Facile",
+      "explanation": "Le gray (Gy) est l'unité SI de dose absorbée. 1 Gy = 1 joule/kilogramme. Il mesure l'énergie déposée par les rayonnements ionisants dans la matière.",
+      "answers": [
+        { "text": "Le becquerel (Bq)", "is_correct": false },
+        { "text": "Le gray (Gy)", "is_correct": true },
+        { "text": "Le sievert (Sv)", "is_correct": false },
+        { "text": "Le curie (Ci)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de rayonnement a le pouvoir de pénétration le plus élevé ?",
+      "difficulty": "Facile",
+      "explanation": "Les rayons gamma (y) sont des rayonnements électromagnétiques très énergétiques avec un pouvoir de pénétration élevé. Ils nécessitent du plomb ou du béton épais pour être arrêtés, contrairement aux particules alpha et bêta.",
+      "answers": [
+        { "text": "Rayonnement alpha (a)", "is_correct": false },
+        { "text": "Rayonnement bêta (β)", "is_correct": false },
+        { "text": "Rayonnement gamma (y)", "is_correct": true },
+        { "text": "Rayonnement X", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle loi décrit l'atténuation d'un faisceau de rayons X traversant la matière ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Beer-Lambert décrit l'atténuation exponentielle de l'intensité d'un faisceau de rayonnement en fonction de l'épaisseur et de la nature du matériau traversé : I = I₀ x e^(-μx).",
+      "answers": [
+        { "text": "Loi d'Ohm", "is_correct": false },
+        { "text": "Loi de Beer-Lambert", "is_correct": true },
+        { "text": "Loi de Poiseuille", "is_correct": false },
+        { "text": "Loi de Fick", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la demi-vie d'un isotope radioactif ?",
+      "difficulty": "Facile",
+      "explanation": "La demi-vie (T½) est le temps nécessaire pour que la moitié des noyaux radioactifs d'un échantillon se désintègrent. C'est une constante caractéristique de chaque isotope radioactif.",
+      "answers": [
+        {
+          "text": "Le temps pour que tous les noyaux se désintègrent",
+          "is_correct": false
+        },
+        {
+          "text": "Le temps pour que la moitié des noyaux se désintègrent",
+          "is_correct": true
+        },
+        {
+          "text": "Le temps pour que 75% des noyaux se désintègrent",
+          "is_correct": false
+        },
+        {
+          "text": "Le temps pour qu'un noyau se désintègre",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Dans le système optique de l'œil, quel élément contribue le plus à la convergence des rayons lumineux ?",
+      "difficulty": "Moyen",
+      "explanation": "La cornée assure environ 2/3 du pouvoir de réfraction total de l'œil (environ 43 dioptries sur 60). Le cristallin, bien qu'important pour l'accommodation, ne contribue qu'à environ 1/3.",
+      "answers": [
+        { "text": "Le cristallin", "is_correct": false },
+        { "text": "La cornée", "is_correct": true },
+        { "text": "L'humeur vitrée", "is_correct": false },
+        { "text": "La rétine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité du potentiel électrique ?",
+      "difficulty": "Facile",
+      "explanation": "Le volt (V) est l'unité SI du potentiel électrique. Il représente la différence de potentiel électrique entre deux points. 1 V = 1 joule/coulomb.",
+      "answers": [
+        { "text": "L'ampère (A)", "is_correct": false },
+        { "text": "Le volt (V)", "is_correct": true },
+        { "text": "L'ohm (Ω)", "is_correct": false },
+        { "text": "Le watt (W)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel phénomène permet aux ultrasons d'être utilisés en imagerie médicale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'échographie utilise la réflexion (écho) des ultrasons aux interfaces entre tissus de propriétés acoustiques différentes. Les échos sont captés et analysés pour former une image.",
+      "answers": [
+        { "text": "L'absorption", "is_correct": false },
+        { "text": "La réflexion (écho)", "is_correct": true },
+        { "text": "La diffraction", "is_correct": false },
+        { "text": "La polarisation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la vitesse de propagation des ultrasons dans les tissus mous ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ultrasons se propagent à environ 1540 m/s dans les tissus mous (valeur moyenne utilisée en échographie). Cette vitesse varie légèrement selon les tissus.",
+      "answers": [
+        { "text": "340 m/s", "is_correct": false },
+        { "text": "1540 m/s", "is_correct": true },
+        { "text": "3000 m/s", "is_correct": false },
+        { "text": "300 000 km/s", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'osmolarité d'une solution ?",
+      "difficulty": "Moyen",
+      "explanation": "L'osmolarité exprime la concentration totale en particules osmotiquement actives (osmoles) par litre de solution. Elle détermine la pression osmotique et les échanges d'eau.",
+      "answers": [
+        {
+          "text": "La concentration en soluté par litre de solution",
+          "is_correct": false
+        },
+        {
+          "text": "La concentration en particules osmotiques par litre de solution",
+          "is_correct": true
+        },
+        { "text": "Le pH de la solution", "is_correct": false },
+        { "text": "La pression hydrostatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence des ultrasons utilisés en échographie médicale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ultrasons médicaux utilisent des fréquences entre 2 et 20 MHz (au-dessus de 20 kHz, seuil de l'audition humaine). Les hautes fréquences donnent une meilleure résolution mais pénètrent moins profondément.",
+      "answers": [
+        { "text": "20 Hz - 20 kHz", "is_correct": false },
+        { "text": "2 - 20 MHz", "is_correct": true },
+        { "text": "50 - 60 Hz", "is_correct": false },
+        { "text": "1 - 5 GHz", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle loi décrit le débit d'un fluide dans un tube cylindrique en fonction de la différence de pression ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Poiseuille décrit l'écoulement laminaire d'un fluide visqueux dans un tube cylindrique : le débit est proportionnel à la puissance 4 du rayon et à la différence de pression, et inversement proportionnel à la viscosité et à la longueur.",
+      "answers": [
+        { "text": "Loi de Poiseuille", "is_correct": true },
+        { "text": "Loi de Fick", "is_correct": false },
+        { "text": "Loi de Bernoulli", "is_correct": false },
+        { "text": "Loi de Pascal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient de partition octanol/eau en pharmacologie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coefficient de partition octanol/eau (P ou log P) mesure la lipophilie d'une molécule. Il indique sa capacité à traverser les membranes biologiques. Un log P élevé indique une molécule lipophile.",
+      "answers": [
+        {
+          "text": "Le rapport entre la solubilité dans l'octanol et dans l'eau",
+          "is_correct": true
+        },
+        { "text": "Le pH auquel la molécule est neutre", "is_correct": false },
+        { "text": "La constante de dissociation acide", "is_correct": false },
+        { "text": "Le volume de distribution", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe de l'imagerie par résonance magnétique (IRM) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'IRM utilise la résonance magnétique nucléaire des protons (noyaux d'hydrogène) soumis à un champ magnétique intense. Les protons sont excités par des ondes radio et leur relaxation produit un signal exploité pour former l'image.",
+      "answers": [
+        { "text": "Les rayons X", "is_correct": false },
+        { "text": "La résonance magnétique des protons", "is_correct": true },
+        { "text": "Les ultrasons", "is_correct": false },
+        { "text": "La radioactivité gamma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de mesure de l'activité radioactive ?",
+      "difficulty": "Facile",
+      "explanation": "Le becquerel (Bq) est l'unité SI d'activité radioactive. 1 Bq = 1 désintégration par seconde. L'ancienne unité, le curie (Ci), vaut 3,7 x 10^10 Bq.",
+      "answers": [
+        { "text": "Le gray (Gy)", "is_correct": false },
+        { "text": "Le becquerel (Bq)", "is_correct": true },
+        { "text": "Le sievert (Sv)", "is_correct": false },
+        { "text": "Le roentgen (R)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'impédance acoustique d'un tissu ?",
+      "difficulty": "Difficile",
+      "explanation": "L'impédance acoustique (Z) est le produit de la masse volumique du tissu par la vitesse de propagation des ultrasons : Z = p x v. La différence d'impédance entre deux tissus détermine l'intensité de la réflexion des ultrasons à leur interface.",
+      "answers": [
+        {
+          "text": "La résistance à la propagation des ultrasons",
+          "is_correct": false
+        },
+        {
+          "text": "Le produit de la densité par la vitesse de propagation",
+          "is_correct": true
+        },
+        { "text": "La fréquence de résonance du tissu", "is_correct": false },
+        { "text": "L'absorption des ultrasons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la longueur d'onde de la lumière rouge visible ?",
+      "difficulty": "Moyen",
+      "explanation": "La lumière rouge visible a une longueur d'onde d'environ 700 nm (nanomètres). Le spectre visible s'étend de 400 nm (violet) à 800 nm (rouge).",
+      "answers": [
+        { "text": "400 nm", "is_correct": false },
+        { "text": "550 nm", "is_correct": false },
+        { "text": "700 nm", "is_correct": true },
+        { "text": "1000 nm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le pH du plasma sanguin normal ?",
+      "difficulty": "Facile",
+      "explanation": "Le pH du plasma sanguin normal est d'environ 7,40 (avec une plage étroite de 7,35-7,45). Ce pH est maintenu par les systèmes tampons, notamment le système bicarbonate/acide carbonique.",
+      "answers": [
+        { "text": "6,8", "is_correct": false },
+        { "text": "7,0", "is_correct": false },
+        { "text": "7,4", "is_correct": true },
+        { "text": "8,0", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'une solution isotonique par rapport au plasma sanguin ?",
+      "difficulty": "Moyen",
+      "explanation": "Une solution isotonique a la même osmolarité (environ 300 mOsm/L) que le plasma sanguin. Elle ne provoque pas de mouvement net d'eau à travers les membranes cellulaires. Le sérum physiologique (NaCl 0,9%) est isotonique.",
+      "answers": [
+        { "text": "Une solution qui a le même pH", "is_correct": false },
+        { "text": "Une solution qui a la même osmolarité", "is_correct": true },
+        {
+          "text": "Une solution qui a la même température",
+          "is_correct": false
+        },
+        { "text": "Une solution qui a la même viscosité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel effet Doppler est utilisé en échographie cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "L'effet Doppler permet de mesurer la vitesse et le sens du flux sanguin. La fréquence des ultrasons réfléchis par les globules rouges en mouvement change proportionnellement à leur vitesse.",
+      "answers": [
+        { "text": "L'effet photoélectrique", "is_correct": false },
+        { "text": "L'effet Doppler", "is_correct": true },
+        { "text": "L'effet Compton", "is_correct": false },
+        { "text": "L'effet Zeeman", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de mesure de la pression artérielle en médecine ?",
+      "difficulty": "Facile",
+      "explanation": "La pression artérielle est mesurée en millimètres de mercure (mmHg). 1 mmHg = 133,3 Pa. Une pression normale est d'environ 120/80 mmHg (systolique/diastolique).",
+      "answers": [
+        { "text": "Le pascal (Pa)", "is_correct": false },
+        { "text": "Le bar", "is_correct": false },
+        { "text": "Le millimètre de mercure (mmHg)", "is_correct": true },
+        { "text": "L'atmosphère (atm)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de lentille est utilisé pour corriger la myopie ?",
+      "difficulty": "Facile",
+      "explanation": "Les lentilles divergentes (concaves, à vergence négative) sont utilisées pour corriger la myopie. Elles diminuent la convergence excessive du système optique de l'œil myope.",
+      "answers": [
+        { "text": "Lentille convergente", "is_correct": false },
+        { "text": "Lentille divergente", "is_correct": true },
+        { "text": "Lentille cylindrique", "is_correct": false },
+        { "text": "Lentille bifocale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le pouvoir de résolution d'un microscope ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pouvoir de résolution (ou limite de résolution) est la distance minimale entre deux points qui peuvent être distingués comme séparés. Il dépend de la longueur d'onde et de l'ouverture numérique selon le critère de Rayleigh.",
+      "answers": [
+        { "text": "Le grossissement maximal", "is_correct": false },
+        {
+          "text": "La distance minimale entre deux points distinguables",
+          "is_correct": true
+        },
+        { "text": "La luminosité de l'image", "is_correct": false },
+        { "text": "Le champ de vision", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale interaction des rayons X avec la matière lors d'un examen radiographique standard ?",
+      "difficulty": "Difficile",
+      "explanation": "Dans la gamme d'énergie de la radiologie diagnostique (20-150 keV), l'effet Compton (diffusion) et l'effet photoélectrique sont les principales interactions. L'effet photoélectrique prédomine pour les énergies plus basses et donne le contraste de l'image.",
+      "answers": [
+        { "text": "La diffusion Rayleigh", "is_correct": false },
+        { "text": "L'effet photoélectrique", "is_correct": true },
+        { "text": "La création de paires", "is_correct": false },
+        { "text": "La fission nucléaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la diffusion passive à travers une membrane ?",
+      "difficulty": "Moyen",
+      "explanation": "La diffusion passive est le transport de molécules selon leur gradient de concentration, sans consommation d'énergie. La vitesse de diffusion est décrite par la loi de Fick et dépend de la surface, du coefficient de diffusion et du gradient de concentration.",
+      "answers": [
+        { "text": "Un transport nécessitant de l'ATP", "is_correct": false },
+        {
+          "text": "Un transport selon le gradient de concentration sans énergie",
+          "is_correct": true
+        },
+        {
+          "text": "Un transport contre le gradient de concentration",
+          "is_correct": false
+        },
+        { "text": "Un transport par vésicules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la température corporelle normale en degrés Celsius ?",
+      "difficulty": "Facile",
+      "explanation": "La température corporelle normale est d'environ 37°C (98,6°F ou 310 K). Elle varie légèrement selon l'heure de la journée et le site de mesure (rectale, buccale, axillaire).",
+      "answers": [
+        { "text": "35°C", "is_correct": false },
+        { "text": "37°C", "is_correct": true },
+        { "text": "39°C", "is_correct": false },
+        { "text": "40°C", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe du scanner (tomodensitométrie) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scanner utilise des rayons X qui traversent le corps selon différents angles. Un ordinateur reconstruit des images en coupes à partir des mesures d'atténuation. Cela permet une visualisation 3D des structures internes.",
+      "answers": [
+        { "text": "Les ultrasons", "is_correct": false },
+        {
+          "text": "Les rayons X avec reconstruction tomographique",
+          "is_correct": true
+        },
+        { "text": "La résonance magnétique", "is_correct": false },
+        { "text": "Les rayons gamma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la chaleur latente de vaporisation ?",
+      "difficulty": "Moyen",
+      "explanation": "La chaleur latente de vaporisation est l'énergie nécessaire pour transformer 1 kg de liquide en vapeur à température constante. Pour l'eau à 100°C, elle est de 2260 kJ/kg. C'est important pour la thermorégulation par sudation.",
+      "answers": [
+        { "text": "L'énergie pour chauffer un liquide", "is_correct": false },
+        {
+          "text": "L'énergie pour transformer un liquide en vapeur",
+          "is_correct": true
+        },
+        { "text": "L'énergie pour refroidir un gaz", "is_correct": false },
+        { "text": "L'énergie pour faire fondre un solide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de la constante diélectrique ?",
+      "difficulty": "Difficile",
+      "explanation": "La constante diélectrique (ou permittivité relative) est sans dimension. Elle représente le rapport entre la permittivité du milieu et celle du vide. Pour l'eau, εr ≈ 80.",
+      "answers": [
+        { "text": "Le farad (F)", "is_correct": false },
+        { "text": "Le volt par mètre (V/m)", "is_correct": false },
+        { "text": "Sans unité", "is_correct": true },
+        { "text": "Le coulomb (C)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce qu'un potentiel d'action en électrophysiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le potentiel d'action est une variation rapide et transitoire du potentiel de membrane d'une cellule excitable (neurone, muscle). Il se propage sans atténuation et correspond à l'entrée de Na+ puis à la sortie de K+.",
+      "answers": [
+        { "text": "Un voltage constant dans la cellule", "is_correct": false },
+        {
+          "text": "Une variation rapide du potentiel de membrane",
+          "is_correct": true
+        },
+        { "text": "La charge électrique d'un ion", "is_correct": false },
+        { "text": "Le pH intracellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la vitesse de la lumière dans le vide ?",
+      "difficulty": "Facile",
+      "explanation": "La vitesse de la lumière dans le vide est une constante fondamentale : c = 299 792 458 m/s (≈ 3 x 10^8 m/s). Elle est légèrement plus faible dans les milieux transparents.",
+      "answers": [
+        { "text": "3 x 10^6 m/s", "is_correct": false },
+        { "text": "3 x 10^8 m/s", "is_correct": true },
+        { "text": "3 x 10^10 m/s", "is_correct": false },
+        { "text": "3 x 10^12 m/s", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'équation de Nernst en électrochimie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'équation de Nernst permet de calculer le potentiel d'équilibre d'un ion de part et d'autre d'une membrane en fonction de son gradient de concentration : E = (RT/zF) x ln([ion]ext/[ion]int).",
+      "answers": [
+        {
+          "text": "L'équation de la vitesse de diffusion",
+          "is_correct": false
+        },
+        {
+          "text": "L'équation du potentiel d'équilibre d'un ion",
+          "is_correct": true
+        },
+        { "text": "L'équation de la pression osmotique", "is_correct": false },
+        { "text": "L'équation du pH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel paramètre caractérise l'intensité d'un son ?",
+      "difficulty": "Moyen",
+      "explanation": "L'intensité acoustique (I) mesure la puissance transportée par une onde sonore par unité de surface. Elle s'exprime en W/m². Le niveau sonore en décibels (dB) est une échelle logarithmique de l'intensité.",
+      "answers": [
+        { "text": "La fréquence", "is_correct": false },
+        { "text": "L'intensité acoustique", "is_correct": true },
+        { "text": "La longueur d'onde", "is_correct": false },
+        { "text": "La vitesse de propagation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'index de réfraction d'un milieu ?",
+      "difficulty": "Moyen",
+      "explanation": "L'indice de réfraction (n) d'un milieu est le rapport entre la vitesse de la lumière dans le vide et sa vitesse dans ce milieu : n = c/v. Pour l'eau, n ≈ 1,33. Il détermine la déviation de la lumière à l'interface.",
+      "answers": [
+        {
+          "text": "La vitesse de la lumière dans le milieu",
+          "is_correct": false
+        },
+        {
+          "text": "Le rapport des vitesses de la lumière vide/milieu",
+          "is_correct": true
+        },
+        { "text": "L'absorption de la lumière", "is_correct": false },
+        { "text": "La densité du milieu", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la capacité calorifique spécifique de l'eau ?",
+      "difficulty": "Moyen",
+      "explanation": "La capacité calorifique spécifique de l'eau est de 4,18 kJ/(kg·K) ou 1 kcal/(kg·°C). C'est la quantité d'énergie nécessaire pour élever de 1°C la température de 1 kg d'eau. Cette valeur élevée permet à l'eau de réguler la température corporelle.",
+      "answers": [
+        { "text": "1 kJ/(kg·K)", "is_correct": false },
+        { "text": "4,18 kJ/(kg·K)", "is_correct": true },
+        { "text": "10 kJ/(kg·K)", "is_correct": false },
+        { "text": "20 kJ/(kg·K)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Laplace appliquée aux alvéoles pulmonaires ?",
+      "difficulty": "Difficile",
+      "explanation": "La loi de Laplace pour une sphère indique que la pression P = 2y/r (y = tension superficielle, r = rayon). Dans les alvéoles, le surfactant diminue y pour éviter le collapsus des petites alvéoles et faciliter la respiration.",
+      "answers": [
+        { "text": "P = y x r", "is_correct": false },
+        { "text": "P = 2y/r", "is_correct": true },
+        { "text": "P = y/2r", "is_correct": false },
+        { "text": "P = y + r", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle d'un traceur radioactif en médecine nucléaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Un traceur radioactif (radiopharmaceutique) est une molécule marquée avec un isotope émetteur gamma. Il se fixe sélectivement sur un organe ou un processus métabolique, permettant la visualisation par scintigraphie (caméra gamma).",
+      "answers": [
+        { "text": "Traiter les tumeurs par irradiation", "is_correct": false },
+        {
+          "text": "Visualiser un organe ou un processus métabolique",
+          "is_correct": true
+        },
+        { "text": "Augmenter le contraste en IRM", "is_correct": false },
+        { "text": "Mesurer la pression artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la tension superficielle d'un liquide ?",
+      "difficulty": "Moyen",
+      "explanation": "La tension superficielle (y) est la force par unité de longueur qui s'exerce à la surface d'un liquide. Elle est due aux interactions entre molécules. Pour l'eau, y ≈ 72 mN/m. Elle explique la capillarité et la forme sphérique des gouttelettes.",
+      "answers": [
+        { "text": "La viscosité du liquide", "is_correct": false },
+        {
+          "text": "La force par unité de longueur à la surface",
+          "is_correct": true
+        },
+        { "text": "La pression du liquide", "is_correct": false },
+        { "text": "La densité du liquide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de la dose équivalente en radioprotection ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sievert (Sv) est l'unité de dose équivalente. Elle prend en compte la dose absorbée et le facteur de pondération du type de rayonnement pour évaluer l'effet biologique. 1 Sv = dose absorbée (Gy) x facteur de pondération.",
+      "answers": [
+        { "text": "Le gray (Gy)", "is_correct": false },
+        { "text": "Le becquerel (Bq)", "is_correct": false },
+        { "text": "Le sievert (Sv)", "is_correct": true },
+        { "text": "Le rem", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de cavitation en échographie ?",
+      "difficulty": "Difficile",
+      "explanation": "La cavitation est la formation et l'implosion de bulles de gaz dans un liquide soumis à des ultrasons de forte intensité. Elle peut avoir des effets biologiques (échauffement, lésions cellulaires) et est exploitée en lithotripsie.",
+      "answers": [
+        { "text": "La réflexion des ultrasons", "is_correct": false },
+        {
+          "text": "La formation et implosion de bulles sous ultrasons",
+          "is_correct": true
+        },
+        { "text": "L'absorption des ultrasons", "is_correct": false },
+        { "text": "La dispersion des ultrasons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la relation entre longueur d'onde et fréquence d'une onde ?",
+      "difficulty": "Facile",
+      "explanation": "La relation fondamentale est λ = v/f, où λ est la longueur d'onde, v la vitesse de propagation et f la fréquence. La longueur d'onde et la fréquence sont inversement proportionnelles à vitesse constante.",
+      "answers": [
+        { "text": "λ = v x f", "is_correct": false },
+        { "text": "λ = v/f", "is_correct": true },
+        { "text": "λ = f/v", "is_correct": false },
+        { "text": "λ = v + f", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la fluoroscopie en radiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "La fluoroscopie (ou radioscopie) est une technique d'imagerie par rayons X en temps réel. Elle permet de visualiser des structures en mouvement (tube digestif, cathétérisme) mais délivre une dose plus élevée qu'une radiographie simple.",
+      "answers": [
+        { "text": "Une radiographie statique", "is_correct": false },
+        {
+          "text": "Une imagerie par rayons X en temps réel",
+          "is_correct": true
+        },
+        { "text": "Une IRM dynamique", "is_correct": false },
+        { "text": "Une échographie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la viscosité d'un fluide ?",
+      "difficulty": "Moyen",
+      "explanation": "La viscosité est la résistance d'un fluide à l'écoulement, due aux forces de friction entre les molécules. Elle s'exprime en Pa·s (poiseuille) ou en poise. Le sang a une viscosité d'environ 3-4 mPa·s.",
+      "answers": [
+        { "text": "La densité du fluide", "is_correct": false },
+        { "text": "La résistance à l'écoulement", "is_correct": true },
+        { "text": "La pression du fluide", "is_correct": false },
+        { "text": "La température du fluide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient d'atténuation linéaire en radiologie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coefficient d'atténuation linéaire (μ) caractérise la probabilité d'interaction des rayons X avec la matière par unité de longueur. Il dépend du matériau et de l'énergie des rayons X. Il est utilisé dans la loi de Beer-Lambert : I = I₀ x e^(-μx).",
+      "answers": [
+        { "text": "La dose absorbée par unité de masse", "is_correct": false },
+        {
+          "text": "La probabilité d'interaction par unité de longueur",
+          "is_correct": true
+        },
+        { "text": "L'activité radioactive", "is_correct": false },
+        { "text": "Le pouvoir de pénétration", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle loi physique explique le principe de la centrifugation ?",
+      "difficulty": "Moyen",
+      "explanation": "La centrifugation utilise la force centrifuge apparente dans un référentiel en rotation. Les particules de densité différente se séparent selon leur masse : F = m x ω² x r (m = masse, ω = vitesse angulaire, r = rayon).",
+      "answers": [
+        { "text": "La loi de la gravitation", "is_correct": false },
+        { "text": "La force centrifuge", "is_correct": true },
+        { "text": "La loi de Stokes", "is_correct": false },
+        { "text": "La loi d'Archimède", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'absorbance en spectrophotométrie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'absorbance (A) mesure la capacité d'une substance à absorber la lumière à une longueur d'onde donnée. Elle est définie par A = log(I₀/I) où I₀ est l'intensité incidente et I l'intensité transmise. La loi de Beer-Lambert relie A à la concentration.",
+      "answers": [
+        { "text": "La lumière transmise", "is_correct": false },
+        {
+          "text": "Le logarithme du rapport intensité incidente/transmise",
+          "is_correct": true
+        },
+        { "text": "La longueur d'onde absorbée", "is_correct": false },
+        { "text": "La concentration de la solution", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le nombre de Reynolds en mécanique des fluides ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nombre de Reynolds (Re) est un nombre sans dimension qui caractérise le régime d'écoulement d'un fluide : Re = pvD/η (p = densité, v = vitesse, D = diamètre, η = viscosité). Re < 2000 : écoulement laminaire ; Re > 4000 : écoulement turbulent.",
+      "answers": [
+        {
+          "text": "Le rapport entre forces d'inertie et forces visqueuses",
+          "is_correct": true
+        },
+        { "text": "La vitesse maximale d'écoulement", "is_correct": false },
+        { "text": "La pression dans le fluide", "is_correct": false },
+        { "text": "Le débit volumique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la plage de fréquences des rayons X diagnostiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les rayons X diagnostiques ont des énergies de 20 à 150 keV, correspondant à des fréquences de l'ordre de 10^18 Hz (soit des longueurs d'onde de 0,01 à 0,06 nm). Cette gamme d'énergie permet un bon contraste tissulaire.",
+      "answers": [
+        { "text": "10^6 - 10^8 Hz", "is_correct": false },
+        { "text": "10^10 - 10^12 Hz", "is_correct": false },
+        { "text": "10^16 - 10^18 Hz", "is_correct": true },
+        { "text": "10^20 - 10^22 Hz", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la pression oncotique du plasma ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression oncotique (ou pression colloïdo-osmotique) est la pression osmotique exercée par les protéines plasmatiques (surtout l'albumine). Elle est d'environ 25 mmHg et maintient l'eau dans les capillaires, s'opposant à la pression hydrostatique.",
+      "answers": [
+        { "text": "La pression artérielle", "is_correct": false },
+        {
+          "text": "La pression osmotique due aux protéines plasmatiques",
+          "is_correct": true
+        },
+        { "text": "La pression veineuse", "is_correct": false },
+        { "text": "La pression pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe de la mesure de la glycémie par glucomètre ?",
+      "difficulty": "Moyen",
+      "explanation": "La plupart des glucomètres utilisent une méthode électrochimique basée sur l'oxydation enzymatique du glucose (glucose oxydase). Le courant électrique généré est proportionnel à la concentration en glucose.",
+      "answers": [
+        { "text": "L'absorbance optique", "is_correct": false },
+        {
+          "text": "La réaction enzymatique électrochimique",
+          "is_correct": true
+        },
+        { "text": "La fluorescence", "is_correct": false },
+        { "text": "La spectroscopie infrarouge", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'électronégativité en chimie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'électronégativité mesure la capacité d'un atome à attirer les électrons de liaison dans une molécule. L'échelle de Pauling va de 0,7 (Cs) à 4,0 (F). Les différences d'électronégativité déterminent la polarité des liaisons.",
+      "answers": [
+        { "text": "Le nombre d'électrons de valence", "is_correct": false },
+        {
+          "text": "La capacité à attirer les électrons de liaison",
+          "is_correct": true
+        },
+        { "text": "La charge de l'atome", "is_correct": false },
+        { "text": "Le rayon atomique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la loi qui relie le courant, la tension et la résistance électrique ?",
+      "difficulty": "Facile",
+      "explanation": "La loi d'Ohm établit que la tension (U) aux bornes d'une résistance (R) est proportionnelle au courant (I) qui la traverse : U = R x I. Cette loi s'applique aux conducteurs ohmiques.",
+      "answers": [
+        { "text": "U = R/I", "is_correct": false },
+        { "text": "U = R x I", "is_correct": true },
+        { "text": "U = I/R", "is_correct": false },
+        { "text": "U = R + I", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la tomographie par émission de positons (TEP) ?",
+      "difficulty": "Difficile",
+      "explanation": "La TEP utilise des traceurs émetteurs de positons (β+). L'annihilation positon-électron produit deux photons gamma à 180° détectés en coïncidence. Le traceur le plus utilisé est le FDG (18F-fluorodésoxyglucose) pour visualiser le métabolisme glucidique.",
+      "answers": [
+        {
+          "text": "Une imagerie par résonance magnétique",
+          "is_correct": false
+        },
+        {
+          "text": "Une imagerie fonctionnelle par émission de positons",
+          "is_correct": true
+        },
+        { "text": "Une radiographie numérisée", "is_correct": false },
+        { "text": "Une échographie Doppler", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du gradient de concentration ?",
+      "difficulty": "Moyen",
+      "explanation": "Le gradient de concentration est la variation de concentration par unité de distance : dC/dx. Il détermine la direction et la vitesse de la diffusion passive selon la première loi de Fick : J = -D x dC/dx.",
+      "answers": [
+        { "text": "La concentration maximale", "is_correct": false },
+        {
+          "text": "La variation de concentration par unité de distance",
+          "is_correct": true
+        },
+        { "text": "La différence de pH", "is_correct": false },
+        { "text": "La température de la solution", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la constante de Faraday en électrochimie ?",
+      "difficulty": "Difficile",
+      "explanation": "La constante de Faraday (F) représente la charge électrique d'une mole d'électrons : F = 96 485 C/mol. Elle est utilisée dans l'équation de Nernst et pour les calculs d'électrolyse.",
+      "answers": [
+        { "text": "La charge d'un électron", "is_correct": false },
+        { "text": "La charge d'une mole d'électrons", "is_correct": true },
+        { "text": "Le potentiel d'oxydoréduction", "is_correct": false },
+        { "text": "La constante des gaz parfaits", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de la capacité électrique ?",
+      "difficulty": "Facile",
+      "explanation": "Le farad (F) est l'unité SI de capacité électrique. Un condensateur de 1 F stocke 1 coulomb de charge sous une tension de 1 volt. En biologie, les capacités membranaires sont de l'ordre du microfarad par cm².",
+      "answers": [
+        { "text": "Le volt (V)", "is_correct": false },
+        { "text": "Le farad (F)", "is_correct": true },
+        { "text": "L'ampère (A)", "is_correct": false },
+        { "text": "Le coulomb (C)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'accommodation du cristallin ?",
+      "difficulty": "Moyen",
+      "explanation": "L'accommodation est le processus par lequel le cristallin modifie sa courbure (donc sa vergence) pour faire la mise au point sur des objets à différentes distances. Elle est assurée par la contraction du muscle ciliaire et diminue avec l'âge (presbytie).",
+      "answers": [
+        { "text": "La dilatation de la pupille", "is_correct": false },
+        {
+          "text": "La modification de la courbure du cristallin",
+          "is_correct": true
+        },
+        { "text": "Le mouvement de l'œil", "is_correct": false },
+        { "text": "La contraction de l'iris", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'effet piézoélectrique utilisé en échographie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'effet piézoélectrique est la propriété de certains cristaux (quartz, céramiques PZT) de se déformer sous l'effet d'une tension électrique et inversement de produire une tension quand ils sont déformés mécaniquement. C'est le principe de l'émission et de la réception des ultrasons.",
+      "answers": [
+        {
+          "text": "La production d'électricité par déformation mécanique",
+          "is_correct": true
+        },
+        { "text": "L'absorption des ultrasons", "is_correct": false },
+        { "text": "La réflexion des ondes", "is_correct": false },
+        { "text": "La diffraction des ultrasons", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du temps de relaxation T1 en IRM ?",
+      "difficulty": "Difficile",
+      "explanation": "Le temps de relaxation T1 (ou temps de relaxation longitudinale) est le temps nécessaire pour que 63% de l'aimantation longitudinale soit restaurée après une impulsion radiofréquence. Il dépend du tissu et permet de différencier les structures.",
+      "answers": [
+        { "text": "Le temps de réception du signal", "is_correct": false },
+        {
+          "text": "Le temps de restauration de l'aimantation longitudinale",
+          "is_correct": true
+        },
+        { "text": "Le temps d'acquisition de l'image", "is_correct": false },
+        { "text": "Le temps de répétition", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Starling appliquée aux échanges capillaires ?",
+      "difficulty": "Difficile",
+      "explanation": "La loi de Starling décrit les échanges liquidiens transmembranaires au niveau des capillaires. Le flux net dépend de la différence entre pression hydrostatique et pression oncotique : Flux = Kf [(Pc - Pi) - o(πc - πi)].",
+      "answers": [
+        { "text": "La loi de la contraction cardiaque", "is_correct": false },
+        {
+          "text": "La loi des échanges capillaires hydro-oncotiques",
+          "is_correct": true
+        },
+        { "text": "La loi de la diffusion gazeuse", "is_correct": false },
+        { "text": "La loi de la ventilation pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la masse volumique du sang humain ?",
+      "difficulty": "Moyen",
+      "explanation": "La masse volumique (ou densité) du sang est d'environ 1060 kg/m³ (1,06 g/cm³). Elle est légèrement supérieure à celle de l'eau (1000 kg/m³) en raison des protéines et des cellules sanguines.",
+      "answers": [
+        { "text": "1000 kg/m³", "is_correct": false },
+        { "text": "1060 kg/m³", "is_correct": true },
+        { "text": "1200 kg/m³", "is_correct": false },
+        { "text": "900 kg/m³", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient de diffusion d'une molécule ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coefficient de diffusion (D) caractérise la vitesse de diffusion d'une molécule dans un milieu. Il s'exprime en m²/s et dépend de la taille de la molécule, de la température et de la viscosité du milieu selon la loi de Stokes-Einstein.",
+      "answers": [
+        { "text": "La vitesse de la molécule", "is_correct": false },
+        {
+          "text": "La mobilité de la molécule dans un milieu",
+          "is_correct": true
+        },
+        { "text": "La concentration de la molécule", "is_correct": false },
+        { "text": "La masse de la molécule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'origine du bruit de Korotkoff entendu lors de la mesure de la pression artérielle ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bruits de Korotkoff sont produits par les turbulences du flux sanguin dans l'artère partiellement comprimée par le brassard. Le premier bruit correspond à la pression systolique, la disparition des bruits à la pression diastolique.",
+      "answers": [
+        { "text": "La contraction cardiaque", "is_correct": false },
+        {
+          "text": "Les turbulences du flux sanguin dans l'artère comprimée",
+          "is_correct": true
+        },
+        {
+          "text": "Le frottement du sang contre les parois",
+          "is_correct": false
+        },
+        { "text": "La fermeture des valves cardiaques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le pouvoir rotatoire d'une substance optiquement active ?",
+      "difficulty": "Difficile",
+      "explanation": "Le pouvoir rotatoire est la capacité d'une substance chirale à faire tourner le plan de polarisation de la lumière polarisée. Il est mesuré par un polarimètre et s'exprime en degrés. Le glucose est dextrogyre (+), le fructose lévogyre (-).",
+      "answers": [
+        { "text": "La réfraction de la lumière", "is_correct": false },
+        {
+          "text": "La rotation du plan de polarisation de la lumière",
+          "is_correct": true
+        },
+        { "text": "L'absorption de la lumière", "is_correct": false },
+        { "text": "La diffusion de la lumière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la relation entre énergie et longueur d'onde des photons ?",
+      "difficulty": "Moyen",
+      "explanation": "L'énergie d'un photon est inversement proportionnelle à sa longueur d'onde selon la relation E = hc/λ, où h est la constante de Planck (6,63 x 10^-34 J·s) et c la vitesse de la lumière. Les rayons X ont une courte longueur d'onde donc une haute énergie.",
+      "answers": [
+        { "text": "E = λ/hc", "is_correct": false },
+        { "text": "E = hc/λ", "is_correct": true },
+        { "text": "E = hλc", "is_correct": false },
+        { "text": "E = h/λc", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Fick appliquée à la diffusion pulmonaire des gaz ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Fick indique que le flux de diffusion d'un gaz à travers la membrane alvéolo-capillaire est proportionnel à la surface d'échange, au coefficient de diffusion du gaz et au gradient de pression partielle, et inversement proportionnel à l'épaisseur de la membrane.",
+      "answers": [
+        { "text": "Le débit cardiaque", "is_correct": false },
+        {
+          "text": "La diffusion proportionnelle au gradient de pression et à la surface",
+          "is_correct": true
+        },
+        { "text": "La ventilation minute", "is_correct": false },
+        { "text": "Le volume courant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'effet photoélectrique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'effet photoélectrique est l'éjection d'un électron d'un atome par un photon incident. Toute l'énergie du photon est transférée à l'électron. Cet effet prédomine en radiologie pour les énergies < 100 keV et donne le contraste entre tissus mous et os.",
+      "answers": [
+        {
+          "text": "La diffusion d'un photon par un électron",
+          "is_correct": false
+        },
+        {
+          "text": "L'éjection d'un électron par absorption d'un photon",
+          "is_correct": true
+        },
+        {
+          "text": "La création d'une paire électron-positon",
+          "is_correct": false
+        },
+        { "text": "La transmission d'un photon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la pression partielle d'un gaz dans un mélange ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression partielle d'un gaz est la pression qu'exercerait ce gaz s'il occupait seul le volume total du mélange à la même température. La loi de Dalton indique que la pression totale est la somme des pressions partielles.",
+      "answers": [
+        { "text": "La pression totale du mélange", "is_correct": false },
+        {
+          "text": "La pression qu'exercerait le gaz seul dans le volume",
+          "is_correct": true
+        },
+        { "text": "La concentration du gaz", "is_correct": false },
+        { "text": "Le volume du gaz", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de mesure de la fréquence ?",
+      "difficulty": "Facile",
+      "explanation": "Le hertz (Hz) est l'unité SI de fréquence. 1 Hz = 1 oscillation par seconde = 1 s^-1. Les fréquences audibles s'étendent de 20 Hz à 20 kHz, les ultrasons commencent au-delà de 20 kHz.",
+      "answers": [
+        { "text": "Le watt (W)", "is_correct": false },
+        { "text": "Le hertz (Hz)", "is_correct": true },
+        { "text": "Le décibel (dB)", "is_correct": false },
+        { "text": "Le mètre (m)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène d'interférence des ondes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'interférence est la superposition de deux ou plusieurs ondes qui se combinent. Si elles sont en phase, l'amplitude augmente (interférences constructives). Si elles sont en opposition de phase, l'amplitude diminue (interférences destructives).",
+      "answers": [
+        { "text": "La réflexion d'une onde", "is_correct": false },
+        { "text": "La superposition de plusieurs ondes", "is_correct": true },
+        { "text": "L'absorption d'une onde", "is_correct": false },
+        { "text": "La diffraction d'une onde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la constante de Boltzmann ?",
+      "difficulty": "Difficile",
+      "explanation": "La constante de Boltzmann (k ou kB) relie l'énergie thermique microscopique à la température : k = 1,38 x 10^-23 J/K. Elle apparaît dans l'équation des gaz parfaits sous forme microscopique et dans les distributions statistiques.",
+      "answers": [
+        {
+          "text": "La constante des gaz parfaits par molécule",
+          "is_correct": true
+        },
+        { "text": "La charge de l'électron", "is_correct": false },
+        { "text": "La constante de gravitation", "is_correct": false },
+        { "text": "La vitesse de la lumière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la puissance électrique ?",
+      "difficulty": "Facile",
+      "explanation": "La puissance électrique (P) est l'énergie électrique transférée par unité de temps. Elle s'exprime en watts (W = J/s) et se calcule par P = U x I = R x I² = U²/R (selon la loi d'Ohm).",
+      "answers": [
+        { "text": "L'énergie totale", "is_correct": false },
+        { "text": "L'énergie par unité de temps", "is_correct": true },
+        { "text": "La tension électrique", "is_correct": false },
+        { "text": "Le courant électrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'effet Compton en radiologie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'effet Compton est la diffusion inélastique d'un photon par un électron. Le photon transfère une partie de son énergie à l'électron et est dévié avec une énergie plus faible. Cet effet prédomine aux énergies moyennes (100-1000 keV) et réduit le contraste de l'image.",
+      "answers": [
+        { "text": "L'absorption complète d'un photon", "is_correct": false },
+        {
+          "text": "La diffusion d'un photon par un électron avec perte d'énergie",
+          "is_correct": true
+        },
+        {
+          "text": "La création d'une paire électron-positon",
+          "is_correct": false
+        },
+        { "text": "La transmission d'un photon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le principe ALARA en radioprotection ?",
+      "difficulty": "Moyen",
+      "explanation": "ALARA signifie 'As Low As Reasonably Achievable' (aussi bas que raisonnablement possible). C'est un principe de radioprotection qui vise à maintenir l'exposition aux rayonnements au niveau le plus bas possible, compte tenu des contraintes techniques et économiques.",
+      "answers": [
+        { "text": "Un type de détecteur de radiation", "is_correct": false },
+        {
+          "text": "Le principe d'exposition minimale aux rayonnements",
+          "is_correct": true
+        },
+        { "text": "Une unité de dose", "is_correct": false },
+        { "text": "Un protocole d'imagerie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la résistance électrique spécifique (résistivité) ?",
+      "difficulty": "Moyen",
+      "explanation": "La résistivité (p) est la résistance d'un matériau par unité de longueur et de section : R = pL/S. Elle s'exprime en Ω·m. Les métaux ont une faible résistivité, les isolants une résistivité élevée. Le corps humain a une résistivité variable selon les tissus.",
+      "answers": [
+        { "text": "La résistance totale d'un circuit", "is_correct": false },
+        {
+          "text": "La résistance d'un matériau par unité de géométrie",
+          "is_correct": true
+        },
+        { "text": "Le courant électrique", "is_correct": false },
+        { "text": "La conductivité thermique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du débit cardiaque ?",
+      "difficulty": "Facile",
+      "explanation": "Le débit cardiaque (Qc) est le volume de sang éjecté par le cœur par unité de temps. Il se calcule par Qc = FC x VES (fréquence cardiaque x volume d'éjection systolique). Au repos, il est d'environ 5 L/min chez l'adulte.",
+      "answers": [
+        { "text": "Le volume sanguin total", "is_correct": false },
+        {
+          "text": "Le volume de sang éjecté par unité de temps",
+          "is_correct": true
+        },
+        { "text": "La pression artérielle", "is_correct": false },
+        { "text": "La fréquence cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la compliance pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La compliance pulmonaire (C) est la variation de volume des poumons par unité de variation de pression : C = ΔV/ΔP. Elle mesure la distensibilité des poumons. Une compliance élevée signifie que les poumons se distendent facilement (emphysème), une compliance faible qu'ils sont rigides (fibrose).",
+      "answers": [
+        { "text": "La résistance des voies aériennes", "is_correct": false },
+        { "text": "La distensibilité des poumons", "is_correct": true },
+        { "text": "Le volume pulmonaire total", "is_correct": false },
+        { "text": "La fréquence respiratoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de résonance ?",
+      "difficulty": "Moyen",
+      "explanation": "La résonance est l'amplification de l'amplitude d'oscillation d'un système lorsqu'il est excité à sa fréquence propre (ou fréquence de résonance). Elle se produit dans de nombreux systèmes physiques (mécaniques, électriques, acoustiques) et est utilisée en IRM.",
+      "answers": [
+        { "text": "L'amortissement d'une oscillation", "is_correct": false },
+        {
+          "text": "L'amplification à la fréquence propre du système",
+          "is_correct": true
+        },
+        { "text": "La réflexion d'une onde", "is_correct": false },
+        { "text": "La diffusion d'une onde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du travail mécanique en physique ?",
+      "difficulty": "Facile",
+      "explanation": "Le travail mécanique (W) est le produit scalaire de la force par le déplacement : W = F · d = F x d x cos(θ). Il s'exprime en joules (J). Le travail est moteur si la force et le déplacement sont dans le même sens, résistant sinon.",
+      "answers": [
+        { "text": "La force appliquée", "is_correct": false },
+        {
+          "text": "Le produit de la force par le déplacement",
+          "is_correct": true
+        },
+        { "text": "La vitesse d'un objet", "is_correct": false },
+        { "text": "L'accélération d'un objet", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le potentiel de membrane d'une cellule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le potentiel de membrane est la différence de potentiel électrique entre l'intérieur et l'extérieur de la cellule. Au repos, il est d'environ -70 mV (intérieur négatif) pour un neurone, maintenu par les gradients ioniques et les pompes actives.",
+      "answers": [
+        { "text": "La charge électrique de la membrane", "is_correct": false },
+        {
+          "text": "La différence de potentiel entre l'intérieur et l'extérieur",
+          "is_correct": true
+        },
+        { "text": "L'épaisseur de la membrane", "is_correct": false },
+        { "text": "La perméabilité de la membrane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'équilibre de Gibbs-Donnan ?",
+      "difficulty": "Difficile",
+      "explanation": "L'équilibre de Gibbs-Donnan décrit la distribution asymétrique des ions de part et d'autre d'une membrane semi-perméable en présence d'ions non diffusibles (protéines chargées). Il crée une différence de potentiel et de pression osmotique.",
+      "answers": [
+        { "text": "L'équilibre thermique", "is_correct": false },
+        {
+          "text": "L'équilibre ionique avec ions non diffusibles",
+          "is_correct": true
+        },
+        { "text": "L'équilibre acido-basique", "is_correct": false },
+        { "text": "L'équilibre hydrostatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de l'énergie cinétique ?",
+      "difficulty": "Facile",
+      "explanation": "L'énergie cinétique (Ec) est l'énergie que possède un objet du fait de son mouvement. Elle se calcule par Ec = (1/2) x m x v², où m est la masse et v la vitesse. Elle s'exprime en joules.",
+      "answers": [
+        { "text": "L'énergie de position", "is_correct": false },
+        { "text": "L'énergie due au mouvement", "is_correct": true },
+        { "text": "L'énergie thermique", "is_correct": false },
+        { "text": "L'énergie potentielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le principe de conservation de l'énergie ?",
+      "difficulty": "Facile",
+      "explanation": "Le principe de conservation de l'énergie stipule que l'énergie totale d'un système isolé reste constante. L'énergie peut se transformer d'une forme à une autre (cinétique, potentielle, thermique, etc.) mais ne peut être ni créée ni détruite.",
+      "answers": [
+        { "text": "L'énergie augmente toujours", "is_correct": false },
+        {
+          "text": "L'énergie totale d'un système isolé reste constante",
+          "is_correct": true
+        },
+        {
+          "text": "L'énergie se perd sous forme de chaleur",
+          "is_correct": false
+        },
+        { "text": "L'énergie peut être créée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le nombre d'Avogadro ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nombre d'Avogadro (NA) est le nombre d'entités (atomes, molécules) dans une mole : NA = 6,022 x 10^23 mol^-1. C'est une constante fondamentale qui relie l'échelle microscopique à l'échelle macroscopique.",
+      "answers": [
+        { "text": "6,022 x 10^20 mol^-1", "is_correct": false },
+        { "text": "6,022 x 10^23 mol^-1", "is_correct": true },
+        { "text": "6,022 x 10^26 mol^-1", "is_correct": false },
+        { "text": "3,14 x 10^23 mol^-1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Henry appliquée aux gaz dissous ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Henry indique que la quantité de gaz dissous dans un liquide est proportionnelle à la pression partielle de ce gaz au-dessus du liquide : C = k x P. Elle explique la dissolution de l'O2 et du CO2 dans le sang.",
+      "answers": [
+        {
+          "text": "La pression totale d'un mélange gazeux",
+          "is_correct": false
+        },
+        {
+          "text": "La dissolution proportionnelle à la pression partielle",
+          "is_correct": true
+        },
+        { "text": "La diffusion des gaz", "is_correct": false },
+        { "text": "La ventilation pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'entropie en thermodynamique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'entropie (S) est une mesure du désordre ou du nombre de micro-états d'un système. Elle s'exprime en J/K. Le deuxième principe de la thermodynamique stipule que l'entropie d'un système isolé ne peut qu'augmenter ou rester constante.",
+      "answers": [
+        { "text": "L'énergie interne du système", "is_correct": false },
+        { "text": "La mesure du désordre du système", "is_correct": true },
+        { "text": "La température du système", "is_correct": false },
+        { "text": "La pression du système", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la période d'un mouvement oscillatoire ?",
+      "difficulty": "Facile",
+      "explanation": "La période (T) d'un mouvement oscillatoire est la durée d'une oscillation complète. Elle s'exprime en secondes et est l'inverse de la fréquence : T = 1/f. Pour un pendule simple, T = 2π√(L/g).",
+      "answers": [
+        { "text": "La distance parcourue", "is_correct": false },
+        { "text": "La durée d'une oscillation complète", "is_correct": true },
+        { "text": "La fréquence du mouvement", "is_correct": false },
+        { "text": "L'amplitude du mouvement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le rendement énergétique ?",
+      "difficulty": "Facile",
+      "explanation": "Le rendement énergétique (η) est le rapport entre l'énergie utile fournie et l'énergie totale consommée : η = Eutile/Etotale. Il s'exprime souvent en pourcentage. Le rendement des muscles est d'environ 20-25%, le reste est dissipé en chaleur.",
+      "answers": [
+        { "text": "L'énergie totale consommée", "is_correct": false },
+        {
+          "text": "Le rapport énergie utile/énergie consommée",
+          "is_correct": true
+        },
+        { "text": "La puissance développée", "is_correct": false },
+        { "text": "Le travail mécanique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de lentille est utilisé pour corriger l'hypermétropie ?",
+      "difficulty": "Facile",
+      "explanation": "Les lentilles convergentes (convexes, à vergence positive) sont utilisées pour corriger l'hypermétropie. Elles augmentent la convergence insuffisante du système optique de l'œil hypermétrope.",
+      "answers": [
+        { "text": "Lentille convergente", "is_correct": true },
+        { "text": "Lentille divergente", "is_correct": false },
+        { "text": "Lentille cylindrique", "is_correct": false },
+        { "text": "Lentille plan-concave", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le temps de relaxation T2 en IRM ?",
+      "difficulty": "Difficile",
+      "explanation": "Le temps de relaxation T2 (ou temps de relaxation transversale) est le temps nécessaire pour que l'aimantation transversale diminue de 63%. Il reflète les interactions spin-spin et varie selon les tissus. Les liquides ont un T2 long, les solides un T2 court.",
+      "answers": [
+        {
+          "text": "Le temps de restauration longitudinale",
+          "is_correct": false
+        },
+        { "text": "Le temps de diminution transversale", "is_correct": true },
+        { "text": "Le temps d'excitation", "is_correct": false },
+        { "text": "Le temps de répétition", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'énergie moyenne d'une particule bêta ?",
+      "difficulty": "Moyen",
+      "explanation": "Les particules bêta (électrons ou positons) émises par désintégration radioactive ont un spectre d'énergie continu. L'énergie moyenne est environ 1/3 de l'énergie maximale. Par exemple, pour le ³²P, Emax ≈ 1,7 MeV et Emoy ≈ 0,7 MeV.",
+      "answers": [
+        { "text": "Environ 1/3 de l'énergie maximale", "is_correct": true },
+        { "text": "Égale à l'énergie maximale", "is_correct": false },
+        { "text": "Environ 1/2 de l'énergie maximale", "is_correct": false },
+        { "text": "Toujours 1 MeV", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Bernoulli en mécanique des fluides ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Bernoulli indique que dans un fluide en écoulement, la somme de la pression statique, de l'énergie cinétique par unité de volume et de l'énergie potentielle reste constante : P + ½pv² + pgh = constante.",
+      "answers": [
+        {
+          "text": "La conservation de l'énergie dans un fluide",
+          "is_correct": true
+        },
+        { "text": "La viscosité d'un fluide", "is_correct": false },
+        { "text": "Le débit d'un fluide", "is_correct": false },
+        { "text": "La compressibilité d'un fluide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de l'énergie potentielle gravitationnelle ?",
+      "difficulty": "Facile",
+      "explanation": "L'énergie potentielle gravitationnelle (Ep) est l'énergie qu'un objet possède du fait de sa position dans un champ gravitationnel. Elle se calcule par Ep = mgh, où m est la masse, g l'accélération gravitationnelle et h la hauteur.",
+      "answers": [
+        { "text": "L'énergie due au mouvement", "is_correct": false },
+        { "text": "L'énergie due à la position", "is_correct": true },
+        { "text": "L'énergie thermique", "is_correct": false },
+        { "text": "L'énergie électrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dose efficace en radioprotection ?",
+      "difficulty": "Difficile",
+      "explanation": "La dose efficace (en sieverts) prend en compte la dose équivalente reçue par chaque organe et la radiosensibilité de ces organes (facteurs de pondération tissulaire). Elle permet d'évaluer le risque global d'effets stochastiques.",
+      "answers": [
+        { "text": "La dose absorbée totale", "is_correct": false },
+        {
+          "text": "La dose pondérée par la radiosensibilité des organes",
+          "is_correct": true
+        },
+        { "text": "L'activité radioactive", "is_correct": false },
+        { "text": "Le débit de dose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la longueur d'onde de la lumière verte visible ?",
+      "difficulty": "Facile",
+      "explanation": "La lumière verte visible a une longueur d'onde d'environ 550 nm. C'est la couleur à laquelle l'œil humain est le plus sensible. Le spectre visible s'étend de 400 nm (violet) à 800 nm (rouge).",
+      "answers": [
+        { "text": "400 nm", "is_correct": false },
+        { "text": "550 nm", "is_correct": true },
+        { "text": "700 nm", "is_correct": false },
+        { "text": "900 nm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de continuité en mécanique des fluides ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de continuité exprime la conservation du débit massique dans un tube de courant : Q = S x v = constante (S = section, v = vitesse). Si la section diminue, la vitesse augmente pour maintenir le débit constant.",
+      "answers": [
+        { "text": "La conservation du débit dans un tube", "is_correct": true },
+        { "text": "La conservation de la pression", "is_correct": false },
+        { "text": "La conservation de la température", "is_correct": false },
+        { "text": "La conservation de la viscosité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence de Larmor en IRM ?",
+      "difficulty": "Difficile",
+      "explanation": "La fréquence de Larmor est la fréquence de précession des protons dans un champ magnétique : f = yB₀/2π, où y est le rapport gyromagnétique (42,58 MHz/T pour le proton). À 1,5 T, f ≈ 64 MHz.",
+      "answers": [
+        {
+          "text": "La fréquence de précession des protons",
+          "is_correct": true
+        },
+        { "text": "La fréquence d'excitation maximale", "is_correct": false },
+        { "text": "La fréquence de relaxation", "is_correct": false },
+        { "text": "La fréquence de répétition", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient de réflexion en échographie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coefficient de réflexion (R) dépend de la différence d'impédance acoustique entre deux tissus : R = [(Z₂-Z1)/(Z₂+Z1)]². Plus la différence est grande, plus la réflexion est intense. Les interfaces os/tissus mous réfléchissent fortement.",
+      "answers": [
+        { "text": "Le rapport des impédances au carré", "is_correct": true },
+        { "text": "La vitesse des ultrasons", "is_correct": false },
+        { "text": "L'atténuation des ultrasons", "is_correct": false },
+        { "text": "La fréquence de résonance", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité du champ électrique ?",
+      "difficulty": "Facile",
+      "explanation": "Le champ électrique s'exprime en volts par mètre (V/m) ou en newtons par coulomb (N/C). Ces deux unités sont équivalentes. Le champ électrique représente la force par unité de charge.",
+      "answers": [
+        { "text": "Le volt (V)", "is_correct": false },
+        { "text": "Le volt par mètre (V/m)", "is_correct": true },
+        { "text": "L'ampère (A)", "is_correct": false },
+        { "text": "Le coulomb (C)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la chaleur latente de fusion de la glace ?",
+      "difficulty": "Moyen",
+      "explanation": "La chaleur latente de fusion de la glace est l'énergie nécessaire pour transformer 1 kg de glace en eau liquide à 0°C. Elle vaut 334 kJ/kg. Cette énergie rompt les liaisons hydrogène du réseau cristallin.",
+      "answers": [
+        { "text": "2260 kJ/kg", "is_correct": false },
+        { "text": "334 kJ/kg", "is_correct": true },
+        { "text": "100 kJ/kg", "is_correct": false },
+        { "text": "4,18 kJ/kg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Stokes pour une sphère en mouvement ?",
+      "difficulty": "Difficile",
+      "explanation": "La loi de Stokes donne la force de frottement visqueux sur une sphère se déplaçant lentement dans un fluide : F = 6πηrv (η = viscosité, r = rayon, v = vitesse). Elle explique la sédimentation des particules et la vitesse terminale.",
+      "answers": [
+        { "text": "F = 6πηrv", "is_correct": true },
+        { "text": "F = πr²v", "is_correct": false },
+        { "text": "F = ηrv²", "is_correct": false },
+        { "text": "F = 2πηv", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la constante des gaz parfaits R ?",
+      "difficulty": "Moyen",
+      "explanation": "La constante des gaz parfaits R = 8,314 J/(mol·K). Elle apparaît dans l'équation d'état des gaz parfaits : PV = nRT. Elle relie la pression, le volume, la quantité de matière et la température.",
+      "answers": [
+        { "text": "8,314 J/(mol·K)", "is_correct": true },
+        { "text": "6,022 x 10^23 mol^-1", "is_correct": false },
+        { "text": "1,38 x 10^-23 J/K", "is_correct": false },
+        { "text": "96 485 C/mol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la profondeur de pénétration des rayons X ?",
+      "difficulty": "Moyen",
+      "explanation": "La profondeur de pénétration (ou couche de demi-atténuation) est l'épaisseur de matériau nécessaire pour réduire l'intensité des rayons X de moitié. Elle dépend de l'énergie des rayons X et du matériau traversé.",
+      "answers": [
+        {
+          "text": "L'épaisseur pour réduire l'intensité de moitié",
+          "is_correct": true
+        },
+        { "text": "La profondeur maximale atteinte", "is_correct": false },
+        {
+          "text": "L'épaisseur pour arrêter tous les rayons",
+          "is_correct": false
+        },
+        { "text": "La longueur d'onde des rayons X", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la différence entre dose absorbée et dose équivalente ?",
+      "difficulty": "Moyen",
+      "explanation": "La dose absorbée (Gy) mesure l'énergie déposée par unité de masse. La dose équivalente (Sv) est la dose absorbée multipliée par un facteur de pondération qui dépend du type de rayonnement (facteur de qualité). Les rayonnements alpha ont un facteur plus élevé que les gamma.",
+      "answers": [
+        {
+          "text": "La dose équivalente prend en compte le type de rayonnement",
+          "is_correct": true
+        },
+        { "text": "Elles sont identiques", "is_correct": false },
+        {
+          "text": "La dose absorbée est toujours plus grande",
+          "is_correct": false
+        },
+        {
+          "text": "La dose équivalente ne concerne que les rayons X",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la pression hydrostatique ?",
+      "difficulty": "Facile",
+      "explanation": "La pression hydrostatique est la pression exercée par un fluide au repos du fait de son poids. Elle augmente avec la profondeur : P = pgh (p = densité, g = gravité, h = hauteur de fluide).",
+      "answers": [
+        { "text": "La pression due au poids du fluide", "is_correct": true },
+        { "text": "La pression due au mouvement", "is_correct": false },
+        { "text": "La pression osmotique", "is_correct": false },
+        { "text": "La pression oncotique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le seuil d'audibilité en acoustique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le seuil d'audibilité est l'intensité acoustique minimale perceptible par l'oreille humaine, définie comme 0 dB SPL (Sound Pressure Level). Il correspond à une intensité de 10^-12 W/m² à 1000 Hz.",
+      "answers": [
+        { "text": "10^-12 W/m²", "is_correct": true },
+        { "text": "10^-6 W/m²", "is_correct": false },
+        { "text": "1 W/m²", "is_correct": false },
+        { "text": "10^-3 W/m²", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la vitesse du son dans l'air à 20°C ?",
+      "difficulty": "Facile",
+      "explanation": "La vitesse du son dans l'air à 20°C est d'environ 340 m/s. Elle augmente avec la température (environ 0,6 m/s par degré Celsius). Dans les tissus biologiques, elle est beaucoup plus élevée (environ 1540 m/s).",
+      "answers": [
+        { "text": "340 m/s", "is_correct": true },
+        { "text": "1540 m/s", "is_correct": false },
+        { "text": "3000 m/s", "is_correct": false },
+        { "text": "150 m/s", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Planck en physique quantique ?",
+      "difficulty": "Difficile",
+      "explanation": "La loi de Planck relie l'énergie d'un photon à sa fréquence : E = hf, où h est la constante de Planck (6,63 x 10^-34 J·s). Cette relation fondamentale marque le début de la physique quantique.",
+      "answers": [
+        { "text": "E = hf", "is_correct": true },
+        { "text": "E = mc²", "is_correct": false },
+        { "text": "E = ½mv²", "is_correct": false },
+        { "text": "E = mgh", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du pH d'une solution ?",
+      "difficulty": "Facile",
+      "explanation": "Le pH est le logarithme négatif de la concentration en ions hydrogène : pH = -log[H⁺]. Un pH de 7 est neutre, < 7 acide, > 7 basique. Le pH du sang est maintenu autour de 7,4.",
+      "answers": [
+        { "text": "pH = -log[H⁺]", "is_correct": true },
+        { "text": "pH = log[H⁺]", "is_correct": false },
+        { "text": "pH = [H⁺]", "is_correct": false },
+        { "text": "pH = 1/[H⁺]", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le contraste en imagerie médicale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le contraste est la différence de signal entre deux structures adjacentes dans une image. En radiologie, il dépend de la différence d'atténuation des rayons X. En IRM, il dépend des différences de temps de relaxation T1 et T2.",
+      "answers": [
+        {
+          "text": "La différence de signal entre structures",
+          "is_correct": true
+        },
+        { "text": "La résolution spatiale", "is_correct": false },
+        { "text": "Le bruit de l'image", "is_correct": false },
+        { "text": "La luminosité globale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Pascal en hydrostatique ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Pascal énonce que toute augmentation de pression en un point d'un fluide incompressible au repos se transmet intégralement en tous points du fluide. C'est le principe des presses hydrauliques.",
+      "answers": [
+        {
+          "text": "La pression se transmet intégralement dans un fluide",
+          "is_correct": true
+        },
+        {
+          "text": "La pression diminue avec la profondeur",
+          "is_correct": false
+        },
+        { "text": "La pression est constante", "is_correct": false },
+        { "text": "La pression dépend de la viscosité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de la conductivité électrique ?",
+      "difficulty": "Moyen",
+      "explanation": "La conductivité électrique s'exprime en siemens par mètre (S/m). Elle est l'inverse de la résistivité. Une conductivité élevée signifie que le matériau conduit bien l'électricité (comme les métaux).",
+      "answers": [
+        { "text": "Le siemens par mètre (S/m)", "is_correct": true },
+        { "text": "L'ohm mètre (Ω·m)", "is_correct": false },
+        { "text": "Le volt (V)", "is_correct": false },
+        { "text": "L'ampère (A)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'amplitude d'une onde ?",
+      "difficulty": "Facile",
+      "explanation": "L'amplitude d'une onde est l'écart maximal par rapport à la position d'équilibre. Elle détermine l'intensité de l'onde : en acoustique, elle détermine le volume sonore ; en optique, la luminosité.",
+      "answers": [
+        {
+          "text": "L'écart maximal par rapport à l'équilibre",
+          "is_correct": true
+        },
+        { "text": "La longueur de l'onde", "is_correct": false },
+        { "text": "La vitesse de propagation", "is_correct": false },
+        { "text": "La fréquence de l'onde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le champ magnétique terrestre en IRM ?",
+      "difficulty": "Moyen",
+      "explanation": "Le champ magnétique terrestre est d'environ 50 μT (0,5 gauss). Les IRM cliniques utilisent des champs beaucoup plus intenses : 1,5 T ou 3 T, soit 30 000 à 60 000 fois le champ terrestre.",
+      "answers": [
+        { "text": "Environ 50 μT", "is_correct": true },
+        { "text": "1,5 T", "is_correct": false },
+        { "text": "10 mT", "is_correct": false },
+        { "text": "100 T", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la diffraction d'une onde ?",
+      "difficulty": "Moyen",
+      "explanation": "La diffraction est le phénomène de déviation d'une onde lorsqu'elle rencontre un obstacle ou une ouverture de dimension comparable à sa longueur d'onde. Elle explique l'étalement du faisceau ultrasonore en échographie.",
+      "answers": [
+        {
+          "text": "La déviation par un obstacle de taille comparable à λ",
+          "is_correct": true
+        },
+        { "text": "La réflexion de l'onde", "is_correct": false },
+        { "text": "L'absorption de l'onde", "is_correct": false },
+        { "text": "La transmission de l'onde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la molalité d'une solution ?",
+      "difficulty": "Moyen",
+      "explanation": "La molalité (m) est la concentration exprimée en moles de soluté par kilogramme de solvant : m = n/masse_solvant. Contrairement à la molarité, elle ne dépend pas de la température car elle est basée sur la masse, non le volume.",
+      "answers": [
+        { "text": "Les moles de soluté par kg de solvant", "is_correct": true },
+        {
+          "text": "Les moles de soluté par litre de solution",
+          "is_correct": false
+        },
+        { "text": "Les grammes de soluté par litre", "is_correct": false },
+        { "text": "Le pH de la solution", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'effet de serre physiologique du corps humain ?",
+      "difficulty": "Moyen",
+      "explanation": "Le corps humain émet des rayonnements infrarouges (chaleur). Les vêtements agissent comme une barrière, retenant cette chaleur près du corps, similaire à l'effet de serre atmosphérique. La température cutanée est maintenue autour de 33-34°C.",
+      "answers": [
+        {
+          "text": "La rétention de chaleur par les vêtements",
+          "is_correct": true
+        },
+        { "text": "La production de chaleur métabolique", "is_correct": false },
+        { "text": "La respiration", "is_correct": false },
+        { "text": "La transpiration", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la charge élémentaire de l'électron ?",
+      "difficulty": "Facile",
+      "explanation": "La charge élémentaire de l'électron est e = -1,602 x 10^-19 coulomb. C'est la plus petite quantité de charge électrique libre observée dans la nature. Le proton a une charge +e.",
+      "answers": [
+        { "text": "-1,602 x 10^-19 C", "is_correct": true },
+        { "text": "-1,602 x 10^-12 C", "is_correct": false },
+        { "text": "-9,109 x 10^-31 C", "is_correct": false },
+        { "text": "-6,022 x 10^23 C", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi d'Archimède ?",
+      "difficulty": "Facile",
+      "explanation": "La loi d'Archimède énonce que tout corps plongé dans un fluide subit une poussée verticale dirigée vers le haut égale au poids du fluide déplacé : F = p_fluide x V_immergé x g. Elle explique la flottaison.",
+      "answers": [
+        {
+          "text": "La poussée égale au poids du fluide déplacé",
+          "is_correct": true
+        },
+        {
+          "text": "La pression augmente avec la profondeur",
+          "is_correct": false
+        },
+        { "text": "La viscosité d'un fluide", "is_correct": false },
+        { "text": "Le débit d'un fluide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le libre parcours moyen en physique ?",
+      "difficulty": "Difficile",
+      "explanation": "Le libre parcours moyen est la distance moyenne parcourue par une particule (photon, molécule) entre deux interactions successives. Pour les rayons X, il est lié au coefficient d'atténuation : λ = 1/μ.",
+      "answers": [
+        {
+          "text": "La distance moyenne entre deux interactions",
+          "is_correct": true
+        },
+        { "text": "La distance totale parcourue", "is_correct": false },
+        { "text": "La profondeur de pénétration", "is_correct": false },
+        { "text": "La longueur d'onde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la molarité d'une solution ?",
+      "difficulty": "Facile",
+      "explanation": "La molarité (M) est la concentration exprimée en moles de soluté par litre de solution : M = n/V_solution. C'est l'unité de concentration la plus couramment utilisée en chimie.",
+      "answers": [
+        {
+          "text": "Les moles de soluté par litre de solution",
+          "is_correct": true
+        },
+        {
+          "text": "Les moles de soluté par kg de solvant",
+          "is_correct": false
+        },
+        { "text": "Les grammes par litre", "is_correct": false },
+        { "text": "Le pourcentage massique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'inertie thermique d'un matériau ?",
+      "difficulty": "Moyen",
+      "explanation": "L'inertie thermique est la capacité d'un matériau à stocker de la chaleur et à ralentir les variations de température. Elle dépend de la masse volumique, de la capacité calorifique et de la conductivité thermique. L'eau a une forte inertie thermique.",
+      "answers": [
+        {
+          "text": "La capacité à stocker la chaleur et résister aux variations",
+          "is_correct": true
+        },
+        { "text": "La conductivité thermique", "is_correct": false },
+        { "text": "La température de fusion", "is_correct": false },
+        { "text": "La dilatation thermique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence cardiaque moyenne au repos chez l'adulte ?",
+      "difficulty": "Facile",
+      "explanation": "La fréquence cardiaque moyenne au repos chez l'adulte est d'environ 60-80 battements par minute (bpm). Elle peut varier selon l'âge, la condition physique et l'état de santé. Les sportifs entraînés ont souvent une fréquence plus basse.",
+      "answers": [
+        { "text": "60-80 bpm", "is_correct": true },
+        { "text": "100-120 bpm", "is_correct": false },
+        { "text": "40-50 bpm", "is_correct": false },
+        { "text": "120-140 bpm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dioptrie en optique ?",
+      "difficulty": "Moyen",
+      "explanation": "La dioptrie (δ ou D) est l'unité de vergence d'un système optique. C'est l'inverse de la distance focale exprimée en mètres : V = 1/f. Une lentille de +2 dioptries a une distance focale de 0,5 m (50 cm).",
+      "answers": [
+        {
+          "text": "L'inverse de la distance focale en mètres",
+          "is_correct": true
+        },
+        { "text": "La distance focale en centimètres", "is_correct": false },
+        { "text": "L'indice de réfraction", "is_correct": false },
+        { "text": "Le grossissement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la conductance thermique ?",
+      "difficulty": "Moyen",
+      "explanation": "La conductance thermique (G) est la capacité d'un objet à conduire la chaleur, dépendant de sa géométrie : G = λS/e (λ = conductivité, S = surface, e = épaisseur). Elle s'exprime en W/K. Plus G est élevé, plus les échanges thermiques sont rapides.",
+      "answers": [
+        {
+          "text": "La capacité à conduire la chaleur selon la géométrie",
+          "is_correct": true
+        },
+        { "text": "La température du matériau", "is_correct": false },
+        { "text": "La chaleur spécifique", "is_correct": false },
+        { "text": "La dilatation thermique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression atmosphérique normale au niveau de la mer ?",
+      "difficulty": "Facile",
+      "explanation": "La pression atmosphérique normale au niveau de la mer est de 101 325 Pa (pascal), soit 1013 hPa, 1 atm ou 760 mmHg. Elle diminue avec l'altitude d'environ 12 hPa par 100 m.",
+      "answers": [
+        { "text": "101 325 Pa", "is_correct": true },
+        { "text": "1000 Pa", "is_correct": false },
+        { "text": "10 000 Pa", "is_correct": false },
+        { "text": "1 000 000 Pa", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient d'absorption en spectrophotométrie ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coefficient d'absorption molaire (ε) relie l'absorbance à la concentration dans la loi de Beer-Lambert : A = εlc (l = trajet optique, c = concentration). Il s'exprime en L·mol^-1·cm^-1 et caractérise la capacité d'absorption d'une substance.",
+      "answers": [
+        {
+          "text": "Le coefficient de la loi de Beer-Lambert",
+          "is_correct": true
+        },
+        { "text": "La longueur d'onde absorbée", "is_correct": false },
+        { "text": "Le pourcentage de lumière absorbée", "is_correct": false },
+        { "text": "La concentration de la solution", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le moment de force (ou couple) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le moment de force (M) par rapport à un axe est le produit de la force par la distance perpendiculaire à l'axe : M = F x d. Il s'exprime en N·m et mesure la capacité d'une force à produire une rotation.",
+      "answers": [
+        {
+          "text": "Le produit de la force par la distance",
+          "is_correct": true
+        },
+        { "text": "La force appliquée", "is_correct": false },
+        { "text": "La vitesse de rotation", "is_correct": false },
+        { "text": "L'énergie de rotation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la vitesse des ultrasons dans l'os ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ultrasons se propagent beaucoup plus vite dans l'os (environ 3000-4000 m/s) que dans les tissus mous (1540 m/s). Cette différence importante crée une forte réflexion à l'interface os/tissus, rendant difficile l'imagerie au-delà de l'os.",
+      "answers": [
+        { "text": "3000-4000 m/s", "is_correct": true },
+        { "text": "1540 m/s", "is_correct": false },
+        { "text": "340 m/s", "is_correct": false },
+        { "text": "5000 m/s", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Wien en physique du rayonnement ?",
+      "difficulty": "Difficile",
+      "explanation": "La loi de Wien relie la longueur d'onde du maximum d'émission d'un corps noir à sa température : λ_max x T = 2,898 x 10^-3 m·K. Le corps humain à 37°C émet principalement dans l'infrarouge lointain (λ ≈ 9,3 μm).",
+      "answers": [
+        { "text": "λ_max x T = constante", "is_correct": true },
+        { "text": "E = hf", "is_correct": false },
+        { "text": "P = oT⁴", "is_correct": false },
+        { "text": "I = I₀e^(-μx)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du module d'Young ?",
+      "difficulty": "Difficile",
+      "explanation": "Le module d'Young (E) est une constante élastique qui caractérise la rigidité d'un matériau : E = o/ε (o = contrainte, ε = déformation). Il s'exprime en pascals (Pa). L'acier a un module d'Young élevé (~200 GPa), le caoutchouc un module faible.",
+      "answers": [
+        { "text": "Le rapport contrainte/déformation", "is_correct": true },
+        { "text": "La résistance à la rupture", "is_correct": false },
+        { "text": "La dureté du matériau", "is_correct": false },
+        { "text": "La masse volumique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la constante de Stefan-Boltzmann ?",
+      "difficulty": "Difficile",
+      "explanation": "La constante de Stefan-Boltzmann (o) vaut 5,67 x 10^-8 W·m^-2·K^-4. Elle apparaît dans la loi de Stefan-Boltzmann : P = oAεT⁴, qui donne la puissance rayonnée par un corps en fonction de sa température.",
+      "answers": [
+        { "text": "5,67 x 10^-8 W·m^-2·K^-4", "is_correct": true },
+        { "text": "6,63 x 10^-34 J·s", "is_correct": false },
+        { "text": "1,38 x 10^-23 J/K", "is_correct": false },
+        { "text": "8,314 J/(mol·K)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la pression de vapeur saturante ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression de vapeur saturante est la pression de vapeur en équilibre avec le liquide à une température donnée. Pour l'eau à 37°C, elle est d'environ 6,3 kPa. Elle augmente exponentiellement avec la température (100°C : 101,3 kPa).",
+      "answers": [
+        {
+          "text": "La pression de vapeur en équilibre avec le liquide",
+          "is_correct": true
+        },
+        { "text": "La pression atmosphérique", "is_correct": false },
+        { "text": "La pression osmotique", "is_correct": false },
+        { "text": "La pression hydrostatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la longueur d'onde des rayons ultraviolets (UV) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les rayons ultraviolets ont des longueurs d'onde de 10 à 400 nm, soit juste en dessous du spectre visible (violet < 400 nm). Les UV sont subdivisés en UVA (315-400 nm), UVB (280-315 nm) et UVC (100-280 nm).",
+      "answers": [
+        { "text": "10-400 nm", "is_correct": true },
+        { "text": "400-800 nm", "is_correct": false },
+        { "text": "0,01-0,1 nm", "is_correct": false },
+        { "text": "1000-10000 nm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de polarisation de la lumière ?",
+      "difficulty": "Moyen",
+      "explanation": "La polarisation est l'orientation du champ électrique d'une onde lumineuse dans un plan privilégié. La lumière naturelle est non polarisée. Elle peut être polarisée par réflexion, diffusion ou traversée de certains matériaux (filtres polarisants).",
+      "answers": [
+        {
+          "text": "L'orientation du champ électrique dans un plan",
+          "is_correct": true
+        },
+        { "text": "La séparation des couleurs", "is_correct": false },
+        { "text": "L'absorption de la lumière", "is_correct": false },
+        { "text": "La diffraction de la lumière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la capacité thermique massique ?",
+      "difficulty": "Moyen",
+      "explanation": "La capacité thermique massique (ou chaleur massique) est la quantité d'énergie nécessaire pour élever de 1 K (ou 1°C) la température de 1 kg de substance. Elle s'exprime en J/(kg·K). Pour l'eau, c = 4,18 kJ/(kg·K).",
+      "answers": [
+        {
+          "text": "L'énergie pour élever de 1 K la température de 1 kg",
+          "is_correct": true
+        },
+        { "text": "La température de fusion", "is_correct": false },
+        { "text": "La conductivité thermique", "is_correct": false },
+        { "text": "La chaleur latente", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la pression partielle de CO₂ dans le sang artériel (PaCO₂) ?",
+      "difficulty": "Moyen",
+      "explanation": "La PaCO₂ est la pression partielle de dioxyde de carbone dans le sang artériel. Elle est normalement de 40 mmHg (5,3 kPa). Une augmentation indique une hypercapnie, une diminution une hypocapnie.",
+      "answers": [
+        { "text": "40 mmHg (5,3 kPa)", "is_correct": true },
+        { "text": "100 mmHg", "is_correct": false },
+        { "text": "80 mmHg", "is_correct": false },
+        { "text": "20 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la réfraction de la lumière ?",
+      "difficulty": "Facile",
+      "explanation": "La réfraction est le changement de direction d'un rayon lumineux lorsqu'il passe d'un milieu à un autre de densité différente. Elle est régie par la loi de Snell-Descartes : n1sinθ1 = n₂sinθ₂.",
+      "answers": [
+        {
+          "text": "Le changement de direction à l'interface de deux milieux",
+          "is_correct": true
+        },
+        { "text": "La réflexion de la lumière", "is_correct": false },
+        { "text": "L'absorption de la lumière", "is_correct": false },
+        { "text": "La diffusion de la lumière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence respiratoire normale au repos chez l'adulte ?",
+      "difficulty": "Facile",
+      "explanation": "La fréquence respiratoire normale au repos chez l'adulte est de 12-20 cycles par minute. Elle augmente avec l'exercice physique, la fièvre ou les troubles respiratoires. On parle de tachypnée au-delà de 20/min, de bradypnée en-dessous de 12/min.",
+      "answers": [
+        { "text": "12-20 cycles/min", "is_correct": true },
+        { "text": "30-40 cycles/min", "is_correct": false },
+        { "text": "5-10 cycles/min", "is_correct": false },
+        { "text": "40-60 cycles/min", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le pouvoir de pénétration des particules alpha ?",
+      "difficulty": "Facile",
+      "explanation": "Les particules alpha (noyaux d'hélium) ont un très faible pouvoir de pénétration. Elles sont arrêtées par une feuille de papier ou quelques centimètres d'air. Elles sont dangereuses principalement en cas d'ingestion ou d'inhalation.",
+      "answers": [
+        { "text": "Très faible, arrêtées par du papier", "is_correct": true },
+        {
+          "text": "Moyen, traversent plusieurs cm de tissu",
+          "is_correct": false
+        },
+        { "text": "Élevé, nécessitent du plomb", "is_correct": false },
+        { "text": "Maximal, traversent tout", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la résolution spatiale en imagerie ?",
+      "difficulty": "Moyen",
+      "explanation": "La résolution spatiale est la distance minimale entre deux points qui peuvent être distingués séparément dans une image. Elle dépend de la taille du pixel, du pouvoir de résolution du système et du contraste. Une haute résolution permet de voir des détails fins.",
+      "answers": [
+        {
+          "text": "La distance minimale entre deux points distinguables",
+          "is_correct": true
+        },
+        { "text": "La taille de l'image", "is_correct": false },
+        { "text": "Le contraste de l'image", "is_correct": false },
+        { "text": "Le temps d'acquisition", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la conductivité thermique ?",
+      "difficulty": "Moyen",
+      "explanation": "La conductivité thermique (λ) est la capacité d'un matériau à conduire la chaleur. Elle s'exprime en W/(m·K). Les métaux ont une conductivité élevée (~400 W/(m·K) pour le cuivre), les isolants une conductivité faible (~0,04 W/(m·K) pour la laine).",
+      "answers": [
+        { "text": "La capacité à conduire la chaleur", "is_correct": true },
+        { "text": "La capacité calorifique", "is_correct": false },
+        { "text": "La température du matériau", "is_correct": false },
+        { "text": "La dilatation thermique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la puissance acoustique ?",
+      "difficulty": "Moyen",
+      "explanation": "La puissance acoustique (P) est l'énergie totale émise par une source sonore par unité de temps. Elle s'exprime en watts (W). L'intensité acoustique est la puissance par unité de surface : I = P/S.",
+      "answers": [
+        { "text": "L'énergie émise par unité de temps", "is_correct": true },
+        { "text": "La fréquence du son", "is_correct": false },
+        { "text": "L'amplitude de l'onde", "is_correct": false },
+        { "text": "La vitesse du son", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la dilatation thermique ?",
+      "difficulty": "Facile",
+      "explanation": "La dilatation thermique est l'augmentation de volume (ou de longueur) d'un corps lorsque sa température augmente. Le coefficient de dilatation linéaire (a) caractérise cette propriété : ΔL = L₀aΔT.",
+      "answers": [
+        {
+          "text": "L'augmentation de volume avec la température",
+          "is_correct": true
+        },
+        { "text": "La fusion d'un solide", "is_correct": false },
+        { "text": "La conductivité thermique", "is_correct": false },
+        { "text": "La capacité calorifique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le bruit en imagerie médicale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le bruit est la variation aléatoire du signal dans une image, réduisant la qualité et le contraste. Il peut avoir plusieurs origines : bruit quantique (nombre de photons limité), bruit électronique, ou bruit de reconstruction. Le rapport signal/bruit (SNR) caractérise la qualité.",
+      "answers": [
+        { "text": "La variation aléatoire du signal", "is_correct": true },
+        { "text": "Le contraste de l'image", "is_correct": false },
+        { "text": "La résolution spatiale", "is_correct": false },
+        { "text": "Le temps d'acquisition", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression partielle d'O₂ dans le sang artériel (PaO₂) ?",
+      "difficulty": "Moyen",
+      "explanation": "La PaO₂ normale est d'environ 100 mmHg (13,3 kPa) au niveau de la mer. Elle diminue avec l'âge et l'altitude. Une PaO₂ < 80 mmHg indique une hypoxémie (manque d'oxygène dans le sang).",
+      "answers": [
+        { "text": "100 mmHg (13,3 kPa)", "is_correct": true },
+        { "text": "40 mmHg", "is_correct": false },
+        { "text": "120 mmHg", "is_correct": false },
+        { "text": "60 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Coulomb en électrostatique ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Coulomb donne la force électrostatique entre deux charges ponctuelles : F = k(q1q₂)/r² (k = 9 x 10^9 N·m²/C², r = distance). La force est attractive si les charges sont de signes opposés, répulsive si de même signe.",
+      "answers": [
+        { "text": "F = k(q1q₂)/r²", "is_correct": true },
+        { "text": "F = ma", "is_correct": false },
+        { "text": "F = qE", "is_correct": false },
+        { "text": "F = 6πηrv", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de dispersion de la lumière ?",
+      "difficulty": "Moyen",
+      "explanation": "La dispersion est la séparation de la lumière blanche en ses composantes colorées lors de la traversée d'un milieu réfringent (prisme). Elle est due à la variation de l'indice de réfraction avec la longueur d'onde. C'est l'origine de l'arc-en-ciel.",
+      "answers": [
+        {
+          "text": "La séparation des couleurs par réfraction",
+          "is_correct": true
+        },
+        { "text": "La diffusion de la lumière", "is_correct": false },
+        { "text": "L'absorption de la lumière", "is_correct": false },
+        { "text": "La polarisation de la lumière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité de l'énergie dans le système international ?",
+      "difficulty": "Facile",
+      "explanation": "Le joule (J) est l'unité SI d'énergie. 1 J = 1 N·m = 1 kg·m²/s². D'autres unités sont courantes : la calorie (1 cal = 4,18 J), le kilowatt-heure (1 kWh = 3,6 MJ), l'électronvolt (1 eV = 1,6 x 10^-19 J).",
+      "answers": [
+        { "text": "Le joule (J)", "is_correct": true },
+        { "text": "Le watt (W)", "is_correct": false },
+        { "text": "Le newton (N)", "is_correct": false },
+        { "text": "Le pascal (Pa)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de saturation en IRM ?",
+      "difficulty": "Difficile",
+      "explanation": "La saturation est la perte de l'aimantation longitudinale lorsque les impulsions radiofréquence se succèdent trop rapidement (TR court). Les protons n'ont pas le temps de revenir à l'équilibre. La saturation réduit le signal mais peut créer du contraste (séquences pondérées T1).",
+      "answers": [
+        {
+          "text": "La perte d'aimantation par impulsions rapprochées",
+          "is_correct": true
+        },
+        { "text": "Le signal maximal", "is_correct": false },
+        { "text": "L'excitation complète", "is_correct": false },
+        { "text": "La relaxation complète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la relation d'Einstein en physique statistique ?",
+      "difficulty": "Difficile",
+      "explanation": "La relation d'Einstein relie le coefficient de diffusion D à la mobilité μ d'une particule : D = μkT (k = constante de Boltzmann, T = température). Elle établit un lien entre processus microscopiques (diffusion) et macroscopiques (mobilité sous force).",
+      "answers": [
+        { "text": "D = μkT", "is_correct": true },
+        { "text": "E = mc²", "is_correct": false },
+        { "text": "E = hf", "is_correct": false },
+        { "text": "F = ma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la loi de Snell-Descartes ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Snell-Descartes décrit la réfraction de la lumière à l'interface de deux milieux : n1sinθ1 = n₂sinθ₂ (n = indice de réfraction, θ = angle par rapport à la normale). Elle permet de calculer la déviation d'un rayon lumineux.",
+      "answers": [
+        { "text": "n1sinθ1 = n₂sinθ₂", "is_correct": true },
+        { "text": "θ1 = θ₂", "is_correct": false },
+        { "text": "n1 = n₂", "is_correct": false },
+        { "text": "sinθ1/sinθ₂ = 1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le temps d'écho (TE) en IRM ?",
+      "difficulty": "Difficile",
+      "explanation": "Le temps d'écho (TE) est le délai entre l'impulsion d'excitation radiofréquence et l'acquisition du signal d'écho. Un TE court donne une image pondérée T1, un TE long une image pondérée T2. Le TE typique varie de 10 à 100 ms.",
+      "answers": [
+        {
+          "text": "Le délai entre excitation et acquisition du signal",
+          "is_correct": true
+        },
+        { "text": "Le temps de répétition", "is_correct": false },
+        { "text": "Le temps d'acquisition total", "is_correct": false },
+        { "text": "Le temps de relaxation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du coefficient de transmission en optique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coefficient de transmission (T) est le rapport entre l'intensité lumineuse transmise et l'intensité incidente : T = I_transmise/I_incidente. Il varie de 0 (opaque) à 1 (transparent). Pour l'eau, T ≈ 0,96 dans le visible.",
+      "answers": [
+        {
+          "text": "Le rapport intensité transmise/incidente",
+          "is_correct": true
+        },
+        { "text": "L'angle de transmission", "is_correct": false },
+        { "text": "La vitesse de la lumière", "is_correct": false },
+        { "text": "La longueur d'onde transmise", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur de la constante de Faraday utilisée en électrochimie ?",
+      "difficulty": "Facile",
+      "explanation": "La constante de Faraday (F) est égale à 96 485 C/mol. Elle représente la charge électrique portée par une mole d'électrons.",
+      "answers": [
+        { "text": "96 485 C/mol", "is_correct": true },
+        { "text": "6,022 x 10²³ C/mol", "is_correct": false },
+        { "text": "1,602 x 10⁻¹⁹ C/mol", "is_correct": false },
+        { "text": "8,314 C/mol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En échographie, quelle est approximativement la vitesse des ultrasons dans les tissus mous ?",
+      "difficulty": "Facile",
+      "explanation": "La vitesse des ultrasons dans les tissus mous est d'environ 1540 m/s. Cette valeur est utilisée comme référence en échographie médicale.",
+      "answers": [
+        { "text": "1540 m/s", "is_correct": true },
+        { "text": "340 m/s", "is_correct": false },
+        { "text": "3000 m/s", "is_correct": false },
+        { "text": "5000 m/s", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe de la dialyse rénale ?",
+      "difficulty": "Moyen",
+      "explanation": "La dialyse repose sur le principe de diffusion à travers une membrane semi-perméable. Les déchets métaboliques passent du sang vers le dialysat selon leur gradient de concentration.",
+      "answers": [
+        {
+          "text": "Diffusion à travers une membrane semi-perméable",
+          "is_correct": true
+        },
+        {
+          "text": "Filtration sous pression hydrostatique uniquement",
+          "is_correct": false
+        },
+        {
+          "text": "Transport actif consommant de l'énergie",
+          "is_correct": false
+        },
+        {
+          "text": "Osmose inverse contre le gradient",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la longueur d'onde approximative des rayons X utilisés en radiographie médicale ?",
+      "difficulty": "Moyen",
+      "explanation": "Les rayons X médicaux ont des longueurs d'onde de l'ordre de 0,01 à 10 nm (10⁻¹¹ à 10⁻⁸ m). Cette gamme correspond aux énergies utilisées en diagnostic.",
+      "answers": [
+        { "text": "0,01 à 10 nm", "is_correct": true },
+        { "text": "400 à 700 nm", "is_correct": false },
+        { "text": "1 à 10 µm", "is_correct": false },
+        { "text": "1 à 10 mm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient de partage (partition) en pharmacologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coefficient de partage est le rapport de la concentration d'une substance entre deux phases non miscibles (généralement octanol/eau). Il mesure la lipophilie d'un médicament.",
+      "answers": [
+        {
+          "text": "Rapport de concentration entre deux phases",
+          "is_correct": true
+        },
+        {
+          "text": "Vitesse de dissolution dans l'eau",
+          "is_correct": false
+        },
+        {
+          "text": "Degré d'ionisation en solution",
+          "is_correct": false
+        },
+        { "text": "Temps de demi-vie plasmatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du travail mécanique en physique ?",
+      "difficulty": "Facile",
+      "explanation": "Le travail mécanique (W) est défini comme le produit scalaire de la force par le déplacement : W = F x d x cos(θ), où θ est l'angle entre force et déplacement.",
+      "answers": [
+        {
+          "text": "Force x déplacement x cos(angle)",
+          "is_correct": true
+        },
+        { "text": "Force x vitesse", "is_correct": false },
+        { "text": "Masse x accélération", "is_correct": false },
+        { "text": "Énergie cinétique / temps", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En optique, qu'est-ce que l'astigmatisme ?",
+      "difficulty": "Moyen",
+      "explanation": "L'astigmatisme est un défaut optique dû à une différence de courbure entre les méridiens de la cornée ou du cristallin, entraînant une focalisation différente selon les axes.",
+      "answers": [
+        {
+          "text": "Défaut de courbure avec focale différente selon les axes",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de transparence du cristallin",
+          "is_correct": false
+        },
+        {
+          "text": "Allongement excessif du globe oculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Rigidité du cristallin avec l'âge",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur normale de l'osmolarité plasmatique chez l'homme ?",
+      "difficulty": "Facile",
+      "explanation": "L'osmolarité plasmatique normale est d'environ 285-295 mOsm/L. Elle reflète la concentration totale des particules dissoutes dans le plasma.",
+      "answers": [
+        { "text": "285-295 mOsm/L", "is_correct": true },
+        { "text": "140-150 mOsm/L", "is_correct": false },
+        { "text": "500-600 mOsm/L", "is_correct": false },
+        { "text": "1000-1200 mOsm/L", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'effet Compton en radiologie ?",
+      "difficulty": "Difficile",
+      "explanation": "L'effet Compton est une interaction où un photon X ou gamma cède une partie de son énergie à un électron, puis est diffusé avec une énergie et une direction modifiées. C'est la principale source de diffusion en radiologie.",
+      "answers": [
+        {
+          "text": "Diffusion d'un photon après interaction avec un électron",
+          "is_correct": true
+        },
+        {
+          "text": "Absorption totale du photon par un électron lié",
+          "is_correct": false
+        },
+        {
+          "text": "Production d'une paire électron-positon",
+          "is_correct": false
+        },
+        {
+          "text": "Émission de rayonnement de freinage",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la formule du débit cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "Le débit cardiaque (Q) est égal au volume d'éjection systolique (VES) multiplié par la fréquence cardiaque (FC) : Q = VES x FC. Il s'exprime en L/min.",
+      "answers": [
+        {
+          "text": "Volume d'éjection x Fréquence cardiaque",
+          "is_correct": true
+        },
+        {
+          "text": "Pression artérielle x Résistance vasculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Vitesse sanguine x Section vasculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Volume sanguin / Temps de circulation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En IRM, qu'est-ce que le temps d'écho (TE) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le temps d'écho (TE) est le délai entre l'impulsion RF d'excitation et l'acquisition du signal. Il influence le contraste T2 : un TE long accentue les différences de T2.",
+      "answers": [
+        {
+          "text": "Délai entre excitation RF et acquisition du signal",
+          "is_correct": true
+        },
+        {
+          "text": "Temps entre deux impulsions RF successives",
+          "is_correct": false
+        },
+        {
+          "text": "Durée de l'impulsion RF d'excitation",
+          "is_correct": false
+        },
+        {
+          "text": "Temps nécessaire pour la repousse T1",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principe du microscope à contraste de phase ?",
+      "difficulty": "Difficile",
+      "explanation": "Le microscope à contraste de phase transforme les variations de phase de la lumière traversant un échantillon transparent en variations d'intensité visibles. Il utilise une lame de phase pour créer un déphasage supplémentaire.",
+      "answers": [
+        {
+          "text": "Transformation des variations de phase en intensité",
+          "is_correct": true
+        },
+        {
+          "text": "Coloration des structures transparentes",
+          "is_correct": false
+        },
+        {
+          "text": "Fluorescence des molécules marquées",
+          "is_correct": false
+        },
+        {
+          "text": "Diffraction par des structures périodiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est l'unité SI de la viscosité dynamique ?",
+      "difficulty": "Facile",
+      "explanation": "L'unité SI de la viscosité dynamique est le Pascal-seconde (Pa·s). On utilise aussi le Poise (P) en CGS : 1 Pa·s = 10 P.",
+      "answers": [
+        { "text": "Pascal-seconde (Pa·s)", "is_correct": true },
+        { "text": "Newton par mètre carré (N/m²)", "is_correct": false },
+        { "text": "Joule par kelvin (J/K)", "is_correct": false },
+        { "text": "Mètre carré par seconde (m²/s)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le phénomène de cavitation en ultrasons thérapeutiques ?",
+      "difficulty": "Difficile",
+      "explanation": "La cavitation est la formation et l'implosion de bulles de gaz dans un liquide soumis à des ultrasons de forte intensité. Elle peut produire des effets mécaniques et thermiques importants, utilisés en thérapie.",
+      "answers": [
+        {
+          "text": "Formation et implosion de bulles de gaz",
+          "is_correct": true
+        },
+        {
+          "text": "Échauffement des tissus par absorption",
+          "is_correct": false
+        },
+        {
+          "text": "Réflexion totale sur des interfaces",
+          "is_correct": false
+        },
+        { "text": "Diffraction par des obstacles", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la relation entre pression partielle et fraction molaire d'un gaz (loi de Dalton) ?",
+      "difficulty": "Moyen",
+      "explanation": "Selon la loi de Dalton, la pression partielle d'un gaz est égale à sa fraction molaire multipliée par la pression totale : Pi = Xi x Ptotale.",
+      "answers": [
+        {
+          "text": "Pression partielle = Fraction molaire x Pression totale",
+          "is_correct": true
+        },
+        {
+          "text": "Pression partielle = Volume x Température",
+          "is_correct": false
+        },
+        {
+          "text": "Pression partielle = Masse molaire / Volume",
+          "is_correct": false
+        },
+        {
+          "text": "Pression partielle = Constante / Température",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la bioluminescence ?",
+      "difficulty": "Facile",
+      "explanation": "La bioluminescence est l'émission de lumière par un organisme vivant suite à une réaction chimique (souvent impliquant la luciférine). Elle est utilisée en biologie comme marqueur.",
+      "answers": [
+        {
+          "text": "Émission de lumière par réaction chimique biologique",
+          "is_correct": true
+        },
+        {
+          "text": "Absorption de lumière UV par des protéines",
+          "is_correct": false
+        },
+        {
+          "text": "Diffusion de la lumière par les tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Réflexion de la lumière sur des structures",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En thermodynamique, qu'est-ce que l'enthalpie libre (énergie de Gibbs) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'enthalpie libre (G) est une fonction d'état définie par G = H - TS (enthalpie - température x entropie). Sa variation (ΔG) détermine la spontanéité d'une réaction : ΔG < 0 pour une réaction spontanée.",
+      "answers": [
+        {
+          "text": "G = H - TS, détermine la spontanéité des réactions",
+          "is_correct": true
+        },
+        {
+          "text": "Énergie totale d'un système fermé",
+          "is_correct": false
+        },
+        {
+          "text": "Chaleur échangée à pression constante",
+          "is_correct": false
+        },
+        {
+          "text": "Travail maximum d'un système isolé",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fréquence du secteur électrique en Europe ?",
+      "difficulty": "Facile",
+      "explanation": "En Europe, la fréquence du courant alternatif du secteur est de 50 Hz. Aux États-Unis, elle est de 60 Hz.",
+      "answers": [
+        { "text": "50 Hz", "is_correct": true },
+        { "text": "60 Hz", "is_correct": false },
+        { "text": "100 Hz", "is_correct": false },
+        { "text": "25 Hz", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient d'absorption linéique (µ) en radiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coefficient d'absorption linéique (µ) représente la probabilité d'interaction d'un photon par unité de longueur dans un matériau. Il intervient dans la loi de Beer-Lambert : I = I₀ x e^(-µx).",
+      "answers": [
+        {
+          "text": "Probabilité d'interaction par unité de longueur",
+          "is_correct": true
+        },
+        {
+          "text": "Épaisseur nécessaire pour arrêter tous les photons",
+          "is_correct": false
+        },
+        {
+          "text": "Énergie absorbée par unité de masse",
+          "is_correct": false
+        },
+        {
+          "text": "Nombre de photons émis par seconde",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En spirométrie, qu'est-ce que le VEMS (Volume Expiratoire Maximal par Seconde) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le VEMS est le volume d'air maximal expiré lors de la première seconde d'une expiration forcée. Il permet d'évaluer l'obstruction bronchique. Le rapport VEMS/CVF est un paramètre clé.",
+      "answers": [
+        {
+          "text": "Volume expiré dans la 1ère seconde d'expiration forcée",
+          "is_correct": true
+        },
+        {
+          "text": "Volume total d'air dans les poumons",
+          "is_correct": false
+        },
+        {
+          "text": "Volume résiduel après expiration maximale",
+          "is_correct": false
+        },
+        {
+          "text": "Volume courant lors de la respiration normale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur de la constante de Boltzmann (k) ?",
+      "difficulty": "Moyen",
+      "explanation": "La constante de Boltzmann k = 1,38 x 10⁻²³ J/K. Elle relie l'énergie thermique à la température absolue et intervient dans de nombreuses lois (gaz parfaits, distribution de Maxwell).",
+      "answers": [
+        { "text": "1,38 x 10⁻²³ J/K", "is_correct": true },
+        { "text": "8,314 J/(mol·K)", "is_correct": false },
+        { "text": "6,626 x 10⁻³⁴ J·s", "is_correct": false },
+        { "text": "9,81 m/s²", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le seuil auditif en audiométrie ?",
+      "difficulty": "Facile",
+      "explanation": "Le seuil auditif est l'intensité sonore minimale qu'une personne peut percevoir à une fréquence donnée. Il est mesuré en décibels (dB HL) et représente le niveau 0 de l'audiogramme.",
+      "answers": [
+        {
+          "text": "Intensité minimale perceptible à une fréquence",
+          "is_correct": true
+        },
+        { "text": "Fréquence maximale audible", "is_correct": false },
+        {
+          "text": "Intensité causant une douleur auditive",
+          "is_correct": false
+        },
+        {
+          "text": "Durée minimale d'un son perceptible",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En IRM, qu'est-ce que l'artéfact de susceptibilité magnétique ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artéfact de susceptibilité magnétique survient aux interfaces entre tissus de susceptibilités différentes (air/tissu, métal/tissu). Il crée des distorsions du champ magnétique et des zones de signal altéré.",
+      "answers": [
+        {
+          "text": "Distorsion du signal aux interfaces de susceptibilités différentes",
+          "is_correct": true
+        },
+        {
+          "text": "Mouvement du patient pendant l'acquisition",
+          "is_correct": false
+        },
+        {
+          "text": "Repliement de l'image par sous-échantillonnage",
+          "is_correct": false
+        },
+        {
+          "text": "Variation du signal avec la distance à l'antenne",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du nombre de Reynolds en mécanique des fluides ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nombre de Reynolds (Re) est un nombre sans dimension : Re = (p x v x L) / η, où p est la masse volumique, v la vitesse, L une longueur caractéristique, et η la viscosité dynamique. Il caractérise le régime d'écoulement (laminaire vs turbulent).",
+      "answers": [
+        {
+          "text": "Re = (p x v x L) / η, caractérise laminaire/turbulent",
+          "is_correct": true
+        },
+        {
+          "text": "Rapport pression dynamique / pression statique",
+          "is_correct": false
+        },
+        {
+          "text": "Vitesse critique pour la cavitation",
+          "is_correct": false
+        },
+        {
+          "text": "Débit volumique / Section du conduit",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la fenêtre thérapeutique d'un médicament ?",
+      "difficulty": "Moyen",
+      "explanation": "La fenêtre thérapeutique est l'intervalle de concentrations plasmatiques entre la concentration minimale efficace et la concentration toxique. Une fenêtre étroite nécessite un suivi pharmacologique rigoureux.",
+      "answers": [
+        {
+          "text": "Intervalle entre concentration efficace et toxique",
+          "is_correct": true
+        },
+        { "text": "Durée d'action du médicament", "is_correct": false },
+        {
+          "text": "Temps d'absorption intestinale",
+          "is_correct": false
+        },
+        {
+          "text": "Période de validité de la substance",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En optique, qu'est-ce que la profondeur de champ ?",
+      "difficulty": "Moyen",
+      "explanation": "La profondeur de champ est la zone de distance où les objets apparaissent nets dans une image. Elle augmente quand l'ouverture (diaphragme) diminue et dépend de la focale et de la distance de mise au point.",
+      "answers": [
+        {
+          "text": "Zone de distance où l'image est nette",
+          "is_correct": true
+        },
+        {
+          "text": "Distance minimale de vision nette",
+          "is_correct": false
+        },
+        {
+          "text": "Épaisseur maximale traversable par la lumière",
+          "is_correct": false
+        },
+        { "text": "Angle de champ visuel maximal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la loi de conservation en mécanique concernant les systèmes isolés ?",
+      "difficulty": "Facile",
+      "explanation": "Dans un système isolé (sans forces extérieures), la quantité de mouvement totale se conserve : o(m x v) = constante. C'est le principe fondamental des chocs.",
+      "answers": [
+        {
+          "text": "Conservation de la quantité de mouvement",
+          "is_correct": true
+        },
+        {
+          "text": "Conservation de la vitesse individuelle",
+          "is_correct": false
+        },
+        {
+          "text": "Conservation de la force appliquée",
+          "is_correct": false
+        },
+        { "text": "Conservation du volume", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le potentiel d'action en neurophysiologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le potentiel d'action est une dépolarisation rapide et transitoire de la membrane neuronale (de -70 mV à +30 mV environ), propagée le long de l'axone. Il résulte de l'ouverture séquentielle de canaux Na⁺ puis K⁺.",
+      "answers": [
+        {
+          "text": "Dépolarisation rapide propagée le long de l'axone",
+          "is_correct": true
+        },
+        {
+          "text": "Potentiel de membrane au repos",
+          "is_correct": false
+        },
+        {
+          "text": "Gradient de concentration ionique",
+          "is_correct": false
+        },
+        {
+          "text": "Énergie nécessaire à la pompe Na⁺/K⁺",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En radiothérapie, qu'est-ce que la dose de tolérance ?",
+      "difficulty": "Moyen",
+      "explanation": "La dose de tolérance est la dose maximale d'irradiation qu'un tissu sain peut recevoir sans développer de complications graves. Elle varie selon les organes (moelle épinière, poumon, rein, etc.).",
+      "answers": [
+        {
+          "text": "Dose maximale sans complications pour un tissu sain",
+          "is_correct": true
+        },
+        {
+          "text": "Dose minimale pour tuer les cellules tumorales",
+          "is_correct": false
+        },
+        {
+          "text": "Dose totale délivrée pendant le traitement",
+          "is_correct": false
+        },
+        {
+          "text": "Dose absorbée par gramme de tissu",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la formule de la loi de Fick pour la diffusion ?",
+      "difficulty": "Difficile",
+      "explanation": "La loi de Fick stipule que le flux de diffusion (J) est proportionnel au gradient de concentration : J = -D x (dC/dx), où D est le coefficient de diffusion. Le signe négatif indique que la diffusion se fait vers les concentrations décroissantes.",
+      "answers": [
+        { "text": "J = -D x (dC/dx)", "is_correct": true },
+        { "text": "J = k x ΔT", "is_correct": false },
+        { "text": "J = A x P x ΔC", "is_correct": false },
+        { "text": "J = Q / (R x T)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la fluorescence en microscopie ?",
+      "difficulty": "Moyen",
+      "explanation": "La fluorescence est l'émission de lumière par une molécule (fluorophore) après absorption d'un photon d'énergie supérieure. La lumière émise a une longueur d'onde plus grande (déplacement de Stokes).",
+      "answers": [
+        {
+          "text": "Émission de lumière après absorption d'énergie",
+          "is_correct": true
+        },
+        {
+          "text": "Diffraction de la lumière par des structures",
+          "is_correct": false
+        },
+        {
+          "text": "Polarisation de la lumière transmise",
+          "is_correct": false
+        },
+        {
+          "text": "Interférence entre faisceaux lumineux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En électrocardiographie, quelle est la vitesse de conduction dans le faisceau de His ?",
+      "difficulty": "Difficile",
+      "explanation": "La vitesse de conduction dans le faisceau de His et les branches est d'environ 2 à 4 m/s, similaire au système de Purkinje. C'est plus rapide que dans le nœud AV (0,05 m/s) mais plus lent que dans les fibres de Purkinje (4 m/s).",
+      "answers": [
+        { "text": "2 à 4 m/s", "is_correct": true },
+        { "text": "0,05 m/s", "is_correct": false },
+        { "text": "10 à 15 m/s", "is_correct": false },
+        { "text": "0,5 m/s", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le débit de dose en radioprotection ?",
+      "difficulty": "Facile",
+      "explanation": "Le débit de dose est la dose absorbée ou équivalente par unité de temps. Il s'exprime en Gy/h ou Sv/h. C'est un paramètre clé pour évaluer l'exposition aux rayonnements.",
+      "answers": [
+        {
+          "text": "Dose par unité de temps (Gy/h ou Sv/h)",
+          "is_correct": true
+        },
+        {
+          "text": "Dose totale reçue pendant l'exposition",
+          "is_correct": false
+        },
+        {
+          "text": "Activité de la source radioactive",
+          "is_correct": false
+        },
+        { "text": "Énergie du rayonnement émis", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En biophysique, qu'est-ce que le coefficient de réflexion de Staverman (o) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le coefficient de réflexion de Staverman (o) mesure la sélectivité d'une membrane semi-perméable pour un soluté donné. o = 1 pour un soluté totalement réfléchi (imperméable), o = 0 pour un passage libre.",
+      "answers": [
+        {
+          "text": "Mesure de sélectivité membranaire (0 à 1)",
+          "is_correct": true
+        },
+        {
+          "text": "Proportion de lumière réfléchie par une surface",
+          "is_correct": false
+        },
+        {
+          "text": "Coefficient d'absorption des ultrasons",
+          "is_correct": false
+        },
+        {
+          "text": "Facteur de qualité d'un rayonnement",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition du champ électrique (E) ?",
+      "difficulty": "Facile",
+      "explanation": "Le champ électrique (E) est la force électrique par unité de charge : E = F/q. Il s'exprime en volt par mètre (V/m) ou newton par coulomb (N/C).",
+      "answers": [
+        {
+          "text": "Force électrique par unité de charge (V/m)",
+          "is_correct": true
+        },
+        {
+          "text": "Énergie potentielle électrique (J)",
+          "is_correct": false
+        },
+        { "text": "Densité de charge (C/m³)", "is_correct": false },
+        {
+          "text": "Courant par unité de surface (A/m²)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En imagerie médicale, qu'est-ce que le contraste ?",
+      "difficulty": "Moyen",
+      "explanation": "Le contraste est la différence de signal ou d'intensité entre deux structures adjacentes dans une image. Il peut être amélioré par l'injection de produits de contraste ou par les paramètres d'acquisition.",
+      "answers": [
+        {
+          "text": "Différence de signal entre deux structures",
+          "is_correct": true
+        },
+        {
+          "text": "Netteté des contours d'une structure",
+          "is_correct": false
+        },
+        {
+          "text": "Résolution spatiale de l'image",
+          "is_correct": false
+        },
+        { "text": "Rapport signal sur bruit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le coefficient de diffusion (D) en biophysique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le coefficient de diffusion (D) caractérise la vitesse de diffusion d'une substance. Il s'exprime en m²/s et dépend de la température, de la viscosité du milieu et de la taille des molécules (relation de Stokes-Einstein).",
+      "answers": [
+        {
+          "text": "Vitesse de diffusion (m²/s), dépend T et viscosité",
+          "is_correct": true
+        },
+        {
+          "text": "Concentration finale après équilibre",
+          "is_correct": false
+        },
+        {
+          "text": "Énergie d'activation de la diffusion",
+          "is_correct": false
+        },
+        {
+          "text": "Distance parcourue par unité de temps",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En acoustique, qu'est-ce que l'intensité sonore ?",
+      "difficulty": "Facile",
+      "explanation": "L'intensité sonore (I) est la puissance acoustique par unité de surface perpendiculaire à la direction de propagation. Elle s'exprime en W/m² et est reliée à la pression acoustique.",
+      "answers": [
+        {
+          "text": "Puissance par unité de surface (W/m²)",
+          "is_correct": true
+        },
+        {
+          "text": "Amplitude de l'onde sonore (m)",
+          "is_correct": false
+        },
+        { "text": "Fréquence du son (Hz)", "is_correct": false },
+        { "text": "Vitesse de propagation (m/s)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la relation entre capacité calorifique et chaleur spécifique ?",
+      "difficulty": "Moyen",
+      "explanation": "La capacité calorifique (C) est la chaleur nécessaire pour augmenter la température d'un corps de 1 K. La chaleur spécifique (c) est la capacité calorifique par unité de masse : C = m x c.",
+      "answers": [
+        {
+          "text": "Capacité = masse x chaleur spécifique",
+          "is_correct": true
+        },
+        {
+          "text": "Capacité = volume x chaleur spécifique",
+          "is_correct": false
+        },
+        {
+          "text": "Capacité = température x chaleur spécifique",
+          "is_correct": false
+        },
+        {
+          "text": "Ce sont des grandeurs identiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En optique géométrique, qu'est-ce qu'un dioptre ?",
+      "difficulty": "Moyen",
+      "explanation": "Un dioptre est une surface de séparation entre deux milieux transparents d'indices de réfraction différents. La réfraction de la lumière y suit les lois de Snell-Descartes.",
+      "answers": [
+        {
+          "text": "Surface séparant deux milieux d'indices différents",
+          "is_correct": true
+        },
+        {
+          "text": "Unité de vergence d'une lentille",
+          "is_correct": false
+        },
+        {
+          "text": "Angle de déviation d'un prisme",
+          "is_correct": false
+        },
+        {
+          "text": "Distance focale d'un système optique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la compliance pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "La compliance pulmonaire (C) est la variation de volume pulmonaire par unité de variation de pression : C = ΔV/ΔP. Elle mesure la distensibilité des poumons et s'exprime en L/cmH₂O.",
+      "answers": [
+        {
+          "text": "Variation de volume / Variation de pression",
+          "is_correct": true
+        },
+        {
+          "text": "Résistance à l'écoulement de l'air",
+          "is_correct": false
+        },
+        { "text": "Capacité vitale des poumons", "is_correct": false },
+        { "text": "Débit expiratoire de pointe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En radiologie, qu'est-ce que le libre parcours moyen d'un photon ?",
+      "difficulty": "Difficile",
+      "explanation": "Le libre parcours moyen (λ) est la distance moyenne parcourue par un photon entre deux interactions avec la matière. Il est égal à l'inverse du coefficient d'absorption linéique : λ = 1/µ.",
+      "answers": [
+        {
+          "text": "Distance moyenne entre deux interactions (1/µ)",
+          "is_correct": true
+        },
+        { "text": "Épaisseur de demi-atténuation", "is_correct": false },
+        {
+          "text": "Parcours maximal dans un matériau",
+          "is_correct": false
+        },
+        {
+          "text": "Profondeur de pénétration à 99%",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la définition de la pression osmotique selon Van't Hoff ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression osmotique (π) est donnée par la loi de Van't Hoff : π = n x R x T x i, où n est la concentration molaire, R la constante des gaz, T la température absolue, et i le coefficient de Van't Hoff.",
+      "answers": [
+        { "text": "π = n x R x T x i", "is_correct": true },
+        { "text": "π = P x V / n", "is_correct": false },
+        { "text": "π = ΔP x ΔV", "is_correct": false },
+        { "text": "π = o x (C1 - C₂)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En électricité biomédicale, qu'est-ce que l'impédance bioélectrique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'impédance bioélectrique est la résistance des tissus biologiques au passage d'un courant électrique alternatif. Elle dépend de la fréquence et permet d'estimer la composition corporelle (masse grasse/maigre).",
+      "answers": [
+        {
+          "text": "Résistance des tissus au courant alternatif",
+          "is_correct": true
+        },
+        {
+          "text": "Potentiel transmembranaire au repos",
+          "is_correct": false
+        },
+        {
+          "text": "Capacité de stockage électrique des cellules",
+          "is_correct": false
+        },
+        {
+          "text": "Conductance des canaux ioniques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que l'effet Doppler en échographie vasculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'effet Doppler permet de mesurer la vitesse du flux sanguin. La fréquence réfléchie par les globules rouges en mouvement est décalée : Δf = 2 x f₀ x v x cos(θ) / c, où v est la vitesse du sang et θ l'angle d'insonation.",
+      "answers": [
+        {
+          "text": "Décalage de fréquence par le mouvement du sang",
+          "is_correct": true
+        },
+        {
+          "text": "Atténuation du signal avec la profondeur",
+          "is_correct": false
+        },
+        {
+          "text": "Réflexion totale sur les parois vasculaires",
+          "is_correct": false
+        },
+        {
+          "text": "Diffraction par les obstacles tissulaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur du pH sanguin artériel normal ?",
+      "difficulty": "Facile",
+      "explanation": "Le pH sanguin artériel normal est de 7,35 à 7,45 (valeur moyenne 7,40). Un pH < 7,35 définit une acidose, un pH > 7,45 une alcalose.",
+      "answers": [
+        { "text": "7,35 à 7,45", "is_correct": true },
+        { "text": "7,00 à 7,20", "is_correct": false },
+        { "text": "7,50 à 7,70", "is_correct": false },
+        { "text": "6,80 à 7,00", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En thermographie médicale, quel principe physique est utilisé ?",
+      "difficulty": "Moyen",
+      "explanation": "La thermographie mesure le rayonnement infrarouge émis par la surface corporelle (loi de Stefan-Boltzmann et de Planck). Elle permet de détecter des zones d'hyperthermie (inflammation, tumeur) ou d'hypothermie (troubles vasculaires).",
+      "answers": [
+        {
+          "text": "Mesure du rayonnement infrarouge émis",
+          "is_correct": true
+        },
+        {
+          "text": "Réflexion d'ultrasons par les tissus",
+          "is_correct": false
+        },
+        {
+          "text": "Absorption de rayons X différentielle",
+          "is_correct": false
+        },
+        {
+          "text": "Résonance magnétique des protons",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que la constante diélectrique (permittivité relative) ?",
+      "difficulty": "Moyen",
+      "explanation": "La constante diélectrique (εr) est le rapport entre la permittivité d'un matériau et celle du vide. Elle caractérise la capacité d'un milieu à être polarisé par un champ électrique. Pour l'eau : εr ≈ 80.",
+      "answers": [
+        {
+          "text": "Rapport permittivité matériau / permittivité vide",
+          "is_correct": true
+        },
+        {
+          "text": "Résistance électrique d'un isolant",
+          "is_correct": false
+        },
+        {
+          "text": "Capacité de stockage d'énergie",
+          "is_correct": false
+        },
+        {
+          "text": "Conductivité thermique du matériau",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En cinématique, quelle est la définition de l'accélération ?",
+      "difficulty": "Facile",
+      "explanation": "L'accélération (a) est la dérivée de la vitesse par rapport au temps : a = dv/dt. Elle s'exprime en m/s² et représente la variation de vitesse par unité de temps.",
+      "answers": [
+        {
+          "text": "Dérivée de la vitesse par rapport au temps (m/s²)",
+          "is_correct": true
+        },
+        {
+          "text": "Vitesse divisée par le temps (m/s)",
+          "is_correct": false
+        },
+        {
+          "text": "Distance parcourue par seconde (m)",
+          "is_correct": false
+        },
+        {
+          "text": "Force appliquée par unité de masse (N)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le courant de fuite en électricité biomédicale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le courant de fuite est un courant électrique indésirable qui peut circuler entre un appareil médical et le patient ou la terre. Il doit être limité pour éviter les chocs électriques (normes de sécurité < 0,5 mA en utilisation normale).",
+      "answers": [
+        {
+          "text": "Courant indésirable entre appareil et patient/terre",
+          "is_correct": true
+        },
+        {
+          "text": "Courant de décharge d'un condensateur",
+          "is_correct": false
+        },
+        {
+          "text": "Courant de stimulation thérapeutique",
+          "is_correct": false
+        },
+        { "text": "Courant mesuré lors d'un ECG", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "En photométrie, qu'est-ce que le lux ?",
+      "difficulty": "Facile",
+      "explanation": "Le lux (lx) est l'unité d'éclairement lumineux. Il correspond à un flux lumineux de 1 lumen par mètre carré : 1 lx = 1 lm/m². Il mesure la quantité de lumière reçue par une surface.",
+      "answers": [
+        {
+          "text": "Unité d'éclairement : 1 lux = 1 lumen/m²",
+          "is_correct": true
+        },
+        { "text": "Unité de flux lumineux total", "is_correct": false },
+        { "text": "Unité d'intensité lumineuse", "is_correct": false },
+        { "text": "Unité de luminance", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Qu'est-ce que le gradient de pression transmurale en physiologie cardiovasculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le gradient de pression transmurale est la différence de pression entre l'intérieur et l'extérieur d'un vaisseau sanguin. Il détermine la tension parodale et influence le diamètre vasculaire selon la loi de Laplace : T = P x r.",
+      "answers": [
+        {
+          "text": "Différence de pression interne-externe du vaisseau",
+          "is_correct": true
+        },
+        {
+          "text": "Perte de charge par frottement dans le vaisseau",
+          "is_correct": false
+        },
+        {
+          "text": "Différence de pression systolo-diastolique",
+          "is_correct": false
+        },
+        {
+          "text": "Gradient de concentration en oxygène",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "En radiobiologie, qu'est-ce que le DEL (Débit d'Énergie Linéique) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le DEL (ou LET en anglais) est l'énergie moyenne déposée par unité de longueur de trajectoire d'une particule ionisante. Il s'exprime en keV/µm et caractérise le pouvoir ionisant : plus le DEL est élevé, plus les effets biologiques sont importants.",
+      "answers": [
+        {
+          "text": "Énergie déposée par unité de longueur (keV/µm)",
+          "is_correct": true
+        },
+        {
+          "text": "Dose absorbée par unité de temps",
+          "is_correct": false
+        },
+        {
+          "text": "Distance parcourue par la particule",
+          "is_correct": false
+        },
+        {
+          "text": "Énergie totale de la particule incidente",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

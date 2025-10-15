@@ -1,0 +1,2332 @@
+{
+  "category": "Anatomie détaillée",
+  "year_level": "L2",
+  "questions": [
+    {
+      "question_text": "Quelle artère irrigue principalement le nœud sinusal dans 60% des cas ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère du nœud sinusal est une branche de l'artère coronaire droite dans environ 60% des cas. Dans 40% des cas, elle provient de l'artère coronaire gauche (circonflexe).",
+      "answers": [
+        { "text": "Artère coronaire droite", "is_correct": true },
+        { "text": "Artère interventriculaire antérieure", "is_correct": false },
+        { "text": "Artère circonflexe", "is_correct": false },
+        { "text": "Artère marginale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments broncho-pulmonaires compte le poumon gauche ?",
+      "difficulty": "Facile",
+      "explanation": "Le poumon gauche comprend 8-10 segments broncho-pulmonaires (selon les classifications), répartis en 2 lobes. Le poumon droit en compte 10, répartis en 3 lobes.",
+      "answers": [
+        { "text": "8 à 10 segments", "is_correct": true },
+        { "text": "10 segments", "is_correct": false },
+        { "text": "12 segments", "is_correct": false },
+        { "text": "6 segments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle diaphragme ?",
+      "difficulty": "Facile",
+      "explanation": "Le nerf phrénique (C3-C4-C5) assure l'innervation motrice du diaphragme. Sa paralysie entraîne une paralysie diaphragmatique du côté atteint.",
+      "answers": [
+        { "text": "Nerf phrénique", "is_correct": true },
+        { "text": "Nerf vague", "is_correct": false },
+        { "text": "Nerf intercostal", "is_correct": false },
+        { "text": "Nerf récurrent", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la vertèbre de bifurcation de la trachée en bronches principales ?",
+      "difficulty": "Moyen",
+      "explanation": "La trachée se bifurque au niveau de T4-T5 (4ème-5ème vertèbre thoracique) formant la carène trachéale. C'est un repère anatomique important en bronchoscopie.",
+      "answers": [
+        { "text": "T4-T5", "is_correct": true },
+        { "text": "T2-T3", "is_correct": false },
+        { "text": "T6-T7", "is_correct": false },
+        { "text": "T1-T2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament relie l'atlas (C1) à l'axis (C2) et limite la rotation de la tête ?",
+      "difficulty": "Difficile",
+      "explanation": "Le ligament transverse de l'atlas maintient l'apophyse odontoïde contre l'arc antérieur de C1. Sa rupture peut entraîner une instabilité atlanto-axoïdienne grave.",
+      "answers": [
+        { "text": "Ligament transverse de l'atlas", "is_correct": true },
+        { "text": "Ligament alaire", "is_correct": false },
+        { "text": "Ligament longitudinal antérieur", "is_correct": false },
+        { "text": "Ligament jaune", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine draine le sang du système nerveux central vers le cœur droit ?",
+      "difficulty": "Moyen",
+      "explanation": "Les sinus veineux duraux (sinus sagittal supérieur, transverses, sigmoïdes) drainent dans les veines jugulaires internes qui ramènent le sang veineux cérébral vers le cœur.",
+      "answers": [
+        { "text": "Veine jugulaire interne", "is_correct": true },
+        { "text": "Veine jugulaire externe", "is_correct": false },
+        { "text": "Veine azygos", "is_correct": false },
+        { "text": "Veine cave supérieure directement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est innervé par le nerf facial (VII) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle stapédien (étrier) dans l'oreille moyenne est innervé par le nerf facial. Sa paralysie provoque une hyperacousie. Le nerf facial innerve aussi tous les muscles de la mimique.",
+      "answers": [
+        { "text": "Muscle stapédien", "is_correct": true },
+        { "text": "Muscle ptérygoïdien", "is_correct": false },
+        { "text": "Muscle temporal", "is_correct": false },
+        { "text": "Muscle masséter", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère passe dans le canal carpien avec le nerf médian ?",
+      "difficulty": "Difficile",
+      "explanation": "Aucune artère majeure ne passe dans le canal carpien. Seul le nerf médian et les 9 tendons fléchisseurs (4 du fléchisseur superficiel, 4 du profond, 1 du long fléchisseur du pouce) le traversent.",
+      "answers": [
+        { "text": "Aucune artère majeure", "is_correct": true },
+        { "text": "Artère radiale", "is_correct": false },
+        { "text": "Artère ulnaire", "is_correct": false },
+        { "text": "Artère médiane", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes compose le foie ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie est divisé en 4 lobes anatomiques (droit, gauche, carré, caudé) selon la classification classique. La classification fonctionnelle de Couinaud divise le foie en 8 segments.",
+      "answers": [
+        { "text": "4 lobes", "is_correct": true },
+        { "text": "2 lobes", "is_correct": false },
+        { "text": "3 lobes", "is_correct": false },
+        { "text": "5 lobes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os du carpe s'articule directement avec le radius ?",
+      "difficulty": "Moyen",
+      "explanation": "Le scaphoïde et le lunatum (semi-lunaire) s'articulent avec le radius pour former l'articulation radio-carpienne. Le triquetrum (pyramidal) ne touche pas directement le radius.",
+      "answers": [
+        { "text": "Scaphoïde et lunatum", "is_correct": true },
+        { "text": "Pisiforme et triquetrum", "is_correct": false },
+        { "text": "Trapèze et capitatum", "is_correct": false },
+        { "text": "Hamatum uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure anatomique sépare le médiastin antérieur du médiastin moyen ?",
+      "difficulty": "Difficile",
+      "explanation": "Le péricarde fibreux délimite le médiastin moyen (contenant le cœur). En avant se trouve le médiastin antérieur (contenant le thymus), en arrière le médiastin postérieur (œsophage, aorte).",
+      "answers": [
+        { "text": "Péricarde fibreux", "is_correct": true },
+        { "text": "Sternum", "is_correct": false },
+        { "text": "Plèvre médiastinale", "is_correct": false },
+        { "text": "Trachée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal muscle responsable de la flexion de la hanche ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle ilio-psoas (combinaison du psoas et de l'iliaque) est le fléchisseur principal de la hanche. Il est innervé par le nerf fémoral (L2-L3-L4).",
+      "answers": [
+        { "text": "Ilio-psoas", "is_correct": true },
+        { "text": "Quadriceps", "is_correct": false },
+        { "text": "Fessier moyen", "is_correct": false },
+        { "text": "Adducteur magnus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande endocrine est située dans la selle turcique ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypophyse (glande pituitaire) repose dans la selle turcique de l'os sphénoïde. Elle est reliée à l'hypothalamus par la tige pituitaire.",
+      "answers": [
+        { "text": "Hypophyse", "is_correct": true },
+        { "text": "Épiphyse (pinéale)", "is_correct": false },
+        { "text": "Thyroïde", "is_correct": false },
+        { "text": "Surrénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf crânien émerge entre le pont et le bulbe rachidien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf facial (VII) et le nerf vestibulo-cochléaire (VIII) émergent au niveau de l'angle ponto-cérébelleux, entre le pont et le bulbe rachidien.",
+      "answers": [
+        {
+          "text": "Nerf facial (VII) et vestibulo-cochléaire (VIII)",
+          "is_correct": true
+        },
+        { "text": "Nerf trijumeau (V)", "is_correct": false },
+        { "text": "Nerf glosso-pharyngien (IX)", "is_correct": false },
+        { "text": "Nerf oculomoteur (III)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le muscle grand dorsal ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère thoraco-dorsale (branche de l'artère subscapulaire) irrigue le muscle grand dorsal. Cette artère est un repère important lors du prélèvement du lambeau de grand dorsal.",
+      "answers": [
+        { "text": "Artère thoraco-dorsale", "is_correct": true },
+        { "text": "Artère axillaire directement", "is_correct": false },
+        { "text": "Artère circonflexe de l'humérus", "is_correct": false },
+        { "text": "Artère intercostale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de glandes parathyroïdes possède généralement un individu ?",
+      "difficulty": "Facile",
+      "explanation": "Il existe généralement 4 glandes parathyroïdes (2 supérieures et 2 inférieures) situées à la face postérieure de la thyroïde. Elles régulent le métabolisme phospho-calcique.",
+      "answers": [
+        { "text": "4 glandes", "is_correct": true },
+        { "text": "2 glandes", "is_correct": false },
+        { "text": "6 glandes", "is_correct": false },
+        { "text": "3 glandes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure principalement l'extension du genou ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle quadriceps fémoral (composé de 4 chefs : droit fémoral, vaste latéral, vaste médial, vaste intermédiaire) est l'extenseur principal du genou. Il est innervé par le nerf fémoral.",
+      "answers": [
+        { "text": "Quadriceps fémoral", "is_correct": true },
+        { "text": "Ischio-jambiers", "is_correct": false },
+        { "text": "Triceps sural", "is_correct": false },
+        { "text": "Tenseur du fascia lata", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle portion du duodénum entoure la tête du pancréas ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cadre duodénal (4 portions : D1 bulbaire, D2 descendante, D3 horizontale, D4 ascendante) entoure la tête du pancréas en formant un C. L'ampoule de Vater s'ouvre dans D2.",
+      "answers": [
+        { "text": "Toutes les portions (D1 à D4)", "is_correct": true },
+        { "text": "D1 uniquement", "is_correct": false },
+        { "text": "D2 uniquement", "is_correct": false },
+        { "text": "D3 et D4 uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament limite l'hyperextension du genou ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ligament croisé antérieur (LCA) empêche la translation antérieure du tibia et limite l'hyperextension du genou. Sa rupture provoque un signe du tiroir antérieur positif.",
+      "answers": [
+        { "text": "Ligament croisé antérieur", "is_correct": true },
+        { "text": "Ligament croisé postérieur", "is_correct": false },
+        { "text": "Ligament collatéral médial", "is_correct": false },
+        { "text": "Ligament rotulien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure traverse le foramen obturé ?",
+      "difficulty": "Difficile",
+      "explanation": "Le paquet vasculo-nerveux obturateur (artère, veine et nerf obturateurs) traverse le canal obturateur, un petit orifice dans la membrane obturatrice qui ferme le foramen obturé.",
+      "answers": [
+        { "text": "Paquet vasculo-nerveux obturateur", "is_correct": true },
+        { "text": "Nerf sciatique", "is_correct": false },
+        { "text": "Artère fémorale", "is_correct": false },
+        { "text": "Aucune structure majeure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres cervicales possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "La colonne cervicale comprend 7 vertèbres (C1 à C7). C1 (atlas) et C2 (axis) ont une morphologie particulière. C7 est la vertèbre proéminente.",
+      "answers": [
+        { "text": "7 vertèbres", "is_correct": true },
+        { "text": "5 vertèbres", "is_correct": false },
+        { "text": "12 vertèbres", "is_correct": false },
+        { "text": "8 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère principale irrigue l'encéphale par sa branche ophtalmique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère carotide interne donne l'artère ophtalmique qui irrigue l'œil et participe à la vascularisation du cerveau via le polygone de Willis.",
+      "answers": [
+        { "text": "Artère carotide interne", "is_correct": true },
+        { "text": "Artère carotide externe", "is_correct": false },
+        { "text": "Artère vertébrale", "is_correct": false },
+        { "text": "Artère basilaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle forme la paroi latérale de la loge de Guyon au poignet ?",
+      "difficulty": "Difficile",
+      "explanation": "La loge de Guyon (canal ulnaire) est délimitée par le pisiforme en dedans, l'hamulus de l'hamatum en dehors, et contient le nerf ulnaire et l'artère ulnaire.",
+      "answers": [
+        { "text": "Muscle hypothénar (abducteur du V)", "is_correct": true },
+        { "text": "Muscle thénar", "is_correct": false },
+        { "text": "Fléchisseur radial du carpe", "is_correct": false },
+        { "text": "Fléchisseur ulnaire du carpe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle valvule cardiaque est composée de 3 cuspides ?",
+      "difficulty": "Facile",
+      "explanation": "Les valvules aortique et pulmonaire sont tricuspides (3 valvules sigmoïdes). Les valvules mitrale (2 cuspides) et tricuspide (3 cuspides) sont auriculo-ventriculaires.",
+      "answers": [
+        { "text": "Valvule aortique et tricuspide", "is_correct": true },
+        { "text": "Valvule mitrale uniquement", "is_correct": false },
+        { "text": "Valvule pulmonaire uniquement", "is_correct": false },
+        { "text": "Toutes les valvules", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle deltoïde ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf axillaire (circonflexe) innerve le muscle deltoïde et le petit rond. Il contourne le col chirurgical de l'humérus et peut être lésé lors de fractures ou luxations de l'épaule.",
+      "answers": [
+        { "text": "Nerf axillaire", "is_correct": true },
+        { "text": "Nerf musculo-cutané", "is_correct": false },
+        { "text": "Nerf radial", "is_correct": false },
+        { "text": "Nerf thoracique long", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du système nerveux contient les corps cellulaires des motoneurones α ?",
+      "difficulty": "Moyen",
+      "explanation": "Les corps cellulaires des motoneurones α sont situés dans la corne antérieure (ventrale) de la moelle épinière. Leurs axones forment les racines ventrales des nerfs rachidiens.",
+      "answers": [
+        { "text": "Corne antérieure de la moelle", "is_correct": true },
+        { "text": "Corne postérieure de la moelle", "is_correct": false },
+        { "text": "Ganglion rachidien", "is_correct": false },
+        { "text": "Cortex moteur primaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel sinus veineux dural longe la faux du cerveau ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sinus sagittal supérieur longe le bord supérieur de la faux du cerveau. Il draine le sang veineux et le LCR (via les granulations arachnoïdiennes de Pacchioni) vers les sinus transverses.",
+      "answers": [
+        { "text": "Sinus sagittal supérieur", "is_correct": true },
+        { "text": "Sinus caverneux", "is_correct": false },
+        { "text": "Sinus droit", "is_correct": false },
+        { "text": "Sinus sigmoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle branche de l'aorte abdominale irrigue l'estomac ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tronc cœliaque (1ère branche de l'aorte abdominale) se divise en 3 branches : artère gastrique gauche, artère hépatique commune et artère splénique qui irriguent l'estomac.",
+      "answers": [
+        { "text": "Tronc cœliaque", "is_correct": true },
+        { "text": "Artère mésentérique supérieure", "is_correct": false },
+        { "text": "Artère mésentérique inférieure", "is_correct": false },
+        { "text": "Artères rénales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os du tarse s'articule avec le tibia et le péroné ?",
+      "difficulty": "Facile",
+      "explanation": "Le talus (astragale) forme l'articulation talo-crurale avec la mortaise tibio-fibulaire (tibia et péroné). C'est l'os du tarse le plus proximal.",
+      "answers": [
+        { "text": "Talus", "is_correct": true },
+        { "text": "Calcanéus", "is_correct": false },
+        { "text": "Naviculaire", "is_correct": false },
+        { "text": "Cuboïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de côtes sont considérées comme 'flottantes' ?",
+      "difficulty": "Facile",
+      "explanation": "Les 11ème et 12ème côtes sont dites flottantes car elles ne se rattachent pas au sternum (ni directement ni indirectement). Les côtes 8, 9 et 10 sont fausses côtes (rattachées indirectement).",
+      "answers": [
+        { "text": "2 côtes (11ème et 12ème)", "is_correct": true },
+        { "text": "3 côtes", "is_correct": false },
+        { "text": "4 côtes", "is_correct": false },
+        { "text": "1 côte", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure relie les deux hémisphères cérébraux ?",
+      "difficulty": "Facile",
+      "explanation": "Le corps calleux est la principale commissure inter-hémisphérique. Il contient environ 200 millions de fibres nerveuses myélinisées reliant les deux hémisphères.",
+      "answers": [
+        { "text": "Corps calleux", "is_correct": true },
+        { "text": "Tronc cérébral", "is_correct": false },
+        { "text": "Thalamus", "is_correct": false },
+        { "text": "Fornix", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure la rotation latérale du bras ?",
+      "difficulty": "Moyen",
+      "explanation": "Les muscles petit rond et infra-épineux (coiffe des rotateurs) assurent la rotation latérale du bras. Ils sont innervés respectivement par les nerfs axillaire et supra-scapulaire.",
+      "answers": [
+        { "text": "Petit rond et infra-épineux", "is_correct": true },
+        { "text": "Grand rond et subscapulaire", "is_correct": false },
+        { "text": "Deltoïde uniquement", "is_correct": false },
+        { "text": "Supra-épineux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère alimente principalement le nœud auriculo-ventriculaire ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère du nœud AV provient dans 90% des cas de l'artère coronaire droite (branche de l'artère interventriculaire postérieure). Cela explique les troubles de conduction lors d'infarctus inférieur.",
+      "answers": [
+        { "text": "Artère coronaire droite", "is_correct": true },
+        { "text": "Artère interventriculaire antérieure", "is_correct": false },
+        { "text": "Artère circonflexe", "is_correct": false },
+        { "text": "Artère marginale gauche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel lobe pulmonaire est le plus souvent siège d'une pneumonie d'inhalation ?",
+      "difficulty": "Moyen",
+      "explanation": "Le lobe inférieur droit est le plus fréquemment touché en position couchée (bronche droite plus verticale et plus large). En position debout, c'est le segment apical du lobe inférieur.",
+      "answers": [
+        { "text": "Lobe inférieur droit", "is_correct": true },
+        { "text": "Lobe supérieur gauche", "is_correct": false },
+        { "text": "Lobe moyen droit", "is_correct": false },
+        { "text": "Lobe supérieur droit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est le principal fléchisseur du coude ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle brachial (brachialis) est le fléchisseur le plus puissant du coude. Le biceps brachial participe aussi à la flexion et à la supination. Innervation par le nerf musculo-cutané.",
+      "answers": [
+        { "text": "Muscle brachial", "is_correct": true },
+        { "text": "Triceps brachial", "is_correct": false },
+        { "text": "Anconé", "is_correct": false },
+        { "text": "Brachio-radial uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère passe dans la gouttière bicipitale latérale ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère circonflexe antérieure de l'humérus passe dans la gouttière bicipitale (gouttière intertuberculaire) avec le tendon du long chef du biceps. L'artère circonflexe postérieure passe en arrière avec le nerf axillaire.",
+      "answers": [
+        {
+          "text": "Artère circonflexe antérieure de l'humérus",
+          "is_correct": true
+        },
+        { "text": "Artère brachiale", "is_correct": false },
+        { "text": "Artère thoraco-acromiale", "is_correct": false },
+        { "text": "Artère axillaire directement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme la proéminence de la joue (pommette) ?",
+      "difficulty": "Facile",
+      "explanation": "L'os zygomatique (os malaire) forme la pommette. Il s'articule avec le maxillaire, le frontal, le temporal et le sphénoïde.",
+      "answers": [
+        { "text": "Os zygomatique", "is_correct": true },
+        { "text": "Os maxillaire", "is_correct": false },
+        { "text": "Os temporal", "is_correct": false },
+        { "text": "Os frontal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'estomac est la plus haute et contient une bulle d'air visible à la radiographie ?",
+      "difficulty": "Facile",
+      "explanation": "Le fundus (grosse tubérosité) est la partie la plus haute de l'estomac, située sous la coupole diaphragmatique gauche. La poche à air gastrique y est visible sur les radiographies.",
+      "answers": [
+        { "text": "Fundus", "is_correct": true },
+        { "text": "Cardia", "is_correct": false },
+        { "text": "Pylore", "is_correct": false },
+        { "text": "Corps gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve les muscles intrinsèques de la main (sauf thénar et 2 lombricaux latéraux) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf ulnaire innerve tous les muscles intrinsèques de la main sauf le LOAF (Lombricaux latéraux 1-2, Opposant du pouce, Abducteur court du pouce, Fléchisseur court du pouce) innervés par le nerf médian.",
+      "answers": [
+        { "text": "Nerf ulnaire", "is_correct": true },
+        { "text": "Nerf médian", "is_correct": false },
+        { "text": "Nerf radial", "is_correct": false },
+        { "text": "Nerf musculo-cutané", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle valvule cardiaque est le plus souvent touchée par le rhumatisme articulaire aigu ?",
+      "difficulty": "Moyen",
+      "explanation": "La valvule mitrale est la plus fréquemment atteinte dans le RAA, suivie de la valvule aortique. Cela entraîne une sténose et/ou insuffisance mitrale à distance.",
+      "answers": [
+        { "text": "Valvule mitrale", "is_correct": true },
+        { "text": "Valvule aortique", "is_correct": false },
+        { "text": "Valvule tricuspide", "is_correct": false },
+        { "text": "Valvule pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle région du rein contient les glomérules ?",
+      "difficulty": "Facile",
+      "explanation": "Les glomérules sont situés dans le cortex rénal (zone périphérique brun-rouge). La médullaire (zone centrale) contient les anses de Henlé et les tubes collecteurs organisés en pyramides de Malpighi.",
+      "answers": [
+        { "text": "Cortex rénal", "is_correct": true },
+        { "text": "Médullaire rénale", "is_correct": false },
+        { "text": "Bassinet", "is_correct": false },
+        { "text": "Calices", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est innervé par le nerf obturateur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf obturateur (L2-L4) innerve les muscles adducteurs de la cuisse : pectiné, long adducteur, court adducteur, grand adducteur (partie antérieure) et gracile.",
+      "answers": [
+        { "text": "Muscles adducteurs", "is_correct": true },
+        { "text": "Quadriceps", "is_correct": false },
+        { "text": "Ischio-jambiers", "is_correct": false },
+        { "text": "Fessiers", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est palpable dans le triangle de Scarpa ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère fémorale est palpable dans le triangle de Scarpa (triangle fémoral), délimité par le ligament inguinal, le sartorius et le long adducteur. Le pouls fémoral se palpe à mi-distance entre l'épine iliaque antéro-supérieure et la symphyse pubienne.",
+      "answers": [
+        { "text": "Artère fémorale", "is_correct": true },
+        { "text": "Artère iliaque externe", "is_correct": false },
+        { "text": "Artère poplitée", "is_correct": false },
+        { "text": "Artère profonde de la cuisse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de segments fonctionnels compte le foie selon Couinaud ?",
+      "difficulty": "Moyen",
+      "explanation": "La classification de Couinaud divise le foie en 8 segments fonctionnels (I à VIII) basée sur la distribution des branches portales et hépatiques. Cette classification est fondamentale en chirurgie hépatique.",
+      "answers": [
+        { "text": "8 segments", "is_correct": true },
+        { "text": "4 segments", "is_correct": false },
+        { "text": "6 segments", "is_correct": false },
+        { "text": "10 segments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle dilatateur de la pupille ?",
+      "difficulty": "Difficile",
+      "explanation": "Le muscle dilatateur de l'iris est innervé par les fibres sympathiques (origine T1-T2, ganglion cervical supérieur). Le sphincter pupillaire est innervé par le parasympathique du nerf oculomoteur (III).",
+      "answers": [
+        { "text": "Fibres sympathiques", "is_correct": true },
+        { "text": "Nerf oculomoteur (III)", "is_correct": false },
+        { "text": "Nerf ophtalmique (V1)", "is_correct": false },
+        { "text": "Nerf abducens (VI)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure anatomique constitue le plancher de la cavité orale ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle mylo-hyoïdien forme le plancher de la bouche (diaphragme buccal). Il sépare la loge sublinguale (au-dessus) de la loge submandibulaire (en dessous).",
+      "answers": [
+        { "text": "Muscle mylo-hyoïdien", "is_correct": true },
+        { "text": "Muscle génioglosse", "is_correct": false },
+        { "text": "Muscle digastrique", "is_correct": false },
+        { "text": "Mandibule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle portion de l'urètre masculin traverse la prostate ?",
+      "difficulty": "Facile",
+      "explanation": "L'urètre prostatique (3-4 cm) traverse la prostate. C'est le segment le plus large. Les autres portions sont l'urètre membraneux (court, traverse le diaphragme urogénital) et l'urètre spongieux (le plus long).",
+      "answers": [
+        { "text": "Urètre prostatique", "is_correct": true },
+        { "text": "Urètre membraneux", "is_correct": false },
+        { "text": "Urètre spongieux", "is_correct": false },
+        { "text": "Urètre bulbaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel sinus paranasal s'ouvre dans le méat moyen des fosses nasales ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sinus maxillaire, frontal et ethmoïdal antérieur s'ouvrent dans le méat moyen. Le sinus sphénoïdal s'ouvre dans le récessus sphéno-ethmoïdal et l'ethmoïde postérieur dans le méat supérieur.",
+      "answers": [
+        { "text": "Sinus maxillaire et frontal", "is_correct": true },
+        { "text": "Sinus sphénoïdal", "is_correct": false },
+        { "text": "Sinus ethmoïdal postérieur", "is_correct": false },
+        { "text": "Aucun sinus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament stabilise la tête fémorale dans l'acétabulum ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ligament rond (ligament de la tête fémorale) relie la fovea capitis à l'incisure acétabulaire. Il contient l'artère du ligament rond (vascularisation limitée chez l'adulte). Les ligaments ilio-fémoral, pubo-fémoral et ischio-fémoral renforcent aussi la capsule.",
+      "answers": [
+        { "text": "Ligament rond de la tête fémorale", "is_correct": true },
+        { "text": "Ligament croisé antérieur", "is_correct": false },
+        { "text": "Ligament collatéral", "is_correct": false },
+        { "text": "Ligament inguinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres sacrées fusionnées forment le sacrum ?",
+      "difficulty": "Facile",
+      "explanation": "Le sacrum est formé par la fusion de 5 vertèbres sacrées (S1 à S5). Il s'articule avec L5 en haut, le coccyx en bas et les os iliaques latéralement (articulations sacro-iliaques).",
+      "answers": [
+        { "text": "5 vertèbres", "is_correct": true },
+        { "text": "4 vertèbres", "is_correct": false },
+        { "text": "3 vertèbres", "is_correct": false },
+        { "text": "6 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf peut être comprimé dans le syndrome du canal tarsien ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf tibial postérieur peut être comprimé dans le canal tarsien (sous le rétinaculum des fléchisseurs à la cheville), provoquant douleurs et paresthésies plantaires.",
+      "answers": [
+        { "text": "Nerf tibial postérieur", "is_correct": true },
+        { "text": "Nerf fibulaire superficiel", "is_correct": false },
+        { "text": "Nerf sural", "is_correct": false },
+        { "text": "Nerf fémoral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle couche du cœur contient les myocytes contractiles ?",
+      "difficulty": "Facile",
+      "explanation": "Le myocarde (couche moyenne épaisse) contient les cardiomyocytes contractiles. L'endocarde tapisse l'intérieur, l'épicarde (péricarde viscéral) recouvre l'extérieur.",
+      "answers": [
+        { "text": "Myocarde", "is_correct": true },
+        { "text": "Endocarde", "is_correct": false },
+        { "text": "Épicarde", "is_correct": false },
+        { "text": "Péricarde fibreux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle branche de l'artère carotide externe irrigue la langue ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère linguale (2ème branche de la carotide externe) irrigue la langue. L'artère faciale participe aussi via des branches amygdaliennes et palatines.",
+      "answers": [
+        { "text": "Artère linguale", "is_correct": true },
+        { "text": "Artère maxillaire", "is_correct": false },
+        { "text": "Artère thyroïdienne supérieure", "is_correct": false },
+        { "text": "Artère pharyngienne ascendante", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'abduction du pouce ?",
+      "difficulty": "Moyen",
+      "explanation": "L'abducteur court du pouce (éminence thénar) et l'abducteur long du pouce (avant-bras) assurent l'abduction. Le court est innervé par le nerf médian, le long par le nerf radial.",
+      "answers": [
+        { "text": "Abducteur court et long du pouce", "is_correct": true },
+        { "text": "Adducteur du pouce", "is_correct": false },
+        { "text": "Opposant du pouce", "is_correct": false },
+        { "text": "Fléchisseur court du pouce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure délimite la partie supérieure du médiastin postérieur ?",
+      "difficulty": "Difficile",
+      "explanation": "Le médiastin postérieur (entre péricarde et colonne vertébrale) est délimité en haut par le plan passant par T4-T5. Il contient l'œsophage, l'aorte thoracique descendante, le canal thoracique et les nerfs vagues.",
+      "answers": [
+        { "text": "Plan horizontal passant par T4-T5", "is_correct": true },
+        { "text": "Diaphragme", "is_correct": false },
+        { "text": "Orifice thoracique supérieur", "is_correct": false },
+        { "text": "Bifurcation trachéale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de branches principales donne l'arc aortique ?",
+      "difficulty": "Facile",
+      "explanation": "L'arc aortique donne 3 branches : le tronc brachio-céphalique (artère innominée) à droite, l'artère carotide commune gauche et l'artère subclavière gauche.",
+      "answers": [
+        { "text": "3 branches", "is_correct": true },
+        { "text": "2 branches", "is_correct": false },
+        { "text": "4 branches", "is_correct": false },
+        { "text": "5 branches", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est le principal extenseur de la hanche ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle grand fessier (gluteus maximus) est le plus puissant extenseur de la hanche. Il est innervé par le nerf glutéal inférieur (L5-S2) et est crucial pour la montée d'escaliers.",
+      "answers": [
+        { "text": "Grand fessier", "is_correct": true },
+        { "text": "Ilio-psoas", "is_correct": false },
+        { "text": "Quadriceps", "is_correct": false },
+        { "text": "Tenseur du fascia lata", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère vascularise la tête du fémur chez l'adulte ?",
+      "difficulty": "Difficile",
+      "explanation": "Chez l'adulte, la vascularisation de la tête fémorale dépend principalement des artères circonflexes fémorales (médiale surtout) via les artères rétinaculaires. L'artère du ligament rond a un rôle mineur. Risque de nécrose avasculaire en cas de fracture du col.",
+      "answers": [
+        { "text": "Artères circonflexes fémorales", "is_correct": true },
+        { "text": "Artère fémorale directement", "is_correct": false },
+        { "text": "Artère obturatrice uniquement", "is_correct": false },
+        {
+          "text": "Artère du ligament rond principalement",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du pancréas est traversée par les vaisseaux mésentériques supérieurs ?",
+      "difficulty": "Moyen",
+      "explanation": "L'isthme du pancréas (col) est traversé ou surplombé par les vaisseaux mésentériques supérieurs (artère et veine) qui passent en arrière du pancréas et en avant de l'uncus (processus unciné).",
+      "answers": [
+        { "text": "Isthme (col) du pancréas", "is_correct": true },
+        { "text": "Tête du pancréas", "is_correct": false },
+        { "text": "Queue du pancréas", "is_correct": false },
+        { "text": "Corps du pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ganglion lymphatique sentinelle drainé principalement par le cancer du sein ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ganglion axillaire (notamment le ganglion sentinelle du groupe axillaire inférieur) est le premier relais lymphatique du sein. La technique du ganglion sentinelle évite le curage axillaire systématique.",
+      "answers": [
+        { "text": "Ganglion axillaire", "is_correct": true },
+        { "text": "Ganglion mammaire interne", "is_correct": false },
+        { "text": "Ganglion cervical", "is_correct": false },
+        { "text": "Ganglion inguinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est principalement responsable d'un anévrisme de l'aorte abdominale ?",
+      "difficulty": "Facile",
+      "explanation": "L'aorte abdominale sous-rénale (en dessous des artères rénales) est le siège privilégié des anévrismes de l'aorte abdominale (AAA), souvent liés à l'athérosclérose.",
+      "answers": [
+        { "text": "Aorte abdominale sous-rénale", "is_correct": true },
+        { "text": "Aorte thoracique", "is_correct": false },
+        { "text": "Artère iliaque", "is_correct": false },
+        { "text": "Aorte sus-rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le seul os long à être horizontal dans le corps humain ?",
+      "difficulty": "Facile",
+      "explanation": "La clavicule est le seul os long horizontal du corps. Elle s'articule avec le sternum (articulation sterno-claviculaire) en dedans et l'acromion de la scapula en dehors.",
+      "answers": [
+        { "text": "Clavicule", "is_correct": true },
+        { "text": "Humérus", "is_correct": false },
+        { "text": "Radius", "is_correct": false },
+        { "text": "Fémur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle tenseur du fascia lata ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf glutéal supérieur (L4-S1) innerve le muscle tenseur du fascia lata, le petit et moyen fessier. Sa lésion provoque un signe de Trendelenburg (bascule du bassin à la marche).",
+      "answers": [
+        { "text": "Nerf glutéal supérieur", "is_correct": true },
+        { "text": "Nerf glutéal inférieur", "is_correct": false },
+        { "text": "Nerf fémoral", "is_correct": false },
+        { "text": "Nerf obturateur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction du muscle platysma ?",
+      "difficulty": "Moyen",
+      "explanation": "Le platysma (peaucier du cou) est un muscle superficiel innervé par le nerf facial. Il abaisse la mandibule et la commissure des lèvres, tend la peau du cou (expression de peur ou surprise).",
+      "answers": [
+        { "text": "Tension de la peau du cou et mimique", "is_correct": true },
+        { "text": "Rotation de la tête", "is_correct": false },
+        { "text": "Déglutition", "is_correct": false },
+        { "text": "Flexion du cou", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien d'articulations comporte le genou ?",
+      "difficulty": "Moyen",
+      "explanation": "Le genou comporte 3 articulations : 2 fémoro-tibiales (condyle médial et latéral) et 1 fémoro-patellaire. Les ménisques médial et latéral améliorent la congruence articulaire.",
+      "answers": [
+        { "text": "3 articulations", "is_correct": true },
+        { "text": "2 articulations", "is_correct": false },
+        { "text": "1 articulation", "is_correct": false },
+        { "text": "4 articulations", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine superficielle remonte sur la face médiale de la jambe et de la cuisse ?",
+      "difficulty": "Facile",
+      "explanation": "La grande veine saphène (saphène interne) remonte sur la face médiale de la jambe et cuisse jusqu'à la crosse de la saphène qui se jette dans la veine fémorale commune. C'est la veine la plus longue du corps.",
+      "answers": [
+        { "text": "Grande veine saphène", "is_correct": true },
+        { "text": "Petite veine saphène", "is_correct": false },
+        { "text": "Veine fémorale", "is_correct": false },
+        { "text": "Veine poplitée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os du crâne contient le foramen magnum ?",
+      "difficulty": "Facile",
+      "explanation": "L'os occipital possède le foramen magnum (trou occipital) par lequel passe le bulbe rachidien (jonction bulbo-médullaire), les artères vertébrales et les racines spinales du nerf accessoire (XI).",
+      "answers": [
+        { "text": "Os occipital", "is_correct": true },
+        { "text": "Os temporal", "is_correct": false },
+        { "text": "Os sphénoïde", "is_correct": false },
+        { "text": "Os pariétal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle participe à la fois à la flexion et à la rotation médiale de la hanche ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle tenseur du fascia lata (TFL) participe à la flexion, abduction et rotation médiale de la hanche. Il tend le tractus ilio-tibial et stabilise le genou en extension.",
+      "answers": [
+        { "text": "Tenseur du fascia lata", "is_correct": true },
+        { "text": "Sartorius", "is_correct": false },
+        { "text": "Grand fessier", "is_correct": false },
+        { "text": "Piriforme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle portion du système nerveux autonome ralentit la fréquence cardiaque ?",
+      "difficulty": "Facile",
+      "explanation": "Le système parasympathique (nerf vague X) ralentit le cœur via des récepteurs muscariniques M2. Le système sympathique (via les récepteurs β1-adrénergiques) accélère le cœur.",
+      "answers": [
+        { "text": "Système parasympathique", "is_correct": true },
+        { "text": "Système sympathique", "is_correct": false },
+        { "text": "Système somatique", "is_correct": false },
+        { "text": "Système entérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament empêche l'hyperflexion du rachis cervical ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ligament nuchal (ligamentum nuchae) et le ligament longitudinal postérieur limitent la flexion excessive du rachis cervical. Le ligament longitudinal antérieur limite l'extension.",
+      "answers": [
+        {
+          "text": "Ligament nuchal et longitudinal postérieur",
+          "is_correct": true
+        },
+        { "text": "Ligament longitudinal antérieur", "is_correct": false },
+        { "text": "Ligament jaune", "is_correct": false },
+        { "text": "Ligament inter-épineux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue principalement le cervelet ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cervelet est irrigué par 3 paires d'artères : PICA (artère cérébelleuse postéro-inférieure de la vertébrale), AICA (antéro-inférieure du tronc basilaire) et SCA (cérébelleuse supérieure du tronc basilaire).",
+      "answers": [
+        {
+          "text": "Artères cérébelleuses (PICA, AICA, SCA)",
+          "is_correct": true
+        },
+        { "text": "Artère cérébrale moyenne", "is_correct": false },
+        { "text": "Artère carotide interne", "is_correct": false },
+        { "text": "Artère cérébrale antérieure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la pronation de l'avant-bras ?",
+      "difficulty": "Moyen",
+      "explanation": "Les muscles rond pronateur (innervé par le nerf médian) et carré pronateur assurent la pronation de l'avant-bras (rotation médiale). La supination est assurée par le biceps et le supinateur.",
+      "answers": [
+        { "text": "Rond pronateur et carré pronateur", "is_correct": true },
+        { "text": "Biceps brachial", "is_correct": false },
+        { "text": "Supinateur", "is_correct": false },
+        { "text": "Brachial", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cavité du cœur a la paroi la plus épaisse ?",
+      "difficulty": "Facile",
+      "explanation": "Le ventricule gauche a la paroi myocardique la plus épaisse (8-12 mm) car il doit générer une pression suffisante pour la circulation systémique. Le ventricule droit n'a que 3-5 mm.",
+      "answers": [
+        { "text": "Ventricule gauche", "is_correct": true },
+        { "text": "Ventricule droit", "is_correct": false },
+        { "text": "Oreillette gauche", "is_correct": false },
+        { "text": "Oreillette droite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure la plantiflexion de la cheville ?",
+      "difficulty": "Facile",
+      "explanation": "Le triceps sural (gastrocnémiens et soléaire) est le principal plantiflexeur de la cheville. Il se termine par le tendon d'Achille (calcanéen) sur le calcanéus. Innervation par le nerf tibial.",
+      "answers": [
+        { "text": "Triceps sural", "is_correct": true },
+        { "text": "Tibial antérieur", "is_correct": false },
+        { "text": "Extenseur des orteils", "is_correct": false },
+        { "text": "Fibulaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère passe dans le canal inguinal chez l'homme ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère testiculaire (ou spermatique) et l'artère du canal déférent (branche de l'artère vésicale inférieure) passent dans le canal inguinal chez l'homme avec le cordon spermatique.",
+      "answers": [
+        { "text": "Artère testiculaire", "is_correct": true },
+        { "text": "Artère fémorale", "is_correct": false },
+        { "text": "Artère iliaque externe", "is_correct": false },
+        { "text": "Artère obturatrice", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure sépare les lobes frontal et pariétal du cerveau ?",
+      "difficulty": "Facile",
+      "explanation": "Le sillon central de Rolando sépare le lobe frontal (en avant) du lobe pariétal (en arrière). Le gyrus précentral (moteur primaire) est en avant, le postcentral (sensitif primaire) en arrière.",
+      "answers": [
+        { "text": "Sillon central (de Rolando)", "is_correct": true },
+        { "text": "Sillon latéral (de Sylvius)", "is_correct": false },
+        { "text": "Sillon pariéto-occipital", "is_correct": false },
+        { "text": "Scissure interhémisphérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle sterno-cléido-mastoïdien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf accessoire (XI, nerf spinal) innerve le muscle sterno-cléido-mastoïdien et le trapèze. Sa lésion entraîne une difficulté à tourner la tête du côté opposé et une chute de l'épaule.",
+      "answers": [
+        { "text": "Nerf accessoire (XI)", "is_correct": true },
+        { "text": "Nerf vague (X)", "is_correct": false },
+        { "text": "Nerf phrénique", "is_correct": false },
+        { "text": "Plexus cervical", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine draine le sang du membre supérieur profond ?",
+      "difficulty": "Moyen",
+      "explanation": "Les veines axillaire puis subclavière drainent le réseau veineux profond du membre supérieur. Les veines superficielles (céphalique et basilique) convergent aussi vers l'axillaire.",
+      "answers": [
+        { "text": "Veine axillaire puis subclavière", "is_correct": true },
+        { "text": "Veine céphalique uniquement", "is_correct": false },
+        { "text": "Veine jugulaire", "is_correct": false },
+        { "text": "Veine cave supérieure directement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle portion de l'intestin grêle est majoritairement rétropéritonéale ?",
+      "difficulty": "Moyen",
+      "explanation": "Le duodénum (sauf D1) est rétropéritonéal. Le jéjunum et l'iléon sont intrapéritonéaux avec un mésentère. D2-D3-D4 sont plaqués contre le rétropéritoine (duodénum secondairement rétropéritonéal).",
+      "answers": [
+        { "text": "Duodénum", "is_correct": true },
+        { "text": "Jéjunum", "is_correct": false },
+        { "text": "Iléon", "is_correct": false },
+        { "text": "Tous sont intrapéritonéaux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est responsable de la dorsiflexion du pied ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle tibial antérieur (jambier antérieur) est le principal dorsiflexeur du pied. Il est innervé par le nerf fibulaire profond. Sa paralysie provoque un steppage (pied tombant).",
+      "answers": [
+        { "text": "Tibial antérieur", "is_correct": true },
+        { "text": "Gastrocnémien", "is_correct": false },
+        { "text": "Soléaire", "is_correct": false },
+        { "text": "Tibial postérieur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est le prolongement direct de l'artère fémorale après le hiatus des adducteurs ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère poplitée est le prolongement de l'artère fémorale après sa traversée du hiatus des adducteurs (canal de Hunter). Elle se divise en artères tibiales antérieure et postérieure et tronc tibio-fibulaire.",
+      "answers": [
+        { "text": "Artère poplitée", "is_correct": true },
+        { "text": "Artère tibiale antérieure", "is_correct": false },
+        { "text": "Artère iliaque externe", "is_correct": false },
+        { "text": "Artère profonde de la cuisse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os du carpe est le plus fréquemment fracturé ?",
+      "difficulty": "Facile",
+      "explanation": "Le scaphoïde est l'os du carpe le plus souvent fracturé (70% des fractures du carpe), notamment lors d'une chute sur la main en extension. Risque de nécrose avasculaire du pôle proximal.",
+      "answers": [
+        { "text": "Scaphoïde", "is_correct": true },
+        { "text": "Lunatum", "is_correct": false },
+        { "text": "Triquetrum", "is_correct": false },
+        { "text": "Hamatum", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du système nerveux contient le centre respiratoire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le centre respiratoire est situé dans le bulbe rachidien (medulla oblongata) et le pont. Il régule automatiquement la fréquence et l'amplitude respiratoires en réponse au CO2 et pH sanguin.",
+      "answers": [
+        { "text": "Bulbe rachidien et pont", "is_correct": true },
+        { "text": "Cortex cérébral", "is_correct": false },
+        { "text": "Hypothalamus", "is_correct": false },
+        { "text": "Moelle épinière cervicale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère alimente le nodule auriculo-ventriculaire (nœud AV) ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère du nœud AV provient dans 90% des cas de l'artère coronaire droite (artère interventriculaire postérieure). Dans 10% des cas, elle vient de la circonflexe (dominance gauche).",
+      "answers": [
+        { "text": "Artère coronaire droite (90% des cas)", "is_correct": true },
+        { "text": "Artère interventriculaire antérieure", "is_correct": false },
+        {
+          "text": "Artère circonflexe (dans tous les cas)",
+          "is_correct": false
+        },
+        { "text": "Artère marginale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf peut être lésé lors d'une fracture du col chirurgical de l'humérus ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf axillaire (circonflexe) contourne le col chirurgical de l'humérus et peut être lésé lors de fractures ou luxations. Cela provoque une paralysie du deltoïde et une anesthésie du moignon de l'épaule.",
+      "answers": [
+        { "text": "Nerf axillaire", "is_correct": true },
+        { "text": "Nerf radial", "is_correct": false },
+        { "text": "Nerf médian", "is_correct": false },
+        { "text": "Nerf ulnaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande produit la bile ?",
+      "difficulty": "Facile",
+      "explanation": "Le foie produit la bile (500-1000 mL/jour) qui est stockée et concentrée dans la vésicule biliaire. La bile contient des sels biliaires nécessaires à la digestion des lipides.",
+      "answers": [
+        { "text": "Foie", "is_correct": true },
+        { "text": "Vésicule biliaire", "is_correct": false },
+        { "text": "Pancréas", "is_correct": false },
+        { "text": "Rate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment médullaire innerve le réflexe rotulien ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réflexe rotulien (ou patellaire) fait intervenir les segments médullaires L3-L4, via le nerf fémoral. L'abolition du réflexe suggère une lésion de L3-L4 ou du nerf fémoral.",
+      "answers": [
+        { "text": "L3-L4", "is_correct": true },
+        { "text": "L5-S1", "is_correct": false },
+        { "text": "L1-L2", "is_correct": false },
+        { "text": "S1-S2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle portion du tube digestif est vascularisée par l'artère mésentérique inférieure ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère mésentérique inférieure vascularise le côlon gauche (descendant), le sigmoïde et le rectum supérieur. Le côlon droit et transverse dépendent de la mésentérique supérieure.",
+      "answers": [
+        { "text": "Côlon gauche, sigmoïde et rectum", "is_correct": true },
+        { "text": "Côlon droit et transverse", "is_correct": false },
+        { "text": "Intestin grêle", "is_correct": false },
+        { "text": "Estomac", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ligament unit les deux os pubiens au niveau de la symphyse pubienne ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ligament pubien (ligament arqué du pubis et ligament pubien supérieur) unit les deux os pubiens au niveau de la symphyse pubienne, une articulation fibro-cartilagineuse semi-mobile.",
+      "answers": [
+        { "text": "Ligament pubien", "is_correct": true },
+        { "text": "Ligament inguinal", "is_correct": false },
+        { "text": "Ligament sacro-iliaque", "is_correct": false },
+        { "text": "Ligament rond", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle vertèbre possède une apophyse odontoïde ?",
+      "difficulty": "Facile",
+      "explanation": "L'axis (C2) possède l'apophyse odontoïde (dent de l'axis) qui s'articule avec l'arc antérieur de l'atlas (C1), permettant la rotation de la tête.",
+      "answers": [
+        { "text": "C2 (axis)", "is_correct": true },
+        { "text": "C1 (atlas)", "is_correct": false },
+        { "text": "C7", "is_correct": false },
+        { "text": "T1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'opposition du pouce ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle opposant du pouce (éminence thénar) permet l'opposition, mouvement complexe combinant flexion, abduction et rotation médiale du pouce. Il est innervé par le nerf médian.",
+      "answers": [
+        { "text": "Opposant du pouce", "is_correct": true },
+        { "text": "Abducteur du pouce", "is_correct": false },
+        { "text": "Adducteur du pouce", "is_correct": false },
+        { "text": "Fléchisseur long du pouce", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure l'adduction de l'épaule ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle grand pectoral et le grand dorsal sont les principaux adducteurs de l'épaule. Le grand rond et le coraco-brachial participent aussi à ce mouvement.",
+      "answers": [
+        { "text": "Grand pectoral et grand dorsal", "is_correct": true },
+        { "text": "Deltoïde uniquement", "is_correct": false },
+        { "text": "Supra-épineux", "is_correct": false },
+        { "text": "Trapèze", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le muscle cardiaque ventriculaire gauche ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère interventriculaire antérieure (IVA), branche de la coronaire gauche, irrigue principalement le ventricule gauche, le septum interventriculaire et l'apex cardiaque.",
+      "answers": [
+        { "text": "Artère interventriculaire antérieure", "is_correct": true },
+        { "text": "Artère coronaire droite uniquement", "is_correct": false },
+        { "text": "Artère marginale droite", "is_correct": false },
+        { "text": "Artère circonflexe uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la couche la plus profonde du cuir chevelu ?",
+      "difficulty": "Difficile",
+      "explanation": "Le périoste (péricrâne) est la couche la plus profonde du cuir chevelu. Les 5 couches forment l'acronyme SCALP : Skin (peau), Connective tissue (tissu conjonctif), Aponévrose, Loose connective tissue (tissu lâche), Périoste.",
+      "answers": [
+        { "text": "Périoste", "is_correct": true },
+        { "text": "Aponévrose épicrânienne", "is_correct": false },
+        { "text": "Tissu conjonctif dense", "is_correct": false },
+        { "text": "Peau", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres thoraciques (dorsales) possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "La colonne thoracique comprend 12 vertèbres (T1 à T12), chacune s'articulant avec une paire de côtes. Elles ont des facettes costales caractéristiques.",
+      "answers": [
+        { "text": "12 vertèbres", "is_correct": true },
+        { "text": "7 vertèbres", "is_correct": false },
+        { "text": "5 vertèbres", "is_correct": false },
+        { "text": "10 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf peut être comprimé dans le syndrome du défilé thoraco-brachial ?",
+      "difficulty": "Difficile",
+      "explanation": "Le plexus brachial (surtout le tronc inférieur C8-T1) et l'artère subclavière peuvent être comprimés dans le défilé thoraco-brachial, entre la clavicule et la première côte.",
+      "answers": [
+        { "text": "Plexus brachial", "is_correct": true },
+        { "text": "Nerf phrénique", "is_correct": false },
+        { "text": "Nerf vague", "is_correct": false },
+        { "text": "Nerf récurrent", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère forme l'arcade palmaire superficielle ?",
+      "difficulty": "Moyen",
+      "explanation": "L'arcade palmaire superficielle est formée principalement par l'artère ulnaire qui s'anastomose avec une branche de l'artère radiale. Elle irrigue les doigts via les artères digitales communes.",
+      "answers": [
+        { "text": "Artère ulnaire principalement", "is_correct": true },
+        { "text": "Artère radiale uniquement", "is_correct": false },
+        { "text": "Artère médiane", "is_correct": false },
+        { "text": "Artère brachiale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle glande est située dans le médiastin antérieur ?",
+      "difficulty": "Facile",
+      "explanation": "Le thymus est situé dans le médiastin antérieur, en arrière du sternum. Il est volumineux chez l'enfant et s'atrophie progressivement avec l'âge (involution thymique).",
+      "answers": [
+        { "text": "Thymus", "is_correct": true },
+        { "text": "Thyroïde", "is_correct": false },
+        { "text": "Parathyroïdes", "is_correct": false },
+        { "text": "Surrénales", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure l'abduction de la hanche ?",
+      "difficulty": "Facile",
+      "explanation": "Les muscles moyen fessier et petit fessier sont les principaux abducteurs de la hanche. Ils sont innervés par le nerf glutéal supérieur et stabilisent le bassin à la marche.",
+      "answers": [
+        { "text": "Moyen et petit fessier", "is_correct": true },
+        { "text": "Grand fessier", "is_correct": false },
+        { "text": "Ilio-psoas", "is_correct": false },
+        { "text": "Adducteurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction du ligament croisé postérieur (LCP) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ligament croisé postérieur empêche le déplacement postérieur du tibia par rapport au fémur. Sa rupture provoque un signe du tiroir postérieur. Il est plus robuste que le LCA.",
+      "answers": [
+        {
+          "text": "Empêcher le déplacement postérieur du tibia",
+          "is_correct": true
+        },
+        {
+          "text": "Empêcher le déplacement antérieur du tibia",
+          "is_correct": false
+        },
+        { "text": "Limiter la rotation externe", "is_correct": false },
+        { "text": "Stabiliser la rotule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve les muscles de la loge antérieure de la jambe ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf fibulaire profond (nerf péronier profond) innerve les muscles de la loge antérieure de la jambe : tibial antérieur, extenseur propre du gros orteil, extenseur commun des orteils.",
+      "answers": [
+        { "text": "Nerf fibulaire profond", "is_correct": true },
+        { "text": "Nerf tibial", "is_correct": false },
+        { "text": "Nerf fibulaire superficiel", "is_correct": false },
+        { "text": "Nerf sural", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est à risque lors d'une fracture de la diaphyse humérale ?",
+      "difficulty": "Moyen",
+      "explanation": "L'artère brachiale et le nerf radial cheminent dans la gouttière radiale de l'humérus et peuvent être lésés lors d'une fracture du tiers moyen de la diaphyse humérale.",
+      "answers": [
+        { "text": "Artère brachiale et nerf radial", "is_correct": true },
+        { "text": "Artère axillaire", "is_correct": false },
+        { "text": "Artère radiale", "is_correct": false },
+        { "text": "Nerf médian uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle portion de l'estomac communique avec le duodénum ?",
+      "difficulty": "Facile",
+      "explanation": "Le pylore (antre pylorique et canal pylorique) communique avec le duodénum via le sphincter pylorique. C'est la portion distale de l'estomac, riche en cellules productrices de gastrine.",
+      "answers": [
+        { "text": "Pylore", "is_correct": true },
+        { "text": "Fundus", "is_correct": false },
+        { "text": "Cardia", "is_correct": false },
+        { "text": "Corps gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la fermeture de la mâchoire ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle masséter, temporal et ptérygoïdien médial assurent l'élévation de la mandibule (fermeture). Ils sont tous innervés par le nerf mandibulaire (V3).",
+      "answers": [
+        { "text": "Masséter et temporal", "is_correct": true },
+        { "text": "Digastrique", "is_correct": false },
+        { "text": "Mylo-hyoïdien", "is_correct": false },
+        { "text": "Platysma", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère alimente la moelle épinière dans sa partie antérieure ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère spinale antérieure (unique, médiane) irrigue les 2/3 antérieurs de la moelle. Elle naît de la réunion des deux artères vertébrales. Les artères spinales postérieures (paires) irriguent le tiers postérieur.",
+      "answers": [
+        { "text": "Artère spinale antérieure", "is_correct": true },
+        { "text": "Artères spinales postérieures", "is_correct": false },
+        { "text": "Artère basilaire", "is_correct": false },
+        { "text": "Artères radiculaires uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de lobes comporte le poumon droit ?",
+      "difficulty": "Facile",
+      "explanation": "Le poumon droit comporte 3 lobes (supérieur, moyen, inférieur) séparés par les scissures horizontale et oblique. Le poumon gauche n'a que 2 lobes (supérieur et inférieur).",
+      "answers": [
+        { "text": "3 lobes", "is_correct": true },
+        { "text": "2 lobes", "is_correct": false },
+        { "text": "4 lobes", "is_correct": false },
+        { "text": "5 lobes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle subscapulaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf subscapulaire (branches supérieure et inférieure) innerve le muscle subscapulaire et le grand rond. Ces nerfs proviennent du faisceau postérieur du plexus brachial.",
+      "answers": [
+        { "text": "Nerf subscapulaire", "is_correct": true },
+        { "text": "Nerf axillaire", "is_correct": false },
+        { "text": "Nerf supra-scapulaire", "is_correct": false },
+        { "text": "Nerf thoracique long", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure sépare la cavité thoracique de la cavité abdominale ?",
+      "difficulty": "Facile",
+      "explanation": "Le diaphragme est le muscle qui sépare le thorax de l'abdomen. Il possède trois orifices principaux : hiatus œsophagien (T10), aortique (T12) et de la veine cave inférieure (T8).",
+      "answers": [
+        { "text": "Diaphragme", "is_correct": true },
+        { "text": "Péritoine", "is_correct": false },
+        { "text": "Plèvre", "is_correct": false },
+        { "text": "Muscles intercostaux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle du ménisque interne (médial) du genou ?",
+      "difficulty": "Moyen",
+      "explanation": "Le ménisque médial améliore la congruence articulaire entre le fémur et le tibia, absorbe les chocs et distribue les contraintes. Il est en forme de C et fixé au ligament collatéral médial.",
+      "answers": [
+        {
+          "text": "Améliorer la congruence et absorber les chocs",
+          "is_correct": true
+        },
+        { "text": "Empêcher la rotation du tibia", "is_correct": false },
+        { "text": "Stabiliser la rotule", "is_correct": false },
+        { "text": "Produire le liquide synovial", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère vascularise le muscle triceps brachial ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère profonde du bras (artère humérale profonde), branche de l'artère brachiale, chemine avec le nerf radial dans la gouttière radiale et irrigue le triceps brachial.",
+      "answers": [
+        { "text": "Artère profonde du bras", "is_correct": true },
+        { "text": "Artère brachiale directement", "is_correct": false },
+        { "text": "Artère circonflexe postérieure", "is_correct": false },
+        { "text": "Artère radiale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf assure la sensibilité de la face palmaire des 3 premiers doigts et demi ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf médian innerve la sensibilité de la face palmaire du pouce, index, majeur et la moitié radiale de l'annulaire. Le nerf ulnaire innerve l'auriculaire et la moitié ulnaire de l'annulaire.",
+      "answers": [
+        { "text": "Nerf médian", "is_correct": true },
+        { "text": "Nerf ulnaire", "is_correct": false },
+        { "text": "Nerf radial", "is_correct": false },
+        { "text": "Nerf musculo-cutané", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du néphron est imperméable à l'eau ?",
+      "difficulty": "Moyen",
+      "explanation": "La branche ascendante de l'anse de Henlé est imperméable à l'eau mais réabsorbe activement Na+, K+ et Cl-. C'est cette imperméabilité qui permet la création du gradient osmotique médullaire.",
+      "answers": [
+        { "text": "Branche ascendante de l'anse de Henlé", "is_correct": true },
+        { "text": "Tube contourné proximal", "is_correct": false },
+        { "text": "Tube collecteur", "is_correct": false },
+        { "text": "Glomérule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est le principal rotateur médial du bras ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle subscapulaire (coiffe des rotateurs) est le principal rotateur médial du bras. Le grand pectoral, le grand dorsal et le grand rond participent aussi à ce mouvement.",
+      "answers": [
+        { "text": "Subscapulaire", "is_correct": true },
+        { "text": "Infra-épineux", "is_correct": false },
+        { "text": "Petit rond", "is_correct": false },
+        { "text": "Supra-épineux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue la rate ?",
+      "difficulty": "Facile",
+      "explanation": "L'artère splénique (branche du tronc cœliaque) irrigue la rate. Elle chemine le long du bord supérieur du pancréas et se divise en plusieurs branches avant d'entrer dans le hile splénique.",
+      "answers": [
+        { "text": "Artère splénique", "is_correct": true },
+        { "text": "Artère gastrique gauche", "is_correct": false },
+        { "text": "Artère hépatique", "is_correct": false },
+        { "text": "Artère mésentérique supérieure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel foramen permet le passage du nerf mandibulaire (V3) ?",
+      "difficulty": "Difficile",
+      "explanation": "Le foramen ovale (trou ovale) de l'os sphénoïde permet le passage du nerf mandibulaire (V3), branche du nerf trijumeau. Le nerf ophtalmique (V1) passe par la fissure orbitaire supérieure, V2 par le foramen rond.",
+      "answers": [
+        { "text": "Foramen ovale", "is_correct": true },
+        { "text": "Foramen rond", "is_correct": false },
+        { "text": "Fissure orbitaire supérieure", "is_correct": false },
+        { "text": "Foramen jugulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine draine le sang du cerveau via les sinus caverneux ?",
+      "difficulty": "Moyen",
+      "explanation": "Les sinus caverneux (de part et d'autre de la selle turcique) drainent dans les sinus pétreux (supérieur et inférieur) puis dans le sinus sigmoïde et la veine jugulaire interne.",
+      "answers": [
+        { "text": "Sinus pétreux puis jugulaire interne", "is_correct": true },
+        { "text": "Veine jugulaire externe directement", "is_correct": false },
+        { "text": "Veine faciale", "is_correct": false },
+        { "text": "Veine ophtalmique uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Combien de vertèbres lombaires possède l'être humain ?",
+      "difficulty": "Facile",
+      "explanation": "La colonne lombaire comprend 5 vertèbres (L1 à L5). Ce sont les vertèbres les plus massives car elles supportent le poids du tronc.",
+      "answers": [
+        { "text": "5 vertèbres", "is_correct": true },
+        { "text": "7 vertèbres", "is_correct": false },
+        { "text": "4 vertèbres", "is_correct": false },
+        { "text": "6 vertèbres", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'éversion du pied ?",
+      "difficulty": "Moyen",
+      "explanation": "Les muscles fibulaires (long et court péronier) assurent l'éversion du pied. Ils sont innervés par le nerf fibulaire superficiel et se situent dans la loge latérale de la jambe.",
+      "answers": [
+        { "text": "Fibulaires (péroniers)", "is_correct": true },
+        { "text": "Tibial antérieur", "is_correct": false },
+        { "text": "Tibial postérieur", "is_correct": false },
+        { "text": "Gastrocnémiens", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure sépare les lobes temporal et frontal du cerveau ?",
+      "difficulty": "Facile",
+      "explanation": "Le sillon latéral de Sylvius sépare le lobe temporal (en bas) du lobe frontal et pariétal (en haut). L'insula (cortex insulaire) est enfouie dans la profondeur de ce sillon.",
+      "answers": [
+        { "text": "Sillon latéral (de Sylvius)", "is_correct": true },
+        { "text": "Sillon central (de Rolando)", "is_correct": false },
+        { "text": "Sillon pariéto-occipital", "is_correct": false },
+        { "text": "Scissure interhémisphérique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve le muscle grand dentelé (serratus anterior) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf thoracique long (nerf de Charles Bell, C5-C7) innerve le muscle grand dentelé. Sa paralysie provoque un décollement de l'omoplate (scapula alata) lors de l'antépulsion du bras.",
+      "answers": [
+        { "text": "Nerf thoracique long", "is_correct": true },
+        { "text": "Nerf thoraco-dorsal", "is_correct": false },
+        { "text": "Nerf axillaire", "is_correct": false },
+        { "text": "Nerf accessoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère est palpable dans le creux poplité ?",
+      "difficulty": "Facile",
+      "explanation": "L'artère poplitée est palpable dans le creux poplité (arrière du genou), en profondeur. La palpation se fait genou fléchi, en comprimant doucement contre le plan osseux postérieur du tibia.",
+      "answers": [
+        { "text": "Artère poplitée", "is_correct": true },
+        { "text": "Artère fémorale", "is_correct": false },
+        { "text": "Artère tibiale postérieure", "is_correct": false },
+        { "text": "Artère tibiale antérieure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie de l'œsophage traverse le diaphragme ?",
+      "difficulty": "Moyen",
+      "explanation": "L'œsophage abdominal (portion terminale de 2-3 cm) traverse le diaphragme par le hiatus œsophagien au niveau de T10. Cette portion est située sous le diaphragme avant la jonction œso-gastrique.",
+      "answers": [
+        {
+          "text": "Œsophage abdominal via hiatus œsophagien (T10)",
+          "is_correct": true
+        },
+        { "text": "Œsophage thoracique", "is_correct": false },
+        { "text": "Œsophage cervical", "is_correct": false },
+        {
+          "text": "L'œsophage ne traverse pas le diaphragme",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure la flexion de la jambe sur la cuisse ?",
+      "difficulty": "Facile",
+      "explanation": "Les muscles ischio-jambiers (biceps fémoral, semi-tendineux, semi-membraneux) assurent la flexion du genou. Ils sont innervés par le nerf sciatique et sont aussi extenseurs de hanche.",
+      "answers": [
+        { "text": "Ischio-jambiers", "is_correct": true },
+        { "text": "Quadriceps fémoral", "is_correct": false },
+        { "text": "Triceps sural", "is_correct": false },
+        { "text": "Adducteurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère forme l'arcade palmaire profonde ?",
+      "difficulty": "Difficile",
+      "explanation": "L'arcade palmaire profonde est formée principalement par l'artère radiale qui s'anastomose avec la branche profonde de l'artère ulnaire. Elle est située sous les tendons fléchisseurs.",
+      "answers": [
+        { "text": "Artère radiale principalement", "is_correct": true },
+        { "text": "Artère ulnaire uniquement", "is_correct": false },
+        { "text": "Artère médiane", "is_correct": false },
+        { "text": "Artère brachiale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment de l'aorte donne naissance aux artères coronaires ?",
+      "difficulty": "Facile",
+      "explanation": "Les artères coronaires (droite et gauche) naissent de l'aorte ascendante, juste au-dessus des valvules sigmoïdes aortiques, au niveau des sinus de Valsalva.",
+      "answers": [
+        { "text": "Aorte ascendante", "is_correct": true },
+        { "text": "Arc aortique", "is_correct": false },
+        { "text": "Aorte thoracique descendante", "is_correct": false },
+        { "text": "Aorte abdominale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf est à risque lors d'une injection intramusculaire dans le quadrant supéro-externe de la fesse ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf sciatique peut être lésé si l'injection est mal placée. Le quadrant supéro-externe est choisi car il est éloigné du trajet du nerf sciatique qui passe dans les quadrants inférieurs et médial.",
+      "answers": [
+        {
+          "text": "Nerf sciatique (si injection mal placée)",
+          "is_correct": true
+        },
+        { "text": "Nerf fémoral", "is_correct": false },
+        { "text": "Nerf obturateur", "is_correct": false },
+        { "text": "Nerf glutéal supérieur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le nœud sino-auriculaire dans 40% des cas ?",
+      "difficulty": "Difficile",
+      "explanation": "Dans 40% des cas, l'artère du nœud sinusal provient de l'artère circonflexe (branche de la coronaire gauche). Dans 60% des cas, elle vient de la coronaire droite.",
+      "answers": [
+        { "text": "Artère circonflexe", "is_correct": true },
+        { "text": "Artère interventriculaire antérieure", "is_correct": false },
+        { "text": "Artère marginale droite", "is_correct": false },
+        { "text": "Tronc de la coronaire gauche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet l'inversion du pied ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle tibial postérieur est le principal inverseur du pied. Il passe en arrière de la malléole médiale et s'insère sur le naviculaire et les cunéiformes. Innervation par le nerf tibial.",
+      "answers": [
+        { "text": "Tibial postérieur", "is_correct": true },
+        { "text": "Fibulaires", "is_correct": false },
+        { "text": "Tibial antérieur", "is_correct": false },
+        { "text": "Soléaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine superficielle remonte sur la face latérale de l'avant-bras ?",
+      "difficulty": "Moyen",
+      "explanation": "La veine céphalique remonte sur le bord latéral (radial) de l'avant-bras et du bras. Elle se jette dans la veine axillaire en passant dans le sillon delto-pectoral.",
+      "answers": [
+        { "text": "Veine céphalique", "is_correct": true },
+        { "text": "Veine basilique", "is_correct": false },
+        { "text": "Veine médiane", "is_correct": false },
+        { "text": "Veine radiale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os s'articule avec tous les autres os du carpe ?",
+      "difficulty": "Difficile",
+      "explanation": "Le capitatum (grand os) est l'os central du carpe. Il s'articule avec le scaphoïde, lunatum, trapézoïde, hamatum et les métacarpiens 2, 3 et 4.",
+      "answers": [
+        { "text": "Capitatum", "is_correct": true },
+        { "text": "Scaphoïde", "is_correct": false },
+        { "text": "Lunatum", "is_correct": false },
+        { "text": "Hamatum", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue le rein ?",
+      "difficulty": "Facile",
+      "explanation": "Les artères rénales (droite et gauche) naissent de l'aorte abdominale au niveau de L1-L2, juste en dessous de l'artère mésentérique supérieure. L'artère rénale droite est plus longue et passe en arrière de la VCI.",
+      "answers": [
+        { "text": "Artère rénale", "is_correct": true },
+        { "text": "Artère mésentérique inférieure", "is_correct": false },
+        { "text": "Artère iliaque commune", "is_correct": false },
+        { "text": "Tronc cœliaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf innerve la peau de la face dorsale de la main entre pouce et index ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf radial (branche superficielle sensitive) innerve la face dorsale du pouce, de l'index et de la moitié radiale du majeur. Le nerf ulnaire innerve la face dorsale des 4ème et 5ème doigts.",
+      "answers": [
+        { "text": "Nerf radial (branche superficielle)", "is_correct": true },
+        { "text": "Nerf médian", "is_correct": false },
+        { "text": "Nerf ulnaire", "is_correct": false },
+        { "text": "Nerf musculo-cutané", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle partie du tube digestif présente des haustrations (bosselures) ?",
+      "difficulty": "Facile",
+      "explanation": "Le côlon présente des haustrations (ou bosselures coliques) séparées par des plis semi-lunaires. Ces haustrations sont formées par la contraction des bandelettes coliques (tænias coli).",
+      "answers": [
+        { "text": "Côlon", "is_correct": true },
+        { "text": "Intestin grêle", "is_correct": false },
+        { "text": "Estomac", "is_correct": false },
+        { "text": "Œsophage", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure l'extension du poignet ?",
+      "difficulty": "Facile",
+      "explanation": "Les muscles extenseurs radiaux du carpe (long et court) et l'extenseur ulnaire du carpe assurent l'extension du poignet. Ils sont innervés par le nerf radial et situés dans la loge postérieure de l'avant-bras.",
+      "answers": [
+        {
+          "text": "Extenseurs radiaux et ulnaire du carpe",
+          "is_correct": true
+        },
+        { "text": "Fléchisseurs du carpe", "is_correct": false },
+        { "text": "Pronateurs", "is_correct": false },
+        { "text": "Interosseux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère passe entre les deux chefs du muscle gastrocnémien ?",
+      "difficulty": "Difficile",
+      "explanation": "L'artère poplitée passe en profondeur entre les deux chefs (médial et latéral) du muscle gastrocnémien avant de se diviser en artères tibiales antérieure et postérieure et tronc tibio-fibulaire.",
+      "answers": [
+        { "text": "Artère poplitée", "is_correct": true },
+        { "text": "Artère fémorale", "is_correct": false },
+        { "text": "Artère tibiale postérieure", "is_correct": false },
+        { "text": "Artère surale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf assure l'innervation sensitive de la cornée ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf ophtalmique (V1, première branche du trijumeau) assure la sensibilité de la cornée via ses branches (notamment le nerf nasociliaire). Le réflexe cornéen fait intervenir V1 (afférent) et VII (efférent).",
+      "answers": [
+        { "text": "Nerf ophtalmique (V1)", "is_correct": true },
+        { "text": "Nerf oculomoteur (III)", "is_correct": false },
+        { "text": "Nerf optique (II)", "is_correct": false },
+        { "text": "Nerf facial (VII)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale de la vésicule biliaire ?",
+      "difficulty": "Facile",
+      "explanation": "La vésicule biliaire stocke et concentre la bile produite par le foie. Elle se contracte en réponse à la cholécystokinine (CCK) lors de l'ingestion de lipides, libérant la bile dans le duodénum.",
+      "answers": [
+        { "text": "Stocker et concentrer la bile", "is_correct": true },
+        { "text": "Produire la bile", "is_correct": false },
+        { "text": "Produire des enzymes digestives", "is_correct": false },
+        { "text": "Filtrer le sang", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle assure l'élévation de la scapula ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle trapèze (fibres supérieures) et l'élévateur de la scapula assurent l'élévation de l'omoplate. Le trapèze est innervé par le nerf accessoire (XI) et le plexus cervical.",
+      "answers": [
+        { "text": "Trapèze et élévateur de la scapula", "is_correct": true },
+        { "text": "Grand dentelé", "is_correct": false },
+        { "text": "Rhomboïdes uniquement", "is_correct": false },
+        { "text": "Grand pectoral", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère irrigue la glande thyroïde ?",
+      "difficulty": "Moyen",
+      "explanation": "La glande thyroïde est irrigée par les artères thyroïdiennes supérieures (branches de la carotide externe) et inférieures (branches de l'artère subclavière via le tronc thyro-cervical).",
+      "answers": [
+        {
+          "text": "Artères thyroïdiennes supérieures et inférieures",
+          "is_correct": true
+        },
+        { "text": "Artère carotide interne", "is_correct": false },
+        { "text": "Artère vertébrale", "is_correct": false },
+        { "text": "Artère faciale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment médullaire innerve le réflexe achilléen ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réflexe achilléen (ou calcanéen) fait intervenir les segments médullaires S1-S2 via le nerf tibial. Son abolition suggère une radiculopathie S1 ou une neuropathie du sciatique.",
+      "answers": [
+        { "text": "S1-S2", "is_correct": true },
+        { "text": "L3-L4", "is_correct": false },
+        { "text": "L5-S1", "is_correct": false },
+        { "text": "L1-L2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle veine draine le sang veineux de l'estomac vers le foie ?",
+      "difficulty": "Moyen",
+      "explanation": "Les veines gastriques (gauche et droite) drainent l'estomac et se jettent dans la veine porte hépatique. La veine gastrique gauche (coronaire stomachique) est la plus importante.",
+      "answers": [
+        { "text": "Veines gastriques vers la veine porte", "is_correct": true },
+        { "text": "Veine cave inférieure directement", "is_correct": false },
+        { "text": "Veine splénique uniquement", "is_correct": false },
+        { "text": "Veine azygos", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel nerf peut être lésé lors d'une fracture du col du péroné (fibula) ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf fibulaire commun (péronier commun) contourne le col du péroné et peut être lésé lors de fractures ou compressions. Cela provoque un pied tombant (steppage) et une perte de sensibilité dorsale du pied.",
+      "answers": [
+        { "text": "Nerf fibulaire commun", "is_correct": true },
+        { "text": "Nerf tibial", "is_correct": false },
+        { "text": "Nerf fémoral", "is_correct": false },
+        { "text": "Nerf sciatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure forme le toit de l'orbite ?",
+      "difficulty": "Moyen",
+      "explanation": "Le toit de l'orbite est formé principalement par la partie orbitaire de l'os frontal et, en arrière, par la petite aile de l'os sphénoïde. Il sépare l'orbite de la fosse crânienne antérieure.",
+      "answers": [
+        { "text": "Os frontal (partie orbitaire)", "is_correct": true },
+        { "text": "Os maxillaire", "is_correct": false },
+        { "text": "Os zygomatique", "is_correct": false },
+        { "text": "Os ethmoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle permet la rétropulsion de la mandibule ?",
+      "difficulty": "Difficile",
+      "explanation": "Les fibres postérieures du muscle temporal assurent la rétraction (rétropulsion) de la mandibule. Les fibres antérieures et moyennes participent à l'élévation.",
+      "answers": [
+        { "text": "Fibres postérieures du temporal", "is_correct": true },
+        { "text": "Masséter", "is_correct": false },
+        { "text": "Ptérygoïdien latéral", "is_correct": false },
+        { "text": "Digastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle artère alimente le bulbe rachidien ?",
+      "difficulty": "Difficile",
+      "explanation": "Le bulbe rachidien (medulla oblongata) est irrigué par les artères vertébrales, l'artère spinale antérieure et les artères cérébelleuses postéro-inférieures (PICA).",
+      "answers": [
+        { "text": "Artères vertébrales et PICA", "is_correct": true },
+        { "text": "Artère basilaire uniquement", "is_correct": false },
+        { "text": "Artère carotide interne", "is_correct": false },
+        { "text": "Artère cérébrale postérieure", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel os forme le plancher de l'orbite ?",
+      "difficulty": "Moyen",
+      "explanation": "Le plancher de l'orbite est formé principalement par le maxillaire et, en partie latérale, par l'os zygomatique. Une fracture du plancher (blow-out) peut entraîner une incarcération du muscle droit inférieur.",
+      "answers": [
+        { "text": "Os maxillaire et zygomatique", "is_correct": true },
+        { "text": "Os frontal", "is_correct": false },
+        { "text": "Os sphénoïde", "is_correct": false },
+        { "text": "Os temporal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel muscle est le fléchisseur le plus puissant des orteils ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle long fléchisseur des orteils (flexor digitorum longus) est le fléchisseur principal des orteils 2 à 5. Il est innervé par le nerf tibial et situé dans la loge postérieure profonde de la jambe.",
+      "answers": [
+        { "text": "Long fléchisseur des orteils", "is_correct": true },
+        { "text": "Court fléchisseur des orteils", "is_correct": false },
+        { "text": "Tibial postérieur", "is_correct": false },
+        { "text": "Soléaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient se présente avec une impossibilité de fermer l'œil droit et un affaissement de la commissure labiale du même côté. Quel nerf est probablement lésé ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf facial (VII) innerve les muscles de la mimique. Sa paralysie entraîne une impossibilité de fermer l'œil (lagophtalmie) et un affaissement de la commissure labiale du côté atteint.",
+      "answers": [
+        { "text": "Nerf facial (VII)", "is_correct": true },
+        { "text": "Nerf trijumeau (V)", "is_correct": false },
+        { "text": "Nerf hypoglosse (XII)", "is_correct": false },
+        { "text": "Nerf accessoire (XI)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une chute sur la main, un patient présente une fracture du scaphoïde carpien. Quelle complication vasculaire est à craindre ?",
+      "difficulty": "Difficile",
+      "explanation": "Le scaphoïde a une vascularisation rétrograde. Une fracture de son tiers moyen ou proximal risque de priver le fragment proximal de vascularisation, entraînant une nécrose avasculaire (maladie de Preiser).",
+      "answers": [
+        {
+          "text": "Nécrose avasculaire du fragment proximal",
+          "is_correct": true
+        },
+        { "text": "Thrombose veineuse profonde", "is_correct": false },
+        { "text": "Syndrome de loge", "is_correct": false },
+        { "text": "Embolie graisseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un enfant arrive aux urgences avec le coude en flexion et l'avant-bras en pronation forcée après que son parent l'ait tiré par le bras. Quel diagnostic évoquez-vous ?",
+      "difficulty": "Moyen",
+      "explanation": "La pronation douloureuse (nursemaid's elbow) est une subluxation de la tête radiale hors du ligament annulaire, fréquente chez les enfants de 1 à 4 ans après traction axiale sur le bras tendu.",
+      "answers": [
+        {
+          "text": "Pronation douloureuse (subluxation de la tête radiale)",
+          "is_correct": true
+        },
+        { "text": "Fracture de la clavicule", "is_correct": false },
+        { "text": "Luxation de l'épaule", "is_correct": false },
+        {
+          "text": "Fracture supracondylienne de l'humérus",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient diabétique présente une plaie au talon qui ne cicatrise pas. Quelle artère assure principalement la vascularisation du talon ?",
+      "difficulty": "Moyen",
+      "explanation": "Le talon est vascularisé principalement par les branches calcanéennes de l'artère tibiale postérieure. Une atteinte artérielle à ce niveau compromet la cicatrisation.",
+      "answers": [
+        { "text": "Artère tibiale postérieure", "is_correct": true },
+        { "text": "Artère tibiale antérieure", "is_correct": false },
+        { "text": "Artère péronière", "is_correct": false },
+        { "text": "Artère dorsale du pied", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une thyroïdectomie, le chirurgien doit être vigilant pour préserver un nerf situé dans la loge thyroïdienne. Sa lésion entraînerait une voix bitonale. De quel nerf s'agit-il ?",
+      "difficulty": "Difficile",
+      "explanation": "Le nerf laryngé récurrent (branche du nerf vague) innerve les muscles intrinsèques du larynx. Sa lésion unilatérale entraîne une paralysie d'une corde vocale avec voix bitonale et dysphonie.",
+      "answers": [
+        { "text": "Nerf laryngé récurrent", "is_correct": true },
+        { "text": "Nerf laryngé supérieur", "is_correct": false },
+        { "text": "Nerf hypoglosse", "is_correct": false },
+        { "text": "Nerf phrénique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient consulte pour une douleur aiguë du mollet gauche avec impossibilité de se mettre sur la pointe des pieds. À l'examen, vous notez une dépression palpable au-dessus du talon. Quel est le diagnostic ?",
+      "difficulty": "Facile",
+      "explanation": "La rupture du tendon d'Achille entraîne une douleur brutale, une impotence fonctionnelle pour la flexion plantaire et un signe de la gouttière (dépression palpable). Le test de Thompson est positif.",
+      "answers": [
+        { "text": "Rupture du tendon d'Achille", "is_correct": true },
+        { "text": "Déchirure des gastrocnémiens", "is_correct": false },
+        { "text": "Thrombose veineuse profonde", "is_correct": false },
+        { "text": "Fracture du calcanéus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un cycliste chute et présente une fracture de la clavicule au tiers moyen. Quelle déformation typique observez-vous ?",
+      "difficulty": "Moyen",
+      "explanation": "Dans une fracture claviculaire au tiers moyen, le fragment médial est tiré vers le haut par le muscle sterno-cléido-mastoïdien, tandis que le fragment latéral est abaissé par le poids du bras et tiré en dedans par les muscles pectoraux.",
+      "answers": [
+        {
+          "text": "Ascension du fragment médial, abaissement du fragment latéral",
+          "is_correct": true
+        },
+        {
+          "text": "Abaissement du fragment médial, ascension du fragment latéral",
+          "is_correct": false
+        },
+        { "text": "Rotation interne des deux fragments", "is_correct": false },
+        { "text": "Aucune déformation visible", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une anesthésie de la face palmaire des trois premiers doigts et demi avec atrophie de l'éminence thénar. Quel nerf est comprimé ?",
+      "difficulty": "Facile",
+      "explanation": "Le syndrome du canal carpien résulte de la compression du nerf médian sous le ligament annulaire antérieur du carpe. Il entraîne paresthésies des 3 premiers doigts et demi et atrophie thénarienne dans les formes évoluées.",
+      "answers": [
+        { "text": "Nerf médian", "is_correct": true },
+        { "text": "Nerf ulnaire", "is_correct": false },
+        { "text": "Nerf radial", "is_correct": false },
+        { "text": "Nerf musculo-cutané", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une intervention sur l'artère fémorale au niveau du triangle de Scarpa, le chirurgien identifie les structures de latéral en médial. Quel est l'ordre correct ?",
+      "difficulty": "Difficile",
+      "explanation": "Dans le triangle fémoral (Scarpa), de latéral en médial, on trouve : le Nerf fémoral, l'Artère fémorale, la Veine fémorale, Empty space (ganglions), Canal fémoral (mnémotechnique NAVEL).",
+      "answers": [
+        { "text": "Nerf, Artère, Veine", "is_correct": true },
+        { "text": "Artère, Nerf, Veine", "is_correct": false },
+        { "text": "Veine, Artère, Nerf", "is_correct": false },
+        { "text": "Nerf, Veine, Artère", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un boxeur reçoit un coup sur la pommette gauche. Il présente une diplopie dans le regard vers le haut. Quelle structure osseuse est probablement fracturée ?",
+      "difficulty": "Moyen",
+      "explanation": "Une fracture du plancher de l'orbite (blow-out fracture) peut entraîner l'incarcération du muscle droit inférieur dans le sinus maxillaire, provoquant une limitation de l'élévation du globe oculaire et une diplopie.",
+      "answers": [
+        { "text": "Plancher de l'orbite", "is_correct": true },
+        { "text": "Toit de l'orbite", "is_correct": false },
+        { "text": "Paroi médiale de l'orbite", "is_correct": false },
+        { "text": "Arcade zygomatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une douleur intense de la fosse lombaire droite irradiant vers l'aine et les organes génitaux. Quelle structure anatomique explique cette irradiation ?",
+      "difficulty": "Moyen",
+      "explanation": "Les coliques néphrétiques provoquent une douleur qui suit le trajet du nerf génito-fémoral (L1-L2), expliquant l'irradiation depuis la fosse lombaire vers l'aine et les organes génitaux externes.",
+      "answers": [
+        { "text": "Nerf génito-fémoral", "is_correct": true },
+        { "text": "Nerf obturateur", "is_correct": false },
+        { "text": "Nerf sciatique", "is_correct": false },
+        { "text": "Nerf ilio-inguinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient alcoolique chronique présente une hémorragie digestive haute massive. Quelle anastomose porto-cave est probablement en cause ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypertension portale entraîne une dilatation des veines œsophagiennes (anastomose entre les veines œsophagiennes tributaires de la veine azygos et les veines gastriques tributaires du système porte), créant des varices œsophagiennes susceptibles de se rompre.",
+      "answers": [
+        { "text": "Varices œsophagiennes", "is_correct": true },
+        { "text": "Varices rectales", "is_correct": false },
+        { "text": "Circulation de Retzius", "is_correct": false },
+        { "text": "Circulation de Sappey", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une ponction lombaire, entre quelles vertèbres l'aiguille est-elle habituellement insérée chez l'adulte ?",
+      "difficulty": "Facile",
+      "explanation": "La ponction lombaire se fait généralement entre L3-L4 ou L4-L5, en dessous de la terminaison de la moelle épinière (L1-L2 chez l'adulte) pour éviter toute lésion médullaire. Le repère est la ligne de Tuffier (crêtes iliaques) passant par L4.",
+      "answers": [
+        { "text": "L3-L4 ou L4-L5", "is_correct": true },
+        { "text": "L1-L2", "is_correct": false },
+        { "text": "T12-L1", "is_correct": false },
+        { "text": "L5-S1", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une fracture du col chirurgical de l'humérus. Quel nerf et quelle artère circulent à ce niveau et risquent d'être lésés ?",
+      "difficulty": "Difficile",
+      "explanation": "Au niveau du col chirurgical de l'humérus circulent le nerf axillaire (circonflexe) et l'artère circonflexe humérale postérieure. Leur lésion entraîne une paralysie du deltoïde et une anesthésie du moignon de l'épaule.",
+      "answers": [
+        {
+          "text": "Nerf axillaire et artère circonflexe humérale postérieure",
+          "is_correct": true
+        },
+        {
+          "text": "Nerf radial et artère humérale profonde",
+          "is_correct": false
+        },
+        {
+          "text": "Nerf musculo-cutané et artère brachiale",
+          "is_correct": false
+        },
+        {
+          "text": "Nerf ulnaire et artère collatérale ulnaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une hernie inguinale indirecte. Par quel orifice cette hernie passe-t-elle ?",
+      "difficulty": "Moyen",
+      "explanation": "La hernie inguinale indirecte (oblique externe) suit le trajet du cordon spermatique. Elle passe par l'orifice inguinal profond (interne), traverse le canal inguinal et sort par l'orifice inguinal superficiel (externe). Elle est latérale aux vaisseaux épigastriques.",
+      "answers": [
+        { "text": "Orifice inguinal profond (interne)", "is_correct": true },
+        {
+          "text": "Orifice inguinal superficiel (externe)",
+          "is_correct": false
+        },
+        { "text": "Orifice fémoral (crural)", "is_correct": false },
+        { "text": "Orifice obturateur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient victime d'un traumatisme crânien présente un écoulement de liquide clair par le nez. Quelle structure osseuse est probablement fracturée ?",
+      "difficulty": "Moyen",
+      "explanation": "Une rhinorrhée de liquide céphalo-rachidien témoigne d'une fracture de la lame criblée de l'ethmoïde (partie de la base du crâne), créant une brèche méningée avec risque de méningite.",
+      "answers": [
+        { "text": "Lame criblée de l'ethmoïde", "is_correct": true },
+        { "text": "Os nasal", "is_correct": false },
+        { "text": "Sphénoïde", "is_correct": false },
+        { "text": "Os frontal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une déviation de la langue vers la droite lors de la protraction. Quelle est la localisation de la lésion ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf hypoglosse (XII) innerve les muscles de la langue. Lors de sa paralysie unilatérale, la langue dévie du côté paralysé (côté lésé) à la protraction car les muscles sains du côté opposé repoussent la langue.",
+      "answers": [
+        { "text": "Nerf hypoglosse droit", "is_correct": true },
+        { "text": "Nerf hypoglosse gauche", "is_correct": false },
+        { "text": "Nerf lingual droit", "is_correct": false },
+        { "text": "Nerf glosso-pharyngien droit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une appendicectomie, le chirurgien repère le point de McBurney. Où se situe-t-il ?",
+      "difficulty": "Facile",
+      "explanation": "Le point de McBurney se situe à l'union du tiers externe et des deux tiers internes d'une ligne joignant l'ombilic à l'épine iliaque antéro-supérieure droite. C'est le point de douleur maximale dans l'appendicite aiguë.",
+      "answers": [
+        {
+          "text": "À l'union du tiers externe et des deux tiers internes de la ligne ombilic-EIAS",
+          "is_correct": true
+        },
+        { "text": "Au milieu de la ligne ombilic-EIAS", "is_correct": false },
+        { "text": "À 2 cm de l'EIAS", "is_correct": false },
+        { "text": "Dans le quadrant supérieur droit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une impossibilité d'abduction du bras au-delà de 15° après une luxation de l'épaule. Quel muscle est probablement paralysé ?",
+      "difficulty": "Moyen",
+      "explanation": "Le muscle supra-épineux, innervé par le nerf supra-scapulaire, permet les 15 premiers degrés d'abduction. Le deltoïde (innervé par le nerf axillaire) prend le relais au-delà. Une lésion du nerf axillaire lors d'une luxation d'épaule paralyse le deltoïde.",
+      "answers": [
+        { "text": "Deltoïde", "is_correct": true },
+        { "text": "Supra-épineux", "is_correct": false },
+        { "text": "Grand pectoral", "is_correct": false },
+        { "text": "Grand dorsal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un enfant tombe d'un arbre et présente une fracture de l'humérus au tiers moyen. Quel nerf risque d'être lésé et quelle serait la conséquence clinique ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf radial circule dans la gouttière radiale (spirale) au tiers moyen de l'humérus. Sa lésion entraîne une main tombante par paralysie des muscles extenseurs du poignet et des doigts.",
+      "answers": [
+        { "text": "Nerf radial → main tombante", "is_correct": true },
+        { "text": "Nerf médian → main de singe", "is_correct": false },
+        { "text": "Nerf ulnaire → griffe cubitale", "is_correct": false },
+        {
+          "text": "Nerf musculo-cutané → perte de flexion du coude",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Lors d'une cholécystectomie, le chirurgien identifie le triangle de Calot pour sécuriser l'intervention. Quelles sont ses limites ?",
+      "difficulty": "Difficile",
+      "explanation": "Le triangle de Calot (cystohépatique) est délimité par le canal cystique (en bas), le canal hépatique commun (en dedans) et le bord inférieur du foie (en haut). Il contient l'artère cystique qu'il faut identifier et ligaturer.",
+      "answers": [
+        {
+          "text": "Canal cystique, canal hépatique commun, bord inférieur du foie",
+          "is_correct": true
+        },
+        { "text": "Vésicule, duodénum, côlon", "is_correct": false },
+        {
+          "text": "Artère hépatique, veine porte, voie biliaire",
+          "is_correct": false
+        },
+        { "text": "Canal cholédoque, pancréas, estomac", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une paralysie des muscles intrinsèques de la main avec une griffe des 4ème et 5ème doigts. Quel nerf est lésé ?",
+      "difficulty": "Moyen",
+      "explanation": "La griffe cubitale (4ème et 5ème doigts en hyperextension des métacarpo-phalangiennes et flexion des interphalangiennes) est caractéristique d'une lésion du nerf ulnaire qui innerve les muscles intrinsèques de la main.",
+      "answers": [
+        { "text": "Nerf ulnaire", "is_correct": true },
+        { "text": "Nerf médian", "is_correct": false },
+        { "text": "Nerf radial", "is_correct": false },
+        { "text": "Nerf musculo-cutané", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une fracture du rocher avec paralysie faciale et surdité. Quelle structure osseuse du temporal est atteinte ?",
+      "difficulty": "Difficile",
+      "explanation": "Le rocher (partie pétreuse du temporal) contient le nerf facial (VII) dans le canal facial et l'oreille interne (cochlée et vestibule). Sa fracture peut entraîner paralysie faciale périphérique et surdité de perception.",
+      "answers": [
+        { "text": "Partie pétreuse (rocher)", "is_correct": true },
+        { "text": "Partie squameuse", "is_correct": false },
+        { "text": "Partie tympanique", "is_correct": false },
+        { "text": "Apophyse mastoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une douleur thoracique irradiant dans le bras gauche lors d'un infarctus du myocarde. Quel phénomène neurologique explique cette irradiation ?",
+      "difficulty": "Difficile",
+      "explanation": "La douleur cardiaque irradie dans le bras gauche par douleur référée : le cœur et la face interne du bras partagent le même métamère sensitif (T1-T5), principalement T1 pour l'innervation sympathique cardiaque.",
+      "answers": [
+        {
+          "text": "Douleur référée (convergence métamérique T1-T5)",
+          "is_correct": true
+        },
+        { "text": "Compression du plexus brachial", "is_correct": false },
+        { "text": "Ischémie du nerf médian", "is_correct": false },
+        {
+          "text": "Syndrome de la traversée thoraco-brachiale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Lors d'une intubation difficile, l'anesthésiste doit visualiser les cordes vocales. À quel niveau vertébral se situent-elles ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cordes vocales se situent au niveau du cartilage thyroïde, qui correspond approximativement à la hauteur de la vertèbre C4-C5. Le cartilage cricoïde correspond à C6.",
+      "answers": [
+        { "text": "C4-C5", "is_correct": true },
+        { "text": "C2-C3", "is_correct": false },
+        { "text": "C6-C7", "is_correct": false },
+        { "text": "T1-T2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une impossibilité de fléchir la cuisse sur le bassin après un accident de moto. Quel muscle est principalement responsable de ce mouvement ?",
+      "difficulty": "Facile",
+      "explanation": "Le muscle ilio-psoas (union du muscle iliaque et du muscle psoas) est le fléchisseur principal de la cuisse sur le bassin. Il s'insère sur le petit trochanter et est innervé par le plexus lombaire.",
+      "answers": [
+        { "text": "Ilio-psoas", "is_correct": true },
+        { "text": "Quadriceps", "is_correct": false },
+        { "text": "Grand fessier", "is_correct": false },
+        { "text": "Tenseur du fascia lata", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient diabétique présente un ulcère plantaire au niveau de l'appui du 1er métatarsien. Quelle artère assure la vascularisation de cette zone ?",
+      "difficulty": "Difficile",
+      "explanation": "La région plantaire est vascularisée par l'arcade plantaire profonde formée par l'anastomose entre l'artère plantaire latérale (branche de l'artère tibiale postérieure) et l'artère dorsale du pied. La zone du 1er métatarsien est vascularisée par l'artère plantaire médiale.",
+      "answers": [
+        { "text": "Artère plantaire médiale", "is_correct": true },
+        { "text": "Artère dorsale du pied", "is_correct": false },
+        { "text": "Artère tibiale antérieure", "is_correct": false },
+        { "text": "Artère péronière", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un nouveau-né présente une luxation congénitale de la hanche. Quel test clinique permet de la dépister ?",
+      "difficulty": "Facile",
+      "explanation": "Le test d'Ortolani (ressaut à l'abduction) et le test de Barlow (instabilité à l'adduction) permettent de dépister une luxation congénitale de hanche chez le nouveau-né. L'échographie confirme le diagnostic.",
+      "answers": [
+        { "text": "Test d'Ortolani et de Barlow", "is_correct": true },
+        { "text": "Test de Lachman", "is_correct": false },
+        { "text": "Test de Thompson", "is_correct": false },
+        { "text": "Test de Trendelenburg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une fracture du plateau tibial externe après un accident de ski. Quel ligament est fréquemment associé à cette fracture ?",
+      "difficulty": "Moyen",
+      "explanation": "Les fractures du plateau tibial externe (condyle latéral) sont souvent associées à une lésion du ligament croisé antérieur (LCA) et/ou du ligament collatéral médial dans le cadre d'un traumatisme en valgus-rotation externe.",
+      "answers": [
+        { "text": "Ligament croisé antérieur", "is_correct": true },
+        { "text": "Ligament croisé postérieur", "is_correct": false },
+        { "text": "Ligament collatéral latéral", "is_correct": false },
+        { "text": "Ligament patellaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une péritonite, le chirurgien recherche un épanchement dans le cul-de-sac de Douglas. Où se situe-t-il ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cul-de-sac de Douglas (récessus recto-utérin chez la femme, recto-vésical chez l'homme) est le point le plus déclive de la cavité péritonéale en position debout. Les épanchements (pus, sang, liquide) s'y accumulent par gravité.",
+      "answers": [
+        {
+          "text": "Entre le rectum et l'utérus (ou la vessie)",
+          "is_correct": true
+        },
+        { "text": "Entre le foie et le rein droit", "is_correct": false },
+        { "text": "Entre l'estomac et la rate", "is_correct": false },
+        { "text": "Entre le diaphragme et le foie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une fracture de la base du 5ème métatarsien après inversion du pied. Quel muscle s'insère à ce niveau et explique le mécanisme lésionnel ?",
+      "difficulty": "Difficile",
+      "explanation": "Le muscle court fibulaire (péronier latéral court) s'insère sur la base du 5ème métatarsien. Lors d'une inversion forcée du pied, sa contraction réflexe peut arracher la base du 5ème métatarsien (fracture de Jones ou fracture du danseur).",
+      "answers": [
+        {
+          "text": "Court fibulaire (péronier latéral court)",
+          "is_correct": true
+        },
+        {
+          "text": "Long fibulaire (péronier latéral long)",
+          "is_correct": false
+        },
+        { "text": "Troisième fibulaire", "is_correct": false },
+        { "text": "Tibial antérieur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient victime d'un accident de la voie publique présente un hémothorax massif. Quelle artère est le plus souvent responsable ?",
+      "difficulty": "Moyen",
+      "explanation": "Les artères intercostales, branches de l'aorte thoracique descendante, cheminent dans le sillon costal inférieur. Elles peuvent être lésées lors d'une fracture de côte et provoquer un hémothorax important nécessitant un drainage thoracique urgent.",
+      "answers": [
+        { "text": "Artères intercostales", "is_correct": true },
+        { "text": "Artère mammaire interne", "is_correct": false },
+        { "text": "Artère sous-clavière", "is_correct": false },
+        { "text": "Artère pulmonaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une atteinte du nerf sciatique poplité externe (fibulaire commun) après une fracture du col du péroné. Quelle déformation du pied observez-vous ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf sciatique poplité externe (fibulaire commun) innerve les muscles de la loge antéro-latérale de la jambe (releveurs du pied). Sa paralysie entraîne un pied tombant (steppage) par impossibilité de dorsiflexion et d'éversion.",
+      "answers": [
+        { "text": "Pied tombant (steppage)", "is_correct": true },
+        { "text": "Pied bot varus équin", "is_correct": false },
+        { "text": "Pied plat", "is_correct": false },
+        { "text": "Pied creux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une mastectomie, le chirurgien préserve le nerf thoracique long pour éviter une complication. Laquelle ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf thoracique long (nerf de Charles Bell) innerve le muscle dentelé antérieur (serratus anterior). Sa lésion entraîne un décollement de l'omoplate (scapula alata) visible lors de l'antépulsion du bras contre résistance.",
+      "answers": [
+        {
+          "text": "Scapula alata (décollement de l'omoplate)",
+          "is_correct": true
+        },
+        { "text": "Paralysie du grand pectoral", "is_correct": false },
+        { "text": "Lymphœdème du bras", "is_correct": false },
+        { "text": "Syndrome douloureux régional complexe", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une épistaxis récidivante. Quelle zone richement vascularisée du nez est le plus souvent en cause ?",
+      "difficulty": "Facile",
+      "explanation": "La tache vasculaire (zone de Kiesselbach ou Little's area) est située sur la partie antéro-inférieure de la cloison nasale. C'est une zone d'anastomose de 5 artères responsable de 90% des épistaxis antérieures.",
+      "answers": [
+        { "text": "Tache vasculaire de Kiesselbach", "is_correct": true },
+        { "text": "Artère sphéno-palatine", "is_correct": false },
+        { "text": "Cornet inférieur", "is_correct": false },
+        { "text": "Sinus maxillaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient âgé chute et présente une fracture du col du fémur. Quelle complication vasculaire est à craindre ?",
+      "difficulty": "Moyen",
+      "explanation": "Le col du fémur est vascularisé principalement par les artères circonflexes fémorales (branche de l'artère fémorale profonde). Une fracture intra-capsulaire du col fémoral peut interrompre cette vascularisation et entraîner une nécrose avasculaire de la tête fémorale.",
+      "answers": [
+        {
+          "text": "Nécrose avasculaire de la tête fémorale",
+          "is_correct": true
+        },
+        { "text": "Embolie graisseuse", "is_correct": false },
+        { "text": "Thrombose veineuse profonde", "is_correct": false },
+        { "text": "Syndrome de loge", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une plaie pénétrante de l'abdomen au niveau du flanc gauche. Quel organe est le plus à risque de lésion à ce niveau ?",
+      "difficulty": "Moyen",
+      "explanation": "La rate est située dans l'hypocondre gauche, protégée par les côtes 9 à 11. Une plaie pénétrante du flanc gauche expose à une rupture splénique avec risque d'hémorragie intra-abdominale massive nécessitant une splénectomie d'hémostase.",
+      "answers": [
+        { "text": "Rate", "is_correct": true },
+        { "text": "Rein gauche", "is_correct": false },
+        { "text": "Côlon descendant", "is_correct": false },
+        { "text": "Queue du pancréas", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente un syndrome de la queue de cheval après une hernie discale L5-S1 volumineuse. Quel signe clinique est évocateur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de la queue de cheval associe anesthésie en selle (périnée), paralysie vésico-sphinctérienne (rétention urinaire, incontinence fécale), déficit moteur des membres inférieurs et abolition des réflexes. C'est une urgence neurochirurgicale.",
+      "answers": [
+        {
+          "text": "Anesthésie en selle et troubles sphinctériens",
+          "is_correct": true
+        },
+        { "text": "Syndrome pyramidal bilatéral", "is_correct": false },
+        { "text": "Atteinte des nerfs crâniens", "is_correct": false },
+        { "text": "Hypertonie spastique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une trachéotomie, le chirurgien doit être vigilant pour ne pas léser une glande située en avant de la trachée. Laquelle ?",
+      "difficulty": "Facile",
+      "explanation": "La glande thyroïde est située en avant de la trachée, ses lobes latéraux reliés par l'isthme thyroïdien qui croise la trachée au niveau des 2ème-3ème anneaux. Lors d'une trachéotomie, il faut récliner ou sectionner l'isthme pour accéder à la trachée.",
+      "answers": [
+        { "text": "Thyroïde", "is_correct": true },
+        { "text": "Parathyroïde", "is_correct": false },
+        { "text": "Thymus", "is_correct": false },
+        { "text": "Glande salivaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une compression médullaire par métastase vertébrale avec niveau sensitif à T10. Quel repère anatomique externe correspond à ce niveau ?",
+      "difficulty": "Difficile",
+      "explanation": "Le niveau sensitif T10 correspond à la région ombilicale. Les autres repères métamériques sont : T4 (mamelon), T7 (appendice xyphoïde), L1 (pli inguinal), S2-S4 (périnée/selle).",
+      "answers": [
+        { "text": "Ombilic", "is_correct": true },
+        { "text": "Mamelon", "is_correct": false },
+        { "text": "Appendice xyphoïde", "is_correct": false },
+        { "text": "Pli inguinal", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une dysphagie après un AVC du tronc cérébral. Quels nerfs crâniens sont responsables de la déglutition ?",
+      "difficulty": "Moyen",
+      "explanation": "La déglutition est contrôlée par les nerfs glosso-pharyngien (IX), vague (X) et hypoglosse (XII). Le IX assure la sensibilité pharyngée, le X innerve les muscles du pharynx et du larynx, le XII contrôle les mouvements de la langue.",
+      "answers": [
+        {
+          "text": "Nerfs IX (glosso-pharyngien), X (vague), XII (hypoglosse)",
+          "is_correct": true
+        },
+        { "text": "Nerfs V (trijumeau), VII (facial)", "is_correct": false },
+        {
+          "text": "Nerfs VII (facial), VIII (vestibulo-cochléaire)",
+          "is_correct": false
+        },
+        {
+          "text": "Nerfs XI (accessoire), XII (hypoglosse)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient présente un pneumothorax compressif après un traumatisme thoracique. Où doit-on réaliser l'exsufflation à l'aiguille en urgence ?",
+      "difficulty": "Facile",
+      "explanation": "L'exsufflation à l'aiguille d'un pneumothorax compressif se fait au 2ème espace intercostal sur la ligne médio-claviculaire, en passant au-dessus de la côte inférieure pour éviter le paquet vasculo-nerveux intercostal qui chemine dans le sillon costal inférieur.",
+      "answers": [
+        {
+          "text": "2ème espace intercostal, ligne médio-claviculaire",
+          "is_correct": true
+        },
+        {
+          "text": "4ème espace intercostal, ligne axillaire antérieure",
+          "is_correct": false
+        },
+        {
+          "text": "5ème espace intercostal, ligne médio-claviculaire",
+          "is_correct": false
+        },
+        {
+          "text": "3ème espace intercostal, ligne sternale",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une diplopie horizontale lors du regard latéral droit après un traumatisme crânien. Quel nerf crânien est lésé ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nerf abducens (VI) innerve le muscle droit latéral qui permet l'abduction de l'œil. Sa paralysie entraîne une impossibilité de regarder latéralement du côté atteint avec diplopie horizontale maximale dans le regard latéral.",
+      "answers": [
+        { "text": "Nerf abducens (VI) droit", "is_correct": true },
+        { "text": "Nerf oculomoteur (III) droit", "is_correct": false },
+        { "text": "Nerf trochléaire (IV) droit", "is_correct": false },
+        { "text": "Nerf optique (II) droit", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une impossibilité d'extension active du genou après une fracture de la rotule. Quel mécanisme explique cette impotence fonctionnelle ?",
+      "difficulty": "Moyen",
+      "explanation": "La rotule (patella) est un os sésamoïde inclus dans le tendon du quadriceps. Elle joue un rôle de poulie pour augmenter le bras de levier du quadriceps. Une fracture avec rupture de l'appareil extenseur entraîne une impossibilité d'extension active du genou.",
+      "answers": [
+        {
+          "text": "Rupture de l'appareil extenseur du genou",
+          "is_correct": true
+        },
+        { "text": "Lésion du ligament croisé antérieur", "is_correct": false },
+        { "text": "Paralysie du nerf fémoral", "is_correct": false },
+        { "text": "Lésion méniscale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une hémianopsie bitemporale. Quelle structure anatomique est comprimée ?",
+      "difficulty": "Difficile",
+      "explanation": "L'hémianopsie bitemporale (perte de la vision des champs temporaux bilatéraux) est caractéristique d'une compression du chiasma optique, souvent par un adénome hypophysaire. Les fibres nasales décussent au chiasma.",
+      "answers": [
+        { "text": "Chiasma optique", "is_correct": true },
+        { "text": "Nerf optique droit", "is_correct": false },
+        { "text": "Bandelette optique gauche", "is_correct": false },
+        { "text": "Cortex occipital", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Lors d'une cricothyroïdotomie d'urgence, le médecin incise la membrane entre deux cartilages. Lesquels ?",
+      "difficulty": "Moyen",
+      "explanation": "La membrane cricothyroïdienne (ou crico-thyroïdienne) est située entre le cartilage thyroïde (en haut) et le cartilage cricoïde (en bas). C'est un site d'abord chirurgical d'urgence des voies aériennes, relativement avasculaire.",
+      "answers": [
+        {
+          "text": "Entre cartilage thyroïde et cartilage cricoïde",
+          "is_correct": true
+        },
+        {
+          "text": "Entre cartilage cricoïde et premier anneau trachéal",
+          "is_correct": false
+        },
+        {
+          "text": "Entre os hyoïde et cartilage thyroïde",
+          "is_correct": false
+        },
+        { "text": "Entre cartilages aryténoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une douleur et tuméfaction du mollet après un long vol en avion. L'échographie confirme une thrombose veineuse profonde. Quelle veine est le plus souvent touchée ?",
+      "difficulty": "Moyen",
+      "explanation": "Les thromboses veineuses profondes du membre inférieur touchent le plus souvent les veines du réseau profond du mollet (veines tibiales, fibulaires) et peuvent s'étendre aux veines poplitée et fémorale. La stase veineuse lors d'immobilisation prolongée favorise la thrombose.",
+      "answers": [
+        {
+          "text": "Veines du mollet (tibiales et fibulaires)",
+          "is_correct": true
+        },
+        { "text": "Veine saphène interne", "is_correct": false },
+        { "text": "Veine saphène externe", "is_correct": false },
+        { "text": "Veine fémorale commune uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 25 ans consulte pour une douleur testiculaire gauche avec sensation de 'sac de vers'. L'examen révèle une varicocèle gauche. Pourquoi la varicocèle est-elle plus fréquente à gauche ?",
+      "difficulty": "Difficile",
+      "explanation": "La varicocèle (dilatation variqueuse du plexus pampiniforme) est plus fréquente à gauche car la veine spermatique gauche se draine dans la veine rénale gauche à angle droit, créant une pression hydrostatique plus élevée. À droite, elle se draine directement dans la veine cave inférieure à angle aigu.",
+      "answers": [
+        {
+          "text": "La veine spermatique gauche se draine dans la veine rénale gauche à angle droit",
+          "is_correct": true
+        },
+        { "text": "Le testicule gauche est plus gros", "is_correct": false },
+        {
+          "text": "L'artère spermatique gauche est plus longue",
+          "is_correct": false
+        },
+        {
+          "text": "Le cordon spermatique gauche est plus large",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient présente une perte d'odorat (anosmie) après un traumatisme crânien frontal. Quelle structure nerveuse est lésée ?",
+      "difficulty": "Moyen",
+      "explanation": "Les filets olfactifs (nerf olfactif I) traversent la lame criblée de l'ethmoïde pour rejoindre le bulbe olfactif. Un traumatisme frontal peut cisailler ces filets nerveux au niveau de la lame criblée, entraînant une anosmie post-traumatique souvent irréversible.",
+      "answers": [
+        {
+          "text": "Filets du nerf olfactif (I) à travers la lame criblée",
+          "is_correct": true
+        },
+        { "text": "Nerf trijumeau (V)", "is_correct": false },
+        { "text": "Nerf facial (VII)", "is_correct": false },
+        { "text": "Nerf glosso-pharyngien (IX)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient diabétique présente un pied de Charcot avec effondrement de l'arche plantaire. Quelle articulation est principalement touchée ?",
+      "difficulty": "Difficile",
+      "explanation": "Le pied de Charcot (arthropathie neuropathique) touche principalement l'articulation de Lisfranc (tarso-métatarsienne), entraînant une destruction ostéo-articulaire progressive avec effondrement de l'arche médiale du pied. C'est une complication grave du diabète nécessitant une décharge stricte.",
+      "answers": [
+        {
+          "text": "Articulation tarso-métatarsienne (Lisfranc)",
+          "is_correct": true
+        },
+        { "text": "Articulation tibio-talienne", "is_correct": false },
+        { "text": "Articulation sous-talienne", "is_correct": false },
+        { "text": "Articulations métatarso-phalangiennes", "is_correct": false }
+      ]
+    }
+  ]
+}

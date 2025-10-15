@@ -62,7 +62,28 @@ class SeedData {
         'color': '#9C27B0',
         'description': 'Étude des tissus'
       },
+      {
+        'name': 'Biophysique',
+        'year_level': 'L1',
+        'icon': 'physics',
+        'color': '#00BCD4',
+        'description': 'Physique appliquée à la biologie'
+      },
       // L2
+      {
+        'name': 'Anatomie détaillée',
+        'year_level': 'L2',
+        'icon': 'anatomy',
+        'color': '#E91E63',
+        'description': 'Anatomie approfondie et clinique'
+      },
+      {
+        'name': 'Physiologie approfondie',
+        'year_level': 'L2',
+        'icon': 'physiology',
+        'color': '#2196F3',
+        'description': 'Fonctionnement approfondi des organes'
+      },
       {
         'name': 'Pharmacologie',
         'year_level': 'L2',
@@ -185,8 +206,11 @@ class SeedData {
         'assets/questions/L1/biochimie.json',
         'assets/questions/L1/biologie_cellulaire.json',
         'assets/questions/L1/histologie.json',
+        'assets/questions/L1/biophysique.json',
       ],
       'L2': [
+        'assets/questions/L2/anatomie_detaillee.json',
+        'assets/questions/L2/physiologie.json',
         'assets/questions/L2/pharmacologie.json',
         'assets/questions/L2/pathologie.json',
         'assets/questions/L2/immunologie.json',

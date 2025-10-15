@@ -1,5 +1,6 @@
 {
   "category": "Immunologie",
+  "year_level": "L2",
   "questions": [
     {
       "question_text": "Quel type de cellule produit les anticorps ?",
@@ -1991,14 +1992,20 @@
       ]
     },
     {
-      "question_text": "Quel déficit immunitaire présente une ataxie-télangiectasie ?",
+      "question_text": "Un enfant de 5 ans présente une ataxie cérébelleuse progressive, des télangiectasies oculaires et cutanées, et des infections respiratoires à répétition. Quel est le diagnostic le plus probable ?",
       "difficulty": "Difficile",
-      "explanation": "L'ataxie-télangiectasie (déficit en ATM) cause ataxie cérébelleuse, télangiectasies, infections et prédisposition aux cancers.",
+      "explanation": "L'ataxie-télangiectasie (syndrome de Louis-Bar) est un déficit immunitaire combiné causé par une mutation du gène ATM. Elle associe : ataxie cérébelleuse progressive, télangiectasies, infections récurrentes, déficit en IgA et prédisposition aux hémopathies malignes.",
       "answers": [
-        { "text": "SCID", "is_correct": false },
-        { "text": "Ataxie-télangiectasie", "is_correct": true },
-        { "text": "Bruton", "is_correct": false },
-        { "text": "DiGeorge", "is_correct": false }
+        {
+          "text": "Immunodéficience combinée sévère (SCID)",
+          "is_correct": false
+        },
+        {
+          "text": "Ataxie-télangiectasie (syndrome de Louis-Bar)",
+          "is_correct": true
+        },
+        { "text": "Agammaglobulinémie de Bruton", "is_correct": false },
+        { "text": "Syndrome de DiGeorge", "is_correct": false }
       ]
     },
     {

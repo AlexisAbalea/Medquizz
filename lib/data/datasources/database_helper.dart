@@ -32,8 +32,7 @@ class DatabaseHelper {
     const textTypeNullable = 'TEXT';
 
     // Table students
-    await db.execute(
-        '''
+    await db.execute('''
       CREATE TABLE students (
         id $idType,
         name $textType,
@@ -43,8 +42,7 @@ class DatabaseHelper {
     ''');
 
     // Table categories
-    await db.execute(
-        '''
+    await db.execute('''
       CREATE TABLE categories (
         id $idType,
         name $textType,
@@ -56,8 +54,7 @@ class DatabaseHelper {
     ''');
 
     // Table questions
-    await db.execute(
-        '''
+    await db.execute('''
       CREATE TABLE questions (
         id $idType,
         category_id $integerType,
@@ -70,8 +67,7 @@ class DatabaseHelper {
     ''');
 
     // Table answers
-    await db.execute(
-        '''
+    await db.execute('''
       CREATE TABLE answers (
         id $idType,
         question_id $integerType,
@@ -82,8 +78,7 @@ class DatabaseHelper {
     ''');
 
     // Table user_progress
-    await db.execute(
-        '''
+    await db.execute('''
       CREATE TABLE user_progress (
         id $idType,
         student_id $integerType,
@@ -96,8 +91,7 @@ class DatabaseHelper {
     ''');
 
     // Table quiz_sessions
-    await db.execute(
-        '''
+    await db.execute('''
       CREATE TABLE quiz_sessions (
         id $idType,
         student_id $integerType,

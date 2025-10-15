@@ -1,0 +1,2481 @@
+{
+  "category": "Physiologie approfondie",
+  "year_level": "L2",
+  "questions": [
+    {
+      "question_text": "Quelle est la valeur normale de la fraction d'éjection ventriculaire gauche au repos ?",
+      "difficulty": "Moyen",
+      "explanation": "La fraction d'éjection (FE) normale du ventricule gauche est d'environ 55-70%. Elle représente le pourcentage du volume télédiastolique éjecté à chaque systole. Une FE < 40% définit une insuffisance cardiaque systolique.",
+      "answers": [
+        { "text": "55-70%", "is_correct": true },
+        { "text": "30-40%", "is_correct": false },
+        { "text": "80-90%", "is_correct": false },
+        { "text": "40-50%", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion est principalement responsable de la phase de plateau (phase 2) du potentiel d'action cardiaque ?",
+      "difficulty": "Difficile",
+      "explanation": "La phase 2 (plateau) du potentiel d'action cardiaque est due à l'entrée de calcium par les canaux calciques de type L, compensée par une sortie de potassium. Ce plateau prolonge la contraction et la période réfractaire, empêchant le tétanos cardiaque.",
+      "answers": [
+        { "text": "Calcium (Ca²⁺)", "is_correct": true },
+        { "text": "Sodium (Na⁺)", "is_correct": false },
+        { "text": "Potassium (K⁺)", "is_correct": false },
+        { "text": "Chlore (Cl⁻)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale hormone responsable de la réabsorption de sodium dans le tubule distal rénal ?",
+      "difficulty": "Facile",
+      "explanation": "L'aldostérone, sécrétée par la zone glomérulée de la corticosurrénale, stimule la réabsorption de sodium et la sécrétion de potassium au niveau du tubule collecteur et du tubule distal. Elle est régulée par le système rénine-angiotensine-aldostérone.",
+      "answers": [
+        { "text": "Aldostérone", "is_correct": true },
+        { "text": "ADH (hormone antidiurétique)", "is_correct": false },
+        { "text": "Parathormone", "is_correct": false },
+        { "text": "Insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la capacité résiduelle fonctionnelle (CRF) des poumons ?",
+      "difficulty": "Moyen",
+      "explanation": "La CRF est le volume d'air restant dans les poumons après une expiration normale. Elle représente la somme du volume de réserve expiratoire (VRE) et du volume résiduel (VR), soit environ 2,5-3 litres. C'est un volume non mesurable par spirométrie simple.",
+      "answers": [
+        {
+          "text": "Volume de réserve expiratoire + Volume résiduel",
+          "is_correct": true
+        },
+        {
+          "text": "Volume courant + Volume de réserve inspiratoire",
+          "is_correct": false
+        },
+        { "text": "Capacité vitale + Volume résiduel", "is_correct": false },
+        { "text": "Volume courant seul", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal stimulus de la sécrétion de l'érythropoïétine (EPO) ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypoxie tissulaire est le principal stimulus de la sécrétion d'EPO par les cellules péritubulaires du rein (90%) et le foie (10%). L'EPO stimule l'érythropoïèse dans la moelle osseuse pour augmenter la capacité de transport d'oxygène.",
+      "answers": [
+        { "text": "Hypoxie tissulaire", "is_correct": true },
+        { "text": "Hyperglycémie", "is_correct": false },
+        { "text": "Hyperthermie", "is_correct": false },
+        { "text": "Alcalose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment du néphron est imperméable à l'eau même en présence d'ADH ?",
+      "difficulty": "Difficile",
+      "explanation": "La branche ascendante large de l'anse de Henle est imperméable à l'eau, même en présence d'ADH. Elle réabsorbe activement le NaCl (via le cotransporteur Na-K-2Cl) sans eau, créant ainsi un liquide tubulaire hypotonique et un interstitium médullaire hypertonique.",
+      "answers": [
+        {
+          "text": "Branche ascendante large de l'anse de Henle",
+          "is_correct": true
+        },
+        { "text": "Tubule proximal", "is_correct": false },
+        { "text": "Tubule collecteur", "is_correct": false },
+        {
+          "text": "Branche descendante de l'anse de Henle",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la pression partielle normale d'oxygène (PaO₂) dans le sang artériel au niveau de la mer ?",
+      "difficulty": "Facile",
+      "explanation": "La PaO₂ artérielle normale au niveau de la mer est de 80-100 mmHg (10,6-13,3 kPa). Elle diminue légèrement avec l'âge. Une PaO₂ < 60 mmHg définit une insuffisance respiratoire hypoxémique.",
+      "answers": [
+        { "text": "80-100 mmHg", "is_correct": true },
+        { "text": "40-45 mmHg", "is_correct": false },
+        { "text": "120-140 mmHg", "is_correct": false },
+        { "text": "60-70 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal du surfactant pulmonaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Le surfactant pulmonaire, produit par les pneumocytes de type II, diminue la tension superficielle alvéolaire selon la loi de Laplace. Il prévient le collapsus alvéolaire en fin d'expiration, réduit le travail respiratoire et stabilise les alvéoles de tailles différentes.",
+      "answers": [
+        {
+          "text": "Diminuer la tension superficielle alvéolaire",
+          "is_correct": true
+        },
+        { "text": "Augmenter la diffusion de l'oxygène", "is_correct": false },
+        { "text": "Sécréter des anticorps", "is_correct": false },
+        { "text": "Produire du mucus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la réabsorption d'eau au niveau des tubules collecteurs rénaux ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADH (hormone antidiurétique ou vasopressine), sécrétée par l'hypothalamus et libérée par la posthypophyse, augmente la perméabilité à l'eau du tubule collecteur en insérant des aquaporines (AQP2) dans la membrane apicale, permettant la réabsorption d'eau.",
+      "answers": [
+        { "text": "ADH (hormone antidiurétique)", "is_correct": true },
+        { "text": "Aldostérone", "is_correct": false },
+        { "text": "Rénine", "is_correct": false },
+        { "text": "Angiotensine II", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le débit de filtration glomérulaire (DFG) normal chez l'adulte jeune ?",
+      "difficulty": "Moyen",
+      "explanation": "Le DFG normal est d'environ 120 ml/min/1,73m² (ou 180 L/jour). Il peut être estimé par la clairance de la créatinine ou des formules (MDRD, CKD-EPI). Un DFG < 60 ml/min définit une insuffisance rénale chronique modérée.",
+      "answers": [
+        { "text": "120 ml/min/1,73m²", "is_correct": true },
+        { "text": "60 ml/min/1,73m²", "is_correct": false },
+        { "text": "200 ml/min/1,73m²", "is_correct": false },
+        { "text": "30 ml/min/1,73m²", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit l'insuline dans le pancréas ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules bêta (β) des îlots de Langerhans du pancréas produisent l'insuline en réponse à l'hyperglycémie. L'insuline est une hormone hypoglycémiante qui favorise le stockage du glucose sous forme de glycogène (foie, muscles) et de triglycérides (tissu adipeux).",
+      "answers": [
+        {
+          "text": "Cellules bêta (β) des îlots de Langerhans",
+          "is_correct": true
+        },
+        {
+          "text": "Cellules alpha (α) des îlots de Langerhans",
+          "is_correct": false
+        },
+        { "text": "Cellules acineuses", "is_correct": false },
+        {
+          "text": "Cellules delta (δ) des îlots de Langerhans",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal facteur déterminant la résistance vasculaire selon la loi de Poiseuille ?",
+      "difficulty": "Difficile",
+      "explanation": "Selon la loi de Poiseuille, la résistance vasculaire est inversement proportionnelle à la puissance 4 du rayon du vaisseau (R ∝ 1/r⁴). Une diminution de 50% du rayon multiplie la résistance par 16. C'est pourquoi la vasoconstriction artériolaire augmente fortement la résistance.",
+      "answers": [
+        { "text": "Le rayon du vaisseau (puissance 4)", "is_correct": true },
+        { "text": "La longueur du vaisseau", "is_correct": false },
+        { "text": "La viscosité du sang", "is_correct": false },
+        { "text": "La pression artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel neurotransmetteur est libéré par les fibres parasympathiques postganglionnaires ?",
+      "difficulty": "Facile",
+      "explanation": "L'acétylcholine est le neurotransmetteur libéré par les fibres parasympathiques postganglionnaires. Elle agit sur les récepteurs muscariniques (M1-M5) au niveau des organes effecteurs. Les fibres sympathiques postganglionnaires libèrent principalement la noradrénaline.",
+      "answers": [
+        { "text": "Acétylcholine", "is_correct": true },
+        { "text": "Noradrénaline", "is_correct": false },
+        { "text": "Adrénaline", "is_correct": false },
+        { "text": "Dopamine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale force qui favorise la filtration au niveau du glomérule rénal ?",
+      "difficulty": "Moyen",
+      "explanation": "La pression hydrostatique capillaire glomérulaire (environ 60 mmHg) est la principale force de filtration. Elle est opposée par la pression oncotique plasmatique (25 mmHg) et la pression hydrostatique de la capsule de Bowman (15 mmHg). La pression nette de filtration est d'environ 20 mmHg.",
+      "answers": [
+        {
+          "text": "Pression hydrostatique capillaire glomérulaire",
+          "is_correct": true
+        },
+        { "text": "Pression oncotique plasmatique", "is_correct": false },
+        { "text": "Pression hydrostatique capsulaire", "is_correct": false },
+        { "text": "Pression oncotique capsulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel phénomène explique l'augmentation de l'affinité de l'hémoglobine pour l'oxygène lors d'une alcalose ?",
+      "difficulty": "Difficile",
+      "explanation": "L'effet Bohr décrit la relation entre le pH sanguin et l'affinité de l'hémoglobine pour l'O₂. Une alcalose (↑pH) augmente l'affinité de l'Hb pour l'O₂ (courbe de dissociation déplacée à gauche), rendant plus difficile la libération d'O₂ aux tissus. Une acidose a l'effet inverse.",
+      "answers": [
+        { "text": "Effet Bohr", "is_correct": true },
+        { "text": "Effet Haldane", "is_correct": false },
+        { "text": "Effet Starling", "is_correct": false },
+        { "text": "Effet Valsalva", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cellule productrice de gastrine ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules G de l'antre gastrique et du duodénum produisent la gastrine en réponse à un repas protéique, à la distension gastrique et à la stimulation vagale. La gastrine stimule la sécrétion d'acide chlorhydrique par les cellules pariétales gastriques.",
+      "answers": [
+        { "text": "Cellules G de l'antre gastrique", "is_correct": true },
+        { "text": "Cellules pariétales", "is_correct": false },
+        { "text": "Cellules principales", "is_correct": false },
+        { "text": "Cellules D", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel récepteur est responsable de la vasodilatation induite par les bêta-bloquants au niveau des vaisseaux ?",
+      "difficulty": "Difficile",
+      "explanation": "Les récepteurs β₂-adrénergiques médient la vasodilatation. Les bêta-bloquants non sélectifs bloquent ces récepteurs, ce qui peut entraîner une vasoconstriction. Les β₁ sont principalement cardiaques (chronotrope et inotrope positif), les α₁ médient la vasoconstriction.",
+      "answers": [
+        { "text": "Récepteurs β₂-adrénergiques", "is_correct": true },
+        { "text": "Récepteurs β₁-adrénergiques", "is_correct": false },
+        { "text": "Récepteurs α₁-adrénergiques", "is_correct": false },
+        { "text": "Récepteurs α₂-adrénergiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone inhibe la sécrétion de prolactine par l'hypophyse antérieure ?",
+      "difficulty": "Moyen",
+      "explanation": "La dopamine, sécrétée par l'hypothalamus et transportée par le système porte hypothalamo-hypophysaire, est le principal inhibiteur de la sécrétion de prolactine. Les antagonistes dopaminergiques (neuroleptiques) peuvent donc entraîner une hyperprolactinémie.",
+      "answers": [
+        { "text": "Dopamine", "is_correct": true },
+        { "text": "TRH (thyréolibérine)", "is_correct": false },
+        { "text": "Somatostatine", "is_correct": false },
+        { "text": "GHRH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la conséquence d'une hyperventilation sur l'équilibre acido-basique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hyperventilation entraîne une élimination excessive de CO₂, diminuant la PaCO₂ et augmentant le pH sanguin, ce qui provoque une alcalose respiratoire. Les signes cliniques incluent paresthésies, tétanie et vertiges dus à l'hypocapnie.",
+      "answers": [
+        { "text": "Alcalose respiratoire", "is_correct": true },
+        { "text": "Acidose respiratoire", "is_correct": false },
+        { "text": "Alcalose métabolique", "is_correct": false },
+        { "text": "Acidose métabolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le volume d'éjection systolique normal au repos chez un adulte ?",
+      "difficulty": "Facile",
+      "explanation": "Le volume d'éjection systolique (VES) normal au repos est d'environ 70 ml par battement. Le débit cardiaque est le produit du VES et de la fréquence cardiaque (DC = VES × FC), soit environ 5 L/min au repos pour une FC de 70 bpm.",
+      "answers": [
+        { "text": "70 ml", "is_correct": true },
+        { "text": "120 ml", "is_correct": false },
+        { "text": "40 ml", "is_correct": false },
+        { "text": "150 ml", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure du système nerveux central régule la température corporelle ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypothalamus antérieur contient le centre thermorégulateur principal. Il intègre les informations des thermorécepteurs périphériques et centraux, et coordonne les réponses thermorégulatrices (vasoconstriction/vasodilatation, frisson, sudation).",
+      "answers": [
+        { "text": "Hypothalamus", "is_correct": true },
+        { "text": "Thalamus", "is_correct": false },
+        { "text": "Cervelet", "is_correct": false },
+        { "text": "Bulbe rachidien", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme convertit l'angiotensine I en angiotensine II ?",
+      "difficulty": "Moyen",
+      "explanation": "L'enzyme de conversion de l'angiotensine (ECA), principalement localisée dans l'endothélium pulmonaire, convertit l'angiotensine I (décapeptide inactif) en angiotensine II (octapeptide actif). L'angiotensine II est un puissant vasoconstricteur et stimule la sécrétion d'aldostérone.",
+      "answers": [
+        {
+          "text": "Enzyme de conversion de l'angiotensine (ECA)",
+          "is_correct": true
+        },
+        { "text": "Rénine", "is_correct": false },
+        { "text": "Aldostérone synthase", "is_correct": false },
+        { "text": "Chymase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la fonction principale des cellules de Leydig dans le testicule ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules de Leydig (cellules interstitielles) produisent la testostérone sous stimulation de la LH hypophysaire. La testostérone est essentielle pour la spermatogenèse, le développement des caractères sexuels secondaires et le maintien de la fonction sexuelle masculine.",
+      "answers": [
+        { "text": "Production de testostérone", "is_correct": true },
+        { "text": "Spermatogenèse", "is_correct": false },
+        { "text": "Production d'inhibine", "is_correct": false },
+        { "text": "Barrière hémato-testiculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de récepteur pour l'insuline est présent sur les cellules cibles ?",
+      "difficulty": "Difficile",
+      "explanation": "Le récepteur de l'insuline est un récepteur tyrosine kinase (RTK). La liaison de l'insuline active l'autophosphorylation du récepteur, déclenchant une cascade de signalisation (voie PI3K/AKT) qui stimule le transport du glucose (GLUT4), la synthèse de glycogène et la synthèse protéique.",
+      "answers": [
+        { "text": "Récepteur tyrosine kinase", "is_correct": true },
+        { "text": "Récepteur couplé aux protéines G", "is_correct": false },
+        { "text": "Récepteur canal ionique", "is_correct": false },
+        { "text": "Récepteur nucléaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur normale du pH artériel ?",
+      "difficulty": "Facile",
+      "explanation": "Le pH artériel normal est de 7,35-7,45. Il est maintenu dans cette plage étroite par les systèmes tampons (bicarbonate, protéines, phosphates), la ventilation pulmonaire (régulation de CO₂) et l'excrétion rénale d'acides et de bases.",
+      "answers": [
+        { "text": "7,35-7,45", "is_correct": true },
+        { "text": "7,00-7,20", "is_correct": false },
+        { "text": "7,50-7,70", "is_correct": false },
+        { "text": "6,80-7,00", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment du tube digestif a le pH le plus acide en conditions physiologiques ?",
+      "difficulty": "Facile",
+      "explanation": "L'estomac a le pH le plus acide (1,5-3,5) grâce à la sécrétion d'acide chlorhydrique par les cellules pariétales. Ce pH acide active le pepsinogène en pepsine, facilite la digestion protéique et possède un effet bactéricide.",
+      "answers": [
+        { "text": "Estomac", "is_correct": true },
+        { "text": "Duodénum", "is_correct": false },
+        { "text": "Œsophage", "is_correct": false },
+        { "text": "Côlon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal régulateur de la sécrétion de parathormone (PTH) ?",
+      "difficulty": "Moyen",
+      "explanation": "La calcémie (concentration de calcium ionisé) est le principal régulateur de la sécrétion de PTH. Une hypocalcémie stimule la sécrétion de PTH par les glandes parathyroïdes, qui augmente la calcémie en mobilisant le calcium osseux, en augmentant la réabsorption rénale de calcium et en stimulant la synthèse de vitamine D active.",
+      "answers": [
+        { "text": "Calcémie (calcium ionisé)", "is_correct": true },
+        { "text": "Phosphatémie", "is_correct": false },
+        { "text": "Magnésémie", "is_correct": false },
+        { "text": "Natrémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est sécrétée en réponse à l'hyperosmolalité plasmatique ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADH (vasopressine) est sécrétée par les neurones hypothalamiques en réponse à l'hyperosmolalité plasmatique (détectée par les osmorécepteurs hypothalamiques) et à l'hypovolémie. Elle augmente la réabsorption d'eau rénale pour restaurer l'osmolalité normale (280-295 mOsm/kg).",
+      "answers": [
+        { "text": "ADH (hormone antidiurétique)", "is_correct": true },
+        { "text": "Aldostérone", "is_correct": false },
+        {
+          "text": "ANP (peptide natriurétique auriculaire)",
+          "is_correct": false
+        },
+        { "text": "Rénine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site de production de l'angiotensinogène ?",
+      "difficulty": "Moyen",
+      "explanation": "Le foie est le principal site de production de l'angiotensinogène, une protéine plasmatique précurseur du système rénine-angiotensine. La rénine rénale clive l'angiotensinogène en angiotensine I, puis l'ECA la convertit en angiotensine II active.",
+      "answers": [
+        { "text": "Foie", "is_correct": true },
+        { "text": "Rein", "is_correct": false },
+        { "text": "Poumon", "is_correct": false },
+        { "text": "Surrénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de fibres musculaires est principalement recruté lors d'un effort d'endurance ?",
+      "difficulty": "Moyen",
+      "explanation": "Les fibres musculaires de type I (fibres lentes ou rouges) sont riches en mitochondries, en myoglobine et utilisent principalement le métabolisme oxydatif. Elles sont résistantes à la fatigue et sont recrutées préférentiellement lors d'efforts d'endurance prolongés à faible intensité.",
+      "answers": [
+        { "text": "Fibres de type I (lentes, oxydatives)", "is_correct": true },
+        {
+          "text": "Fibres de type IIb (rapides, glycolytiques)",
+          "is_correct": false
+        },
+        { "text": "Fibres de type IIa (intermédiaires)", "is_correct": false },
+        { "text": "Toutes les fibres de manière égale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction du corps calleux ?",
+      "difficulty": "Facile",
+      "explanation": "Le corps calleux est une large commissure de substance blanche qui relie les deux hémisphères cérébraux et permet la communication interhémisphérique. Il contient environ 200-250 millions de fibres nerveuses myélinisées. Sa section entraîne un syndrome de déconnexion interhémisphérique.",
+      "answers": [
+        {
+          "text": "Communication entre les deux hémisphères cérébraux",
+          "is_correct": true
+        },
+        { "text": "Régulation de la température", "is_correct": false },
+        {
+          "text": "Production de liquide céphalo-rachidien",
+          "is_correct": false
+        },
+        { "text": "Contrôle de l'équilibre", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure du cœur possède l'activité pacemaker la plus rapide ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nœud sinusal (nœud sino-atrial ou nœud de Keith et Flack), situé dans l'oreillette droite près de l'abouchement de la veine cave supérieure, possède l'automatisme intrinsèque le plus rapide (60-100 bpm). C'est donc le pacemaker physiologique du cœur.",
+      "answers": [
+        { "text": "Nœud sinusal (sino-atrial)", "is_correct": true },
+        { "text": "Nœud atrio-ventriculaire", "is_correct": false },
+        { "text": "Faisceau de His", "is_correct": false },
+        { "text": "Réseau de Purkinje", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal transporteur de glucose dans les cellules musculaires et adipocytes ?",
+      "difficulty": "Difficile",
+      "explanation": "GLUT4 est le transporteur de glucose insulino-dépendant présent dans les cellules musculaires et adipocytaires. En présence d'insuline, les vésicules contenant GLUT4 fusionnent avec la membrane plasmique, augmentant la capture de glucose. Dans le diabète de type 2, cette translocation de GLUT4 est défectueuse.",
+      "answers": [
+        { "text": "GLUT4", "is_correct": true },
+        { "text": "GLUT1", "is_correct": false },
+        { "text": "GLUT2", "is_correct": false },
+        { "text": "GLUT3", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale hormone responsable de l'ovulation ?",
+      "difficulty": "Moyen",
+      "explanation": "Le pic de LH (hormone lutéinisante) hypophysaire, survenant au milieu du cycle menstruel, déclenche l'ovulation environ 36 heures après son pic. Ce pic de LH est induit par le rétrocontrôle positif des œstrogènes sur l'hypothalamus et l'hypophyse.",
+      "answers": [
+        { "text": "LH (hormone lutéinisante)", "is_correct": true },
+        { "text": "FSH (hormone folliculo-stimulante)", "is_correct": false },
+        { "text": "Œstrogènes", "is_correct": false },
+        { "text": "Progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion est principalement responsable de la dépolarisation rapide (phase 0) du potentiel d'action ventriculaire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'entrée massive de sodium par les canaux sodiques voltage-dépendants rapides (Nav1.5) est responsable de la phase 0 (dépolarisation rapide) du potentiel d'action ventriculaire. Les antiarythmiques de classe I bloquent ces canaux, ralentissant la conduction.",
+      "answers": [
+        { "text": "Sodium (Na⁺)", "is_correct": true },
+        { "text": "Calcium (Ca²⁺)", "is_correct": false },
+        { "text": "Potassium (K⁺)", "is_correct": false },
+        { "text": "Chlore (Cl⁻)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la production de lait après l'accouchement ?",
+      "difficulty": "Facile",
+      "explanation": "La prolactine, sécrétée par l'hypophyse antérieure, stimule la production de lait par les cellules alvéolaires mammaires (lactogenèse). L'ocytocine, elle, stimule l'éjection du lait en provoquant la contraction des cellules myoépithéliales.",
+      "answers": [
+        { "text": "Prolactine", "is_correct": true },
+        { "text": "Ocytocine", "is_correct": false },
+        { "text": "Œstrogènes", "is_correct": false },
+        { "text": "Progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de l'hormone thyroïdienne sur le métabolisme ?",
+      "difficulty": "Facile",
+      "explanation": "Les hormones thyroïdiennes (T3 et T4) augmentent le métabolisme basal en stimulant la consommation d'oxygène et la production de chaleur dans la plupart des tissus. Elles augmentent l'expression de nombreuses enzymes métaboliques et stimulent la Na⁺/K⁺-ATPase.",
+      "answers": [
+        { "text": "Augmentation du métabolisme basal", "is_correct": true },
+        { "text": "Diminution du métabolisme basal", "is_correct": false },
+        { "text": "Aucun effet sur le métabolisme", "is_correct": false },
+        { "text": "Diminution de la thermogenèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment du néphron réabsorbe la majorité du glucose filtré ?",
+      "difficulty": "Moyen",
+      "explanation": "Le tubule proximal réabsorbe environ 65-70% du filtrat glomérulaire, incluant la quasi-totalité du glucose filtré (via les cotransporteurs SGLT2 et SGLT1). Dans des conditions normales, il n'y a pas de glucose dans l'urine. La glycosurie apparaît quand la glycémie dépasse le seuil rénal (≈180 mg/dL).",
+      "answers": [
+        { "text": "Tubule proximal", "is_correct": true },
+        { "text": "Anse de Henle", "is_correct": false },
+        { "text": "Tubule distal", "is_correct": false },
+        { "text": "Tubule collecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule est responsable de la production de l'acide chlorhydrique gastrique ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules pariétales (ou cellules bordantes) de la muqueuse gastrique fundique produisent l'acide chlorhydrique via la pompe à protons H⁺/K⁺-ATPase. Elles sécrètent également le facteur intrinsèque nécessaire à l'absorption de la vitamine B12.",
+      "answers": [
+        { "text": "Cellules pariétales", "is_correct": true },
+        { "text": "Cellules principales", "is_correct": false },
+        { "text": "Cellules G", "is_correct": false },
+        { "text": "Cellules D", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel réflexe protège les poumons contre l'inhalation de substances irritantes ?",
+      "difficulty": "Facile",
+      "explanation": "Le réflexe de toux est déclenché par la stimulation de récepteurs irritants dans les voies aériennes (médiée par le nerf vague). Il produit une expiration forcée à glotte initialement fermée puis brusquement ouverte, générant un flux d'air élevé pour expulser les substances irritantes.",
+      "answers": [
+        { "text": "Réflexe de toux", "is_correct": true },
+        { "text": "Réflexe d'éternuement", "is_correct": false },
+        { "text": "Réflexe de Hering-Breuer", "is_correct": false },
+        { "text": "Réflexe nauséeux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle substance est le principal régulateur de la ventilation en conditions normales ?",
+      "difficulty": "Moyen",
+      "explanation": "La PaCO₂ (pression partielle de CO₂ artérielle) est le principal régulateur de la ventilation en conditions normales. Elle est détectée par les chémorécepteurs centraux du bulbe rachidien (sensibles au pH du LCR modifié par le CO₂). Une augmentation de la PaCO₂ stimule la ventilation.",
+      "answers": [
+        { "text": "PaCO₂ (pression partielle de CO₂)", "is_correct": true },
+        { "text": "PaO₂ (pression partielle d'O₂)", "is_correct": false },
+        { "text": "pH sanguin", "is_correct": false },
+        { "text": "Bicarbonates", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la croissance des follicules ovariens ?",
+      "difficulty": "Facile",
+      "explanation": "La FSH (hormone folliculo-stimulante), sécrétée par l'hypophyse antérieure, stimule la croissance et la maturation des follicules ovariens et la production d'œstrogènes par les cellules de la granulosa. Elle stimule également la spermatogenèse chez l'homme.",
+      "answers": [
+        { "text": "FSH (hormone folliculo-stimulante)", "is_correct": true },
+        { "text": "LH (hormone lutéinisante)", "is_correct": false },
+        { "text": "Œstrogènes", "is_correct": false },
+        { "text": "Progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de récepteur médie les effets de l'adrénaline sur le cœur ?",
+      "difficulty": "Moyen",
+      "explanation": "Les récepteurs β₁-adrénergiques cardiaques médient les effets de l'adrénaline et de la noradrénaline sur le cœur : effet chronotrope positif (↑ fréquence), inotrope positif (↑ contractilité), dromotrope positif (↑ conduction) et bathmotrope positif (↑ excitabilité).",
+      "answers": [
+        { "text": "Récepteurs β₁-adrénergiques", "is_correct": true },
+        { "text": "Récepteurs β₂-adrénergiques", "is_correct": false },
+        { "text": "Récepteurs α₁-adrénergiques", "is_correct": false },
+        { "text": "Récepteurs muscariniques M2", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause d'hypoxémie dans le shunt pulmonaire ?",
+      "difficulty": "Difficile",
+      "explanation": "Dans un shunt pulmonaire (perfusion d'alvéoles non ventilées), le sang traverse les poumons sans être oxygéné, créant un mélange de sang oxygéné et désoxygéné. Cette hypoxémie ne répond pas à l'oxygénothérapie car le problème n'est pas la PAO₂ alvéolaire mais l'absence de contact sang-alvéole.",
+      "answers": [
+        { "text": "Perfusion d'alvéoles non ventilées", "is_correct": true },
+        { "text": "Hypoventilation alvéolaire", "is_correct": false },
+        { "text": "Diffusion alvéolo-capillaire altérée", "is_correct": false },
+        { "text": "Baisse de FiO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de l'angiotensine II sur les vaisseaux sanguins ?",
+      "difficulty": "Facile",
+      "explanation": "L'angiotensine II est un puissant vasoconstricteur systémique agissant via les récepteurs AT1. Elle augmente la résistance vasculaire périphérique et la pression artérielle. Elle stimule également la sécrétion d'aldostérone, la soif, la libération d'ADH et la réabsorption rénale de sodium.",
+      "answers": [
+        { "text": "Vasoconstriction", "is_correct": true },
+        { "text": "Vasodilatation", "is_correct": false },
+        { "text": "Aucun effet vasculaire", "is_correct": false },
+        { "text": "Diminution de la pression artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est sécrétée par le corps jaune après l'ovulation ?",
+      "difficulty": "Facile",
+      "explanation": "La progestérone est la principale hormone sécrétée par le corps jaune (corpus luteum) après l'ovulation pendant la phase lutéale. Elle prépare l'endomètre à la nidation, augmente la température basale, et inhibe les contractions utérines. Sans fécondation, le corps jaune dégénère et la progestérone chute, déclenchant les règles.",
+      "answers": [
+        { "text": "Progestérone", "is_correct": true },
+        { "text": "Œstrogènes", "is_correct": false },
+        { "text": "FSH", "is_correct": false },
+        { "text": "LH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal stimulus de la libération de rénine par l'appareil juxtaglomérulaire ?",
+      "difficulty": "Difficile",
+      "explanation": "La diminution de la pression de perfusion rénale (détectée par les barorécepteurs des artérioles afférentes) est le principal stimulus de la libération de rénine. D'autres stimuli incluent : stimulation sympathique β1, diminution du NaCl au niveau de la macula densa, et prostaglandines rénales.",
+      "answers": [
+        {
+          "text": "Diminution de la pression de perfusion rénale",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la pression de perfusion rénale",
+          "is_correct": false
+        },
+        { "text": "Hypernatrémie", "is_correct": false },
+        { "text": "Hyperkaliémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment du système digestif absorbe principalement la vitamine B12 ?",
+      "difficulty": "Moyen",
+      "explanation": "L'iléon terminal absorbe la vitamine B12 (cobalamine) complexée au facteur intrinsèque gastrique via des récepteurs spécifiques (cubiline). Une résection iléale ou un déficit en facteur intrinsèque (anémie de Biermer) entraîne une malabsorption de B12 et une anémie mégaloblastique.",
+      "answers": [
+        { "text": "Iléon terminal", "is_correct": true },
+        { "text": "Duodénum", "is_correct": false },
+        { "text": "Jéjunum", "is_correct": false },
+        { "text": "Côlon", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des cellules de Sertoli dans le testicule ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules de Sertoli forment la barrière hémato-testiculaire et soutiennent la spermatogenèse en nourrissant les cellules germinales. Elles sécrètent l'inhibine (qui inhibe la FSH), l'hormone anti-müllérienne (AMH) et l'ABP (androgen-binding protein). Elles répondent à la FSH.",
+      "answers": [
+        {
+          "text": "Soutien de la spermatogenèse et barrière hémato-testiculaire",
+          "is_correct": true
+        },
+        { "text": "Production de testostérone", "is_correct": false },
+        { "text": "Production de LH", "is_correct": false },
+        { "text": "Stockage des spermatozoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet principal du système nerveux parasympathique sur la fréquence cardiaque ?",
+      "difficulty": "Facile",
+      "explanation": "Le système parasympathique (nerf vague) a un effet chronotrope négatif, c'est-à-dire qu'il ralentit la fréquence cardiaque via la libération d'acétylcholine qui agit sur les récepteurs muscariniques M2 du nœud sinusal. Il augmente la perméabilité au K⁺ et diminue le courant calcique pacemaker.",
+      "answers": [
+        { "text": "Diminution de la fréquence cardiaque", "is_correct": true },
+        {
+          "text": "Augmentation de la fréquence cardiaque",
+          "is_correct": false
+        },
+        { "text": "Aucun effet sur la fréquence", "is_correct": false },
+        { "text": "Augmentation de la contractilité", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est principalement responsable de la réabsorption d'eau libre au niveau rénal ?",
+      "difficulty": "Moyen",
+      "explanation": "L'ADH (vasopressine) est l'hormone clé de la régulation de l'osmolalité plasmatique. Elle augmente la perméabilité à l'eau du tubule collecteur en insérant des aquaporines-2 (AQP2), permettant la réabsorption d'eau sans solutés (eau libre) et la concentration des urines.",
+      "answers": [
+        { "text": "ADH (hormone antidiurétique)", "is_correct": true },
+        { "text": "Aldostérone", "is_correct": false },
+        { "text": "ANP", "is_correct": false },
+        { "text": "Parathormone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel mécanisme permet l'augmentation du débit cardiaque lors de l'exercice ?",
+      "difficulty": "Moyen",
+      "explanation": "L'augmentation du débit cardiaque à l'exercice résulte de l'augmentation de la fréquence cardiaque (stimulation sympathique β1) et du volume d'éjection systolique (augmentation du retour veineux par pompe musculaire, venoconstriction, et effet inotrope positif sympathique selon la loi de Frank-Starling).",
+      "answers": [
+        {
+          "text": "Augmentation de la fréquence cardiaque et du volume d'éjection",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la résistance vasculaire uniquement",
+          "is_correct": false
+        },
+        { "text": "Vasoconstriction périphérique", "is_correct": false },
+        { "text": "Diminution du retour veineux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale hormone hyperglycémiante sécrétée par le pancréas ?",
+      "difficulty": "Facile",
+      "explanation": "Le glucagon, sécrété par les cellules alpha (α) des îlots de Langerhans en réponse à l'hypoglycémie, est la principale hormone hyperglycémiante pancréatique. Il stimule la glycogénolyse et la néoglucogenèse hépatiques, et la lipolyse. Il s'oppose aux effets de l'insuline.",
+      "answers": [
+        { "text": "Glucagon", "is_correct": true },
+        { "text": "Insuline", "is_correct": false },
+        { "text": "Somatostatine", "is_correct": false },
+        { "text": "Polypeptide pancréatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de récepteur sensoriel détecte les variations de pression artérielle ?",
+      "difficulty": "Moyen",
+      "explanation": "Les barorécepteurs (ou pressorécepteurs) sont des mécanorécepteurs situés principalement dans le sinus carotidien et la crosse aortique. Ils détectent l'étirement de la paroi vasculaire et envoient des informations au centre cardiovasculaire bulbaire via les nerfs glosso-pharyngien (IX) et vague (X) pour ajuster la pression artérielle.",
+      "answers": [
+        { "text": "Barorécepteurs", "is_correct": true },
+        { "text": "Chémorécepteurs", "is_correct": false },
+        { "text": "Nocicepteurs", "is_correct": false },
+        { "text": "Thermorécepteurs", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle substance stimule la sécrétion de bicarbonates par le pancréas exocrine ?",
+      "difficulty": "Moyen",
+      "explanation": "La sécrétine, hormone intestinale sécrétée par les cellules S du duodénum en réponse à l'acidité gastrique, stimule la sécrétion de bicarbonates (HCO₃⁻) par les canaux pancréatiques. Ces bicarbonates neutralisent l'acidité gastrique dans le duodénum et fournissent le pH optimal (pH 7-8) pour les enzymes pancréatiques.",
+      "answers": [
+        { "text": "Sécrétine", "is_correct": true },
+        { "text": "Cholécystokinine (CCK)", "is_correct": false },
+        { "text": "Gastrine", "is_correct": false },
+        { "text": "Somatostatine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle cellule produit le facteur intrinsèque nécessaire à l'absorption de la vitamine B12 ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules pariétales de l'estomac produisent à la fois l'acide chlorhydrique et le facteur intrinsèque (FI). Le FI est une glycoprotéine qui se lie à la vitamine B12 dans l'intestin et permet son absorption au niveau de l'iléon terminal. Un déficit en FI cause l'anémie de Biermer.",
+      "answers": [
+        { "text": "Cellules pariétales gastriques", "is_correct": true },
+        { "text": "Cellules principales gastriques", "is_correct": false },
+        { "text": "Cellules entérocytaires", "is_correct": false },
+        { "text": "Cellules de Paneth", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de l'ocytocine sur l'utérus pendant le travail ?",
+      "difficulty": "Facile",
+      "explanation": "L'ocytocine, sécrétée par la posthypophyse, stimule les contractions utérines pendant le travail en se liant aux récepteurs ocytocinergiques du myomètre. Elle est utilisée cliniquement pour induire ou augmenter le travail. Elle stimule également l'éjection du lait maternel en provoquant la contraction des cellules myoépithéliales mammaires.",
+      "answers": [
+        { "text": "Stimulation des contractions utérines", "is_correct": true },
+        { "text": "Relaxation utérine", "is_correct": false },
+        { "text": "Inhibition du travail", "is_correct": false },
+        { "text": "Production de lait", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel neurotransmetteur est déficitaire dans la maladie de Parkinson ?",
+      "difficulty": "Facile",
+      "explanation": "La dopamine est déficitaire dans la maladie de Parkinson due à la dégénérescence des neurones dopaminergiques de la substance noire (voie nigro-striée). Le déficit dopaminergique entraîne un déséquilibre des voies directe et indirecte des ganglions de la base, causant tremblement de repos, rigidité et akinésie.",
+      "answers": [
+        { "text": "Dopamine", "is_correct": true },
+        { "text": "Acétylcholine", "is_correct": false },
+        { "text": "Sérotonine", "is_correct": false },
+        { "text": "GABA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale force responsable du retour du sang veineux vers le cœur ?",
+      "difficulty": "Moyen",
+      "explanation": "Le retour veineux est facilité par plusieurs mécanismes : la pompe musculaire (contraction des muscles squelettiques comprimant les veines), les valvules veineuses (empêchant le reflux), la pression négative intrathoracique (aspiration par la respiration), et la contraction du diaphragme. La pompe musculaire est le mécanisme le plus important à l'exercice.",
+      "answers": [
+        {
+          "text": "Pompe musculaire et valvules veineuses",
+          "is_correct": true
+        },
+        { "text": "Pression artérielle élevée", "is_correct": false },
+        { "text": "Contraction cardiaque seule", "is_correct": false },
+        { "text": "Vasoconstriction veineuse uniquement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment du système nerveux autonome utilise l'acétylcholine comme neurotransmetteur préganglionnaire ?",
+      "difficulty": "Moyen",
+      "explanation": "Les deux branches du système nerveux autonome (sympathique et parasympathique) utilisent l'acétylcholine comme neurotransmetteur au niveau des synapses ganglionnaires (neurones préganglionnaires → neurones postganglionnaires), agissant sur les récepteurs nicotiniques. La différence est au niveau postganglionnaire : ACh (parasympathique) vs noradrénaline (sympathique).",
+      "answers": [
+        {
+          "text": "Sympathique et parasympathique (les deux)",
+          "is_correct": true
+        },
+        { "text": "Parasympathique uniquement", "is_correct": false },
+        { "text": "Sympathique uniquement", "is_correct": false },
+        { "text": "Aucun des deux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la libération de calcium des os en cas d'hypocalcémie ?",
+      "difficulty": "Facile",
+      "explanation": "La parathormone (PTH), sécrétée par les glandes parathyroïdes en réponse à l'hypocalcémie, mobilise le calcium osseux en stimulant les ostéoclastes (résorption osseuse). Elle augmente aussi la réabsorption tubulaire rénale de calcium et stimule la production de 1,25-(OH)₂-vitamine D3 (calcitriol) qui augmente l'absorption intestinale de calcium.",
+      "answers": [
+        { "text": "Parathormone (PTH)", "is_correct": true },
+        { "text": "Calcitonine", "is_correct": false },
+        { "text": "Vitamine D", "is_correct": false },
+        { "text": "Thyroxine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cérébrale est principalement impliquée dans la consolidation de la mémoire à long terme ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hippocampe joue un rôle crucial dans la consolidation de la mémoire déclarative (épisodique et sémantique) et dans la navigation spatiale. Les lésions hippocampiques bilatérales (comme chez le patient H.M.) entraînent une amnésie antérograde sévère, empêchant la formation de nouveaux souvenirs à long terme.",
+      "answers": [
+        { "text": "Hippocampe", "is_correct": true },
+        { "text": "Cervelet", "is_correct": false },
+        { "text": "Thalamus", "is_correct": false },
+        { "text": "Corps calleux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal mécanisme de transport du CO₂ dans le sang ?",
+      "difficulty": "Moyen",
+      "explanation": "Environ 70% du CO₂ est transporté sous forme de bicarbonates (HCO₃⁻) dans le plasma après conversion par l'anhydrase carbonique érythrocytaire (CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻). 20-25% est lié à l'hémoglobine (carbaminohémoglobine) et 5-10% est dissous dans le plasma.",
+      "answers": [
+        { "text": "Bicarbonates (HCO₃⁻) dans le plasma", "is_correct": true },
+        { "text": "Dissous dans le plasma", "is_correct": false },
+        { "text": "Lié à l'albumine", "is_correct": false },
+        { "text": "Sous forme de CO", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la valeur normale de la pression partielle de CO₂ (PaCO₂) dans le sang artériel ?",
+      "difficulty": "Facile",
+      "explanation": "La PaCO₂ artérielle normale est de 35-45 mmHg (4,7-6,0 kPa). Une PaCO₂ > 45 mmHg définit une hypercapnie (acidose respiratoire si pH < 7,35), et une PaCO₂ < 35 mmHg définit une hypocapnie (alcalose respiratoire si pH > 7,45).",
+      "answers": [
+        { "text": "35-45 mmHg", "is_correct": true },
+        { "text": "80-100 mmHg", "is_correct": false },
+        { "text": "20-30 mmHg", "is_correct": false },
+        { "text": "50-60 mmHg", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule immunitaire est activé par le complexe majeur d'histocompatibilité de classe I (CMH I) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les lymphocytes T cytotoxiques (CD8⁺) reconnaissent les antigènes présentés par le CMH de classe I (présent sur toutes les cellules nucléées). Cette reconnaissance permet l'élimination des cellules infectées par des virus ou des cellules tumorales. Le CMH II présente aux lymphocytes T helper (CD4⁺).",
+      "answers": [
+        { "text": "Lymphocytes T cytotoxiques (CD8⁺)", "is_correct": true },
+        { "text": "Lymphocytes T helper (CD4⁺)", "is_correct": false },
+        { "text": "Lymphocytes B", "is_correct": false },
+        { "text": "Macrophages", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la contraction de la vésicule biliaire après un repas gras ?",
+      "difficulty": "Moyen",
+      "explanation": "La cholécystokinine (CCK), sécrétée par les cellules I du duodénum et du jéjunum proximal en réponse aux lipides et protéines, stimule la contraction de la vésicule biliaire et la relaxation du sphincter d'Oddi, libérant la bile dans le duodénum. Elle stimule aussi la sécrétion d'enzymes pancréatiques.",
+      "answers": [
+        { "text": "Cholécystokinine (CCK)", "is_correct": true },
+        { "text": "Sécrétine", "is_correct": false },
+        { "text": "Gastrine", "is_correct": false },
+        { "text": "Somatostatine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal rôle du système limbique ?",
+      "difficulty": "Facile",
+      "explanation": "Le système limbique (hippocampe, amygdale, cortex cingulaire, fornix) est impliqué dans la régulation des émotions, de la mémoire (notamment la mémoire émotionnelle), du comportement et de la motivation. L'amygdale joue un rôle clé dans la peur et l'anxiété, tandis que l'hippocampe est crucial pour la mémoire.",
+      "answers": [
+        {
+          "text": "Régulation des émotions et de la mémoire",
+          "is_correct": true
+        },
+        { "text": "Coordination motrice", "is_correct": false },
+        { "text": "Traitement visuel", "is_correct": false },
+        { "text": "Production d'hormones", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure filtre le plasma sanguin au niveau du rein ?",
+      "difficulty": "Facile",
+      "explanation": "Le glomérule rénal (réseau de capillaires fenêtrés) filtre le plasma sanguin. La barrière de filtration comprend l'endothélium fenêtré, la membrane basale glomérulaire et les podocytes (cellules épithéliales viscérales de la capsule de Bowman). Cette barrière est perméable à l'eau et aux petits solutés mais retient les protéines plasmatiques.",
+      "answers": [
+        { "text": "Glomérule rénal", "is_correct": true },
+        { "text": "Tubule proximal", "is_correct": false },
+        { "text": "Anse de Henle", "is_correct": false },
+        { "text": "Tubule collecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle loi physiologique décrit la relation entre le volume télédiastolique et le volume d'éjection systolique ?",
+      "difficulty": "Moyen",
+      "explanation": "La loi de Frank-Starling stipule que la force de contraction cardiaque (et donc le volume d'éjection systolique) augmente avec l'étirement des fibres myocardiques (précharge ou volume télédiastolique). Cette relation résulte de l'augmentation de la sensibilité au calcium et de l'optimisation du chevauchement actine-myosine.",
+      "answers": [
+        { "text": "Loi de Frank-Starling", "is_correct": true },
+        { "text": "Loi de Poiseuille", "is_correct": false },
+        { "text": "Loi de Laplace", "is_correct": false },
+        { "text": "Loi d'Ohm", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel ion est principalement responsable de la repolarisation (phase 3) du potentiel d'action cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "La sortie de potassium (K⁺) par les canaux potassiques voltage-dépendants est responsable de la phase 3 (repolarisation) du potentiel d'action cardiaque. Cette sortie de K⁺ ramène le potentiel de membrane vers le potentiel de repos (-90 mV pour les cellules ventriculaires).",
+      "answers": [
+        { "text": "Potassium (K⁺)", "is_correct": true },
+        { "text": "Sodium (Na⁺)", "is_correct": false },
+        { "text": "Calcium (Ca²⁺)", "is_correct": false },
+        { "text": "Chlore (Cl⁻)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone déclenche l'ovulation au milieu du cycle menstruel ?",
+      "difficulty": "Facile",
+      "explanation": "Le pic de LH (hormone lutéinisante) au milieu du cycle menstruel (jour 14 d'un cycle de 28 jours) déclenche l'ovulation environ 36 heures après. Ce pic est induit par le rétrocontrôle positif des œstrogènes élevés sur l'hypothalamus et l'hypophyse.",
+      "answers": [
+        { "text": "LH (hormone lutéinisante)", "is_correct": true },
+        { "text": "FSH", "is_correct": false },
+        { "text": "Œstrogènes", "is_correct": false },
+        { "text": "Progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal de la myoglobine dans le muscle ?",
+      "difficulty": "Moyen",
+      "explanation": "La myoglobine est une protéine musculaire qui stocke l'oxygène et facilite sa diffusion du capillaire vers les mitochondries. Elle a une affinité pour l'O₂ supérieure à celle de l'hémoglobine, ce qui facilite le transfert d'O₂. Elle est particulièrement abondante dans les muscles oxydatifs (fibres de type I).",
+      "answers": [
+        {
+          "text": "Stockage et transport intracellulaire d'oxygène",
+          "is_correct": true
+        },
+        { "text": "Contraction musculaire", "is_correct": false },
+        { "text": "Production d'ATP", "is_correct": false },
+        { "text": "Transport du glucose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone est sécrétée en réponse à l'hyperglycémie ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuline, sécrétée par les cellules bêta pancréatiques en réponse à l'hyperglycémie, est la seule hormone hypoglycémiante. Elle stimule la capture de glucose par les tissus périphériques (muscle, tissu adipeux), la glycogenèse hépatique et musculaire, et inhibe la glycogénolyse et la néoglucogenèse hépatiques.",
+      "answers": [
+        { "text": "Insuline", "is_correct": true },
+        { "text": "Glucagon", "is_correct": false },
+        { "text": "Cortisol", "is_correct": false },
+        { "text": "Adrénaline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel segment du néphron est le site d'action principal de l'aldostérone ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aldostérone agit principalement sur les cellules principales du tubule collecteur cortical et du tubule contourné distal. Elle augmente l'expression des canaux sodiques épithéliaux (ENaC) et de la Na⁺/K⁺-ATPase, stimulant la réabsorption de Na⁺ et l'excrétion de K⁺ et H⁺.",
+      "answers": [
+        { "text": "Tubule collecteur et tubule distal", "is_correct": true },
+        { "text": "Tubule proximal", "is_correct": false },
+        { "text": "Anse de Henle", "is_correct": false },
+        { "text": "Glomérule", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel type de cellule produit les anticorps après activation ?",
+      "difficulty": "Facile",
+      "explanation": "Les plasmocytes (ou cellules plasmatiques) sont des lymphocytes B différenciés qui produisent et sécrètent des anticorps spécifiques. Un seul plasmocyte peut sécréter jusqu'à 2000 molécules d'anticorps par seconde. Les plasmocytes à longue durée de vie dans la moelle osseuse maintiennent l'immunité humorale à long terme.",
+      "answers": [
+        { "text": "Plasmocytes", "is_correct": true },
+        { "text": "Lymphocytes T", "is_correct": false },
+        { "text": "Macrophages", "is_correct": false },
+        { "text": "Cellules dendritiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme initie la cascade du système rénine-angiotensine-aldostérone ?",
+      "difficulty": "Facile",
+      "explanation": "La rénine, enzyme protéolytique sécrétée par les cellules juxtaglomérulaires rénales, clive l'angiotensinogène plasmatique en angiotensine I. C'est l'étape limitante du système rénine-angiotensine-aldostérone. La rénine est sécrétée en réponse à l'hypotension, l'hypovolémie et la stimulation sympathique β1.",
+      "answers": [
+        { "text": "Rénine", "is_correct": true },
+        {
+          "text": "Enzyme de conversion de l'angiotensine (ECA)",
+          "is_correct": false
+        },
+        { "text": "Aldostérone", "is_correct": false },
+        { "text": "Angiotensinogène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal neurotransmetteur excitateur du système nerveux central ?",
+      "difficulty": "Facile",
+      "explanation": "Le glutamate est le principal neurotransmetteur excitateur du SNC. Il agit sur des récepteurs ionotropiques (AMPA, NMDA, kaïnate) et métabotropiques (mGluR). Une libération excessive de glutamate peut entraîner une excitotoxicité neuronale (comme dans l'ischémie cérébrale ou les maladies neurodégénératives).",
+      "answers": [
+        { "text": "Glutamate", "is_correct": true },
+        { "text": "GABA", "is_correct": false },
+        { "text": "Glycine", "is_correct": false },
+        { "text": "Dopamine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle hormone stimule la production de globules rouges par la moelle osseuse ?",
+      "difficulty": "Facile",
+      "explanation": "L'érythropoïétine (EPO), produite principalement par les cellules péritubulaires du cortex rénal (90%) et le foie (10%) en réponse à l'hypoxie, stimule la différenciation et la prolifération des progéniteurs érythroïdes dans la moelle osseuse. Elle est utilisée cliniquement dans l'anémie rénale et parfois abusivement en dopage.",
+      "answers": [
+        { "text": "Érythropoïétine (EPO)", "is_correct": true },
+        { "text": "Thrombopoïétine", "is_correct": false },
+        { "text": "G-CSF", "is_correct": false },
+        { "text": "Insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle structure cérébrale coordonne les mouvements volontaires fins et l'équilibre ?",
+      "difficulty": "Facile",
+      "explanation": "Le cervelet coordonne les mouvements volontaires, maintient l'équilibre et la posture, et participe à l'apprentissage moteur. Il reçoit des informations proprioceptives, vestibulaires et motrices, et module l'activité des voies motrices descendantes. Les lésions cérébelleuses entraînent une ataxie, une dysmétrie et un tremblement intentionnel.",
+      "answers": [
+        { "text": "Cervelet", "is_correct": true },
+        { "text": "Cortex moteur primaire", "is_correct": false },
+        { "text": "Ganglions de la base", "is_correct": false },
+        { "text": "Thalamus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de la vitamine D active (calcitriol) sur le métabolisme du calcium ?",
+      "difficulty": "Moyen",
+      "explanation": "Le calcitriol (1,25-dihydroxyvitamine D3), forme active de la vitamine D, augmente l'absorption intestinale du calcium en stimulant l'expression de la calbindine (protéine de liaison du calcium) dans les entérocytes. Il augmente aussi la réabsorption rénale de calcium et, en présence de PTH, la mobilisation osseuse du calcium.",
+      "answers": [
+        {
+          "text": "Augmentation de l'absorption intestinale du calcium",
+          "is_correct": true
+        },
+        { "text": "Diminution de la calcémie", "is_correct": false },
+        { "text": "Inhibition de la PTH", "is_correct": false },
+        {
+          "text": "Diminution de l'absorption intestinale du calcium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel type de récepteur détecte les variations d'osmolalité plasmatique pour réguler la sécrétion d'ADH ?",
+      "difficulty": "Difficile",
+      "explanation": "Les osmorécepteurs hypothalamiques (neurones de l'organum vasculosum de la lamine terminale, OVLT) détectent les variations d'osmolalité plasmatique. Une augmentation de l'osmolalité > 280 mOsm/kg provoque leur rétraction, ce qui stimule la sécrétion d'ADH par les neurones hypothalamiques magnocellulaires et déclenche la soif.",
+      "answers": [
+        { "text": "Osmorécepteurs hypothalamiques", "is_correct": true },
+        { "text": "Barorécepteurs carotidiens", "is_correct": false },
+        { "text": "Chémorécepteurs périphériques", "is_correct": false },
+        { "text": "Thermorécepteurs centraux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal stimulus de la ventilation en cas d'hypoxie sévère ?",
+      "difficulty": "Difficile",
+      "explanation": "En cas d'hypoxie sévère (PaO₂ < 60 mmHg), les chémorécepteurs périphériques (corps carotidiens principalement, et corps aortiques) sont stimulés et augmentent la ventilation. En conditions normales, la PaCO₂ est le principal régulateur, mais l'hypoxie devient un stimulus important quand la PaO₂ chute significativement.",
+      "answers": [
+        {
+          "text": "Chémorécepteurs périphériques (corps carotidiens)",
+          "is_correct": true
+        },
+        { "text": "Chémorécepteurs centraux", "is_correct": false },
+        { "text": "Barorécepteurs", "is_correct": false },
+        { "text": "Mécanorécepteurs pulmonaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal stimulus de la ventilation en cas d'hypoxie sévère ?",
+      "difficulty": "Difficile",
+      "explanation": "En cas d'hypoxie sévère (PaO₂ < 60 mmHg), les chémorécepteurs périphériques (corps carotidiens principalement, et corps aortiques) sont stimulés et augmentent la ventilation. En conditions normales, la PaCO₂ est le principal régulateur, mais l'hypoxie devient un stimulus important quand la PaO₂ chute significativement.",
+      "answers": [
+        {
+          "text": "Chémorécepteurs périphériques (corps carotidiens)",
+          "is_correct": true
+        },
+        { "text": "Chémorécepteurs centraux", "is_correct": false },
+        { "text": "Barorécepteurs", "is_correct": false },
+        { "text": "Mécanorécepteurs pulmonaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle principal de l'aldostérone dans le rein ?",
+      "difficulty": "Facile",
+      "explanation": "L'aldostérone agit sur le tubule distal et le tube collecteur pour augmenter la réabsorption du sodium (Na⁺) et l'excrétion du potassium (K⁺), favorisant ainsi la rétention hydrique et l'augmentation de la volémie.",
+      "answers": [
+        {
+          "text": "Augmenter la réabsorption du sodium et l'excrétion du potassium",
+          "is_correct": true
+        },
+        { "text": "Diminuer la réabsorption du sodium", "is_correct": false },
+        { "text": "Stimuler la sécrétion de rénine", "is_correct": false },
+        { "text": "Augmenter la filtration glomérulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale hormone régulant la glycémie à jeun ?",
+      "difficulty": "Facile",
+      "explanation": "Le glucagon, sécrété par les cellules alpha des îlots de Langerhans du pancréas, est l'hormone principale qui augmente la glycémie en stimulant la glycogénolyse et la gluconéogenèse hépatique.",
+      "answers": [
+        { "text": "Glucagon", "is_correct": true },
+        { "text": "Insuline", "is_correct": false },
+        { "text": "Adrénaline", "is_correct": false },
+        { "text": "Cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la pression artérielle à court terme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le réflexe barorécepteur est le principal mécanisme de régulation à court terme de la pression artérielle. Les barorécepteurs, situés dans les sinus carotidiens et la crosse aortique, détectent les variations de pression et ajustent la fréquence cardiaque et la résistance vasculaire périphérique via le système nerveux autonome.",
+      "answers": [
+        { "text": "Réflexe barorécepteur", "is_correct": true },
+        {
+          "text": "Système rénine-angiotensine-aldostérone",
+          "is_correct": false
+        },
+        { "text": "Sécrétion d'ADH", "is_correct": false },
+        { "text": "Autorégulation locale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des cellules de Leydig dans les testicules ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules de Leydig, situées dans les testicules, sont responsables de la production de testostérone, l'hormone masculine principale impliquée dans le développement des caractères sexuels secondaires et la spermatogenèse.",
+      "answers": [
+        { "text": "Production de testostérone", "is_correct": true },
+        { "text": "Production de spermatozoïdes", "is_correct": false },
+        { "text": "Sécrétion de FSH", "is_correct": false },
+        { "text": "Production d'inhibine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'angiotensine II dans la régulation de la pression artérielle ?",
+      "difficulty": "Moyen",
+      "explanation": "L'angiotensine II est un puissant vasoconstricteur qui augmente la résistance vasculaire périphérique. Elle stimule également la sécrétion d'aldostérone, favorisant la rétention de sodium et d'eau, ce qui augmente la volémie et donc la pression artérielle.",
+      "answers": [
+        {
+          "text": "Vasoconstriction et stimulation de l'aldostérone",
+          "is_correct": true
+        },
+        { "text": "Vasodilatation", "is_correct": false },
+        { "text": "Inhibition de la sécrétion de rénine", "is_correct": false },
+        { "text": "Augmentation de la diurèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site de réabsorption de l'eau dans le néphron ?",
+      "difficulty": "Facile",
+      "explanation": "Le tube proximal est le principal site de réabsorption de l'eau et des solutés dans le néphron, avec environ 65 % de la réabsorption totale.",
+      "answers": [
+        { "text": "Tube proximal", "is_correct": true },
+        { "text": "Anse de Henle", "is_correct": false },
+        { "text": "Tube distal", "is_correct": false },
+        { "text": "Tube collecteur", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'acidose métabolique avec trou anionique élevé ?",
+      "difficulty": "Difficile",
+      "explanation": "L'acidose métabolique avec trou anionique élevé est souvent causée par l'accumulation d'acides endogènes (comme les cétoacides dans le diabète) ou exogènes (comme l'ingestion de salicylates ou d'alcool méthylique).",
+      "answers": [
+        { "text": "Accumulation de cétoacides", "is_correct": true },
+        { "text": "Perte de bicarbonates", "is_correct": false },
+        { "text": "Insuffisance respiratoire", "is_correct": false },
+        { "text": "Alcalose respiratoire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ADH (hormone antidiurétique) dans le rein ?",
+      "difficulty": "Facile",
+      "explanation": "L'ADH augmente la perméabilité à l'eau des tubes collecteurs, favorisant ainsi la réabsorption d'eau et la concentration des urines.",
+      "answers": [
+        {
+          "text": "Augmenter la réabsorption d'eau dans les tubes collecteurs",
+          "is_correct": true
+        },
+        { "text": "Diminuer la réabsorption du sodium", "is_correct": false },
+        { "text": "Stimuler la filtration glomérulaire", "is_correct": false },
+        { "text": "Augmenter l'excrétion de potassium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la thermorégulation en cas d'exercice intense ?",
+      "difficulty": "Moyen",
+      "explanation": "Lors d'un exercice intense, la sudation est le principal mécanisme de perte de chaleur, permettant de maintenir la température corporelle grâce à l'évaporation de la sueur.",
+      "answers": [
+        { "text": "Sudation", "is_correct": true },
+        { "text": "Vasoconstriction cutanée", "is_correct": false },
+        { "text": "Frisson", "is_correct": false },
+        { "text": "Augmentation du métabolisme de base", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale hormone impliquée dans la régulation du calcium sanguin ?",
+      "difficulty": "Facile",
+      "explanation": "La parathormone (PTH) est l'hormone principale qui régule le calcium sanguin en augmentant sa résorption osseuse, sa réabsorption rénale et son absorption intestinale (indirectement via la vitamine D).",
+      "answers": [
+        { "text": "Parathormone (PTH)", "is_correct": true },
+        { "text": "Calcitonine", "is_correct": false },
+        { "text": "Vitamine D", "is_correct": false },
+        { "text": "Cortisol", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules juxtaglomérulaires dans le rein ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules juxtaglomérulaires sécrètent la rénine en réponse à une baisse de la pression artérielle ou du débit de filtration glomérulaire, activant ainsi le système rénine-angiotensine-aldostérone.",
+      "answers": [
+        { "text": "Sécréter la rénine", "is_correct": true },
+        { "text": "Filtrer le sang", "is_correct": false },
+        { "text": "Réabsorber le glucose", "is_correct": false },
+        { "text": "Produire de l'érythropoïétine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale cause de l'alcalose respiratoire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'alcalose respiratoire est causée par une hyperventilation, qui entraîne une diminution de la PaCO₂ et une augmentation du pH sanguin.",
+      "answers": [
+        { "text": "Hyperventilation", "is_correct": true },
+        { "text": "Hypoventilation", "is_correct": false },
+        { "text": "Vomitissements", "is_correct": false },
+        { "text": "Diarrhée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'oxyde nitrique (NO) dans la circulation sanguine ?",
+      "difficulty": "Difficile",
+      "explanation": "L'oxyde nitrique est un puissant vasodilatateur produit par l'endothélium vasculaire, jouant un rôle clé dans la régulation du tonus vasculaire et la prévention de l'agrégation plaquettaire.",
+      "answers": [
+        { "text": "Vasodilatation", "is_correct": true },
+        { "text": "Vasoconstriction", "is_correct": false },
+        {
+          "text": "Augmentation de la pression artérielle",
+          "is_correct": false
+        },
+        { "text": "Stimulation de la coagulation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal site de production de l'érythropoïétine ?",
+      "difficulty": "Facile",
+      "explanation": "L'érythropoïétine est principalement produite par les cellules interstitielles du rein en réponse à une hypoxie tissulaire.",
+      "answers": [
+        { "text": "Rein", "is_correct": true },
+        { "text": "Foie", "is_correct": false },
+        { "text": "Moelle osseuse", "is_correct": false },
+        { "text": "Rate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la bile dans la digestion ?",
+      "difficulty": "Facile",
+      "explanation": "La bile, produite par le foie et stockée dans la vésicule biliaire, facilite l'émulsification des graisses dans l'intestin grêle, permettant une meilleure action des lipases pancréatiques.",
+      "answers": [
+        { "text": "Émulsification des graisses", "is_correct": true },
+        { "text": "Digestion des protéines", "is_correct": false },
+        { "text": "Absorption des glucides", "is_correct": false },
+        { "text": "Neutralisation de l'acidité gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la glycémie postprandiale ?",
+      "difficulty": "Moyen",
+      "explanation": "Après un repas, l'insuline est sécrétée par les cellules bêta des îlots de Langerhans en réponse à l'élévation de la glycémie, favorisant le stockage du glucose sous forme de glycogène dans le foie et les muscles.",
+      "answers": [
+        { "text": "Sécrétion d'insuline", "is_correct": true },
+        { "text": "Sécrétion de glucagon", "is_correct": false },
+        { "text": "Augmentation de la gluconéogenèse", "is_correct": false },
+        {
+          "text": "Diminution de la sensibilité à l'insuline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des lymphocytes T auxiliaires (CD4) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les lymphocytes T auxiliaires (CD4) jouent un rôle central dans la réponse immunitaire en activant les lymphocytes B et les lymphocytes T cytotoxiques via la sécrétion de cytokines.",
+      "answers": [
+        {
+          "text": "Activation des lymphocytes B et T cytotoxiques",
+          "is_correct": true
+        },
+        { "text": "Phagocytose des pathogènes", "is_correct": false },
+        { "text": "Production d'anticorps", "is_correct": false },
+        {
+          "text": "Destruction directe des cellules infectées",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la pompe Na+/K+ ATPase dans la cellule ?",
+      "difficulty": "Facile",
+      "explanation": "La pompe Na+/K+ ATPase maintient les gradients électrochimiques en expulsant 3 ions Na+ pour chaque 2 ions K+ entrants, ce qui est essentiel pour le potentiel de membrane et le transport secondaire.",
+      "answers": [
+        {
+          "text": "Maintien des gradients de sodium et potassium",
+          "is_correct": true
+        },
+        { "text": "Production d'ATP", "is_correct": false },
+        { "text": "Synthèse des protéines", "is_correct": false },
+        { "text": "Dégradation des déchets cellulaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de l'adrénaline sur le système cardiovasculaire ?",
+      "difficulty": "Facile",
+      "explanation": "L'adrénaline, via les récepteurs bêta-1 adrénergiques, augmente la fréquence cardiaque (effet chronotrope positif) et la force de contraction (effet inotrope positif).",
+      "answers": [
+        {
+          "text": "Augmentation de la fréquence et de la force cardiaque",
+          "is_correct": true
+        },
+        { "text": "Diminution de la pression artérielle", "is_correct": false },
+        { "text": "Vasoconstriction généralisée", "is_correct": false },
+        { "text": "Ralentissement du rythme cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des ostéoclastes dans le remodelage osseux ?",
+      "difficulty": "Facile",
+      "explanation": "Les ostéoclastes sont responsables de la résorption osseuse, c'est-à-dire de la dégradation de la matrice osseuse, permettant le renouvellement et la réparation du tissu osseux.",
+      "answers": [
+        { "text": "Résorption osseuse", "is_correct": true },
+        { "text": "Formation osseuse", "is_correct": false },
+        { "text": "Minéralisation de l'os", "is_correct": false },
+        { "text": "Synthèse du collagène", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la température corporelle en cas de froid ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de froid, le frisson est un mécanisme réflexe qui augmente la production de chaleur par contraction musculaire involontaire, tandis que la vasoconstriction cutanée réduit les pertes de chaleur.",
+      "answers": [
+        { "text": "Frisson et vasoconstriction cutanée", "is_correct": true },
+        { "text": "Sudation", "is_correct": false },
+        { "text": "Vasodilatation", "is_correct": false },
+        { "text": "Diminution du métabolisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction de la vitamine K dans l'organisme ?",
+      "difficulty": "Facile",
+      "explanation": "La vitamine K est essentielle pour la synthèse des facteurs de coagulation (II, VII, IX, X) dans le foie, jouant un rôle clé dans l'hémostase.",
+      "answers": [
+        { "text": "Synthèse des facteurs de coagulation", "is_correct": true },
+        { "text": "Absorption du calcium", "is_correct": false },
+        { "text": "Métabolisme des glucides", "is_correct": false },
+        { "text": "Production de globules rouges", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'histamine dans la réponse inflammatoire ?",
+      "difficulty": "Moyen",
+      "explanation": "L'histamine, libérée par les mastocytes et les basophiles, augmente la perméabilité vasculaire, favorisant l'œdème et le recrutement des cellules immunitaires sur le site de l'inflammation.",
+      "answers": [
+        {
+          "text": "Augmentation de la perméabilité vasculaire",
+          "is_correct": true
+        },
+        { "text": "Vasoconstriction", "is_correct": false },
+        { "text": "Inhibition de la phagocytose", "is_correct": false },
+        {
+          "text": "Diminution de la production de cytokines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de l'angiotensine II sur les surrénales ?",
+      "difficulty": "Difficile",
+      "explanation": "L'angiotensine II stimule la sécrétion d'aldostérone par la zone glomérulée du cortex surrénalien, favorisant la réabsorption de sodium et l'excrétion de potassium.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'aldostérone",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la sécrétion de cortisol",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la sécrétion d'adrénaline",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la production de catécholamines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la calcitonine dans le métabolisme du calcium ?",
+      "difficulty": "Facile",
+      "explanation": "La calcitonine, sécrétée par les cellules C de la thyroïde, inhibe la résorption osseuse et favorise l'excrétion rénale du calcium, contribuant ainsi à diminuer la calcémie.",
+      "answers": [
+        { "text": "Inhibition de la résorption osseuse", "is_correct": true },
+        { "text": "Stimulation de la résorption osseuse", "is_correct": false },
+        {
+          "text": "Augmentation de l'absorption intestinale du calcium",
+          "is_correct": false
+        },
+        { "text": "Stimulation de la sécrétion de PTH", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la volémie ?",
+      "difficulty": "Moyen",
+      "explanation": "Le système rénine-angiotensine-aldostérone (SRAA) est le principal mécanisme de régulation de la volémie, en agissant sur la réabsorption de sodium et d'eau au niveau rénal.",
+      "answers": [
+        {
+          "text": "Système rénine-angiotensine-aldostérone",
+          "is_correct": true
+        },
+        { "text": "Sécrétion d'ADH", "is_correct": false },
+        {
+          "text": "Libération de peptide natriurétique auriculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Autorégulation locale du débit sanguin rénal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des cellules de Sertoli dans les testicules ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules de Sertoli, situées dans les tubules séminifères, soutiennent et nourrissent les spermatozoïdes en développement et sécrètent des facteurs essentiels à la spermatogenèse.",
+      "answers": [
+        {
+          "text": "Soutien et nutrition des spermatozoïdes",
+          "is_correct": true
+        },
+        { "text": "Production de testostérone", "is_correct": false },
+        { "text": "Sécrétion de FSH", "is_correct": false },
+        {
+          "text": "Phagocytose des spermatozoïdes défectueux",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'endothélium vasculaire dans la régulation de la coagulation ?",
+      "difficulty": "Difficile",
+      "explanation": "L'endothélium vasculaire joue un rôle clé dans l'équilibre entre la coagulation et la fibrinolyse, en sécrétant des facteurs anticoagulants (comme la prostacycline et l'héparine) et procoagulants (comme le facteur von Willebrand).",
+      "answers": [
+        {
+          "text": "Équilibre entre anticoagulation et procoagulation",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation exclusive de la coagulation",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la fibrinolyse", "is_correct": false },
+        { "text": "Production de plaquettes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de la dopamine sur la circulation rénale ?",
+      "difficulty": "Difficile",
+      "explanation": "À faible dose, la dopamine provoque une vasodilatation des artères rénales, augmentant ainsi le débit sanguin rénal et la filtration glomérulaire.",
+      "answers": [
+        { "text": "Vasodilatation des artères rénales", "is_correct": true },
+        { "text": "Vasoconstriction des artères rénales", "is_correct": false },
+        {
+          "text": "Diminution de la filtration glomérulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la réabsorption du sodium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la somatostatine dans la régulation hormonale ?",
+      "difficulty": "Moyen",
+      "explanation": "La somatostatine inhibe la sécrétion de nombreuses hormones, notamment l'hormone de croissance (GH), l'insuline et le glucagon, jouant ainsi un rôle régulateur dans l'homéostasie métabolique.",
+      "answers": [
+        {
+          "text": "Inhibition de la sécrétion de GH, insuline et glucagon",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la glycémie", "is_correct": false },
+        { "text": "Activation de la lipolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la pression artérielle à long terme ?",
+      "difficulty": "Difficile",
+      "explanation": "À long terme, la régulation de la pression artérielle dépend principalement de l'équilibre entre l'apport et l'excrétion de sodium et d'eau par les reins, influençant ainsi la volémie.",
+      "answers": [
+        { "text": "Équilibre rénal du sodium et de l'eau", "is_correct": true },
+        { "text": "Réflexe barorécepteur", "is_correct": false },
+        { "text": "Sécrétion d'adrénaline", "is_correct": false },
+        { "text": "Autorégulation locale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des cellules de Kupffer dans le foie ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules de Kupffer sont des macrophages résidents du foie, responsables de la phagocytose des pathogènes, des débris cellulaires et des particules étrangères dans le sang portal.",
+      "answers": [
+        {
+          "text": "Phagocytose des pathogènes et débris cellulaires",
+          "is_correct": true
+        },
+        { "text": "Production de bile", "is_correct": false },
+        { "text": "Stockage du glycogène", "is_correct": false },
+        { "text": "Synthèse des protéines plasmatiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de l'ocytocine dans la parturition ?",
+      "difficulty": "Facile",
+      "explanation": "L'ocytocine stimule les contractions utérines pendant l'accouchement et favorise l'éjection du lait pendant l'allaitement.",
+      "answers": [
+        { "text": "Stimulation des contractions utérines", "is_correct": true },
+        { "text": "Inhibition des contractions utérines", "is_correct": false },
+        {
+          "text": "Augmentation de la production de prolactine",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la sensibilité à la douleur",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de l'équilibre acido-basique par les reins ?",
+      "difficulty": "Difficile",
+      "explanation": "Les reins régulent l'équilibre acido-basique en excrétant des ions H+ et en réabsorbant des bicarbonates (HCO₃⁻), tout en produisant de nouveaux bicarbonates via la gluconéogenèse rénale.",
+      "answers": [
+        {
+          "text": "Excrétion d'ions H+ et réabsorption de bicarbonates",
+          "is_correct": true
+        },
+        { "text": "Production de CO₂", "is_correct": false },
+        {
+          "text": "Augmentation de la ventilation pulmonaire",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la production d'ammoniac",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction de la prolactine ?",
+      "difficulty": "Facile",
+      "explanation": "La prolactine stimule la lactogenèse, c'est-à-dire la production de lait par les glandes mammaires après l'accouchement.",
+      "answers": [
+        { "text": "Stimulation de la production de lait", "is_correct": true },
+        { "text": "Inhibition de la lactation", "is_correct": false },
+        { "text": "Régulation de la croissance osseuse", "is_correct": false },
+        { "text": "Stimulation de l'ovulation", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des canaux calciques voltage-dépendants dans la cellule cardiaque ?",
+      "difficulty": "Moyen",
+      "explanation": "Les canaux calciques voltage-dépendants permettent l'entrée de calcium dans les cellules cardiaques, déclenchant la contraction (couplage excitation-contraction) et participant à la propagation du potentiel d'action.",
+      "answers": [
+        {
+          "text": "Entrée de calcium et déclenchement de la contraction",
+          "is_correct": true
+        },
+        { "text": "Sortie de potassium", "is_correct": false },
+        { "text": "Inhibition de la contraction", "is_correct": false },
+        { "text": "Production d'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de la vasopressine (ADH) sur les vaisseaux sanguins ?",
+      "difficulty": "Moyen",
+      "explanation": "À haute concentration, la vasopressine (ADH) provoque une vasoconstriction, augmentant ainsi la résistance vasculaire périphérique et la pression artérielle.",
+      "answers": [
+        { "text": "Vasoconstriction", "is_correct": true },
+        { "text": "Vasodilatation", "is_correct": false },
+        { "text": "Augmentation de la diurèse", "is_correct": false },
+        { "text": "Diminution de la pression artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la protéine C dans la coagulation ?",
+      "difficulty": "Difficile",
+      "explanation": "La protéine C, activée par la thrombomoduline, est une protéine anticoagulante qui inactive les facteurs Va et VIIIa, limitant ainsi la formation de thrombine et la coagulation.",
+      "answers": [
+        { "text": "Inactivation des facteurs Va et VIIIa", "is_correct": true },
+        { "text": "Activation de la thrombine", "is_correct": false },
+        {
+          "text": "Stimulation de l'agrégation plaquettaire",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la fibrinolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la température corporelle par l'hypothalamus ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypothalamus agit comme un thermostat central, intégrant les informations de température et déclenchant des réponses effectrices comme la sudation, la vasodilatation ou le frisson pour maintenir l'homéothermie.",
+      "answers": [
+        {
+          "text": "Intégration des informations et déclenchement de réponses effectrices",
+          "is_correct": true
+        },
+        { "text": "Production directe de chaleur", "is_correct": false },
+        { "text": "Inhibition de la sudation", "is_correct": false },
+        { "text": "Diminution du métabolisme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quelle est la principale fonction des cellules pariétales de l'estomac ?",
+      "difficulty": "Facile",
+      "explanation": "Les cellules pariétales sécrètent l'acide chlorhydrique (HCl) et le facteur intrinsèque, essentiel pour la digestion des protéines et l'absorption de la vitamine B12.",
+      "answers": [
+        {
+          "text": "Sécrétion d'acide chlorhydrique et de facteur intrinsèque",
+          "is_correct": true
+        },
+        { "text": "Production de mucus", "is_correct": false },
+        { "text": "Sécrétion de pepsinogène", "is_correct": false },
+        { "text": "Absorption des nutriments", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle de la leptine dans la régulation de l'appétit ?",
+      "difficulty": "Moyen",
+      "explanation": "La leptine, sécrétée par les adipocytes, agit sur l'hypothalamus pour diminuer l'appétit et augmenter la dépense énergétique, contribuant ainsi à la régulation du poids corporel.",
+      "answers": [
+        {
+          "text": "Diminution de l'appétit et augmentation de la dépense énergétique",
+          "is_correct": true
+        },
+        { "text": "Stimulation de l'appétit", "is_correct": false },
+        { "text": "Diminution du métabolisme", "is_correct": false },
+        { "text": "Augmentation du stockage des graisses", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet de l'adrénaline sur le métabolisme ?",
+      "difficulty": "Facile",
+      "explanation": "L'adrénaline stimule la glycogénolyse et la lipolyse, augmentant ainsi la disponibilité du glucose et des acides gras pour répondre aux besoins énergétiques accrus.",
+      "answers": [
+        {
+          "text": "Stimulation de la glycogénolyse et de la lipolyse",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la glycogénolyse", "is_correct": false },
+        { "text": "Diminution de la glycémie", "is_correct": false },
+        {
+          "text": "Augmentation de la synthèse des protéines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le rôle des cellules de Paneth dans l'intestin ?",
+      "difficulty": "Moyen",
+      "explanation": "Les cellules de Paneth, situées dans les cryptes intestinales, sécrètent des peptides antimicrobiens (comme les défensines) pour maintenir l'homéostasie du microbiote intestinal et protéger contre les pathogènes.",
+      "answers": [
+        { "text": "Sécrétion de peptides antimicrobiens", "is_correct": true },
+        { "text": "Absorption des nutriments", "is_correct": false },
+        { "text": "Production de mucus", "is_correct": false },
+        { "text": "Synthèse d'hormones digestives", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme principal de la régulation de la pression artérielle par le système nerveux autonome ?",
+      "difficulty": "Difficile",
+      "explanation": "Le système nerveux autonome régule la pression artérielle en ajustant la fréquence cardiaque (via le nerf vague et les nerfs sympathiques) et le tonus vasculaire (via la vasoconstriction ou vasodilatation des artérioles).",
+      "answers": [
+        {
+          "text": "Ajustement de la fréquence cardiaque et du tonus vasculaire",
+          "is_correct": true
+        },
+        { "text": "Régulation de la volémie", "is_correct": false },
+        { "text": "Contrôle de la respiration", "is_correct": false },
+        { "text": "Stimulation de la diurèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 65 ans, hypertendu, se présente avec une pression artérielle de 180/110 mmHg. Son médecin lui prescrit un inhibiteur de l'enzyme de conversion (IEC). Quel est le mécanisme d'action principal de cette classe de médicaments pour réduire la pression artérielle ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IEC bloquent l'enzyme de conversion de l'angiotensine I en angiotensine II, ce qui réduit la vasoconstriction et la sécrétion d'aldostérone, entraînant une diminution de la volémie et de la pression artérielle.",
+      "answers": [
+        {
+          "text": "Blocage de la conversion de l'angiotensine I en angiotensine II",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la sécrétion de rénine",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la vasodilatation par l'oxyde nitrique",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la réabsorption du sodium dans le tube proximal",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Une patiente de 30 ans, enceinte de 8 mois, se plaint de maux de tête et de vision floue. Sa pression artérielle est de 160/100 mmHg et elle présente une protéinurie. Quel est le diagnostic le plus probable et quel est le mécanisme physiopathologique sous-jacent ?",
+      "difficulty": "Difficile",
+      "explanation": "Il s'agit probablement d'une pré-éclampsie, caractérisée par une hypertension artérielle et une protéinurie après 20 semaines de grossesse. Le mécanisme implique une dysfonction endothéliale généralisée, une vasoconstriction et une ischémie placentaire.",
+      "answers": [
+        {
+          "text": "Pré-éclampsie, dysfonction endothéliale et vasoconstriction",
+          "is_correct": true
+        },
+        {
+          "text": "Hypertension essentielle, excès de sel",
+          "is_correct": false
+        },
+        { "text": "Diabète gestationnel, hyperglycémie", "is_correct": false },
+        {
+          "text": "Insuffisance rénale aiguë, rétention hydrique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un homme de 50 ans, fumeur, consulte pour une toux chronique et une dyspnée à l'effort. La gazométrie artérielle montre une PaO₂ de 55 mmHg et une PaCO₂ de 50 mmHg. Quel est le mécanisme compensatoire principal mis en place pour maintenir le pH sanguin ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas d'hypoxémie et d'hypercapnie (comme dans la BPCO), les reins compensent en augmentant l'excrétion d'ions H+ et en réabsorbant les bicarbonates (HCO₃⁻), ce qui permet de tamponner l'acidité et de maintenir le pH sanguin.",
+      "answers": [
+        {
+          "text": "Augmentation de l'excrétion rénale d'ions H+ et réabsorption de HCO₃⁻",
+          "is_correct": true
+        },
+        {
+          "text": "Hyperventilation pour éliminer le CO₂",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la production de lactates",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la production de bicarbonates",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient diabétique de type 1 omet sa dose d'insuline du matin. Quatre heures plus tard, il présente une glycémie à 350 mg/dL, une cétonurie et une acidose métabolique. Quel est le mécanisme physiopathologique responsable de cette acidose ?",
+      "difficulty": "Difficile",
+      "explanation": "L'absence d'insuline entraîne une lipolyse accrue et la production de corps cétoniques (acides), qui s'accumulent dans le sang, provoquant une acidose métabolique avec trou anionique élevé.",
+      "answers": [
+        {
+          "text": "Accumulation de corps cétoniques (acides) par lipolyse",
+          "is_correct": true
+        },
+        {
+          "text": "Accumulation de lactate par anaérobiose",
+          "is_correct": false
+        },
+        { "text": "Perte de bicarbonates par diarrhée", "is_correct": false },
+        {
+          "text": "Diminution de la ventilation alvéolaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un sportif de 25 ans s'entraîne intensément sous une chaleur de 35°C. Il présente une sudation abondante, une soif intense et une fatigue. Quel est le principal mécanisme de perte d'eau dans cette situation ?",
+      "difficulty": "Facile",
+      "explanation": "La sudation est le principal mécanisme de perte d'eau et de thermorégulation lors d'un exercice intense en environnement chaud, permettant d'évacuer la chaleur par évaporation.",
+      "answers": [
+        { "text": "Sudation", "is_correct": true },
+        { "text": "Diurèse osmotique", "is_correct": false },
+        { "text": "Respiration accélérée", "is_correct": false },
+        { "text": "Perte digestive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Une femme de 40 ans, souffrant de migraines, prend régulièrement des anti-inflammatoires non stéroïdiens (AINS). Elle développe une hypertension artérielle. Quel est le mécanisme physiopathologique expliquant cette hypertension ?",
+      "difficulty": "Moyen",
+      "explanation": "Les AINS inhibent la synthèse des prostaglandines, ce qui réduit la vasodilatation rénale et favorise la rétention de sodium et d'eau, entraînant une hypertension artérielle.",
+      "answers": [
+        {
+          "text": "Inhibition des prostaglandines, rétention de sodium et d'eau",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la sécrétion de rénine",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la production d'angiotensine II",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la filtration glomérulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 70 ans, insuffisant cardiaque, prend un diurétique de l'anse. Il présente une hypokaliémie. Quel est le mécanisme d'action de ce type de diurétique et pourquoi provoque-t-il une hypokaliémie ?",
+      "difficulty": "Difficile",
+      "explanation": "Les diurétiques de l'anse (comme le furosémide) inhibent le cotransporteur Na+/K+/2Cl- dans la branche ascendante de l'anse de Henle, augmentant l'excrétion de sodium, de chlore et de potassium, ce qui entraîne une hypokaliémie.",
+      "answers": [
+        {
+          "text": "Inhibition du cotransporteur Na+/K+/2Cl-, augmentation de l'excrétion de potassium",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la réabsorption du potassium",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des canaux potassiques dans le tube collecteur",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la sécrétion d'aldostérone",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un enfant de 5 ans présente une diarrhée aiguë avec des selles liquides et une déshydratation. Sa mère note qu'il a bu de l'eau de source non traitée. Quel est le mécanisme principal de la diarrhée osmotique dans ce contexte ?",
+      "difficulty": "Moyen",
+      "explanation": "La diarrhée osmotique est causée par la présence de solutés non absorbés (comme les sucres ou les sels) dans la lumière intestinale, qui retiennent l'eau par osmose et augmentent le volume des selles.",
+      "answers": [
+        {
+          "text": "Présence de solutés non absorbés retenant l'eau par osmose",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la sécrétion active d'eau et d'électrolytes",
+          "is_correct": false
+        },
+        {
+          "text": "Inflammation de la muqueuse intestinale",
+          "is_correct": false
+        },
+        { "text": "Diminution de la motilité intestinale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 60 ans, souffrant d'une insuffisance rénale chronique, présente une anémie. Quel est le mécanisme physiopathologique expliquant cette anémie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance rénale chronique entraîne une diminution de la production d'érythropoïétine (EPO) par les reins, ce qui réduit la stimulation de l'érythropoïèse dans la moelle osseuse et provoque une anémie normocytaire normochrome.",
+      "answers": [
+        {
+          "text": "Diminution de la production d'érythropoïétine (EPO)",
+          "is_correct": true
+        },
+        { "text": "Carence en fer", "is_correct": false },
+        { "text": "Hémolyse accrue", "is_correct": false },
+        {
+          "text": "Diminution de l'absorption de la vitamine B12",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un homme de 45 ans, stressé, présente une hypertension artérielle transitoire lors d'une consultation. Quel est le mécanisme physiologique expliquant cette élévation de la pression artérielle ?",
+      "difficulty": "Facile",
+      "explanation": "Le stress active le système nerveux sympathique, qui libère de l'adrénaline et de la noradrénaline, provoquant une vasoconstriction et une augmentation de la fréquence cardiaque, ce qui élève la pression artérielle.",
+      "answers": [
+        {
+          "text": "Activation du système nerveux sympathique, vasoconstriction et tachycardie",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la sécrétion d'aldostérone",
+          "is_correct": false
+        },
+        { "text": "Diminution de la diurèse", "is_correct": false },
+        {
+          "text": "Stimulation du système rénine-angiotensine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Une femme de 35 ans, souffrant de syndrome de l'intestin irritable, présente des douleurs abdominales et des ballonnements après les repas. Quel est le mécanisme physiopathologique le plus probable ?",
+      "difficulty": "Moyen",
+      "explanation": "Le syndrome de l'intestin irritable est associé à une hypersensibilité viscérale et à des troubles de la motilité intestinale, entraînant des douleurs et des ballonnements postprandiaux.",
+      "answers": [
+        {
+          "text": "Hypersensibilité viscérale et troubles de la motilité intestinale",
+          "is_correct": true
+        },
+        {
+          "text": "Inflammation chronique de la muqueuse intestinale",
+          "is_correct": false
+        },
+        { "text": "Carence en enzymes digestives", "is_correct": false },
+        { "text": "Obstruction mécanique de l'intestin", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 55 ans, diabétique, présente une polyurie et une polydipsie. Sa glycémie est à 300 mg/dL. Quel est le mécanisme physiopathologique expliquant ces symptômes ?",
+      "difficulty": "Facile",
+      "explanation": "L'hyperglycémie dépasse le seuil rénal de réabsorption du glucose, entraînant une glycosurie osmotique qui augmente la diurèse (polyurie) et stimule la soif (polydipsie).",
+      "answers": [
+        {
+          "text": "Glycosurie osmotique entraînant polyurie et polydipsie",
+          "is_correct": true
+        },
+        { "text": "Diminution de la sécrétion d'ADH", "is_correct": false },
+        {
+          "text": "Augmentation de la sécrétion de rénine",
+          "is_correct": false
+        },
+        { "text": "Insuffisance rénale aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un jeune homme de 20 ans, en montagne à 3000 m d'altitude, présente des maux de tête, des nausées et une dyspnée. Quel est le mécanisme physiopathologique responsable de ces symptômes ?",
+      "difficulty": "Moyen",
+      "explanation": "À haute altitude, la pression partielle en oxygène diminue (hypoxie), ce qui stimule les chémorécepteurs périphériques et entraîne une hyperventilation, une vasoconstriction pulmonaire et un œdème cérébral possible (mal aigu des montagnes).",
+      "answers": [
+        {
+          "text": "Hypoxie stimulant les chémorécepteurs et hyperventilation",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la pression artérielle systémique",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la production de globules rouges",
+          "is_correct": false
+        },
+        { "text": "Alcalose métabolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Une femme de 28 ans, enceinte, présente une augmentation de la fréquence cardiaque de 15 % par rapport à sa fréquence de base. Quel est le mécanisme physiologique expliquant cette tachycardie ?",
+      "difficulty": "Facile",
+      "explanation": "Pendant la grossesse, le débit cardiaque augmente de 30 à 50 % en raison de l'augmentation du volume sanguin et de la stimulation par les hormones (comme la progestérone), entraînant une tachycardie relative.",
+      "answers": [
+        {
+          "text": "Augmentation du volume sanguin et stimulation hormonale",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la résistance vasculaire périphérique",
+          "is_correct": false
+        },
+        { "text": "Anémie ferriprive", "is_correct": false },
+        { "text": "Hyperthyroïdie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 70 ans, souffrant d'une insuffisance cardiaque, prend un inhibiteur de l'aldostérone (spironolactone). Quel est le mécanisme d'action de ce médicament et son intérêt dans cette pathologie ?",
+      "difficulty": "Difficile",
+      "explanation": "La spironolactone est un antagoniste de l'aldostérone, bloquant les récepteurs minéralocorticoïdes dans le rein. Cela réduit la réabsorption de sodium et d'eau, diminuant la volémie et la post-charge, ce qui améliore les symptômes de l'insuffisance cardiaque.",
+      "answers": [
+        {
+          "text": "Blocage des récepteurs minéralocorticoïdes, réduction de la volémie et de la post-charge",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la contractilité cardiaque",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la diurèse par inhibition de l'ADH",
+          "is_correct": false
+        },
+        { "text": "Diminution de la fréquence cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 50 ans, souffrant de cirrhose, présente une ascite. Quel est le mécanisme physiopathologique principal expliquant cette accumulation de liquide dans la cavité péritonéale ?",
+      "difficulty": "Moyen",
+      "explanation": "La cirrhose entraîne une hypertension portale et une hypoalbuminémie, ce qui diminue la pression oncotique plasmatique et favorise la fuite de liquide dans la cavité péritonéale (ascite).",
+      "answers": [
+        {
+          "text": "Hypertension portale et hypoalbuminémie",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la perméabilité capillaire",
+          "is_correct": false
+        },
+        { "text": "Insuffisance cardiaque droite", "is_correct": false },
+        {
+          "text": "Diminution de la pression hydrostatique capillaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un enfant de 3 ans, souffrant de gastro-entérite, présente une déshydratation sévère avec une natrémie à 155 mEq/L. Quel est le type de déshydratation et quel est le mécanisme physiopathologique ?",
+      "difficulty": "Difficile",
+      "explanation": "Il s'agit d'une déshydratation hypertonique (hypernatrémie), causée par une perte d'eau supérieure à la perte de sodium, souvent due à une diarrhée osmotique ou à un apport hydrique insuffisant.",
+      "answers": [
+        {
+          "text": "Déshydratation hypertonique, perte d'eau > perte de sodium",
+          "is_correct": true
+        },
+        {
+          "text": "Déshydratation hypotonique, perte de sodium > perte d'eau",
+          "is_correct": false
+        },
+        {
+          "text": "Déshydratation isotonique, perte égale d'eau et de sodium",
+          "is_correct": false
+        },
+        { "text": "Rétention hydrique excessive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 60 ans, souffrant d'une insuffisance rénale chronique, présente une hyperkaliémie. Quel est le mécanisme physiopathologique expliquant cette anomalie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance rénale chronique réduit l'excrétion rénale du potassium, entraînant une accumulation dans le sang (hyperkaliémie), surtout si l'apport alimentaire ou la lyse cellulaire est augmentée.",
+      "answers": [
+        {
+          "text": "Diminution de l'excrétion rénale du potassium",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de l'absorption intestinale de potassium",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la sécrétion d'aldostérone",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la production d'insuline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 40 ans, souffrant d'une crise de goutte, présente une douleur intense et une inflammation de l'articulation métatarso-phalangienne. Quel est le mécanisme physiopathologique responsable de cette inflammation ?",
+      "difficulty": "Moyen",
+      "explanation": "La goutte est causée par la précipitation de cristaux d'urate de sodium dans l'articulation, ce qui active le système immunitaire inné (notamment les macrophages) et provoque une inflammation aiguë.",
+      "answers": [
+        {
+          "text": "Précipitation de cristaux d'urate, activation des macrophages",
+          "is_correct": true
+        },
+        {
+          "text": "Infection bactérienne de l'articulation",
+          "is_correct": false
+        },
+        { "text": "Traumatisme mécanique", "is_correct": false },
+        {
+          "text": "Dépôt de cholestérol dans l'articulation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 55 ans, souffrant d'une hypertension artérielle résistante, présente une sténose de l'artère rénale. Quel est le mécanisme physiopathologique expliquant cette hypertension ?",
+      "difficulty": "Difficile",
+      "explanation": "La sténose de l'artère rénale réduit la perfusion rénale, activant le système rénine-angiotensine-aldostérone (SRAA), ce qui entraîne une vasoconstriction et une rétention de sodium et d'eau, augmentant la pression artérielle.",
+      "answers": [
+        {
+          "text": "Activation du SRAA par hypoperfusion rénale",
+          "is_correct": true
+        },
+        { "text": "Augmentation de la sécrétion d'ADH", "is_correct": false },
+        {
+          "text": "Diminution de la filtration glomérulaire",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation du système nerveux parasympathique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 30 ans, souffrant de brûlures étendues, présente une hypovolémie. Quel est le mécanisme physiopathologique expliquant cette perte de volume plasmatique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les brûlures étendues entraînent une augmentation de la perméabilité capillaire et une fuite de liquide plasmatique vers l'espace interstitiel, provoquant une hypovolémie.",
+      "answers": [
+        {
+          "text": "Augmentation de la perméabilité capillaire et fuite de liquide plasmatique",
+          "is_correct": true
+        },
+        { "text": "Diminution de la sécrétion d'ADH", "is_correct": false },
+        { "text": "Augmentation de la diurèse", "is_correct": false },
+        { "text": "Hémorragie interne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 65 ans, souffrant d'une insuffisance cardiaque, présente une dyspnée nocturne paroxystique. Quel est le mécanisme physiopathologique expliquant ce symptôme ?",
+      "difficulty": "Moyen",
+      "explanation": "En position allongée, le retour veineux vers le cœur augmente, ce qui aggrave la congestion pulmonaire et provoque une dyspnée (dyspnée nocturne paroxystique) chez les patients insuffisants cardiaques.",
+      "answers": [
+        {
+          "text": "Augmentation du retour veineux et congestion pulmonaire en décubitus",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la compliance pulmonaire",
+          "is_correct": false
+        },
+        { "text": "Hypoxie cérébrale nocturne", "is_correct": false },
+        { "text": "Apnée du sommeil obstructive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 50 ans, souffrant d'une maladie de Cushing, présente une hypertension artérielle et une hypokaliémie. Quel est le mécanisme physiopathologique expliquant ces anomalies ?",
+      "difficulty": "Difficile",
+      "explanation": "L'excès de cortisol (ou d'ACTH) dans la maladie de Cushing stimule les récepteurs minéralocorticoïdes, entraînant une rétention de sodium et une excrétion de potassium, ce qui provoque une hypertension et une hypokaliémie.",
+      "answers": [
+        {
+          "text": "Stimulation des récepteurs minéralocorticoïdes par l'excès de cortisol",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la sécrétion d'aldostérone",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la sécrétion d'ADH", "is_correct": false },
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 45 ans, souffrant d'une insuffisance hépatique, présente une encéphalopathie hépatique. Quel est le mécanisme physiopathologique responsable de cette complication ?",
+      "difficulty": "Difficile",
+      "explanation": "L'insuffisance hépatique entraîne une accumulation d'ammoniac dans le sang, qui traverse la barrière hémato-encéphalique et provoque une dysfonction neuronale (encéphalopathie hépatique).",
+      "answers": [
+        {
+          "text": "Accumulation d'ammoniac et dysfonction neuronale",
+          "is_correct": true
+        },
+        { "text": "Diminution de la perfusion cérébrale", "is_correct": false },
+        { "text": "Carence en glucose cérébral", "is_correct": false },
+        {
+          "text": "Inflammation du système nerveux central",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 60 ans, souffrant d'une insuffisance respiratoire chronique, présente une polyglobulie. Quel est le mécanisme physiopathologique expliquant cette augmentation du nombre de globules rouges ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypoxie chronique stimule la sécrétion d'érythropoïétine (EPO) par les reins, ce qui augmente la production de globules rouges (polyglobulie) pour améliorer le transport d'oxygène.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'EPO par hypoxie chronique",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la destruction des globules rouges",
+          "is_correct": false
+        },
+        { "text": "Augmentation de l'absorption du fer", "is_correct": false },
+        {
+          "text": "Stimulation de la moelle osseuse par le cortisol",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 35 ans, souffrant d'une crise d'asthme, présente une dyspnée et une respiration sifflante. Quel est le mécanisme physiopathologique responsable de ces symptômes ?",
+      "difficulty": "Facile",
+      "explanation": "L'asthme est caractérisé par une inflammation des voies aériennes, un bronchospasme et une hypersécrétion de mucus, ce qui obstrue les bronches et provoque une dyspnée sifflante.",
+      "answers": [
+        {
+          "text": "Inflammation, bronchospasme et hypersécrétion de mucus",
+          "is_correct": true
+        },
+        { "text": "Collapsus alvéolaire", "is_correct": false },
+        { "text": "Embolie pulmonaire", "is_correct": false },
+        { "text": "Insuffisance cardiaque gauche", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 55 ans, souffrant d'une insuffisance cardiaque, prend un bêta-bloquant. Quel est le mécanisme d'action de cette classe de médicaments dans cette pathologie ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-bloquants inhibent les récepteurs bêta-1 adrénergiques, réduisant ainsi la fréquence cardiaque, la contractilité et la consommation en oxygène du myocarde, ce qui améliore la fonction cardiaque à long terme.",
+      "answers": [
+        {
+          "text": "Inhibition des récepteurs bêta-1, réduction de la fréquence cardiaque et de la contractilité",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la contractilité cardiaque",
+          "is_correct": false
+        },
+        { "text": "Stimulation de la diurèse", "is_correct": false },
+        { "text": "Vasodilatation artérielle", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 70 ans, souffrant d'une fibrillation atriale, prend un anticoagulant oral. Quel est le mécanisme d'action des anticoagulants oraux directs (AOD) comme le dabigatran ?",
+      "difficulty": "Difficile",
+      "explanation": "Le dabigatran est un inhibiteur direct de la thrombine, empêchant la conversion du fibrinogène en fibrine et donc la formation de caillots sanguins.",
+      "answers": [
+        { "text": "Inhibition directe de la thrombine", "is_correct": true },
+        { "text": "Inhibition du facteur Xa", "is_correct": false },
+        { "text": "Stimulation de la fibrinolyse", "is_correct": false },
+        {
+          "text": "Inhibition de l'agrégation plaquettaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 40 ans, souffrant d'une crise de tétanie, présente une hypocalcémie. Quel est le mécanisme physiopathologique responsable de cette hypocalcémie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hypocalcémie peut être causée par une hypoparathyroïdie (diminution de la sécrétion de PTH), une carence en vitamine D ou une résistance à la PTH, entraînant une diminution de la résorption osseuse et de l'absorption intestinale de calcium.",
+      "answers": [
+        {
+          "text": "Diminution de la sécrétion de PTH ou carence en vitamine D",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de l'excrétion rénale de calcium",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de l'absorption intestinale du magnésium",
+          "is_correct": false
+        },
+        { "text": "Stimulation de la calcitonine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 65 ans, souffrant d'une insuffisance rénale, présente une anémie. Quel est le traitement de choix pour corriger cette anémie et quel est son mécanisme d'action ?",
+      "difficulty": "Moyen",
+      "explanation": "L'érythropoïétine (EPO) recombinante est le traitement de choix. Elle stimule la prolifération et la différenciation des précurseurs érythroïdes dans la moelle osseuse, augmentant ainsi la production de globules rouges.",
+      "answers": [
+        {
+          "text": "Érythropoïétine (EPO) recombinante, stimulation de l'érythropoïèse",
+          "is_correct": true
+        },
+        { "text": "Transfusion sanguine", "is_correct": false },
+        { "text": "Supplémentation en fer", "is_correct": false },
+        {
+          "text": "Stimulation de la moelle osseuse par le cortisol",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 50 ans, souffrant d'une cirrhose, présente une hyponatrémie. Quel est le mécanisme physiopathologique expliquant cette anomalie ?",
+      "difficulty": "Difficile",
+      "explanation": "La cirrhose entraîne une rétention d'eau par excès d'ADH et une diminution de l'excrétion rénale d'eau libre, ce qui dilue le sodium plasmatique (hyponatrémie).",
+      "answers": [
+        {
+          "text": "Rétention d'eau par excès d'ADH et dilution du sodium",
+          "is_correct": true
+        },
+        { "text": "Perte rénale de sodium", "is_correct": false },
+        { "text": "Diminution de l'apport en sodium", "is_correct": false },
+        { "text": "Augmentation de la natriurèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 30 ans, souffrant d'une crise de migraine, prend un triptan. Quel est le mécanisme d'action de cette classe de médicaments ?",
+      "difficulty": "Moyen",
+      "explanation": "Les triptans sont des agonistes sélectifs des récepteurs 5-HT1B/1D de la sérotonine, provoquant une vasoconstriction des vaisseaux cérébraux et une inhibition de la transmission nociceptive dans les voies trigéminales.",
+      "answers": [
+        {
+          "text": "Agonistes des récepteurs 5-HT1B/1D, vasoconstriction et inhibition de la douleur",
+          "is_correct": true
+        },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des récepteurs de la dopamine",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la libération de noradrénaline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 60 ans, souffrant d'une insuffisance cardiaque, présente un œdème des membres inférieurs. Quel est le mécanisme physiopathologique expliquant cet œdème ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuffisance cardiaque entraîne une augmentation de la pression hydrostatique capillaire (par congestion veineuse) et une diminution de la pression oncotique plasmatique (par hypoalbuminémie relative), favorisant la formation d'œdème.",
+      "answers": [
+        {
+          "text": "Augmentation de la pression hydrostatique capillaire et diminution de la pression oncotique",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la perméabilité capillaire",
+          "is_correct": false
+        },
+        { "text": "Diminution de la pression artérielle", "is_correct": false },
+        { "text": "Rétention rénale de sodium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 45 ans, souffrant d'une crise d'angine de poitrine, prend de la trinitrine. Quel est le mécanisme d'action de ce médicament ?",
+      "difficulty": "Moyen",
+      "explanation": "La trinitrine (nitroglycérine) libère de l'oxyde nitrique (NO), qui provoque une vasodilatation veineuse et artérielle, réduisant ainsi la précharge et la post-charge, et améliorant la perfusion myocardique.",
+      "answers": [
+        {
+          "text": "Libération d'oxyde nitrique (NO), vasodilatation veineuse et artérielle",
+          "is_correct": true
+        },
+        { "text": "Inhibition des canaux calciques", "is_correct": false },
+        {
+          "text": "Stimulation des récepteurs bêta-1 adrénergiques",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la contractilité cardiaque",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 55 ans, souffrant d'une hyperthyroïdie, présente une tachycardie et une perte de poids. Quel est le mécanisme physiopathologique expliquant ces symptômes ?",
+      "difficulty": "Facile",
+      "explanation": "L'excès d'hormones thyroïdiennes (T3/T4) augmente le métabolisme basal, la thermogenèse et la sensibilité aux catécholamines, provoquant une tachycardie et une perte de poids.",
+      "answers": [
+        {
+          "text": "Augmentation du métabolisme basal et de la sensibilité aux catécholamines",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la sécrétion de cortisol",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation de la sécrétion de glucagon",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 70 ans, souffrant d'une insuffisance rénale, présente une hyperphosphatémie. Quel est le mécanisme physiopathologique expliquant cette anomalie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance rénale réduit l'excrétion rénale du phosphate, entraînant une accumulation dans le sang (hyperphosphatémie).",
+      "answers": [
+        {
+          "text": "Diminution de l'excrétion rénale du phosphate",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de l'absorption intestinale de phosphate",
+          "is_correct": false
+        },
+        { "text": "Diminution de la sécrétion de PTH", "is_correct": false },
+        { "text": "Stimulation de la résorption osseuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 35 ans, souffrant d'une crise de panique, présente une hyperventilation et une tétanie. Quel est le mécanisme physiopathologique expliquant cette tétanie ?",
+      "difficulty": "Moyen",
+      "explanation": "L'hyperventilation entraîne une hypocapnie (diminution de la PaCO₂), ce qui provoque une alcalose respiratoire et une diminution de la fraction ionisée du calcium, favorisant la tétanie.",
+      "answers": [
+        {
+          "text": "Alcalose respiratoire et diminution du calcium ionisé",
+          "is_correct": true
+        },
+        { "text": "Diminution de la sécrétion de PTH", "is_correct": false },
+        {
+          "text": "Augmentation de la sécrétion de calcitonine",
+          "is_correct": false
+        },
+        { "text": "Carence en vitamine D", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 65 ans, souffrant d'une insuffisance cardiaque, prend un diurétique thiazidique. Quel est le mécanisme d'action de cette classe de médicaments ?",
+      "difficulty": "Moyen",
+      "explanation": "Les thiazidiques inhibent le cotransporteur Na+/Cl- dans le tube distal, augmentant l'excrétion de sodium et de chlore, ce qui réduit la volémie et la pression artérielle.",
+      "answers": [
+        {
+          "text": "Inhibition du cotransporteur Na+/Cl- dans le tube distal",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": false },
+        {
+          "text": "Stimulation de la réabsorption du potassium",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la filtration glomérulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 50 ans, souffrant d'une crise de colique néphrétique, présente une douleur intense et une hématurie. Quel est le mécanisme physiopathologique responsable de la douleur ?",
+      "difficulty": "Facile",
+      "explanation": "La douleur de la colique néphrétique est causée par la distension brutale des voies urinaires et de la capsule rénale, due à l'obstruction par un calcul, stimulant les récepteurs nociceptifs.",
+      "answers": [
+        {
+          "text": "Distension des voies urinaires et stimulation des récepteurs nociceptifs",
+          "is_correct": true
+        },
+        { "text": "Inflammation de la muqueuse urinaire", "is_correct": false },
+        { "text": "Ischemie rénale", "is_correct": false },
+        { "text": "Infection urinaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 40 ans, souffrant d'une crise d'hyperthyroïdie, présente une fièvre et une tachycardie. Quel est le traitement d'urgence et son mécanisme d'action ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement d'urgence repose sur les bêta-bloquants (comme le propranolol), qui inhibent les récepteurs bêta-adrénergiques, réduisant ainsi la tachycardie, la thermogenèse et les symptômes adrénergiques.",
+      "answers": [
+        {
+          "text": "Bêta-bloquants, inhibition des récepteurs bêta-adrénergiques",
+          "is_correct": true
+        },
+        {
+          "text": "Corticoïdes, inhibition de la réponse inflammatoire",
+          "is_correct": false
+        },
+        {
+          "text": "Antithyroïdiens de synthèse, blocage de la synthèse des hormones thyroïdiennes",
+          "is_correct": false
+        },
+        { "text": "Diurétiques, réduction de la volémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 60 ans, souffrant d'une insuffisance rénale, présente une acidose métabolique. Quel est le mécanisme de compensation respiratoire mis en place ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas d'acidose métabolique, la compensation respiratoire consiste en une hyperventilation (augmentation de la fréquence et de l'amplitude respiratoire), qui réduit la PaCO₂ et limite la baisse du pH sanguin.",
+      "answers": [
+        {
+          "text": "Hyperventilation, réduction de la PaCO₂",
+          "is_correct": true
+        },
+        {
+          "text": "Hypoventilation, augmentation de la PaCO₂",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la réabsorption rénale de bicarbonates",
+          "is_correct": false
+        },
+        { "text": "Diminution de la production de CO₂", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 55 ans, souffrant d'une insuffisance cardiaque, présente une dyspnée d'effort. Quel est le mécanisme physiopathologique expliquant ce symptôme ?",
+      "difficulty": "Facile",
+      "explanation": "L'insuffisance cardiaque réduit le débit cardiaque et augmente la pression capillaire pulmonaire, provoquant une congestion pulmonaire et une dyspnée à l'effort.",
+      "answers": [
+        {
+          "text": "Congestion pulmonaire par augmentation de la pression capillaire",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de la compliance thoracique",
+          "is_correct": false
+        },
+        { "text": "Anémie", "is_correct": false },
+        { "text": "Obstruction des voies aériennes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 30 ans, souffrant d'une crise d'asthme, prend un bêta-2 mimétique en aérosol. Quel est le mécanisme d'action de ce traitement ?",
+      "difficulty": "Facile",
+      "explanation": "Les bêta-2 mimétiques stimulent les récepteurs bêta-2 adrénergiques des muscles lisses bronchiques, provoquant une bronchodilatation et une amélioration de la dyspnée.",
+      "answers": [
+        {
+          "text": "Stimulation des récepteurs bêta-2 adrénergiques, bronchodilatation",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la sécrétion de mucus", "is_correct": false },
+        { "text": "Blocage des récepteurs muscariniques", "is_correct": false },
+        {
+          "text": "Augmentation de la sécrétion de surfactant",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 70 ans, souffrant d'une insuffisance cardiaque, présente une oligurie. Quel est le mécanisme physiopathologique expliquant cette diminution de la diurèse ?",
+      "difficulty": "Moyen",
+      "explanation": "L'insuffisance cardiaque réduit le débit cardiaque et la perfusion rénale, activant le système rénine-angiotensine-aldostérone et augmentant la réabsorption de sodium et d'eau, ce qui diminue la diurèse (oligurie).",
+      "answers": [
+        {
+          "text": "Diminution de la perfusion rénale et activation du SRAA",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la filtration glomérulaire",
+          "is_correct": false
+        },
+        { "text": "Diminution de la sécrétion d'ADH", "is_correct": false },
+        { "text": "Obstruction des voies urinaires", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 45 ans, souffrant d'une crise de migraine, présente une aura visuelle. Quel est le mécanisme physiopathologique responsable de cette aura ?",
+      "difficulty": "Difficile",
+      "explanation": "L'aura migraineuse est causée par une dépression corticale propagée (DCP), une onde de dépolarisation neuronale suivie d'une hyperpolarisation, perturbant transitoirement la fonction cérébrale.",
+      "answers": [
+        { "text": "Dépression corticale propagée (DCP)", "is_correct": true },
+        { "text": "Ischemie cérébrale focale", "is_correct": false },
+        { "text": "Hémorragie sous-arachnoïdienne", "is_correct": false },
+        { "text": "Inflammation des méninges", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 65 ans, souffrant d'une insuffisance rénale, présente une hyperkaliémie. Quel est le traitement d'urgence et son mécanisme d'action ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement d'urgence de l'hyperkaliémie repose sur l'administration de calcium (pour stabiliser la membrane cardiaque), d'insuline + glucose (pour favoriser l'entrée du potassium dans les cellules) et de résines échangeuses d'ions (pour éliminer le potassium).",
+      "answers": [
+        {
+          "text": "Calcium (stabilisation membranaire), insuline + glucose (entrée cellulaire du potassium)",
+          "is_correct": true
+        },
+        {
+          "text": "Diurétiques de l'anse (augmentation de l'excrétion rénale)",
+          "is_correct": false
+        },
+        {
+          "text": "Bêta-bloquants (diminution de la libération de potassium)",
+          "is_correct": false
+        },
+        {
+          "text": "Corticoïdes (stimulation de l'excrétion potassique)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient de 50 ans, souffrant d'une crise d'angor, prend de l'aspirine. Quel est le mécanisme d'action de ce médicament dans la prévention des complications cardiovasculaires ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aspirine inhibe de manière irréversible la cyclooxygénase (COX), réduisant ainsi la synthèse de thromboxane A2 (un puissant agrégant plaquettaire), ce qui diminue le risque de thrombose artérielle.",
+      "answers": [
+        {
+          "text": "Inhibition de la COX, réduction de la synthèse de thromboxane A2",
+          "is_correct": true
+        },
+        { "text": "Vasodilatation artérielle", "is_correct": false },
+        { "text": "Diminution de la fréquence cardiaque", "is_correct": false },
+        { "text": "Augmentation de la fibrinolyse", "is_correct": false }
+      ]
+    }
+  ]
+}

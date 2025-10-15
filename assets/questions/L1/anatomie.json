@@ -1,5 +1,6 @@
 {
   "category": "Anatomie",
+  "year_level": "L1",
   "questions": [
     {
       "question_text": "Combien de vertèbres compose la colonne vertébrale humaine ?",
@@ -1575,9 +1576,9 @@
       ]
     },
     {
-      "question_text": "Quel ligament croisé empêche le déplacement antérieur du tibia ?",
+      "question_text": "Lors d'un test du tiroir antérieur du genou, le médecin évalue la stabilité d'une structure ligamentaire intra-articulaire. Quelle structure est principalement testée ?",
       "difficulty": "Moyen",
-      "explanation": "Le ligament croisé antérieur (LCA) empêche le déplacement antérieur du tibia par rapport au fémur.",
+      "explanation": "Le test du tiroir antérieur évalue l'intégrité du ligament croisé antérieur (LCA). Ce ligament tendu entre l'échancrure intercondylaire du fémur et l'éminence intercondylaire du tibia empêche la translation antérieure excessive du tibia par rapport au fémur. Sa lésion est fréquente lors de traumatismes en rotation du genou.",
       "answers": [
         { "text": "Le ligament croisé postérieur", "is_correct": false },
         { "text": "Le ligament croisé antérieur", "is_correct": true },

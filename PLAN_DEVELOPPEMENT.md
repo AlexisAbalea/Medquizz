@@ -67,7 +67,7 @@ lib/
 
 - `id` (INTEGER PRIMARY KEY)
 - `question_id` (INTEGER FOREIGN KEY)
-- `answer_text` (TEXT)
+- `text` (TEXT)
 - `is_correct` (BOOLEAN)
 
 #### 5. **user_progress**
