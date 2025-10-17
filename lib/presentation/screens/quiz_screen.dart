@@ -98,7 +98,7 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      onPopInvoked: (didPop) async {
+      onPopInvokedWithResult: (didPop, result) async {
         if (didPop) return;
         final shouldPop = await showDialog<bool>(
           context: context,
@@ -165,7 +165,7 @@ class _QuizScreenState extends State<QuizScreen> {
                             decoration: BoxDecoration(
                               color: AppColors.getDifficultyColor(
                                       question.difficulty)
-                                  .withOpacity(0.1),
+                                  .withValues(alpha: 0.1),
                               borderRadius:
                                   BorderRadius.circular(AppSizes.radiusSm),
                             ),
@@ -221,8 +221,8 @@ class _QuizScreenState extends State<QuizScreen> {
                                         decoration: BoxDecoration(
                                           gradient: LinearGradient(
                                             colors: [
-                                              AppColors.info.withOpacity(0.15),
-                                              AppColors.info.withOpacity(0.05),
+                                              AppColors.info.withValues(alpha: 0.15),
+                                              AppColors.info.withValues(alpha: 0.05),
                                             ],
                                             begin: Alignment.topLeft,
                                             end: Alignment.bottomRight,
@@ -230,7 +230,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                           borderRadius: BorderRadius.circular(
                                               AppSizes.radiusLg),
                                           border: Border.all(
-                                            color: AppColors.info.withOpacity(0.3),
+                                            color: AppColors.info.withValues(alpha: 0.3),
                                             width: 1,
                                           ),
                                         ),
@@ -248,7 +248,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                                         const EdgeInsets.all(6),
                                                     decoration: BoxDecoration(
                                                       color: AppColors.info
-                                                          .withOpacity(0.2),
+                                                          .withValues(alpha: 0.2),
                                                       shape: BoxShape.circle,
                                                     ),
                                                     child: const Icon(
@@ -277,7 +277,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                                     AppSizes.paddingSm),
                                                 decoration: BoxDecoration(
                                                   color:
-                                                      Colors.white.withOpacity(0.7),
+                                                      Colors.white.withValues(alpha: 0.7),
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           AppSizes.radiusMd),

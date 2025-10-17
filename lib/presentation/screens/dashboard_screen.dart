@@ -163,7 +163,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         gradient: LinearGradient(
           colors: [
             AppColors.primary,
-            AppColors.primary.withOpacity(0.8),
+            AppColors.primary.withValues(alpha: 0.8),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -200,7 +200,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     vertical: AppSizes.paddingXs,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.2),
+                    color: Colors.white.withValues(alpha: 0.2),
                     borderRadius: BorderRadius.circular(AppSizes.radiusSm),
                   ),
                   child: Text(
@@ -385,7 +385,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   Container(
                     padding: const EdgeInsets.all(AppSizes.paddingXs),
                     decoration: BoxDecoration(
-                      color: yearColor.withOpacity(0.1),
+                      color: yearColor.withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(AppSizes.radiusSm),
                     ),
                     child: Icon(
@@ -457,7 +457,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         const SizedBox(width: AppSizes.spacingSm),
                         // Icône de la catégorie
                         CircleAvatar(
-                          backgroundColor: color.withOpacity(0.1),
+                          backgroundColor: color.withValues(alpha: 0.1),
                           radius: 18,
                           child: Icon(Icons.book, color: color, size: 18),
                         ),
@@ -473,7 +473,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         vertical: AppSizes.paddingXs,
                       ),
                       decoration: BoxDecoration(
-                        color: badgeColor.withOpacity(0.1),
+                        color: badgeColor.withValues(alpha: 0.1),
                         borderRadius: BorderRadius.circular(AppSizes.radiusSm),
                       ),
                       child: Text(

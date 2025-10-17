@@ -197,7 +197,7 @@ class _YearSelector extends StatelessWidget {
                   vertical: AppSizes.paddingLg,
                 ),
                 decoration: BoxDecoration(
-                  color: isSelected ? color : color.withOpacity(0.1),
+                  color: isSelected ? color : color.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(AppSizes.radiusMd),
                   border: Border.all(
                     color: color,

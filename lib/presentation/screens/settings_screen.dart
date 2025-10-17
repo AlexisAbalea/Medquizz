@@ -460,7 +460,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       Container(
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
-                          color: AppColors.primary.withOpacity(0.1),
+                          color: AppColors.primary.withValues(alpha: 0.1),
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
@@ -515,7 +515,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       Container(
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
-                          color: AppColors.textSecondary.withOpacity(0.1),
+                          color: AppColors.textSecondary.withValues(alpha: 0.1),
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
@@ -558,7 +558,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       Container(
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
-                          color: AppColors.textSecondary.withOpacity(0.1),
+                          color: AppColors.textSecondary.withValues(alpha: 0.1),
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
@@ -601,7 +601,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       Container(
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
-                          color: AppColors.textSecondary.withOpacity(0.1),
+                          color: AppColors.textSecondary.withValues(alpha: 0.1),
                           borderRadius:
                               BorderRadius.circular(AppSizes.radiusMd),
                         ),
@@ -653,7 +653,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           child: Container(
             padding: const EdgeInsets.all(AppSizes.paddingMd),
             decoration: BoxDecoration(
-              color: isSelected ? color.withOpacity(0.1) : Colors.transparent,
+              color: isSelected ? color.withValues(alpha: 0.1) : Colors.transparent,
               border: Border.all(
                 color: isSelected ? color : AppColors.border,
                 width: isSelected ? 2 : 1,

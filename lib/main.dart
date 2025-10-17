@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:hippoquiz/core/theme/app_theme.dart';
 import 'package:hippoquiz/data/datasources/database_helper.dart';
 import 'package:hippoquiz/data/datasources/seed_data.dart';
@@ -17,6 +18,24 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Configuration du mode immersif pour Android
+  // Les barres système se cachent automatiquement et réapparaissent au besoin
+  SystemChrome.setEnabledSystemUIMode(
+    SystemUiMode.immersiveSticky,
+  );
+
+  // Style des barres système quand elles sont visibles
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarColor: Colors.transparent,
+      systemNavigationBarIconBrightness: Brightness.dark,
+      systemNavigationBarDividerColor: Colors.transparent,
+    ),
+  );
+
   await SeedData.initialize();
   runApp(const MyApp());
 }

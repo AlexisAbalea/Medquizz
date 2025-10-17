@@ -185,7 +185,7 @@ class _YearSection extends StatelessWidget {
                 vertical: AppSizes.paddingSm,
               ),
               decoration: BoxDecoration(
-                color: yearColor.withOpacity(0.1),
+                color: yearColor.withValues(alpha: 0.1),
                 borderRadius: isExpanded
                     ? const BorderRadius.only(
                         topLeft: Radius.circular(AppSizes.radiusLg),
@@ -221,7 +221,7 @@ class _YearSection extends StatelessWidget {
                       vertical: 4,
                     ),
                     decoration: BoxDecoration(
-                      color: yearColor.withOpacity(0.2),
+                      color: yearColor.withValues(alpha: 0.2),
                       borderRadius: BorderRadius.circular(AppSizes.radiusMd),
                     ),
                     child: Text(
@@ -296,8 +296,8 @@ class _CategoryListItem extends StatelessWidget {
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
             gradient: LinearGradient(
               colors: [
-                color.withOpacity(0.08),
-                color.withOpacity(0.02),
+                color.withValues(alpha: 0.08),
+                color.withValues(alpha: 0.02),
               ],
               begin: Alignment.centerLeft,
               end: Alignment.centerRight,
@@ -309,7 +309,7 @@ class _CategoryListItem extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(AppSizes.paddingXs),
                 decoration: BoxDecoration(
-                  color: color.withOpacity(0.15),
+                  color: color.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(AppSizes.radiusSm),
                 ),
                 child: Icon(
@@ -333,7 +333,7 @@ class _CategoryListItem extends StatelessWidget {
               Icon(
                 Icons.arrow_forward_ios,
                 size: 16,
-                color: color.withOpacity(0.5),
+                color: color.withValues(alpha: 0.5),
               ),
             ],
           ),

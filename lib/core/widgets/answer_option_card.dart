@@ -29,11 +29,11 @@ class AnswerOptionCard extends StatelessWidget {
   Color _getBackgroundColor() {
     switch (state) {
       case AnswerState.selected:
-        return AppColors.primary.withOpacity(0.1);
+        return AppColors.primary.withValues(alpha: 0.1);
       case AnswerState.correct:
-        return AppColors.success.withOpacity(0.1);
+        return AppColors.success.withValues(alpha: 0.1);
       case AnswerState.incorrect:
-        return AppColors.error.withOpacity(0.1);
+        return AppColors.error.withValues(alpha: 0.1);
       default:
         return AppColors.surface;
     }

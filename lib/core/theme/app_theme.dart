@@ -12,8 +12,7 @@ class AppTheme {
         primary: AppColors.primary,
         secondary: AppColors.secondary,
         error: AppColors.error,
-        surface: AppColors.surface,
-        background: AppColors.background,
+        surface: AppColors.background,
       ),
 
       textTheme: GoogleFonts.poppinsTextTheme(
@@ -108,13 +107,13 @@ class AppTheme {
         ),
       ),
 
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 2,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
         ),
         color: AppColors.surface,
-        shadowColor: Colors.black.withOpacity(0.1),
+        shadowColor: Colors.black.withValues(alpha: 0.1),
       ),
 
       elevatedButtonTheme: ElevatedButtonThemeData(
