@@ -1,0 +1,2795 @@
+{
+  "category": "Pharmacologie",
+  "year_level": "L3",
+  "questions": [
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de l'enzyme de conversion (IEC) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IEC bloquent la conversion de l'angiotensine I en angiotensine II, entraînant une vasodilatation et une diminution de la pression artérielle. Ils augmentent également la bradykinine, responsable de la toux sèche comme effet secondaire.",
+      "answers": [
+        {
+          "text": "Inhibition de la conversion de l'angiotensine I en angiotensine II",
+          "is_correct": true
+        },
+        {
+          "text": "Blocage des récepteurs à l'angiotensine II",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de la rénine",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des canaux calciques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel antibiotique est contre-indiqué chez la femme enceinte en raison de sa tératogénicité ?",
+      "difficulty": "Facile",
+      "explanation": "Les fluoroquinolones sont contre-indiquées pendant la grossesse car elles peuvent affecter le développement du cartilage articulaire chez le fœtus. Les pénicillines et céphalosporines sont généralement sûres.",
+      "answers": [
+        {
+          "text": "Amoxicilline",
+          "is_correct": false
+        },
+        {
+          "text": "Fluoroquinolones (ciprofloxacine)",
+          "is_correct": true
+        },
+        {
+          "text": "Céphalosporines",
+          "is_correct": false
+        },
+        {
+          "text": "Pénicilline G",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidote spécifique en cas de surdosage aux anti-vitamines K (AVK) ?",
+      "difficulty": "Facile",
+      "explanation": "La vitamine K1 (phytoménadione) est l'antidote des AVK. Elle permet la synthèse des facteurs de coagulation vitamine K-dépendants. En cas d'hémorragie grave, du PPSB (concentré de facteurs de coagulation) peut être ajouté.",
+      "answers": [
+        {
+          "text": "Protamine",
+          "is_correct": false
+        },
+        {
+          "text": "Vitamine K1 (phytoménadione)",
+          "is_correct": true
+        },
+        {
+          "text": "N-acétylcystéine",
+          "is_correct": false
+        },
+        {
+          "text": "Flumazénil",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel effet indésirable nécessite une surveillance régulière de la fonction rénale lors d'un traitement par AINS ?",
+      "difficulty": "Moyen",
+      "explanation": "Les AINS inhibent la synthèse des prostaglandines rénales, entraînant une vasoconstriction de l'artériole afférente et pouvant causer une insuffisance rénale aiguë fonctionnelle, surtout chez les patients à risque (âgés, déshydratés, insuffisants cardiaques).",
+      "answers": [
+        {
+          "text": "Hépatotoxicité",
+          "is_correct": false
+        },
+        {
+          "text": "Insuffisance rénale aiguë",
+          "is_correct": true
+        },
+        {
+          "text": "Agranulocytose",
+          "is_correct": false
+        },
+        {
+          "text": "Syndrome de Lyell",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel antidiabétique oral est associé au risque d'acidose lactique ?",
+      "difficulty": "Moyen",
+      "explanation": "La metformine peut provoquer une acidose lactique, notamment en cas d'insuffisance rénale, d'insuffisance hépatique ou d'hypoxie tissulaire. Il faut l'arrêter avant une injection de produit de contraste iodé.",
+      "answers": [
+        {
+          "text": "Glibenclamide (sulfamide hypoglycémiant)",
+          "is_correct": false
+        },
+        {
+          "text": "Metformine",
+          "is_correct": true
+        },
+        {
+          "text": "Sitagliptine (inhibiteur DPP-4)",
+          "is_correct": false
+        },
+        {
+          "text": "Acarbose (inhibiteur des alpha-glucosidases)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des statines ?",
+      "difficulty": "Facile",
+      "explanation": "Les statines inhibent l'HMG-CoA réductase, enzyme clé de la synthèse du cholestérol hépatique, entraînant une diminution du LDL-cholestérol. Elles ont également des effets pléiotropes anti-inflammatoires et stabilisateurs de plaque.",
+      "answers": [
+        {
+          "text": "Inhibition de l'absorption intestinale du cholestérol",
+          "is_correct": false
+        },
+        {
+          "text": "Inhibition de l'HMG-CoA réductase",
+          "is_correct": true
+        },
+        {
+          "text": "Activation de la lipoprotéine lipase",
+          "is_correct": false
+        },
+        {
+          "text": "Séquestration des acides biliaires",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle surveillance biologique est indispensable lors d'un traitement par lithium ?",
+      "difficulty": "Moyen",
+      "explanation": "Le lithium a une marge thérapeutique étroite (0,5-1,2 mEq/L). Une lithiémie excessive peut entraîner une toxicité neurologique et rénale. Il faut également surveiller la fonction rénale et thyroïdienne car le lithium peut induire une hypothyroïdie.",
+      "answers": [
+        {
+          "text": "Glycémie",
+          "is_correct": false
+        },
+        {
+          "text": "Lithiémie",
+          "is_correct": true
+        },
+        {
+          "text": "Bilan hépatique",
+          "is_correct": false
+        },
+        {
+          "text": "Numération formule sanguine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel bêta-bloquant est cardiosélectif ?",
+      "difficulty": "Facile",
+      "explanation": "Le métoprolol est un bêta-bloquant cardiosélectif (β1-sélectif), contrairement au propranolol qui est non sélectif (β1 et β2). La cardiosélectivité est relative et disparaît à fortes doses.",
+      "answers": [
+        {
+          "text": "Propranolol",
+          "is_correct": false
+        },
+        {
+          "text": "Métoprolol",
+          "is_correct": true
+        },
+        {
+          "text": "Sotalol",
+          "is_correct": false
+        },
+        {
+          "text": "Carvédilol",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet indésirable des opioïdes nécessitant une prévention systématique ?",
+      "difficulty": "Facile",
+      "explanation": "La constipation est un effet indésirable constant des opioïdes (elle ne disparaît pas avec la tolérance). Il faut systématiquement prescrire un laxatif en prévention. La dépression respiratoire et les nausées sont également fréquentes mais peuvent diminuer avec le temps.",
+      "answers": [
+        {
+          "text": "Diarrhée",
+          "is_correct": false
+        },
+        {
+          "text": "Constipation",
+          "is_correct": true
+        },
+        {
+          "text": "Hypertension",
+          "is_correct": false
+        },
+        {
+          "text": "Tachycardie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel anticoagulant nécessite une surveillance par l'INR ?",
+      "difficulty": "Facile",
+      "explanation": "Les anti-vitamines K (AVK) comme la warfarine nécessitent une surveillance régulière de l'INR (International Normalized Ratio), contrairement aux AOD (anticoagulants oraux directs) qui ne nécessitent pas de surveillance biologique systématique.",
+      "answers": [
+        {
+          "text": "Héparine non fractionnée",
+          "is_correct": false
+        },
+        {
+          "text": "Anti-vitamines K (warfarine)",
+          "is_correct": true
+        },
+        {
+          "text": "Rivaroxaban (AOD)",
+          "is_correct": false
+        },
+        {
+          "text": "Héparine de bas poids moléculaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle est la classe thérapeutique du paracétamol ?",
+      "difficulty": "Facile",
+      "explanation": "Le paracétamol est un antalgique et antipyrétique. Il n'a pas d'activité anti-inflammatoire significative, contrairement aux AINS. Son mécanisme d'action implique l'inhibition de la synthèse des prostaglandines au niveau central.",
+      "answers": [
+        {
+          "text": "Anti-inflammatoire non stéroïdien",
+          "is_correct": false
+        },
+        {
+          "text": "Antalgique et antipyrétique",
+          "is_correct": true
+        },
+        {
+          "text": "Opioïde faible",
+          "is_correct": false
+        },
+        {
+          "text": "Corticoïde",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel effet indésirable grave impose l'arrêt immédiat des statines ?",
+      "difficulty": "Moyen",
+      "explanation": "La rhabdomyolyse est une complication rare mais grave des statines, caractérisée par une destruction musculaire massive avec élévation importante des CPK, myoglobinurie et risque d'insuffisance rénale aiguë. Elle impose l'arrêt immédiat du traitement.",
+      "answers": [
+        {
+          "text": "Céphalées légères",
+          "is_correct": false
+        },
+        {
+          "text": "Rhabdomyolyse",
+          "is_correct": true
+        },
+        {
+          "text": "Élévation modérée des transaminases",
+          "is_correct": false
+        },
+        {
+          "text": "Constipation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel médicament est utilisé dans le traitement de l'asthme pour son action bronchodilatatrice rapide ?",
+      "difficulty": "Facile",
+      "explanation": "Les bêta-2 mimétiques à courte durée d'action (SABA) comme le salbutamol sont des bronchodilatateurs d'action rapide utilisés en traitement de crise de l'asthme. Les corticoïdes inhalés sont des traitements de fond.",
+      "answers": [
+        {
+          "text": "Corticoïdes inhalés",
+          "is_correct": false
+        },
+        {
+          "text": "Bêta-2 mimétiques (salbutamol)",
+          "is_correct": true
+        },
+        {
+          "text": "Antileucotriènes",
+          "is_correct": false
+        },
+        {
+          "text": "Ipratropium (anticholinergique)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal risque d'une association IEC + diurétique épargneur de potassium ?",
+      "difficulty": "Difficile",
+      "explanation": "Les IEC diminuent l'aldostérone et favorisent la rétention de potassium. Associés aux diurétiques épargneurs de potassium (spironolactone, amiloride), le risque d'hyperkaliémie est majeur, pouvant entraîner des troubles du rythme graves.",
+      "answers": [
+        {
+          "text": "Hypokaliémie sévère",
+          "is_correct": false
+        },
+        {
+          "text": "Hyperkaliémie",
+          "is_correct": true
+        },
+        {
+          "text": "Hyponatrémie",
+          "is_correct": false
+        },
+        {
+          "text": "Hypercalcémie",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quelle enzyme est ciblée par l'aspirine pour son effet antiagrégant ?",
+      "difficulty": "Moyen",
+      "explanation": "L'aspirine inhibe de façon irréversible la cyclo-oxygénase (COX-1) plaquettaire, bloquant ainsi la synthèse du thromboxane A2, un puissant agrégant plaquettaire. Cet effet persiste pendant toute la durée de vie de la plaquette (7-10 jours).",
+      "answers": [
+        {
+          "text": "Phosphodiestérase",
+          "is_correct": false
+        },
+        {
+          "text": "Cyclo-oxygénase (COX)",
+          "is_correct": true
+        },
+        {
+          "text": "Récepteur P2Y12",
+          "is_correct": false
+        },
+        {
+          "text": "Glycoprotéine IIb/IIIa",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action principal des bêta-bloquants ?",
+      "difficulty": "Facile",
+      "explanation": "Les bêta-bloquants agissent en bloquant les récepteurs bêta-adrénergiques, ce qui réduit l'effet des catécholamines (comme l'adrénaline) sur le cœur et les vaisseaux sanguins, entraînant une diminution de la fréquence cardiaque et de la pression artérielle.",
+      "answers": [
+        {
+          "text": "Inhibition de l'enzyme de conversion de l'angiotensine",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des récepteurs bêta-adrénergiques",
+          "is_correct": true
+        },
+        {
+          "text": "Augmentation de la libération de noradrénaline",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation des récepteurs alpha-adrénergiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable le plus fréquent des inhibiteurs de l'ECA ?",
+      "difficulty": "Facile",
+      "explanation": "Les inhibiteurs de l'ECA peuvent provoquer une toux sèche persistante, due à l'accumulation de bradykinine dans les voies respiratoires.",
+      "answers": [
+        { "text": "Toux sèche", "is_correct": true },
+        { "text": "Hypokaliémie", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Diarrhée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des diurétiques de l'anse ?",
+      "difficulty": "Facile",
+      "explanation": "Les diurétiques de l'anse agissent en inhibant le cotransporteur Na+/K+/2Cl- au niveau de la branche ascendante de l'anse de Henle, ce qui réduit la réabsorption du sodium et de l'eau.",
+      "answers": [
+        { "text": "Inhibition de l'aldostérone", "is_correct": false },
+        { "text": "Blocage des canaux sodiques", "is_correct": false },
+        {
+          "text": "Inhibition du cotransporteur Na+/K+/2Cl-",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la sécrétion de potassium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal risque des anti-inflammatoires non stéroïdiens (AINS) sur le tube digestif ?",
+      "difficulty": "Facile",
+      "explanation": "Les AINS inhibent la cyclooxygénase (COX), ce qui réduit la production de prostaglandines protectrices de la muqueuse gastrique, augmentant le risque d'ulcères et de saignements digestifs.",
+      "answers": [
+        { "text": "Constipation", "is_correct": false },
+        { "text": "Ulcères gastroduodénaux", "is_correct": true },
+        { "text": "Diarrhée osmotique", "is_correct": false },
+        { "text": "Insuffisance hépatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'anticoagulant oral direct qui inhibe le facteur Xa ?",
+      "difficulty": "Facile",
+      "explanation": "Le rivaroxaban et l'apixaban sont des anticoagulants oraux directs qui ciblent spécifiquement le facteur Xa de la coagulation.",
+      "answers": [
+        { "text": "Warfarine", "is_correct": false },
+        { "text": "Dabigatran", "is_correct": false },
+        { "text": "Rivaroxaban", "is_correct": true },
+        { "text": "Héparine non fractionnée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des statines ?",
+      "difficulty": "Facile",
+      "explanation": "Les statines inhibent la HMG-CoA réductase, une enzyme clé de la synthèse du cholestérol, ce qui réduit la production de cholestérol LDL.",
+      "answers": [
+        {
+          "text": "Augmentation de la lipoprotéine lipase",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la HMG-CoA réductase", "is_correct": true },
+        {
+          "text": "Stimulation de l'absorption intestinale du cholestérol",
+          "is_correct": false
+        },
+        { "text": "Blocage des récepteurs des LDL", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur des aminosides ?",
+      "difficulty": "Facile",
+      "explanation": "Les aminosides, comme la gentamicine, peuvent provoquer une toxicité rénale (néphrotoxicité) et auditive (ototoxicité), notamment en cas de surdosage ou d'utilisation prolongée.",
+      "answers": [
+        { "text": "Hépatotoxicité", "is_correct": false },
+        { "text": "Néphrotoxicité et ototoxicité", "is_correct": true },
+        { "text": "Neuropathie périphérique", "is_correct": false },
+        { "text": "Allergie cutanée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des benzodiazépines ?",
+      "difficulty": "Facile",
+      "explanation": "Les benzodiazépines potentialisent l'effet inhibiteur du GABA (acide gamma-aminobutyrique) en se liant à son récepteur, ce qui augmente l'ouverture des canaux chlorure et induit un effet sédatif, anxiolytique et myorelaxant.",
+      "answers": [
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        { "text": "Blocage des récepteurs NMDA", "is_correct": false },
+        { "text": "Potentialisation de l'effet du GABA", "is_correct": true },
+        {
+          "text": "Stimulation des récepteurs adrénergiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidépresseur tricyclique le plus utilisé ?",
+      "difficulty": "Facile",
+      "explanation": "L'amitriptyline est l'un des antidépresseurs tricycliques les plus prescrits, agissant principalement par inhibition de la recapture de la noradrénaline et de la sérotonine.",
+      "answers": [
+        { "text": "Fluoxétine", "is_correct": false },
+        { "text": "Amitriptyline", "is_correct": true },
+        { "text": "Venlafaxine", "is_correct": false },
+        { "text": "Mirtazapine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le principal effet indésirable des corticoïdes ?",
+      "difficulty": "Facile",
+      "explanation": "Les corticoïdes peuvent provoquer une ostéoporose, notamment en cas d'utilisation prolongée, en réduisant l'absorption intestinale du calcium et en augmentant sa résorption osseuse.",
+      "answers": [
+        { "text": "Hyponatrémie", "is_correct": false },
+        { "text": "Ostéoporose", "is_correct": true },
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Bradycardie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la pompe à protons (IPP) ?",
+      "difficulty": "Facile",
+      "explanation": "Les IPP bloquent la pompe à protons H+/K+ ATPase des cellules pariétales gastriques, réduisant ainsi la sécrétion acide.",
+      "answers": [
+        { "text": "Neutralisation de l'acide gastrique", "is_correct": false },
+        {
+          "text": "Blocage de la pompe à protons H+/K+ ATPase",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la production de mucus",
+          "is_correct": false
+        },
+        { "text": "Inhibition de l'histamine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidiabétique oral qui augmente la sensibilité à l'insuline ?",
+      "difficulty": "Facile",
+      "explanation": "La metformine est un biguanide qui améliore la sensibilité à l'insuline, principalement au niveau du foie et des muscles, réduisant ainsi la production hépatique de glucose.",
+      "answers": [
+        { "text": "Glibenclamide", "is_correct": false },
+        { "text": "Metformine", "is_correct": true },
+        { "text": "Acarbose", "is_correct": false },
+        { "text": "Insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des bêta-2 mimétiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-2 mimétiques, comme le salbutamol, stimulent les récepteurs bêta-2 adrénergiques des muscles lisses bronchiques, provoquant une bronchodilatation.",
+      "answers": [
+        { "text": "Inhibition de la phosphodiestérase", "is_correct": false },
+        {
+          "text": "Stimulation des récepteurs bêta-2 adrénergiques",
+          "is_correct": true
+        },
+        { "text": "Blocage des récepteurs muscariniques", "is_correct": false },
+        { "text": "Augmentation de la sécrétion de mucus", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable le plus fréquent des morphiniques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les morphiniques provoquent fréquemment une constipation, due à une diminution de la motricité intestinale.",
+      "answers": [
+        { "text": "Diarrhée", "is_correct": false },
+        { "text": "Constipation", "is_correct": true },
+        { "text": "Tachycardie", "is_correct": false },
+        { "text": "Hypotension", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs calciques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs calciques bloquent les canaux calciques de type L, réduisant l'entrée de calcium dans les cellules musculaires lisses vasculaires et cardiaques, ce qui entraîne une vasodilatation et une diminution de la contractilité cardiaque.",
+      "answers": [
+        { "text": "Blocage des canaux sodiques", "is_correct": false },
+        {
+          "text": "Blocage des canaux calciques de type L",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antihypertenseur contre-indiqué en cas de grossesse ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs de l'ECA et les antagonistes des récepteurs de l'angiotensine II (ARA2) sont contre-indiqués pendant la grossesse en raison de leur tératogénicité, notamment au niveau rénal et cardiovasculaire du fœtus.",
+      "answers": [
+        { "text": "Labetalol", "is_correct": false },
+        { "text": "Inhibiteurs de l'ECA", "is_correct": true },
+        { "text": "Hydralazine", "is_correct": false },
+        { "text": "Méthyldopa", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des antiarythmiques de classe I ?",
+      "difficulty": "Moyen",
+      "explanation": "Les antiarythmiques de classe I bloquent les canaux sodiques, ralentissant ainsi la conduction et la dépolarisation des cellules cardiaques.",
+      "answers": [
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Blocage des canaux sodiques", "is_correct": true },
+        { "text": "Prolongation de la repolarisation", "is_correct": false },
+        {
+          "text": "Inhibition des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur des neuroleptiques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les neuroleptiques peuvent provoquer des symptômes extrapyramidaux, comme des tremblements, une rigidité ou des dyskinésies, en bloquant les récepteurs dopaminergiques D2 dans les noyaux gris centraux.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Syndrome extrapyramidal", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des anticonvulsivants comme la phénytoïne ?",
+      "difficulty": "Moyen",
+      "explanation": "La phénytoïne stabilise les membranes neuronales en bloquant les canaux sodiques voltage-dépendants, réduisant ainsi l'excitabilité neuronale et la propagation des décharges épileptiques.",
+      "answers": [
+        { "text": "Potentialisation du GABA", "is_correct": false },
+        { "text": "Blocage des canaux sodiques", "is_correct": true },
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        { "text": "Stimulation des récepteurs NMDA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'anticoagulant dont l'effet est monitoré par l'INR ?",
+      "difficulty": "Moyen",
+      "explanation": "La warfarine, un antivitamine K, est monitorée par l'INR (International Normalized Ratio) pour ajuster la dose et éviter les risques hémorragiques ou thrombotiques.",
+      "answers": [
+        { "text": "Héparine", "is_correct": false },
+        { "text": "Warfarine", "is_correct": true },
+        { "text": "Dabigatran", "is_correct": false },
+        { "text": "Aspirine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des thiazolidinediones ?",
+      "difficulty": "Moyen",
+      "explanation": "Les thiazolidinediones, comme la pioglitazone, activent les récepteurs PPAR-gamma, améliorant la sensibilité à l'insuline dans les tissus cibles (muscle, foie, tissu adipeux).",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        { "text": "Activation des récepteurs PPAR-gamma", "is_correct": true },
+        { "text": "Inhibition de l'alpha-glucosidase", "is_correct": false },
+        { "text": "Augmentation de la gluconéogenèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable le plus grave des fluoroquinolones ?",
+      "difficulty": "Moyen",
+      "explanation": "Les fluoroquinolones peuvent provoquer des tendinopathies, voire des ruptures de tendon, notamment chez les patients âgés ou sous corticoïdes.",
+      "answers": [
+        { "text": "Allergie cutanée", "is_correct": false },
+        { "text": "Tendinopathies", "is_correct": true },
+        { "text": "Hypoglycémie", "is_correct": false },
+        { "text": "Insuffisance hépatique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la recapture de la sérotonine (IRS) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IRS bloquent la recapture de la sérotonine dans la fente synaptique, augmentant ainsi sa concentration et son effet antidépresseur.",
+      "answers": [
+        { "text": "Inhibition de la monoamine oxydase", "is_correct": false },
+        {
+          "text": "Blocage de la recapture de la sérotonine",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation des récepteurs dopaminergiques",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la libération de noradrénaline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antihistaminique H1 de première génération le plus sédatif ?",
+      "difficulty": "Moyen",
+      "explanation": "La diphénhydramine est un antihistaminique H1 de première génération qui traverse la barrière hémato-encéphalique, provoquant une sédation marquée.",
+      "answers": [
+        { "text": "Loratadine", "is_correct": false },
+        { "text": "Cétirizine", "is_correct": false },
+        { "text": "Diphénhydramine", "is_correct": true },
+        { "text": "Fexofénadine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des digitaliques ?",
+      "difficulty": "Moyen",
+      "explanation": "Les digitaliques inhibent la pompe Na+/K+ ATPase, augmentant ainsi la concentration intracellulaire de calcium et la contractilité cardiaque (effet inotrope positif).",
+      "answers": [
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": true },
+        {
+          "text": "Stimulation des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la fréquence cardiaque",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur des anti-TNF alpha ?",
+      "difficulty": "Moyen",
+      "explanation": "Les anti-TNF alpha, comme l'infliximab, augmentent le risque d'infections opportunistes, notamment tuberculeuses, en inhibant la réponse immunitaire.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Infections opportunistes", "is_correct": true },
+        { "text": "Diabète", "is_correct": false },
+        { "text": "Ostéoporose", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des bisphosphonates ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bisphosphonates inhibent l'activité des ostéoclastes, réduisant ainsi la résorption osseuse et augmentant la densité minérale osseuse.",
+      "answers": [
+        { "text": "Stimulation des ostéoblastes", "is_correct": false },
+        { "text": "Inhibition des ostéoclastes", "is_correct": true },
+        { "text": "Augmentation de la calcémie", "is_correct": false },
+        {
+          "text": "Blocage des récepteurs de la vitamine D",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antiviral utilisé dans le traitement de l'hépatite C ?",
+      "difficulty": "Moyen",
+      "explanation": "Le sofosbuvir est un inhibiteur de la polymérase NS5B du virus de l'hépatite C, bloquant ainsi la réplication virale.",
+      "answers": [
+        { "text": "Aciclovir", "is_correct": false },
+        { "text": "Sofosbuvir", "is_correct": true },
+        { "text": "Zidovudine", "is_correct": false },
+        { "text": "Oseltamivir", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des anticholinestérasiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les anticholinestérasiques inhibent l'acétylcholinestérase, augmentant ainsi la concentration d'acétylcholine dans la fente synaptique, ce qui améliore la transmission cholinergique, notamment dans la maladie d'Alzheimer.",
+      "answers": [
+        { "text": "Blocage des récepteurs muscariniques", "is_correct": false },
+        { "text": "Inhibition de l'acétylcholinestérase", "is_correct": true },
+        {
+          "text": "Stimulation de la libération d'acétylcholine",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la recapture de la dopamine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable le plus fréquent des antirétroviraux (IP) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de protéase (IP) peuvent provoquer des troubles métaboliques, comme une dyslipidémie ou une intolérance au glucose, en interférant avec le métabolisme des lipides et du glucose.",
+      "answers": [
+        { "text": "Anémie", "is_correct": false },
+        { "text": "Troubles métaboliques", "is_correct": true },
+        { "text": "Neuropathie périphérique", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de l'intégrase ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de l'intégrase, comme le dolutégravir, bloquent l'intégration de l'ADN viral dans le génome de la cellule hôte, empêchant ainsi la réplication du VIH.",
+      "answers": [
+        {
+          "text": "Inhibition de la transcriptase inverse",
+          "is_correct": false
+        },
+        { "text": "Blocage de l'intégrase", "is_correct": true },
+        { "text": "Inhibition de la protéase", "is_correct": false },
+        { "text": "Stimulation de l'immunité cellulaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'immunosuppresseur utilisé pour prévenir le rejet de greffe ?",
+      "difficulty": "Difficile",
+      "explanation": "La ciclosporine est un immunosuppresseur qui inhibe la calcineurine, réduisant ainsi l'activation des lymphocytes T et la réponse immunitaire.",
+      "answers": [
+        { "text": "Méthotrexate", "is_correct": false },
+        { "text": "Ciclosporine", "is_correct": true },
+        { "text": "Azathioprine", "is_correct": false },
+        { "text": "Corticoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des antiangiogéniques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les antiangiogéniques, comme le bevacizumab, inhibent la formation de nouveaux vaisseaux sanguins en bloquant le VEGF (Vascular Endothelial Growth Factor), limitant ainsi l'apport sanguin aux tumeurs.",
+      "answers": [
+        { "text": "Stimulation de l'apoptose", "is_correct": false },
+        { "text": "Inhibition du VEGF", "is_correct": true },
+        { "text": "Blocage des récepteurs à l'EGF", "is_correct": false },
+        {
+          "text": "Augmentation de la prolifération cellulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable majeur des inhibiteurs de la tyrosine kinase ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la tyrosine kinase, comme l'imatinib, peuvent provoquer une toxicité cardiaque, notamment une insuffisance cardiaque ou des troubles du rythme.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Toxicité cardiaque", "is_correct": true },
+        { "text": "Diarrhée sévère", "is_correct": false },
+        { "text": "Alopécie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes dopaminergiques ?",
+      "difficulty": "Difficile",
+      "explanation": "Les agonistes dopaminergiques, comme la bromocriptine, stimulent directement les récepteurs dopaminergiques, mimant ainsi l'effet de la dopamine, notamment dans la maladie de Parkinson.",
+      "answers": [
+        { "text": "Inhibition de la monoamine oxydase", "is_correct": false },
+        {
+          "text": "Stimulation des récepteurs dopaminergiques",
+          "is_correct": true
+        },
+        { "text": "Blocage des récepteurs muscariniques", "is_correct": false },
+        {
+          "text": "Augmentation de la recapture de la dopamine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antimycobactérien utilisé dans le traitement de la tuberculose ?",
+      "difficulty": "Difficile",
+      "explanation": "La rifampicine est un antibiotique clé dans le traitement de la tuberculose, inhibant l'ARN polymérase bactérienne.",
+      "answers": [
+        { "text": "Amoxicilline", "is_correct": false },
+        { "text": "Rifampicine", "is_correct": true },
+        { "text": "Céfotaxime", "is_correct": false },
+        { "text": "Gentamicine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la pompe à protons (IPP) sur la flore intestinale ?",
+      "difficulty": "Difficile",
+      "explanation": "Les IPP, en réduisant l'acidité gastrique, peuvent modifier la flore intestinale et augmenter le risque d'infections digestives, comme celles à Clostridium difficile.",
+      "answers": [
+        { "text": "Augmentation de l'acidité gastrique", "is_correct": false },
+        { "text": "Modification de la flore intestinale", "is_correct": true },
+        {
+          "text": "Stimulation de la motricité intestinale",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la sécrétion biliaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des anti-TNF alpha sur le système nerveux central ?",
+      "difficulty": "Difficile",
+      "explanation": "Les anti-TNF alpha peuvent favoriser la survenue de maladies démyélinisantes, comme la sclérose en plaques, en modulant la réponse immunitaire.",
+      "answers": [
+        { "text": "Dépression", "is_correct": false },
+        { "text": "Maladies démyélinisantes", "is_correct": true },
+        { "text": "Convulsions", "is_correct": false },
+        { "text": "Maux de tête", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la dipeptidyl peptidase-4 (DPP-4) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la DPP-4, comme la sitagliptine, augmentent la demi-vie du GLP-1 (glucagon-like peptide-1), ce qui stimule la sécrétion d'insuline et réduit la glycémie.",
+      "answers": [
+        { "text": "Stimulation de la gluconéogenèse", "is_correct": false },
+        { "text": "Inhibition de la DPP-4", "is_correct": true },
+        { "text": "Blocage des récepteurs de l'insuline", "is_correct": false },
+        {
+          "text": "Augmentation de la résistance à l'insuline",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antifongique utilisé dans le traitement des candidoses invasives ?",
+      "difficulty": "Difficile",
+      "explanation": "Le fluconazole est un antifongique de la famille des triazolés, utilisé dans le traitement des candidoses invasives en inhibant la synthèse de l'ergostérol, un composant essentiel de la membrane fongique.",
+      "answers": [
+        { "text": "Amphotéricine B", "is_correct": false },
+        { "text": "Fluconazole", "is_correct": true },
+        { "text": "Griséofulvine", "is_correct": false },
+        { "text": "Nystatine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la 5-alpha réductase ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la 5-alpha réductase, comme le finastéride, bloquent la conversion de la testostérone en dihydrotestostérone (DHT), réduisant ainsi la taille de la prostate dans l'hyperplasie bénigne de la prostate.",
+      "answers": [
+        {
+          "text": "Stimulation des récepteurs androgéniques",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la 5-alpha réductase", "is_correct": true },
+        { "text": "Augmentation de la testostérone", "is_correct": false },
+        { "text": "Blocage des récepteurs œstrogéniques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des antiépileptiques comme la carbamazépine ?",
+      "difficulty": "Difficile",
+      "explanation": "La carbamazépine peut provoquer une hyponatrémie en augmentant la sécrétion d'hormone antidiurétique (ADH), ce qui entraîne une rétention d'eau.",
+      "answers": [
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Hyponatrémie", "is_correct": true },
+        { "text": "Hypercalcémie", "is_correct": false },
+        { "text": "Hypoglycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes des récepteurs GLP-1 ?",
+      "difficulty": "Difficile",
+      "explanation": "Les agonistes des récepteurs GLP-1, comme le liraglutide, augmentent la sécrétion d'insuline dépendante du glucose, ralentissent la vidange gastrique et réduisent l'appétit.",
+      "answers": [
+        {
+          "text": "Inhibition de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        { "text": "Stimulation des récepteurs GLP-1", "is_correct": true },
+        { "text": "Blocage des canaux potassiques", "is_correct": false },
+        { "text": "Augmentation de la gluconéogenèse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'anticoagulant utilisé en cas d'insuffisance rénale sévère ?",
+      "difficulty": "Difficile",
+      "explanation": "L'héparine non fractionnée est souvent utilisée en cas d'insuffisance rénale sévère, car son métabolisme est principalement hépatique et non rénal.",
+      "answers": [
+        { "text": "Warfarine", "is_correct": false },
+        { "text": "Héparine non fractionnée", "is_correct": true },
+        { "text": "Dabigatran", "is_correct": false },
+        { "text": "Rivaroxaban", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la phosphodiestérase de type 5 ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la phosphodiestérase de type 5, comme le sildénafil, augmentent les concentrations de GMP cyclique, favorisant la relaxation des muscles lisses et la vasodilatation, notamment dans la dysfonction érectile.",
+      "answers": [
+        { "text": "Inhibition de la synthèse de NO", "is_correct": false },
+        {
+          "text": "Inhibition de la phosphodiestérase de type 5",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation des récepteurs adrénergiques",
+          "is_correct": false
+        },
+        { "text": "Blocage des canaux calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des antiarythmiques de classe III ?",
+      "difficulty": "Difficile",
+      "explanation": "Les antiarythmiques de classe III, comme l'amiodarone, peuvent provoquer des torsades de pointes, un trouble du rythme ventriculaire potentiellement mortel, en prolongeant l'intervalle QT.",
+      "answers": [
+        { "text": "Bradycardie", "is_correct": false },
+        { "text": "Torsades de pointes", "is_correct": true },
+        { "text": "Hypotension", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la topoisomérase ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la topoisomérase, comme l'étoposide, bloquent l'activité de la topoisomérase II, empêchant la réplication de l'ADN et induisant l'apoptose des cellules cancéreuses.",
+      "answers": [
+        { "text": "Stimulation de la synthèse de l'ADN", "is_correct": false },
+        { "text": "Inhibition de la topoisomérase II", "is_correct": true },
+        { "text": "Blocage des récepteurs hormonaux", "is_correct": false },
+        {
+          "text": "Augmentation de la réparation de l'ADN",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antihypertenseur qui agit en bloquant les récepteurs de l'angiotensine II ?",
+      "difficulty": "Facile",
+      "explanation": "Les antagonistes des récepteurs de l'angiotensine II (ARA2), comme le losartan, bloquent les récepteurs AT1 de l'angiotensine II, empêchant ainsi ses effets vasoconstricteurs et aldostérone-sécréteurs.",
+      "answers": [
+        { "text": "Inhibiteurs de l'ECA", "is_correct": false },
+        {
+          "text": "Antagonistes des récepteurs de l'angiotensine II",
+          "is_correct": true
+        },
+        { "text": "Diurétiques thiazidiques", "is_correct": false },
+        { "text": "Bêta-bloquants", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des corticoïdes sur le métabolisme glucidique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les corticoïdes augmentent la glycémie en stimulant la gluconéogenèse hépatique et en réduisant la sensibilité à l'insuline, pouvant entraîner un diabète cortico-induit.",
+      "answers": [
+        { "text": "Hypoglycémie", "is_correct": false },
+        { "text": "Hyperglycémie", "is_correct": true },
+        { "text": "Hypokaliémie", "is_correct": false },
+        { "text": "Acidose métabolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la monoamine oxydase (IMAO) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IMAO inhibent la monoamine oxydase, une enzyme qui dégrade les neurotransmetteurs comme la sérotonine, la noradrénaline et la dopamine, augmentant ainsi leur concentration dans la fente synaptique.",
+      "answers": [
+        { "text": "Blocage des récepteurs adrénergiques", "is_correct": false },
+        { "text": "Inhibition de la monoamine oxydase", "is_correct": true },
+        {
+          "text": "Stimulation de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la dégradation de la dopamine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antidépresseur qui inhibe la recapture de la noradrénaline et de la dopamine ?",
+      "difficulty": "Moyen",
+      "explanation": "La venlafaxine est un antidépresseur qui inhibe la recapture de la noradrénaline et de la dopamine, en plus de la sérotonine, ce qui renforce son effet antidépresseur.",
+      "answers": [
+        { "text": "Fluoxétine", "is_correct": false },
+        { "text": "Venlafaxine", "is_correct": true },
+        { "text": "Paroxétine", "is_correct": false },
+        { "text": "Amitriptyline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des anticalciques non dihydropyridines ?",
+      "difficulty": "Difficile",
+      "explanation": "Les anticalciques non dihydropyridines, comme le vérapamil et le diltiazem, bloquent les canaux calciques de type L, réduisant ainsi la conduction auriculo-ventriculaire et la contractilité cardiaque.",
+      "answers": [
+        { "text": "Vasodilatation artérielle", "is_correct": false },
+        {
+          "text": "Ralentissement de la conduction auriculo-ventriculaire",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la fréquence cardiaque",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des diurétiques thiazidiques sur le métabolisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les diurétiques thiazidiques peuvent provoquer une hypokaliémie, une hypercalcémie et une intolérance au glucose, en augmentant l'excrétion de potassium et en réduisant celle de calcium.",
+      "answers": [
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Hypokaliémie et hypercalcémie", "is_correct": true },
+        { "text": "Acidose métabolique", "is_correct": false },
+        { "text": "Hyponatrémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes alpha-2 centraux ?",
+      "difficulty": "Difficile",
+      "explanation": "Les agonistes alpha-2 centraux, comme la clonidine, stimulent les récepteurs alpha-2 adrénergiques dans le système nerveux central, réduisant ainsi la libération de noradrénaline et la pression artérielle.",
+      "answers": [
+        {
+          "text": "Blocage des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation des récepteurs alpha-2 centraux",
+          "is_correct": true
+        },
+        { "text": "Inhibition de l'enzyme de conversion", "is_correct": false },
+        {
+          "text": "Augmentation de la sécrétion de rénine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antihypertenseur utilisé en urgence hypertensive ?",
+      "difficulty": "Moyen",
+      "explanation": "Le nicardipine, un inhibiteur calcique, est souvent utilisé en perfusion intraveineuse pour traiter les urgences hypertensives en raison de son effet vasodilatateur rapide et contrôlable.",
+      "answers": [
+        { "text": "Hydrochlorothiazide", "is_correct": false },
+        { "text": "Nicardipine", "is_correct": true },
+        { "text": "Propranolol", "is_correct": false },
+        { "text": "Losartan", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la rénine ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la rénine, comme l'aliskirène, bloquent l'activité de la rénine, empêchant ainsi la conversion de l'angiotensinogène en angiotensine I, ce qui réduit la formation d'angiotensine II.",
+      "answers": [
+        {
+          "text": "Blocage des récepteurs de l'angiotensine II",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la rénine", "is_correct": true },
+        {
+          "text": "Stimulation de la sécrétion d'aldostérone",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la rétention sodée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de la pompe à protons à long terme ?",
+      "difficulty": "Difficile",
+      "explanation": "L'utilisation prolongée d'inhibiteurs de la pompe à protons peut entraîner une hypomagnésémie, une ostéoporose et un risque accru d'infections digestives, comme les entérites à Clostridium difficile.",
+      "answers": [
+        { "text": "Hypercalcémie", "is_correct": false },
+        { "text": "Hypomagnésémie et ostéoporose", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Diabète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de l'aldostérone ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs de l'aldostérone, comme la spironolactone, bloquent les récepteurs minéralocorticoïdes, réduisant ainsi la réabsorption de sodium et l'excrétion de potassium au niveau du tube collecteur rénal.",
+      "answers": [
+        {
+          "text": "Stimulation de la sécrétion de potassium",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des récepteurs minéralocorticoïdes",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": false },
+        { "text": "Augmentation de la rétention hydrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'anticoagulant utilisé en prévention des AVC chez les patients avec fibrillation atriale ?",
+      "difficulty": "Facile",
+      "explanation": "Les anticoagulants oraux directs, comme le dabigatran ou le rivaroxaban, sont souvent utilisés pour prévenir les AVC chez les patients avec fibrillation atriale non valvulaire.",
+      "answers": [
+        { "text": "Aspirine", "is_correct": false },
+        { "text": "Anticoagulants oraux directs", "is_correct": true },
+        { "text": "Héparine non fractionnée", "is_correct": false },
+        { "text": "Clopidogrel", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la xanthine oxydase ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la xanthine oxydase, comme l'allopurinol, réduisent la production d'acide urique en inhibant l'enzyme xanthine oxydase, ce qui diminue le risque de crise de goutte.",
+      "answers": [
+        {
+          "text": "Augmentation de l'excrétion rénale d'acide urique",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la xanthine oxydase", "is_correct": true },
+        {
+          "text": "Stimulation de la synthèse des purines",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des récepteurs de l'acide urique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des anti-inflammatoires non stéroïdiens (AINS) sur le rein ?",
+      "difficulty": "Moyen",
+      "explanation": "Les AINS peuvent provoquer une insuffisance rénale aiguë, notamment chez les patients déshydratés ou avec une insuffisance rénale préexistante, en inhibant la synthèse des prostaglandines rénales vasodilatatrices.",
+      "answers": [
+        { "text": "Polyurie", "is_correct": false },
+        { "text": "Insuffisance rénale aiguë", "is_correct": true },
+        { "text": "Hyperkaliémie", "is_correct": false },
+        { "text": "Alcalose métabolique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes des récepteurs de la sérotonine 5-HT1 ?",
+      "difficulty": "Difficile",
+      "explanation": "Les agonistes des récepteurs 5-HT1, comme les triptans, stimulent les récepteurs 5-HT1B et 5-HT1D, provoquant une vasoconstriction des vaisseaux sanguins crâniens et une inhibition de la libération de peptides inflammatoires, utilisés dans le traitement de la migraine.",
+      "answers": [
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        { "text": "Stimulation des récepteurs 5-HT1B/1D", "is_correct": true },
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Augmentation de la libération de CGRP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antihistaminique H2 utilisé dans le traitement de l'ulcère gastroduodénal ?",
+      "difficulty": "Facile",
+      "explanation": "La famotidine est un antihistaminique H2 qui réduit la sécrétion acide gastrique en bloquant les récepteurs H2 de l'histamine au niveau des cellules pariétales.",
+      "answers": [
+        { "text": "Oméprazole", "is_correct": false },
+        { "text": "Famotidine", "is_correct": true },
+        { "text": "Loratadine", "is_correct": false },
+        { "text": "Métoclopramide", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la phosphodiestérase 3 ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la phosphodiestérase 3, comme le milrinone, augmentent les concentrations d'AMP cyclique dans le muscle cardiaque, ce qui améliore la contractilité (effet inotrope positif) et provoque une vasodilatation.",
+      "answers": [
+        { "text": "Inhibition de l'adénylate cyclase", "is_correct": false },
+        { "text": "Inhibition de la phosphodiestérase 3", "is_correct": true },
+        {
+          "text": "Blocage des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        },
+        { "text": "Stimulation de la pompe Na+/K+ ATPase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de la protéase du VIH ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la protéase du VIH peuvent provoquer un syndrome métabolique, incluant une dyslipidémie, une résistance à l'insuline et une lipodystrophie, en interférant avec le métabolisme des lipides et du glucose.",
+      "answers": [
+        { "text": "Anémie hémolytique", "is_correct": false },
+        { "text": "Syndrome métabolique", "is_correct": true },
+        { "text": "Neutropénie", "is_correct": false },
+        { "text": "Thrombopénie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de l'anhydrase carbonique ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs de l'anhydrase carbonique, comme l'acétazolamide, réduisent la réabsorption du bicarbonate dans le tube proximal rénal, entraînant une diurèse et une acidification des urines.",
+      "answers": [
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": false },
+        { "text": "Inhibition de l'anhydrase carbonique", "is_correct": true },
+        {
+          "text": "Stimulation de la sécrétion d'aldostérone",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la réabsorption de l'eau",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antipaludéen utilisé en prophylaxie ?",
+      "difficulty": "Facile",
+      "explanation": "La chloroquine est un antipaludéen utilisé en prophylaxie dans les zones où le Plasmodium falciparum est sensible, en inhibant la polymérisation de l'hème dans le parasite.",
+      "answers": [
+        { "text": "Méfloquine", "is_correct": false },
+        { "text": "Chloroquine", "is_correct": true },
+        { "text": "Artéméther", "is_correct": false },
+        { "text": "Quinine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la topoisomérase I ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la topoisomérase I, comme l'irinotécan, bloquent l'activité de la topoisomérase I, empêchant la réplication de l'ADN et induisant des cassures simple brin, ce qui conduit à l'apoptose des cellules cancéreuses.",
+      "answers": [
+        {
+          "text": "Inhibition de la synthèse des purines",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la topoisomérase I", "is_correct": true },
+        { "text": "Blocage des récepteurs hormonaux", "is_correct": false },
+        { "text": "Stimulation de la réparation de l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de l'aromatase ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs de l'aromatase, comme le létrozole, peuvent provoquer des bouffées de chaleur, une ostéoporose et des douleurs articulaires, en réduisant la conversion des androgènes en œstrogènes.",
+      "answers": [
+        { "text": "Prise de poids", "is_correct": false },
+        { "text": "Bouffées de chaleur et ostéoporose", "is_correct": true },
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Diabète", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes des récepteurs de la mélatonine ?",
+      "difficulty": "Facile",
+      "explanation": "Les agonistes des récepteurs de la mélatonine, comme le rameltéon, se lient aux récepteurs MT1 et MT2 de la mélatonine dans le noyau suprachiasmatique, régulant ainsi le rythme circadien et favorisant le sommeil.",
+      "answers": [
+        {
+          "text": "Inhibition de la recapture de la sérotonine",
+          "is_correct": false
+        },
+        {
+          "text": "Stimulation des récepteurs de la mélatonine",
+          "is_correct": true
+        },
+        { "text": "Blocage des récepteurs GABA", "is_correct": false },
+        {
+          "text": "Augmentation de la libération de dopamine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antiviral utilisé dans le traitement de la grippe ?",
+      "difficulty": "Facile",
+      "explanation": "L'oseltamivir est un inhibiteur de la neuraminidase virale, utilisé dans le traitement et la prophylaxie de la grippe, en empêchant la libération de nouveaux virions.",
+      "answers": [
+        { "text": "Aciclovir", "is_correct": false },
+        { "text": "Oseltamivir", "is_correct": true },
+        { "text": "Ribavirine", "is_correct": false },
+        { "text": "Interféron alpha", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la kinase dépendante des cyclines (CDK) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de CDK, comme le palbociclib, bloquent l'activité des kinases dépendantes des cyclines, empêchant la progression du cycle cellulaire et la prolifération des cellules cancéreuses.",
+      "answers": [
+        { "text": "Stimulation de l'apoptose", "is_correct": false },
+        { "text": "Inhibition des CDK", "is_correct": true },
+        {
+          "text": "Blocage des récepteurs tyrosines kinases",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la synthèse de l'ADN", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de la 3-hydroxy-3-méthylglutaryl-coenzyme A (HMG-CoA) réductase ?",
+      "difficulty": "Moyen",
+      "explanation": "Les statines peuvent provoquer des myalgies, une élévation des enzymes hépatiques et, rarement, une rhabdomyolyse, en raison de leur effet sur le métabolisme du cholestérol et des muscles.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Myalgies et rhabdomyolyse", "is_correct": true },
+        { "text": "Diabète de type 1", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la poly(ADP-ribose) polymérase (PARP) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de PARP, comme l'olaparib, bloquent la réparation de l'ADN dans les cellules cancéreuses déficientes en BRCA, entraînant une accumulation de lésions de l'ADN et la mort cellulaire.",
+      "answers": [
+        { "text": "Stimulation de la synthèse de l'ADN", "is_correct": false },
+        { "text": "Inhibition de la PARP", "is_correct": true },
+        { "text": "Blocage des récepteurs hormonaux", "is_correct": false },
+        {
+          "text": "Augmentation de la réparation de l'ADN",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antifongique utilisé dans le traitement des aspergilloses invasives ?",
+      "difficulty": "Difficile",
+      "explanation": "Le voriconazole est un antifongique de la famille des triazolés, utilisé dans le traitement des aspergilloses invasives en inhibant la synthèse de l'ergostérol, un composant essentiel de la membrane fongique.",
+      "answers": [
+        { "text": "Amphotéricine B", "is_correct": false },
+        { "text": "Voriconazole", "is_correct": true },
+        { "text": "Fluconazole", "is_correct": false },
+        { "text": "Caspofungine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la tyrosine kinase de BCR-ABL ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la tyrosine kinase de BCR-ABL, comme l'imatinib, bloquent l'activité tyrosine kinase de la protéine de fusion BCR-ABL, inhibant ainsi la prolifération des cellules leucémiques dans la leucémie myéloïde chronique.",
+      "answers": [
+        { "text": "Stimulation de l'apoptose", "is_correct": false },
+        { "text": "Inhibition de BCR-ABL", "is_correct": true },
+        { "text": "Blocage des récepteurs à l'EGF", "is_correct": false },
+        {
+          "text": "Augmentation de la prolifération cellulaire",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de la pompe à protons sur l'absorption des médicaments ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la pompe à protons peuvent réduire l'absorption des médicaments dont la biodisponibilité dépend du pH gastrique acide, comme le kétoconazole ou certains anti-VIH.",
+      "answers": [
+        {
+          "text": "Augmentation de l'absorption des antibiotiques",
+          "is_correct": false
+        },
+        {
+          "text": "Réduction de l'absorption des médicaments pH-dépendants",
+          "is_correct": true
+        },
+        { "text": "Accélération du transit intestinal", "is_correct": false },
+        {
+          "text": "Augmentation de la métabolisation hépatique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la sécrétion acide gastrique par blocage des récepteurs H2 ?",
+      "difficulty": "Moyen",
+      "explanation": "Les antihistaminiques H2, comme la ranitidine, bloquent les récepteurs H2 de l'histamine sur les cellules pariétales gastriques, réduisant ainsi la sécrétion d'acide chlorhydrique.",
+      "answers": [
+        { "text": "Inhibition de la pompe à protons", "is_correct": false },
+        { "text": "Blocage des récepteurs H2", "is_correct": true },
+        {
+          "text": "Stimulation de la production de mucus",
+          "is_correct": false
+        },
+        { "text": "Neutralisation de l'acide gastrique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'anticoagulant utilisé en cas de syndrome des antiphospholipides ?",
+      "difficulty": "Moyen",
+      "explanation": "La warfarine est souvent utilisée en cas de syndrome des antiphospholipides pour prévenir les thromboses, en inhibant la synthèse des facteurs de coagulation vitamine K-dépendants.",
+      "answers": [
+        { "text": "Aspirine", "is_correct": false },
+        { "text": "Warfarine", "is_correct": true },
+        { "text": "Héparine de bas poids moléculaire", "is_correct": false },
+        { "text": "Clopidogrel", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la synthèse des folates ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs de la synthèse des folates, comme le méthotrexate, bloquent l'enzyme dihydrofolate réductase, empêchant la synthèse des purines et des pyrimidines, nécessaires à la réplication de l'ADN.",
+      "answers": [
+        { "text": "Stimulation de la synthèse de l'ADN", "is_correct": false },
+        {
+          "text": "Inhibition de la dihydrofolate réductase",
+          "is_correct": true
+        },
+        { "text": "Blocage des récepteurs des folates", "is_correct": false },
+        {
+          "text": "Augmentation de la synthèse des protéines",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de la recapture de la sérotonine et de la noradrénaline (IRSN) ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IRSN, comme la venlafaxine, peuvent provoquer une hypertension artérielle, notamment à fortes doses, en raison de l'augmentation de la noradrénaline.",
+      "answers": [
+        { "text": "Hypotension orthostatique", "is_correct": false },
+        { "text": "Hypertension artérielle", "is_correct": true },
+        { "text": "Bradycardie", "is_correct": false },
+        { "text": "Hypoglycémie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des agonistes des récepteurs de la dopamine ?",
+      "difficulty": "Facile",
+      "explanation": "Les agonistes des récepteurs de la dopamine, comme la bromocriptine, stimulent directement les récepteurs dopaminergiques, mimant ainsi l'effet de la dopamine, notamment dans la maladie de Parkinson.",
+      "answers": [
+        { "text": "Inhibition de la monoamine oxydase", "is_correct": false },
+        {
+          "text": "Stimulation des récepteurs dopaminergiques",
+          "is_correct": true
+        },
+        { "text": "Blocage des récepteurs muscariniques", "is_correct": false },
+        {
+          "text": "Augmentation de la recapture de la dopamine",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antihypertenseur qui agit en bloquant les canaux calciques ?",
+      "difficulty": "Facile",
+      "explanation": "Les inhibiteurs calciques, comme l'amlodipine, bloquent les canaux calciques de type L, réduisant ainsi l'entrée de calcium dans les cellules musculaires lisses vasculaires et cardiaques, ce qui entraîne une vasodilatation et une diminution de la contractilité cardiaque.",
+      "answers": [
+        { "text": "Bêta-bloquants", "is_correct": false },
+        { "text": "Inhibiteurs calciques", "is_correct": true },
+        { "text": "Diurétiques", "is_correct": false },
+        { "text": "Inhibiteurs de l'ECA", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'effet indésirable des inhibiteurs de la phosphodiestérase 5 ?",
+      "difficulty": "Facile",
+      "explanation": "Les inhibiteurs de la phosphodiestérase 5, comme le sildénafil, peuvent provoquer des maux de tête, des bouffées vasomotrices et, rarement, une baisse de la vision ou de l'audition.",
+      "answers": [
+        { "text": "Hypertension artérielle", "is_correct": false },
+        { "text": "Maux de tête et troubles visuels", "is_correct": true },
+        { "text": "Diarrhée", "is_correct": false },
+        { "text": "Insuffisance rénale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la transcriptase inverse non nucléosidiques (INNTI) ?",
+      "difficulty": "Difficile",
+      "explanation": "Les INNTI, comme l'éfavirenz, se lient directement à la transcriptase inverse du VIH et bloquent son activité, empêchant ainsi la transcription de l'ARN viral en ADN.",
+      "answers": [
+        { "text": "Inhibition de la protéase virale", "is_correct": false },
+        { "text": "Blocage de la transcriptase inverse", "is_correct": true },
+        { "text": "Stimulation de l'intégrase", "is_correct": false },
+        { "text": "Augmentation de la réplication virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est l'antiviral utilisé dans le traitement de l'hépatite B ?",
+      "difficulty": "Facile",
+      "explanation": "Le ténofovir est un analogue nucléosidique utilisé dans le traitement de l'hépatite B chronique, en inhibant la transcriptase inverse virale.",
+      "answers": [
+        { "text": "Ribavirine", "is_correct": false },
+        { "text": "Ténofovir", "is_correct": true },
+        { "text": "Oseltamivir", "is_correct": false },
+        { "text": "Aciclovir", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Quel est le mécanisme d'action des inhibiteurs de la protéase du VIH ?",
+      "difficulty": "Moyen",
+      "explanation": "Les inhibiteurs de la protéase du VIH, comme le ritonavir, bloquent l'activité de la protéase virale, empêchant ainsi le clivage des précurseurs protéiques viraux et la maturation des nouvelles particules virales.",
+      "answers": [
+        {
+          "text": "Inhibition de la transcriptase inverse",
+          "is_correct": false
+        },
+        { "text": "Blocage de la protéase virale", "is_correct": true },
+        { "text": "Stimulation de l'intégrase", "is_correct": false },
+        { "text": "Augmentation de la réplication virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient de 65 ans, hypertendu et diabétique, prend de l'amlodipine et de la metformine. Il se plaint de vertiges à l'orthostatisme. Quel est le mécanisme le plus probable de ses symptômes ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amlodipine, un inhibiteur calcique, peut provoquer une vasodilatation périphérique, entraînant une hypotension orthostatique, surtout chez les patients âgés ou sous traitement antihypertenseur multiple.",
+      "answers": [
+        { "text": "Hypoglycémie due à la metformine", "is_correct": false },
+        {
+          "text": "Hypotension orthostatique due à l'amlodipine",
+          "is_correct": true
+        },
+        {
+          "text": "Effet anticholinergique de la metformine",
+          "is_correct": false
+        },
+        { "text": "Hyperkaliémie due à l'amlodipine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Une patiente de 40 ans, sous contraception œstroprogestative, présente une hypertension artérielle récente. Quel est le mécanisme le plus probable ?",
+      "difficulty": "Moyen",
+      "explanation": "Les œstrogènes contenus dans les contraceptifs œstroprogestatifs peuvent augmenter la synthèse des facteurs de la coagulation et de l'angiotensine, favorisant une hypertension artérielle.",
+      "answers": [
+        { "text": "Inhibition de la rénine", "is_correct": false },
+        {
+          "text": "Augmentation de la synthèse d'angiotensine",
+          "is_correct": true
+        },
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        {
+          "text": "Stimulation des récepteurs bêta-adrénergiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient sous warfarine pour une fibrillation atriale présente un INR à 6. Quel est le traitement approprié pour inverser l'effet anticoagulant ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de surdosage en warfarine avec un INR élevé, l'administration de vitamine K (phytonadione) permet de restaurer la synthèse des facteurs de coagulation vitamine K-dépendants.",
+      "answers": [
+        { "text": "Protamine", "is_correct": false },
+        { "text": "Vitamine K", "is_correct": true },
+        { "text": "Plasma frais congelé", "is_correct": false },
+        { "text": "Acide tranexamique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous amiodarone pour des troubles du rythme présente une toux et une dyspnée. Quel est l'effet indésirable le plus probable ?",
+      "difficulty": "Difficile",
+      "explanation": "L'amiodarone peut provoquer une pneumopathie interstitielle, se manifestant par une toux et une dyspnée, en raison de sa toxicité pulmonaire.",
+      "answers": [
+        { "text": "Insuffisance cardiaque", "is_correct": false },
+        { "text": "Pneumopathie interstitielle", "is_correct": true },
+        { "text": "Embolie pulmonaire", "is_correct": false },
+        { "text": "Bronchospasme", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Une patiente sous lithium pour un trouble bipolaire présente des tremblements, une soif intense et une polyurie. Quel est le mécanisme de ces symptômes ?",
+      "difficulty": "Moyen",
+      "explanation": "Le lithium peut provoquer un diabète insipide néphrogénique en réduisant la sensibilité des tubules rénaux à l'hormone antidiurétique (ADH), entraînant une polyurie et une polydipsie.",
+      "answers": [
+        { "text": "Hypothyroïdie", "is_correct": false },
+        { "text": "Diabète insipide néphrogénique", "is_correct": true },
+        {
+          "text": "Syndrome de sécrétion inappropriée d'ADH",
+          "is_correct": false
+        },
+        { "text": "Insuffisance rénale aiguë", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous AINS pour une arthrose présente une insuffisance rénale aiguë. Quel est le mécanisme le plus probable ?",
+      "difficulty": "Moyen",
+      "explanation": "Les AINS inhibent la synthèse des prostaglandines rénales, qui maintiennent la perfusion rénale, surtout en cas de déshydratation ou d'insuffisance rénale préexistante.",
+      "answers": [
+        { "text": "Nécrose tubulaire aiguë", "is_correct": false },
+        {
+          "text": "Inhibition des prostaglandines rénales",
+          "is_correct": true
+        },
+        { "text": "Glomérulonéphrite", "is_correct": false },
+        { "text": "Obstruction urinaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes au long cours présente une ostéoporose. Quel est le mécanisme principal ?",
+      "difficulty": "Facile",
+      "explanation": "Les corticoïdes réduisent l'absorption intestinale du calcium, augmentent sa résorption osseuse et inhibent l'activité des ostéoblastes, favorisant ainsi l'ostéoporose.",
+      "answers": [
+        { "text": "Augmentation de la vitamine D", "is_correct": false },
+        {
+          "text": "Inhibition des ostéoblastes et augmentation de la résorption osseuse",
+          "is_correct": true
+        },
+        { "text": "Stimulation de la calcitonine", "is_correct": false },
+        { "text": "Diminution de la parathormone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une toux sèche persistante. Quel est le mécanisme ?",
+      "difficulty": "Facile",
+      "explanation": "Les IEC inhibent la dégradation de la bradykinine, qui s'accumule et stimule les récepteurs de la toux au niveau des voies respiratoires.",
+      "answers": [
+        { "text": "Allergie aux IEC", "is_correct": false },
+        { "text": "Accumulation de bradykinine", "is_correct": true },
+        { "text": "Irritation pharyngée", "is_correct": false },
+        { "text": "Infection virale", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous digoxine pour une insuffisance cardiaque présente des nausées, des vomissements et une vision trouble. Quel est le diagnostic le plus probable ?",
+      "difficulty": "Moyen",
+      "explanation": "Ces symptômes évoquent une intoxication à la digoxine, qui peut provoquer des troubles digestifs, visuels et des troubles du rythme cardiaque.",
+      "answers": [
+        { "text": "Gastro-entérite", "is_correct": false },
+        { "text": "Intoxication à la digoxine", "is_correct": true },
+        { "text": "Migraine ophtalmique", "is_correct": false },
+        { "text": "Hypertension intracrânienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Une patiente sous tamoxifène pour un cancer du sein présente des bouffées de chaleur et une sécheresse vaginale. Quel est le mécanisme ?",
+      "difficulty": "Facile",
+      "explanation": "Le tamoxifène est un modulateur sélectif des récepteurs aux œstrogènes (SERM) qui bloque les récepteurs œstrogéniques dans certains tissus, provoquant des symptômes de carence œstrogénique.",
+      "answers": [
+        {
+          "text": "Stimulation des récepteurs œstrogéniques",
+          "is_correct": false
+        },
+        { "text": "Blocage des récepteurs œstrogéniques", "is_correct": true },
+        { "text": "Augmentation de la prolactine", "is_correct": false },
+        { "text": "Inhibition de la progestérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous méthotrexate pour une polyarthrite rhumatoïde présente une stomatite et une leucopénie. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le méthotrexate inhibe la dihydrofolate réductase, réduisant la synthèse des purines et des pyrimidines, ce qui affecte les cellules à renouvellement rapide comme les muqueuses et les leucocytes.",
+      "answers": [
+        { "text": "Toxicité hépatique", "is_correct": false },
+        {
+          "text": "Inhibition de la synthèse des bases puriques",
+          "is_correct": true
+        },
+        { "text": "Allergie au méthotrexate", "is_correct": false },
+        { "text": "Carence en vitamine B12", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous statine présente des douleurs musculaires et une élévation des CPK. Quel est le diagnostic le plus probable ?",
+      "difficulty": "Facile",
+      "explanation": "Les statines peuvent provoquer une rhabdomyolyse, se manifestant par des myalgies et une élévation des CPK (créatine phosphokinase), en raison de leur toxicité musculaire.",
+      "answers": [
+        { "text": "Myasthénie", "is_correct": false },
+        { "text": "Rhabdomyolyse", "is_correct": true },
+        { "text": "Polymyalgie rhumatismale", "is_correct": false },
+        { "text": "Fibromyalgie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous ARA2 pour une hypertension présente une hyperkaliémie. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les ARA2 bloquent les récepteurs de l'angiotensine II, réduisant ainsi la sécrétion d'aldostérone, ce qui diminue l'excrétion rénale de potassium et favorise l'hyperkaliémie.",
+      "answers": [
+        {
+          "text": "Augmentation de la sécrétion d'aldostérone",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de la sécrétion d'aldostérone",
+          "is_correct": true
+        },
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": false },
+        { "text": "Stimulation de la rénine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antibiotiques (amoxicilline-acide clavulanique) présente une diarrhée. Quel est le mécanisme le plus probable ?",
+      "difficulty": "Facile",
+      "explanation": "Les antibiotiques à large spectre peuvent provoquer une diarrhée en perturbant la flore intestinale, favorisant la prolifération de bactéries pathogènes comme Clostridium difficile.",
+      "answers": [
+        { "text": "Allergie à l'amoxicilline", "is_correct": false },
+        { "text": "Déséquilibre de la flore intestinale", "is_correct": true },
+        { "text": "Intolérance au lactose", "is_correct": false },
+        { "text": "Maladie cœliaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques de l'anse pour une insuffisance cardiaque présente une hypokaliémie. Quel est le mécanisme ?",
+      "difficulty": "Facile",
+      "explanation": "Les diurétiques de l'anse augmentent l'excrétion rénale de potassium en bloquant le cotransporteur Na+/K+/2Cl- dans l'anse de Henle, entraînant une hypokaliémie.",
+      "answers": [
+        {
+          "text": "Augmentation de la réabsorption de potassium",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de l'excrétion de potassium",
+          "is_correct": true
+        },
+        { "text": "Blocage des canaux potassiques", "is_correct": false },
+        { "text": "Stimulation de l'aldostérone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente une sécheresse buccale, une constipation et une rétention urinaire. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les antidépresseurs tricycliques ont un effet anticholinergique, bloquant les récepteurs muscariniques, ce qui provoque une sécheresse buccale, une constipation et une rétention urinaire.",
+      "answers": [
+        {
+          "text": "Stimulation des récepteurs adrénergiques",
+          "is_correct": false
+        },
+        { "text": "Blocage des récepteurs muscariniques", "is_correct": true },
+        {
+          "text": "Inhibition de la recapture de la noradrénaline",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la sérotonine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une hyperglycémie. Quel est le mécanisme ?",
+      "difficulty": "Facile",
+      "explanation": "Les corticoïdes augmentent la glycémie en stimulant la gluconéogenèse hépatique et en réduisant la sensibilité à l'insuline (effet diabétogène).",
+      "answers": [
+        { "text": "Diminution de la gluconéogenèse", "is_correct": false },
+        {
+          "text": "Augmentation de la gluconéogenèse et résistance à l'insuline",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la sécrétion d'insuline",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la glycogénolyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous bêta-bloquants pour une angine de poitrine présente une bradycardie symptomatique. Quel est le traitement d'urgence ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de bradycardie symptomatique due aux bêta-bloquants, l'atropine (anticholinergique) peut être utilisée pour augmenter la fréquence cardiaque.",
+      "answers": [
+        { "text": "Adrénaline", "is_correct": false },
+        { "text": "Atropine", "is_correct": true },
+        { "text": "Digoxine", "is_correct": false },
+        { "text": "Isoprénaline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous anticoagulants oraux directs (AOD) présente un saignement digestif. Quel est l'antidote spécifique pour le rivaroxaban ?",
+      "difficulty": "Difficile",
+      "explanation": "L'andexanet alfa est un antidote spécifique des inhibiteurs du facteur Xa, comme le rivaroxaban, permettant de neutraliser leur effet anticoagulant en cas de saignement majeur.",
+      "answers": [
+        { "text": "Vitamine K", "is_correct": false },
+        { "text": "Protamine", "is_correct": false },
+        { "text": "Andexanet alfa", "is_correct": true },
+        { "text": "Plasma frais congelé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous morphiniques pour des douleurs cancéreuses présente une constipation rebelle. Quel est le traitement approprié ?",
+      "difficulty": "Facile",
+      "explanation": "Les morphiniques provoquent une constipation par ralentissement du transit intestinal. Le macrogol (polyéthylène glycol) est un laxatif osmotique efficace pour traiter cette constipation.",
+      "answers": [
+        { "text": "Loperamide", "is_correct": false },
+        { "text": "Macrogol", "is_correct": true },
+        { "text": "Dompéridone", "is_correct": false },
+        { "text": "Spasmolytique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC et diurétique thiazidique présente une toux et un œdème de Quincke. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "Les IEC peuvent provoquer un œdème de Quincke en inhibant la dégradation de la bradykinine, qui s'accumule et augmente la perméabilité vasculaire.",
+      "answers": [
+        { "text": "Allergie au diurétique", "is_correct": false },
+        { "text": "Accumulation de bradykinine", "is_correct": true },
+        { "text": "Déshydratation", "is_correct": false },
+        { "text": "Insuffisance cardiaque", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous amiodarone présente une hypothyroïdie. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "L'amiodarone, riche en iode, peut provoquer une hypothyroïdie en inhibant la synthèse des hormones thyroïdiennes (effet Wolff-Chaikoff).",
+      "answers": [
+        { "text": "Stimulation de la TSH", "is_correct": false },
+        {
+          "text": "Inhibition de la synthèse des hormones thyroïdiennes",
+          "is_correct": true
+        },
+        {
+          "text": "Destruction auto-immune de la thyroïde",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la conversion T4/T3", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous lithium présente un tremblement fin des extrémités. Quel est le traitement symptomatique possible ?",
+      "difficulty": "Moyen",
+      "explanation": "Le propranolol, un bêta-bloquant, peut être utilisé pour réduire le tremblement induit par le lithium, en bloquant les récepteurs bêta-adrénergiques périphériques.",
+      "answers": [
+        { "text": "Lévodopa", "is_correct": false },
+        { "text": "Propranolol", "is_correct": true },
+        { "text": "Benzodiazépine", "is_correct": false },
+        { "text": "Corticoïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous AINS pour une lombalgie présente une ulcération gastrique. Quel est le traitement préventif recommandé ?",
+      "difficulty": "Facile",
+      "explanation": "Les inhibiteurs de la pompe à protons (IPP), comme l'oméprazole, sont recommandés pour prévenir les ulcérations gastriques induites par les AINS, en réduisant la sécrétion acide.",
+      "answers": [
+        { "text": "Antihistaminiques H2", "is_correct": false },
+        { "text": "Inhibiteurs de la pompe à protons", "is_correct": true },
+        { "text": "Anti-acides", "is_correct": false },
+        { "text": "Sucralfate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes au long cours présente une candidose buccale. Quel est le traitement local approprié ?",
+      "difficulty": "Facile",
+      "explanation": "L'amphotéricine B en suspension buvable est un antifongique local efficace contre les candidoses buccales induites par les corticoïdes.",
+      "answers": [
+        { "text": "Aciclovir", "is_correct": false },
+        { "text": "Amphotéricine B", "is_correct": true },
+        { "text": "Fluconazole per os", "is_correct": false },
+        { "text": "Métronidazole", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC et spironolactone pour une insuffisance cardiaque présente une hyperkaliémie. Quel est le traitement d'urgence ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas d'hyperkaliémie symptomatique, le gluconate de calcium IV protège le cœur des effets cardiaques de l'hyperkaliémie, tandis que l'insuline et le glucose favorisent l'entrée du potassium dans les cellules.",
+      "answers": [
+        { "text": "Diurétique de l'anse", "is_correct": false },
+        {
+          "text": "Gluconate de calcium IV + insuline/glucose",
+          "is_correct": true
+        },
+        { "text": "Bicarbonate de sodium", "is_correct": false },
+        { "text": "Hémodialyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous warfarine présente un INR à 1,5 avant une chirurgie programmée. Que faire ?",
+      "difficulty": "Moyen",
+      "explanation": "Un INR à 1,5 est généralement considéré comme sûr pour une chirurgie mineure. Cependant, si un INR < 1,5 est requis, on peut arrêter la warfarine 5 jours avant et relayer par une héparine de bas poids moléculaire en périopératoire.",
+      "answers": [
+        { "text": "Administrer de la vitamine K", "is_correct": false },
+        {
+          "text": "Arrêter la warfarine et relayer par HBPM si nécessaire",
+          "is_correct": true
+        },
+        { "text": "Augmenter la dose de warfarine", "is_correct": false },
+        { "text": "Transfuser du plasma frais congelé", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous metformine pour un diabète de type 2 présente une acidose lactique. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "La metformine peut provoquer une acidose lactique en inhibant la chaîne respiratoire mitochondriale, augmentant la production de lactate, surtout en cas d'insuffisance rénale ou d'hypoxie tissulaire.",
+      "answers": [
+        { "text": "Augmentation de la glycémie", "is_correct": false },
+        {
+          "text": "Inhibition de la chaîne respiratoire et accumulation de lactate",
+          "is_correct": true
+        },
+        { "text": "Stimulation de la gluconéogenèse", "is_correct": false },
+        { "text": "Blocage des récepteurs de l'insuline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une dysfonction sexuelle. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IRS augmentent la concentration de sérotonine, ce qui peut inhiber la libération de dopamine et de noradrénaline, entraînant des troubles de la libido et de l'érection.",
+      "answers": [
+        {
+          "text": "Blocage des récepteurs dopaminergiques",
+          "is_correct": false
+        },
+        { "text": "Augmentation de la sérotonine", "is_correct": true },
+        { "text": "Inhibition de la testostérone", "is_correct": false },
+        { "text": "Effet anticholinergique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous statine présente une élévation des transaminases. Que faire ?",
+      "difficulty": "Facile",
+      "explanation": "Une élévation modérée des transaminases sous statine nécessite une surveillance et, si elle persiste ou s'aggrave, une réduction de la dose ou un changement de statine.",
+      "answers": [
+        { "text": "Arrêter définitivement la statine", "is_correct": false },
+        {
+          "text": "Surveiller et ajuster la dose si nécessaire",
+          "is_correct": true
+        },
+        { "text": "Prescrire un hépatoprotecteur", "is_correct": false },
+        { "text": "Augmenter la dose de statine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous AINS pour une arthrose présente une insuffisance rénale aiguë. Quel est le premier geste à faire ?",
+      "difficulty": "Facile",
+      "explanation": "L'arrêt immédiat des AINS est nécessaire pour permettre la restauration de la perfusion rénale, souvent médiée par les prostaglandines inhibées par les AINS.",
+      "answers": [
+        { "text": "Augmenter l'hydratation", "is_correct": false },
+        { "text": "Arrêter les AINS", "is_correct": true },
+        { "text": "Prescrire un diurétique", "is_correct": false },
+        { "text": "Hémodialyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques thiazidiques présente une hyponatrémie. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les thiazidiques augmentent la réabsorption d'eau au niveau du tube collecteur, ce qui peut entraîner une dilution du sodium et une hyponatrémie, surtout chez les personnes âgées.",
+      "answers": [
+        { "text": "Perte rénale de sodium", "is_correct": false },
+        { "text": "Rétention d'eau et dilution du sodium", "is_correct": true },
+        { "text": "Augmentation de la sécrétion d'ADH", "is_correct": false },
+        { "text": "Inhibition de la pompe Na+/K+ ATPase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC et diurétique présente une insuffisance rénale aiguë. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "Les IEC réduisent la filtration glomérulaire en diminuant la pression dans les capillaires glomérulaires, surtout en cas de sténose de l'artère rénale ou de déshydratation induite par les diurétiques.",
+      "answers": [
+        { "text": "Nécrose tubulaire aiguë", "is_correct": false },
+        {
+          "text": "Diminution de la filtration glomérulaire",
+          "is_correct": true
+        },
+        { "text": "Obstruction urinaire", "is_correct": false },
+        { "text": "Glomérulonéphrite", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une cataracte. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les corticoïdes favorisent la formation de cataractes en altérant le métabolisme des protéines du cristallin, entraînant une opacification du cristallin.",
+      "answers": [
+        {
+          "text": "Augmentation de la pression intraoculaire",
+          "is_correct": false
+        },
+        {
+          "text": "Altération des protéines du cristallin",
+          "is_correct": true
+        },
+        { "text": "Infection oculaire", "is_correct": false },
+        { "text": "Sécheresse oculaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente un syndrome sérotoninergique. Quel est le traitement d'urgence ?",
+      "difficulty": "Difficile",
+      "explanation": "Le syndrome sérotoninergique est une urgence médicale. Le traitement inclut l'arrêt du médicament responsable, une hydratation, et éventuellement des benzodiazépines pour l'agitation ou la cyproheptadine (antagoniste sérotoninergique).",
+      "answers": [
+        { "text": "Administration de fluoxétine", "is_correct": false },
+        { "text": "Arrêt du médicament + cyproheptadine", "is_correct": true },
+        { "text": "Hémodialyse", "is_correct": false },
+        { "text": "Corticoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous chimiothérapie (cisplatine) présente une insuffisance rénale. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Le cisplatine est néphrotoxique, provoquant une nécrose tubulaire aiguë par accumulation dans les cellules tubulaires rénales et génération de radicaux libres.",
+      "answers": [
+        { "text": "Déshydratation", "is_correct": false },
+        { "text": "Nécrose tubulaire aiguë", "is_correct": true },
+        { "text": "Glomérulonéphrite", "is_correct": false },
+        { "text": "Obstruction urinaire", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous bêta-bloquants pour une hypertension présente une décompensation d'asthme. Quel est le mécanisme ?",
+      "difficulty": "Facile",
+      "explanation": "Les bêta-bloquants non sélectifs bloquent les récepteurs bêta-2 adrénergiques des muscles lisses bronchiques, provoquant une broncho-constriction.",
+      "answers": [
+        {
+          "text": "Augmentation de la sécrétion de mucus",
+          "is_correct": false
+        },
+        {
+          "text": "Blocage des récepteurs bêta-2 bronchiques",
+          "is_correct": true
+        },
+        { "text": "Inflammation des voies respiratoires", "is_correct": false },
+        { "text": "Allergie au bêta-bloquant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous anticoagulants (héparine) présente une thrombopénie. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "L'héparine peut induire une thrombopénie immunologique (TIH) en provoquant la formation d'anticorps contre le complexe héparine-facteur 4 plaquettaire, entraînant une activation et une consommation des plaquettes.",
+      "answers": [
+        { "text": "Inhibition de la moelle osseuse", "is_correct": false },
+        { "text": "Thrombopénie immunologique (TIH)", "is_correct": true },
+        { "text": "Hémolyse", "is_correct": false },
+        { "text": "Carence en vitamine B12", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques de l'anse pour une insuffisance cardiaque présente une hypomagnésémie. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les diurétiques de l'anse augmentent l'excrétion rénale de magnésium en inhibant sa réabsorption au niveau de l'anse de Henle.",
+      "answers": [
+        {
+          "text": "Augmentation de l'absorption intestinale de magnésium",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de l'excrétion rénale de magnésium",
+          "is_correct": true
+        },
+        { "text": "Blocage des canaux calciques", "is_correct": false },
+        { "text": "Stimulation de la parathormone", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antirétroviraux (inhibiteurs de la protéase) présente une dyslipidémie. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la protéase du VIH peuvent provoquer une dyslipidémie en interférant avec le métabolisme des lipides, augmentant le LDL-cholestérol et les triglycérides, et réduisant le HDL-cholestérol.",
+      "answers": [
+        {
+          "text": "Augmentation de la synthèse du cholestérol",
+          "is_correct": false
+        },
+        {
+          "text": "Interférence avec le métabolisme des lipides",
+          "is_correct": true
+        },
+        {
+          "text": "Diminution de l'absorption intestinale des graisses",
+          "is_correct": false
+        },
+        { "text": "Stimulation de la lipoprotéine lipase", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous inhibiteurs de la pompe à protons (IPP) au long cours présente une fracture osseuse. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IPP réduisent l'absorption du calcium en inhibant la sécrétion acide gastrique, nécessaire à la dissolution des sels de calcium, favorisant ainsi l'ostéoporose et les fractures.",
+      "answers": [
+        {
+          "text": "Augmentation de la résorption osseuse",
+          "is_correct": false
+        },
+        { "text": "Diminution de l'absorption du calcium", "is_correct": true },
+        { "text": "Inhibition de la vitamine D", "is_correct": false },
+        { "text": "Stimulation des ostéoclastes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une hyponatrémie. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "Les IRS peuvent provoquer un syndrome de sécrétion inappropriée d'hormone antidiurétique (SIADH), entraînant une rétention d'eau et une hyponatrémie par dilution.",
+      "answers": [
+        { "text": "Perte rénale de sodium", "is_correct": false },
+        { "text": "SIADH et rétention d'eau", "is_correct": true },
+        { "text": "Déshydratation intracellulaire", "is_correct": false },
+        { "text": "Insuffisance surrénalienne", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une ostéonécrose de la tête fémorale. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "Les corticoïdes favorisent l'ostéonécrose en augmentant la pression intra-osseuse, en réduisant la perfusion osseuse et en altérant le métabolisme des lipides (embolie graisseuse).",
+      "answers": [
+        { "text": "Augmentation de la densité osseuse", "is_correct": false },
+        {
+          "text": "Réduction de la perfusion osseuse et embolie graisseuse",
+          "is_correct": true
+        },
+        { "text": "Stimulation des ostéoblastes", "is_correct": false },
+        { "text": "Carence en vitamine D", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous bêta-bloquants pour une angine de poitrine présente une impuissance. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les bêta-bloquants peuvent provoquer une dysfonction érectile en réduisant le débit sanguin pénien (vasoconstriction) et en inhibant l'activité du système nerveux sympathique nécessaire à l'érection.",
+      "answers": [
+        { "text": "Augmentation de la testostérone", "is_correct": false },
+        {
+          "text": "Vasoconstriction et inhibition sympathique",
+          "is_correct": true
+        },
+        { "text": "Effet anticholinergique", "is_correct": false },
+        {
+          "text": "Blocage des récepteurs dopaminergiques",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une hyperkaliémie. Quel est le mécanisme ?",
+      "difficulty": "Facile",
+      "explanation": "Les IEC réduisent la sécrétion d'aldostérone, ce qui diminue l'excrétion rénale de potassium et favorise l'hyperkaliémie.",
+      "answers": [
+        {
+          "text": "Augmentation de l'excrétion de potassium",
+          "is_correct": false
+        },
+        {
+          "text": "Diminution de l'excrétion de potassium",
+          "is_correct": true
+        },
+        {
+          "text": "Stimulation de la pompe Na+/K+ ATPase",
+          "is_correct": false
+        },
+        { "text": "Inhibition de la rénine", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une agitation et une insomnie en début de traitement. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IRS peuvent provoquer une agitation et une insomnie en début de traitement en augmentant rapidement la concentration de sérotonine dans le système nerveux central.",
+      "answers": [
+        { "text": "Effet sédatif", "is_correct": false },
+        { "text": "Augmentation rapide de la sérotonine", "is_correct": true },
+        {
+          "text": "Blocage des récepteurs dopaminergiques",
+          "is_correct": false
+        },
+        { "text": "Carence en noradrénaline", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques thiazidiques pour une hypertension présente une hypokaliémie. Quel est le traitement correctif ?",
+      "difficulty": "Facile",
+      "explanation": "L'hypokaliémie induite par les thiazidiques peut être corrigée par une supplémentation en potassium (chlorure de potassium) et une alimentation riche en potassium.",
+      "answers": [
+        { "text": "Restriction hydrique", "is_correct": false },
+        { "text": "Supplémentation en potassium", "is_correct": true },
+        {
+          "text": "Augmentation de la dose de diurétique",
+          "is_correct": false
+        },
+        { "text": "Administration de bicarbonate", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous statine présente une élévation des CPK et des myalgies. Que faire ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de myalgies et d'élévation des CPK sous statine, il faut arrêter temporairement le traitement, surveiller la fonction rénale et les CPK, et réévaluer la nécessité de la statine ou changer de molécule.",
+      "answers": [
+        { "text": "Augmenter la dose de statine", "is_correct": false },
+        { "text": "Arrêter la statine et surveiller", "is_correct": true },
+        { "text": "Prescrire un anti-inflammatoire", "is_correct": false },
+        { "text": "Hospitaliser en urgence", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous AINS pour une sciatique présente une hémorragie digestive. Quel est le traitement d'urgence ?",
+      "difficulty": "Facile",
+      "explanation": "En cas d'hémorragie digestive sous AINS, il faut arrêter le traitement, rééquilibrer l'hémodynamique (remplissage vasculaire, transfusion si nécessaire) et envisager une endoscopie digestive en urgence.",
+      "answers": [
+        { "text": "Poursuivre les AINS avec un IPP", "is_correct": false },
+        {
+          "text": "Arrêter les AINS et rééquilibrer l'hémodynamique",
+          "is_correct": true
+        },
+        { "text": "Prescrire des antibiotiques", "is_correct": false },
+        { "text": "Administrer de la vitamine K", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une infection à Candida albicans. Quel est le traitement ?",
+      "difficulty": "Facile",
+      "explanation": "Les infections fongiques, comme la candidose, induites par les corticoïdes se traitent par des antifongiques, comme le fluconazole ou l'amphotéricine B selon la localisation.",
+      "answers": [
+        { "text": "Antibiotiques à large spectre", "is_correct": false },
+        { "text": "Antifongique (fluconazole)", "is_correct": true },
+        { "text": "Antiviraux", "is_correct": false },
+        { "text": "Corticoïdes à dose plus élevée", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC et diurétique présente une insuffisance rénale aiguë. Quel est le premier examen à réaliser ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas d'insuffisance rénale aiguë sous IEC et diurétique, il faut doser la créatinine et les électrolytes sanguins, et réaliser une échographie rénale pour éliminer une obstruction.",
+      "answers": [
+        { "text": "Scanner abdominal", "is_correct": false },
+        {
+          "text": "Dosage de la créatinine et échographie rénale",
+          "is_correct": true
+        },
+        { "text": "Biopsie rénale", "is_correct": false },
+        { "text": "Urographie intraveineuse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente un coma avec mydriase et tachycardie. Quel est le diagnostic ?",
+      "difficulty": "Difficile",
+      "explanation": "Ces signes évoquent une intoxication aux antidépresseurs tricycliques, avec effet anticholinergique (mydriase, sécheresse) et cardiotoxique (tachycardie, troubles du rythme).",
+      "answers": [
+        { "text": "Intoxication aux benzodiazépines", "is_correct": false },
+        { "text": "Intoxication aux tricycliques", "is_correct": true },
+        { "text": "Syndrome sérotoninergique", "is_correct": false },
+        { "text": "Crise d'épilepsie", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous warfarine présente un hématome intracrânien. Quel est l'antidote ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas d'hémorragie majeure sous warfarine, l'antidote est le complexe prothrombique (PCC) ou le plasma frais congelé, associé à de la vitamine K pour restaurer la coagulation.",
+      "answers": [
+        { "text": "Vitamine K seule", "is_correct": false },
+        { "text": "Complexe prothrombique (PCC)", "is_correct": true },
+        { "text": "Protamine", "is_correct": false },
+        { "text": "Acide tranexamique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous chimiothérapie (5-fluoruracile) présente une mucite. Quel est le traitement symptomatique ?",
+      "difficulty": "Facile",
+      "explanation": "La mucite induite par la chimiothérapie se traite par des bains de bouche antiseptiques, des analgésiques locaux (lidocaïne) et une hydratation adaptée.",
+      "answers": [
+        { "text": "Antibiotiques systémiques", "is_correct": false },
+        {
+          "text": "Bains de bouche antiseptiques et lidocaïne",
+          "is_correct": true
+        },
+        { "text": "Corticoïdes locaux", "is_correct": false },
+        { "text": "Antifongiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous bêta-bloquants pour une hypertension présente une décompensation cardiaque. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de décompensation cardiaque sous bêta-bloquants, il faut optimiser le traitement de l'insuffisance cardiaque (diurétiques, IEC/ARA2) et éventuellement réduire la dose de bêta-bloquant si nécessaire.",
+      "answers": [
+        {
+          "text": "Arrêter brutalement les bêta-bloquants",
+          "is_correct": false
+        },
+        {
+          "text": "Optimiser le traitement de l'insuffisance cardiaque",
+          "is_correct": true
+        },
+        { "text": "Augmenter la dose de bêta-bloquants", "is_correct": false },
+        { "text": "Prescrire des digitaliques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous AOD (dabigatran) présente un saignement digestif. Quel est l'antidote ?",
+      "difficulty": "Difficile",
+      "explanation": "L'idarucizumab est l'antidote spécifique du dabigatran, un inhibiteur direct de la thrombine, permettant de neutraliser son effet anticoagulant en cas de saignement majeur.",
+      "answers": [
+        { "text": "Vitamine K", "is_correct": false },
+        { "text": "Idarucizumab", "is_correct": true },
+        { "text": "Protamine", "is_correct": false },
+        { "text": "Complexe prothrombique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une toux sèche. Quel est le traitement alternatif ?",
+      "difficulty": "Facile",
+      "explanation": "En cas de toux sèche sous IEC, on peut remplacer par un antagoniste des récepteurs de l'angiotensine II (ARA2), qui n'a pas cet effet indésirable.",
+      "answers": [
+        { "text": "Augmenter la dose d'IEC", "is_correct": false },
+        { "text": "Remplacer par un ARA2", "is_correct": true },
+        { "text": "Ajouter un diurétique", "is_correct": false },
+        { "text": "Arrêter tout traitement", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une prise de poids. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les IRS peuvent provoquer une prise de poids en augmentant l'appétit (effet sur la sérotonine) et en modifiant le métabolisme glucidique (résistance à l'insuline).",
+      "answers": [
+        { "text": "Diminution de l'appétit", "is_correct": false },
+        {
+          "text": "Augmentation de l'appétit et modification du métabolisme",
+          "is_correct": true
+        },
+        { "text": "Effet diurétique", "is_correct": false },
+        { "text": "Stimulation de la thyroïde", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques thiazidiques pour une hypertension présente une hypercalcémie. Quel est le mécanisme ?",
+      "difficulty": "Moyen",
+      "explanation": "Les thiazidiques augmentent la réabsorption tubulaire du calcium, ce qui peut entraîner une hypercalcémie, surtout en cas d'apport calcique élevé ou d'hyperparathyroïdie.",
+      "answers": [
+        {
+          "text": "Diminution de la réabsorption du calcium",
+          "is_correct": false
+        },
+        {
+          "text": "Augmentation de la réabsorption du calcium",
+          "is_correct": true
+        },
+        { "text": "Stimulation de la parathormone", "is_correct": false },
+        { "text": "Inhibition de la vitamine D", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une ostéoporose. Quel est le traitement préventif ?",
+      "difficulty": "Facile",
+      "explanation": "La prévention de l'ostéoporose induite par les corticoïdes repose sur un apport suffisant en calcium et vitamine D, et éventuellement des bisphosphonates en cas de risque élevé.",
+      "answers": [
+        { "text": "Augmenter la dose de corticoïdes", "is_correct": false },
+        {
+          "text": "Calcium + vitamine D ± bisphosphonates",
+          "is_correct": true
+        },
+        { "text": "Restriction en protéines", "is_correct": false },
+        { "text": "Hormonothérapie substitutive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente un syndrome sérotoninergique. Quel est le traitement ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement du syndrome sérotoninergique inclut l'arrêt du médicament responsable, une hydratation, des benzodiazépines pour l'agitation, et éventuellement de la cyproheptadine (antagoniste sérotoninergique).",
+      "answers": [
+        {
+          "text": "Poursuivre le traitement et surveiller",
+          "is_correct": false
+        },
+        { "text": "Arrêt du médicament + cyproheptadine", "is_correct": true },
+        { "text": "Administrer de la sérotonine", "is_correct": false },
+        { "text": "Corticoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une hyperkaliémie. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de l'hyperkaliémie sous IEC inclut l'arrêt ou la réduction de la dose, une résine échangeuse d'ions (polystyrène sulfonate de sodium), et éventuellement du gluconate de calcium en urgence si nécessaire.",
+      "answers": [
+        { "text": "Augmenter la dose d'IEC", "is_correct": false },
+        {
+          "text": "Résine échangeuse d'ions et réduire la dose d'IEC",
+          "is_correct": true
+        },
+        { "text": "Administrer du potassium", "is_correct": false },
+        {
+          "text": "Prescrire un diurétique épargneur de potassium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antirétroviraux (inhibiteurs de la transcriptase inverse) présente une acidose lactique. Quel est le mécanisme ?",
+      "difficulty": "Difficile",
+      "explanation": "Les inhibiteurs de la transcriptase inverse nucléosidiques (INTI) peuvent provoquer une acidose lactique en inhibant l'ADN polymérase mitochondriale, altérant la chaîne respiratoire et augmentant la production de lactate.",
+      "answers": [
+        { "text": "Augmentation de la glycolyse", "is_correct": false },
+        {
+          "text": "Inhibition de l'ADN polymérase mitochondriale",
+          "is_correct": true
+        },
+        { "text": "Stimulation de la lipolyse", "is_correct": false },
+        { "text": "Diminution de la production d'ATP", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une insomnie. Quelle est la conduite à tenir ?",
+      "difficulty": "Facile",
+      "explanation": "En cas d'insomnie sous IRS, on peut proposer une prise le matin, ajouter un hypnotique (comme une benzodiazépine ou un agoniste des récepteurs de la mélatonine) ou changer de classe thérapeutique.",
+      "answers": [
+        { "text": "Augmenter la dose d'IRS", "is_correct": false },
+        {
+          "text": "Prise le matin ou ajouter un hypnotique",
+          "is_correct": true
+        },
+        { "text": "Arrêter brutalement l'IRS", "is_correct": false },
+        { "text": "Prescrire un neuroleptique", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques de l'anse pour une insuffisance cardiaque présente une hypomagnésémie. Quel est le traitement ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de l'hypomagnésémie induite par les diurétiques de l'anse repose sur une supplémentation en magnésium (per os ou IV selon la sévérité).",
+      "answers": [
+        { "text": "Augmenter la dose de diurétique", "is_correct": false },
+        { "text": "Supplémentation en magnésium", "is_correct": true },
+        { "text": "Restriction hydrique", "is_correct": false },
+        { "text": "Prescrire du potassium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une hypertension présente une toux sèche. Quel est le traitement alternatif sans cet effet indésirable ?",
+      "difficulty": "Facile",
+      "explanation": "Les antagonistes des récepteurs de l'angiotensine II (ARA2) ont un effet antihypertenseur similaire aux IEC, sans provoquer de toux sèche.",
+      "answers": [
+        { "text": "Bêta-bloquants", "is_correct": false },
+        {
+          "text": "Antagonistes des récepteurs de l'angiotensine II (ARA2)",
+          "is_correct": true
+        },
+        { "text": "Diurétiques thiazidiques", "is_correct": false },
+        { "text": "Inhibiteurs calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente une rétention urinaire. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "La rétention urinaire induite par les antidépresseurs tricycliques (effet anticholinergique) peut être traitée par un alphabloquant (comme la tamsulosine) ou un cathétérisme vésical en cas de globe vésical.",
+      "answers": [
+        { "text": "Augmenter la dose de tricycliques", "is_correct": false },
+        { "text": "Alphabloquant ou cathétérisme", "is_correct": true },
+        { "text": "Diurétique", "is_correct": false },
+        { "text": "Antibiotiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une hyperglycémie. Quel est le traitement ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de l'hyperglycémie induite par les corticoïdes repose sur des mesures hygiéno-diététiques, et éventuellement un antidiabétique oral (comme la metformine) ou de l'insuline si nécessaire.",
+      "answers": [
+        { "text": "Arrêter les corticoïdes", "is_correct": false },
+        {
+          "text": "Mesures hygiéno-diététiques ± antidiabétique",
+          "is_correct": true
+        },
+        { "text": "Augmenter la dose de corticoïdes", "is_correct": false },
+        { "text": "Prescrire un bêta-bloquant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous AINS pour une polyarthrite rhumatoïde présente une insuffisance rénale. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas d'insuffisance rénale induite par les AINS, il faut arrêter le traitement, réhydrater le patient et surveiller la fonction rénale. Un changement pour un autre antalgique (paracétamol) ou un anti-inflammatoire non néphrotoxique peut être nécessaire.",
+      "answers": [
+        {
+          "text": "Poursuivre les AINS avec surveillance",
+          "is_correct": false
+        },
+        { "text": "Arrêter les AINS et réhydrater", "is_correct": true },
+        { "text": "Prescrire un diurétique", "is_correct": false },
+        { "text": "Hémodialyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une agitation et une insomnie en début de traitement. Que faire ?",
+      "difficulty": "Facile",
+      "explanation": "En cas d'agitation ou d'insomnie en début de traitement par IRS, on peut proposer une prise le matin, une réduction temporaire de la dose ou l'ajout d'un hypnotique (comme une benzodiazépine à courte durée d'action).",
+      "answers": [
+        { "text": "Arrêter le traitement", "is_correct": false },
+        {
+          "text": "Prise le matin ou ajouter un hypnotique",
+          "is_correct": true
+        },
+        { "text": "Augmenter la dose d'IRS", "is_correct": false },
+        {
+          "text": "Changer pour un antidépresseur tricyclique",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente un œdème de Quincke. Quel est le traitement d'urgence ?",
+      "difficulty": "Difficile",
+      "explanation": "L'œdème de Quincke sous IEC est une urgence médicale. Le traitement inclut l'arrêt immédiat de l'IEC, l'administration d'adrénaline en sous-cutané ou IM, et une surveillance en milieu hospitalier.",
+      "answers": [
+        { "text": "Corticoïdes IV", "is_correct": false },
+        { "text": "Arrêt de l'IEC + adrénaline", "is_correct": true },
+        { "text": "Antihistaminiques", "is_correct": false },
+        { "text": "Hydratation massive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antirétroviraux (inhibiteurs de la protéase) présente une dyslipidémie. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de la dyslipidémie induite par les inhibiteurs de la protéase repose sur des mesures hygiéno-diététiques, et éventuellement une statine (comme l'atorvastatine ou la rosuvastatine), en surveillant les interactions médicamenteuses.",
+      "answers": [
+        { "text": "Arrêter les antirétroviraux", "is_correct": false },
+        { "text": "Mesures hygiéno-diététiques ± statine", "is_correct": true },
+        { "text": "Prescrire des fibrates", "is_correct": false },
+        { "text": "Augmenter la dose d'antirétroviraux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente un syndrome anticholinergique. Quel est l'antidote ?",
+      "difficulty": "Difficile",
+      "explanation": "La physostigmine, un inhibiteur de l'acétylcholinestérase, peut être utilisée comme antidote en cas de syndrome anticholinergique sévère induit par les tricycliques.",
+      "answers": [
+        { "text": "Atropine", "is_correct": false },
+        { "text": "Physostigmine", "is_correct": true },
+        { "text": "Naloxone", "is_correct": false },
+        { "text": "Flumazénil", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques de l'anse pour une insuffisance cardiaque présente une hypokaliémie. Quel est le traitement préventif ?",
+      "difficulty": "Facile",
+      "explanation": "La prévention de l'hypokaliémie sous diurétiques de l'anse repose sur une supplémentation en potassium (alimentation ou compléments) et éventuellement l'association avec un diurétique épargneur de potassium (comme la spironolactone).",
+      "answers": [
+        { "text": "Augmenter la dose de diurétique", "is_correct": false },
+        {
+          "text": "Supplémentation en potassium ± épargneur de potassium",
+          "is_correct": true
+        },
+        { "text": "Restriction hydrique", "is_correct": false },
+        { "text": "Prescrire un bêta-bloquant", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une hypertension présente une toux sèche. Quel est le traitement alternatif sans risque de toux ?",
+      "difficulty": "Facile",
+      "explanation": "Les antagonistes des récepteurs de l'angiotensine II (ARA2) ont un effet antihypertenseur similaire aux IEC, sans provoquer de toux sèche.",
+      "answers": [
+        { "text": "Bêta-bloquants", "is_correct": false },
+        {
+          "text": "Antagonistes des récepteurs de l'angiotensine II (ARA2)",
+          "is_correct": true
+        },
+        { "text": "Diurétiques thiazidiques", "is_correct": false },
+        { "text": "Inhibiteurs calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une dysfonction sexuelle. Quelle est la conduite à tenir ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de dysfonction sexuelle sous IRS, on peut proposer une attente (les effets peuvent diminuer avec le temps), une réduction de la dose, un changement pour un autre IRS ou un antidépresseur d'une autre classe (comme la bupropione).",
+      "answers": [
+        { "text": "Augmenter la dose d'IRS", "is_correct": false },
+        {
+          "text": "Attendre, réduire la dose ou changer de classe",
+          "is_correct": true
+        },
+        { "text": "Prescrire un anti-androgène", "is_correct": false },
+        { "text": "Arrêter brutalement l'IRS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes au long cours présente une candidose buccale. Quel est le traitement local ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement local de la candidose buccale repose sur des antifongiques topiques, comme l'amphotéricine B en suspension buvable ou le miconazole en gel.",
+      "answers": [
+        { "text": "Antibiotiques locaux", "is_correct": false },
+        { "text": "Antifongique local (amphotéricine B)", "is_correct": true },
+        { "text": "Corticoïdes locaux", "is_correct": false },
+        { "text": "Antiseptique (chlorhexidine)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente une sécheresse buccale. Quel est le traitement symptomatique ?",
+      "difficulty": "Facile",
+      "explanation": "La sécheresse buccale induite par les antidépresseurs tricycliques (effet anticholinergique) peut être soulagée par une bonne hydratation, des pastilles sans sucre ou des substituts salivaires.",
+      "answers": [
+        { "text": "Augmenter la dose de tricycliques", "is_correct": false },
+        { "text": "Hydratation et substituts salivaires", "is_correct": true },
+        { "text": "Prescrire un diurétique", "is_correct": false },
+        { "text": "Antibiotiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une hyperkaliémie. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de l'hyperkaliémie sous IEC inclut la réduction de la dose ou l'arrêt du traitement, une résine échangeuse d'ions (polystyrène sulfonate de sodium), et éventuellement du gluconate de calcium en urgence si nécessaire.",
+      "answers": [
+        { "text": "Augmenter la dose d'IEC", "is_correct": false },
+        {
+          "text": "Résine échangeuse d'ions et réduire la dose d'IEC",
+          "is_correct": true
+        },
+        { "text": "Administrer du potassium", "is_correct": false },
+        {
+          "text": "Prescrire un diurétique épargneur de potassium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une prise de poids. Quelle est la conduite à tenir ?",
+      "difficulty": "Facile",
+      "explanation": "En cas de prise de poids sous IRS, on peut proposer des mesures hygiéno-diététiques, un changement pour un IRS moins susceptible de provoquer une prise de poids (comme la fluoxétine), ou une autre classe d'antidépresseurs (comme la bupropione).",
+      "answers": [
+        { "text": "Augmenter la dose d'IRS", "is_correct": false },
+        {
+          "text": "Mesures hygiéno-diététiques ou changer d'IRS",
+          "is_correct": true
+        },
+        { "text": "Prescrire un anorexigène", "is_correct": false },
+        { "text": "Arrêter brutalement l'IRS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques thiazidiques pour une hypertension présente une hypercalcémie. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de l'hypercalcémie induite par les thiazidiques repose sur l'arrêt ou la réduction de la dose du diurétique, une hydratation, et éventuellement des bisphosphonates en cas d'hypercalcémie sévère.",
+      "answers": [
+        { "text": "Augmenter la dose de thiazidique", "is_correct": false },
+        {
+          "text": "Arrêter ou réduire la dose du thiazidique",
+          "is_correct": true
+        },
+        { "text": "Prescrire de la vitamine D", "is_correct": false },
+        { "text": "Administrer du calcium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une insomnie. Quel est le traitement ?",
+      "difficulty": "Facile",
+      "explanation": "En cas d'insomnie sous IRS, on peut proposer une prise le matin, une réduction de la dose, ou l'ajout d'un hypnotique (comme une benzodiazépine à courte durée d'action ou un agoniste des récepteurs de la mélatonine).",
+      "answers": [
+        { "text": "Augmenter la dose d'IRS", "is_correct": false },
+        {
+          "text": "Prise le matin ou ajouter un hypnotique",
+          "is_correct": true
+        },
+        {
+          "text": "Changer pour un antidépresseur tricyclique",
+          "is_correct": false
+        },
+        { "text": "Arrêter brutalement l'IRS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une insuffisance rénale aiguë. Quel est le traitement ?",
+      "difficulty": "Difficile",
+      "explanation": "En cas d'insuffisance rénale aiguë sous IEC, il faut arrêter ou réduire la dose, réhydrater le patient, et surveiller la fonction rénale. Une alternative thérapeutique (comme un ARA2) peut être envisagée.",
+      "answers": [
+        { "text": "Augmenter la dose d'IEC", "is_correct": false },
+        {
+          "text": "Arrêter ou réduire la dose d'IEC et réhydrater",
+          "is_correct": true
+        },
+        { "text": "Prescrire un diurétique", "is_correct": false },
+        { "text": "Hémodialyse", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente une rétention urinaire. Quel est le traitement d'urgence ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de rétention urinaire aiguë sous tricycliques, un cathétérisme vésical est nécessaire en urgence. Un alphabloquant (comme la tamsulosine) peut être prescrit pour prévenir les récidives.",
+      "answers": [
+        { "text": "Augmenter la dose de tricycliques", "is_correct": false },
+        { "text": "Cathétérisme vésical", "is_correct": true },
+        { "text": "Prescrire un diurétique", "is_correct": false },
+        { "text": "Antibiotiques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une ostéoporose. Quel est le traitement préventif ?",
+      "difficulty": "Facile",
+      "explanation": "La prévention de l'ostéoporose induite par les corticoïdes repose sur un apport suffisant en calcium et vitamine D, et éventuellement des bisphosphonates (comme l'alendronate) en cas de risque élevé.",
+      "answers": [
+        { "text": "Augmenter la dose de corticoïdes", "is_correct": false },
+        {
+          "text": "Calcium + vitamine D ± bisphosphonates",
+          "is_correct": true
+        },
+        { "text": "Restriction en protéines", "is_correct": false },
+        { "text": "Hormonothérapie substitutive", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente un syndrome sérotoninergique. Quel est le traitement d'urgence ?",
+      "difficulty": "Difficile",
+      "explanation": "Le traitement du syndrome sérotoninergique inclut l'arrêt immédiat du médicament responsable, une hydratation, des benzodiazépines pour l'agitation, et éventuellement de la cyproheptadine (antagoniste sérotoninergique).",
+      "answers": [
+        {
+          "text": "Poursuivre le traitement et surveiller",
+          "is_correct": false
+        },
+        { "text": "Arrêt du médicament + cyproheptadine", "is_correct": true },
+        { "text": "Administrer de la sérotonine", "is_correct": false },
+        { "text": "Corticoïdes", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une hypertension présente une hyperkaliémie. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de l'hyperkaliémie sous IEC inclut la réduction de la dose ou l'arrêt du traitement, une résine échangeuse d'ions (polystyrène sulfonate de sodium), et éventuellement du gluconate de calcium en urgence si nécessaire.",
+      "answers": [
+        { "text": "Augmenter la dose d'IEC", "is_correct": false },
+        {
+          "text": "Résine échangeuse d'ions et réduire la dose d'IEC",
+          "is_correct": true
+        },
+        { "text": "Administrer du potassium", "is_correct": false },
+        {
+          "text": "Prescrire un diurétique épargneur de potassium",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antirétroviraux (inhibiteurs de la protéase) présente une dyslipidémie. Quel est le traitement ?",
+      "difficulty": "Moyen",
+      "explanation": "Le traitement de la dyslipidémie induite par les inhibiteurs de la protéase repose sur des mesures hygiéno-diététiques, et éventuellement une statine (comme l'atorvastatine ou la rosuvastatine), en surveillant les interactions médicamenteuses.",
+      "answers": [
+        { "text": "Arrêter les antirétroviraux", "is_correct": false },
+        { "text": "Mesures hygiéno-diététiques ± statine", "is_correct": true },
+        { "text": "Prescrire des fibrates", "is_correct": false },
+        { "text": "Augmenter la dose d'antirétroviraux", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente un syndrome anticholinergique. Quel est l'antidote ?",
+      "difficulty": "Difficile",
+      "explanation": "La physostigmine, un inhibiteur de l'acétylcholinestérase, peut être utilisée comme antidote en cas de syndrome anticholinergique sévère induit par les tricycliques.",
+      "answers": [
+        { "text": "Atropine", "is_correct": false },
+        { "text": "Physostigmine", "is_correct": true },
+        { "text": "Naloxone", "is_correct": false },
+        { "text": "Flumazénil", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous diurétiques de l'anse pour une insuffisance cardiaque présente une hypomagnésémie. Quel est le traitement ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement de l'hypomagnésémie induite par les diurétiques de l'anse repose sur une supplémentation en magnésium (per os ou IV selon la sévérité).",
+      "answers": [
+        { "text": "Augmenter la dose de diurétique", "is_correct": false },
+        { "text": "Supplémentation en magnésium", "is_correct": true },
+        { "text": "Restriction hydrique", "is_correct": false },
+        { "text": "Prescrire du potassium", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous IEC pour une insuffisance cardiaque présente une toux sèche. Quel est le traitement alternatif sans risque de toux ?",
+      "difficulty": "Facile",
+      "explanation": "Les antagonistes des récepteurs de l'angiotensine II (ARA2) ont un effet antihypertenseur similaire aux IEC, sans provoquer de toux sèche.",
+      "answers": [
+        { "text": "Bêta-bloquants", "is_correct": false },
+        {
+          "text": "Antagonistes des récepteurs de l'angiotensine II (ARA2)",
+          "is_correct": true
+        },
+        { "text": "Diurétiques thiazidiques", "is_correct": false },
+        { "text": "Inhibiteurs calciques", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs IRS présente une dysfonction sexuelle. Quelle est la conduite à tenir ?",
+      "difficulty": "Moyen",
+      "explanation": "En cas de dysfonction sexuelle sous IRS, on peut proposer une attente (les effets peuvent diminuer avec le temps), une réduction de la dose, un changement pour un autre IRS ou un antidépresseur d'une autre classe (comme la bupropione).",
+      "answers": [
+        { "text": "Augmenter la dose d'IRS", "is_correct": false },
+        {
+          "text": "Attendre, réduire la dose ou changer de classe",
+          "is_correct": true
+        },
+        { "text": "Prescrire un anti-androgène", "is_correct": false },
+        { "text": "Arrêter brutalement l'IRS", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous corticoïdes présente une candidose buccale. Quel est le traitement local ?",
+      "difficulty": "Facile",
+      "explanation": "Le traitement local de la candidose buccale repose sur des antifongiques topiques, comme l'amphotéricine B en suspension buvable ou le miconazole en gel.",
+      "answers": [
+        { "text": "Antibiotiques locaux", "is_correct": false },
+        { "text": "Antifongique local (amphotéricine B)", "is_correct": true },
+        { "text": "Corticoïdes locaux", "is_correct": false },
+        { "text": "Antiseptique (chlorhexidine)", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "Un patient sous antidépresseurs tricycliques présente une sécheresse buccale. Quel est le traitement symptomatique ?",
+      "difficulty": "Facile",
+      "explanation": "La sécheresse buccale induite par les antidépresseurs tricycliques (effet anticholinergique) peut être soulagée par une bonne hydratation, des pastilles sans sucre ou des substituts salivaires.",
+      "answers": [
+        { "text": "Augmenter la dose de tricycliques", "is_correct": false },
+        { "text": "Hydratation et substituts salivaires", "is_correct": true },
+        { "text": "Prescrire un diurétique", "is_correct": false },
+        { "text": "Antibiotiques", "is_correct": false }
+      ]
+    }
+  ]
+}

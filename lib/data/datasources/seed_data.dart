@@ -141,6 +141,13 @@ class SeedData {
         'color': '#607D8B',
         'description': 'Imagerie médicale'
       },
+      {
+        'name': 'Pharmacologie',
+        'year_level': 'L3',
+        'icon': 'pharmacy',
+        'color': '#9C27B0',
+        'description': 'Thérapeutique et prescription'
+      },
       // Catégories "Questions aléatoires" pour chaque niveau
       {
         'name': 'Questions aléatoires',
@@ -221,6 +228,7 @@ class SeedData {
         'assets/questions/L3/cardiologie.json',
         'assets/questions/L3/neurologie.json',
         'assets/questions/L3/radiologie.json',
+        'assets/questions/L3/pharmacologie.json',
       ],
     };
 

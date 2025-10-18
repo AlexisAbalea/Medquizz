@@ -2,7 +2,7 @@ name: hippoquiz
 description: "HippoQuiz - Application de quiz pour étudiants en médecine (L1-L3)"
 publish_to: "none"
 
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: ">=3.9.0 <4.0.0"
