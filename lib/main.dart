@@ -36,7 +36,8 @@ void main() async {
     ),
   );
 
-  await SeedData.initialize();
+  // L'initialisation de la BD se fait maintenant dans le SplashScreen
+  // pour permettre l'affichage d'un indicateur de progression
   runApp(const MyApp());
 }
 
@@ -95,33 +96,70 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  String _loadingMessage = 'Initialisation...';
+
   @override
   void initState() {
     super.initState();
-    _navigate();
+    _initializeAndNavigate();
   }
 
-  Future<void> _navigate() async {
-    await Future.delayed(const Duration(seconds: 2));
-    if (!mounted) return;
-    final studentProvider = context.read<StudentProvider>();
-    final hasStudent = await studentProvider.checkIfHasStudent();
-    if (!mounted) return;
+  Future<void> _initializeAndNavigate() async {
+    try {
+      // Étape 1 : Initialiser la base de données
+      setState(() {
+        _loadingMessage = 'Préparation de la base de données...';
+      });
 
-    if (hasStudent) {
-      await studentProvider.loadCurrentStudent();
+      final db = DatabaseHelper.instance;
+      final categories = await db.queryAll('categories');
+      final questions = await db.queryAll('questions');
+
+      if (categories.isEmpty || questions.isEmpty) {
+        setState(() {
+          _loadingMessage = 'Chargement des données...';
+        });
+
+        await SeedData.initialize();
+      }
+
+      // Étape 2 : Petite pause pour montrer le logo
+      setState(() {
+        _loadingMessage = 'Chargement...';
+      });
+      await Future.delayed(const Duration(milliseconds: 500));
+
       if (!mounted) return;
 
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(
-          builder: (_) => const DashboardScreen(),
-        ),
-      );
-    } else {
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(
-          builder: (_) => const ProfileSetupScreen(),
-        ),
+      // Étape 3 : Vérifier le profil utilisateur
+      final studentProvider = context.read<StudentProvider>();
+      final hasStudent = await studentProvider.checkIfHasStudent();
+      if (!mounted) return;
+
+      if (hasStudent) {
+        await studentProvider.loadCurrentStudent();
+        if (!mounted) return;
+
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(
+            builder: (_) => const DashboardScreen(),
+          ),
+        );
+      } else {
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(
+            builder: (_) => const ProfileSetupScreen(),
+          ),
+        );
+      }
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _loadingMessage = 'Erreur lors de l\'initialisation';
+      });
+      // Afficher l'erreur à l'utilisateur
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Erreur: $e')),
       );
     }
   }
@@ -155,6 +193,19 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             const SizedBox(height: 48),
             const CircularProgressIndicator(),
+            const SizedBox(height: 16),
+            AnimatedSwitcher(
+              duration: const Duration(milliseconds: 300),
+              child: Text(
+                _loadingMessage,
+                key: ValueKey<String>(_loadingMessage),
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Colors.grey[600],
+                      fontStyle: FontStyle.italic,
+                    ),
+                textAlign: TextAlign.center,
+              ),
+            ),
           ],
         ),
       ),
