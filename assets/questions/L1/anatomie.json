@@ -36,17 +36,6 @@
       ]
     },
     {
-      "question_text": "Quel est l'os le plus long du corps humain ?",
-      "difficulty": "Facile",
-      "explanation": "Le fémur est l'os le plus long et le plus solide du corps humain. Il s'étend de la hanche au genou.",
-      "answers": [
-        { "text": "Le tibia", "is_correct": false },
-        { "text": "Le fémur", "is_correct": true },
-        { "text": "L'humérus", "is_correct": false },
-        { "text": "Le radius", "is_correct": false }
-      ]
-    },
-    {
       "question_text": "Combien de paires de côtes possède l'être humain ?",
       "difficulty": "Facile",
       "explanation": "L'être humain possède 12 paires de côtes, soit 24 côtes au total. Les 7 premières paires sont vraies, les 3 suivantes sont fausses et les 2 dernières sont flottantes.",

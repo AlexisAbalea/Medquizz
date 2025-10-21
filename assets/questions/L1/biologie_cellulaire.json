@@ -187,7 +187,7 @@
     {
       "question_text": "Quelle molécule compose principalement les microtubules ?",
       "difficulty": "Moyen",
-      "explanation": "Les microtubules sont constitués de tubuline α et β.",
+      "explanation": "Les microtubules sont constitués de tubuline a et β.",
       "answers": [
         { "text": "Actine", "is_correct": false },
         { "text": "Tubuline", "is_correct": true },
@@ -196,9 +196,9 @@
       ]
     },
     {
-      "question_text": "Que signifie le terme ‘eucaryote' ?",
+      "question_text": "Que signifie le terme 'eucaryote' ?",
       "difficulty": "Facile",
-      "explanation": "‘Eucaryote' signifie ‘vraie cellule', c'est-à-dire avec un noyau défini.",
+      "explanation": "'Eucaryote' signifie 'vraie cellule', c'est-à-dire avec un noyau défini.",
       "answers": [
         { "text": "Cellule sans noyau", "is_correct": false },
         { "text": "Cellule avec noyau", "is_correct": true },
@@ -2205,7 +2205,7 @@
     {
       "question_text": "Quelle structure forme les microtubules ?",
       "difficulty": "Moyen",
-      "explanation": "Les microtubules sont formés par la polymérisation de dimères de tubuline α et β.",
+      "explanation": "Les microtubules sont formés par la polymérisation de dimères de tubuline a et β.",
       "answers": [
         { "text": "Actine", "is_correct": false },
         { "text": "Tubuline", "is_correct": true },

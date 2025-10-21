@@ -25,7 +25,10 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen> {
   void initState() {
     super.initState();
     _initializeExpandedSections();
-    _loadCategories();
+    // Charger les catégories après le premier build
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _loadCategories();
+    });
   }
 
   void _initializeExpandedSections() {
@@ -41,8 +44,11 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen> {
   }
 
   Future<void> _loadCategories() async {
-    // Charger toutes les catégories (L1, L2, L3)
-    await context.read<CategoryProvider>().loadAllCategories();
+    final provider = context.read<CategoryProvider>();
+    // Ne recharger que si les catégories ne sont pas déjà chargées
+    if (provider.allCategories.isEmpty) {
+      await provider.loadAllCategories();
+    }
   }
 
   void _startQuiz(CategoryModel category) {
