@@ -79,64 +79,67 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
         ],
       ),
-      body: Consumer3<StudentProvider, CategoryProvider, ProgressProvider>(
-        builder:
-            (context, studentProvider, categoryProvider, progressProvider, _) {
-          if (studentProvider.isLoading) {
-            return const LoadingIndicator(message: AppStrings.loading);
-          }
+      body: SafeArea(
+        bottom: true,
+        child: Consumer3<StudentProvider, CategoryProvider, ProgressProvider>(
+          builder:
+              (context, studentProvider, categoryProvider, progressProvider, _) {
+            if (studentProvider.isLoading) {
+              return const LoadingIndicator(message: AppStrings.loading);
+            }
 
-          if (studentProvider.currentStudent == null) {
-            return const Center(
-              child: Text(AppStrings.error),
-            );
-          }
+            if (studentProvider.currentStudent == null) {
+              return const Center(
+                child: Text(AppStrings.error),
+              );
+            }
 
-          final student = studentProvider.currentStudent!;
+            final student = studentProvider.currentStudent!;
 
-          return RefreshIndicator(
-            onRefresh: _loadData,
-            child: SingleChildScrollView(
-              physics: const AlwaysScrollableScrollPhysics(),
-              padding: const EdgeInsets.all(AppSizes.paddingMd),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // En-tête avec nom de l'utilisateur
-                  _buildHeader(student.name, student.yearLevel),
-                  const SizedBox(height: AppSizes.spacingLg),
+            return RefreshIndicator(
+              onRefresh: _loadData,
+              child: SingleChildScrollView(
+                physics: const AlwaysScrollableScrollPhysics(),
+                padding: const EdgeInsets.all(AppSizes.paddingMd),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // En-tête avec nom de l'utilisateur
+                    _buildHeader(student.name, student.yearLevel),
+                    const SizedBox(height: AppSizes.spacingLg),
 
-                  // Statistiques
-                  Text(
-                    AppStrings.myStats,
-                    style: AppTextStyles.headlineSmall,
-                  ),
-                  const SizedBox(height: AppSizes.spacingMd),
-                  _buildStatsGrid(progressProvider),
-                  const SizedBox(height: AppSizes.spacingXl),
+                    // Statistiques
+                    Text(
+                      AppStrings.myStats,
+                      style: AppTextStyles.headlineSmall,
+                    ),
+                    const SizedBox(height: AppSizes.spacingMd),
+                    _buildStatsGrid(progressProvider),
+                    const SizedBox(height: AppSizes.spacingXl),
 
-                  // Bouton principal
-                  CustomButton(
-                    text: AppStrings.newQuiz,
-                    icon: Icons.play_arrow,
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => const CategorySelectionScreen(),
-                        ),
-                      );
-                    },
-                  ),
-                  const SizedBox(height: AppSizes.spacingLg),
+                    // Bouton principal
+                    CustomButton(
+                      text: AppStrings.newQuiz,
+                      icon: Icons.play_arrow,
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const CategorySelectionScreen(),
+                          ),
+                        );
+                      },
+                    ),
+                    const SizedBox(height: AppSizes.spacingLg),
 
-                  // Statistiques par matière
-                  _buildCategoryStats(categoryProvider, progressProvider),
-                ],
+                    // Statistiques par matière
+                    _buildCategoryStats(categoryProvider, progressProvider),
+                  ],
+                ),
               ),
-            ),
-          );
-        },
+            );
+          },
+        ),
       ),
     );
   }

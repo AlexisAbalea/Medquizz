@@ -86,8 +86,10 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen> {
         title: const Text(AppStrings.selectCategory),
         elevation: 0,
       ),
-      body: Consumer<CategoryProvider>(
-        builder: (context, provider, _) {
+      body: SafeArea(
+        bottom: true,
+        child: Consumer<CategoryProvider>(
+          builder: (context, provider, _) {
           if (provider.isLoading) {
             return const LoadingIndicator(message: AppStrings.loading);
           }
@@ -145,6 +147,7 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen> {
             ],
           );
         },
+        ),
       ),
     );
   }

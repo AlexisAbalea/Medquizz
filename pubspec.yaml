@@ -2,7 +2,7 @@ name: hippoquiz
 description: "HippoQuiz - Application de quiz pour étudiants en médecine (PASS-FGSM3)"
 publish_to: "none"
 
-version: 1.0.0+4
+version: 1.0.0+5
 
 environment:
   sdk: ">=3.9.0 <4.0.0"

@@ -50,9 +50,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
       // Recharger les catégories pour le nouveau niveau
       if (mounted) {
-        await context
-            .read<CategoryProvider>()
-            .loadCategoriesByYear(_selectedYear!);
+        await context.read<CategoryProvider>().loadCategoriesByYear(
+          _selectedYear!,
+        );
       }
 
       if (mounted) {
@@ -96,10 +96,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text('Nom : HippoQuiz'),
-              Text('Éditeur : Monsieur ALEXIS ABALEA'),
-              Text('Statut juridique : Auto-entrepreneur'),
+              Text('Éditeur : ABALABS'),
               Text('SIRET : 90926936700035'),
-              Text('Adresse : 9 rue Saint-Exupéry, Plougastel-Daoulas, France'),
               Text('Email : hippoquiz.app@gmail.com'),
               SizedBox(height: 16),
               Text(
@@ -108,8 +106,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'Cette application mobile ne dispose pas de serveur d\'hébergement. '
-                  'Toutes les données sont stockées localement sur votre appareil.'),
+                'Cette application mobile ne dispose pas de serveur d\'hébergement. '
+                'Toutes les données sont stockées localement sur votre appareil.',
+              ),
               SizedBox(height: 16),
               Text(
                 'PROPRIÉTÉ INTELLECTUELLE',
@@ -117,9 +116,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'L\'ensemble du contenu de cette application (textes, images, questions, '
-                  'design) est la propriété exclusive de Monsieur ALEXIS ABALEA. '
-                  'Toute reproduction, distribution ou utilisation sans autorisation est interdite.'),
+                'L\'ensemble du contenu de cette application (textes, images, questions, design) est la propriété exclusive du studio ABALABS.'
+                'Toute reproduction, distribution ou utilisation sans autorisation est interdite.',
+              ),
               SizedBox(height: 16),
               Text(
                 'RESPONSABILITÉ',
@@ -127,10 +126,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'Cette application est fournie à titre éducatif. L\'éditeur ne saurait '
-                  'être tenu responsable des erreurs ou omissions dans le contenu des questions. '
-                  'Les informations médicales fournies ne remplacent en aucun cas un enseignement '
-                  'médical officiel.'),
+                'Cette application est fournie à titre éducatif. L\'éditeur ne saurait '
+                'être tenu responsable des erreurs ou omissions dans le contenu des questions. '
+                'Les informations médicales fournies ne remplacent en aucun cas un enseignement '
+                'médical officiel.',
+              ),
             ],
           ),
         ),
@@ -167,8 +167,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Text('• Vos résultats de quiz et statistiques'),
               SizedBox(height: 8),
               Text(
-                  'Ces données sont stockées UNIQUEMENT sur votre appareil et ne sont '
-                  'jamais transmises à un serveur externe.'),
+                'Ces données sont stockées UNIQUEMENT sur votre appareil et ne sont '
+                'jamais transmises à un serveur externe.',
+              ),
               SizedBox(height: 16),
               Text(
                 'UTILISATION DES DONNÉES',
@@ -204,7 +205,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'Cette application n\'utilise aucun cookie ni outil de tracking/analytics.'),
+                'Cette application n\'utilise aucun cookie ni outil de tracking/analytics.',
+              ),
               SizedBox(height: 16),
               Text(
                 'CONTACT',
@@ -243,8 +245,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'En utilisant HippoQuiz, vous acceptez les présentes conditions d\'utilisation. '
-                  'Si vous n\'acceptez pas ces conditions, veuillez ne pas utiliser l\'application.'),
+                'En utilisant HippoQuiz, vous acceptez les présentes conditions d\'utilisation. '
+                'Si vous n\'acceptez pas ces conditions, veuillez ne pas utiliser l\'application.',
+              ),
               SizedBox(height: 16),
               Text(
                 'OBJET DE L\'APPLICATION',
@@ -252,9 +255,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'HippoQuiz est une application éducative destinée aux étudiants en médecine '
-                  '(L1 à L3) pour s\'entraîner aux QCM. Elle est fournie gratuitement '
-                  'à des fins pédagogiques.'),
+                'HippoQuiz est une application éducative destinée aux étudiants en médecine '
+                '(L1 à L3) pour s\'entraîner aux QCM. Elle est fournie gratuitement '
+                'à des fins pédagogiques.',
+              ),
               SizedBox(height: 16),
               Text(
                 'UTILISATION AUTORISÉE',
@@ -263,10 +267,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
               SizedBox(height: 8),
               Text('Vous vous engagez à :'),
               Text(
-                  '• Utiliser l\'application uniquement à des fins personnelles et éducatives'),
+                '• Utiliser l\'application uniquement à des fins personnelles et éducatives',
+              ),
               Text('• Ne pas copier, distribuer ou modifier le contenu'),
               Text(
-                  '• Ne pas tenter de décompiler ou reverse-engineer l\'application'),
+                '• Ne pas tenter de décompiler ou reverse-engineer l\'application',
+              ),
               Text('• Ne pas utiliser l\'application à des fins commerciales'),
               SizedBox(height: 16),
               Text(
@@ -275,14 +281,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'L\'éditeur s\'efforce de fournir un contenu exact et à jour, mais ne garantit pas :'),
+                'L\'éditeur s\'efforce de fournir un contenu exact et à jour, mais ne garantit pas :',
+              ),
               Text('• L\'exhaustivité des informations'),
               Text('• L\'absence d\'erreurs dans les questions'),
               Text('• L\'adéquation avec les programmes officiels'),
               SizedBox(height: 8),
               Text(
-                  'Les utilisateurs sont invités à vérifier les informations et à signaler '
-                  'toute erreur à : hippoquiz.app@gmail.com'),
+                'Les utilisateurs sont invités à vérifier les informations et à signaler '
+                'toute erreur à : hippoquiz.app@gmail.com',
+              ),
               SizedBox(height: 16),
               Text(
                 'LIMITATION DE RESPONSABILITÉ',
@@ -294,7 +302,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Text('• Des erreurs ou omissions dans le contenu'),
               Text('• Des interruptions de service'),
               Text(
-                  '• De la perte de données due à un dysfonctionnement de l\'appareil'),
+                '• De la perte de données due à un dysfonctionnement de l\'appareil',
+              ),
               SizedBox(height: 16),
               Text(
                 'PROPRIÉTÉ INTELLECTUELLE',
@@ -302,8 +311,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'Tous les contenus de l\'application (questions, textes, design, graphismes) '
-                  'sont protégés par le droit d\'auteur et appartiennent à Monsieur ALEXIS ABALEA.'),
+                'Tous les contenus de l\'application (questions, textes, design, graphismes) '
+                'sont protégés par le droit d\'auteur et appartiennent à M. ABALEA.',
+              ),
               SizedBox(height: 16),
               Text(
                 'MODIFICATION DES CONDITIONS',
@@ -311,8 +321,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'L\'éditeur se réserve le droit de modifier ces conditions à tout moment. '
-                  'Les utilisateurs seront informés des modifications majeures.'),
+                'L\'éditeur se réserve le droit de modifier ces conditions à tout moment. '
+                'Les utilisateurs seront informés des modifications majeures.',
+              ),
               SizedBox(height: 16),
               Text(
                 'LOI APPLICABLE',
@@ -320,7 +331,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               SizedBox(height: 8),
               Text(
-                  'Les présentes conditions sont régies par le droit français.'),
+                'Les présentes conditions sont régies par le droit français.',
+              ),
               SizedBox(height: 8),
               Text('Dernière mise à jour : Janvier 2025'),
             ],
@@ -346,16 +358,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
     try {
       final canLaunch = await canLaunchUrl(emailUri);
       if (canLaunch) {
-        await launchUrl(
-          emailUri,
-          mode: LaunchMode.externalApplication,
-        );
+        await launchUrl(emailUri, mode: LaunchMode.externalApplication);
       } else {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
               content: Text(
-                  'Aucune application mail trouvée. Veuillez installer Gmail ou une autre app mail.'),
+                'Aucune application mail trouvée. Veuillez installer Gmail ou une autre app mail.',
+              ),
               backgroundColor: AppColors.error,
               duration: Duration(seconds: 4),
             ),
@@ -378,19 +388,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Paramètres'),
-      ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(AppSizes.paddingLg),
-        child: Column(
+      appBar: AppBar(title: const Text('Paramètres')),
+      body: SafeArea(
+        bottom: true,
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(AppSizes.paddingLg),
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // Section Profil
-            Text(
-              'Profil',
-              style: AppTextStyles.headlineSmall,
-            ),
+            Text('Profil', style: AppTextStyles.headlineSmall),
             const SizedBox(height: AppSizes.spacingMd),
 
             // Carte Niveau d'études
@@ -441,10 +448,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             const SizedBox(height: AppSizes.spacingXl),
 
             // Section Contact
-            Text(
-              'Support',
-              style: AppTextStyles.headlineSmall,
-            ),
+            Text('Support', style: AppTextStyles.headlineSmall),
             const SizedBox(height: AppSizes.spacingMd),
 
             // Carte Contact
@@ -461,8 +465,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
                           color: AppColors.primary.withValues(alpha: 0.1),
-                          borderRadius:
-                              BorderRadius.circular(AppSizes.radiusMd),
+                          borderRadius: BorderRadius.circular(
+                            AppSizes.radiusMd,
+                          ),
                         ),
                         child: const Icon(
                           Icons.mail_outline,
@@ -516,8 +521,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
                           color: AppColors.textSecondary.withValues(alpha: 0.1),
-                          borderRadius:
-                              BorderRadius.circular(AppSizes.radiusMd),
+                          borderRadius: BorderRadius.circular(
+                            AppSizes.radiusMd,
+                          ),
                         ),
                         child: const Icon(
                           Icons.description_outlined,
@@ -559,8 +565,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
                           color: AppColors.textSecondary.withValues(alpha: 0.1),
-                          borderRadius:
-                              BorderRadius.circular(AppSizes.radiusMd),
+                          borderRadius: BorderRadius.circular(
+                            AppSizes.radiusMd,
+                          ),
                         ),
                         child: const Icon(
                           Icons.privacy_tip_outlined,
@@ -602,8 +609,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         padding: const EdgeInsets.all(AppSizes.paddingSm),
                         decoration: BoxDecoration(
                           color: AppColors.textSecondary.withValues(alpha: 0.1),
-                          borderRadius:
-                              BorderRadius.circular(AppSizes.radiusMd),
+                          borderRadius: BorderRadius.circular(
+                            AppSizes.radiusMd,
+                          ),
                         ),
                         child: const Icon(
                           Icons.gavel_outlined,
@@ -630,6 +638,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ],
         ),
+        ),
       ),
     );
   }
@@ -653,7 +662,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
           child: Container(
             padding: const EdgeInsets.all(AppSizes.paddingMd),
             decoration: BoxDecoration(
-              color: isSelected ? color.withValues(alpha: 0.1) : Colors.transparent,
+              color: isSelected
+                  ? color.withValues(alpha: 0.1)
+                  : Colors.transparent,
               border: Border.all(
                 color: isSelected ? color : AppColors.border,
                 width: isSelected ? 2 : 1,
@@ -674,11 +685,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     color: isSelected ? color : Colors.transparent,
                   ),
                   child: isSelected
-                      ? const Icon(
-                          Icons.check,
-                          size: 14,
-                          color: Colors.white,
-                        )
+                      ? const Icon(Icons.check, size: 14, color: Colors.white)
                       : null,
                 ),
                 const SizedBox(width: AppSizes.spacingMd),
@@ -686,8 +693,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   _getYearFullName(year),
                   style: AppTextStyles.titleMedium.copyWith(
                     color: isSelected ? color : AppColors.textPrimary,
-                    fontWeight:
-                        isSelected ? FontWeight.bold : FontWeight.normal,
+                    fontWeight: isSelected
+                        ? FontWeight.bold
+                        : FontWeight.normal,
                   ),
                 ),
               ],

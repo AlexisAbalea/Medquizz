@@ -58,106 +58,109 @@ class _QuizResultScreenState extends State<QuizResultScreen> {
         title: const Text(AppStrings.results),
         automaticallyImplyLeading: false,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(AppSizes.paddingLg),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Icône et score
-            Icon(
-              _getScoreIcon(percentage),
-              size: AppSizes.iconXxxl,
-              color: scoreColor,
-            ),
-            const SizedBox(height: AppSizes.spacingLg),
-
-            // Score principal
-            Text(
-              AppStrings.yourScore,
-              style: AppTextStyles.headlineMedium,
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: AppSizes.spacingSm),
-            Text(
-              '${widget.session.score}/${widget.session.totalQuestions}',
-              style: AppTextStyles.score.copyWith(color: scoreColor),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: AppSizes.spacingSm),
-            Text(
-              motivationalMessage,
-              style: AppTextStyles.headlineSmall.copyWith(
+      body: SafeArea(
+        bottom: true,
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(AppSizes.paddingLg),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              // Icône et score
+              Icon(
+                _getScoreIcon(percentage),
+                size: AppSizes.iconXxxl,
                 color: scoreColor,
               ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: AppSizes.spacingXl),
+              const SizedBox(height: AppSizes.spacingLg),
 
-            // Statistiques détaillées
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(AppSizes.paddingLg),
-                child: Column(
-                  children: [
-                    _StatRow(
-                      label: AppStrings.totalQuestions,
-                      value: widget.session.totalQuestions.toString(),
-                      icon: Icons.quiz,
-                    ),
-                    const Divider(),
-                    _StatRow(
-                      label: AppStrings.correctAnswers,
-                      value: widget.session.score.toString(),
-                      icon: Icons.check_circle,
-                      valueColor: AppColors.success,
-                    ),
-                    const Divider(),
-                    _StatRow(
-                      label: 'Réponses incorrectes',
-                      value:
-                          (widget.session.totalQuestions - widget.session.score)
-                              .toString(),
-                      icon: Icons.cancel,
-                      valueColor: AppColors.error,
-                    ),
-                  ],
+              // Score principal
+              Text(
+                AppStrings.yourScore,
+                style: AppTextStyles.headlineMedium,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: AppSizes.spacingSm),
+              Text(
+                '${widget.session.score}/${widget.session.totalQuestions}',
+                style: AppTextStyles.score.copyWith(color: scoreColor),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: AppSizes.spacingSm),
+              Text(
+                motivationalMessage,
+                style: AppTextStyles.headlineSmall.copyWith(
+                  color: scoreColor,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: AppSizes.spacingXl),
+
+              // Statistiques détaillées
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(AppSizes.paddingLg),
+                  child: Column(
+                    children: [
+                      _StatRow(
+                        label: AppStrings.totalQuestions,
+                        value: widget.session.totalQuestions.toString(),
+                        icon: Icons.quiz,
+                      ),
+                      const Divider(),
+                      _StatRow(
+                        label: AppStrings.correctAnswers,
+                        value: widget.session.score.toString(),
+                        icon: Icons.check_circle,
+                        valueColor: AppColors.success,
+                      ),
+                      const Divider(),
+                      _StatRow(
+                        label: 'Réponses incorrectes',
+                        value:
+                            (widget.session.totalQuestions - widget.session.score)
+                                .toString(),
+                        icon: Icons.cancel,
+                        valueColor: AppColors.error,
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-            const SizedBox(height: AppSizes.spacingXl),
+              const SizedBox(height: AppSizes.spacingXl),
 
-            // Boutons d'action
-            CustomButton(
-              text: AppStrings.backToDashboard,
-              icon: Icons.home,
-              onPressed: () {
-                // Réinitialiser le quiz et retourner au dashboard
-                context.read<QuizProvider>().resetQuiz();
-                Navigator.of(context).pushAndRemoveUntil(
-                  MaterialPageRoute(
-                    builder: (_) => const DashboardScreen(),
-                  ),
-                  (route) => false,
-                );
-              },
-            ),
-            const SizedBox(height: AppSizes.spacingMd),
-            CustomButton(
-              text: 'Nouveau quiz',
-              icon: Icons.refresh,
-              isOutlined: true,
-              onPressed: () {
-                // Réinitialiser le quiz et aller à la sélection de catégorie
-                context.read<QuizProvider>().resetQuiz();
-                Navigator.of(context).pushAndRemoveUntil(
-                  MaterialPageRoute(
-                    builder: (_) => const CategorySelectionScreen(),
-                  ),
-                  (route) => route.isFirst,
-                );
-              },
-            ),
-          ],
+              // Boutons d'action
+              CustomButton(
+                text: AppStrings.backToDashboard,
+                icon: Icons.home,
+                onPressed: () {
+                  // Réinitialiser le quiz et retourner au dashboard
+                  context.read<QuizProvider>().resetQuiz();
+                  Navigator.of(context).pushAndRemoveUntil(
+                    MaterialPageRoute(
+                      builder: (_) => const DashboardScreen(),
+                    ),
+                    (route) => false,
+                  );
+                },
+              ),
+              const SizedBox(height: AppSizes.spacingMd),
+              CustomButton(
+                text: 'Nouveau quiz',
+                icon: Icons.refresh,
+                isOutlined: true,
+                onPressed: () {
+                  // Réinitialiser le quiz et aller à la sélection de catégorie
+                  context.read<QuizProvider>().resetQuiz();
+                  Navigator.of(context).pushAndRemoveUntil(
+                    MaterialPageRoute(
+                      builder: (_) => const CategorySelectionScreen(),
+                    ),
+                    (route) => route.isFirst,
+                  );
+                },
+              ),
+            ],
+          ),
         ),
       ),
     );

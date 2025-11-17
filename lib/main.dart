@@ -19,21 +19,11 @@ import 'package:provider/provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Configuration du mode immersif pour Android
-  // Les barres système se cachent automatiquement et réapparaissent au besoin
+  // Configuration edge-to-edge pour Android 15+ (SDK 35)
+  // La configuration native est maintenant gérée dans MainActivity.kt
+  // On active juste le mode edgeToEdge côté Flutter
   SystemChrome.setEnabledSystemUIMode(
-    SystemUiMode.immersiveSticky,
-  );
-
-  // Style des barres système quand elles sont visibles
-  SystemChrome.setSystemUIOverlayStyle(
-    const SystemUiOverlayStyle(
-      statusBarColor: Colors.transparent,
-      statusBarIconBrightness: Brightness.dark,
-      systemNavigationBarColor: Colors.transparent,
-      systemNavigationBarIconBrightness: Brightness.dark,
-      systemNavigationBarDividerColor: Colors.transparent,
-    ),
+    SystemUiMode.edgeToEdge,
   );
 
   // L'initialisation de la BD se fait maintenant dans le SplashScreen
