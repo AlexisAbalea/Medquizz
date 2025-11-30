@@ -21,7 +21,13 @@ class DatabaseHelper {
       path,
       version: 1,
       onCreate: _createDB,
+      onUpgrade: _onUpgrade,
     );
+  }
+
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    // Les migrations seront gérées par la table database_version
+    // Cette méthode est gardée pour compatibilité avec sqflite
   }
 
   Future<void> _createDB(Database db, int version) async {
@@ -116,6 +122,22 @@ class DatabaseHelper {
         'CREATE INDEX idx_progress_student ON user_progress(student_id)');
     await db.execute(
         'CREATE INDEX idx_sessions_student ON quiz_sessions(student_id)');
+
+    // Table de versioning pour les migrations
+    await db.execute('''
+      CREATE TABLE database_version (
+        id INTEGER PRIMARY KEY CHECK (id = 1),
+        version $integerType,
+        updated_at $textType
+      )
+    ''');
+
+    // Initialiser la version à 1
+    await db.insert('database_version', {
+      'id': 1,
+      'version': 1,
+      'updated_at': DateTime.now().toIso8601String(),
+    });
   }
 
   // CRUD Operations génériques
@@ -180,5 +202,76 @@ class DatabaseHelper {
   Future<void> close() async {
     final db = await database;
     await db.close();
+  }
+
+  // Système de migrations
+
+  /// Obtient la version actuelle de la base de données
+  Future<int> getCurrentVersion() async {
+    final db = await database;
+
+    try {
+      // Vérifier si la table database_version existe
+      final tables = await db.rawQuery(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='database_version'"
+      );
+
+      if (tables.isEmpty) {
+        // Créer la table si elle n'existe pas (migration depuis ancienne version)
+        await db.execute('''
+          CREATE TABLE database_version (
+            id INTEGER PRIMARY KEY CHECK (id = 1),
+            version INTEGER NOT NULL,
+            updated_at TEXT NOT NULL
+          )
+        ''');
+
+        // Initialiser à la version 1
+        await db.insert('database_version', {
+          'id': 1,
+          'version': 1,
+          'updated_at': DateTime.now().toIso8601String(),
+        });
+
+        return 1;
+      }
+
+      final result = await db.query('database_version', where: 'id = ?', whereArgs: [1]);
+
+      if (result.isEmpty) {
+        // La table existe mais est vide, initialiser
+        await db.insert('database_version', {
+          'id': 1,
+          'version': 1,
+          'updated_at': DateTime.now().toIso8601String(),
+        });
+        return 1;
+      }
+
+      return result.first['version'] as int;
+    } catch (e) {
+      // En cas d'erreur, retourner version 1 par défaut
+      return 1;
+    }
+  }
+
+  /// Met à jour la version de la base de données
+  Future<void> updateVersion(int newVersion) async {
+    final db = await database;
+    await db.update(
+      'database_version',
+      {
+        'version': newVersion,
+        'updated_at': DateTime.now().toIso8601String(),
+      },
+      where: 'id = ?',
+      whereArgs: [1],
+    );
+  }
+
+  /// Exécute une migration spécifique
+  Future<void> executeMigration(Future<void> Function(Database) migration) async {
+    final db = await database;
+    await migration(db);
   }
 }

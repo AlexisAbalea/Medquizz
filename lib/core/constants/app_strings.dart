@@ -5,8 +5,8 @@ class AppStrings {
   static const String yearL2 = 'L2';
   static const String yearL3 = 'L3';
   static const String yearL1Full = 'PASS/L.AS';
-  static const String yearL2Full = 'FGSM2';
-  static const String yearL3Full = 'FGSM3';
+  static const String yearL2Full = 'DFGSM2';
+  static const String yearL3Full = 'DFGSM3';
   static const String difficultyEasy = 'Facile';
   static const String difficultyMedium = 'Moyen';
   static const String difficultyHard = 'Difficile';

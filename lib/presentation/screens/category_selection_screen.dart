@@ -54,9 +54,7 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen> {
   void _startQuiz(CategoryModel category) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (_) => QuizScreen(category: category),
-      ),
+      MaterialPageRoute(builder: (_) => QuizScreen(category: category)),
     );
   }
 
@@ -90,63 +88,63 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen> {
         bottom: true,
         child: Consumer<CategoryProvider>(
           builder: (context, provider, _) {
-          if (provider.isLoading) {
-            return const LoadingIndicator(message: AppStrings.loading);
-          }
+            if (provider.isLoading) {
+              return const LoadingIndicator(message: AppStrings.loading);
+            }
 
-          final groupedCategories = provider.getCategoriesGroupedByYear();
+            final groupedCategories = provider.getCategoriesGroupedByYear();
 
-          if (groupedCategories.values.every((list) => list.isEmpty)) {
-            return Center(
-              child: Text(
-                AppStrings.noCategories,
-                style: AppTextStyles.bodyLarge.copyWith(
-                  color: AppColors.textSecondary,
+            if (groupedCategories.values.every((list) => list.isEmpty)) {
+              return Center(
+                child: Text(
+                  AppStrings.noCategories,
+                  style: AppTextStyles.bodyLarge.copyWith(
+                    color: AppColors.textSecondary,
+                  ),
                 ),
-              ),
+              );
+            }
+
+            return ListView(
+              padding: const EdgeInsets.all(AppSizes.paddingMd),
+              children: [
+                // Section L1 (PASS/L.AS)
+                _YearSection(
+                  yearLevel: 'L1',
+                  yearTitle: _getYearFullName('L1'),
+                  categories: groupedCategories['L1'] ?? [],
+                  isExpanded: _expandedSections['L1'] ?? false,
+                  onToggle: () => _toggleSection('L1'),
+                  onCategoryTap: _startQuiz,
+                  provider: provider,
+                ),
+                const SizedBox(height: AppSizes.spacingMd),
+
+                // Section L2 (DFGSM2)
+                _YearSection(
+                  yearLevel: 'L2',
+                  yearTitle: _getYearFullName('L2'),
+                  categories: groupedCategories['L2'] ?? [],
+                  isExpanded: _expandedSections['L2'] ?? false,
+                  onToggle: () => _toggleSection('L2'),
+                  onCategoryTap: _startQuiz,
+                  provider: provider,
+                ),
+                const SizedBox(height: AppSizes.spacingMd),
+
+                // Section L3 (DFGSM3)
+                _YearSection(
+                  yearLevel: 'L3',
+                  yearTitle: _getYearFullName('L3'),
+                  categories: groupedCategories['L3'] ?? [],
+                  isExpanded: _expandedSections['L3'] ?? false,
+                  onToggle: () => _toggleSection('L3'),
+                  onCategoryTap: _startQuiz,
+                  provider: provider,
+                ),
+              ],
             );
-          }
-
-          return ListView(
-            padding: const EdgeInsets.all(AppSizes.paddingMd),
-            children: [
-              // Section L1 (PASS/L.AS)
-              _YearSection(
-                yearLevel: 'L1',
-                yearTitle: _getYearFullName('L1'),
-                categories: groupedCategories['L1'] ?? [],
-                isExpanded: _expandedSections['L1'] ?? false,
-                onToggle: () => _toggleSection('L1'),
-                onCategoryTap: _startQuiz,
-                provider: provider,
-              ),
-              const SizedBox(height: AppSizes.spacingMd),
-
-              // Section L2 (FGSM2)
-              _YearSection(
-                yearLevel: 'L2',
-                yearTitle: _getYearFullName('L2'),
-                categories: groupedCategories['L2'] ?? [],
-                isExpanded: _expandedSections['L2'] ?? false,
-                onToggle: () => _toggleSection('L2'),
-                onCategoryTap: _startQuiz,
-                provider: provider,
-              ),
-              const SizedBox(height: AppSizes.spacingMd),
-
-              // Section L3 (FGSM3)
-              _YearSection(
-                yearLevel: 'L3',
-                yearTitle: _getYearFullName('L3'),
-                categories: groupedCategories['L3'] ?? [],
-                isExpanded: _expandedSections['L3'] ?? false,
-                onToggle: () => _toggleSection('L3'),
-                onCategoryTap: _startQuiz,
-                provider: provider,
-              ),
-            ],
-          );
-        },
+          },
         ),
       ),
     );
@@ -281,18 +279,23 @@ class _CategoryListItem extends StatelessWidget {
   final CategoryModel category;
   final VoidCallback onTap;
 
-  const _CategoryListItem({
-    required this.category,
-    required this.onTap,
-  });
+  const _CategoryListItem({required this.category, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    final color = AppColors.getCategoryColor(category.name);
+    // Utiliser la couleur de la base de données pour "Préparation aux urgences"
+    final color = category.name == 'Préparation aux urgences'
+        ? Color(int.parse(category.color.replaceFirst('#', '0xFF')))
+        : AppColors.getCategoryColor(category.name);
+
+    // Mise en avant spéciale pour "Préparation aux urgences"
+    final isUrgences = category.name == 'Préparation aux urgences';
+    final elevation = isUrgences ? 4.0 : 1.0;
+    final iconSize = isUrgences ? 32.0 : 28.0;
 
     return Card(
       margin: const EdgeInsets.only(bottom: AppSizes.spacingSm),
-      elevation: 1,
+      elevation: elevation,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(AppSizes.radiusMd),
       ),
@@ -304,10 +307,15 @@ class _CategoryListItem extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
             gradient: LinearGradient(
-              colors: [
-                color.withValues(alpha: 0.08),
-                color.withValues(alpha: 0.02),
-              ],
+              colors: isUrgences
+                  ? [
+                      color.withValues(alpha: 0.2),
+                      color.withValues(alpha: 0.05),
+                    ]
+                  : [
+                      color.withValues(alpha: 0.08),
+                      color.withValues(alpha: 0.02),
+                    ],
               begin: Alignment.centerLeft,
               end: Alignment.centerRight,
             ),
@@ -318,12 +326,12 @@ class _CategoryListItem extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(AppSizes.paddingXs),
                 decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.15),
+                  color: color.withValues(alpha: isUrgences ? 0.25 : 0.15),
                   borderRadius: BorderRadius.circular(AppSizes.radiusSm),
                 ),
                 child: Icon(
-                  Icons.medical_services,
-                  size: 28,
+                  isUrgences ? Icons.emergency : Icons.medical_services,
+                  size: iconSize,
                   color: color,
                 ),
               ),
@@ -333,8 +341,9 @@ class _CategoryListItem extends StatelessWidget {
                 child: Text(
                   category.name,
                   style: AppTextStyles.categoryName.copyWith(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w600,
+                    fontSize: isUrgences ? 16 : 15,
+                    fontWeight: isUrgences ? FontWeight.bold : FontWeight.w600,
+                    color: isUrgences ? color : null,
                   ),
                 ),
               ),

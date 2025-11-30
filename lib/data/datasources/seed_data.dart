@@ -4,17 +4,22 @@ import 'package:flutter/services.dart';
 import 'package:hippoquiz/data/datasources/database_helper.dart';
 
 class SeedData {
+  /// Initialise les données de base (catégories et questions initiales)
+  /// Cette méthode est appelée uniquement lors de la première installation
   static Future<void> initialize() async {
     final db = DatabaseHelper.instance;
 
+    // Vérifier si c'est une nouvelle installation
     final categories = await db.queryAll('categories');
-
     final questions = await db.queryAll('questions');
 
     if (categories.isNotEmpty && questions.isNotEmpty) {
+      // Les données existent déjà, ne rien faire
+      // Les nouvelles questions seront ajoutées via les migrations
       return;
     }
 
+    // Première installation : peupler les données de base
     if (categories.isEmpty) {
       await _insertCategories(db);
     }

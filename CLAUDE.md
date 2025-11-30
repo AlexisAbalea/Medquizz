@@ -32,7 +32,11 @@ flutter build ios --release    # Build iOS (requires macOS)
 
 ### Database Management
 
-The SQLite database is automatically initialized with seed data on first launch via `SeedData.initialize()` in `main.dart`. To reset the database during development, clear the app data or reinstall.
+The SQLite database is automatically initialized with seed data on first launch via `SeedData.initialize()` in `main.dart`.
+
+**Migration System:** The app now includes a migration system for incremental database updates. Migrations are applied automatically at app startup and allow adding new questions without losing user data. See `lib/data/datasources/migrations/README.md` for detailed instructions.
+
+To reset the database during development, clear the app data or reinstall.
 
 ## Architecture
 
@@ -42,8 +46,12 @@ The codebase follows Clean Architecture with clear separation of concerns:
 
 **Data Layer** (`lib/data/`)
 
-- `datasources/database_helper.dart`: Singleton SQLite manager with CRUD operations
-- `datasources/seed_data.dart`: Pre-populates 45+ questions across 12 medical categories
+- `datasources/database_helper.dart`: Singleton SQLite manager with CRUD operations and migration support
+- `datasources/seed_data.dart`: Pre-populates 45+ questions across 12 medical categories on first install
+- `datasources/migrations/`: Database migration system for incremental updates
+  - `migration_manager.dart`: Orchestrates migration execution
+  - `migration_X.dart`: Individual migration files (one per version)
+  - `README.md`: Complete migration documentation
 - `models/`: Data models with `fromMap()`/`toMap()` for SQLite serialization
 - `repositories/`: Concrete implementations of domain repository interfaces
 
@@ -66,7 +74,7 @@ The codebase follows Clean Architecture with clear separation of concerns:
 
 ### Database Schema
 
-Six main tables with foreign key relationships:
+Seven main tables with foreign key relationships:
 
 - `students`: User profiles with name and year level (L1/L2/L3)
 - `categories`: 12 medical subjects (Anatomie, Physiologie, etc.) filtered by year
@@ -74,6 +82,7 @@ Six main tables with foreign key relationships:
 - `answers`: Multiple choice answers (4 per question) with correctness flag
 - `user_progress`: Individual answer history for tracking
 - `quiz_sessions`: Completed quiz records with scores
+- `database_version`: Tracks current migration version (for incremental updates)
 
 Indexes are created on frequently queried columns (category_id, year_level, student_id) for performance.
 
@@ -139,12 +148,22 @@ The app uses `Navigator.push/pushReplacement` with MaterialPageRoute. Quiz scree
 
 ## Adding New Questions
 
-Edit `lib/data/datasources/seed_data.dart`:
+**Use the migration system** to add questions to existing installations without losing user data.
 
-1. Add questions using `_insertQuestion()` helper:
+### For new installations only:
+Edit `lib/data/datasources/seed_data.dart` to modify initial seed data.
 
+### For existing users (recommended):
+Create a migration in `lib/data/datasources/migrations/`:
+
+1. Create a new file `migration_X.dart` (increment version number)
+2. Add questions using the same pattern as `migration_2_example.dart`
+3. Register the migration in `migration_manager.dart`
+4. Migrations run automatically on next app launch
+
+**Example:**
 ```dart
-await _insertQuestion(
+await _addQuestion(
   db,
   categoryId: 1,  // Must match existing category ID
   yearLevel: 'L1',
@@ -160,7 +179,7 @@ await _insertQuestion(
 );
 ```
 
-2. Questions are loaded automatically on app first run via `SeedData.initialize()` in `main.dart`
+See [lib/data/datasources/migrations/README.md](lib/data/datasources/migrations/README.md) for complete instructions.
 
 ## Code Conventions
 

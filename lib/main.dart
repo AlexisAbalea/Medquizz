@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hippoquiz/core/theme/app_theme.dart';
 import 'package:hippoquiz/data/datasources/database_helper.dart';
+import 'package:hippoquiz/data/datasources/migrations/migration_manager.dart';
 import 'package:hippoquiz/data/datasources/seed_data.dart';
 import 'package:hippoquiz/data/repositories/category_repository_impl.dart';
 import 'package:hippoquiz/data/repositories/progress_repository_impl.dart';
@@ -105,6 +106,7 @@ class _SplashScreenState extends State<SplashScreen> {
       final categories = await db.queryAll('categories');
       final questions = await db.queryAll('questions');
 
+      // Initialiser les données de base si nécessaire
       if (categories.isEmpty || questions.isEmpty) {
         setState(() {
           _loadingMessage = 'Chargement des données...';
@@ -113,7 +115,15 @@ class _SplashScreenState extends State<SplashScreen> {
         await SeedData.initialize();
       }
 
-      // Étape 2 : Petite pause pour montrer le logo
+      // Étape 2 : Exécuter les migrations si nécessaire
+      setState(() {
+        _loadingMessage = 'Vérification des mises à jour...';
+      });
+
+      final migrationManager = MigrationManager(db);
+      await migrationManager.runMigrations();
+
+      // Étape 3 : Petite pause pour montrer le logo
       setState(() {
         _loadingMessage = 'Chargement...';
       });
@@ -121,7 +131,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
       if (!mounted) return;
 
-      // Étape 3 : Vérifier le profil utilisateur
+      // Étape 4 : Vérifier le profil utilisateur
       final studentProvider = context.read<StudentProvider>();
       final hasStudent = await studentProvider.checkIfHasStudent();
       if (!mounted) return;
